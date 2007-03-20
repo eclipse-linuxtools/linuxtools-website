@@ -34,6 +34,13 @@
 		<h1>$pageTitle</h1>
 		<h2> There will be content here as soon as the project team uploads their website.</h2>
 	</div>
+	
+	<div id="rightcolumn">
+		<div class="sideitem">
+	   <h6>Incubation</h6>
+	   <div style="text-align: center">
+	   <a href="/projects/gazoo.php"><img src="/images/gazoo-incubation.jpg" alt="Incubation"/></a>
+	</div>
 
 EOHTML;
 
