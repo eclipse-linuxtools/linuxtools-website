@@ -14,13 +14,13 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Linux Distros Project";
+	$pageTitle 		= "Linux Distros Project Downloads";
 	$pageKeywords	= "Type, page, keywords, here";
 	$pageAuthor		= "Type your name here";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
-	$Nav->addNavSeparator("My Page Links", 	"downloads.php");
+	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
 	# $Nav->addCustomNav("My Link", "mypage.php", "_self", 3);
 	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
 
@@ -32,7 +32,7 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2> There will be content here as soon as the project team uploads their website.</h2>
+		<h2> Sorry, no downloads yet.</h2>
 	</div>
 	
 	<div id="rightcolumn">
