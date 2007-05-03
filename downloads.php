@@ -39,7 +39,7 @@
 		<div class="sideitem">
 	   <h6>Incubation</h6>
 	   <div style="text-align: center">
-	   <a href="/projects/gazoo.php"><img src="/images/gazoo-incubation.jpg" alt="Incubation"/></a>
+	   <a href="/projects/what-is-incubation.php"><img src="/images/egg-incubation.jpg" alt="Incubation"/></a>
 	</div>
 
 EOHTML;

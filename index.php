@@ -32,14 +32,14 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2> There will be content here as soon as the project team uploads their website.</h2>
+		<h2>For now, see our <a href="http://wiki.eclipse.org/index.php/Linux_Distributions_Project">wiki page</a>.</h2>
 	</div>
 	
 	<div id="rightcolumn">
 		<div class="sideitem">
 	   <h6>Incubation</h6>
 	   <div style="text-align: center">
-	   <a href="/projects/gazoo.php"><img src="/images/gazoo-incubation.jpg" alt="Incubation"/></a>
+	   <a href="/projects/what-is-incubation.php"><img src="/images/egg-incubation.jpg" alt="Incubation"/></a>
 	</div>
 
 EOHTML;
