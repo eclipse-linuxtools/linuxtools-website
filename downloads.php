@@ -32,8 +32,10 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h3> Sorry, we do not have any downloads yet.  All of our work is available in our subversion repository.
-		It can be viewed via a web browser <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology">here</a>.</h3>
+		<h3> Sorry, we do not have any downloads yet.</h3>
+		All of our work is available in our subversion repository.  It can be viewed via a web browser here:
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology">
+		http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology</a>.
 	</div>
 	
 	<div id="rightcolumn">
