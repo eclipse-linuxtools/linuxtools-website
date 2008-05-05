@@ -34,8 +34,8 @@
 		<h1>$pageTitle</h1>
 		<h3>For now, see our <a href="http://wiki.eclipse.org/index.php/Linux_Distributions_Project">wiki page</a>.</h3>
 		<br>
+		<h4>Project set files (for use with Subclipse):</h4>
 		<ul>
-		<li><h4>Project set files (for use with Subclipse):</h4></li>
 		<li><a href="doc/rpmstubby.psf">"rpmstubby"</li>
 		<li><a href="doc/changelog.psf">ChangeLog</li>
 		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</li>
