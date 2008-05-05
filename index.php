@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Linux Distros Project";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageKeywords	= "linux, eclipse";
+	$pageAuthor		= "Andrew Overholt";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -33,6 +33,13 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h3>For now, see our <a href="http://wiki.eclipse.org/index.php/Linux_Distributions_Project">wiki page</a>.</h3>
+		<br>
+		<ul>
+		<li><h4>Project set files (for use with Subclipse):</h4></li>
+		<li><a href="doc/rpmstubby.psf">"rpmstubby"</li>
+		<li><a href="doc/changelog.psf">ChangeLog</li>
+		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</li>
+		</ul>
 	</div>
 	
 	<div id="rightcolumn">
