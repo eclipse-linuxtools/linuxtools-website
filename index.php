@@ -39,6 +39,7 @@
 		<li><a href="doc/rpmstubby.psf">"rpmstubby"</li>
 		<li><a href="doc/changelog.psf">ChangeLog</li>
 		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</li>
+		<li><a href="doc/linuxtools.psf">All</li>
 		</ul>
 	</div>
 	
