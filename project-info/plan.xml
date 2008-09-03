@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<plan xmlns="http://www.eclipse.org/project/plan"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<release projectid="technology.linuxtools" version="1.0" />
+	<introduction>
+		<html:h1>This document is a work in progress</html:h1>
+		<html:p>
+			The Linux Tools/Linux Distros project is a two-faceted
+			project. Firstly, it provides a place for Linux
+			distributions to collaboratively overcome issues surrounding
+			distribution packaging of Eclipse technology. The project
+			produces both best practices and tools related to packaging.
+			Secondly, the project develops and produces tools relevant
+			to Linux developers.
+		</html:p>
+	</introduction>
+	<release_deliverables>
+		<html:p>
+			The Linux Tools/Linux Distros project delivers tools as
+			Eclipse plugins which are used primarily by Linux developers
+			and packagers. The project also aims to deliver various
+			scripts, techniques, and tarballs which ease the process of
+			packaging Eclipse technology for Linux distributions.
+		</html:p>
+	</release_deliverables>
+	<release_milestones>
+		<milestone date="2008-11-01" milestone="M1">
+			<html:p>Milestone one towards 1.0 release</html:p>
+			<html:p>
+				Latest ChangeLog and specfile editor releases, first cut
+				towards 3.4.1 SDK packaging tools (patches, scripts,
+				etc.), first release of plugin building and packaging
+				tools, patches used to run SDK test suite, re-namespaced
+				OProfile plugins.
+			</html:p>
+		</milestone>
+		<milestone date="2008-12-01" milestone="M2">
+			<html:p>Milestone two towards 1.0 release</html:p>
+			<html:p>
+				Autotools plugins, improved 3.4.1 SDK packaging tools,
+				plugin building scripts, bug fixes in specfile editor
+				and ChangeLog as needed, cleanups and UI revamping in
+				OProfile plugin.
+			</html:p>
+		</milestone>
+		<milestone date="2009-01-15" milestone="RC">
+			<html:p>Release candidate for 1.0 release</html:p>
+			<html:p>
+				No new functionality. Bug fixes and final work towards
+				3.4.2 SDK packaging tools.
+			</html:p>
+		</milestone>
+		<milestone date="2009-03-01" milestone="1.0">
+			<html:p>1.0 release</html:p>
+			<html:p>
+				Packaging: SDK packaging tools (specifically 3.4.2),
+				plugin building scripts, testing scripts. Linux
+				development: autotools, ChangeLog, OProfile.
+			</html:p>
+		</milestone>
+		<postamble />
+	</release_milestones>
+	<target_environments>
+		<html:p>
+			The tools run with Eclipse 3.4 (some may still require
+			updating from 3.3 in places) and require Java 5.0. Some
+			tools may require CDT 5.0.0.
+		</html:p>
+		<html:p>
+			The packaging tools not delivered as Eclipse plugins have
+			varying requirements but generally require basic tools such
+			as bash, sed, awk, grep, etc.
+		</html:p>
+		<internationalization>
+			<html:p>
+				The tools aim to have all strings externalized so as to
+				facilitate internationalization. At present, no
+				translations are provided.
+			</html:p>
+		</internationalization>
+	</target_environments>
+	<compatibility_with_previous_releases />
+
+	<themes_and_priorities>
+		<preamble>
+			<html:p>
+				The Linux Distros/Linux Tools project differs in aims
+				from many Eclipse projects. It enables adopters of
+				Eclipse technology but often through help with
+				consumption and not through APIs. It also aims to be a
+				place for collaboration among Linux distributions.
+				Finally, the project aims to bring Eclipse technology to
+				Linux developers by providing tools targetted at Linux
+				developers -- specifically those programming in C and
+				C++.
+			</html:p>
+		</preamble>
+		<theme
+			name="Getting the Eclipse SDK into Linux distributions">
+			<description>
+				<html:p>
+					Most Linux distributions require all packages
+					included therein to be built directly from source
+					code. This theme encompasses the project goal of
+					assisting distributions in their building and
+					packaging of the Eclipse SDK as well as
+					standardizing practices and any patches needed. It
+					also aims to encourage and aid distributions in
+					their attempts to drive unit test results down to
+					zero.
+				</html:p>
+			</description>
+			<committed bugzilla=""></committed>
+		</theme>
+		<theme name="Getting plugins into Linux distributions">
+			<description>
+				<html:p>
+					Getting plugins into Linux distributions relates to
+					the project's goal of making it easier to build and
+					package Eclipse plugins for Linux distributions. At
+					present it includes shell scripts and best practice
+					documentation. In the future, we aim to provide
+					Eclipse plugins to help packagers.
+				</html:p>
+			</description>
+			<committed bugzilla=""></committed>
+		</theme>
+		<theme name="Make OProfile easy to use from within Eclipse">
+			<description>
+				<html:p>
+					OProfile is a very commonly used Linux profiling
+					tool. The project aims to deliver seamless
+					OProfile-based profiling of CDT projects, integrated
+					into the workbench.
+				</html:p>
+			</description>
+			<committed
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=OProfile&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">
+			</committed>
+		</theme>
+		<theme
+			name="Integrate the GNU Autotools into the Eclipse workbench">
+			<description>
+				<html:p>
+					This part of the project allows projects that are
+					built using the GNU Autools (automake, autoconf,
+					etc.) to be developed using the CDT. It relies upon
+					the CDT build mechanisms. The project anticipates
+					submission of this code contribution in Q4 2008 to
+					be quickly followed up with an IP review submission.
+					Future goals include managing new file addition to
+					targets, small wizards to ease creation of various
+					build targets, and tools to export an "autotooled"
+					build.
+				</html:p>
+			</description>
+		</theme>
+	</themes_and_priorities>
+	<appendix />
+</plan>
