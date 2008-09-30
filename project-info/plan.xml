@@ -175,7 +175,11 @@
 		<theme name="Improve ChangeLog plugin">
 			<description>
 				<html:p>
-					Many open source projects use GNU-style ChangeLog files to manage their changes.  These plugins help writing ChangeLogs and provide an editor for ChangeLog files.  Although these plugins are largely mature, we should continue to fix any bugs and increase their robustness.
+					Many open source projects use GNU-style ChangeLog files to
+					manage their changes. These plugins help writing ChangeLogs and
+					provide an editor for ChangeLog files. Although these plugins are
+					largely mature, we should continue to fix any bugs and increase
+					their robustness.
 				</html:p>
 			</description>
 			<committed
@@ -212,7 +216,8 @@
 		<theme name="Improve RPM specfile editor and related plugins">
 			<description>
 				<html:p>
-					We should continue to add features to and improve the robustness of the RPM specfile editor and its related plugins.
+					We should continue to add features to and improve the
+					robustness of the RPM specfile editor and its related plugins.
 				</html:p>
 			</description>
 			<committed
@@ -224,15 +229,17 @@
 			<deferred
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=RPM&amp;target_milestone=---&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
 			</deferred>
-		</theme>		
+		</theme>
 		<theme name="Integrate the GNU Autotools into the Eclipse workbench">
 			<description>
 				<html:p>
 					This set of plugins allows projects that are
 					built using
-					the GNU Autotools (automake, autoconf,
+					the
+					GNU Autotools (automake, autoconf,
 					etc.) to be developed using
-					the CDT. It relies upon
+					the
+					CDT. It relies upon
 					the CDT build mechanisms. This code was
 					submitted in
 					September 2008 and is currently undergoing parallel
@@ -261,8 +268,8 @@
 					This plugin offers an editor for Systemtap scripts. Syntax
 					highlighting and completion are initial items that will be
 					delivered. Also see
-					<a href="http://picobot.org/wordpress/?p=31">Phil
-						Muldoon's blog entry introducing the project.</a>
+					<html:a href="http://picobot.org/wordpress/?p=31">
+						Phil Muldoon's blog entry introducing the project.</html:a>
 				</html:p>
 			</description>
 			<committed
@@ -278,9 +285,13 @@
 		<theme name="Make valgrind tools easy to use from within Eclipse">
 			<description>
 				<html:p>
-					Valgrind is a set of tools very commonly used to diagnose memory-related issues among other things.
-					We intend to make using valgrind tools from within Eclipse very simple.  Integrating the output of
-					the valgrind tools into the IDE will be a focus as will be simplicity.
+					Valgrind is a set of tools very commonly used to diagnose
+					memory-related issues among other things.
+					We intend to make using
+					valgrind tools from within Eclipse very simple. Integrating the
+					output of
+					the valgrind tools into the IDE will be a focus as will be
+					simplicity.
 				</html:p>
 			</description>
 			<committed
