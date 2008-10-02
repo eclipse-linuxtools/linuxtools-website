@@ -40,7 +40,7 @@
 				tools, patches used to run
 				SDK test suite, re-namespaced
 				OProfile plugins, initial release of
-				autotools and systemtap
+				autotools, libhover,  and systemtap
 				editor plugins.
 			</html:p>
 		</milestone>
@@ -70,7 +70,7 @@
 				plugin
 				building scripts, testing scripts. Linux
 				development: Systemtap,
-				autotools, ChangeLog, OProfile.
+				autotools, libhover, ChangeLog, OProfile.
 			</html:p>
 		</milestone>
 		<postamble />
@@ -260,6 +260,40 @@
 			</proposed>
 			<deferred
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=Autotools&amp;target_milestone=---&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
+			</deferred>
+		</theme>
+		<theme name="Provide library hover help framework for C/C++ libraries">
+			<description>
+				<html:p>
+					This set of plugins provides a framework to
+					provide editor hover help for
+					various popular libraries a developer may need
+					for C/C++ development.  A new library can add 
+					hover help for its interfaces simply by creating
+					a special xml file and using the libhover
+					extension.  Ideally, library maintainers would
+					create the information from existing doc files
+					and add it to their packages.
+					This code was
+					created by modifying code submitted in
+					September 2008 with the autotools plugins which 
+					is currently undergoing parallel
+					IP
+					review. Goals include providing hover help for
+					many popular C libraries, allowing selection of
+					hover help per project, and promoting library
+					providers to create these plugins as part of
+					their own build process.
+				</html:p>
+			</description>
+			<committed
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=Libhover&amp;target_milestone=1.0&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
+			</committed>
+			<proposed
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=Libhover&amp;target_milestone=1.0M2&amp;target_milestone=1.0M1&amp;target_milestone=1.0RC&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
+			</proposed>
+			<deferred
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=Libhover&amp;target_milestone=---&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
 			</deferred>
 		</theme>
 		<theme name="Provide an editor for Systemtap scripts">
