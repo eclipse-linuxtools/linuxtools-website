@@ -12,10 +12,11 @@
 		<br>
 		<h4>Project set files (for use with Subclipse):</h4>
 		<ul>
-		<li><a href="doc/rpmstubby.psf">"rpmstubby"</li>
-		<li><a href="doc/changelog.psf">ChangeLog</li>
-		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</li>
-		<li><a href="doc/linuxtools.psf">All</li>
+		<li><a href="doc/rpmstubby.psf">"rpmstubby"</a></li>
+		<li><a href="doc/changelog.psf">ChangeLog</a></li>
+		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</a></li>
+    <li><a href="doc/valgrind.psf">Valgrind</a></li>
+		<li><a href="doc/linuxtools.psf">All</a></li>
 		</ul>
 	</div>
 	
