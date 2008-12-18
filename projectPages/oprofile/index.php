@@ -56,14 +56,14 @@
 		<h2>Screenshots</h2>
 		<p>
 		  <center>
-		    <img src="http://wiki.eclipse.org/Image:OprofileView.png">
+		    <img src="http://wiki.eclipse.org/images/f/f9/OprofileView.png">
 		    <br>
 		    OProfile view
 		  </center>
 		</p>
 		<p>
 		  <center>
-		    <img src="http://wiki.eclipse.org/Image:OprofileConfig.png">
+		    <img src="http://wiki.eclipse.org/images/0/0d/OprofileConfig.png">
 		    <br>
 		    OProfile launch configuration
 		  </center>
