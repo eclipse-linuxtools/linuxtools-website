@@ -74,7 +74,7 @@
 		  At present we have no update site, but you can check the project plugins out of SVN
 		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
           You will need the 3 plugins under oprofile/trunk, and the 2 plugins under profiling/trunk:
-<pre>org.eclipse.linuxtools.oprofile.core
+<pre>     org.eclipse.linuxtools.oprofile.core
      org.eclipse.linuxtools.oprofile.launch
      org.eclipse.linuxtools.oprofile.ui
      org.eclipse.linuxtools.profiling.launch
