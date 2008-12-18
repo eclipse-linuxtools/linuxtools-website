@@ -28,14 +28,16 @@
         <p>
         <h3>Packaging</h3>
         We have a few pages with lists of things that need to be fixed on the packaging side of things.
-        These pages should be migrated into bugs.<br><br>
+        These pages should be migrated into bugs:<br><br>
 
         <a href="http://wiki.eclipse.org/Linux_Packaging_Tasks">Linux Packaging Tasks</a>
         <br>
         <a href="http://wiki.eclipse.org/FHS_Compliant_Packages">FHS Compliant Packages</a>
+		<br>
+		<br>
 
         We also need to update this diagram of the Fedora Eclipse SDK packages and ensure that all
-        distributions use a similar hierarchy.<br><br>
+        distributions use a similar hierarchy:<br><br>
 
         <a href="http://wiki.eclipse.org/Fedora_Eclipse_Packages">Fedora Eclipse Packages</a>
 
@@ -45,27 +47,27 @@
 		<h3>Tools development</h3>
 		Our sub-projects maintain their own pages with development plans:
         <ul>
-		<li><a href="projectPages/autotools">Autotools</li>
-		<li><a href="projectPages/changelog">ChangeLog</li>
-		<li><a href="projectPages/eclipse-build">eclipse-build</li>
-		<li><a href="projectPages/oprofile">OProfile</li>
-		<li><a href="projectPages/rpmstubby">"RPM Stubby"</li>
-		<li><a href="projectPages/rpm-editor">RPM Specfile Editor</li>
-		<li><a href="projectPages/systemtap">Systemtap Editor</li>
-		<li><a href="projectPages/valgrind">Valgrind</li>
+		<li><a href="projectPages/autotools">Autotools</a></li>
+		<li><a href="projectPages/changelog">ChangeLog</a></li>
+		<li><a href="projectPages/eclipse-build">eclipse-build</a></li>
+		<li><a href="projectPages/oprofile">OProfile</a></li>
+		<li><a href="projectPages/rpmstubby">"RPM Stubby"</a></li>
+		<li><a href="projectPages/rpm-editor">RPM Specfile Editor</a></li>
+		<li><a href="projectPages/systemtap">Systemtap Editor</a></li>
+		<li><a href="projectPages/valgrind">Valgrind</a></li>
 		</ul>
 
 		<p>
 		These project set files can be used to easily check out our source from Subversion:
 		<ul>
-		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/autotools.psf?root=Technology_LINUXTOOLS&view=co">Autotools</li>-->
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/changelog.psf?root=Technology_LINUXTOOLS&view=co">ChangeLog</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/eclipse-build.psf?root=Technology_LINUXTOOLS&view=co">eclipse-build</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/oprofile.psf?root=Technology_LINUXTOOLS&view=co">OProfile</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpmstubby.psf?root=Technology_LINUXTOOLS&view=co">"RPM Stubby"</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpm-editor.psf?root=Technology_LINUXTOOLS&view=co">RPM Specfile Editor</li>
-		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap Editor</li>-->
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Valgrind</li>
+		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/autotools.psf?root=Technology_LINUXTOOLS&view=co">Autotools</a></li>-->
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/changelog.psf?root=Technology_LINUXTOOLS&view=co">ChangeLog</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/eclipse-build.psf?root=Technology_LINUXTOOLS&view=co">eclipse-build</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/oprofile.psf?root=Technology_LINUXTOOLS&view=co">OProfile</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpmstubby.psf?root=Technology_LINUXTOOLS&view=co">"RPM Stubby"</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpm-editor.psf?root=Technology_LINUXTOOLS&view=co">RPM Specfile Editor</a></li>
+		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap Editor</a></li>-->
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Valgrind</a></li>
 		</ul>
 		</p>
 
