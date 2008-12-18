@@ -2,27 +2,16 @@
 
 
 	$pageTitle 		= "Linux Distros Project Downloads";
-	$pageKeywords	= "linux, eclipse, downloads";
+	$pageKeywords	= "linux, eclipse, distributions, distros, packaging status";
 	$pageAuthor		= "Andrew Overholt";
-
-	# Add page-specific Nav bars here
-	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
-	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
-	# $Nav->addCustomNav("My Link", "mypage.php", "_self", 3);
-	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
-
-	# End: page-specific settings
-	#
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h3> Sorry, we do not have any downloads yet.  We will have an update site and zip downloads very soon.</h3>
-		All of our work is available in our subversion repository.  It can be viewed via a web browser here:
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology">
-		http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology</a>.
+		Here we will eventually have a table listing all Eclipse packages in the
+		various Linux distributions.
 	</div>
 
 	<div id="rightcolumn">
