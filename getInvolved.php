@@ -60,13 +60,14 @@
 		<p>
 		These project set files can be used to easily check out our source from Subversion:
 		<ul>
-		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/autotools.psf?root=Technology_LINUXTOOLS&view=co">Autotools</a></li>-->
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/autotools.psf?root=Technology_LINUXTOOLS&view=co">Autotools</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/changelog.psf?root=Technology_LINUXTOOLS&view=co">ChangeLog</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/eclipse-build.psf?root=Technology_LINUXTOOLS&view=co">eclipse-build</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/oprofile.psf?root=Technology_LINUXTOOLS&view=co">OProfile</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/libhover.psf?root=Technology_LINUXTOOLS&view=co">Libhover</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpmstubby.psf?root=Technology_LINUXTOOLS&view=co">"RPM Stubby"</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpm-editor.psf?root=Technology_LINUXTOOLS&view=co">RPM Specfile Editor</a></li>
-		<!--<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap Editor</a></li>-->
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap Editor</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Valgrind</a></li>
 		</ul>
 		</p>

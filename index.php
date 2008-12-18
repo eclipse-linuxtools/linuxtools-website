@@ -15,10 +15,10 @@
 	        </td>
 	        <td></td>
 	        <td valign="top">
-	          The Linux Tools project is a two-faceted project. Firstly, it provides a place for Linux
+	          The Linux Tools project is a two-faceted project.  First, it provides a place for Linux
 	          distributions to collaboratively overcome issues surrounding distribution packaging of
-	          Eclipse technology.  The project produces both best practices and tools related to packaging.
-	          Secondly, the project develops and produces tools relevant to Linux developers.
+	          Eclipse technology.  The project produces both best practices and tools related to
+	          packaging.  Second, the project develops and produces tools relevant to Linux developers.
 
 	          <table border="0" cellpadding="5">
 	            <tr height=9>
