@@ -79,8 +79,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
-					<li>
-	            	</li>
+					<li><em>2008-12-18</em>Our website is being re-vamped!</li>
 				</ul>
               </div>
 
