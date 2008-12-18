@@ -1,25 +1,94 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
-	$pageTitle 		= "Linux Distros Project";
+	$pageTitle 		= "Linux Tools Project";
+	$pageKeywords	= "Eclipse, Linux, autoconf, automake, autotools, CDT, OProfile, Valgrind, RPM, systemtap";
 	$pageAuthor		= "Andrew Overholt";
 
-	# Paste your HTML content between the EOHTML markers!	
+	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
-		<h3>For now, see our <a href="http://wiki.eclipse.org/index.php/Linux_Distributions_Project">wiki page</a>.</h3>
-		<br>
-		<h4>Project set files (for use with Subclipse):</h4>
-		<ul>
-		<li><a href="doc/rpmstubby.psf">"rpmstubby"</a></li>
-		<li><a href="doc/changelog.psf">ChangeLog</a></li>
-		<li><a href="doc/specfileeditor.psf">RPM Specfile Editor</a></li>
-    <li><a href="doc/valgrind.psf">Valgrind</a></li>
-		<li><a href="doc/linuxtools.psf">All</a></li>
-		</ul>
+	    <table border="0" cellpadding="5">
+	      <tr>
+	        <td valign="top">
+	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
+	        </td>
+	        <td></td>
+	        <td valign="top">
+	          The Linux Tools project is a two-faceted project. Firstly, it provides a place for Linux
+	          distributions to collaboratively overcome issues surrounding distribution packaging of
+	          Eclipse technology.  The project produces both best practices and tools related to packaging.
+	          Secondly, the project develops and produces tools relevant to Linux developers.
+
+	          <table border="0" cellpadding="5">
+	            <tr height=9>
+
+	            <!-- Downloads -->
+	            <tr>
+	              <td width=20></td>
+	              <td><a href="/linuxtools/downloads.php"><img border=0 src="images/downloads.gif"></a></td>
+	              <td>
+	                <table border="0" cellpadding="0">
+	                  <tr>
+	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
+	                  </tr>
+	                  <tr>
+	                    <td><b>Coming soon</b> Download the latest project releases</td>
+	                  </tr>
+	                </table>
+	              </td>
+	            </tr>
+
+	            <!-- Get Involved -->
+	            <tr>
+	              <td width=20></td>
+	              <td><a href="/linuxtools/getInvolved.php"><img border=0 src="images/community.jpg"></a></td>
+	              <td>
+	                <table border="0" cellpadding="0">
+	                  <tr>
+	                    <td><font size=+1><a href="/linuxtools/getInvolved.php">Get Involved!</a></font></td>
+	                  </tr>
+	                  <tr>
+	                    <td>Find out how you can get involved with the project</td>
+	                  </tr>
+	                </table>
+	              </td>
+	            </tr>
+
+	            <!-- Plans -->
+	            <tr>
+	              <td width=20></td>
+	              <td><a href="http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros"><img border=0 src="images/reference.png"></a></td>
+	              <td>
+	                <table border="0" cellpadding="0">
+	                  <tr>
+	                    <td><font size=+1><a href="http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros">Plans</a></font></td>
+	                  </tr>
+	                  <tr>
+	                    <td>See the project plans</td>
+	                  </tr>
+	                </table>
+	              </td>
+	            </tr>
+
+	            <tr height=11></tr>
+
+	          </table>
+
+	          <!-- Project News -->
+	          <div class="homeitem3col">
+				<h3>Project News</h3>
+				<ul>
+					<li>
+	            	</li>
+				</ul>
+              </div>
+
+	        </td>
+	      </tr>
+	    </table>
 	</div>
-	
+
 	<div id="rightcolumn">
 		<div class="sideitem">
 	   <h6>Incubation</h6>

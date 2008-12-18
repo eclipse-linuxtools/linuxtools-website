@@ -14,7 +14,7 @@ $Nav->setLinkList(null);
 	$branding = <<<EOBRANDING
 <div id="branding">
 <center>
-<h2>Linux Tools</h2>
+<h2>Linux Tools Project</h2>
 </center>
 </div>
 EOBRANDING;
@@ -31,7 +31,7 @@ $Nav->addCustomNav("About This Project", "/projects/project_summary.php?projecti
 $Nav->addCustomNav("Wiki",				"http://wiki.eclipse.org/index.php/Linux_Distributions_Project", "_self", 2);
 $Nav->addCustomNav("Plan", "http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros", "", 1);
 #$Nav->addCustomNav("Developers", 		"developers.php", 		"_self", 2);
-$Nav->addNavSeparator("Downloads", 	"downloads.php");
+$Nav->addCustomNav("Downloads", 	"downloads.php");
 $Nav->addNavSeparator("Projects", 	"index.php");
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Autotools", "/linuxtools/projectPages/autotools", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;ChangeLog", "/linuxtools/projectPages/changelog", "_self", 1);
