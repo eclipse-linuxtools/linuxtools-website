@@ -31,7 +31,7 @@
 		</div>
 		<br/>
 
-		<div class="section">
+		<div>
 		<h2>Extensibility</h2>
 		<p>
 		<ul>
@@ -57,6 +57,7 @@
 			<li>Markers represent memcheck errors inside the editor and are linked to the Problems View.</li>
 		</ul>
 		</p>
+		<br/>
 		<a href="images/Memcheck.png"><img style="border: 1px dashed #999999;" src="images/Memcheck_thumb.png" alt="Using the Memcheck tool" /></a>
 		</div>
 		<br/>
@@ -108,6 +109,7 @@
 		</ul>
 		</p>
 		</div>
+		<br/><br/>
 	</div>
 
 	<div id="rightcolumn">
