@@ -32,7 +32,7 @@ $Nav->addNavSeparator("Linux Tools", "/linuxtools/index.php");
     $Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/Linux_Distributions_Project", "_self", 2);
     $Nav->addCustomNav("Get Involved", "/linuxtools/getInvolved.php", "_self", 2);
     $Nav->addCustomNav("Downloads", "/linuxtools/downloads.php");
-$Nav->addNavSeparator("Projects", "index.php");
+$Nav->addNavSeparator("Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Autotools", "/linuxtools/projectPages/autotools", "_self", 2);
 	$Nav->addCustomNav("ChangeLog", "/linuxtools/projectPages/changelog", "_self", 2);
 	$Nav->addCustomNav("eclipse-build", "/linuxtools/projectPages/eclipse-build", "_self", 2);
