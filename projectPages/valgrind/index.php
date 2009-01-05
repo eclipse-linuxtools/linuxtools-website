@@ -16,16 +16,16 @@
 	$html = <<<EOHTML
 
 <div id="midcolumn">
-		<h1>Linux Distributions Project - Valgrind Support</h1>
+		<h1>Linux Tools Project - Valgrind Support</h1>
 
 		<div>
 		<h2>Overview</h2>
 		<a href="images/LaunchConfig.png"><img style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/LaunchConfig_thumb.png" alt="Valgrind Launch Configuration Dialog" /></a>
 		<p>
-		The Linux Distributions Project Valgrind plugin aims to provide simple and effective profiling for the C/C++ Development Tools.
+		The Linux Tools Project Valgrind plugin aims to provide simple and effective profiling for the C/C++ Development Tools.
 		There is an abundance of Valgrind functionality to expose in Eclipse. Valgrind itself is very component based and this relates well to Eclipse plugins.
 		The main architectural goal is to have a common Valgrind user interface and underlying launch framework, while the Valgrind tools themselves are contributed via extension points.
-		As with most Linux Distribtuions Project tools, we aim to provide not just a user interface for the underlying tool.
+		As with most tools in this project, the aim is to provide not just a user interface for the underlying tool.
 		Instead, this project will attempt to exploit every opportunity to integrate into the Eclipse workbench to provide a unique and formidable user experience.
 		</p>
 		</div>
