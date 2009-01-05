@@ -36,6 +36,7 @@ $Nav->addNavSeparator("Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Autotools", "/linuxtools/projectPages/autotools", "_self", 2);
 	$Nav->addCustomNav("ChangeLog", "/linuxtools/projectPages/changelog", "_self", 2);
 	$Nav->addCustomNav("eclipse-build", "/linuxtools/projectPages/eclipse-build", "_self", 2);
+	$Nav->addCustomNav("Libhover", "/linuxtools/projectPages/libhover", "_self", 2);
 	$Nav->addCustomNav("OProfile", "/linuxtools/projectPages/oprofile", "_self", 2);
 	$Nav->addCustomNav("RPM Stubby", "/linuxtools/projectPages/rpmstubby", "_self", 2);
 	$Nav->addCustomNav("Specfile Editor", "/linuxtools/projectPages/specfile", "_self", 2);
