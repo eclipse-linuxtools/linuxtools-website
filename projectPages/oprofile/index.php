@@ -75,35 +75,28 @@
 					</tr>
 				</tbody>
 			</table>
-		  <center>
-		    <img src="http://wiki.eclipse.org/images/f/f9/OprofileView.png">
-		    <br>
-		    OProfile view
-		  </center>
-		</p>
-		<p>
-		  <center>
-		    <img src="http://wiki.eclipse.org/images/0/0d/OprofileConfig.png">
-		    <br>
-		    OProfile launch configuration
-		  </center>
 		</p>
 
 		<h2>Try it out</h2>
 		<p>
 		  At present we have no update site, but you can check the project plugins out of SVN
 		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need the 3 plugins under oprofile/trunk, and the 2 plugins under profiling/trunk:
-<pre>     org.eclipse.linuxtools.oprofile.core
-     org.eclipse.linuxtools.oprofile.launch
-     org.eclipse.linuxtools.oprofile.ui
-     org.eclipse.linuxtools.profiling.launch
-     org.eclipse.linuxtools.profiling.ui
+          You will need the 5 plugins under oprofile/trunk, and the 2 plugins under profiling/trunk:
+<pre>     
+	org.eclipse.linuxtools.oprofile.core
+	org.eclipse.linuxtools.oprofile.core.linux.x86
+	org.eclipse.linuxtools.oprofile.core.linux.x86_64
+	org.eclipse.linuxtools.oprofile.launch
+	org.eclipse.linuxtools.oprofile.ui
+	org.eclipse.linuxtools.profiling.launch
+	org.eclipse.linuxtools.profiling.ui
 </pre>
-To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/scripts (currently only tested on fedora x86 machines). This will build a required binary, install a consolehelper authentication link for the plugin to use and ensure that OProfile is installed and loaded properly:
-<pre>     $ sudo ./install
+		To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/natives/linux/scripts (currently only works on Fedora machines). This will build a required binary, install a consolehelper authentication link for the plugin to use and ensure that OProfile is installed and loaded properly:
+<pre>
+	$ sudo ./install
 </pre>
-From there, run the plugin as an Eclipse Application.  So far, we have tested using Eclipse 3.4.1, CDT 5.0, OProfile 0.9.3 on Fedora 9 x86.
+
+From there, run the plugin as an Eclipse Application.  So far, we have tested using Eclipse 3.4.1, CDT 5.0, OProfile 0.9.3 on Fedora 9 x86 and Fedora 10 x86_64.
 		</p>
 	</div>
 	
