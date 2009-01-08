@@ -55,6 +55,26 @@
 
 		<h2>Screenshots</h2>
 		<p>
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<a href="images/oprofile_view.png"><img src="images/oprofile_view_thumb.png"/></a>
+						</td>
+						<td>
+							<a href="images/event_config_tab.png"><img src="images/event_config_tab_thumb.png"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							OProfile View
+						</td>
+						<td>
+							Event Configuration Tab
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		  <center>
 		    <img src="http://wiki.eclipse.org/images/f/f9/OprofileView.png">
 		    <br>
@@ -86,7 +106,9 @@ To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/scr
 From there, run the plugin as an Eclipse Application.  So far, we have tested using Eclipse 3.4.1, CDT 5.0, OProfile 0.9.3 on Fedora 9 x86.
 		</p>
 	</div>
-
+	
+	<br/><br/><br/>
+	
 	<div id="rightcolumn">
 		<div class="sideitem">
 	   <h6>Incubation</h6>
