@@ -1,0 +1,65 @@
+Committers (Past and Present)
+
+Elliott Baron
+Daniel Bornkessel
+Igor Foox
+Jeff Johnston
+Michael Koch
+Benjamin Konrath
+Alexander Kurtakov
+Kyu Lee
+Phil Muldoon
+Benjamin Muskalla
+Andrew Overholt
+Kent Sebastian
+Keith Seitz
+Alphonse Van Assche
+
+Significant contributions
+
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1183
+- ChangeLog contribution from Phil Muldoon and Kyu Lee (also https://bugs.eclipse.org/bugs/show_bug.cgi?id=171610)
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1183
+- Systemtap editor contribution from Phil Muldoon
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2666
+- CDT builder and editors to work with GNU Autotools from Jeff Johnston
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2669
+- Valgrind integration from Elliott Baron
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2780
+- Updated OProfile plugin re-namespaced and with enhancements from Kent Sebastian
+https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2781
+
+External contributions
+
+date, 		component,	bug, 	contributor name, 	size (LOC), committer, 	description
+2007-03-27,	changelog,	179389,	Remy Chi Jian Suen, < 10,	bkonrath, remove internal reference
+2007-03-28, changelog, 179549,	Remy Chi Jian Suen,	< 10,		klee,		static initializer name fix
+2007-04-04, rpm.ui.editor, 177220, Alphonse Van Assche, ~2500 line diff, overholt, macro hover, folding, completion
+2007-04-05,	rpm.ui.editor.tests,	181102,	Igor Foox,	< 10,	overholt,	update tests for new API
+2007-04-05,	rpm.ui.editor,	181238,	Igor Foox,	< 10,	overholt,	remove spurious junit.jar classpath entry
+2007-04-06,	rpm.core,	181249, Remy Chi Jian Suen,			< 100,		overholt,	add EE
+2007-04-06,	rpm.core.tests,	181249, Remy Chi Jian Suen,			< 100,		overholt,	add EE
+2007-04-06,	rpm.ui.editor.tests,	181249, Remy Chi Jian Suen,			< 100,		overholt,	add EE
+2007-04-06,	rpm.ui.editor,	181249, Remy Chi Jian Suen,			< 100,		overholt,	add EE
+2007-04-06,	rpm.ui,	181249, Remy Chi Jian Suen,			< 100,		overholt,	add EE
+2007-04-06, rpm.ui.editor, 181395, Alphonse Van Assche, 1 line diff, overholt, replaceAll fix
+2007-04-08, rpm.ui.editor, 181245, Alphonse Van Assche, 446 line diff, overholt, package colourization and hover
+2007-04-10, rpm.ui.editor, 181110, Alphonse Van Assche, 183 line diff, overholt, reconciler
+2007-04-10,	changelog,	181497,	Igor Foox,	161 line diff,	klee,	re-namespace com.redhat -> org.eclipse
+2007-04-12,	rpm.ui.editor,	181236,	Alphonse Van Assche,	182 line diff,	overholt,	tests for RPM and macro proposals
+2007-04-16,	rpm.ui.editor,	181747,	Alphonse Van Assche,	192 line diff,	overholt,	macros to hyperlinks
+2007-04-16,	rpm.ui.editor,	182302,	Alphonse Van Assche,	37 line diff,	overholt,	package name parsing fixes
+2007-04-16,	rpm.ui.editor,	182302,	Alphonse Van Assche,	98 line diff,	overholt,	package section name parsing
+2007-11-21,	rpm.ui.editor,	207207,	Alexander Kurtakov,	19 line diff,	overholt,	accept valid release tag characters
+2008-01-04,	rpm.ui.editor,	214217,	Alexander Kurtakov,	90 line diff,	overholt,	completion for source entries
+2008-01-23,	rpm.ui.editor,	215788,	Alexander Kurtakov,	61 line diff,	avanassche,	add directory for rpm macros
+
+Third Party Software
+
+Systemtap:  https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2853
+Valgrind:  http://dev.eclipse.org/mhonarc/lists/technology-pmc/msg01239.html
+OProfile:  http://dev.eclipse.org/mhonarc/lists/technology-pmc/msg01239.html
+rpm:  awaiting approval email from PMC
+rpmlint:  awaiting approval email from PMC
+yum:  awaiting approval email from PMC
+GNU autotools:  awaiting approval email from PMC
