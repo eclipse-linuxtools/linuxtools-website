@@ -56,10 +56,10 @@
 
 <p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.1</span> </p>
 <ul>
+	<li><a href="#autotools">GNU Autotools Support</a></li>
+	<li><a href="#changelog">ChangeLog Tools</a></li>
+	<li><a href="#libhover">API Documentation Hover Help</a></li>
 <!--	
-	<li><a href="#autotools">GNU Autotools Support ()</a></li>
-	<li><a href="#changelog">ChangeLog Tools ()</a></li>
-	<li><a href="#libhover">API Documentation Hover Help ()</a></li>
 	<li><a href="#oprofile">OProfile Profiling ()</a></li>
 	<li><a href="#rpmstubby">RPM Stubby ()</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor ()</a></li>
@@ -69,6 +69,120 @@
 	<li><a href="#valgrind">Valgrind Profiling ()</a></li>
 -->
 </ul>
+
+<h2><a name="autotools">GNU Autotools Support</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Configuration</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Autotools plugin adds support for a configuration step prior to running the Makefile of existing projects that use a configure or autogen.sh script.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/autotools-configuration.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Maintenance</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Autotools plugin adds colorized editors for configure scripts including hover help/completion for macros.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/autotools-editor.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Tools Access</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Invoking autotools can be done directly from Eclipse.  Support is provided for running aclocal, automake, and autoconf.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/autotools-tools.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="changelog">ChangeLog Tools</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Generation</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The ChangeLog plugin assists in generating the ChangeLog for projects that use a Team repository.  Support is provided for both CVS and SVN repositories and source file languages C, C++, and Java.  A ChangeLog entry can be generated for all changes CTRL+ALT+P or for an individual source file CTRL+ALT+C.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/changelog-generation.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Extensibility</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The ChangeLog plugin allows extending the ChangeLog format as exemplified by the rpm editor which adds spec-file changelog formatting invoked via CTRL+ALT+C.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/changelog-format.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="libhover">API Documentation Hover Help</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Standards</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Libhover plugin adds C Library hover help and completion support for various C Libraries including glibc and newlib.  The plugin provides an extension and a documentation format for adding new C Libraries in the future.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/libhover-sample.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 
 <h2><a name="systemtap">Systemtap Editor</a></h2>
 
