@@ -59,9 +59,7 @@
 	<li><a href="#autotools">GNU Autotools Support (3)</a></li>
 	<li><a href="#changelog">ChangeLog Tools (3)</a></li>
 	<li><a href="#libhover">API Documentation Hover Help (1)</a></li>
-<!--	
-	<li><a href="#oprofile">OProfile Profiling ()</a></li>
--->
+	<li><a href="#oprofile">OProfile Profiling (3)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (5)</a></li>
 	<li><a href="#systemtap">Systemtap Editor (3)</a></li>
@@ -204,6 +202,55 @@
 		</tr>
 </table>
 
+<h2><a name="oprofile">OProfile Profiling</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>New View</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The OProfile view is all new as well as much of the backend supplying the data. Events are top level elements allowing multiple events to be shown simultaneously. Double-clicking on a line number node brings up an editor with the source file at the appropriate line (if available). Double-clicking on the default session (named "current") allows it to be saved for future viewing.  
+			</p>
+			<p>
+			<img border="0" alt="New OProfile View UI" src="images/0.1/oprofile-newui.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>One Click Launch</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Profiling is as easy as a single click. Right-clicking on a CDT binary, project or editor of a source file will launch the associated project's binary under OProfile with no configuration needed. Configuration is set to appropriate defaults for the user's processor (an event based on execution time) and this configuration is left for the user to customize later. If multiple binaries exist in the project, a dialog will allow the user to select the appropriate one.
+			</p>
+			<p>
+			<img border="0" alt="Launch Shortcut" src="images/0.1/oprofile-launchshortcut.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>New Event Config Tab UI</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Default event configuration option. Multiple hardware counters appear as tabs. All unit masks properly displayed with appropriate defaults. Caching of event check results allowing for faster validation. Scrollable composite for events with many unit masks. 
+			</p>
+			<p>
+			<img border="0" alt="Event Config Tab" src="images/0.1/oprofile-eventconfigtab.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 			
 <h2><a name="rpmstubby">RPM Stubby</a></h2>
 
