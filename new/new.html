@@ -56,14 +56,14 @@
 
 <p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.1</span> </p>
 <ul>
-	<li><a href="#autotools">GNU Autotools Support</a></li>
-	<li><a href="#changelog">ChangeLog Tools</a></li>
-	<li><a href="#libhover">API Documentation Hover Help</a></li>
+	<li><a href="#autotools">GNU Autotools Support (3)</a></li>
+	<li><a href="#changelog">ChangeLog Tools (3)</a></li>
+	<li><a href="#libhover">API Documentation Hover Help (1)</a></li>
 <!--	
 	<li><a href="#oprofile">OProfile Profiling ()</a></li>
 -->
-	<li><a href="#rpmstubby">RPM Stubby</a></li>
-	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor</a></li>
+	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
+	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (5)</a></li>
 	<li><a href="#systemtap">Systemtap Editor (3)</a></li>
 <!--
 	<li><a href="#valgrind">Valgrind Profiling ()</a></li>
@@ -78,7 +78,7 @@
 			<p align="right"><b>Configuration</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Autotools plugin adds support for a configuration step prior to running the Makefile of existing projects that use a configure or autogen.sh script.
+			<p align="left">The Autotools integration plugins add support for a configuration step prior to running the Makefile of existing projects that use a configure or autogen.sh script.
 			</p>
 			<p>
 			<img border="0" src="images/0.1/autotools-configuration.png"></td>
@@ -96,10 +96,12 @@
 			<p align="right"><b>Maintenance</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Autotools plugin adds colorized editors for configure scripts including hover help/completion for macros.
+			<p align="left">The Autotools plugins add colourized editors for configure scripts including hover help and completion for macros.
 			</p>
 			<p>
-			<img border="0" src="images/0.1/autotools-editor.png"></td>
+			<img border="0" src="images/0.1/autotools-editor.png"><br>
+			<img border="0" src="images/0.1/autotools-editor-2.png">
+			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -114,7 +116,7 @@
 			<p align="right"><b>Tools Access</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Invoking autotools can be done directly from Eclipse.  Support is provided for running aclocal, automake, and autoconf.
+			<p align="left">Invoking autotools can be done directly from within the IDE.  Support is provided for running aclocal, automake, and autoconf.
 			</p>
 			<p>
 			<img border="0" src="images/0.1/autotools-tools.png"></td>
@@ -131,10 +133,28 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Generation</b></p>
+			<p align="right"><b>Source code parsing</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The ChangeLog plugin assists in generating the ChangeLog for projects that use a Team repository.  Support is provided for both CVS and SVN repositories and source file languages C, C++, and Java.  A ChangeLog entry can be generated for all changes CTRL+ALT+P or for an individual source file CTRL+ALT+C.
+			<p align="left">The ChangeLog tools assist in generating ChangeLog entries.  Pressing the key combination Ctrl-Alt-c will parse the current file and add a ChangeLog entry in the appropriate ChangeLog file.  C, C++, and Java source files are parsed to fill out the method/function.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/changelog-generation-3.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Repository integration</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The ChangeLog tools can generate a ChangeLog entry for projects that use a source code repository.  Support is provided for standard org.eclipse.team providers and has been tested with both CVS and SVN repositories.  A ChangeLog entry can be generated for all changes between the local copy and the repository by pressing Ctrl+Alt+p.
 			</p>
 			<p>
 			<img border="0" src="images/0.1/changelog-generation.png"></td>
@@ -149,10 +169,10 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Extensibility</b></p>
+			<p align="right"><b>Formatting extensibility</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The ChangeLog plugin allows extending the ChangeLog format as exemplified by the rpm editor which adds spec-file changelog formatting invoked via CTRL+ALT+C.
+			<p align="left">The ChangeLog plugin allows extending the ChangeLog format as exemplified by the RPM specfile editor which adds specfile <tt>%changelog</tt> section formatting invoked via Ctrl-Alt-c.
 			</p>
 			<p>
 			<img border="0" src="images/0.1/changelog-format.png"></td>
@@ -172,7 +192,7 @@
 			<p align="right"><b>Standards</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Libhover plugin adds C Library hover help and completion support for various C Libraries including glibc and newlib.  The plugin provides an extension and a documentation format for adding new C Libraries in the future.
+			<p align="left">The Libhover plugin adds C library hover help and completion support for various C libraries including glibc and newlib.  The plugin provides an extension and a documentation format for adding new C libraries in the future.
 			</p>
 			<p>
 			<img border="0" src="images/0.1/libhover-sample.png"></td>
@@ -184,7 +204,6 @@
 		</tr>
 </table>
 
-
 			
 <h2><a name="rpmstubby">RPM Stubby</a></h2>
 
@@ -194,8 +213,8 @@
 			<p align="right"><b>Generation</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The RPM Stubby plugin assist in generating a RPM specfile for an Eclipse plugin by using the data in its feature.xml. 
-			The plugins uses the latest best practices for packaging an Eclipse plugin as a RPM file. 
+			<p align="left">The RPM Stubby plugin assists in generating an RPM specfile for an Eclipse feature by using the data in its feature.xml. 
+			The plugin uses the latest best practices for packaging an Eclipse feature as an RPM. 
 			</p>
 			<p>
 			<img border="0" src="images/0.1/rpmstubby-sample.png"></td>
@@ -212,13 +231,14 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Autocompletion</b></p>
+			<p align="right"><b>Auto-completion</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Autocomplete for RPM Group tags has been added based on the system installed GROUPS file. 
+			<p align="left">Completion proposals for RPM Group tags has been added based on the system-installed <tt>GROUPS</tt> file. 
 			</p>
 			<img border="0" src="images/0.1/specfileeditor-completion.png">
-			<p align="left">Additionally autocomplete for patches has been fixed to appear only in the %prep section.</p>
+			<p align="left">Autocompletion for patches has been fixed to appear only in the %prep section.</p>
+			<img border="0" src="images/0.1/specfileeditor-completion-patch.png">
 			</td>
 		</tr>
 		<tr>
@@ -244,6 +264,44 @@
 			</td>
 		</tr>
 </table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Templates</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Templates for common actions are available.  In the example shown here, RPM <tt>Requires</tt> completions
+			are shown.
+			</p>
+			<img border="0" src="images/0.1/specfileeditor-completion-requires.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Hover help</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Both system- and file-defined variable definitions are displayed when hovering over their usage.
+			</p>
+			<img border="0" src="images/0.1/specfileeditor-hover.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
