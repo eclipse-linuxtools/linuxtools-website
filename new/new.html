@@ -63,9 +63,7 @@
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (5)</a></li>
 	<li><a href="#systemtap">Systemtap Editor (3)</a></li>
-<!--
-	<li><a href="#valgrind">Valgrind Profiling ()</a></li>
--->
+	<li><a href="#valgrind">Valgrind Profiling (3)</a></li>
 </ul>
 
 <h2><a name="autotools">GNU Autotools Support</a></h2>
@@ -432,7 +430,74 @@
 		</tr>
 </table>
 
-<h2>&nbsp;</h2>
+<h2><a name="valgrind">Valgrind Profiling</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Launching</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Profiling with Valgrind is done through the launch framework
+			and can be accessed via the "Profile As" menu item in the Run and context menus.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/valgrind-profile-as.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Memcheck</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Support for Memcheck, the memory error-checking tool, includes
+			a tree view of errors and their corresponding stack trace. Stack frames can be
+			double-clicked to show the given line in an editor. Markers annotate the corresponding
+			source code.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/valgrind-memcheck.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Massif</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Massif integration, consists of three different forms of output.
+			A table view lists each heap snapshot taken. Of these snapshots, some have more
+			detailed information available, including a call trace of the functions performing heap
+			allocations in each snapshot. This extended information is available in a tree view
+			accessible either by double clicking on a snapshot with the "tree" icon, or by clicking
+			the similar icon in the Valgrind view's toolbar. Within the tree view, allocation functions
+			found in source files can be viewed in an editor by double clicking on the element in the tree.
+			Finally, there is a heap chart displayed in an editor that graphically outlines the information
+			provided in the snapshots. Clicking on a point in the chart selects the snapshot in the
+			table.
+			</p>
+			<p>
+			<img border="0" src="images/0.1/valgrind-massif.png"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 
 </body>
 </html>
