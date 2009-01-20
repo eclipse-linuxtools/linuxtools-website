@@ -5,15 +5,6 @@
 	$pageKeywords	= "linux, eclipse, downloads";
 	$pageAuthor		= "Andrew Overholt";
 
-	# Add page-specific Nav bars here
-	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
-	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
-	# $Nav->addCustomNav("My Link", "mypage.php", "_self", 3);
-	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
-
-	# End: page-specific settings
-	#
-
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
@@ -30,6 +21,8 @@
 	   <h6>Incubation</h6>
 	   <div style="text-align: center">
 	   <a href="/projects/what-is-incubation.php"><img src="/images/egg-incubation.png" alt="Incubation"/></a>
+	   </div>
+	   </div>
 	</div>
 
 EOHTML;
