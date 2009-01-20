@@ -1,15 +1,15 @@
 <?php
 
-#if (isset ($_GET["skin"]) && preg_match("/^(Blue|EclipseStandard|Industrial|Lazarus|Miasma|Modern|OldStyle|Phoenix|PhoenixTest|PlainText)$/", $_GET["skin"], $regs))
-#{
-#	$theme = $regs[1];
-#}
-#else
-#{
-#	$theme = "Lazarus";
-#}
+if (isset ($_GET["skin"]) && preg_match("/^(Blue|EclipseStandard|Industrial|Lazarus|Miasma|Modern|OldStyle|Phoenix|PhoenixTest|PlainText)$/", $_GET["skin"], $regs))
+{
+	$theme = $regs[1];
+}
+else
+{
+	$theme = "Lazarus";
+}
 
-$theme="Nova";
+#$theme="Nova";
 
 $Nav->setLinkList(null);
 
