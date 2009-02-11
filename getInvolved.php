@@ -1,8 +1,7 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 
-	$pageTitle 		= "Linux Distros Project Downloads";
-	$pageKeywords	= "linux, eclipse, downloads";
+	$pageTitle 		= "Getting involved with the Linux Tools project";
 	$pageAuthor		= "Andrew Overholt";
 
 	# Add page-specific Nav bars here
@@ -23,24 +22,6 @@
 		Our project is actively seeking interested people to join us.  If you are interested, please
 		email our mailing list, <a href="mailto:linux-distros-dev@eclipse.org">
 		linux-distros-dev@eclipse.org</a> or join us on Freenode IRC in the #eclipse-linux channel.
-        </p>
-
-        <p>
-        <h3>Packaging</h3>
-        We have a few pages with lists of things that need to be fixed on the packaging side of things.
-        These pages should be migrated into bugs:<br><br>
-
-        <a href="http://wiki.eclipse.org/Linux_Packaging_Tasks">Linux Packaging Tasks</a>
-        <br>
-        <a href="http://wiki.eclipse.org/FHS_Compliant_Packages">FHS Compliant Packages</a>
-		<br>
-		<br>
-
-        We also need to update this diagram of the Fedora Eclipse SDK packages and ensure that all
-        distributions use a similar hierarchy:<br><br>
-
-        <a href="http://wiki.eclipse.org/Fedora_Eclipse_Packages">Fedora Eclipse Packages</a>
-
         </p>
 
 		<p>
@@ -71,6 +52,24 @@
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Valgrind</a></li>
 		</ul>
 		</p>
+
+        <p>
+        <h3>Packaging</h3>
+        We have a few pages with lists of things that need to be fixed on the packaging side of things.
+        These pages should be migrated into bugs:<br><br>
+
+        <a href="http://wiki.eclipse.org/Linux_Packaging_Tasks">Linux Packaging Tasks</a>
+        <br>
+        <a href="http://wiki.eclipse.org/FHS_Compliant_Packages">FHS Compliant Packages</a>
+		<br>
+		<br>
+
+        We also need to update this diagram of the Fedora Eclipse SDK packages and ensure that all
+        distributions use a similar hierarchy:<br><br>
+
+        <a href="http://wiki.eclipse.org/Fedora_Eclipse_Packages">Fedora Eclipse Packages</a>
+
+        </p>
 
 		<br/><br/><br/>
 	</div>

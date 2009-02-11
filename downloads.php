@@ -10,12 +10,30 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h3> Sorry, we do not have any downloads yet.  We will have an update site and zip downloads very soon.</h3>
-		All of our work is available in our subversion repository.  It can be viewed via a web browser here:
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology">
-		http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.linuxtools/?root=Technology</a>.
+		
+		<p> 
+		The preferred method of installation is via the 
+		<a href="http://wiki.eclipse.org/Linux_Tools_Project/User_Guide#Installation">Update Manager (instructions available)</a>.
+		</p>
+		
+		<div class="homeitem3col" style="margin-left:40px; width:90%">
+		<h3>0.1.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/index.php/Linux_Tools_User_Guide#Installation"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3> 
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2009-02-11).
+		<br>&nbsp;&nbsp;&nbsp;Requires JRE 5.0 and Eclipse 3.4.
+		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile).
+		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
+		<br>&nbsp;&nbsp;&nbsp;Installations via the update site will automatically get these dependencies.
+		<ul> 
+			<li>
+				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-Master-incubation-N200901201517.zip">
+					<img border=0 src="/linuxtools/images/icon-save.gif">
+				</a>
+				&nbsp;&nbsp;<b>download.eclipse.org/technology/linuxtools/update</b>
+			</li>
+		</ul>
+		</div>
 	</div>
-
+	
 	<div id="rightcolumn">
 		<div class="sideitem">
 	   <h6>Incubation</h6>
