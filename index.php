@@ -90,7 +90,8 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
-				    <li><em>2009-02-09</em>:  Our 0.1.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!</li>
+				    <li><em>2009-02-09</em>:  Our 0.1.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>! 
+				    Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
 					<li><em>2008-12-18</em>:  Our website is being re-vamped.</li>
 				</ul>
               </div>
