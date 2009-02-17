@@ -93,7 +93,7 @@
 </pre>
 		To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/natives/linux/scripts. This will ensure all the necessary programs are installed and create a wrapper for opcontrol to allow root authentication with the root password:
 <pre>
-	$ sudo ./install
+	$ sudo ./install.sh
 </pre>
 
 			From there, run the plugin as an Eclipse Application. So far, we have tested using Eclipse 3.4.1, CDT 5.0.1, OProfile 0.9.3 on Fedora 9 x86 and Fedora 10 x86_64.
