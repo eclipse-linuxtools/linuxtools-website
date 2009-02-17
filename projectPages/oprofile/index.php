@@ -79,8 +79,8 @@
 
 		<h2>Try it out</h2>
 		<p>
-		  At present we have no update site, but you can check the project plugins out of SVN
-		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
+		  You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or 
+		  check the project plugins out of SVN directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
           You will need the 5 plugins under oprofile/trunk, and the 2 plugins under profiling/trunk:
 <pre>     
 	org.eclipse.linuxtools.oprofile.core
@@ -91,12 +91,12 @@
 	org.eclipse.linuxtools.profiling.launch
 	org.eclipse.linuxtools.profiling.ui
 </pre>
-		To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/natives/linux/scripts (currently only works on Fedora machines). This will ensure all the necessary programs are installed and create a wrapper for opcontrol to allow root authentication with the root password:
+		To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/natives/linux/scripts. This will ensure all the necessary programs are installed and create a wrapper for opcontrol to allow root authentication with the root password:
 <pre>
 	$ sudo ./install
 </pre>
 
-From there, run the plugin as an Eclipse Application.  So far, we have tested using Eclipse 3.4.1, CDT 5.0, OProfile 0.9.3 on Fedora 9 x86 and Fedora 10 x86_64.
+			From there, run the plugin as an Eclipse Application. So far, we have tested using Eclipse 3.4.1, CDT 5.0.1, OProfile 0.9.3 on Fedora 9 x86 and Fedora 10 x86_64.
 		</p>
 	<br/><br/><br/>
 	</div>
