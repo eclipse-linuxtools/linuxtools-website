@@ -55,6 +55,11 @@
 		  </center>
 		</p>
 
+		<h2>Demos</h2>
+		<p>
+	    	  <a href="changelogdemo.ogg">ChangeLog demo in ogg format</a>
+		</p>
+
 		<h2>Try it out</h2>
 		<p>
 		  At present we have no update site, but you can check the project plugins out of SVN
