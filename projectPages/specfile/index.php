@@ -66,6 +66,11 @@ $html =<<<EOHTML
 		<p>
 		    TBD
 		</p>
+		
+		<h2>Demos</h2>
+		<p>
+	    	  <a href="specfile-demo.ogg">Specfile editor demo in ogg format</a>
+		</p>
 
 		<h2>Try it out</h2>
 		<p>
