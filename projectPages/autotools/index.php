@@ -72,7 +72,8 @@ Using autotools is very common in the world of Open Source projects such as thos
 
 		<h2>Try it out</h2>
 		<p>
-		  At present we have no update site, but you can check the project plugins out of SVN
+		  Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/User_Guide#Eclipse_3.4">here</a>
+		  Or check the project plugins out of SVN
 		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
           You will need to check out the following from autotools/trunk:
 <pre>     org.eclipse.linuxtools.autotools
