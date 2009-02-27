@@ -28,7 +28,7 @@
 				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-Master-incubation-N200901201517.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif">
 				</a>
-				&nbsp;&nbsp;<b>download.eclipse.org/technology/linuxtools/update</b>
+				&nbsp;&nbsp;<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
 		</div>
