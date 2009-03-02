@@ -32,6 +32,17 @@
 			</li>
 		</ul>
 		</div>
+		
+		<div class="homeitem3col" style="margin-left:40px; width:90%">
+		<h3>Screencast videos</h3>
+		<ul>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/changelog">ChangeLog</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/changelogdemo.ogg">original Ogg Theora</a>, <a href="http://blip.tv/file/1831732/">Flash video for viewing in a web browser</a>)</li>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/libhover">Libhover</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/libhoverdemo.ogg">original Ogg Theora</a>, Flash video coming soon)</li>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/oprofile">OProfile</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/eclipse-oprofile-demo.ogg">original Ogg Theora</a>, Flash video coming soon)</li>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/valgrind">Valgrind Memcheck</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">original Ogg Theora</a>, Flash video coming soon)</li>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/valgrind">Valgrind Massif</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-2.ogg">original Ogg Theora</a>, Flash video coming soon)</li>
+		</ul>
+		</div>
 	</div>
 	
 	<div id="rightcolumn">
