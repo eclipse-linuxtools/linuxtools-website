@@ -55,7 +55,7 @@
 			<li>The Valgrind View presents this output using a TreeViewer with the errors as top-level elements.</li>
 			<li>The stack trace is presented underneath the error and when a frame is double-clicked an editor will open and go to the line in question.</li>
 			<li>Markers represent memcheck errors inside the editor and are linked to the Problems View.</li>
-      <li><a href="valgrind-demo-1.ogg">Video Demo</a></li>
+      <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">Video Demo</a></li>
 		</ul>
 		</p>
 		<br/>
@@ -77,7 +77,7 @@
     			<li>The default view of the output is with a TableViewer. Snapshots are displayed as tabular data, just as ms_print does.</li>
     			<li>For detailed snapshots, an icon indicates the snapshot can be double-clicked and the View will display a TreeViewer of the detailed snapshots' heap allocation trees.</li>
     			<li>ms_print also provides a bar chart of bytes allocated throughout execution. In perhaps a more appropriate style, there is an option to display a detailed line chart of this data.</li>
-      <li><a href="valgrind-demo-2.ogg">Video Demo</a></li>
+      <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-2.ogg">Video Demo</a></li>
 		</ul>
 		</p>
 		</div>

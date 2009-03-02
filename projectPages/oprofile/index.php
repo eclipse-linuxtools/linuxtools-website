@@ -79,7 +79,7 @@
 		
 		<h2>Video Demo</h2>
 		<p>
-		Check out a screencast of the plugin in action <a href="http://www.eclipse.org/linuxtools/projectPages/oprofile/eclipse-oprofile-demo.ogg">here</a>.
+		Check out a screencast of the plugin in action <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/eclipse-oprofile-demo.ogg">here</a>.
 		</p>
 
 		<h2>Try it out</h2>

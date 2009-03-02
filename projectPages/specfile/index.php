@@ -69,7 +69,7 @@ $html =<<<EOHTML
 		
 		<h2>Demos</h2>
 		<p>
-	    	  <a href="specfile-demo.ogg">Specfile editor demo in ogg format</a>
+	    	  <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/specfile-demo.ogg">Specfile editor demo in ogg format</a>
 		</p>
 
 		<h2>Try it out</h2>

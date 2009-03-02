@@ -52,7 +52,7 @@
 
 		<h2>Demos</h2>
 		<p>
-	          <a href="libhoverdemo.ogg">Libhover demo in ogg format</a>
+	          <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/libhoverdemo.ogg">Libhover demo in ogg format</a>
 		</p>
 
 		<h2>Try it out</h2>

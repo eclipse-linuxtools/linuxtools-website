@@ -57,7 +57,7 @@
 
 		<h2>Demos</h2>
 		<p>
-	    	  <a href="changelogdemo.ogg">ChangeLog demo in ogg format</a>
+	    	  <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/changelogdemo.ogg">ChangeLog demo in ogg format</a>
 		</p>
 
 		<h2>Try it out</h2>
