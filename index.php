@@ -90,6 +90,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
+				    <li><em>2009-03-03</em>:  The Linux Tools project team has put together some screencast videos demonstrating functionality in our 0.1.0 release.  They are all available in Ogg Theora and Flash video under the "Screencast videos" section of our <a href="/linuxtools/downloads.php">downloads page</a>.
 				    <li><em>2009-02-09</em>:  Our 0.1.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>! 
 				    Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
 					<li><em>2008-12-18</em>:  Our website is being re-vamped.</li>
