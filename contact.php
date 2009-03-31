@@ -20,8 +20,24 @@
 		<h1>$pageTitle</h1>
 		<p>
 		Our project is actively seeking interested people to join us.  If you are interested, please
-		email our mailing list, <a href="mailto:linux-distros-dev@eclipse.org">
-		linux-distros-dev@eclipse.org</a> or join us on Freenode IRC in the #eclipse-linux channel.
+		join our mailing list:<br>
+		<br>
+		<center>
+		<a href="https://dev.eclipse.org/mailman/listinfo/linuxtools-dev">linuxtools-dev</a>
+		<br>
+		<a href="https://dev.eclipse.org/mailman/listinfo/linux-distros-dev">linux-distros-dev</a> (formerly our only list and now used primarly for Linux distribution discussions)
+		</center>
+		<br>
+		For questions related to use of our tools, try our newsgroup:<br>
+		<br>
+		<center>
+		<a href="news://news.eclipse.org/eclipse.technology.linuxtools">news://news.eclipse.org/eclipse.technology.linuxtools</a> (or via <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.technology.linuxtools">http</a>)
+		</center>
+		<br>
+        Alternatively, join us on Freenode IRC:<br>
+        <br>
+        <a href="irc://irc.freenode.net/#eclipse-linux>#eclipse-linux</a> (Freenode)
+		<br><br>
         </p>
 
 		<br/><br/><br/>
