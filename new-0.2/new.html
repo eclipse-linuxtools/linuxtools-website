@@ -68,8 +68,8 @@
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor</a></li>
 <!--
 	<li><a href="#systemtap">Systemtap Editor (3)</a></li>
-	<li><a href="#valgrind">Valgrind Profiling ()</a></li>
 -->
+	<li><a href="#valgrind">Valgrind Profiling (5)</a></li>
 </ul>
 
 <h2><a name="autotools">GNU Autotools Support</a></h2>
@@ -196,6 +196,87 @@
 </table>
 
 <h2><a name="systemtap">Systemtap Editor</a></h2>
+
+<h2><a name="valgrind">Valgrind Profiling</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Cachegrind Integration</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">A Cachegrind plugin has been introduced in 0.2. Cachegrind profiles the cache and branch behaviour of your program. A hierarchical breakdown of these statistics is presented in a tree for easy navigation and sorting.
+			</p>
+      <img alt="Cachegrind Profiling Results" src="images/valgrind-cachegrind.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Test Suite Improvements</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The test suite has received the most attention during 0.2 development. Code coverage has greatly improved and many bugs have been discovered and fixed due to this.
+Tests can also now be run without having Valgrind installed by simulating its output with examples contained in the test plugins. The Java system property <code>eclipse.valgrind.tests.runValgrind=&lt;yes|no&gt;</code> controls this.
+			</p> 
+      <img alt="Eclemma Code Coverage" src="images/valgrind-coverage.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Export Wizard</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The raw output the Valgrind generates can now be exported to the file system using a new Export Wizard. It is available from the Export command in the File menu and also using a shortcut in the Valgrind view's toolbar.
+			</p>
+      <img alt="Export Valgrind Log Files Wizard" src="images/valgrind-export-wizard.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+    <tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Massif Chart Interactivity</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">A new interactivity feature has been added to Massif's heap allocation charts. As before, single-clicking on a data point in the chart selects that snapshot in the Valgrind view. Now you can double-click on a data point that is a detailed snapshot to open an editor for one of its allocation function calls. This feature considers all of the locations in your project's sources that call an allocation function such as malloc or new. If your project contains functions that serve as wrappers to allocation functions, be sure to add them to the list of allocation functions in the launch configuration. This will ensure you get the most meaningful profiling results.
+			</p>
+      <img alt="Selecting A Function Call To Open" src="images/valgrind-chart-interactive.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+    <tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Expand/Collapse Beneath</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">To help manage large amounts of profiling results, all three tools offer a new "Expand/Collapse Beneath Selection" feature in their tree viewers. Accessible from the viewer's context menu, this will expand (or collapse) all items beneath the selected element.
+			</p>
+      <img alt="Expand/Collapse Beneath Action" src="images/valgrind-expand-collapse.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 
 <h2>&nbsp;</h2>
 
