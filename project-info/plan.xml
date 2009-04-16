@@ -4,22 +4,21 @@
 	<release projectid="technology.linuxtools" version="1.0" />
 	<introduction>
 		<html:p>
-			The Linux Tools/Linux Distros project is a two-faceted
-			project. Firstly, it provides a place for Linux
+			The Linux Tools project is a two-faceted
+			project. Firstly, it develops tools and frameworks for
+			writing tools for Linux developers.  Secondly, it provides
+			a place for Linux
 			distributions to
 			collaboratively overcome issues surrounding
 			distribution packaging of
-			Eclipse technology. The project
-			produces both best practices and tools
+			Eclipse technology. The project will 
+			produce both best practices and tools
 			related to packaging.
-			Secondly, the project develops and produces
-			tools relevant
-			to Linux developers.
 		</html:p>
 	</introduction>
 	<release_deliverables>
 		<html:p>
-			The Linux Tools/Linux Distros project delivers tools as
+			The Linux Tools project delivers tools as
 			Eclipse plugins which are used primarily by Linux developers
 			and
 			packagers. The project also aims to deliver various
@@ -41,28 +40,49 @@
 				editor plugins.
 			</html:p>
 		</milestone>
-		<milestone date="2009-03-20" milestone="0.2">
-			<html:p>Milestone build towards 0.2</html:p>
+		<milestone date="2009-04-01" milestone="0.2">
+			<html:p>Release candidate build towards 0.2</html:p>
 			<html:p>
-				3.5M-build SDK packaging tools (eclipse-build),
-				plugin building script improvements,
-				scripts for running SDK tests against distro packages,
 				initial cachegrind support
 				improved OProfile privilege-escalation
 			</html:p>
 		</milestone>
-		<milestone date="TBD (post-EclipseCon 2009)" milestone="0.2">
+		<milestone date="2009-04-??" milestone="0.2">
 			<html:p>0.2 release</html:p>
 			<html:p>
-				Continued bugfixes,
-				initial integration of systemtapgui contribution
+				initial cachegrind support, 
+				improved OProfile privilege-escalation, 
+				pre- and post-build steps for autotool'd projects, 
+				compare support for RPM .spec files, 
+				mass BIRT chart interactivity, 
+				greatly improved test coverage, 
+				many bugfixes
+			</html:p>
+		</milestone>
+		<milestone date="2009-06-??" milestone="0.3">
+			<html:p>0.3 release</html:p>
+			<html:p>
+				wiki-based help documentation, 
+				initial integration of systemtapgui contribution, 
+				initial integration of GProf contribution, 
+				3.5RC-build SDK packaging tools (eclipse-build), 
+				plugin building script improvements, 
+				scripts for running SDK tests against distro packages
+			</html:p>
+		</milestone>
+		<milestone date="2009-06-??" milestone="0.3">
+			<html:p>0.4 release</html:p>
+			<html:p>
+				integration of SystemTap editor and SystemTapGUI, 
+				3.5 SDK packaging tools (eclipse-build), 
+				initial tracing framework implementation
 			</html:p>
 		</milestone>
 		<milestone date="TBD" milestone="1.0">
 			<html:p>1.0 release</html:p>
 			<html:p>
-				SDK packaging tools:  3.5M5 eclipse-build, SDK tests, plugin-building scripts, testing scripts.
-				Native development tools: Systemtap editor, autotools, libhover, ChangeLog, OProfile, Valgrind.
+				SDK packaging tools:  3.5 eclipse-build, SDK tests, plugin-building scripts, testing scripts.
+				Native development tools: Tracing tools, Systemtap integration, autotools, libhover, ChangeLog, OProfile, Valgrind, GProf, GCov.
 			</html:p>
 		</milestone>
 		<postamble />
@@ -300,6 +320,20 @@
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Distros&amp;component=Valgrind&amp;target_milestone=---&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
 			</proposed>
 		</theme>
+		<theme name="Integrate Linux tracing functioning within Eclipse">
+			<description>
+				<html:p>
+					Tracing frameworks such as SystemTap and LTTng enable
+					users to solve complex problems through data analysis.
+					We aim to provide a framework for working with tracing toolkits
+					and provide an exemplary implementation for LTTng.
+				</html:p>
+			</description>
+			<committed>
+			</committed>
+			<proposed
+			</proposed>
+		</theme>		
 	</themes_and_priorities>
 	<appendix />
 </plan>
