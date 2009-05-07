@@ -51,13 +51,26 @@ build it in a way suitable for inclusion in a Linux distribution. There are a lo
 		</p>
 
 		<h2>Try it out</h2>
+		<p>To ease both developers and distributions there are two ways of building. </p>
+		<ol>
+		<li>Developer build
 		<p>
 		  <ul>
 			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/</li>
-			<li>./fetch-sources.sh</li>
-			<li>ant</li>
+			<li>ant devBuild</li>
 		  </ul>
 		</p>
+		</li>
+		<li>Distribution build
+		<p>
+		  <ul>
+			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/</li>
+			<li>ant -f fetch.xml</li>
+		  </ul>
+		</p>
+		<p>This will produce a tar containing all the sources with the patches applies. It can be used in e.g. RPM builds by simply extracting and run `ant`.</p>
+		</li>
+		</ol>
 	</div>
 
 	<div id="rightcolumn">
