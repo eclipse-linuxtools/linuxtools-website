@@ -17,7 +17,7 @@
 		</p>
 		
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>0.1.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/index.php/Linux_Tools_User_Guide#Installation"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3> 
+		<h3>0.2.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/index.php/Linux_Tools_User_Guide#Installation"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3> 
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2009-05-11).
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE 5.0 and Eclipse 3.4.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile).
