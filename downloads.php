@@ -18,14 +18,14 @@
 		
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>0.1.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/index.php/Linux_Tools_User_Guide#Installation"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3> 
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2009-02-11).
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2009-05-11).
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE 5.0 and Eclipse 3.4.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the update site will automatically get these dependencies.
 		<ul> 
 			<li>
-				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-Master-incubation-N200901201517.zip">
+				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/S200905081609/linuxtools-Update-incubation-0.2.0.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif">
 				</a>
 				&nbsp;&nbsp;<b>http://download.eclipse.org/technology/linuxtools/update</b>
