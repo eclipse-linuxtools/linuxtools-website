@@ -57,7 +57,7 @@ build it in a way suitable for inclusion in a Linux distribution. There are a lo
 		<p>
 		  <ul>
 			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/</li>
-			<li>ant devBuild</li>
+			<li>ant </li>
 		  </ul>
 		</p>
 		</li>
