@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.2.0</b> release (<em>2009-05-11</em>)!</td>
+	                    <td>Get our latest <b>0.2.1</b> release (<em>2009-06-05</em>)!</td>
 	                  </tr>
 	                </table>
 	              </td>
@@ -90,6 +90,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
+				    <li><em>2009-06-05</em>:  Our 0.2.1 bug-fix release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>, fixing a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=275685">bug</a with our Valgrind component on Debian-based systems.
 				    <li><em>2009-05-11</em>:  Our 0.2.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>! 
 				    Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
 					<li><em>2009-04-07</em>:  A presentation on the project was given at EclipseCon 2009 and the <a href="http://overholt.fedorapeople.org/LinuxTools.pdf">slides are available</a>.</li>
