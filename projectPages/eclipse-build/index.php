@@ -34,41 +34,26 @@ build it in a way suitable for inclusion in a Linux distribution. There are a lo
 
 		<h2>Current Status</h2>
 		<p>
-		Eclipse-build is following Eclipse milestones builds and currently it is up to version 3.5 M4.
-		We are still not able to produce a working SDK build but we can compile the whole Eclipse SDK.
-		Hopefully a working build will be produced in the not so distant future.
+		Eclipse-build is following Eclipse milestones builds and currently it is up to version 3.5.
+		We are currently able to build a runnable Eclipse SDK.  It is not complete nor ready for use by
+		distributions, but it is getting closer.
 		
 		</p>
 
 		<h2>Future Plans</h2>
 		<p>
-		<ul>
-		  <li>Create a working build using upstream srcIncluded build.</li>
-		  <li>Create a script to fetch sources from cvs.</li>
-		  <li>Fix to properly build with the fetched sources.</li>
-		  <li>Put all patches we have in Fedora srpm here so other distros can easily reuse them.</li>
-        </ul>
+		See our open bug list <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=[eclipse-build]&classification=Technology&product=Linux+Tools&component=PackagingTools&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&keywords_type=allwords&keywords=&bug_status=UNCONFIRMED&amp;bug_status=NEW&bug_status=ASSIGNED&amp;bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&amp;type0-0-0=noop&value0-0-0=">here</a>.
 		</p>
 
 		<h2>Try it out</h2>
-		<p>To ease both developers and distributions there are two ways of building. </p>
 		<ol>
-		<li>Developer build
+		<li>Testing
 		<p>
 		  <ul>
-			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/</li>
-			<li>ant </li>
+			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/eclipse-build</li>
+			<li>see README.mediawiki included therein </li>
 		  </ul>
 		</p>
-		</li>
-		<li>Distribution build
-		<p>
-		  <ul>
-			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/</li>
-			<li>ant -f fetch.xml</li>
-		  </ul>
-		</p>
-		<p>This will produce a tar containing all the sources with the patches applies. It can be used in e.g. RPM builds by simply extracting and run `ant`.</p>
 		</li>
 		</ol>
 	</div>
