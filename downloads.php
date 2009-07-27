@@ -27,8 +27,8 @@
 			<li>
 				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/S200905251646/linuxtools-Update-incubation-0.2.1.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif">
-				</a>
-				&nbsp;&nbsp;<b>http://download.eclipse.org/technology/linuxtools/update</b>
+				
+				&nbsp;&nbsp;<b>http://download.eclipse.org/technology/linuxtools/update</b></a>
 			</li>
 		</ul>
 		</div>
