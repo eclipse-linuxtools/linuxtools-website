@@ -34,10 +34,11 @@
 		<ul>
           <li>Launch a local C/C++ application and OProfile simultaneously to start profiling (requires root password to execute OProfile commands)</li>
           <li>Automatically gather OProfile data and display in a tree viewer after a launch</li>
+          <li>Launch a local C/C++ application and manually control OProfile via a simple dialog</li>
           <li>Configure OProfile to profile several events simultaneously with as many debug registers as the CPU/OProfile supports</li>
           <li>Configure OProfile to profile relevant shared-libraries and/or kernel modules</li>
           <li>Jump to the line-number of the corresponding source file on a double-click of a sample</li>
-          <li>Prompt to save the default session on double-click</li>
+          <li>Prompt to save the default session for viewing at a later time</li>
           <li>View the oprofiled log</li>
           <li>One-click launch with sane defaults</li>
         </ul>
@@ -49,7 +50,6 @@
 		  <li> Robust filtering for events/sessions/images</li>
 		  <li> Code-colourization (similar to <a href="http://www.eclemma.org/index.html" class="external text" title="http://www.eclemma.org/index.html" rel="nofollow">EclEmma</a>) for code hotspots</li>
           <li> Comparing two sessions/runs similar to functionality of opreport</li>
-          <li> Increase test coverage</li>
         </ul>
 		</p>
 
@@ -86,22 +86,30 @@
 		<p>
 		  You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or 
 		  check the project plugins out of SVN directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need the 5 plugins under oprofile/trunk, and the 2 plugins under profiling/trunk:
+          You will need all the plugins under oprofile/trunk, and the plugins under profiling/trunk:
 <pre>     
+	org.eclipse.linuxtools.oprofile-feature
 	org.eclipse.linuxtools.oprofile.core
+	org.eclipse.linuxtools.oprofile.core.linux.ppc
 	org.eclipse.linuxtools.oprofile.core.linux.x86
 	org.eclipse.linuxtools.oprofile.core.linux.x86_64
+	org.eclipse.linuxtools.oprofile.core.tests
+	org.eclipse.linuxtools.oprofile.doc
 	org.eclipse.linuxtools.oprofile.launch
+	org.eclipse.linuxtools.oprofile.launch.tests
+	org.eclipse.linuxtools.oprofile.test-feature
+	org.eclipse.linuxtools.oprofile.tests
 	org.eclipse.linuxtools.oprofile.ui
+	org.eclipse.linuxtools.oprofile.ui.tests
+	org.eclipse.linuxtools.profiling-feature
 	org.eclipse.linuxtools.profiling.launch
+	org.eclipse.linuxtools.profiling.test-feature
+	org.eclipse.linuxtools.profiling.tests
 	org.eclipse.linuxtools.profiling.ui
 </pre>
-		To install, run (as root) the script in org.eclipse.linuxtools.oprofile.core/natives/linux/scripts. This will ensure all the necessary programs are installed and create a wrapper for opcontrol to allow root authentication with the root password:
-<pre>
-	$ sudo ./install.sh
-</pre>
-
-			From there, run the plugin as an Eclipse Application. So far, we have tested using Eclipse 3.4.1, CDT 5.0.1, OProfile 0.9.3 on Fedora 9 x86 and Fedora 10 x86_64.
+		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">here</a>.
+		<br/><br/>
+		We have tested using Eclipse 3.4.1, CDT 5.0.1, OProfile 0.9.3 and 0.9.4 on Fedora 9 x86, Fedora 10 x86_64, Ubuntu LTS, Ubuntu 9 and openSUSE 11.1.
 		</p>
 	<br/><br/><br/>
 	</div>
