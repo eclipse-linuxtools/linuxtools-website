@@ -50,11 +50,13 @@
 		<div>
 		<h2>Memcheck</h2>
 		<p>
-		Memcheck is a tool that detects memory management problems. It is Valgrind's most popular tool and seemingly the most mature. It supports XML output with the specific purpose of being parsed by GUI front-ends. 			Memcheck's output is rather straight forward - it is a series of errors along with stack trace information.
+		Memcheck is a tool that detects memory management problems. It is Valgrind's most popular tool and seemingly the most mature. 
+		Memcheck's output is rather straight forward - it is a series of errors along with stack trace information.
 		<ul>
 			<li>The Valgrind View presents this output using a TreeViewer with the errors as top-level elements.</li>
 			<li>The stack trace is presented underneath the error and when a frame is double-clicked an editor will open and go to the line in question.</li>
 			<li>Markers represent memcheck errors inside the editor and are linked to the Problems View.</li>
+			<li>Includes an editor for Valgrind suppressions files featuring syntax highlighting, folding and code completion.</li>
       <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">Video Demo</a></li>
 		</ul>
 		</p>
@@ -82,16 +84,29 @@
 		</p>
 		</div>
 		<br/>
+		
+		<div>
+		<h2>Cachegrind</h2>
+		<p>
+		Cachegrind performs cache and branching profiling. A Cachegrind profile run measures the number of cache misses and branch mispredictions performed by an application.
+		The results of a Cachegrind profile run are displayed in the Valgrind view. These results show Cachegrind's cache/branch data in different levels of granularity.
+		<ul>
+			<li>Double-clicking on any file, function, or line will open the corresponding source file and place the cursor on the appropriate location (if the source can be resolved).</li>
+			<li>Integration with the CDT's parsed code model provides a user interface that resembles what you see in the Outline view.
+		</ul> 
+		</p>
+		<br/>
+		<a href="images/Cachegrind.png"><img style="border: 1px dashed #999999;" src="images/Cachegrind_thumb.png" alt="Using the Cachegrind tool" /></a>
+		</div>
+		<br/>
 
 		<div>
 		<h2>Future Plans</h2>
 		<p>
 		<ul>
-			<li>Interactivity with the Heap Chart for Massif</li>
 			<li>Caching output from recent Valgrind runs for quick restoration</li>
-          		<li>Integration of the remainder of the Valgrind tool suite</li>
-          		<li>Increase test coverage</li>
-       		</ul>
+          	<li>Integration of the remainder of the Valgrind tool suite</li>
+       	</ul>
 		</p>
 		</div>
 		<br/>
