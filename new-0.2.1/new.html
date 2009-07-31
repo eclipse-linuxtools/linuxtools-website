@@ -110,7 +110,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The plugin now supports grabbing indexer information from the build itself.  This allows one to find where various variables and functions are declared.  This feature is currently restricted to builds using native gcc as opposed to cross-compilers.
 			</p>
-			<img border="0" alt="Indexing the printf function" src="images/autotools-index-printf.png">
+			<img border="0" alt="Indexing the printf function" src="images-0.2/autotools-index-printf.png">
 			</td>
 		</tr>
 		<tr>
@@ -125,7 +125,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The plugin now allows running a pre-build and/or a post-build step.  The step can be a script or a simple command.  Simple commands do not support shell command support such as redirection so scripts should be used instead.  The steps are currently shown in a separate console window.
 			</p> 
-			<img border="0" alt="Using Autotools build steps" src="images/autotools-build-steps.png">
+			<img border="0" alt="Using Autotools build steps" src="images-0.2/autotools-build-steps.png">
 			</td>
 		</tr>
 			<td colspan="2">
@@ -139,7 +139,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The plugin now supports creating and running Make Targets in a non-top-level Makefile.  The top-level Makefile targets are still automatically created for you.  Running such a new Make Target will run the make command on the specified Makefile directly, starting in that directory.
 			</p> 
-			<img border="0" alt="Makefile Targets" src="images/autotools-makefile-targets.png">
+			<img border="0" alt="Makefile Targets" src="images-0.2/autotools-makefile-targets.png">
 			</td>
 		</tr>
 			<td colspan="2">
@@ -158,7 +158,7 @@
 			<td valign="top" width="70%">
 			<p align="left">Previously files with blanks in their names or parentheses or colons caused the ChangeLog parser to misinterpret the actual file name vs the function name.  This prevented the Ctrl-click feature of opening files from working properly.  This is now fixed and files with such names will show up with escape characters automatically added.  Ctrl-click now works on these files.
 			</p>
-			<img border="0" alt="ChangeLog entry with spaces in file name" src="images/changelog-odd-names.png">
+			<img border="0" alt="ChangeLog entry with spaces in file name" src="images-0.2/changelog-odd-names.png">
 			</td>
 		</tr>
 		<tr>
@@ -173,7 +173,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The plugin now allows entries that have multiple files specified in one entry.  The multiple file names are separated by commas and can continue on multiple lines.  This is useful when there is one change made on a large group of files.  Ctrl-click feature works on each file.
 			</p> 
-			<img border="0" alt="ChangeLog entry with multiple file entries" src="images/changelog-multiple-files.png">
+			<img border="0" alt="ChangeLog entry with multiple file entries" src="images-0.2/changelog-multiple-files.png">
 			</td>
 		</tr>
 			<td colspan="2">
@@ -193,7 +193,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The plugin will now work with OProfile's timer interrupt-based profiling. This occurs when the host CPU has no debug registers, or can be forced by manually loading the OProfile module with: <pre># modprobe oprofile timer=1</pre>
 			</p>
-			<img border="0" alt="Timer Interrupt Event In The OProfile View" src="images/oprofile-timer-int-scr.png">
+			<img border="0" alt="Timer Interrupt Event In The OProfile View" src="images-0.2/oprofile-timer-int-scr.png">
 			</td>
 		</tr>
 		<tr>
@@ -222,7 +222,7 @@
 			<td valign="top" width="70%">
 			<p align="left">Test coverage for the plugins has increased greatly. The tests highlighted several bugs which have since been fixed leading to an overall more stable plugin.
 			</p>
-			<img border="0" alt="Eclemma Test Coverage" src="images/oprofile-test-coverage.png">
+			<img border="0" alt="Eclemma Test Coverage" src="images-0.2/oprofile-test-coverage.png">
 			</td>
 		</tr>
 		<tr>
@@ -244,7 +244,7 @@
 			<td valign="top" width="70%">
 			<p align="left">User documentation now exists to ease getting started with the editor. 
 			</p>
-			<img border="0" src="images/specfile-doc.png">
+			<img border="0" src="images-0.2/specfile-doc.png">
 			</td>
 		</tr>
 		<tr>
@@ -259,7 +259,7 @@
 			<td valign="top" width="70%">
 			<p align="left">The rpmlint builder has been enhanced to mark rpmlint warnings/errors on .spec files. 
 			</p>
-			<img border="0" src="images/specfile-rpm-rpmlint.png">
+			<img border="0" src="images-0.2/specfile-rpm-rpmlint.png">
 			</td>
 		</tr>
 		<tr>
@@ -274,7 +274,7 @@
 			<td valign="top" width="70%">
 			<p align="left">Structured compare has been added to ease the usage with version control systems.
 			</p>
-			<img border="0" src="images/specfile-compare.png">
+			<img border="0" src="images-0.2/specfile-compare.png">
 			</td>
 		</tr>
 		<tr>
@@ -290,7 +290,7 @@
 			<p align="left">Support for %global way of defining variables.
 			For details about why %global should be preferred over %define see <a href="https://fedoraproject.org/wiki/PackagingDrafts/global_preferred_over_define">here.</a>
 			</p>
-			<img border="0" src="images/specfile-global.png">
+			<img border="0" src="images-0.2/specfile-global.png">
 			</td>
 		<tr>
 			<td colspan="2">
@@ -311,7 +311,7 @@
 			<td valign="top" width="70%">
 			<p align="left">A Cachegrind plugin has been introduced in 0.2. Cachegrind profiles the cache and branch behaviour of your program. A hierarchical breakdown of these statistics is presented in a tree for easy navigation and sorting.
 			</p>
-      <img alt="Cachegrind Profiling Results" src="images/valgrind-cachegrind.png"/>
+      <img alt="Cachegrind Profiling Results" src="images-0.2/valgrind-cachegrind.png"/>
 			</td>
 		</tr>
 		<tr>
@@ -327,7 +327,7 @@
 			<p align="left">The test suite has received the most attention during 0.2 development. Code coverage has greatly improved and many bugs have been discovered and fixed due to this.
 Tests can also now be run without having Valgrind installed by simulating its output with examples contained in the test plugins. The Java system property <code>eclipse.valgrind.tests.runValgrind=&lt;yes|no&gt;</code> controls this.
 			</p> 
-      <img alt="Eclemma Code Coverage" src="images/valgrind-coverage.png"/>
+      <img alt="Eclemma Code Coverage" src="images-0.2/valgrind-coverage.png"/>
 			</td>
 		</tr>
 		<tr>
@@ -342,7 +342,7 @@ Tests can also now be run without having Valgrind installed by simulating its ou
 			<td valign="top" width="70%">
 			<p align="left">The raw output that Valgrind generates can now be exported to the file system using a new Export Wizard. It is available from the Export command in the File menu and also using a shortcut in the Valgrind view's toolbar.
 			</p>
-      <img alt="Export Valgrind Log Files Wizard" src="images/valgrind-export-wizard.png"/>
+      <img alt="Export Valgrind Log Files Wizard" src="images-0.2/valgrind-export-wizard.png"/>
 			</td>
 		</tr>
 		<tr>
@@ -357,7 +357,7 @@ Tests can also now be run without having Valgrind installed by simulating its ou
 			<td valign="top" width="70%">
 			<p align="left">A new interactivity feature has been added to Massif's heap allocation charts. As before, single-clicking on a data point in the chart selects that snapshot in the Valgrind view. Now you can double-click on a data point that is a detailed snapshot to open an editor for one of its allocation function calls. This feature considers all of the locations in your project's sources that call an allocation function such as malloc or new. If your project contains functions that serve as wrappers to allocation functions, be sure to add them to the list of allocation functions in the launch configuration. This will ensure you get the most meaningful profiling results.
 			</p>
-      <img alt="Selecting A Function Call To Open" src="images/valgrind-chart-interactive.png"/>
+      <img alt="Selecting A Function Call To Open" src="images-0.2/valgrind-chart-interactive.png"/>
 			</td>
 		</tr>
 		<tr>
@@ -372,7 +372,7 @@ Tests can also now be run without having Valgrind installed by simulating its ou
 			<td valign="top" width="70%">
 			<p align="left">To help manage large amounts of profiling results, all three tools offer a new "Expand/Collapse Beneath Selection" feature in their tree viewers. Accessible from the viewer's context menu, this will expand (or collapse) all items beneath the selected element.
 			</p>
-      <img alt="Expand/Collapse Beneath Action" src="images/valgrind-expand-collapse.png"/>
+      <img alt="Expand/Collapse Beneath Action" src="images-0.2/valgrind-expand-collapse.png"/>
 			</td>
 		</tr>
 		<tr>
