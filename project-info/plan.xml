@@ -59,24 +59,23 @@
 				many bugfixes
 			</html:p>
 		</milestone>
-		<milestone date="2009-07-??" milestone="0.3">
+		<milestone date="2009-09-12" milestone="0.3">
 			<html:p>0.3 release</html:p>
 			<html:p>
 				wiki-based help documentation, 
 				initial integration of SystemTapGUI contribution, 
-				initial integration of GProf contribution, 
+				integration of SystemTap editor and SystemTapGUI, 
 				more robust Valgrind interaction,
 				manual control of OProfile daemon,
-				3.5RC-build SDK packaging tools (eclipse-build), 
-				scripts for running SDK tests against distro packages	
+				3.5 SDK packaging tools (eclipse-build), 
 			</html:p>
 		</milestone>
-		<milestone date="2009-09-??" milestone="0.4">
+		<milestone date="2009-10-07" milestone="0.4">
 			<html:p>0.4 release</html:p>
 			<html:p>
-				integration of SystemTap editor and SystemTapGUI, 
-				3.5 SDK packaging tools (eclipse-build), 
+				integration of GProf contribution, 
 				initial tracing framework implementation
+				scripts for running SDK tests against distro packages	
 			</html:p>
 		</milestone>
 		<milestone date="2010 Q2" milestone="1.0">
@@ -90,9 +89,10 @@
 	</release_milestones>
 	<target_environments>
 		<html:p>
-			The tools run with Eclipse 3.4 (some may still require
+			For releases <= 0.2, the tools run with Eclipse 3.4 (some may still require
 			updating from 3.3 in places) and require Java 5.0. Some
 			tools -- notable the autotools and profiling plugins -- require CDT >= 5.0.0.
+			For releases >= 0.3, the tools run with Eclipse 3.5 and related dependencies.
 		</html:p>
 		<html:p>
 			The packaging tools not delivered as Eclipse plugins have
