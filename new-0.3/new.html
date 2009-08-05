@@ -16,7 +16,7 @@
 	    <td bgcolor="#E0D0E6"><font size="1">0.3<br>
 	    <i>12 August 2009?</i></font></td>
 	    <td bgcolor="#E0D0E6" align="center">
-	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.3&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.3.0&query_based_on=0.3.0&field0-0-0=noop&type0-0-0=noop&value0-0-0"
+	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.3&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.3.0&query_based_on=0.3.0&field0-0-0=noop&type0-0-0=noop&value0-0-0">
 	    <font size="1">83?<br>bugs</font></a></td>
 	    <td bgcolor="#E0D0E6"><font size="1">
 	    People helped us with stuff.  Put any details here.
@@ -26,7 +26,7 @@
 	    <td bgcolor="#FAF7FB"><font size="1">0.2.1<br>
 	    <i>5 June 2009</i></font></td>
 	    <td bgcolor="#FAF7FB" align="center">
-	    <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=275685"
+	    <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=275685">
 	    <font size="1">1<br>bug</font></a></td>
 	    <td bgcolor="#FAF7FB"><font size="1">
 	    Patrick Hofer and others notified us of a bug with our Valgrind components on Debian-based systems.
@@ -36,7 +36,7 @@
 	    <td bgcolor="#FAF7FB"><font size="1">0.2<br>
 	    <i>11 May 2009</i></font></td>
 	    <td bgcolor="#FAF7FB" align="center">
-	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.2.0&query_based_on=0.2.0&field0-0-0=noop&type0-0-0=noop&value0-0-0="
+	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.2.0&query_based_on=0.2.0&field0-0-0=noop&type0-0-0=noop&value0-0-0=">
 	    <font size="1">67<br>bugs</font></a></td>
 	    <td bgcolor="#FAF7FB"><font size="1">
 	    Ed Swartz assisted in tracking down a UI blocker in the configure.ac editor.
@@ -92,11 +92,12 @@
 <a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
 <br>
 <a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools 0.2.1</a>
+</b>
 </p>
 
 <hr>
 
-<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.2</span> </p>
+<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.3</span> </p>
 <ul>
 	<li><a href="#autotools">GNU Autotools Support (# of items for this area; comment out if none)</a></li>
 	<li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li>
@@ -455,12 +456,24 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Suppression File Editor</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">For Valgrind tools that output a series of errors, there can often
+			be a lot of noise &mdash; errors you are not interested in. Valgrind has the capability
+			of using Suppressions to ignore such errors. The syntax for defining Suppression Files
+			can be found <a href="http://www.valgrind.org/docs/manual/manual-core.html#manual-core.suppress">here</a>.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<p align="left">
+			Now an editor for Valgrind Suppression files has been created and will be used for files ending with the
+			".supp" extension. It features context-sensitive syntax highlighting (for instance only
+			highlighting the word "Memcheck" when used to define the tool relating to the Suppression), code folding and completion.
+			Completion is very useful to select from the full range of Memcheck Suppression types.
+			</p>
+			<p align="left">
+			Currently only Memcheck is supported in the editor as it is the only tool of these plugins that uses Suppressions.
+			</p>
+			<img border="0" alt="Editing a Valgrind suppression file" src="images/valgrind-supp-editor.png">
 			</td>
 		</tr>
 		<tr>
@@ -470,12 +483,107 @@
 		</tr>
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>User Guide/Eclipse Help</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">A new documentation plugin, org.eclipse.linuxtools.valgrind.doc, has been created
+			that uses Mylyn <a href="http://wiki.eclipse.org/Mylyn/WikiText">WikiText</a>. This plugin fetches
+			a snapshot of the new <a href="http://wiki.eclipse.org/Linux_Tools_Project/Valgrind/User_Guide">user guide</a> on the Eclipse.org Wiki.
+			It then transforms it into HTML, DocBook XML and Eclipse Help. The plugin then contributes the Eclipse
+			Help via extension point to your workspace so you can view the user guide from the Help menu.  
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<img border="0" alt="Valgrind user guide in Eclipse Help" src="images/valgrind-eclipse-help.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>New Valgrind 3.4 Options</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Valgrind 3.4 brings a couple of new options to the Eclipse Valgrind plugins.
+			The most interesting is the ability to track the origins of uninitialized values. This functionality
+			was frequently requested as the use of uninitialized memory may occur far later in the program than
+			its allocation.
+			</p>
+			<p align="left">
+			The other option is setting the stack size for the program's main thread.
+			Valgrind by default requests the smaller of 16MB and the current ulimit value. For programs that
+			require more stack space than this, you can now specify that need.
+			</p>
+			<p align="left">
+			New version checking code allows these options to be available to users with Valgrind 3.4 installed,
+			and hidden from those with a lesser version.
+			</p>
+			<img border="0" alt="Demonstrating Valgrind 3.4's track-origins option" src="images/valgrind-track-origins.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Fatal Error Handling</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">On occassion, fatal runtime errors may occur in your program
+			that force Valgrind to exit. Before exiting, the Valgrind Core will output detailed
+			information about the problem. Examples include exiting from a signal such as
+			a Segmentation Fault or Floating Point Exception; or being given an invalid suppression file.
+			</p>
+			<p align="left">
+			In the case of a program-ending signal, there may still be useful output from Valgrind
+			up until that point in execution. For Memcheck, the tool's output coincides with
+			any output from the Valgrind core resulting in all errors being reported in the same
+			viewer &mdash; called the Valgrind Commentary pane.
+			</p>
+			<img border="0" alt="Encountering a segmentation fault running Memcheck" src="images/valgrind-memcheck-segv.png">
+			<p align="left">
+			For non-error reporting tools (Massif, Cachegrind), the fatal error will still appear in the
+			Valgrind Commentary pane, which is usually not used for Massif and Cachegrind. Switching to the
+			normal tool output is done from the Valgrind view's menu.
+			</p>
+			<img border="0" alt="Switching to Massif's tool output after encountering a segmentation fault" src="images/valgrind-massif-segv.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Export Massif Chart</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The allocation chart produced by the Massif plugin can now
+			be exported as an SVG.
+			</p>
+			<img border="0" alt="Exporting the Massif chart as an SVG image" src="images/valgrind-svg-chart.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Minimum Supported Version Checking</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The minimum supported version for Valgrind is 3.3.0. Attempting to
+			use a lesser version in the past would result in unexpected behaviour. Now the problem
+			is clearly identifiable by an error dialog displaying your installed version and the
+			minimum supported.
+			</p>
+			<img border="0" alt="Attempting to launch with Valgrind &lt; 3.3.0" src="images/valgrind-old-version.png">
 			</td>
 		</tr>
 		<tr>
