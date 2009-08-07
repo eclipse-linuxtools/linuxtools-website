@@ -19,7 +19,7 @@
 	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.3&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.3.0&query_based_on=0.3.0&field0-0-0=noop&type0-0-0=noop&value0-0-0">
 	    <font size="1">94<br>bugs</font></a></td>
 	    <td bgcolor="#E0D0E6"><font size="1">
-	    People helped us with stuff.  Put any details here.
+	    Jens Seidel helped with Autotools and Valgrind testing, filing important bugs. Alex Mueller guided the development of the manual control of the OProfile daemon.  Nick Boldt once again helped us with our release engineering processes.  Martin Gerhardy and Mat Booth helped getting the RPM specfile editor to work on Windows.  Andrew Niefer and Kim Moir helped a lot with getting eclipse-build off the ground and with difficult problems.
 	    </font></td>
 	</tr>
 	<tr>
@@ -56,7 +56,7 @@
 		<td bgcolor="#FAF7FB"><font size="1">Alphonse van Assche contributed
 		many fixes for our RPM specfile editor as well as integration of
 		<a href="http://rpmlint.zarb.org">rpmlint</a> error and warning
-		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">Systemtap</a>
+		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">SystemTap</a>
 		editor and helped 
 		with ChangeLog bug fixes.  Kent Sebastian picked up Keith Seitz's work
 		on <a href="http://oprofile.sourceforge.net">OProfile</a>
@@ -104,7 +104,7 @@
 	<li><a href="#libhover">API Documentation Hover Help (1)</a></li>
 	<li><a href="#oprofile">OProfile Profiling (3)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (5)</a></li>
-	<li><a href="#systemtap">Systemtap Integration (2)</a></li>
+	<li><a href="#systemtap">SystemTap Integration (2)</a></li>
 	<li><a href="#valgrind">Valgrind Profiling (6)</a></li>
 </ul>
 
@@ -206,7 +206,7 @@
 			<p align="right"><b>Launch Test Coverage</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The launch plug-in's test coverage has improved significantly, highlighting deficiencies and bugs which have been fixed.
+			<p align="left">The launch plug-in's test coverage has improved significantly.
 			</p>
 			<img border="0" alt="Test Coverage Dialog" src="images/Screenshot-oprofile_launch_testcoverage.png">
 			</td>
@@ -221,7 +221,7 @@
 			<p align="right"><b>Eclipse Help User Guide</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Linux Tools 0.3.0 release has the OProfile user guide (accessible <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">here</a> on the Eclipse wiki) available as a link in the Eclipse Help System.  
+			<p align="left">The Linux Tools 0.3.0 release makes the <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">OProfile user guide</a> available via a link in the Eclipse Help System.  
 			</p>
 			<img border="0" alt="Eclipse Help System With OProfile Item" src="images/Screenshot-oprofile_userhelp.png">
 			</td>
@@ -241,9 +241,9 @@
 			<p align="right"><b>Form based editor</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Initial form based editor is added. Support for a limited number of sections and tags is provided. It's not a full-featured editor yet but it is already usable and will form the basis for future work.
+			<p align="left">An initial form based editor has been added. As well, support for a limited number of sections and tags is also provided.  This initial version will form the basis for future work.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/specfile-form-editor.png">
+			<img border="0" alt="Form based editor" src="images/specfile-form-editor.png">
 			</td>
 		</tr>
 		<tr>
@@ -256,9 +256,9 @@
 			<p align="right"><b>Convert tabs to spaces </b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Support for replacing tabs with predefined number of spaces is added to the editor.
+			<p align="left">Support for replacing tabs with predefined number of spaces has been added to the editor.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/specfile-tab-to-spaces.png">
+			<img border="0" alt="Tabs to spaces" src="images/specfile-tab-to-spaces.png">
 			</td>
 		</tr>
 		<tr>
@@ -271,9 +271,9 @@
 			<p align="right"><b>RPM project support</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Wizard for creating RPM projects with standard rpmbuild directory structure is added.
+			<p align="left">A wizard for creating RPM projects with standard rpmbuild directory structure has been added.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/specfile-new-rpm-project.png">
+			<img border="0" alt="RPM project" src="images/specfile-new-rpm-project.png">
 			</td>
 		</tr>
 		<tr>
@@ -286,9 +286,9 @@
 			<p align="right"><b>Import SRPM</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Importing srpm files is resurrected from the old code not build in latest releases.
+			<p align="left">The ability to import srpm files has been restored to the latest release.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/specfile-import-srpm.png">
+			<img border="0" alt="Import SRPM" src="images/specfile-import-srpm.png">
 			</td>
 		</tr>
 		<tr>
@@ -301,9 +301,9 @@
 			<p align="right"><b>Export RPMS/SRPMS</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Exporting  RPM/SRPM files is resurrected from the old code not build in latest releases.
+			<p align="left">The ability to export RPM/SRPM files has also been restored to the latest release.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/specfile-export-rpms.png">
+			<img border="0" alt="Export RPM" src="images/specfile-export-rpms.png">
 			</td>
 		</tr>
 		<tr>
@@ -313,17 +313,17 @@
 		</tr>
 </table>
 
-<h2><a name="systemtap">Systemtap Integration</a></h2>
+<h2><a name="systemtap">SystemTap Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Systemtap IDE</b></p>
+			<p align="right"><b>SystemTap IDE</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Linux Tools 0.3.0 release will have an IDE for Systemtap. This would include a Systemtap editor and views that list available systemtap probes, systemtap functions and the kernel source code. 
+			<p align="left">The Linux Tools 0.3.0 release now has anIDE for SystemTap. This includes a SystemTap editor and views that list available systemtap probes, systemtap functions and the kernel source code. 
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/Screenshot-systemtap-1.png">
+			<img border="0" alt="SystemTap IDE" src="images/Screenshot-systemtap-1.png">
 			</td>
 		</tr>
 		<tr>
@@ -336,10 +336,10 @@
 			<p align="right"><b>SystemTap Graphs</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Support has been added to create custom graphs and view the output of Systemtap scripts as dynamic graphs.
+			<p align="left">Support has been added to create custom graphs and view the output of SystemTap scripts as dynamic graphs.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/Screenshot-systemtap-2.png">
-			<img border="0" alt="Alt text for the image" src="images/Screenshot-systemtap-3.png">
+			<img border="0" alt="SystemTap Graph 1" src="images/Screenshot-systemtap-2.png">
+			<img border="0" alt="SystemTap Graph 2" src="images/Screenshot-systemtap-3.png">
 			</td>
 		</tr>
 		<tr>
@@ -404,15 +404,14 @@
 			<p align="right"><b>New Valgrind 3.4 Options</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Valgrind 3.4 brings a couple of new options to the Eclipse Valgrind plugins.
-			The most interesting is the ability to track the origins of uninitialized values. This functionality
+			<p align="left">Valgrind 3.4 brings a couple of new options to the Eclipse Valgrind plugins, the most interesting of which is the ability to track the origins of uninitialized values. This functionality
 			was frequently requested as the use of uninitialized memory may occur far later in the program than
 			its allocation.
 			</p>
 			<p align="left">
-			The other option is setting the stack size for the program's main thread.
+			The other new option is the ability to set the stack size for the program's main thread.
 			Valgrind by default requests the smaller of 16MB and the current ulimit value. For programs that
-			require more stack space than this, you can now specify that need.
+			require more stack space than this, you can now specify what is needed.
 			</p>
 			<p align="left">
 			New version checking code allows these options to be available to users with Valgrind 3.4 installed,
@@ -462,7 +461,7 @@
 			</td>
 			<td valign="top" width="70%">
 			<p align="left">The allocation chart produced by the Massif plugin can now
-			be exported as an SVG.
+			be exported as an <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a>.
 			</p>
 			<img border="0" alt="Exporting the Massif chart as an SVG image" src="images/valgrind-svg-chart.png">
 			</td>
@@ -480,7 +479,7 @@
 			<p align="left">The minimum supported version for Valgrind is 3.3.0. Attempting to
 			use a lesser version in the past would result in unexpected behaviour. Now the problem
 			is clearly identifiable by an error dialog displaying your installed version and the
-			minimum supported.
+			minimum version supported.
 			</p>
 			<img border="0" alt="Attempting to launch with Valgrind &lt; 3.3.0" src="images/valgrind-old-version.png">
 			</td>
