@@ -20,8 +20,8 @@
 		<h1>$pageTitle</h1>
 		<p>
 		Our project is actively seeking interested people to join us.  If you are interested, please
-		email our mailing list, <a href="mailto:linux-distros-dev@eclipse.org">
-		linux-distros-dev@eclipse.org</a> or join us on Freenode IRC in the #eclipse-linux channel.
+		email our mailing list, <a href="https://dev.eclipse.org/mailman/listinfo/linuxtools-dev">
+		linuxtools-dev@eclipse.org</a> or join us on Freenode IRC in the #eclipse-linux channel.
         </p>
 
 		<p>
@@ -34,7 +34,7 @@
 		<li><a href="projectPages/oprofile">OProfile</a></li>
 		<li><a href="projectPages/rpmstubby">"RPM Stubby"</a></li>
 		<li><a href="projectPages/rpm-editor">RPM Specfile Editor</a></li>
-		<li><a href="projectPages/systemtap">Systemtap Editor</a></li>
+		<li><a href="projectPages/systemtap">Systemtap</a></li>
 		<li><a href="projectPages/valgrind">Valgrind</a></li>
 		</ul>
 
@@ -48,13 +48,16 @@
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/libhover.psf?root=Technology_LINUXTOOLS&view=co">Libhover</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpmstubby.psf?root=Technology_LINUXTOOLS&view=co">"RPM Stubby"</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpm-editor.psf?root=Technology_LINUXTOOLS&view=co">RPM Specfile Editor</a></li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap Editor</a></li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/systemtap.psf?root=Technology_LINUXTOOLS&view=co">Systemtap</a></li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Valgrind</a></li>
 		</ul>
 		</p>
 
         <p>
-        <h3>Packaging</h3>
+        <h3>Linux Distribution Packaging</h3>
+        Our Eclipse SDK building project, eclipse-build is progressing well and with our 0.3.0 release (targetted for 19 August 2009) 
+        we will release tools to build the Eclipse SDK for Linux distributions.  We hope all distributions will get involved.<br><br>
+        
         We have a few pages with lists of things that need to be fixed on the packaging side of things.
         These pages should be migrated into bugs:<br><br>
 
