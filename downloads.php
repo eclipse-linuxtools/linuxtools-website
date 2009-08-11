@@ -28,6 +28,9 @@
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the update site will automatically get these dependencies.
+		<!--
+		<br>&nbsp;&nbsp;&nbsp;<b>New!</b> <a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a> for building the Eclipse SDK.
+		-->
 		<ul> 
 			<li>
 				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/S200905251646/linuxtools-Update-incubation-0.2.1.zip">

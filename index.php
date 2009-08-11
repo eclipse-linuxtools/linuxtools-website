@@ -26,8 +26,8 @@
 	          <p>
 	          The project also provides a place for Linux
 	          distributions to collaboratively overcome issues surrounding distribution packaging of
-	          Eclipse technology.  The project produces both <em>best practices</em> and tools related to
-	          packaging.  One of our future goals in this area is to provide a source archive of the
+	          Eclipse technology.  The project produces both best practices and tools related to
+	          packaging.  One of our 0.3.0 release goals in this area is to provide a source archive of the
 	          Eclipse SDK that can be used by all Linux distributions building and distributing it.
 	          </p>
 
@@ -44,6 +44,9 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
+	                    <!--
+	                    <td>Get our latest <b>0.3.0</b> release (<em>2009-08-19</em>), now with <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">scripts to build the Eclipse SDK</a> for Linux distributions!</td>
+	                    -->
 	                    <td>Get our latest <b>0.2.1</b> release (<em>2009-06-05</em>)!</td>
 	                  </tr>
 	                </table>
