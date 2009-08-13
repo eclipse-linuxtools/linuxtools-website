@@ -44,7 +44,7 @@ $Nav->addNavSeparator("C/C++ Tools Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Systemtap", "/linuxtools/projectPages/systemtap", "_self", 2);
 	$Nav->addCustomNav("Valgrind", "/linuxtools/projectPages/valgrind", "_self", 2);
 $Nav->addNavSeparator("Packaging/Distribution Projects", "/linuxtools/index.php");
-	$Nav->addCustomNav("eclipse-build", "/linuxtools/projectPages/eclipse-build", "_self", 2);
+	$Nav->addCustomNav("eclipse-build", "http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build", "_self", 2);
 	$Nav->addCustomNav("RPM Stubby", "/linuxtools/projectPages/rpmstubby", "_self", 2);
 	$Nav->addCustomNav("Specfile Editor", "/linuxtools/projectPages/specfile", "_self", 2);
 	$Nav->addCustomNav("Distribution Packaging Status", 	"http://wiki.eclipse.org/Linux_Distributions_Packaging_Status", "_self", 2);
