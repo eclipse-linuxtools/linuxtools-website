@@ -28,16 +28,14 @@ $html =<<<EOHTML
 		<h2>Overview</h2>
 		<p>
 		Building Eclipse is not a simple process. You can not simply download a tarball from eclipse.org and
-build it in a way suitable for inclusion in a Linux distribution. There are a lot of manual interactions needed. 
+build it in a way suitable for inclusion in a Linux distribution. There are a lot of manual interactions needed.
 
 		</p>
 
 		<h2>Current Status</h2>
 		<p>
-		Eclipse-build is following Eclipse milestones builds and currently it is up to version 3.5.
-		We are currently able to build a runnable Eclipse SDK.  It is not complete nor ready for use by
-		distributions, but it is getting closer.
-		
+		Please see our wiki page for more information:  <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build</a>.
+
 		</p>
 
 		<h2>Future Plans</h2>
@@ -45,17 +43,6 @@ build it in a way suitable for inclusion in a Linux distribution. There are a lo
 		See our open bug list <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=[eclipse-build]&classification=Technology&product=Linux+Tools&component=PackagingTools&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&keywords_type=allwords&keywords=&bug_status=UNCONFIRMED&amp;bug_status=NEW&bug_status=ASSIGNED&amp;bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&amp;type0-0-0=noop&value0-0-0=">here</a>.
 		</p>
 
-		<h2>Try it out</h2>
-		<ol>
-		<li>Testing
-		<p>
-		  <ul>
-			<li>svn co http://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/eclipse-build/trunk/eclipse-build</li>
-			<li>see README.mediawiki included therein </li>
-		  </ul>
-		</p>
-		</li>
-		</ol>
 	</div>
 
 	<div id="rightcolumn">
