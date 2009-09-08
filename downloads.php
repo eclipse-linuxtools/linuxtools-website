@@ -29,7 +29,7 @@
 			<li>
 				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/S200908180852/linuxtools-Update-incubation-0.3.0.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href=http://download.eclipse.org/technology/linuxtools/S200908180852/linuxtools-Update-incubation-0.3.0.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/S200908180852/linuxtools-Update-incubation-0.3.0.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
@@ -37,8 +37,8 @@
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>Nightly builds&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
-		<br>Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
-		<br>Zips of these nightly builds are available here:  <a href="http://download.eclipse.org/technology/linuxtools/">http://download.eclipse.org/technology/linuxtools/</a>
+		<br>&nbsp;&nbsp;&nbsp;Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
+		<br>&nbsp;&nbsp;&nbsp;Zips of these nightly builds are available here:  <a href="http://download.eclipse.org/technology/linuxtools/">http://download.eclipse.org/technology/linuxtools/</a>
 		<ul>
 			<li>
 				Nightly update site:  <b>http://download.eclipse.org/technology/linuxtools/updates-nightly</b>
