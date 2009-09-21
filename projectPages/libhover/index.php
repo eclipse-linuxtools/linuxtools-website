@@ -57,16 +57,7 @@
 
 		<h2>Try it out</h2>
 		<p>
-		  At present we have no update site, but you can check the project plugins out of SVN
-		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need to check out the following from libhover/trunk:
-<pre>     org.eclipse.linuxtools.libhover
-     org.eclipes.linuxtools.libhover.feature
-     org.eclipse.linuxtools.libhover.library-docs
-     org.eclipse.linuxtools.libhover.glibc
-     org.eclipse.linuxtools.libhover.newlib
-</pre>
-From there, run the plugins as an Eclipse Application.
+		 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
 	</div>
 

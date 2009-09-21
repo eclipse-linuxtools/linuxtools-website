@@ -74,9 +74,7 @@ $html =<<<EOHTML
 
 		<h2>Try it out</h2>
 		<p>
-			Use this <a href="http://dev.eclipse.org/viewcvs/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/rpm-editor.psf?root=Technology_LINUXTOOLS&view=co">project set file</a> to get the latest sources.
-			<br>
-			Or install it from your distributions repositories. If it is not available ask your distribution - they need it too. 
+			 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
 	</div>
 

@@ -74,9 +74,7 @@ $html =<<<EOHTML
 
 		<h2>Try it out</h2>
 		<p>
-			For now the only way to try the plugin is to build it yourself.
-			But we are working on getting a downloads and update site.
-			Stay tuned.
+			 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
 	</div>
 
