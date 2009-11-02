@@ -102,7 +102,7 @@
 	<li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li>
 	<li><a href="#eclipse-callgraph">Eclipse Callgraph (2)</a></li>
 	<li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li>	
-	<li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li>
+	<li><a href="#gprof">GProf support (3)</a></li>
 	<li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li>
 	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (# of items for this area; comment out if none)</a></li>
@@ -263,12 +263,13 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Configuration</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">The Gprof plugin allows the generation of execution performance statistics based on compiler instrumentation.
+			Thus, the user has to compile the C/C++ program with profiling enabled using the <i>-pg</i> option prior to running the tool.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<img border="0" alt="" src="images/gprof-compile-step.png">
 			</td>
 		</tr>
 		<tr>
@@ -278,12 +279,33 @@
 		</tr>
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Launching</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Once the application run is finished, a <i>gmon.out</i> file is generated under the project.
+			Double clicking on this file will open a dialog to select the associated binary.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<img border="0" alt="" src="images/gprof-project-explorer.png">
+			<img border="0" alt="" src="images/gprof-binary-file.png">
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Results</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p>The Gprof view shows which parts of the program consuming most of the execution time.
+			It also provides a call graph infomation for each function. Source code can be viewed in an editor
+			by double clicking on a function in the tree.
+			<p>
+			<img border="0" alt="" src="images/gprof-view.png">
+			</p>
 			</td>
 		</tr>
 		<tr>
