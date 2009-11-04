@@ -1,5 +1,5 @@
 = Linux Tools 0.4 Release Review =
-Planned Review Date: 2009-10-27
+Planned Review Date: 2009-11-18
 
 Communication Channel:  linuxtools-dev@eclipse.org (https://dev.eclipse.org/mailman/listinfo/linuxtools-dev)
 
@@ -12,6 +12,7 @@ Author:  Andrew Overholt <overholt redhat com>
 * Project plan:  http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros
 
 == Features ==
+* GProf integration including function-based profiling and integration with the CDT
 * an RPM .spec editor with rpmlint integration
 * plugins integrating the OProfile profiler with the CDT
 * a Zest (GEF)-powered C/C++ call graph integrated with the CDT, powered by SystemTap
@@ -31,12 +32,12 @@ Author:  Andrew Overholt <overholt redhat com>
 ** (will be moved to http://www.eclipse.org/linuxtools/new after 0.4 is released)
 
 == Non-Code Aspects ==
-* 0.4 contains the continued improvements in our "eclipse-build" work which aims to ease the building and packaging of the Eclipse SDK for Linux distributions.  This work is now being consumed by Fedora and Ubuntu with other distributions
+* 0.4 contains the continued improvements in our "eclipse-build" work which aims to ease the building and packaging of the Eclipse SDK for Linux distributions.  This work is now being consumed by Fedora, Debian, and Ubuntu with other distributions hopefully joining that list in the future.
 * After our 0.1 release we did a series of screencasts with audio. They are still relevant and are all available via our downloads page:  http://www.eclipse.org/linuxtools/downloads.php
 
 == APIs ==
-* Being a pre-1.0 release, our APIs are subject to change
-* We continue to internalize unnecessarily public APIs.
+* Being a pre-1.0 release, our APIs are subject to change.
+* We continue to internalize unnecessarily public APIs and have done much work in this area for 0.4.
 * We will converge on stability – and document such stability – in our APIs well before our 1.0 release.
 
 == Architectural Issues ==
@@ -61,8 +62,8 @@ Author:  Andrew Overholt <overholt redhat com>
 == Bugzilla ==
 * For our 0.4 release we have 0 outstanding release-blocker bugs.
 * We have postponed a few enhancement requests until our 0.5 release.
-* We closed ## bugs during our 0.4 release cycle:
-https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.4&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&known_name=0.4.0&query_based_on=0.4.0&field0-0-0=noop&type0-0-0=noop&value0-0-0
+* We closed over 91 bugs during our 0.4 release cycle:
+https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.4&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0
 
 == Standards ==
 * Our project conforms to the following ad-hoc standards:
