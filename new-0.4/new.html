@@ -105,8 +105,8 @@
 	<li><a href="#gprof">GProf support (3)</a></li>
 	<!--<li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
 	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li>
-	<li><a href="#rpmstubby">RPM Stubby (# of items for this area; comment out if none)</a></li>
-	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (# of items for this area; comment out if none)</a></li>
+	<li><a href="#rpmstubby">RPM Stubby </a></li>
+	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor </a></li>
 	<li><a href="#systemtap">Systemtap Editor (# of items for this area; comment out if none)</a></li>
 	<li><a href="#systemtapprofiling">Systemtap-based Profiling (# of items for this area; comment out if none)</a></li>
 	<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
@@ -229,12 +229,11 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Update to latest Eclipse SDK version</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Build is updated to work with Eclipse SDK 3.5.1 version.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
 		</tr>
 		<tr>
@@ -244,12 +243,92 @@
 		</tr>
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Tests running</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">All test suites can be run with `ant runTests`. Single HTML file with aggregated results will be created.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>GTK 2.18 compatibility</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Eclipse 3.5.1 has problems running with GTK 2.18. Patches for enhancing compatibility are added. 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Build more...</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Ecf bundles and Equinox initializer arebuilt as part of the build process.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Enhance distributions experience</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Install target has been added to install provisioned SDK .
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Additional Architectures</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Support for the following additional architectures has been added: 
+			<lu>
+			<li>arm</li> 
+			<li>mips</li>
+			<li>mipsel</li>
+			<li>PA_RISC</li>
+			<li>alpha</li>
+			<li>ia64</li> 
+			<li>ppc64</li>
+			<li>sparc</li>
+			<li>sparc64</li>
+			</lu>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Speed up build</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Build has been changed to work with only one target ws-arch-os.
+			</p>
 			</td>
 		</tr>
 		<tr>
@@ -389,27 +468,12 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Maven generation</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Support for generating RPM spec files from Maven pom.xml files.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<img border="0" alt="Alt text for the image" src="images/rpmstubby-pom.png">
 			</td>
 		</tr>
 		<tr>
@@ -424,27 +488,11 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>General cleanup</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Codebase is adopted to use SDK 3.5 API. Issues found by PMD/Findbugs are fixed.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
 		</tr>
 		<tr>
