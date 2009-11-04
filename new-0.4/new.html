@@ -116,7 +116,7 @@
 	<li><a href="#gprof">GProf support (3)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (1)</a></li>
-	<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
+	<li><a href="#valgrind">Valgrind Profiling (2)</a></li>
 </ul>
 
 <h2><a name="autotools">GNU Autotools Support</a></h2>
@@ -417,6 +417,22 @@
 For the Linux Tools 0.4 release, an issue has been corrected that prevented launching a program successfully with default Valgrind options. Valgrind 3.5 users should now have no
 problems profiling their C/C++ applications in Eclipse.
 			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Customize Valgrind Location</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">A new preference page accessible from <i>Window -> Preferences</i> allows you to specify an alternate location for the Valgrind executable.
+This defaults to the path returned by the <i>which</i> command. Now you can use Valgrind from a non-standard location without having to manipulate your PATH environment variable.
+			</p>
+			<img src="images/valgrind-pref.png"/>
 			</td>
 		</tr>
 </table>
