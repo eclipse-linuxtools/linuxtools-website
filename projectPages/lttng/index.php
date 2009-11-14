@@ -36,7 +36,7 @@
 			that facilitates their integration in Eclipse</li>
 			<li>An LTTng reference implementation based on TMF</li>
 		</ul>
-		</p>
+		<p>
 		The Tracing and Monitoring Framework will provide a number of features:
 		<ul>
 			<li>Tracing project management</li>
