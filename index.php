@@ -27,7 +27,7 @@
 	          The project also provides a place for Linux
 	          distributions to collaboratively overcome issues surrounding distribution packaging of
 	          Eclipse technology.  The project produces both best practices and tools related to
-	          packaging.  One of our 0.3.0 release features is a source archive of the
+	          packaging.  Since our 0.3.0 release, one of our features is a source archive of the
 	          Eclipse SDK that can be used by all Linux distributions building and distributing it.
 	          </p>
 
@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.3.0</b> release (<em>2009-08-19</em>), now with <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">scripts to build the Eclipse SDK</a> for Linux distributions!</td>
+	                    <td>Get our latest <b>0.4.0</b> release (<em>2009-11-23</em>)!</td>
 	                  </tr>
 	                </table>
 	              </td>
@@ -90,11 +90,13 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
-					<li><em>2009-08-19</em>:  Our 0.3.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
+					<li><em>2009-11-23</em>:  Our 0.4.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 					Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
+					<li><em>2009-08-19</em>:  Our 0.3.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
+					Check out our <a href="http://www.eclipse.org/linuxtools/new-0.3" >New and Noteworthy</a> page.</li>
 				    <li><em>2009-06-05</em>:  Our 0.2.1 bug-fix release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>, fixing a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=275685">bug</a> with our Valgrind component on Debian-based systems.
 				    <li><em>2009-05-11</em>:  Our 0.2.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
-				    Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
+				    Check out our <a href="http://www.eclipse.org/linuxtools/new-0.2.1" >New and Noteworthy</a> page.</li>
 					<li><em>2009-04-07</em>:  A presentation on the project was given at EclipseCon 2009 and the <a href="http://overholt.fedorapeople.org/LinuxTools.pdf">slides are available</a>.</li>
 					<li><em>2009-03-27</em>:  Our screencasts have been re-recorded with audio!  <a href="/linuxtools/downloads.php">Check them out</a>.</li>
 				    <li><em>2009-03-03</em>:  The Linux Tools project team has put together some screencast videos demonstrating functionality in our 0.1.0 and 0.2.0 releases.  They are all available in Ogg Theora and Flash video under the "Screencast videos" section of our <a href="/linuxtools/downloads.php">downloads page</a>.
