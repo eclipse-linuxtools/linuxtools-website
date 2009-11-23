@@ -131,7 +131,7 @@
 			</td>
 			<td valign="top" width="70%">
 			<p align="left">The GNU Autotools plug-in now provides template projects for both C and C++ in the CDT C and C++ Project Wizards.  There are two templates for each language: an empty project template used when importing existing projects and a sample "Hello World" project template.  The "Hello World" sample project templates provide all needed source and configuration files such that the build produces a working executable that prints to the console.			</p>
-			<img border="0" alt="Autotools Project Template" src="images/autotools-template.png">
+			<img border="0" alt="Autotools Project Template" src="images-0.4/autotools-template.png">
 			</td>
 		</tr>
 		<tr>
@@ -146,10 +146,10 @@
 			<td valign="top" width="70%">
 			<p align="left">The Autotools plug-in has been rewritten.  As part of the rewrite, the configuration settings have been moved under the Autotools properties page.  Configuration options are now stored in a new project xml file: .autotools.  The build directory is no longer specified in the configuration settings.  It is specified exclusively using the "Build Location" setting found in the C/C++ Build properties page.
 			</p>
-			<img border="0" alt="New configuration settings" src="images/autotools-newconfigure.png">
+			<img border="0" alt="New configuration settings" src="images-0.4/autotools-newconfigure.png">
 			<p align="left">If the build location is not set, then by default, the initial build will occur in the top-level project directory.  Subsequent builds will build in new directories which are named "build-${CfgName}" where ${CfgName} is the name of the configuration.  If this behaviour is not desired, it can be turned off from the top-level Autotools property page.
 			</p>
-			<img border="0" alt="New autotools page" src="images/autotools-newautotoolspage.png">
+			<img border="0" alt="New autotools page" src="images-0.4/autotools-newautotoolspage.png">
 			</td>
 		</tr>
 		<tr>
@@ -171,7 +171,7 @@
 				Graphically displays the call hierarchy from executing a C/C++
 				binary, along with various other runtime statistics.
 			</p>
-			<img border="0" src="images/callgraph.png">
+			<img border="0" src="images-0.4/callgraph.png">
 			</td>
 		</tr>
 		<tr>
@@ -189,7 +189,7 @@
 				that from any view, one can jump directly to the relevant
 				source code by holding Ctrl and double clicking a node.
 			</p>
-			<img border="0" src="images/callgraph-link.png">
+			<img border="0" src="images-0.4/callgraph-link.png">
 			</td>
 		</tr>
 		<tr>
@@ -323,7 +323,7 @@
 			<p align="left">The Gprof plugin allows the generation of execution performance statistics based on compiler instrumentation.
 			Thus, the user has to compile the C/C++ program with profiling enabled using the <i>-pg</i> option prior to running the tool.
 			</p>
-			<img border="0" alt="" src="images/gprof-compile-step.png">
+			<img border="0" alt="" src="images-0.4/gprof-compile-step.png">
 			</td>
 		</tr>
 		<tr>
@@ -339,8 +339,8 @@
 			<p align="left">Once the application run is finished, a <i>gmon.out</i> file is generated under the project.
 			Double clicking on this file will open a dialog to select the associated binary.
 			</p>
-			<img border="0" alt="" src="images/gprof-project-explorer.png">
-			<img border="0" alt="" src="images/gprof-binary-file.png">
+			<img border="0" alt="" src="images-0.4/gprof-project-explorer.png">
+			<img border="0" alt="" src="images-0.4/gprof-binary-file.png">
 			</p>
 			</td>
 		</tr>
@@ -358,7 +358,7 @@
 			It also provides call graph infomation for each function. Source code can be viewed in an editor
 			by double clicking on a function in the tree.
 			<p>
-			<img border="0" alt="" src="images/gprof-view.png">
+			<img border="0" alt="" src="images-0.4/gprof-view.png">
 			</p>
 			</td>
 		</tr>
@@ -379,7 +379,7 @@
 			<td valign="top" width="70%">
 			<p align="left">RPM Stubby now has support for generating RPM spec files from Maven pom.xml files.
 			</p>
-			<img border="0" src="images/rpmstubby-pom.png">
+			<img border="0" src="images-0.4/rpmstubby-pom.png">
 			</td>
 		</tr>
 		<tr>
@@ -435,7 +435,7 @@ problems profiling their C/C++ applications in Eclipse.
 			<p align="left">A new preference page accessible from <i>Window -> Preferences</i> allows you to specify an alternate location for the Valgrind executable.
 This defaults to the path returned by the <i>which</i> command. Now you can use Valgrind from a non-standard location without having to manipulate your PATH environment variable.
 			</p>
-			<img src="images/valgrind-pref.png"/>
+			<img src="images-0.4/valgrind-pref.png"/>
 			</td>
 		</tr>
 </table>
