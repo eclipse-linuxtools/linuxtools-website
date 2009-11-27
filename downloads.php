@@ -55,7 +55,7 @@
 		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/specfile">Specfile editor</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/specfile-demo.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1201">Flash video for viewing in a web browser</a>))</li>
 		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/valgrind">Valgrind Memcheck</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1197">Flash video for viewing in a web browser</a>))</li>
 		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/valgrind">Valgrind Massif</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-2.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1198">Flash video for viewing in a web browser</a>))</li>
-		<li>&nbsp;&nbsp;&nbsp;Function Callgraph (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/callgraph-realtimeparsing.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1198">Flash video for viewing in a web browser</a>))</li>
+		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/callgraph">Function Callgraph</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/callgraph-realtimeparsing.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1198">Flash video for viewing in a web browser</a>))</li>
 		
 		</ul>
 		</div>
