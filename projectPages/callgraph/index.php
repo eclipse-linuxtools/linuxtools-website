@@ -21,7 +21,7 @@
 		<div>
 		<h2>Overview</h2>
 		<p>The Linux Tools Project Function Callgraph plugin aims to provide an easy-to-use tool for C/C++ function and timing visualization.
-		The Callgraph plugin uses the powerful SystemTap language as a backend, allowing it to monitor the status of a program -- function
+		The Callgraph plugin uses the powerful SystemTap language as a back-end, allowing it to monitor the status of a program -- function
 		calls, returns, times and even user-space variables. The resulting data is displayed using Zest to create a visually pleasing graph
 		of your entire program, or whatever parts of it you suggest. The graph shows timing information, and can be used for optimization.
 		<br/>
@@ -36,7 +36,7 @@
 		<h2>Extensibility</h2>
 		<p>
 		<ul>
-			<li>With the Eclipse-Callgraph projects installed, you can createa a new launch for any kind of project by extending a single class: SystemTapLaunchShortcut.</li>
+			<li>With the Eclipse-Callgraph projects installed, you can create a a new launch for any kind of project by extending a single class: SystemTapLaunchShortcut.</li>
     			<li>The only function that needs to be defined is the setScriptPath variable -- your script will automatically select a text parser and viewer by default.</li>
     		<li>By setting parameters in your Launch class, you can modify many of the parameters in the resulting command-line call to SystemTap. You can even change the STAP_PATH to use a different command-line tool altogether!</li>
 		</ul>
