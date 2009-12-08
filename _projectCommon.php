@@ -32,7 +32,7 @@ $Nav->addNavSeparator("Linux Tools", "/linuxtools/index.php");
     $Nav->addCustomNav("Project Summary", "/projects/project_summary.php?projectid=technology.linux-distros", "", 1);
     $Nav->addCustomNav("Plan", "http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros", "", 2);
     $Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/Linux_Tools_Project", "_self", 2);
-    $Nav->addCustomNav("Get Involved", "/linuxtools/getInvolved.php", "_self", 2);
+    $Nav->addCustomNav("Contribute/Get Involved", "http://wiki.eclipse.org/Linux_Tools_Project/Getting_Involved", "_self", 2);
     $Nav->addCustomNav("Contact Us", "/linuxtools/contact.php", "_self", 2);
     $Nav->addCustomNav("Downloads", "/linuxtools/downloads.php");
 $Nav->addNavSeparator("C/C++ Tools Projects", "/linuxtools/index.php");
