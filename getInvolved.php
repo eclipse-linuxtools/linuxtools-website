@@ -33,7 +33,7 @@
 		<li><a href="projectPages/eclipse-build">eclipse-build</a></li>
 		<li><a href="projectPages/oprofile">OProfile</a></li>
 		<li><a href="projectPages/rpmstubby">"RPM Stubby"</a></li>
-		<li><a href="projectPages/rpm-editor">RPM Specfile Editor</a></li>
+		<li><a href="projectPages/specfile">RPM Specfile Editor</a></li>
 		<li><a href="projectPages/systemtap">Systemtap</a></li>
 		<li><a href="projectPages/valgrind">Valgrind</a></li>
 		</ul>
