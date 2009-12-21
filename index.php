@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.4.0</b> release (<em>2009-11-23</em>)!</td>
+	                    <td>Get our latest <b>0.4.1</b> release (<em>2009-12-21</em>)!</td>
 	                  </tr>
 	                </table>
 	              </td>
@@ -90,6 +90,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
+				    <li><em>2009-12-21</em>:  Our 0.4.1 bug-fix release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>, fixing some Autotools and OProfile plugin <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;target_milestone=0.4.1;product=Linux%20Tools;classification=Technology">bugs</a>.
 					<li><em>2009-11-23</em>:  Our 0.4.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 					Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>
 					<li><em>2009-08-19</em>:  Our 0.3.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
