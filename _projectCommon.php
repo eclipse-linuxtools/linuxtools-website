@@ -37,6 +37,7 @@ $Nav->addNavSeparator("Linux Tools", "/linuxtools/index.php");
     $Nav->addCustomNav("Downloads", "/linuxtools/downloads.php");
 $Nav->addNavSeparator("C/C++ Tools Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Autotools", "/linuxtools/projectPages/autotools", "_self", 2);
+	$Nav->addCustomNav("Callgraph", "/linuxtools/projectPages/callgraph", "_self", 2);
 	$Nav->addCustomNav("ChangeLog", "/linuxtools/projectPages/changelog", "_self", 2);
 	$Nav->addCustomNav("Libhover", "/linuxtools/projectPages/libhover", "_self", 2);
 	$Nav->addCustomNav("Man Page", "/linuxtools/projectPages/manpage", "_self", 2);
