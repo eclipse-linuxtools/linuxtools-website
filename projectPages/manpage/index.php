@@ -34,8 +34,15 @@
 
 		<h2>Screenshots</h2>
 		<p>
+		 <center>
+		    <img src="images/tooltip.png">
+		    <br>
+		    Man page as tooltip
+		  </center>
 		  <center>
-		    TODO
+		    <img src="images/view.png">
+		    <br>
+		    Man page view
 		  </center>
 		</p>
 
