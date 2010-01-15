@@ -34,16 +34,26 @@
 
 		<h2>Screenshots</h2>
 		<p>
-		 <center>
-		    <img src="images/tooltip.png">
-		    <br>
-		    Man page as tooltip
-		  </center>
-		  <center>
-		    <img src="images/view.png">
-		    <br>
-		    Man page view
-		  </center>
+		 <table cellpadding="9">
+				<tbody>
+					<tr>
+						<td>
+							<a href="images/tooltip.png"><img src="images/tooltip_thumb.png"/></a>
+						</td>
+						<td>
+							<a href="images/view.png"><img src="images/view_thumb.png"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center">
+							Man page as tooltip
+						</td>
+						<td style="text-align: center">
+							Man page in a view
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</p>
 
 		<h2>Try it out</h2>
