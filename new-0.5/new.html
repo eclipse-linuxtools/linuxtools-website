@@ -236,16 +236,38 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Multi-threaded profiling</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+			Callgraph can now trace function calls in multi-threaded programs.
+			No difference in terms of the user interface, but now when graphing
+			Callgraph will automatically track which functions belong to which
+			thread and display them accordingly.  
+			</p>
+			<img border="0" alt="Multi-threaded program in radial view" src="images-0.5/threaded-screenshot.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
 			<p align="right"><b>Convert To DOT Language</b></p>
 			</td>
 			<td valign="top" width="70%">
 			<p align="left">
-			DOT is a language capable of describing the structure and relations
-			of graphs. In Eclipse Callgraph, by clicking the main menu and
-			going to File, then Save As, one will see a few options allowing
-			the user to convert a program's call hierarchy into DOT language.
+			Eclipse Callgraph can now save graphs to the DOT language. 
+			In Eclipse Callgraph, click the main menu and choose 
+			File -> Save As, then choose an option to save
+			parts of the graph or the whole graph as a .dot file.
+			Graphs in DOT language can then be graphed or converted 
+			to other formats (e.g. PDF, PNG, etc.) by any of a large
+			number of existing DOT parsing programs. 
 			</p>
-			<img border="0" alt="Alt text for the image" src="images-0.5/callgraph-dot.png">
+			<img border="0" alt="Sample Callgraph-generated .dot file and resulting graph in graphviz" src="images-0.5/callgraph-dot.png">
 			</td>
 		</tr>
 		<tr>
