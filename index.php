@@ -19,9 +19,9 @@
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
 	          We build on the source editing and debugging features of the
 	          <a href="http://eclipse.org/cdt">CDT</a> and integrate popular native
-	          development tools such as the GNU Autotools, Valgrind, OProfile, RPM, Systemtap, etc.  Current
+	          development tools such as the GNU Autotools, Valgrind, OProfile, RPM, SystemTap, GCov, GProf, LTTng, etc.  Current
 	          projects include Autotools build integration, a Valgrind heap usage analysis tool, and an OProfile call profiling
-	          tool.  In the future we hope to expand into the area of tracing tools.
+	          tool.  We also have projects implementing LTTng trace viewers and analyzers.
 	          </p>
 	          <p>
 	          The project also provides a place for Linux
@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.4.1</b> release (<em>2009-12-21</em>)!</td>
+	                    <td>Get our latest <b>0.5</b> release (<em>2010-03-18</em>)!</td>
 	                  </tr>
 	                </table>
 	              </td>
@@ -90,6 +90,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
+				    <li><em>2010-03-18</em>:  Our 0.5.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 				    <li><em>2009-12-21</em>:  Our 0.4.1 bug-fix release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>, fixing some Autotools and OProfile plugin <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;target_milestone=0.4.1;product=Linux%20Tools;classification=Technology">bugs</a>.
 					<li><em>2009-11-23</em>:  Our 0.4.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 					Check out our <a href="http://www.eclipse.org/linuxtools/new/" >New and Noteworthy</a> page.</li>

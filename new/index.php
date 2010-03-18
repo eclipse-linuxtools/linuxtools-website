@@ -3,11 +3,11 @@
 	#*****************************************************************************
 	#
 	#****************************************************************************
-
+	
 	#
 	$pageTitle 		= "Linux Tools New & Noteworthy";
-
-	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new/new.html";
+	
+	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new-0.5/new.html";
     $dataFile = fopen( $filename, "r" ) ;
     if ( $dataFile )  {
     	while (!feof($dataFile))   {
@@ -18,10 +18,10 @@
     	die( "fopen failed for $filename" ) ;
     }
 
-	# Paste your HTML content between the EOHTML markers!
-
+	# Paste your HTML content between the EOHTML markers!	
+	
 	include("_projectCommon.php");
-
+		
 	$html = <<<EOHTML
 
 <div id="midcolumn" style="width:92%">
