@@ -139,7 +139,7 @@
 	<li><a href="#changelog">ChangeLog Tools (1)</a></li>
 	<li><a href="#eclipsebuild">Building the Eclipse SDK (3)</a></li>	
 	<li><a href="#callgraph">Eclipse Callgraph (2)</a></li>
-	<li><a href="#gcov">GCov integration (1)</a></li>	
+	<li><a href="#gcov">GCov integration (3)</a></li>	
 	<li><a href="#rpmstubby">RPM Stubby (3)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (4)</a></li>
 	<li><a href="#systemtap">Systemtap Editor (2)</a></li>
@@ -285,8 +285,9 @@
 			<p align="right"><b>Code coverage</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">GCov code coverage output files can now be visualized in Eclipse.  In addition, source files are annotated with lines covered their frequency of execution. 
+			<p align="left">GCov code coverage output files can now be visualized in Eclipse. An application compiled with "-fprofile-arc" "-ftest-coverage" will generate 2 coverage output files (*.gcda/*.gcno) for each source file of the program. Double clicking on one of these files provides an overview of coverage for the whole program. In addition, source files are annotated with lines covered their frequency of execution. 
 			</p>
+			<img border="0" alt="GCov screenshot" src="images-0.5/gcovProject.png">
 			<img border="0" alt="GCov screenshot" src="images-0.5/gcov.png">
 			</td>
 		</tr>
