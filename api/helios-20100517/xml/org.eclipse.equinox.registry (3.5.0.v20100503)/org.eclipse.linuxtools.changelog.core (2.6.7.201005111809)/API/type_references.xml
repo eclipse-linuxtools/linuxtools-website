@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.equinox.registry (3.5.0.v20100503)" reference_count="17" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IConfigurationElement" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="152" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="formatterConfigElementToUse" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.formatterConfigElementToUse" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="-1" member="cachedPrefFormatter" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.cachedPrefFormatter" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="-1" member="cachedInFileFormateters" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.cachedInFileFormateters" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="144" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="89" member="getParserContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getParserContributor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IParserChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="214" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="167" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="159" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        <reference linenumber="58" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.getChangelog()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler"/>
+            <reference linenumber="434" member="outputMultipleEntryChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.outputMultipleEntryChangeLog(PatchFile, String[])" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="67" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.getChangelog()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler"/>
+        <reference linenumber="53" member="setup" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant.setup(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant"/>
+            <reference linenumber="88" member="getConfig" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.getConfig()" signature="()Lorg/eclipse/jface/text/source/SourceViewerConfiguration;" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="152" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getFormatterConfigElement" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterConfigElement()" signature="()Lorg/eclipse/core/runtime/IConfigurationElement;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="142" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+        </reference_kind>
+    </target>
+</references>

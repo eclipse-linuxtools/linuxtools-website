@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="12" reference_visibility="1">
+    <target member="getDisplay" name="org.eclipse.ui.IWorkbench.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="36" member="getPassword" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.getPassword()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt$1"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt$1"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt$1"/>
+            <reference linenumber="36" member="getPassword" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.getPassword()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.StructuresPlugin()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.StructuresPlugin()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="37" member="start" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="63" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="44" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.internal.StructuresPlugin"/>
+        </reference_kind>
+    </target>
+</references>

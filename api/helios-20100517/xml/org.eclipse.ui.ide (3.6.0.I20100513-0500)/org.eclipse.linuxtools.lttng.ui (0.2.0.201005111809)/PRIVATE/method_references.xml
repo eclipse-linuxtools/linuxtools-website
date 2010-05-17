@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="19" reference_visibility="2">
+    <target member="getCheckedElementCount" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.getCheckedElementCount()" signature="()I" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="81" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getLinkTargetURI" name="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.getLinkTargetURI()" signature="()Ljava/net/URI;" type="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="325" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="finish" name="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.finish()" signature="()Z" type="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard"/>
+        </reference_kind>
+    </target>
+    <target member="log" name="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin.log(Class, String, Throwable)" signature="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="228" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="validateLinkLocation" name="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.validateLinkLocation(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="275" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceDirectory" name="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.getSourceDirectory()" signature="()Ljava/io/File;" type="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="61" member="getTracepath" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.getTracepath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="100" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="62" member="getTracepath" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.getTracepath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="84" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="49" member="getTraceDirectory" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.getTraceDirectory()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="92" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="48" member="getTraceDirectory" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.getTraceDirectory()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="87" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.WizardFileSystemResourceImportPage1(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.ImportTraceWizardPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="36" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.ImportTraceWizardPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.CreateLinkedResourceGroup(int, Listener, CreateLinkedResourceGroupIStringValue)" signature="(ILorg/eclipse/swt/widgets/Listener;Lorg/eclipse/ui/internal/ide/dialogs/CreateLinkedResourceGroup$IStringValue;)V" type="org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="108" member="createLinkResourceGroup" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createLinkResourceGroup(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setAllSelections" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setAllSelections(boolean)" signature="(Z)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="122" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+            <reference linenumber="97" member="isSelectedElementsValidLttngTraces" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.isSelectedElementsValidLttngTraces()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getIDEImageDescriptor" name="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin.getIDEImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="78" member="init" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard"/>
+        </reference_kind>
+    </target>
+</references>

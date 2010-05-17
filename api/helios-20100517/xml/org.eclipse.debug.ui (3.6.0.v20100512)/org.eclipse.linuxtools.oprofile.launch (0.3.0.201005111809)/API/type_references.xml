@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.debug.ui (3.6.0.v20100512)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="19" member="getProfileTabs" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileLaunchConfigurationTabGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProfileTabs" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileLaunchConfigurationTabGroup"/>
+        </reference_kind>
+    </target>
+</references>

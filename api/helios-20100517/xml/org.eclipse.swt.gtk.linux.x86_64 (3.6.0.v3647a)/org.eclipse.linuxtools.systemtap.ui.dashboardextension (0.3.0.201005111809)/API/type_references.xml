@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="83" reference_visibility="1">
+    <target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="57" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="57" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Tree" type="org.eclipse.swt.widgets.Tree">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="treeGraphs" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.treeGraphs" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="98" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.val$shell" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.1.val$shell" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="53" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="52" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="53" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.ScriptDetails(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.1.1(ScriptDetails, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboardextension/dialogs/ScriptDetails;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$1"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.2(ScriptDetails, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboardextension/dialogs/ScriptDetails;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.ExportScriptDialog(Shell, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionListener" type="org.eclipse.swt.events.SelectionListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.1" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.4" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.1" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Display" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="124" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.TreeItem" type="org.eclipse.swt.widgets.TreeItem">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="144" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="165" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="selectedTreeItem" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.selectedTreeItem" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="144" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="165" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="121" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Dialog" type="org.eclipse.swt.widgets.Dialog">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="62" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="76" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="91" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="69" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="104" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="83" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="62" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="83" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="65" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="86" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="77" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="80" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="79" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="77" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="65" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="80" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="83" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="79" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="86" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="cancelButton" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.cancelButton" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="-1" member="OKButton" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.OKButton" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="-1" member="btnAddFilter" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.btnAddFilter" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="btnRemove" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.btnRemove" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="btnAdd" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.btnAdd" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="102" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="113" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="107" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="106" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="93" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="74" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="74" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$1"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.1.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$1"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.4.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$4"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.1.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$1"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.4.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$4"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Text" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="95" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="93" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="72" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="86" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="91" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="txtDescription" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.txtDescription" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="dirText" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.dirText" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="-1" member="txtCategory" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.txtCategory" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="txtDisplay" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.txtDisplay" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+            <reference linenumber="-1" member="scriptText" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.scriptText" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+        </reference_kind>
+    </target>
+</references>

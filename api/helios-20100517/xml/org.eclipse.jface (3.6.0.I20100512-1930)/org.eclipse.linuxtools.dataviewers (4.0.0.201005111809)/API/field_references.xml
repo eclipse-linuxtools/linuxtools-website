@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="15" reference_visibility="1">
+    <target member="EMPTY" name="org.eclipse.jface.viewers.TreeSelection.EMPTY" type="org.eclipse.jface.viewers.TreeSelection">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="47" member="run" origin="org.eclipse.linuxtools.dataviewers.actions.STCollapseSelectionAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.actions.STCollapseSelectionAction"/>
+            <reference linenumber="47" member="run" origin="org.eclipse.linuxtools.dataviewers.actions.STExpandSelectionAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.actions.STExpandSelectionAction"/>
+        </reference_kind>
+    </target>
+<target member="LEFT" name="org.eclipse.jface.viewers.ViewerCell.LEFT" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="122" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget"/>
+            <reference linenumber="868" member="calcolateIndex" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.calcolateIndex(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog"/>
+            <reference linenumber="867" member="calcolateIndex" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.calcolateIndex(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog"/>
+            <reference linenumber="127" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget"/>
+        </reference_kind>
+    </target>
+    <target member="RIGHT" name="org.eclipse.jface.viewers.ViewerCell.RIGHT" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="124" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget"/>
+            <reference linenumber="119" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget"/>
+            <reference linenumber="135" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTreeFindReplaceTarget"/>
+            <reference linenumber="133" member="findAndSelect" origin="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget.findAndSelect(ViewerCell, String, boolean, boolean, boolean, boolean, boolean, boolean)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;Ljava/lang/String;ZZZZZZ)Lorg/eclipse/jface/viewers/ViewerCell;" type="org.eclipse.linuxtools.dataviewers.findreplace.STTableFindReplaceTarget"/>
+            <reference linenumber="118" member="modifyText" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.FindModifyListener.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog$FindModifyListener"/>
+            <reference linenumber="859" member="calcolateIndex" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.calcolateIndex(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog"/>
+            <reference linenumber="860" member="calcolateIndex" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.calcolateIndex(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog"/>
+        </reference_kind>
+    </target>
+    <target member="BELOW" name="org.eclipse.jface.viewers.ViewerCell.BELOW" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="119" member="modifyText" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.FindModifyListener.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog$FindModifyListener"/>
+        </reference_kind>
+    </target>
+<target member="EMPTY" name="org.eclipse.jface.viewers.StructuredSelection.EMPTY" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.listeners.STSelectionProvider.STSelectionProvider()" signature="()V" type="org.eclipse.linuxtools.dataviewers.listeners.STSelectionProvider"/>
+        </reference_kind>
+    </target>
+</references>

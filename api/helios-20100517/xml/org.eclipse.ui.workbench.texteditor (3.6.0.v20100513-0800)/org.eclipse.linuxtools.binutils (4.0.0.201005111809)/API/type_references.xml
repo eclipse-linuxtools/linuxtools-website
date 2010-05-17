@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.ui.texteditor.IDocumentProvider" type="org.eclipse.ui.texteditor.IDocumentProvider">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="418" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.texteditor.ITextEditor" type="org.eclipse.ui.texteditor.ITextEditor">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="422" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="418" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="417" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+</references>

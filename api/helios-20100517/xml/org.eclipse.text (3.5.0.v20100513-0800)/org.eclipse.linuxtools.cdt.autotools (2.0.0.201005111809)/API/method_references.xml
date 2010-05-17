@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="24" reference_visibility="1">
+    <target member="getLineOfOffset" name="org.eclipse.jface.text.IDocument.getLineOfOffset(int)" signature="(I)I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="371" member="handleError" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer.handleError(int, int, String)" signature="(IILjava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer"/>
+            <reference linenumber="1020" member="handleMessage" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/AutoconfElement;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser"/>
+        </reference_kind>
+    </target>
+    <target member="get" name="org.eclipse.jface.text.IDocument.get()" signature="()Ljava/lang/String;" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="78" member="followsSpace" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token.followsSpace()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token"/>
+            <reference linenumber="66" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer.AutoconfTokenizer(IDocument, IAutoconfErrorHandler)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/IAutoconfErrorHandler;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer"/>
+        </reference_kind>
+    </target>
+    <target member="getLineOffset" name="org.eclipse.jface.text.IDocument.getLineOffset(int)" signature="(I)I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="372" member="handleError" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer.handleError(int, int, String)" signature="(IILjava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer"/>
+            <reference linenumber="1021" member="handleMessage" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/AutoconfElement;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser"/>
+            <reference linenumber="129" member="getCharOffset" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.getCharOffset(int, int)" signature="(II)Ljava/lang/Integer;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler"/>
+        </reference_kind>
+    </target>
+    <target member="get" name="org.eclipse.jface.text.IDocument.get(int, int)" signature="(II)Ljava/lang/String;" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="347" member="getTokenSpanTextBetween" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextBetween(Token, Token)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser"/>
+            <reference linenumber="131" member="getSource" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement.getSource()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement"/>
+            <reference linenumber="364" member="getTokenSpanTextFromUpTo" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextFromUpTo(Token, Token)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/Token;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.text.Region.Region(int, int)" signature="(II)V" type="org.eclipse.jface.text.Region">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="199" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="171" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="82" member="findWord" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="84" member="findWord" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="142" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+        </reference_kind>
+    </target>
+    <target member="getLength" name="org.eclipse.jface.text.IDocument.getLength()" signature="()I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="112" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="66" member="findWord" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+        </reference_kind>
+    </target>
+    <target member="getChar" name="org.eclipse.jface.text.IDocument.getChar(int)" signature="(I)C" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="232" member="isGlobal" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.isGlobal(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="177" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="69" member="findWord" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="149" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="57" member="findWord" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="120" member="findFunction" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+            <reference linenumber="225" member="isGlobal" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.isGlobal(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder"/>
+        </reference_kind>
+    </target>
+</references>

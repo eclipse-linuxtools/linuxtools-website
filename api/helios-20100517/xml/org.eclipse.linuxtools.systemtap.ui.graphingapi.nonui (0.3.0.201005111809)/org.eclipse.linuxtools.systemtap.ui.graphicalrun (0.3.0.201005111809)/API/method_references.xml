@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" reference_count="4" reference_visibility="1">
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="48" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+    <target member="isDisposed" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon.isDisposed()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="47" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon.ChartStreamDaemon(IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.ChartStreamDaemon2(ScriptConsole, IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ScriptConsole;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+</references>

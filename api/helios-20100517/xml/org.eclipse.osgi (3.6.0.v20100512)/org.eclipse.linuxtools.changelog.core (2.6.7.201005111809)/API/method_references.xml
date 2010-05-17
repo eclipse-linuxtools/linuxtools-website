@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="2" reference_visibility="1">
+    <target member="deprocess" name="org.eclipse.osgi.util.TextProcessor.deprocess(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.osgi.util.TextProcessor">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="321" member="getContainerFullPath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.getContainerFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+        </reference_kind>
+    </target>
+    <target member="process" name="org.eclipse.osgi.util.TextProcessor.process(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.osgi.util.TextProcessor">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="189" member="containerSelectionChanged" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.containerSelectionChanged(IContainer)" signature="(Lorg/eclipse/core/resources/IContainer;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+        </reference_kind>
+    </target>
+</references>

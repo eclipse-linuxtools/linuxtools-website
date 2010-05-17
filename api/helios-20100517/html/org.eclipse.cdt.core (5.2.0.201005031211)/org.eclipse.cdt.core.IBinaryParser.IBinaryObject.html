@@ -1,0 +1,670 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>IBinaryObject usage details</title>
+</head>
+<body>
+<h3>IBinaryObject usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.cdt.core.IBinaryParser.IBinaryObject has 87 total references to 6 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject">
+<span>[+] </span>IBinaryParser.IBinaryObject
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CASTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.buildBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">496</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAlreadyExistingBinaryObject(IFile)</td>
+<td align="center">519</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.program</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.addr2lines</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_PARAMETERIZED_VARIABLE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.cleanup()</td>
+<td align="center">114</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.cleanup()</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANCEOF</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.buildBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">495</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAlreadyExistingBinaryObject(IFile)</td>
+<td align="center">518</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IPath, long)</td>
+<td align="center">244</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IPath, String)</td>
+<td align="center">259</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFilename(IBinaryParser.ISymbol)</td>
+<td align="center">326</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.ISymbol)</td>
+<td align="center">274</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.buildBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">496</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">462</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.ISymbol)</td>
+<td align="center">186</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()</td>
+<td align="center">254</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.parser.CovManager.fillGcovView()</td>
+<td align="center">183</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)</td>
+<td align="center">29</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.GmonViewer.handleOpenEvent(OpenEvent)</td>
+<td align="center">102</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IBinaryParser.IBinaryObject, IAddress)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IBinaryParser.IBinaryObject, String, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IBinaryParser.IBinaryObject, String, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtSymbol(IBinaryParser.IBinaryObject, IBinaryParser.ISymbol)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.IBinaryObject, IAddress)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAddr2line(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.isBinaryParserCompatible(IBinaryParser.IBinaryObject, IBinaryParser)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.IBinaryObject, IAddress)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.demangle(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParser.IBinaryObject, IAddress)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFunctionName(IBinaryParser.IBinaryObject, IAddress)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFunctionName(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFunctionName(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.isGCovCompatible(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.GmonDecoder(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.GmonDecoder(IBinaryParser.IBinaryObject, PrintStream)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc.CallGraphArc(CallGraphNode, IAddress, CallGraphNode, int, IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.isGProfCompatible(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.histogram.HistRoot.addBucket(Bucket, IBinaryParser.ISymbol, IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.histogram.HistFunction.addBucket(Bucket, IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.histogram.HistFile.addBucket(Bucket, IBinaryParser.ISymbol, IBinaryParser.IBinaryObject)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(IPath)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAlreadyExistingBinaryObject(IFile)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.buildBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.getProgram()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.getAddressFactory() : org.eclipse.cdt.core.IAddressFactory">
+<span>[+] </span>getAddressFactory() : IAddressFactory
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">394</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">254</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFunctionName(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">348</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFunctionName(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">338</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">305</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">316</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">216</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">264</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLine(IBinaryParser.IBinaryObject, long)</td>
+<td align="center">226</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.histogram.HistFunction.addBucket(Bucket, IBinaryParser.IBinaryObject)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.getCPU() : java.lang.String">
+<span>[+] </span>getCPU() : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.demangle(IBinaryParser.ISymbol)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.demangle(IBinaryParser.IBinaryObject, String)</td>
+<td align="center">158</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.buildBinaryObject(IPath, IBinaryParser)</td>
+<td align="center">499</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAddr2line(IBinaryParser.IBinaryObject)</td>
+<td align="center">411</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()</td>
+<td align="center">257</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">39</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.GmonDecoder(IBinaryParser.IBinaryObject, PrintStream)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParser.IBinaryObject)</td>
+<td align="center">40</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.getSymbol(org.eclipse.cdt.core.IAddress) : org.eclipse.cdt.core.IBinaryParser.ISymbol">
+<span>[+] </span>getSymbol(IAddress) : IBinaryParserISymbol
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)</td>
+<td align="center">63</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)</td>
+<td align="center">65</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)</td>
+<td align="center">32</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)</td>
+<td align="center">34</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.getSymbols() : org.eclipse.cdt.core.IBinaryParser.ISymbol[]">
+<span>[+] </span>getSymbols() : IBinaryParserISymbol[]
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.HistogramDecoder.AssignSamplesSymbol()</td>
+<td align="center">212</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.isLittleEndian() : boolean">
+<span>[+] </span>isLittleEndian() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.parser.GmonDecoder.read(String)</td>
+<td align="center">102</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

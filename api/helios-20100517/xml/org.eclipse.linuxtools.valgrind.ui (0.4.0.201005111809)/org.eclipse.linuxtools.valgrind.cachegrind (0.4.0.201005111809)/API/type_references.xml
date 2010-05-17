@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="collapseAction" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.collapseAction" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="155" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.valgrind.ui.IValgrindToolView" type="org.eclipse.linuxtools.valgrind.ui.IValgrindToolView">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="154" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="expandAction" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.expandAction" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="70" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+</references>

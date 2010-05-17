@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="3" reference_visibility="1">
+    <target member="getSourceViewer" name="org.eclipse.ui.texteditor.AbstractTextEditor.getSourceViewer()" signature="()Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setDocumentProvider" name="org.eclipse.ui.texteditor.AbstractTextEditor.setDocumentProvider(IDocumentProvider)" signature="(Lorg/eclipse/ui/texteditor/IDocumentProvider;)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="38" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.SuppressionsEditor()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setSourceViewerConfiguration" name="org.eclipse.ui.texteditor.AbstractTextEditor.setSourceViewerConfiguration(SourceViewerConfiguration)" signature="(Lorg/eclipse/jface/text/source/SourceViewerConfiguration;)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.SuppressionsEditor()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+</references>

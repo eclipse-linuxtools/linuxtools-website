@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.linuxtools.tmf.ui (0.2.0.201005111809)" reference_count="116" reference_visibility="1">
+    <target member="getEventHoverToolTipInfo" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.getEventHoverToolTipInfo(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Ljava/util/Map;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getEventHoverToolTipInfo" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventHoverToolTipInfo(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Ljava/util/Map;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getEventName" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.getEventName(ITimeEvent, boolean, boolean)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;ZZ)Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getEventName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventName(ITimeEvent, boolean, boolean)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;ZZ)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getEventColor" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.TmfTimeAnalysisProvider()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.TimeRangeViewerProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.TimeRangeViewerProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getTraceClassName" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.getTraceClassName(ITmfTimeAnalysisEntry)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;)Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getTraceClassName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getTraceClassName(ITmfTimeAnalysisEntry)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getStateName" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.getStateName(TmfTimeAnalysisProviderStateColor)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;)Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getStateName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getStateName(TmfTimeAnalysisProviderStateColor)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+<target member="getTime0" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent.getTime0()" signature="()J" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="processTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater.processTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)Z" type="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectedTime" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent.getSelectedTime()" signature="()J" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="63" member="processTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater.processTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)Z" type="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="getTime1" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent.getTime1()" signature="()J" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="59" member="processTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater.processTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)Z" type="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.ui.views.TmfView.TmfView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView.AbsTimeUpdateView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.StatisticsView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView.AbsTimeUpdateView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView"/>
+        <reference linenumber="141" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.HistogramView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="91" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.ProjectView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="324" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.StatisticsView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        <reference linenumber="97" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView.TimeFrameView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+    </target>
+    <target member="getWidth" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent.getWidth()" signature="()I" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="60" member="processTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater.processTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)Z" type="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater"/>
+        </reference_kind>
+    </target>
+<target member="setAcceptSelectionAPIcalls" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setAcceptSelectionAPIcalls(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="531" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="120" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.tmf.ui.views.TmfView.dispose()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="1011" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="539" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="458" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        </reference_kind>
+    </target>
+    <target member="zoomOut" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.zoomOut()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="811" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.14.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$14"/>
+        <reference linenumber="381" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.10.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$10"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectedTime" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeSelectionEvent.getSelectedTime()" signature="()J" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="894" member="tsfTmProcessSelEvent" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tsfTmProcessSelEvent(TmfTimeSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="447" member="tsfTmProcessSelEvent" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.tsfTmProcessSelEvent(TmfTimeSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="setItemHeight" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setItemHeight(int)" signature="(I)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="524" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="removeFilterSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.removeFilterSelectionListner(ITmfTimeFilterSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeFilterSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1018" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="waitCursor" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.waitCursor(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1135" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.19.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$19"/>
+        <reference linenumber="599" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.13.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$13"/>
+        </reference_kind>
+    </target>
+    <target member="selectPrevEvent" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.selectPrevEvent()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="710" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.8.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$8"/>
+        <reference linenumber="282" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.4.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$4"/>
+        </reference_kind>
+    </target>
+    <target member="resetStartFinishTime" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.resetStartFinishTime()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="674" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.6.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$6"/>
+        <reference linenumber="247" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.2.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$2"/>
+        </reference_kind>
+    </target>
+    <target member="setHeaderHeight" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setHeaderHeight(int)" signature="(I)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="527" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="resizeControls" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.resizeControls()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="554" member="controlResized" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.3.controlResized(ControlEvent)" signature="(Lorg/eclipse/swt/events/ControlEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$3"/>
+            <reference linenumber="996" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.18.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$18"/>
+        <reference linenumber="531" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.12.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$12"/>
+        </reference_kind>
+    </target>
+    <target member="groupTraces" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.groupTraces(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="521" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="119" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="createViewer" name="org.eclipse.linuxtools.tmf.ui.viewers.TmfViewerFactory.createViewer(Composite, TmfTimeAnalysisProvider)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITimeAnalysisViewer;" type="org.eclipse.linuxtools.tmf.ui.viewers.TmfViewerFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="514" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="112" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="filterTraces" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.filterTraces()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="777" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.12.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$12"/>
+        <reference linenumber="348" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.8.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$8"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.linuxtools.tmf.ui.views.TmfView.setFocus()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+    </target>
+    <target member="getTimeSpace" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.getTimeSpace()" signature="()I" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="590" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="159" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="removeWidgetTimeScaleSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.removeWidgetTimeScaleSelectionListner(ITmfTimeScaleSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeScaleSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1020" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="545" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getFilteredOut" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeFilterSelectionEvent.getFilteredOut()" signature="()Ljava/util/Vector;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeFilterSelectionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1045" member="tmfTaProcessFilterSelection" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tmfTaProcessFilterSelection(TmfTimeFilterSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeFilterSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="setNameWidthPref" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setNameWidthPref(int)" signature="(I)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="530" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="showLegend" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.showLegend()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="764" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.11.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$11"/>
+        <reference linenumber="335" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.7.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$7"/>
+        </reference_kind>
+    </target>
+    <target member="addWidgetSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.addWidgetSelectionListner(ITmfTimeSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="517" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="535" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="124" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="115" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="selectNextEvent" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.selectNextEvent()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="692" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.7.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$7"/>
+        <reference linenumber="265" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.3.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$3"/>
+        </reference_kind>
+    </target>
+    <target member="setBorderWidth" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setBorderWidth(int)" signature="(I)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="526" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="selectNextTrace" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.selectNextTrace()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="728" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.9.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$9"/>
+        <reference linenumber="299" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.5.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$5"/>
+        </reference_kind>
+    </target>
+    <target member="removeWidgetSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.removeWidgetSelectionListner(ITmfTimeSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1019" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="544" member="dispose" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.dispose()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1130" member="waitCursor" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.waitCursor(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="1204" member="ModelUpdateComplete" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ModelUpdateComplete(StateDataRequest)" signature="(Lorg/eclipse/linuxtools/lttng/state/StateDataRequest;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="527" member="resourceModelUpdates" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.resourceModelUpdates(ITmfTimeAnalysisEntry[], long, long, boolean)" signature="([Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;JJZ)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="181" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="594" member="waitCursor" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.waitCursor(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="182" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="423" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="663" member="ModelUpdateComplete" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.ModelUpdateComplete(StateDataRequest)" signature="(Lorg/eclipse/linuxtools/lttng/state/StateDataRequest;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="130" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.linuxtools.tmf.ui.views.TmfView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+    </target>
+    <target member="addFilterSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.addFilterSelectionListner(ITmfTimeFilterSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeFilterSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="536" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="zoomIn" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.zoomIn()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="795" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.13.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$13"/>
+        <reference linenumber="365" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.9.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$9"/>
+        </reference_kind>
+    </target>
+    <target member="display" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.display(ITmfTimeAnalysisEntry[], long, long, boolean)" signature="([Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;JJZ)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="995" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.18.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$18"/>
+        <reference linenumber="530" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.12.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$12"/>
+        </reference_kind>
+    </target>
+    <target member="setSelectedTime" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setSelectedTime(long, boolean, Object)" signature="(JZLjava/lang/Object;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1114" member="synchToTime" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.synchToTime(TmfTimeSynchSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfTimeSynchSignal;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="1207" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.20.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$20"/>
+        <reference linenumber="666" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.14.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$14"/>
+            <reference linenumber="578" member="synchToTime" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.synchToTime(TmfTimeSynchSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfTimeSynchSignal;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="setVisibleVerticalScroll" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setVisibleVerticalScroll(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="528" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectionTrace" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.getSelectionTrace()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="886" member="tsfTmProcessSelEvent" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tsfTmProcessSelEvent(TmfTimeSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target member="selectPrevTrace" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.selectPrevTrace()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="746" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.10.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$10"/>
+        <reference linenumber="317" member="run" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.6.run()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$6"/>
+        </reference_kind>
+    </target>
+    <target member="addWidgetTimeScaleSelectionListner" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.addWidgetTimeScaleSelectionListner(ITmfTimeScaleSelectionListener)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/ITmfTimeScaleSelectionListener;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="537" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="518" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="116" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="125" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="setSelectedTrace" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.setSelectedTrace(ITmfTimeAnalysisEntry)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="352" member="selectionChanged" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.1.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$1"/>
+        </reference_kind>
+    </target>
+<target member="toString" name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="toString" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+    <target member="extractItemFields" name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="extractItemFields" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.TmfEventsView()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView.EventsView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.TmfEventsView(int)" signature="(I)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="77" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView.EventsView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+    <target member="createColumnHeaders" name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.createColumnHeaders(Table)" signature="(Lorg/eclipse/swt/widgets/Table;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createColumnHeaders" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView.createColumnHeaders(Table)" signature="(Lorg/eclipse/swt/widgets/Table;)V" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+<target member="broadcast" name="org.eclipse.linuxtools.tmf.ui.views.TmfView.broadcast(TmfSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfSignal;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="725" member="sendTmfRangeSynchSignalBroadcast" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.sendTmfRangeSynchSignalBroadcast()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+            <reference linenumber="690" member="sendTmfTimeSynchSignalBroadcast" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.sendTmfTimeSynchSignalBroadcast()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="181" member="selectExperiment" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.selectExperiment(LTTngExperimentNode)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="183" member="synchTimeFrameWidgets" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView.synchTimeFrameWidgets(SpinnerGroup)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/timeframe/SpinnerGroup;)V" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+    </target>
+<target member="getSelectionProvider" name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer.getSelectionProvider()" signature="()Lorg/eclipse/jface/viewers/ISelectionProvider;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="184" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+</references>

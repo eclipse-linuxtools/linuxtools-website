@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" referee="org.eclipse.equinox.preferences (3.3.0.v20100503)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer" type="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.core.RPMCoreInitializer" type="org.eclipse.linuxtools.rpm.core.RPMCoreInitializer"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.preferences.IEclipsePreferences" type="org.eclipse.core.runtime.preferences.IEclipsePreferences">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.preferences.DefaultScope" type="org.eclipse.core.runtime.preferences.DefaultScope">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="93" member="query" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.query(IFile, String[])" signature="(Lorg/eclipse/core/resources/IFile;[Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.cdt.ui (5.2.0.201005031211)" reference_count="16" reference_visibility="2">
+    <target member="rulerContextMenuAboutToShow" name="org.eclipse.cdt.internal.ui.editor.CEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="176" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.internal.ui.editor.CEditor.CEditor()" signature="()V" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STAnnotatedCSourceEditor()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="69" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STAnnotatedCSourceEditor()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getViewer" name="org.eclipse.cdt.internal.ui.editor.CEditor.getViewer()" signature="()Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="164" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doSetInput" name="org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doSetInput" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.doSetInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="327" member="doSetInput" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.doSetInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createActions" name="org.eclipse.cdt.internal.ui.editor.CEditor.createActions()" signature="()V" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createActions" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="337" member="createActions" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isPrefQuickDiffAlwaysOn" name="org.eclipse.cdt.internal.ui.editor.CEditor.isPrefQuickDiffAlwaysOn()" signature="()Z" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$5" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$5(STAnnotatedCSourceEditor)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STAnnotatedCSourceEditor;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getAdapter" name="org.eclipse.cdt.internal.ui.editor.CEditor.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getAdapter" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="212" member="getAdapter" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.cdt.internal.ui.editor.CEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.cdt.internal.ui.editor.CEditor">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="91" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="114" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.lttng (0.2.0.201005111809)" referee="org.eclipse.linuxtools.tmf (0.2.0.201005111809)" reference_count="47" reference_visibility="1">
+    <target member="fParentEvent" name="org.eclipse.linuxtools.tmf.event.TmfEventContent.fParentEvent" type="org.eclipse.linuxtools.tmf.event.TmfEventContent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="77" member="getEvent" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getEvent()" signature="()Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="89" member="getType" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getType()" signature="()Lorg/eclipse/linuxtools/lttng/event/LttngEventType;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="160" member="getFields" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getFields()" signature="()[Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="92" member="setType" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.setType(LttngEventType)" signature="(Lorg/eclipse/linuxtools/lttng/event/LttngEventType;)V" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="158" member="getFields" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getFields()" signature="()[Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="197" member="getField" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getField(int)" signature="(I)Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+        <reference linenumber="489" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.TextLttngEventContent.TextLttngEventContent(TextLttngEventContent)" signature="(Lorg/eclipse/linuxtools/lttng/trace/TextLttngEventContent;)V" type="org.eclipse.linuxtools.lttng.trace.TextLttngEventContent"/>
+            <reference linenumber="509" member="getField" origin="org.eclipse.linuxtools.lttng.trace.TextLttngEventContent.getField(int)" signature="(I)Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.trace.TextLttngEventContent"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="81" member="setEvent" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.setEvent(LttngEvent)" signature="(Lorg/eclipse/linuxtools/lttng/event/LttngEvent;)V" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+        </reference_kind>
+    </target>
+    <target member="fFields" name="org.eclipse.linuxtools.tmf.event.TmfEventContent.fFields" type="org.eclipse.linuxtools.tmf.event.TmfEventContent">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="244" member="parseContent" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.parseContent()" signature="()V" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+        </reference_kind>
+    </target>
+    <target member="fType" name="org.eclipse.linuxtools.tmf.event.TmfEvent.fType" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="128" member="setType" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.setType(LttngEventType)" signature="(Lorg/eclipse/linuxtools/lttng/event/LttngEventType;)V" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="124" member="getType" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.getType()" signature="()Lorg/eclipse/linuxtools/lttng/event/LttngEventType;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+    </target>
+    <target member="fScale" name="org.eclipse.linuxtools.tmf.event.TmfTimestamp.fScale" type="org.eclipse.linuxtools.tmf.event.TmfTimestamp">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="145" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="146" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="151" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="154" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+        </reference_kind>
+    </target>
+    <target member="fReference" name="org.eclipse.linuxtools.tmf.event.TmfEventReference.fReference" type="org.eclipse.linuxtools.tmf.event.TmfEventReference">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="72" member="setValue" origin="org.eclipse.linuxtools.lttng.event.LttngEventReference.setValue(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.event.LttngEventReference"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="68" member="getValue" origin="org.eclipse.linuxtools.lttng.event.LttngEventReference.getValue()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngEventReference"/>
+        </reference_kind>
+    </target>
+    <target member="fContent" name="org.eclipse.linuxtools.tmf.event.TmfEvent.fContent" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="119" member="setContent" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.setContent(LttngEventContent)" signature="(Lorg/eclipse/linuxtools/lttng/event/LttngEventContent;)V" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+            <reference linenumber="44" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.LttngEvent(TmfTrace, LttngTimestamp, TmfEventSource, LttngEventType, LttngEventContent, LttngEventReference, JniEvent)" signature="(Lorg/eclipse/linuxtools/tmf/trace/TmfTrace;Lorg/eclipse/linuxtools/lttng/event/LttngTimestamp;Lorg/eclipse/linuxtools/tmf/event/TmfEventSource;Lorg/eclipse/linuxtools/lttng/event/LttngEventType;Lorg/eclipse/linuxtools/lttng/event/LttngEventContent;Lorg/eclipse/linuxtools/lttng/event/LttngEventReference;Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)V" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="115" member="getContent" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.getContent()" signature="()Lorg/eclipse/linuxtools/lttng/event/LttngEventContent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+    </target>
+    <target member="fValue" name="org.eclipse.linuxtools.tmf.event.TmfTimestamp.fValue" type="org.eclipse.linuxtools.tmf.event.TmfTimestamp">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="83" member="getNanoSeconds" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.getNanoSeconds()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="155" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="156" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="146" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="57" member="getValue" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.getValue()" signature="()J" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+            <reference linenumber="72" member="getSeconds" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.getSeconds()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="61" member="setValue" origin="org.eclipse.linuxtools.lttng.event.LttngTimestamp.setValue(long)" signature="(J)V" type="org.eclipse.linuxtools.lttng.event.LttngTimestamp"/>
+        </reference_kind>
+    </target>
+    <target member="fSourceId" name="org.eclipse.linuxtools.tmf.event.TmfEventSource.fSourceId" type="org.eclipse.linuxtools.tmf.event.TmfEventSource">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="54" member="getSourceId" origin="org.eclipse.linuxtools.lttng.event.LttngEventSource.getSourceId()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngEventSource"/>
+            <reference linenumber="63" member="toString" origin="org.eclipse.linuxtools.lttng.event.LttngEventSource.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.event.LttngEventSource"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="58" member="setSourceId" origin="org.eclipse.linuxtools.lttng.event.LttngEventSource.setSourceId(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.event.LttngEventSource"/>
+        </reference_kind>
+    </target>
+<target member="fNbEvents" name="org.eclipse.linuxtools.tmf.trace.TmfTrace.fNbEvents" type="org.eclipse.linuxtools.tmf.trace.TmfTrace">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="318" member="indexTrace" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.indexTrace(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="fCheckpoints" name="org.eclipse.linuxtools.tmf.trace.TmfTrace.fCheckpoints" type="org.eclipse.linuxtools.tmf.trace.TmfTrace">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="109" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace.LTTngTextTrace(LTTngTextTrace)" signature="(Lorg/eclipse/linuxtools/lttng/trace/LTTngTextTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace"/>
+            <reference linenumber="183" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(LTTngTrace)" signature="(Lorg/eclipse/linuxtools/lttng/trace/LTTngTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="109" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace.LTTngTextTrace(LTTngTextTrace)" signature="(Lorg/eclipse/linuxtools/lttng/trace/LTTngTextTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace"/>
+            <reference linenumber="865" member="printCheckpointsVector" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.printCheckpointsVector()" signature="()V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="84" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace.LTTngTextTrace(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace"/>
+            <reference linenumber="864" member="printCheckpointsVector" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.printCheckpointsVector()" signature="()V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="165" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="183" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(LTTngTrace)" signature="(Lorg/eclipse/linuxtools/lttng/trace/LTTngTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="304" member="indexTrace" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.indexTrace(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="432" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="433" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="434" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="436" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="862" member="printCheckpointsVector" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.printCheckpointsVector()" signature="()V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="fIndexPageSize" name="org.eclipse.linuxtools.tmf.trace.TmfTrace.fIndexPageSize" type="org.eclipse.linuxtools.tmf.trace.TmfTrace">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="80" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace.LTTngTextTrace(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTextTrace"/>
+        </reference_kind>
+    </target>
+</references>

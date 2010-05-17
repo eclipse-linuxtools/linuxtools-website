@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="71" reference_visibility="1">
+    <target member="getCharset" name="org.eclipse.core.resources.IEncodedStorage.getCharset()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.IEncodedStorage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="98" member="getEncoding" origin="org.eclipse.linuxtools.changelog.core.LineComparator.getEncoding(IStorage, String)" signature="(Lorg/eclipse/core/resources/IStorage;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.LineComparator"/>
+        </reference_kind>
+    </target>
+    <target member="getContents" name="org.eclipse.core.resources.IStorage.getContents()" signature="()Ljava/io/InputStream;" type="org.eclipse.core.resources.IStorage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="82" member="create" origin="org.eclipse.linuxtools.changelog.core.LineComparator.create(IStorage, String)" signature="(Lorg/eclipse/core/resources/IStorage;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/LineComparator;" type="org.eclipse.linuxtools.changelog.core.LineComparator"/>
+        <reference linenumber="191" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="243" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+<target member="findMember" name="org.eclipse.core.resources.IContainer.findMember(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IResource;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="237" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFullPath" name="org.eclipse.core.resources.IResource.getFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="206" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="189" member="containerSelectionChanged" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.containerSelectionChanged(IContainer)" signature="(Lorg/eclipse/core/resources/IContainer;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+            <reference linenumber="326" member="getContainerFullPath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.getContainerFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+            <reference linenumber="247" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="195" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="257" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="320" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="324" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.core.resources.IContainer.getFile(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="116" member="createChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="259" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="208" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getParent" name="org.eclipse.core.resources.IResource.getParent()" signature="()Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="355" member="setSelectedContainer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.setSelectedContainer(IContainer)" signature="(Lorg/eclipse/core/resources/IContainer;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+            <reference linenumber="105" member="getParent" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getParent(Object)" signature="(Ljava/lang/Object;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+            <reference linenumber="352" member="setSelectedContainer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.setSelectedContainer(IContainer)" signature="(Lorg/eclipse/core/resources/IContainer;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+            <reference linenumber="264" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="213" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="169" member="askChangeLogLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getProjects" name="org.eclipse.core.resources.IWorkspaceRoot.getProjects()" signature="()[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.IWorkspaceRoot">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="51" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getFullPath" name="org.eclipse.core.resources.IFile.getFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="300" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="301" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="342" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="340" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="179" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkspace" name="org.eclipse.core.resources.ResourcesPlugin.getWorkspace()" signature="()Lorg/eclipse/core/resources/IWorkspace;" type="org.eclipse.core.resources.ResourcesPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="89" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="160" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+            <reference linenumber="151" member="detectHyperlinks" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;Z)[Lorg/eclipse/jface/text/hyperlink/IHyperlink;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        <reference linenumber="208" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat"/>
+        </reference_kind>
+    </target>
+    <target member="getProject" name="org.eclipse.core.resources.IResource.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="204" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="302" member="createTreeViewer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.createTreeViewer(int)" signature="(I)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+            <reference linenumber="255" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="155" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="291" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getContainerForLocation" name="org.eclipse.core.resources.IWorkspaceRoot.getContainerForLocation(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.core.resources.IWorkspaceRoot">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="150" member="createChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="members" name="org.eclipse.core.resources.IContainer.members()" signature="()[Lorg/eclipse/core/resources/IResource;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="68" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getCharset" name="org.eclipse.core.resources.IFile.getCharset()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="229" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="182" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="getRoot" name="org.eclipse.core.resources.IWorkspace.getRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.core.resources.IWorkspace">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+            <reference linenumber="89" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="151" member="detectHyperlinks" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;Z)[Lorg/eclipse/jface/text/hyperlink/IHyperlink;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+            <reference linenumber="160" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        <reference linenumber="208" member="getWorkspaceRoot" origin="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.getWorkspaceRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat"/>
+        </reference_kind>
+    </target>
+    <target member="isAccessible" name="org.eclipse.core.resources.IResource.isAccessible()" signature="()Z" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="65" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.core.resources.IStorage.getName()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.IStorage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="64" member="getName" origin="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="getProjects" name="org.eclipse.core.resources.mapping.ResourceMapping.getProjects()" signature="()[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.mapping.ResourceMapping">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="151" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="getContents" name="org.eclipse.core.resources.IFile.getContents()" signature="()Ljava/io/InputStream;" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="192" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="195" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="244" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFullPath" name="org.eclipse.core.resources.IStorage.getFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IStorage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="78" member="getToolTipText" origin="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput.getToolTipText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="refreshLocal" name="org.eclipse.core.resources.IResource.refreshLocal(int, IProgressMonitor)" signature="(ILorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="152" member="createChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFileForLocation" name="org.eclipse.core.resources.IWorkspaceRoot.getFileForLocation(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.core.resources.IWorkspaceRoot">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="538" member="guessFunctionNames" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;)[Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        <reference linenumber="151" member="detectHyperlinks" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;Z)[Lorg/eclipse/jface/text/hyperlink/IHyperlink;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.core.resources.IResource.getType()" signature="()I" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="70" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+            <reference linenumber="332" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="84" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.core.resources.IFile.create(InputStream, boolean, IProgressMonitor)" signature="(Ljava/io/InputStream;ZLorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="125" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.1.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction$1"/>
+        </reference_kind>
+    </target>
+    <target member="isOpen" name="org.eclipse.core.resources.IProject.isOpen()" signature="()Z" type="org.eclipse.core.resources.IProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="58" member="getChildren" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="findMember" name="org.eclipse.core.resources.IContainer.findMember(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IResource;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="201" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="165" member="askChangeLogLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="189" member="getChangelog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelog(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="252" member="getChangelogForRemovePath" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getChangelogForRemovePath(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getModelObject" name="org.eclipse.core.resources.mapping.ResourceMapping.getModelObject()" signature="()Ljava/lang/Object;" type="org.eclipse.core.resources.mapping.ResourceMapping">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="152" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="getLocation" name="org.eclipse.core.resources.IResource.getLocation()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="293" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="539" member="guessFunctionNames" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;)[Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        <reference linenumber="171" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        <reference linenumber="215" member="formatFileDetail" origin="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.formatFileDetail(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat"/>
+        </reference_kind>
+    </target>
+<target member="getModelProvider" name="org.eclipse.core.resources.mapping.ResourceMapping.getModelProvider()" signature="()Lorg/eclipse/core/resources/mapping/ModelProvider;" type="org.eclipse.core.resources.mapping.ResourceMapping">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="getCompareAdapter" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getCompareAdapter(ResourceMapping)" signature="(Lorg/eclipse/core/resources/mapping/ResourceMapping;)Lorg/eclipse/team/ui/mapping/ISynchronizationCompareAdapter;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+</references>

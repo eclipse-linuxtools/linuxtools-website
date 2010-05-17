@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="3" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.RPMCorePlugin.RPMCorePlugin()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMCorePlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.RPMCorePlugin.RPMCorePlugin()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="25" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.core.RPMCoreInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMCoreInitializer"/>
+        </reference_kind>
+    </target>
+</references>

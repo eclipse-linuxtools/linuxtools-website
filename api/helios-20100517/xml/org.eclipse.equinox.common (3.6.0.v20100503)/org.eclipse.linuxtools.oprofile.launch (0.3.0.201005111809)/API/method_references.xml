@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="15" reference_visibility="1">
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="initializeFrom" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="102" member="setDefaults" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="190" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="235" member="setDefaults" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="551" member="performApply" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+            <reference linenumber="213" member="performApply" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="69" member="performApply" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        <reference linenumber="151" member="refreshOprofileView" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.refreshOprofileView()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="59" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchShortcut"/>
+            <reference linenumber="57" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchShortcut"/>
+        </reference_kind>
+    </target>
+<target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="120" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="done" name="org.eclipse.core.runtime.IProgressMonitor.done()" signature="()V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="127" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="worked" name="org.eclipse.core.runtime.IProgressMonitor.worked(int)" signature="(I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="126" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="82" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="50" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="47" reference_visibility="1">
+    <target member="getEncoding" name="org.eclipse.core.resources.ResourcesPlugin.getEncoding()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.ResourcesPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="194" member="readString" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.readString(IStreamContentAccessor)" signature="(Lorg/eclipse/compare/IStreamContentAccessor;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator"/>
+        </reference_kind>
+    </target>
+<target member="findMember" name="org.eclipse.core.resources.IContainer.findMember(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IResource;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="154" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        <reference linenumber="335" member="dialogChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.dialogChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="116" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.core.resources.IContainer.getFile(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="165" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        <reference linenumber="122" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.core.resources.IFile.getName()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="60" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+            <reference linenumber="59" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.DownloadJob(SourcesFileDownloadHyperlink, IFile, URLConnection, boolean)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/hyperlink/SourcesFileDownloadHyperlink;Lorg/eclipse/core/resources/IFile;Ljava/net/URLConnection;Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+        </reference_kind>
+    </target>
+    <target member="getParent" name="org.eclipse.core.resources.IResource.getParent()" signature="()Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="80" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+            <reference linenumber="83" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+            <reference linenumber="150" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+            <reference linenumber="151" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        <reference linenumber="307" member="initialize" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getFullPath" name="org.eclipse.core.resources.IFile.getFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="154" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        <reference linenumber="42" member="handleTask" origin="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler.handleTask(int, String, String)" signature="(ILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler"/>
+            <reference linenumber="46" member="handleError" origin="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler.handleError(SpecfileParseException)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileParseException;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler"/>
+        </reference_kind>
+    </target>
+    <target member="delete" name="org.eclipse.core.resources.IMarker.delete()" signature="()V" type="org.eclipse.core.resources.IMarker">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="70" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getProject" name="org.eclipse.core.resources.IResource.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="165" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="exists" name="org.eclipse.core.resources.IResource.exists()" signature="()Z" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="82" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+            <reference linenumber="167" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        <reference linenumber="117" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+            <reference linenumber="125" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.core.resources.IResource.getType()" signature="()I" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="90" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+        <reference linenumber="342" member="dialogChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.dialogChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getProjectRelativePath" name="org.eclipse.core.resources.IResource.getProjectRelativePath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="166" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.core.resources.IFile.create(InputStream, boolean, IProgressMonitor)" signature="(Ljava/io/InputStream;ZLorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="82" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+        <reference linenumber="128" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setAttributes" name="org.eclipse.core.resources.IMarker.setAttributes(Map)" signature="(Ljava/util/Map;)V" type="org.eclipse.core.resources.IMarker">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="68" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="createMarker" name="org.eclipse.core.resources.IResource.createMarker(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IMarker;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="67" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="setContents" name="org.eclipse.core.resources.IFile.setContents(InputStream, boolean, boolean, IProgressMonitor)" signature="(Ljava/io/InputStream;ZZLorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="79" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+        <reference linenumber="126" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="findMember" name="org.eclipse.core.resources.IContainer.findMember(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IResource;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="151" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+            <reference linenumber="81" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+            <reference linenumber="83" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+            <reference linenumber="158" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.core.resources.IFolder.getFile(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.core.resources.IFolder">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="85" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+        </reference_kind>
+    </target>
+<target member="deleteMarkers" name="org.eclipse.core.resources.IResource.deleteMarkers(String, boolean, int)" signature="(Ljava/lang/String;ZI)V" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="48" member="removeExistingMarkers" origin="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler.removeExistingMarkers()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler"/>
+        </reference_kind>
+    </target>
+<target member="getFullPath" name="org.eclipse.core.resources.IResource.getFullPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="308" member="initialize" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getRoot" name="org.eclipse.core.resources.IWorkspace.getRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.core.resources.IWorkspace">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="334" member="dialogChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.dialogChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="320" member="handleBrowse" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.handleBrowse()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="115" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isAccessible" name="org.eclipse.core.resources.IResource.isAccessible()" signature="()Z" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="346" member="dialogChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.dialogChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkspace" name="org.eclipse.core.resources.ResourcesPlugin.getWorkspace()" signature="()Lorg/eclipse/core/resources/IWorkspace;" type="org.eclipse.core.resources.ResourcesPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="115" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+            <reference linenumber="334" member="dialogChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.dialogChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="320" member="handleBrowse" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.handleBrowse()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+</references>

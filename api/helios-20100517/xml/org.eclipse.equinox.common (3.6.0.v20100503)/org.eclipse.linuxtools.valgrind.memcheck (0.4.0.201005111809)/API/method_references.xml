@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.memcheck (0.4.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="1" reference_visibility="1">
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="getCommandArray" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate.getCommandArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate"/>
+        </reference_kind>
+    </target>
+</references>

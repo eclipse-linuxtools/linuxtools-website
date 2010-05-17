@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="3" reference_visibility="1">
+    <target member="FIND" name="org.eclipse.ui.texteditor.ITextEditorActionConstants.FIND" type="org.eclipse.ui.texteditor.ITextEditorActionConstants">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="459" member="registerGlobalActions" origin="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.registerGlobalActions(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView"/>
+        </reference_kind>
+    </target>
+<target member="FIND_ACTION" name="org.eclipse.ui.texteditor.IAbstractTextEditorHelpContextIds.FIND_ACTION" type="org.eclipse.ui.texteditor.IAbstractTextEditorHelpContextIds">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="233" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+            <reference linenumber="260" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(Shell, ISTFindReplaceTarget)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/dataviewers/findreplace/ISTFindReplaceTarget;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+        </reference_kind>
+    </target>
+</references>

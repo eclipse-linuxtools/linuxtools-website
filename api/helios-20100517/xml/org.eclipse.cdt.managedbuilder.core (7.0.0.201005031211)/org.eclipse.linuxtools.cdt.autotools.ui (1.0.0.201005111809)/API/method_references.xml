@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)" reference_count="89" reference_visibility="1">
+    <target member="getBuildInfo" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildInfo(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="348" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+            <reference linenumber="52" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction$1$1"/>
+        <reference linenumber="32" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler.convertProject(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getVariables" name="org.eclipse.cdt.managedbuilder.envvar.IEnvironmentVariableProvider.getVariables(IConfiguration, boolean)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;Z)[Lorg/eclipse/cdt/core/envvar/IEnvironmentVariable;" type="org.eclipse.cdt.managedbuilder.envvar.IEnvironmentVariableProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="372" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="getEnvironmentVariableProvider" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getEnvironmentVariableProvider()" signature="()Lorg/eclipse/cdt/managedbuilder/envvar/IEnvironmentVariableProvider;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="372" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.cdt.managedbuilder.core.IBuildObject.getName()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IBuildObject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="355" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        <reference linenumber="315" member="getPagesForConfig" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.getPagesForConfig()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+            <reference linenumber="318" member="getPagesForConfig" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.getPagesForConfig()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+        <reference linenumber="34" member="getColumnText" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider.getColumnText(Object, int)" signature="(Ljava/lang/Object;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider"/>
+            <reference linenumber="81" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+            <reference linenumber="32" member="getColumnText" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider.getColumnText(Object, int)" signature="(Ljava/lang/Object;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultConfiguration" name="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" signature="()Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="349" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+<target member="getOwner" name="org.eclipse.cdt.managedbuilder.core.IManagedProject.getOwner()" signature="()Lorg/eclipse/core/resources/IResource;" type="org.eclipse.cdt.managedbuilder.core.IManagedProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="getProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="getManagedProject" name="org.eclipse.cdt.managedbuilder.core.IConfiguration.getManagedProject()" signature="()Lorg/eclipse/cdt/managedbuilder/core/IManagedProject;" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="getProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+<target member="setSelectedConfiguration" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.setSelectedConfiguration(IProject, IConfiguration)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)V" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="157" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="232" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="232" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getInstance" name="org.eclipse.cdt.managedbuilder.core.BuildListComparator.getInstance()" signature="()Ljava/util/Comparator;" type="org.eclipse.cdt.managedbuilder.core.BuildListComparator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="50" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isSystemObject" name="org.eclipse.cdt.managedbuilder.core.IToolChain.isSystemObject()" signature="()Z" type="org.eclipse.cdt.managedbuilder.core.IToolChain">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="63" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isSupported" name="org.eclipse.cdt.managedbuilder.core.IConfiguration.isSupported()" signature="()Z" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="221" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="145" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="289" member="filterSupportedConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.filterSupportedConfigurations(IConfiguration[])" signature="([Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+            <reference linenumber="221" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getDescription" name="org.eclipse.cdt.managedbuilder.core.IConfiguration.getDescription()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="34" member="getColumnText" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider.getColumnText(Object, int)" signature="(Ljava/lang/Object;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider"/>
+            <reference linenumber="31" member="getColumnText" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider.getColumnText(Object, int)" signature="(Ljava/lang/Object;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConfigurationLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setArtifactName" name="org.eclipse.cdt.managedbuilder.core.IConfiguration.setArtifactName(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="140" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="215" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="215" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getOSList" name="org.eclipse.cdt.managedbuilder.core.IToolChain.getOSList()" signature="()[Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IToolChain">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="293" member="filterSupportedConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.filterSupportedConfigurations(IConfiguration[])" signature="([Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+    <target member="getConfigurations" name="org.eclipse.cdt.managedbuilder.core.IProjectType.getConfigurations()" signature="()[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.cdt.managedbuilder.core.IProjectType">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="260" member="populateConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.populateConfigurations()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaultConfiguration" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.setDefaultConfiguration(IProject, IConfiguration)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)V" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="231" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="156" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="231" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultArtifactName" name="org.eclipse.cdt.managedbuilder.core.IManagedProject.getDefaultArtifactName()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IManagedProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="215" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="140" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="215" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getConfigurations" name="org.eclipse.cdt.managedbuilder.core.IManagedProject.getConfigurations()" signature="()[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.cdt.managedbuilder.core.IManagedProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="219" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="219" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="143" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="33" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler.convertProject(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getExtensionToolChains" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionToolChains(IProjectType)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IProjectType;)[Lorg/eclipse/cdt/managedbuilder/core/IToolChain;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="60" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getExtensionProjectTypeMap" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionProjectTypeMap()" signature="()Ljava/util/SortedMap;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="55" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getManagedProject" name="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getManagedProject()" signature="()Lorg/eclipse/cdt/managedbuilder/core/IManagedProject;" type="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="33" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler.convertProject(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getPropertyType" name="org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyManager.getPropertyType(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/managedbuilder/buildproperties/IBuildPropertyType;" type="org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="48" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="initBuildInfoContainer" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.initBuildInfoContainer(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="275" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="300" member="doRunEpilogue" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRunEpilogue(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="300" member="doRunEpilogue" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRunEpilogue(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="206" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="275" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getBuildPropertyManager" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildPropertyManager()" signature="()Lorg/eclipse/cdt/managedbuilder/buildproperties/IBuildPropertyManager;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="47" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getToolChain" name="org.eclipse.cdt.managedbuilder.core.IConfiguration.getToolChain()" signature="()Lorg/eclipse/cdt/managedbuilder/core/IToolChain;" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="292" member="filterSupportedConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.filterSupportedConfigurations(IConfiguration[])" signature="([Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+            <reference linenumber="236" member="handleConfigurationSelectionChange" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.handleConfigurationSelectionChange()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+    <target member="getExtensionProjectType" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionProjectType(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/managedbuilder/core/IProjectType;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="90" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.CProjectPlatformPage(String, Wizard)" signature="(Ljava/lang/String;Lorg/eclipse/jface/wizard/Wizard;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.cdt.managedbuilder.core.IBuildObject.getId()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IBuildObject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="214" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="81" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+            <reference linenumber="139" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="157" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+            <reference linenumber="58" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+            <reference linenumber="214" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getSupportedValues" name="org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyType.getSupportedValues()" signature="()[Lorg/eclipse/cdt/managedbuilder/buildproperties/IBuildPropertyValue;" type="org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyType">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="49" member="createItems" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard.createItems(boolean, IWizard)" signature="(ZLorg/eclipse/jface/wizard/IWizard;)[Lorg/eclipse/cdt/ui/wizards/EntryDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getDescriptionForConfiguration" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getDescriptionForConfiguration(IConfiguration)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="202" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="36" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler.convertProject(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler"/>
+        </reference_kind>
+    </target>
+    <target member="addManagedBuilder" name="org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature.addManagedBuilder(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="171" member="addNature" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.addNature(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="171" member="addNature" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.addNature(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="createManagedProject" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.createManagedProject(IResource, IProjectType)" signature="(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/cdt/managedbuilder/core/IProjectType;)Lorg/eclipse/cdt/managedbuilder/core/IManagedProject;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="208" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="133" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="208" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="addManagedNature" name="org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature.addManagedNature(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="117" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="169" member="addNature" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.addNature(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="169" member="addNature" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.addNature(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="saveBuildInfo" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.saveBuildInfo(IProject, boolean)" signature="(Lorg/eclipse/core/resources/IProject;Z)Z" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="194" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="272" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="272" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="setValid" name="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.setValid(boolean)" signature="(Z)V" type="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="193" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="271" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="271" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="createBuildInfo" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.createBuildInfo(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/cdt/managedbuilder/internal/core/ManagedBuildInfo;" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="131" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="206" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="206" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getArchList" name="org.eclipse.cdt.managedbuilder.core.IToolChain.getArchList()" signature="()[Ljava/lang/String;" type="org.eclipse.cdt.managedbuilder.core.IToolChain">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="295" member="filterSupportedConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.filterSupportedConfigurations(IConfiguration[])" signature="([Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;)[Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+    <target member="setNewProjectVersion" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.setNewProjectVersion(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="159" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="234" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="234" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="getRandomNumber" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getRandomNumber()" signature="()I" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="138" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="213" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="213" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="createConfiguration" name="org.eclipse.cdt.managedbuilder.core.IManagedProject.createConfiguration(IConfiguration, String)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;Ljava/lang/String;)Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.cdt.managedbuilder.core.IManagedProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="214" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="139" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+            <reference linenumber="214" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" reference_count="6" reference_visibility="1">
+    <target member="getFile" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getFile()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="148" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getParent" name="org.eclipse.linuxtools.valgrind.core.IValgrindMessage.getParent()" signature="()Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.valgrind.core.IValgrindMessage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="69" member="getParent" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.1.getParent(Object)" signature="(Ljava/lang/Object;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$1"/>
+        </reference_kind>
+    </target>
+    <target member="getLine" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getLine()" signature="()I" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="151" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.linuxtools.valgrind.core.IValgrindMessage.getText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.valgrind.core.IValgrindMessage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="91" member="getText" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunch" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getLaunch()" signature="()Lorg/eclipse/debug/core/ILaunch;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getChildren" name="org.eclipse.linuxtools.valgrind.core.IValgrindMessage.getChildren()" signature="()[Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.valgrind.core.IValgrindMessage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="65" member="getChildren" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.1.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$1"/>
+        </reference_kind>
+    </target>
+</references>

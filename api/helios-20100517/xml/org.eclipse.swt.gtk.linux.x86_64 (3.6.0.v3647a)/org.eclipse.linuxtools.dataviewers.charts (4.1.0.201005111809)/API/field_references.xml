@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="10" reference_visibility="1">
+    <target member="horizontalSpan" name="org.eclipse.swt.layout.GridData.horizontalSpan" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="225" member="createDialogArea" origin="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog"/>
+        </reference_kind>
+    </target>
+    <target member="spacing" name="org.eclipse.swt.layout.FillLayout.spacing" type="org.eclipse.swt.layout.FillLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="298" member="addColumnButtons" origin="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog.addColumnButtons(Composite, SelectionListener)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/events/SelectionListener;)V" type="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog"/>
+        </reference_kind>
+    </target>
+    <target member="widthHint" name="org.eclipse.swt.layout.GridData.widthHint" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="192" member="createDialogArea" origin="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.charts.dialogs.ChartDialog"/>
+        </reference_kind>
+    </target>
+<target member="gc" name="org.eclipse.swt.events.PaintEvent.gc" type="org.eclipse.swt.events.PaintEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="206" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="height" name="org.eclipse.swt.graphics.Rectangle.height" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="115" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="162" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="118" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="width" name="org.eclipse.swt.graphics.Rectangle.width" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="115" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="117" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="161" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+</references>

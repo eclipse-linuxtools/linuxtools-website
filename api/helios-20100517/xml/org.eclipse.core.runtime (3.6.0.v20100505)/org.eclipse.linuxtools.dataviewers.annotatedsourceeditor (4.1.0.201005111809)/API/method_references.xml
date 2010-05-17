@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="6" reference_visibility="1">
+    <target member="log" name="org.eclipse.core.runtime.ILog.log(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.ILog">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="445" member="showLinesColored" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        <reference linenumber="57" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+            <reference linenumber="71" member="run" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getLog" name="org.eclipse.core.runtime.Plugin.getLog()" signature="()Lorg/eclipse/core/runtime/ILog;" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="445" member="showLinesColored" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        <reference linenumber="57" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+            <reference linenumber="71" member="run" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,316 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>IRevisionRulerColumnExtension usage details</title>
+</head>
+<body>
+<h3>IRevisionRulerColumnExtension usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension has 16 total references to 8 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension">
+<span>[+] </span>IRevisionRulerColumnExtension
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CASTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getRevisionSelectionProvider()</td>
+<td align="center">793</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">422</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">432</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">439</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>IMPLEMENTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANCEOF</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getRevisionSelectionProvider()</td>
+<td align="center">792</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">437</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">430</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">417</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.getRevisionSelectionProvider() : org.eclipse.jface.viewers.ISelectionProvider">
+<span>[+] </span>getRevisionSelectionProvider() : ISelectionProvider
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getRevisionSelectionProvider()</td>
+<td align="center">793</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.setRevisionRenderingMode(org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.RenderingMode) : void">
+<span>[+] </span>setRevisionRenderingMode(IRevisionRulerColumnExtensionRenderingMode) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">422</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.showRevisionAuthor(boolean) : void">
+<span>[+] </span>showRevisionAuthor(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">432</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.showRevisionId(boolean) : void">
+<span>[+] </span>showRevisionId(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">439</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.AGE">
+<span>[+] </span>AGE
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">419</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.AUTHOR">
+<span>[+] </span>AUTHOR
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">419</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.AUTHOR_SHADED_BY_AGE">
+<span>[+] </span>AUTHOR_SHADED_BY_AGE
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">419</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

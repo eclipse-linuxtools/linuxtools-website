@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.linuxtools.oprofile.core (0.3.0.201005111809)" reference_count="18" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelRoot" type="org.eclipse.linuxtools.oprofile.core.model.OpModelRoot">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="64" member="getModelDataEvents" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelRoot.getModelDataEvents()" signature="()[Lorg/eclipse/linuxtools/oprofile/core/model/OpModelEvent;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelRoot"/>
+        <reference linenumber="104" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelImage" type="org.eclipse.linuxtools.oprofile.core.model.OpModelImage">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_dataModelDependents" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent._dataModelDependents" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent"/>
+            <reference linenumber="-1" member="_image" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage._image" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage.UiModelImage(IUiModelElement, OpModelImage, int, int)" signature="(Lorg/eclipse/linuxtools/oprofile/ui/model/IUiModelElement;Lorg/eclipse/linuxtools/oprofile/core/model/OpModelImage;II)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent.UiModelDependent(IUiModelElement, OpModelImage[], int, int)" signature="(Lorg/eclipse/linuxtools/oprofile/ui/model/IUiModelElement;[Lorg/eclipse/linuxtools/oprofile/core/model/OpModelImage;II)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="42" member="refreshModel" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession.refreshModel()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelEvent" type="org.eclipse.linuxtools.oprofile.core.model.OpModelEvent">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getModelDataEvents" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelRoot.getModelDataEvents()" signature="()[Lorg/eclipse/linuxtools/oprofile/core/model/OpModelEvent;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelRoot"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_event" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent._event" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent.UiModelEvent(OpModelEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/model/OpModelEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelSample" type="org.eclipse.linuxtools.oprofile.core.model.OpModelSample">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_sample" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample._sample" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample.UiModelSample(IUiModelElement, OpModelSample, int)" signature="(Lorg/eclipse/linuxtools/oprofile/ui/model/IUiModelElement;Lorg/eclipse/linuxtools/oprofile/core/model/OpModelSample;I)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelSession" type="org.eclipse.linuxtools.oprofile.core.model.OpModelSession">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession.UiModelSession(IUiModelElement, OpModelSession)" signature="(Lorg/eclipse/linuxtools/oprofile/ui/model/IUiModelElement;Lorg/eclipse/linuxtools/oprofile/core/model/OpModelSession;)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_session" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession._session" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.oprofile.core.model.OpModelSymbol" type="org.eclipse.linuxtools.oprofile.core.model.OpModelSymbol">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_symbol" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol._symbol" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol.UiModelSymbol(IUiModelElement, OpModelSymbol, int)" signature="(Lorg/eclipse/linuxtools/oprofile/ui/model/IUiModelElement;Lorg/eclipse/linuxtools/oprofile/core/model/OpModelSymbol;I)V" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.oprofile.core.OpcontrolException" type="org.eclipse.linuxtools.oprofile.core.OpcontrolException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="77" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="77" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+</references>

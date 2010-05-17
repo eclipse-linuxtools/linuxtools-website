@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.debug.core (3.6.0.v20100510)" reference_count="12" reference_visibility="1">
+    <target member="getParticipants" name="org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getParticipants()" signature="()[Lorg/eclipse/debug/core/sourcelookup/ISourceLookupParticipant;" type="org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="118" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="initializeDefaults" name="org.eclipse.debug.core.model.IPersistableSourceLocator.initializeDefaults(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.debug.core.model.IPersistableSourceLocator">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="128" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+            <reference linenumber="133" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.debug.core.DebugPlugin.getDefault()" signature="()Lorg/eclipse/debug/core/DebugPlugin;" type="org.eclipse.debug.core.DebugPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunchManager" name="org.eclipse.debug.core.DebugPlugin.getLaunchManager()" signature="()Lorg/eclipse/debug/core/ILaunchManager;" type="org.eclipse.debug.core.DebugPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceLocator" name="org.eclipse.debug.core.ILaunch.getSourceLocator()" signature="()Lorg/eclipse/debug/core/model/ISourceLocator;" type="org.eclipse.debug.core.ILaunch">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="115" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="setSourceLocator" name="org.eclipse.debug.core.ILaunch.setSourceLocator(ISourceLocator)" signature="(Lorg/eclipse/debug/core/model/ISourceLocator;)V" type="org.eclipse.debug.core.ILaunch">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="141" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="initializeFromMemento" name="org.eclipse.debug.core.model.IPersistableSourceLocator.initializeFromMemento(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.debug.core.model.IPersistableSourceLocator">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="135" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunchConfiguration" name="org.eclipse.debug.core.ILaunch.getLaunchConfiguration()" signature="()Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.debug.core.ILaunch">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="122" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="newSourceLocator" name="org.eclipse.debug.core.ILaunchManager.newSourceLocator(String)" signature="(Ljava/lang/String;)Lorg/eclipse/debug/core/model/IPersistableSourceLocator;" type="org.eclipse.debug.core.ILaunchManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="getAttribute" name="org.eclipse.debug.core.ILaunchConfiguration.getAttribute(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.debug.core.ILaunchConfiguration">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="125" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+            <reference linenumber="131" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+</references>

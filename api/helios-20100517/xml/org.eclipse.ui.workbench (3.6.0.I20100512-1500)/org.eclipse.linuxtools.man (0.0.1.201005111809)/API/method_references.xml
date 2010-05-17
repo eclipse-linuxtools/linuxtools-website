@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.man (0.0.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="16" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="19" member="&lt;init&gt;" origin="org.eclipse.linuxtools.man.Activator.Activator()" signature="()V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.man.Activator.Activator()" signature="()V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="36" member="start" origin="org.eclipse.linuxtools.man.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.man.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.man.Activator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="50" member="stop" origin="org.eclipse.linuxtools.man.Activator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.man.Activator"/>
+        </reference_kind>
+    </target>
+<target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="36" member="getRawManPage" origin="org.eclipse.linuxtools.man.parser.ManParser.getRawManPage(String)" signature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" type="org.eclipse.linuxtools.man.parser.ManParser"/>
+        <reference linenumber="30" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.man.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.man.preferences.PreferenceInitializer"/>
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.man.preferences.ManPathPage.ManPathPage()" signature="()V" type="org.eclipse.linuxtools.man.preferences.ManPathPage"/>
+        </reference_kind>
+    </target>
+<target member="setHelp" name="org.eclipse.ui.help.IWorkbenchHelpSystem.setHelp(Control, String)" signature="(Lorg/eclipse/swt/widgets/Control;Ljava/lang/String;)V" type="org.eclipse.ui.help.IWorkbenchHelpSystem">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="createPartControl" origin="org.eclipse.linuxtools.man.views.ManView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.man.views.ManView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="39" member="createPartControl" origin="org.eclipse.linuxtools.man.views.ManView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="22" member="&lt;init&gt;" origin="org.eclipse.linuxtools.man.views.ManView.ManView()" signature="()V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.man.views.ManView.ManView()" signature="()V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.man.views.ManView.setFocus()" signature="()V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+    <target member="getHelpSystem" name="org.eclipse.ui.IWorkbench.getHelpSystem()" signature="()Lorg/eclipse/ui/help/IWorkbenchHelpSystem;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="createPartControl" origin="org.eclipse.linuxtools.man.views.ManView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.osgi.util.NLS" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.actions.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.compare.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.forms.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.outline.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.Messages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.Messages" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.Messages"/>
+        </reference_kind>
+    </target>
+    <target name="org.osgi.framework.BundleContext" type="org.osgi.framework.BundleContext">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+        </reference_kind>
+    </target>
+</references>

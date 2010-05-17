@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="211" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.LTTngUiPlugin()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.LTTngUiPlugin()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="41" member="start" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="53" member="stop" origin="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.lttng.ui.LTTngUiPlugin"/>
+        </reference_kind>
+    </target>
+<target member="addView" name="org.eclipse.ui.IFolderLayout.addView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.IFolderLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="70" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="71" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="72" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="76" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="61" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="62" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="80" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="82" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="66" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="81" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+        </reference_kind>
+    </target>
+    <target member="createFolder" name="org.eclipse.ui.IPageLayout.createFolder(String, int, float, String)" signature="(Ljava/lang/String;IFLjava/lang/String;)Lorg/eclipse/ui/IFolderLayout;" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="65" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="69" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="75" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="79" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+            <reference linenumber="60" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setEditorAreaVisible" name="org.eclipse.ui.IPageLayout.setEditorAreaVisible(boolean)" signature="(Z)V" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="createInitialLayout" origin="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.lttng.ui.views.PerspectiveFactory"/>
+        </reference_kind>
+    </target>
+<target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.control.ControlView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.control.ControlView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.control.ControlView.ControlView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.control.ControlView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ControlFlowView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView.HistogramView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.ProjectView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.ResourcesView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.StatisticsView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView.TimeFrameView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.control.ControlView.ControlView()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.control.ControlView"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.lttng.ui.views.control.ControlView.setFocus()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.control.ControlView"/>
+        </reference_kind>
+    </target>
+<target member="registerContextMenu" name="org.eclipse.ui.IWorkbenchPartSite.registerContextMenu(MenuManager, ISelectionProvider)" signature="(Lorg/eclipse/jface/action/MenuManager;Lorg/eclipse/jface/viewers/ISelectionProvider;)V" type="org.eclipse.ui.IWorkbenchPartSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="611" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="199" member="createContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.createContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="184" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="setHelp" name="org.eclipse.ui.help.IWorkbenchHelpSystem.setHelp(Control, String)" signature="(Lorg/eclipse/swt/widgets/Control;Ljava/lang/String;)V" type="org.eclipse.ui.help.IWorkbenchHelpSystem">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="542" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="129" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getViewSite" name="org.eclipse.ui.part.ViewPart.getViewSite()" signature="()Lorg/eclipse/ui/IViewSite;" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="615" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="188" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getSite" name="org.eclipse.ui.part.WorkbenchPart.getSite()" signature="()Lorg/eclipse/ui/IWorkbenchPartSite;" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="611" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="130" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+            <reference linenumber="199" member="createContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.createContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="183" member="hookContextMenu" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.hookContextMenu()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="755" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="719" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="737" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="683" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="842" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="701" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="818" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="802" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="786" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="412" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="273" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="290" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="388" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="372" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="256" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="356" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="308" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="326" member="makeActions" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.makeActions()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="542" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="218" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        <reference linenumber="87" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="86" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="78" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="73" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="82" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="42" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler"/>
+            <reference linenumber="69" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler"/>
+            <reference linenumber="47" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler"/>
+            <reference linenumber="95" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="42" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="91" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="72" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+        <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+        <reference linenumber="129" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        <reference linenumber="143" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+            <reference linenumber="147" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+        </reference_kind>
+    </target>
+    <target member="getActionBars" name="org.eclipse.ui.IViewSite.getActionBars()" signature="()Lorg/eclipse/ui/IActionBars;" type="org.eclipse.ui.IViewSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="615" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="188" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getMenuManager" name="org.eclipse.ui.IActionBars.getMenuManager()" signature="()Lorg/eclipse/jface/action/IMenuManager;" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="616" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="189" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getToolBarManager" name="org.eclipse.ui.IActionBars.getToolBarManager()" signature="()Lorg/eclipse/jface/action/IToolBarManager;" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="617" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="190" member="contributeToActionBars" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.contributeToActionBars()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target member="getHelpSystem" name="org.eclipse.ui.IWorkbench.getHelpSystem()" signature="()Lorg/eclipse/ui/help/IWorkbenchHelpSystem;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="542" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="129" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+<target member="setSelectionProvider" name="org.eclipse.ui.IWorkbenchSite.setSelectionProvider(ISelectionProvider)" signature="(Lorg/eclipse/jface/viewers/ISelectionProvider;)V" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="130" member="createPartControl" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        </reference_kind>
+    </target>
+<target member="computeResult" name="org.eclipse.ui.dialogs.SelectionStatusDialog.computeResult()" signature="()V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="computeResult" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.computeResult()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="-1" member="computeResult" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.computeResult()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getProgressService" name="org.eclipse.ui.IWorkbench.getProgressService()" signature="()Lorg/eclipse/ui/progress/IProgressService;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="218" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getDialogSettings" name="org.eclipse.ui.plugin.AbstractUIPlugin.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard.ImportTraceWizard()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizard"/>
+            <reference linenumber="62" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.NewProjectWizard(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        </reference_kind>
+    </target>
+    <target member="okPressed" name="org.eclipse.ui.dialogs.SelectionStatusDialog.okPressed()" signature="()V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="333" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="133" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="-1" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setStatusLineAboveButtons" name="org.eclipse.ui.dialogs.SelectionStatusDialog.setStatusLineAboveButtons(boolean)" signature="(Z)V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="76" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.NewExperimentDialog(Shell, LTTngExperimentFolderNode)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentFolderNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="39" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.TraceErrorDialog(Shell, String[])" signature="(Lorg/eclipse/swt/widgets/Shell;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getOkButton" name="org.eclipse.ui.dialogs.SelectionDialog.getOkButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="280" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="278" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="287" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="busyCursorWhile" name="org.eclipse.ui.progress.IProgressService.busyCursorWhile(IRunnableWithProgress)" signature="(Lorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.ui.progress.IProgressService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="218" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.ui.dialogs.SelectionStatusDialog.create()" signature="()V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="48" member="create" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.create()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="92" member="create" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.create()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="create" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.create()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="-1" member="create" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.create()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.NewExperimentDialog(Shell, LTTngExperimentFolderNode)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentFolderNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="38" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.TraceErrorDialog(Shell, String[])" signature="(Lorg/eclipse/swt/widgets/Shell;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="updateStatus" name="org.eclipse.ui.dialogs.SelectionStatusDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="-1" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="249" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="251" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="125" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="127" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.SelectionStatusDialog.SelectionStatusDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="73" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.NewExperimentDialog(Shell, LTTngExperimentFolderNode)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentFolderNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="35" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.TraceErrorDialog(Shell, String[])" signature="(Lorg/eclipse/swt/widgets/Shell;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setSelectionResult" name="org.eclipse.ui.dialogs.SelectionDialog.setSelectionResult(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="331" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+<target member="getActivePart" name="org.eclipse.ui.IPartService.getActivePart()" signature="()Lorg/eclipse/ui/IWorkbenchPart;" type="org.eclipse.ui.IPartService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="52" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler"/>
+            <reference linenumber="74" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="48" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler"/>
+            <reference linenumber="87" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="55" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="52" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="51" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="55" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="52" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="79" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="72" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="92" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="69" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler"/>
+            <reference linenumber="43" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler"/>
+            <reference linenumber="87" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="43" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler"/>
+            <reference linenumber="92" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="47" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="43" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler"/>
+            <reference linenumber="87" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="86" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="79" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+            <reference linenumber="72" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="69" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler"/>
+            <reference linenumber="73" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="42" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler"/>
+            <reference linenumber="51" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="46" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="49" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="54" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="73" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="51" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+            <reference linenumber="51" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+            <reference linenumber="48" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler"/>
+            <reference linenumber="52" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="51" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="48" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler"/>
+            <reference linenumber="54" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="48" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler"/>
+            <reference linenumber="51" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="86" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="47" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getResult" name="org.eclipse.ui.dialogs.SelectionDialog.getResult()" signature="()[Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="92" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.ui.ISelectionService.getSelection(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.ui.ISelectionService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="56" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+            <reference linenumber="59" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+            <reference linenumber="57" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler"/>
+            <reference linenumber="53" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler"/>
+            <reference linenumber="48" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler"/>
+            <reference linenumber="52" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler"/>
+            <reference linenumber="59" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler"/>
+            <reference linenumber="56" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="53" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler"/>
+            <reference linenumber="56" member="isEnabled" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+        </reference_kind>
+    </target>
+<target member="getImage" name="org.eclipse.ui.ISharedImages.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.ui.ISharedImages">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+        <reference linenumber="148" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+            <reference linenumber="144" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+        </reference_kind>
+    </target>
+    <target member="getImageRegistry" name="org.eclipse.ui.plugin.AbstractUIPlugin.getImageRegistry()" signature="()Lorg/eclipse/jface/resource/ImageRegistry;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="62" member="loadIcon" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.loadIcon(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="57" member="loadIcon" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.loadIcon(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getSharedImages" name="org.eclipse.ui.IWorkbench.getSharedImages()" signature="()Lorg/eclipse/ui/ISharedImages;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.LTTngProjectLabelProvider()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+        <reference linenumber="148" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+            <reference linenumber="144" member="getImage" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView$1"/>
+        </reference_kind>
+    </target>
+</references>

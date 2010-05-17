@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="27" reference_visibility="1">
+    <target member="y" name="org.eclipse.swt.graphics.Point.y" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="108" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getImage(ChartCanvas)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;)Lorg/eclipse/swt/graphics/ImageData;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    </target>
+    <target member="data" name="org.eclipse.swt.graphics.ImageLoader.data" type="org.eclipse.swt.graphics.ImageLoader">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="143" member="save" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.save(ImageData, String)" signature="(Lorg/eclipse/swt/graphics/ImageData;Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    </target>
+    <target member="x" name="org.eclipse.swt.graphics.Point.x" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="108" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getImage(ChartCanvas)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;)Lorg/eclipse/swt/graphics/ImageData;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    </target>
+<target member="left" name="org.eclipse.swt.layout.FormData.left" type="org.eclipse.swt.layout.FormData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="112" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="92" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="99" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="84" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+            <reference linenumber="98" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="top" name="org.eclipse.swt.layout.FormData.top" type="org.eclipse.swt.layout.FormData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="100" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="111" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="93" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="85" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+            <reference linenumber="97" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="right" name="org.eclipse.swt.layout.FormData.right" type="org.eclipse.swt.layout.FormData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="101" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="113" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="94" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="99" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+            <reference linenumber="86" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="item" name="org.eclipse.swt.custom.CTabFolderEvent.item" type="org.eclipse.swt.custom.CTabFolderEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="126" member="close" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.2.close(CTabFolderEvent)" signature="(Lorg/eclipse/swt/custom/CTabFolderEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$2"/>
+        <reference linenumber="117" member="close" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.2.close(CTabFolderEvent)" signature="(Lorg/eclipse/swt/custom/CTabFolderEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView$2"/>
+        </reference_kind>
+    </target>
+    <target member="bottom" name="org.eclipse.swt.layout.FormData.bottom" type="org.eclipse.swt.layout.FormData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="102" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="95" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="114" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="87" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+            <reference linenumber="100" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="marginWidth" name="org.eclipse.swt.layout.GridLayout.marginWidth" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="144" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target member="marginHeight" name="org.eclipse.swt.layout.GridLayout.marginHeight" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="143" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+</references>

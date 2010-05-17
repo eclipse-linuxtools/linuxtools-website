@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.massif (0.4.0.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="2" reference_visibility="1">
+    <target name="org.eclipse.core.resources.IFile" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="81" member="openEditorForNode" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifHeapTreeNode;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="83" member="openEditorForNode" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifHeapTreeNode;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+</references>

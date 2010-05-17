@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="41" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, IContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.action.Action.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, IContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.StructuredViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="run" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="81" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target member="setToolTipText" name="org.eclipse.jface.action.Action.setToolTipText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, IContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="68" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+            <reference linenumber="74" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        <reference linenumber="226" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="198" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.2.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$2"/>
+            <reference linenumber="170" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.1.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$1"/>
+        </reference_kind>
+    </target>
+    <target member="expandToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        <reference linenumber="224" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.Viewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="39" member="run" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+            <reference linenumber="42" member="run" origin="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gcov.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+<target member="setShellStyle" name="org.eclipse.jface.window.Window.setShellStyle(int)" signature="(I)V" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="95" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.OpenGCDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.window.Window.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="285" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="122" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="206" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getButton" name="org.eclipse.jface.dialogs.Dialog.getButton(int)" signature="(I)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="233" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="237" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.Dialog.Dialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="93" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.OpenGCDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createDialogArea" name="org.eclipse.jface.dialogs.Dialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="123" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getShellStyle" name="org.eclipse.jface.window.Window.getShellStyle()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="95" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.OpenGCDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.jface.dialogs.Dialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="116" member="createContents" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+<target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="84" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="81" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="80" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="82" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="89" member="handleOpenEvent" origin="org.eclipse.linuxtools.gcov.view.CovViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Separator.Separator()" signature="()V" type="org.eclipse.jface.action.Separator">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="83" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="78" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="79" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.action.Action.setChecked(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="105" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IContributionItem)" signature="(Lorg/eclipse/jface/action/IContributionItem;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="78" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="79" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.OpenEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.OpenEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="88" member="handleOpenEvent" origin="org.eclipse.linuxtools.gcov.view.CovViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+</references>

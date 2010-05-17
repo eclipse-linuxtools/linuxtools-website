@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.jface.wizard.WizardDialog" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="138" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="138" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.internal.GraphicalRunPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.internal.GraphicalRunPlugin"/>
+        </reference_kind>
+    </target>
+</references>

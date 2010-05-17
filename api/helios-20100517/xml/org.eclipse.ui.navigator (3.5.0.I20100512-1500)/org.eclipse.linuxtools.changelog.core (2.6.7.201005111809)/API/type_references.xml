@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.navigator (3.5.0.I20100512-1500)" reference_count="3" reference_visibility="1">
+    <target name="org.eclipse.ui.navigator.CommonActionProvider" type="org.eclipse.ui.navigator.CommonActionProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.navigator.ICommonActionExtensionSite" type="org.eclipse.ui.navigator.ICommonActionExtensionSite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.init(ICommonActionExtensionSite)" signature="(Lorg/eclipse/ui/navigator/ICommonActionExtensionSite;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.navigator.IExtensionStateModel" type="org.eclipse.ui.navigator.IExtensionStateModel">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getExtensionStateModel" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getExtensionStateModel()" signature="()Lorg/eclipse/ui/navigator/IExtensionStateModel;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.profiling.ui.ProfileUIPlugin" type="org.eclipse.linuxtools.internal.profiling.ui.ProfileUIPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="69" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="111" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="142" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="-1" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="-1" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="139" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="66" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="109" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+</references>

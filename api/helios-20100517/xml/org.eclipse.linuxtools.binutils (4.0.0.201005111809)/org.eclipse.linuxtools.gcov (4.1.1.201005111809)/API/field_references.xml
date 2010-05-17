@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" reference_count="6" reference_visibility="1">
+    <target member="sharedInstance" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.sharedInstance" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="224" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="254" member="getGCDALocations" origin="org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+            <reference linenumber="183" member="fillGcovView" origin="org.eclipse.linuxtools.gcov.parser.CovManager.fillGcovView()" signature="()V" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+            <reference linenumber="200" member="fillGcovView" origin="org.eclipse.linuxtools.gcov.parser.CovManager.fillGcovView()" signature="()V" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+        <reference linenumber="53" member="isGCovCompatible" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.isGCovCompatible(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+        </reference_kind>
+    </target>
+<target member="sharedInstance" name="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.sharedInstance" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="54" member="getFileStore" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getFileStore(IProject, IPath)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

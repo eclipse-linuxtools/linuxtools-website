@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="4" reference_visibility="1">
+    <target member="getPersistentProperty" name="org.eclipse.core.resources.IResource.getPersistentProperty(QualifiedName)" signature="(Lorg/eclipse/core/runtime/QualifiedName;)Ljava/lang/String;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="82" member="getPropertyString" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getPropertyString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setPersistentProperty" name="org.eclipse.core.resources.IResource.setPersistentProperty(QualifiedName, String)" signature="(Lorg/eclipse/core/runtime/QualifiedName;Ljava/lang/String;)V" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="441" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+            <reference linenumber="463" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="getProject" name="org.eclipse.core.resources.IResource.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="76" member="getProject" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

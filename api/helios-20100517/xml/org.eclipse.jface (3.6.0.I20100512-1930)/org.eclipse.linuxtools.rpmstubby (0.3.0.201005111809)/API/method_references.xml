@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpmstubby (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="25" reference_visibility="1">
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="79" member="write" origin="org.eclipse.linuxtools.rpmstubby.SpecfileWriter.write(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpmstubby.SpecfileWriter"/>
+        </reference_kind>
+    </target>
+    <target member="getBoolean" name="org.eclipse.jface.preference.IPreferenceStore.getBoolean(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="65" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.StubbyGenerator(MainPackage, List)" signature="(Lorg/eclipse/linuxtools/rpmstubby/model/MainPackage;Ljava/util/List;)V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator"/>
+            <reference linenumber="67" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.StubbyGenerator(MainPackage, List)" signature="(Lorg/eclipse/linuxtools/rpmstubby/model/MainPackage;Ljava/util/List;)V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator"/>
+            <reference linenumber="78" member="write" origin="org.eclipse.linuxtools.rpmstubby.SpecfileWriter.write(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpmstubby.SpecfileWriter"/>
+            <reference linenumber="91" member="write" origin="org.eclipse.linuxtools.rpmstubby.SpecfileWriter.write(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpmstubby.SpecfileWriter"/>
+        </reference_kind>
+    </target>
+<target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="48" member="setActivePart" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction.setActivePart(IAction, IWorkbenchPart)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction"/>
+        </reference_kind>
+    </target>
+    <target member="iterator" name="org.eclipse.jface.viewers.StructuredSelection.iterator()" signature="()Ljava/util/Iterator;" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="30" member="run" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyPomAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyPomAction"/>
+            <reference linenumber="22" member="run" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyFeatureAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyFeatureAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.ISelectionProvider.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.ISelectionProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="43" member="setActivePart" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction.setActivePart(IAction, IWorkbenchPart)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.StubbyPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.BooleanFieldEditor.BooleanFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.BooleanFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.StubbyPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.StubbyPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="32" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer"/>
+            <reference linenumber="31" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer"/>
+            <reference linenumber="30" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

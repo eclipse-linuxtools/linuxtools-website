@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="22" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="91" member="createStatus" origin="org.eclipse.linuxtools.rpm.rpmlint.RpmlintLog.createStatus(int, int, String, Throwable)" signature="(IILjava/lang/String;Ljava/lang/Throwable;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.rpmlint.RpmlintLog"/>
+        <reference linenumber="69" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+<target member="getAdapter" name="org.eclipse.core.runtime.IAdaptable.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.core.runtime.IAdaptable">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+            <reference linenumber="45" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="61" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        <reference linenumber="80" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, int, int, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+            <reference linenumber="100" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.OperationCanceledException.OperationCanceledException()" signature="()V" type="org.eclipse.core.runtime.OperationCanceledException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="147" member="checkCancel" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.checkCancel(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="66" member="build" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="setTaskName" name="org.eclipse.core.runtime.IProgressMonitor.setTaskName(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="86" member="fullBuild" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.fullBuild(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="108" member="visitAndMarkRpmlintItems" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.visitAndMarkRpmlintItems(IProgressMonitor, ArrayList)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="97" member="incrementalBuild" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.incrementalBuild(IResourceDelta, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IResourceDelta;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="worked" name="org.eclipse.core.runtime.IProgressMonitor.worked(int)" signature="(I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="85" member="fullBuild" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.fullBuild(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="67" member="build" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="107" member="visitAndMarkRpmlintItems" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.visitAndMarkRpmlintItems(IProgressMonitor, ArrayList)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="96" member="incrementalBuild" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.incrementalBuild(IResourceDelta, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IResourceDelta;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="110" member="visitAndMarkRpmlintItems" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.visitAndMarkRpmlintItems(IProgressMonitor, ArrayList)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="isCanceled" name="org.eclipse.core.runtime.IProgressMonitor.isCanceled()" signature="()Z" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="146" member="checkCancel" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.checkCancel(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="37" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor.visit(IResourceDelta)" signature="(Lorg/eclipse/core/resources/IResourceDelta;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor"/>
+            <reference linenumber="64" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="32" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor"/>
+            <reference linenumber="41" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor.visit(IResourceDelta)" signature="(Lorg/eclipse/core/resources/IResourceDelta;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor"/>
+        </reference_kind>
+    </target>
+</references>

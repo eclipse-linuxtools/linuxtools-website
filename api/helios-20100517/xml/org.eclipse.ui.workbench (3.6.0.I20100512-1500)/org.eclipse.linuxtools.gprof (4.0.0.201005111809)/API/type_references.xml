@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="8" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.Activator" type="org.eclipse.linuxtools.gprof.Activator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorLauncher" type="org.eclipse.ui.IEditorLauncher">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.model.WorkbenchLabelProvider" type="org.eclipse.ui.model.WorkbenchLabelProvider">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="205" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="205" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="205" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.ISelectionStatusValidator" type="org.eclipse.ui.dialogs.ISelectionStatusValidator">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.3" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog$3"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="224" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="225" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+</references>

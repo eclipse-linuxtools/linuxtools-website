@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="263" reference_visibility="1">
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        <reference linenumber="-1" member="createViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewerCreator.createViewer(Composite, CompareConfiguration)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/compare/CompareConfiguration;)Lorg/eclipse/jface/viewers/Viewer;" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewerCreator"/>
+            <reference linenumber="-1" member="createViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureMergeViewerCreator.createViewer(Composite, CompareConfiguration)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/compare/CompareConfiguration;)Lorg/eclipse/jface/viewers/Viewer;" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureMergeViewerCreator"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewer.SpecMergeViewer(Composite, CompareConfiguration)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/compare/CompareConfiguration;)V" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewer"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+        <reference linenumber="-1" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="-1" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        <reference linenumber="-1" member="getListControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="setEnabled" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="changelogEntryFormatFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.changelogEntryFormatFieldEditor(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="-1" member="createLocalesCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createLocalesCombo(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="-1" member="createButtons" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createButtons(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.MacroListEditor(MacroProposalsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/MacroProposalsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.1.1(RpmProposalsPreferencePage, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/RpmProposalsPreferencePage;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage$1"/>
+            <reference linenumber="-1" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.TasksListEditor(TaskTagsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/TaskTagsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.2.2(MainPreferencePage, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/MainPreferencePage;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$2"/>
+        <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="64" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="150" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="88" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="124" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="138" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="104" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        <reference linenumber="118" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="85" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="101" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="109" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="30" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="85" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$parent" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.1.val$parent" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage$1"/>
+            <reference linenumber="-1" member="val$parent" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.2.val$parent" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$2"/>
+            <reference linenumber="-1" member="buttonBox" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.buttonBox" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="278" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="118" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="109" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="30" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="78" member="updateEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.updateEditor()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy"/>
+            <reference linenumber="157" member="setSpecfile" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.setSpecfile(Specfile)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createInformationControl" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.1.createInformationControl(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)Lorg/eclipse/jface/text/IInformationControl;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover$1"/>
+            <reference linenumber="-1" member="createInformationControl" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration.1.createInformationControl(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)Lorg/eclipse/jface/text/IInformationControl;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration$1"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.SpecfileQuickOutlineDialog(Shell, int, SpecfileEditor)" signature="(Lorg/eclipse/swt/widgets/Shell;ILorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getShell" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Color" type="org.eclipse.swt.graphics.Color">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="31" member="getColor" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="fColorTable" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.fColorTable" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="33" member="getColor" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="26" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getColor" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="27" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+            <reference linenumber="31" member="getColor" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Image" type="org.eclipse.swt.graphics.Image">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+        <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.SpecNode.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator$SpecNode"/>
+        <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileLabelProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="194" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.custom.StyleRange" type="org.eclipse.swt.custom.StyleRange">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="141" member="addRange" origin="org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer"/>
+        <reference linenumber="120" member="stopBold" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTML2TextReader.stopBold()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTML2TextReader"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="59" member="adaptTextPresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.adaptTextPresentation(TextPresentation, int, int)" signature="(Lorg/eclipse/jface/text/TextPresentation;II)V" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="56" member="adaptTextPresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.adaptTextPresentation(TextPresentation, int, int)" signature="(Lorg/eclipse/jface/text/TextPresentation;II)V" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="59" member="adaptTextPresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.adaptTextPresentation(TextPresentation, int, int)" signature="(Lorg/eclipse/jface/text/TextPresentation;II)V" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Point" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="103" member="getHoverRegion" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverRegion(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.RGB" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="KEYWORDS" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.KEYWORDS" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="AUTHOR_MAIL" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.AUTHOR_MAIL" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="TAGS" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.TAGS" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="PACKAGES" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.PACKAGES" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="COMMENT" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.COMMENT" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="MACROS" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.MACROS" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="DEFINES" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.DEFINES" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="SECTIONS" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.SECTIONS" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="VER_REL" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.VER_REL" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+            <reference linenumber="-1" member="DEFAULT" origin="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants.DEFAULT" type="org.eclipse.linuxtools.rpm.ui.editor.ISpecfileColorConstants"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getColor" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="fColorTable" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.fColorTable" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="26" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.ColorManager"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.events.DisposeEvent" type="org.eclipse.swt.events.DisposeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="handleDispose" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewer.handleDispose(DisposeEvent)" signature="(Lorg/eclipse/swt/events/DisposeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.compare.SpecMergeViewer"/>
+        <reference linenumber="-1" member="widgetDisposed" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.2.widgetDisposed(DisposeEvent)" signature="(Lorg/eclipse/swt/events/DisposeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$2"/>
+            <reference linenumber="-1" member="widgetDisposed" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.3.widgetDisposed(DisposeEvent)" signature="(Lorg/eclipse/swt/events/DisposeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$3"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.graphics.Drawable" type="org.eclipse.swt.graphics.Drawable">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="updatePresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.updatePresentation(Drawable, String, TextPresentation, int, int)" signature="(Lorg/eclipse/swt/graphics/Drawable;Ljava/lang/String;Lorg/eclipse/jface/text/TextPresentation;II)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Display" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="updatePresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.updatePresentation(Display, String, TextPresentation, int, int)" signature="(Lorg/eclipse/swt/widgets/Display;Ljava/lang/String;Lorg/eclipse/jface/text/TextPresentation;II)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        <reference linenumber="-1" member="createToolkit" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor.createToolkit(Display)" signature="(Lorg/eclipse/swt/widgets/Display;)Lorg/eclipse/ui/forms/widgets/FormToolkit;" type="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.GC" type="org.eclipse.swt.graphics.GC">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.LineBreakingReader.LineBreakingReader(Reader, GC, int)" signature="(Ljava/io/Reader;Lorg/eclipse/swt/graphics/GC;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.derived.LineBreakingReader"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="111" member="updatePresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.updatePresentation(Drawable, String, TextPresentation, int, int)" signature="(Lorg/eclipse/swt/graphics/Drawable;Ljava/lang/String;Lorg/eclipse/jface/text/TextPresentation;II)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        <reference linenumber="79" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="111" member="updatePresentation" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter.updatePresentation(Drawable, String, TextPresentation, int, int)" signature="(Lorg/eclipse/swt/graphics/Drawable;Ljava/lang/String;Lorg/eclipse/jface/text/TextPresentation;II)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.derived.HTMLTextPresenter"/>
+        <reference linenumber="79" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fGC" origin="org.eclipse.linuxtools.rpm.ui.editor.derived.LineBreakingReader.fGC" type="org.eclipse.linuxtools.rpm.ui.editor.derived.LineBreakingReader"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.events.ModifyEvent" type="org.eclipse.swt.events.ModifyEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.3.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$3"/>
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.1.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$1"/>
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.2.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$2"/>
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.1.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage$1"/>
+        <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.2.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$2"/>
+        <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.3.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$3"/>
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.4.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$4"/>
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.1.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="33" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage"/>
+            <reference linenumber="65" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="45" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        <reference linenumber="279" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        <reference linenumber="110" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="31" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="33" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage"/>
+            <reference linenumber="63" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="65" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="45" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        <reference linenumber="279" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        <reference linenumber="31" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+            <reference linenumber="110" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.RowLayout" type="org.eclipse.swt.layout.RowLayout">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="48" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="48" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="35" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+        <reference linenumber="111" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="116" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="37" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+            <reference linenumber="221" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="35" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+        <reference linenumber="111" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="37" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+            <reference linenumber="231" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="41" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+            <reference linenumber="145" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="136" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="221" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="116" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="199" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="204" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Text" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.1.1(RpmSectionPage, Text)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/forms/RpmSectionPage;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage$1"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.1.1(RpmTagText, Specfile, String, Text)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/forms/RpmTagText;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$1"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.2.2(RpmTagText, Specfile, String, SpecfilePackage, Text)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/forms/RpmTagText;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.3.3(RpmTagText, Specfile, SpecfileTag, Text)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/forms/RpmTagText;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$3"/>
+        <reference linenumber="-1" member="setTemplateTagValue" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTemplateTagValue(Text, String)" signature="(Lorg/eclipse/swt/widgets/Text;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="38" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage"/>
+            <reference linenumber="58" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+        <reference linenumber="223" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="58" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+        <reference linenumber="78" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        <reference linenumber="223" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="118" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$text" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.1.val$text" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage$1"/>
+            <reference linenumber="-1" member="val$text" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.3.val$text" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$3"/>
+            <reference linenumber="-1" member="val$text" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.1.val$text" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$1"/>
+            <reference linenumber="-1" member="val$text" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.2.val$text" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$2"/>
+        <reference linenumber="-1" member="filterText" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.filterText" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        <reference linenumber="-1" member="licenseText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.licenseText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="projectText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.projectText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="source0Text" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.source0Text" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="summaryText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.summaryText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="versionText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.versionText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="nameText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.nameText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="urlText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.urlText" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="104" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.2.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$2"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="setTextItem" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.setTextItem(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyListener" type="org.eclipse.swt.events.ModifyListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.1" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.3" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.2" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.1" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText$1"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.2" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$2"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.4" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.3" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.1" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="76" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, SpecfileTag, Specfile)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileTag;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="45" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage"/>
+            <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, SpecfilePackage, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText.RpmTagText(Composite, String, Specfile, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;I)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmTagText"/>
+            <reference linenumber="56" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+        <reference linenumber="123" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        <reference linenumber="99" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="225" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        <reference linenumber="119" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="56" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.MainPackagePage"/>
+            <reference linenumber="45" member="createFormContent" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage.createFormContent(IManagedForm)" signature="(Lorg/eclipse/ui/forms/IManagedForm;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.RpmSectionPage"/>
+        <reference linenumber="123" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        <reference linenumber="225" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="99" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="gd" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.gd" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.widgets.MessageBox" type="org.eclipse.swt.widgets.MessageBox">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="168" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+            <reference linenumber="183" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="168" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+            <reference linenumber="183" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.widgets.Tree" type="org.eclipse.swt.widgets.Tree">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="122" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="140" member="createUIListenersTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIListenersTreeViewer()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="122" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.KeyEvent" type="org.eclipse.swt.events.KeyEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="keyPressed" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.1.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="48" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="-1" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.1.1(SpecfileContentOutlinePage, Control, TreeViewer)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/outline/SpecfileContentOutlinePage;Lorg/eclipse/swt/widgets/Control;Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$control" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.1.val$control" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionAdapter" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="141" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.3" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.3" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$3"/>
+        <reference linenumber="79" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage$1"/>
+            <reference linenumber="240" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+            <reference linenumber="104" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.2" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.2" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$2"/>
+            <reference linenumber="83" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.1" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage$1"/>
+        <reference linenumber="128" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.2" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.2" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.3.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$3"/>
+        <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage$1"/>
+        <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.KeyAdapter" type="org.eclipse.swt.events.KeyAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="88" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.1" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.1" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.FontMetrics" type="org.eclipse.swt.graphics.FontMetrics">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="81" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.events.DisposeListener" type="org.eclipse.swt.events.DisposeListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.2" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.3" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Link" type="org.eclipse.swt.widgets.Link">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="102" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="77" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="77" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="102" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionListener" type="org.eclipse.swt.events.SelectionListener">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSelectionListener" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getSelectionListener()" signature="()Lorg/eclipse/swt/events/SelectionListener;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="selectionListener" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.selectionListener" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.List" type="org.eclipse.swt.widgets.List">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getListControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="list" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.list" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="311" member="getListControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.DirectoryDialog" type="org.eclipse.swt.widgets.DirectoryDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="148" member="getNewDirInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getNewDirInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="148" member="getNewDirInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getNewDirInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Widget" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="243" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Combo" type="org.eclipse.swt.widgets.Combo">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="86" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+        <reference linenumber="148" member="modifyText" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.3.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="86" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="66" member="createLocalesCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createLocalesCombo(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="138" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="201" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="combo" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.combo" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        <reference linenumber="-1" member="groupCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.groupCombo" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="templateCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.templateCombo" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="populateTemplateCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.populateTemplateCombo(Combo)" signature="(Lorg/eclipse/swt/widgets/Combo;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="-1" member="populateGroupCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.populateGroupCombo(Combo)" signature="(Lorg/eclipse/swt/widgets/Combo;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="addDirButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addDirButton" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="addFileButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addFileButton" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="downButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.downButton" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="upButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.upButton" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="removeButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.removeButton" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="222" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        <reference linenumber="126" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="222" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        <reference linenumber="126" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.FileDialog" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="143" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="143" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+</references>

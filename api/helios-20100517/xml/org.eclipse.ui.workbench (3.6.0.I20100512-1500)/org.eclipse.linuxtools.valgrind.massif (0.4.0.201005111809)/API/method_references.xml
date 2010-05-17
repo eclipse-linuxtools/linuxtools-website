@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.massif (0.4.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="54" reference_visibility="1">
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="372" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="314" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.6.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$6"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="65" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="findEditor" name="org.eclipse.ui.IWorkbenchPage.findEditor(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="375" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="62" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifViewPart()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifViewPart()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.MassifPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.MassifPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.ui.part.WorkbenchPart.dispose()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="381" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="82" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="372" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="314" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.6.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$6"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="55" member="start" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getContentDescription" name="org.eclipse.ui.part.WorkbenchPart.getContentDescription()" signature="()Ljava/lang/String;" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="298" member="createChart" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createChart(MassifSnapshot[])" signature="([Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifSnapshot;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="closeEditor" name="org.eclipse.ui.IWorkbenchPage.closeEditor(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Z" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="377" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.IWorkbenchPage.openEditor(IEditorInput, String)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="315" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.6.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$6"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="242" member="getToolbarActions" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="259" member="getToolbarActions" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="29" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider"/>
+            <reference linenumber="430" member="getColumnImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider.getColumnImage(Object, int)" signature="(Ljava/lang/Object;I)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+            <reference linenumber="277" member="getToolbarActions" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="36" member="getImageDescriptor" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="313" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.6.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$6"/>
+            <reference linenumber="372" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.setFocus()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.setFocus()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+<target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.ListDialog.ListDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.ListDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="doSave" name="org.eclipse.ui.part.EditorPart.doSave(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doSave" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.doSave(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isSaveAsAllowed" name="org.eclipse.ui.part.EditorPart.isSaveAsAllowed()" signature="()Z" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isSaveAsAllowed" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.isSaveAsAllowed()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isDirty" name="org.eclipse.ui.part.EditorPart.isDirty()" signature="()Z" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isDirty" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.isDirty()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.ui.IEditorInput.getName()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IEditorInput">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="42" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.ui.dialogs.ListDialog.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.ListDialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="51" member="setInput" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.setInput(MassifSnapshot)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifSnapshot;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setInput" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="33" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.ui.part.EditorPart.setInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setPartName" name="org.eclipse.ui.part.EditorPart.setPartName(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.ui.part.EditorPart.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getResult" name="org.eclipse.ui.dialogs.SelectionDialog.getResult()" signature="()[Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="openEditorForResult" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.openEditorForResult()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setSite" name="org.eclipse.ui.part.WorkbenchPart.setSite(IWorkbenchPartSite)" signature="(Lorg/eclipse/ui/IWorkbenchPartSite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.ui.dialogs.ListDialog.setLabelProvider(ILabelProvider)" signature="(Lorg/eclipse/jface/viewers/ILabelProvider;)V" type="org.eclipse.ui.dialogs.ListDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="doSaveAs" name="org.eclipse.ui.part.EditorPart.doSaveAs()" signature="()V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doSaveAs" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.doSaveAs()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.EditorPart.EditorPart()" signature="()V" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.ChartEditor()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.ChartEditor()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.part.EditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.ui.dialogs.ListDialog.setContentProvider(IStructuredContentProvider)" signature="(Lorg/eclipse/jface/viewers/IStructuredContentProvider;)V" type="org.eclipse.ui.dialogs.ListDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.PartInitException.PartInitException(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="45" member="init" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+    </target>
+</references>

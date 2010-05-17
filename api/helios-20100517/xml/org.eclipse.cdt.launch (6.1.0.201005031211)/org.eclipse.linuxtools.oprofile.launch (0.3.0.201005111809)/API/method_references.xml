@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.cdt.launch (6.1.0.201005031211)" reference_count="9" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.AbstractCLaunchDelegate()" signature="()V" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="44" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.AbstractOprofileLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.AbstractOprofileLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="renderProcessLabel" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.renderProcessLabel(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="88" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getProgramArgumentsArray" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getProgramArgumentsArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="80" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkingDirectory" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getWorkingDirectory(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/io/File;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="76" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="launch" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="verifyProgramPath" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getEnvironment" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getEnvironment(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="87" member="launch" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getPluginID" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getPluginID()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getPluginID" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.getPluginID()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

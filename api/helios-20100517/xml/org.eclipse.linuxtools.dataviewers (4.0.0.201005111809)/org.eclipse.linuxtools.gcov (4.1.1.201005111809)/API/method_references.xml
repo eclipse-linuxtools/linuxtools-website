@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" reference_count="57" reference_visibility="1">
+    <target member="createActions" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.createActions()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="93" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTDataViewersField.AbstractSTDataViewersField()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTDataViewersField">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="21" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldTotalLines.FieldTotalLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldTotalLines"/>
+            <reference linenumber="17" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldName.FieldName()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldName"/>
+            <reference linenumber="19" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines.FieldInstrumentedLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines"/>
+            <reference linenumber="18" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldExecutedLines.FieldExecutedLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldExecutedLines"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldTotalLines.FieldTotalLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldTotalLines"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldName.FieldName()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldName"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines.FieldInstrumentedLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldExecutedLines.FieldExecutedLines()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldExecutedLines"/>
+        </reference_kind>
+    </target>
+    <target member="getPercentage" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField.getPercentage(Object)" signature="(Ljava/lang/Object;)F" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getPercentage" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.getPercentage(Object)" signature="(Ljava/lang/Object;)F" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+    </target>
+    <target member="getInput" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.getInput()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="103" member="handleOpenEvent" origin="org.eclipse.linuxtools.gcov.view.CovViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+            <reference linenumber="236" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+    </target>
+    <target member="getSTViewer" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.getSTViewer()" signature="()Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="223" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="234" member="createExportToCSVAction" origin="org.eclipse.linuxtools.gcov.view.CovView.createExportToCSVAction()" signature="()Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="97" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="110" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="84" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="236" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+            <reference linenumber="103" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField.getValue(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getValue" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.getValue(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+    </target>
+    <target member="getViewer" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer.getViewer()" signature="()Lorg/eclipse/jface/viewers/TreeViewer;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="224" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer.AbstractSTTreeViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovViewer.CovViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="isSettedNumberFormat" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField.isSettedNumberFormat()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isSettedNumberFormat" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.isSettedNumberFormat()" signature="()Z" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer.AbstractSTTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTTreeViewer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovViewer.CovViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="createContentProvider" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.createContentProvider()" signature="()Lorg/eclipse/jface/viewers/IContentProvider;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContentProvider" origin="org.eclipse.linuxtools.gcov.view.CovViewer.createContentProvider()" signature="()Lorg/eclipse/jface/viewers/IContentProvider;" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getAllFields" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.getAllFields()" signature="()[Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getAllFields" origin="org.eclipse.linuxtools.gcov.view.CovViewer.getAllFields()" signature="()[Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="240" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+    </target>
+    <target member="getImageDescriptor" name="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersImages.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersImages">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="119" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="92" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="120" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="createAbstractSTViewer" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.createAbstractSTViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createAbstractSTViewer" origin="org.eclipse.linuxtools.gcov.view.CovView.createAbstractSTViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getDialogSettings" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getDialogSettings" origin="org.eclipse.linuxtools.gcov.view.CovViewer.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="contributeToToolbar" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="77" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="createTitle" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createTitle" origin="org.eclipse.linuxtools.gcov.view.CovView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="222" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField.AbstractPercentageDrawerField()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="23" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.FieldCoveragePercentage()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.FieldCoveragePercentage()" signature="()V" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+    </target>
+    <target member="getNumberFormat" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField.getNumberFormat()" signature="()Ljava/text/NumberFormat;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractPercentageDrawerField">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getNumberFormat" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.getNumberFormat()" signature="()Ljava/text/NumberFormat;" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+        </reference_kind>
+    </target>
+    <target member="getExporter" name="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction.getExporter()" signature="()Lorg/eclipse/linuxtools/dataviewers/abstractviewers/STDataViewersCSVExporter;" type="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="238" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.AbstractSTDataView()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovView.CovView()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovView.CovView()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="createExportToCSVAction" name="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView.createExportToCSVAction()" signature="()Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.dataviewers.abstractview.AbstractSTDataView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createExportToCSVAction" origin="org.eclipse.linuxtools.gcov.view.CovView.createExportToCSVAction()" signature="()Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="setFilePath" name="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.setFilePath(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="238" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.3.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+    </target>
+    <target member="getToolTipText" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTDataViewersField.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTDataViewersField">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getToolTipText" origin="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldCoveragePercentage"/>
+            <reference linenumber="-1" member="getToolTipText" origin="org.eclipse.linuxtools.gcov.view.FieldTotalLines.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldTotalLines"/>
+            <reference linenumber="-1" member="getToolTipText" origin="org.eclipse.linuxtools.gcov.view.FieldExecutedLines.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldExecutedLines"/>
+            <reference linenumber="-1" member="getToolTipText" origin="org.eclipse.linuxtools.gcov.view.FieldName.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldName"/>
+            <reference linenumber="-1" member="getToolTipText" origin="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines.getToolTipText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.view.FieldInstrumentedLines"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction.STExportToCSVAction(AbstractSTViewer)" signature="(Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;)V" type="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="234" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovView.3.3(CovView, AbstractSTViewer)" signature="(Lorg/eclipse/linuxtools/gcov/view/CovView;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;)V" type="org.eclipse.linuxtools.gcov.view.CovView$3"/>
+        </reference_kind>
+    </target>
+    <target member="getViewer" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.getViewer()" signature="()Lorg/eclipse/jface/viewers/ColumnViewer;" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="103" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="97" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="110" member="createActions" origin="org.eclipse.linuxtools.gcov.view.CovView.createActions()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="handleOpenEvent" name="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.AbstractSTViewer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="handleOpenEvent" origin="org.eclipse.linuxtools.gcov.view.CovViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+</references>

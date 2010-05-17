@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="13" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.binutils.Activator" type="org.eclipse.linuxtools.binutils.Activator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IPersistableElement" type="org.eclipse.ui.IPersistableElement">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getPersistable" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput.getPersistable()" signature="()Lorg/eclipse/ui/IPersistableElement;" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorInput" type="org.eclipse.ui.IEditorInput">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getEditorInput" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getEditorInput(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="-1" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="407" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="78" member="getProject" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="60" member="getMissingFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.getMissingFile()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="69" member="getLineNumber" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.getLineNumber()" signature="()I" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setInput" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.setInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="416" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="423" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="408" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+</references>

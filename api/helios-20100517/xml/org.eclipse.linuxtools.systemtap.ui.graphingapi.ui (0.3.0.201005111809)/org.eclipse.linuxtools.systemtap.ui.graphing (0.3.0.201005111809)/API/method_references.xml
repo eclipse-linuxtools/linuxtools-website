@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui (0.3.0.201005111809)" reference_count="15" reference_visibility="1">
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="178" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard.DataSetWizard(File, String)" signature="(Ljava/io/File;Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="168" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="getParser" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard.getParser()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="175" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDataSet" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard.getDataSet()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="176" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="170" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="createFilteredDataSet" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetFactory.createFilteredDataSet(String, String[])" signature="(Ljava/lang/String;[Ljava/lang/String;)Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IFilteredDataSet;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="112" member="readFile" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.readFile(File)" signature="(Ljava/io/File;)Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+    </target>
+<target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="235" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard.SelectGraphWizard(IDataSet)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="210" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getGraphData" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard.getGraphData()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="217" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.datadisplay.DataGrid.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.datadisplay.DataGrid">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="151" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target member="getCanvas" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite.getCanvas()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/charts/AbstractChartBuilder;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="226" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="212" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getGraphName" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.GraphFactory.getGraphName(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.GraphFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="221" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite.GraphComposite(Composite, int, GraphData, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="222" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getDataGrid" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetFactory.getDataGrid(Composite, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/datadisplay/DataGrid;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="148" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+</references>

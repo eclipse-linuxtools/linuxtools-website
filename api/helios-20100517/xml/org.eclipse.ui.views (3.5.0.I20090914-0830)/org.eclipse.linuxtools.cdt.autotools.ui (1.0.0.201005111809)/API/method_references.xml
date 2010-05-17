@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.ui.views (3.5.0.I20090914-0830)" reference_count="24" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.ContentOutlinePage()" signature="()V" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="36" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.AutoconfContentOutlinePage(AutoconfEditor)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfEditor;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        <reference linenumber="228" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.MakefileContentOutlinePage(MakefileEditor)" signature="(Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/MakefileEditor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+            <reference linenumber="230" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.AutomakefileContentOutlinePage(AutomakeEditor)" signature="(Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/AutomakeEditor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="selectionChanged" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="107" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="getTreeViewer" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.getTreeViewer()" signature="()Lorg/eclipse/jface/viewers/TreeViewer;" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="93" member="createControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+            <reference linenumber="64" member="update" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.update()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        <reference linenumber="270" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+            <reference linenumber="246" member="update" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.update()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+            <reference linenumber="331" member="setActionBars" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.setActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+            <reference linenumber="239" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+            <reference linenumber="305" member="update" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.update()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="createControl" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="91" member="createControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        <reference linenumber="269" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+            <reference linenumber="238" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.outline.AutoconfContentOutlinePage"/>
+        <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+<target member="addSelectionChangedListener" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.addSelectionChangedListener(ISelectionChangedListener)" signature="(Lorg/eclipse/jface/viewers/ISelectionChangedListener;)V" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="89" member="getAutomakeOutlinePage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor.getAutomakeOutlinePage()" signature="()Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/AutomakefileContentOutlinePage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor"/>
+            <reference linenumber="112" member="getOutlinePage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.getOutlinePage()" signature="()Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/MakefileContentOutlinePage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.ui.views.contentoutline.ContentOutlinePage.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.ui.views.contentoutline.ContentOutlinePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction"/>
+            <reference linenumber="279" member="contextMenuAboutToShow" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.contextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+            <reference linenumber="282" member="contextMenuAboutToShow" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.contextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+</references>

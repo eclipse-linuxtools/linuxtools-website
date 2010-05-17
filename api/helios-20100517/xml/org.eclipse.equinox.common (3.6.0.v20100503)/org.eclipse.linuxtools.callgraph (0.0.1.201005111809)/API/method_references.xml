@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="16" reference_visibility="1">
+    <target member="toFileURL" name="org.eclipse.core.runtime.FileLocator.toFileURL(URL)" signature="(Ljava/net/URL;)Ljava/net/URL;" type="org.eclipse.core.runtime.FileLocator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="87" member="getPluginLocation" origin="org.eclipse.linuxtools.callgraph.CallgraphPlugin.getPluginLocation()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.CallgraphPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="84" member="getPluginLocation" origin="org.eclipse.linuxtools.callgraph.CallgraphPlugin.getPluginLocation()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.CallgraphPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1007" member="updateMethod" origin="org.eclipse.linuxtools.callgraph.CallgraphView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.NullProgressMonitor.NullProgressMonitor()" signature="()V" type="org.eclipse.core.runtime.NullProgressMonitor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="1006" member="updateMethod" origin="org.eclipse.linuxtools.callgraph.CallgraphView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="worked" name="org.eclipse.core.runtime.IProgressMonitor.worked(int)" signature="(I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="259" member="loadData" origin="org.eclipse.linuxtools.callgraph.CallgraphView.loadData(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1014" member="updateMethod" origin="org.eclipse.linuxtools.callgraph.CallgraphView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="284" member="loadData" origin="org.eclipse.linuxtools.callgraph.CallgraphView.loadData(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1010" member="updateMethod" origin="org.eclipse.linuxtools.callgraph.CallgraphView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="find" name="org.eclipse.core.runtime.FileLocator.find(Bundle, IPath, Map)" signature="(Lorg/osgi/framework/Bundle;Lorg/eclipse/core/runtime/IPath;Ljava/util/Map;)Ljava/net/URL;" type="org.eclipse.core.runtime.FileLocator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="84" member="getPluginLocation" origin="org.eclipse.linuxtools.callgraph.CallgraphPlugin.getPluginLocation()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.CallgraphPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="isCanceled" name="org.eclipse.core.runtime.IProgressMonitor.isCanceled()" signature="()Z" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="316" member="finishLoad" origin="org.eclipse.linuxtools.callgraph.CallgraphView.finishLoad(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="507" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="322" member="finishLoad" origin="org.eclipse.linuxtools.callgraph.CallgraphView.finishLoad(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="404" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="230" member="loadData" origin="org.eclipse.linuxtools.callgraph.CallgraphView.loadData(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        <reference linenumber="80" member="run" origin="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist"/>
+        </reference_kind>
+    </target>
+<target member="getAdapter" name="org.eclipse.core.runtime.IAdaptable.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.core.runtime.IAdaptable">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="67" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+</references>

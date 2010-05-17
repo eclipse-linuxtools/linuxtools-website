@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.linuxtools.oprofile.core (0.3.0.201005111809)" reference_count="92" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.OprofileDaemonEvent()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="55" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.OprofileCounter(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="getResetCount" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.getResetCount()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="223" member="getCount" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getCount()" signature="()I" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="128" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setEvent" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.setEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="88" member="setEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.setEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="showErrorDialog" name="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.showErrorDialog(String, CoreException)" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/CoreException;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="749" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        <reference linenumber="213" member="widgetSelected" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$OprofiledControlDialog$2"/>
+            <reference linenumber="48" member="preExec" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchConfigurationDelegate.preExec(LaunchOptions, OprofileDaemonEvent[])" signature="(Lorg/eclipse/linuxtools/oprofile/launch/configuration/LaunchOptions;[Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonEvent;)Z" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="192" member="widgetSelected" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$OprofiledControlDialog$1"/>
+            <reference linenumber="91" member="launchesTerminated" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchConfigurationDelegate.LaunchTerminationWatcher.launchesTerminated(ILaunch[])" signature="([Lorg/eclipse/debug/core/ILaunch;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileLaunchConfigurationDelegate$LaunchTerminationWatcher"/>
+            <reference linenumber="246" member="widgetSelected" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.4.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$OprofiledControlDialog$4"/>
+            <reference linenumber="81" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$1"/>
+        </reference_kind>
+    </target>
+    <target member="getTextDescription" name="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent.getTextDescription()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="537" member="initializeTab" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.initializeTab(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+            <reference linenumber="591" member="_handleEventListSelectionChange" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab._handleEventListSelectionChange()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+        </reference_kind>
+    </target>
+    <target member="getNumber" name="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent.getNumber()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="182" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getSeparateProfilesMask" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.getSeparateProfilesMask()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="103" member="getSeparateSamples" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.getSeparateSamples()" signature="()I" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="58" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="checkEvent" name="org.eclipse.linuxtools.oprofile.core.Oprofile.checkEvent(int, int, int)" signature="(III)Ljava/lang/Boolean;" type="org.eclipse.linuxtools.oprofile.core.Oprofile">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="81" member="checkEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.EventConfigCache.checkEvent(int, int, int)" signature="(III)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.EventConfigCache"/>
+        </reference_kind>
+    </target>
+    <target member="getBinaryImage" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.getBinaryImage()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="119" member="getBinaryImage" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.getBinaryImage()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="getNumberOfCounters" name="org.eclipse.linuxtools.oprofile.core.Oprofile.getNumberOfCounters()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.Oprofile">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="64" member="getCounters" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getCounters(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Lorg/eclipse/linuxtools/oprofile/launch/configuration/OprofileCounter;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="301" member="getNumberOfCounters" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.getNumberOfCounters()" signature="()I" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent.getText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="246" member="_eventFromString" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter._eventFromString(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="439" member="getText" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.2.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$2"/>
+            <reference linenumber="123" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="getUnitMask" name="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent.getUnitMask()" signature="()Lorg/eclipse/linuxtools/oprofile/core/daemon/OpUnitMask;" type="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="getUnitMask" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getUnitMask()" signature="()Lorg/eclipse/linuxtools/oprofile/core/daemon/OpUnitMask;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="727" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+            <reference linenumber="148" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="124" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="182" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getTimerMode" name="org.eclipse.linuxtools.oprofile.core.Oprofile.getTimerMode()" signature="()Z" type="org.eclipse.linuxtools.oprofile.core.Oprofile">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="293" member="getTimerMode" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.getTimerMode()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getNumMasks" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.getNumMasks()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="728" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getEvents" name="org.eclipse.linuxtools.oprofile.core.Oprofile.getEvents(int)" signature="(I)[Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;" type="org.eclipse.linuxtools.oprofile.core.Oprofile">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.OprofileCounter(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="getProfileKernel" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.getProfileKernel()" signature="()Z" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="126" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="207" member="getProfileKernel" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getProfileKernel()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setMaskFromIndex" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.setMaskFromIndex(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="711" member="_handleToggle" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer._handleToggle(Button, int)" signature="(Lorg/eclipse/swt/widgets/Button;I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setProfileKernel" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.setProfileKernel(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="96" member="setProfileKernel" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.setProfileKernel(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="150" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setSeparateProfilesMask" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.setSeparateProfilesMask(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="111" member="setSeparateSamples" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.setSeparateSamples(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.getText(int)" signature="(I)Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="769" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+            <reference linenumber="754" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getMinCount" name="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent.getMinCount()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OpEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="633" member="_handleCountTextModify" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab._handleCountTextModify()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+            <reference linenumber="596" member="_handleEventListSelectionChange" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab._handleEventListSelectionChange()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+            <reference linenumber="175" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.getType()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="761" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+            <reference linenumber="747" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+            <reference linenumber="751" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaultMaskValue" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.setDefaultMaskValue()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="740" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.OprofileDaemonOptions()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.LaunchOptions()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="setResetCount" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.setResetCount(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="153" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="112" member="setCount" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.setCount(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="getEvent" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.getEvent()" signature="()Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="148" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="160" member="getUnitMask" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getUnitMask()" signature="()Lorg/eclipse/linuxtools/oprofile/core/daemon/OpUnitMask;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="124" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="142" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="199" member="getEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getEvent()" signature="()Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="123" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="122" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setBinaryImage" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.setBinaryImage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="127" member="setBinaryImage" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.setBinaryImage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="getMaskValue" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.getMaskValue()" signature="()I" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="182" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="124" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="isMaskSetFromIndex" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.isMaskSetFromIndex(int)" signature="(I)Z" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="759" member="displayEvent" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer.displayEvent(OpEvent)" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OpEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="unSetMaskFromIndex" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.unSetMaskFromIndex(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="713" member="_handleToggle" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.UnitMaskViewer._handleToggle(Button, int)" signature="(Lorg/eclipse/swt/widgets/Button;I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$UnitMaskViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getKernelImageFile" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.getKernelImageFile()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="44" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.isValid()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="87" member="getKernelImageFile" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.getKernelImageFile()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="42" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.isValid()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="getProfileUser" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.getProfileUser()" signature="()Z" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="127" member="saveConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.saveConfiguration(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="215" member="getProfileUser" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.getProfileUser()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setProfileUser" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent.setProfileUser(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="151" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+            <reference linenumber="104" member="setProfileUser" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.setProfileUser(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+    <target member="setKernelImageFile" name="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions.setKernelImageFile(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OprofileDaemonOptions">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="68" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+            <reference linenumber="95" member="setKernelImageFile" origin="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions.setKernelImageFile(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.LaunchOptions"/>
+        </reference_kind>
+    </target>
+    <target member="setMaskValue" name="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask.setMaskValue(int)" signature="(I)V" type="org.eclipse.linuxtools.oprofile.core.daemon.OpUnitMask">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="148" member="loadConfiguration" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter.loadConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileCounter"/>
+        </reference_kind>
+    </target>
+<target member="dumpSamples" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.dumpSamples()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="176" member="oprofileDumpSamples" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileDumpSamples()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="status" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.status()" signature="()Z" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="187" member="oprofileStatus" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStatus()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setupDaemon" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.setupDaemon(OprofileDaemonOptions, OprofileDaemonEvent[])" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonOptions;[Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonEvent;)V" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="168" member="oprofileSetupDaemon" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileSetupDaemon(OprofileDaemonOptions, OprofileDaemonEvent[])" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonOptions;[Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="shutdownDaemon" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.shutdownDaemon()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="160" member="oprofileShutdown" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileShutdown()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="reset" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.reset()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="164" member="oprofileReset" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileReset()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="startCollection" name="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider.startCollection()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.IOpcontrolProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="172" member="oprofileStartCollection" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStartCollection()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.getDefault()" signature="()Lorg/eclipse/linuxtools/oprofile/core/OprofileCorePlugin;" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="168" member="oprofileSetupDaemon" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileSetupDaemon(OprofileDaemonOptions, OprofileDaemonEvent[])" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonOptions;[Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="164" member="oprofileReset" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileReset()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="187" member="oprofileStatus" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStatus()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="160" member="oprofileShutdown" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileShutdown()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="172" member="oprofileStartCollection" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStartCollection()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="176" member="oprofileDumpSamples" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileDumpSamples()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getOpcontrolProvider" name="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.getOpcontrolProvider()" signature="()Lorg/eclipse/linuxtools/oprofile/core/IOpcontrolProvider;" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="160" member="oprofileShutdown" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileShutdown()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="172" member="oprofileStartCollection" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStartCollection()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="164" member="oprofileReset" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileReset()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="176" member="oprofileDumpSamples" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileDumpSamples()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="187" member="oprofileStatus" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileStatus()" signature="()Z" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+            <reference linenumber="168" member="oprofileSetupDaemon" origin="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.oprofileSetupDaemon(OprofileDaemonOptions, OprofileDaemonEvent[])" signature="(Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonOptions;[Lorg/eclipse/linuxtools/oprofile/core/daemon/OprofileDaemonEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

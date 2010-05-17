@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="53" reference_visibility="1">
+    <target name="org.eclipse.core.resources.IProject" type="org.eclipse.core.resources.IProject">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.project" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.rpm.core.RPMProject.project" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.project" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addRPMNature" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.addRPMNature(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="removeNature" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.removeNature(IProject, String, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="setProject" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.setProject(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.RPMConfiguration(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="addNature" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.addNature(IProject, String, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.RPMProjectNature(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="removeRPMNature" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.removeRPMNature(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.RPMProject.RPMProject(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.rpm.core.RPMProject.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IProjectNature" type="org.eclipse.core.resources.IProjectNature">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.core.RPMProjectNature" type="org.eclipse.linuxtools.rpm.core.RPMProjectNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IFolder" type="org.eclipse.core.resources.IFolder">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="buildFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.buildFolder" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="sourcesFolder" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.sourcesFolder" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+            <reference linenumber="-1" member="specsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.specsFolder" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="sourcesFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.sourcesFolder" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="rpmsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.rpmsFolder" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="srpmsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.srpmsFolder" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getBuildFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.getBuildFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="getSourcesFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.getSourcesFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="getSrpmsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.getSrpmsFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="getRpmsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.getRpmsFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="-1" member="getSourcesFolder" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.getSourcesFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+            <reference linenumber="-1" member="getSpecsFolder" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.getSpecsFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setSourcesFolder" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.setSourcesFolder(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="62" member="getSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.getSpecFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IFile" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="81" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="63" member="getSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.getSpecFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="sourceRPM" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.sourceRPM" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.setSpecFile(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.SourceRPM(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+        <reference linenumber="-1" member="buildSource" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildSource(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="-1" member="getBuildHost" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getBuildHost(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getPreUninstallScript" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getPreUninstallScript(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getProvides" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getProvides(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="buildAll" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildAll(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="-1" member="buildPrep" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildPrep(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/io/InputStream;" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="-1" member="install" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.install(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="-1" member="getPlatform" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getPlatform(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="buildBinary" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildBinary(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="-1" member="getBuildTime" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getBuildTime(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getArch" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getArch(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getOS" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getOS(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getPostInstallScript" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getPostInstallScript(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getPostUninstallScript" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getPostUninstallScript(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getHeaderInfo" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getHeaderInfo(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getChangelog" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getChangelog(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="query" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.query(IFile, String[])" signature="(Lorg/eclipse/core/resources/IFile;[Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="-1" member="getPreInstallScript" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.getPreInstallScript(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.getSpecFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="-1" member="getFile" origin="org.eclipse.linuxtools.rpm.core.SourceRPM.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.core.SourceRPM"/>
+        </reference_kind>
+    </target>
+</references>

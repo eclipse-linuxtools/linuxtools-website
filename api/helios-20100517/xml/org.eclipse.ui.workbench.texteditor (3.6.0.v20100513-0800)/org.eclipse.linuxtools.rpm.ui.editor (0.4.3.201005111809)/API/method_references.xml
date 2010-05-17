@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="32" reference_visibility="1">
+    <target member="editorSaved" name="org.eclipse.ui.texteditor.AbstractTextEditor.editorSaved()" signature="()V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="74" member="editorSaved" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.editorSaved()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="editorSaved" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.editorSaved()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setKeyBindingScopes" name="org.eclipse.ui.texteditor.AbstractTextEditor.setKeyBindingScopes(String[])" signature="([Ljava/lang/String;)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.SpecfileEditor()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceViewer" name="org.eclipse.ui.texteditor.AbstractTextEditor.getSourceViewer()" signature="()Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$1" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.access$1(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+            <reference linenumber="182" member="getSpecfileSourceViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getSpecfileSourceViewer()" signature="()Lorg/eclipse/jface/text/source/SourceViewer;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectionProvider" name="org.eclipse.ui.texteditor.AbstractTextEditor.getSelectionProvider()" signature="()Lorg/eclipse/jface/viewers/ISelectionProvider;" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="236" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.RpmMacroOccurrencesUpdater(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+            <reference linenumber="70" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.update(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="setSourceViewerConfiguration" name="org.eclipse.ui.texteditor.AbstractTextEditor.setSourceViewerConfiguration(SourceViewerConfiguration)" signature="(Lorg/eclipse/jface/text/source/SourceViewerConfiguration;)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.SpecfileEditor()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getDocument" name="org.eclipse.ui.texteditor.IDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.ui.texteditor.IDocumentProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="117" member="getInputDocument" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getInputDocument()" signature="()Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+            <reference linenumber="66" member="reconcile" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.reconcile()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy"/>
+            <reference linenumber="83" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.1.run()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy$1"/>
+        <reference linenumber="107" member="mergeChangelog" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter"/>
+        <reference linenumber="67" member="inputChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider"/>
+            <reference linenumber="51" member="inputChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider"/>
+        </reference_kind>
+    </target>
+<target member="setFocus" name="org.eclipse.ui.texteditor.StatusTextEditor.setFocus()" signature="()V" type="org.eclipse.ui.texteditor.StatusTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="184" member="mergeChangelog" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter"/>
+        </reference_kind>
+    </target>
+    <target member="selectAndReveal" name="org.eclipse.ui.texteditor.AbstractTextEditor.selectAndReveal(int, int)" signature="(II)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="183" member="mergeChangelog" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter"/>
+        </reference_kind>
+    </target>
+    <target member="setHighlightRange" name="org.eclipse.ui.texteditor.AbstractTextEditor.setHighlightRange(int, int, boolean)" signature="(IIZ)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="67" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate"/>
+        <reference linenumber="155" member="gotoSelectedElement" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.gotoSelectedElement()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+<target member="isDirty" name="org.eclipse.ui.texteditor.AbstractTextEditor.isDirty()" signature="()Z" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="isDirty" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor.isDirty()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doSave" name="org.eclipse.ui.texteditor.AbstractTextEditor.doSave(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.ui.texteditor.AbstractTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="doSave" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor.doSave(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor"/>
+        </reference_kind>
+    </target>
+<target member="resetHighlightRange" name="org.eclipse.ui.texteditor.ITextEditor.resetHighlightRange()" signature="()V" type="org.eclipse.ui.texteditor.ITextEditor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="104" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+            <reference linenumber="91" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="getDocumentProvider" name="org.eclipse.ui.texteditor.ITextEditor.getDocumentProvider()" signature="()Lorg/eclipse/ui/texteditor/IDocumentProvider;" type="org.eclipse.ui.texteditor.ITextEditor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider.SpecfileContentProvider(ITextEditor)" signature="(Lorg/eclipse/ui/texteditor/ITextEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setHighlightRange" name="org.eclipse.ui.texteditor.ITextEditor.setHighlightRange(int, int, boolean)" signature="(IIZ)V" type="org.eclipse.ui.texteditor.ITextEditor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="100" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+<target member="isShowFormatterSetting" name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage.isShowFormatterSetting()" signature="()Z" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isShowFormatterSetting" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.isShowFormatterSetting()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setTemplateStore" name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage.setTemplateStore(TemplateStore)" signature="(Lorg/eclipse/jface/text/templates/persistence/TemplateStore;)V" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage.TemplatePreferencePage()" signature="()V" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="performOk" name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="49" member="performOk" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performOk" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setContextTypeRegistry" name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage.setContextTypeRegistry(ContextTypeRegistry)" signature="(Lorg/eclipse/jface/text/templates/ContextTypeRegistry;)V" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,444 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>IVerticalRulerColumn usage details</title>
+</head>
+<body>
+<h3>IVerticalRulerColumn usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.jface.text.source.IVerticalRulerColumn has 41 total references to 7 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn">
+<span>[+] </span>IVerticalRulerColumn
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CASTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.computeIndex(CompositeRuler, RulerColumnDescriptor)</td>
+<td align="center">236</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)</td>
+<td align="center">181</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.fDelegate</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>IMPLEMENTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.3.createSTRulerColumn()</td>
+<td align="center">292</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)</td>
+<td align="center">181</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.computeIndex(CompositeRuler, RulerColumnDescriptor)</td>
+<td align="center">236</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateQuickDiffVisibility(IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateCharacterMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateDeletedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateChangedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateBackgroundColor(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateLineNumbersVisibility(IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateAddedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateForegroundColor(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ICompatibilityForwarder.createSTRulerColumn()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.2.createLineNumberRulerColumn()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.3.createSTRulerColumn()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.createControl(org.eclipse.jface.text.source.CompositeRuler, org.eclipse.swt.widgets.Composite) : org.eclipse.swt.widgets.Control">
+<span>[+] </span>createControl(CompositeRuler, Composite) : Control
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)</td>
+<td align="center">111</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.getControl() : org.eclipse.swt.widgets.Control">
+<span>[+] </span>getControl() : Control
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getControl()</td>
+<td align="center">123</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.getWidth() : int">
+<span>[+] </span>getWidth() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getWidth()</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.redraw() : void">
+<span>[+] </span>redraw() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.10.propertyChange(PropertyChangeEvent)</td>
+<td align="center">330</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.2.propertyChange(PropertyChangeEvent)</td>
+<td align="center">274</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.9.propertyChange(PropertyChangeEvent)</td>
+<td align="center">322</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.initialize()</td>
+<td align="center">260</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.11.propertyChange(PropertyChangeEvent)</td>
+<td align="center">338</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.1.propertyChange(PropertyChangeEvent)</td>
+<td align="center">268</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.redraw()</td>
+<td align="center">144</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.setFont(org.eclipse.swt.graphics.Font) : void">
+<span>[+] </span>setFont(Font) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.setFont(Font)</td>
+<td align="center">151</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.source.IVerticalRulerColumn.setModel(org.eclipse.jface.text.source.IAnnotationModel) : void">
+<span>[+] </span>setModel(IAnnotationModel) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.setModel(IAnnotationModel)</td>
+<td align="center">159</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)</td>
+<td align="center">627</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)</td>
+<td align="center">598</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)</td>
+<td align="center">611</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

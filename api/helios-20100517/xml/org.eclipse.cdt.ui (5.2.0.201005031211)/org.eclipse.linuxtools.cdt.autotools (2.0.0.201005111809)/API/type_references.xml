@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.cdt.ui (5.2.0.201005031211)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.ui.newui.AbstractPage" type="org.eclipse.cdt.ui.newui.AbstractPage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.ui.IBuildConsoleManager" type="org.eclipse.cdt.ui.IBuildConsoleManager">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fConsoleManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.fConsoleManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="-1" member="fConsoleManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CConfigureConsole.fConsoleManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CConfigureConsole"/>
+            <reference linenumber="-1" member="fConsoleManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CBuildStepsConsole.fConsoleManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CBuildStepsConsole"/>
+            <reference linenumber="-1" member="fConsoleManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.AutotoolsConsole.fConsoleManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.AutotoolsConsole"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.core.runtime.compatibility.registry (3.3.0.v20100505)" reference_count="6" reference_visibility="1">
+    <target member="getConfigurationElements" name="org.eclipse.core.runtime.IExtensionPoint.getConfigurationElements()" signature="()[Lorg/eclipse/core/runtime/IConfigurationElement;" type="org.eclipse.core.runtime.IExtensionPoint">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="138" member="getFormatterContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getFormatterContributor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IFormatterChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="150" member="populateFormatList" origin="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateFormatList(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage"/>
+            <reference linenumber="82" member="getParserContributor" origin="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager.getParserContributor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/changelog/core/IParserChangeLogContrib;" type="org.eclipse.linuxtools.changelog.core.ChangeLogExtensionManager"/>
+            <reference linenumber="178" member="populateEditorList" origin="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateEditorList(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage"/>
+        <reference linenumber="82" member="getConfig" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.getConfig()" signature="()Lorg/eclipse/jface/text/source/SourceViewerConfiguration;" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+            <reference linenumber="46" member="setup" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant.setup(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="87" reference_visibility="1">
+    <target name="org.eclipse.core.resources.IProject" type="org.eclipse.core.resources.IProject">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature.setProject(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.LTTngProjectNode(ILTTngProjectTreeNode, IProject)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/ILTTngProjectTreeNode;Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.LTTngProjectNode(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="-1" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot.exists(String, IProject[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IProject;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot"/>
+            <reference linenumber="-1" member="isLTTngProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.isLTTngProject(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature.fProject" type="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature"/>
+        <reference linenumber="-1" member="fProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.fProject" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        <reference linenumber="-1" member="fProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.fProject" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature"/>
+        <reference linenumber="-1" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="114" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        <reference linenumber="75" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="79" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler"/>
+        <reference linenumber="59" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot"/>
+            <reference linenumber="92" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot.exists(String, IProject[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IProject;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IProjectNature" type="org.eclipse.core.resources.IProjectNature">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature" type="org.eclipse.linuxtools.lttng.ui.views.project.LTTngProjectNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResourceChangeListener" type="org.eclipse.core.resources.IResourceChangeListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fResourceChangeListener" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.fResourceChangeListener" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.2" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResource" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="174" member="selectExperiment" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.selectExperiment(LTTngExperimentNode)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="55" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="55" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="81" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="86" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="55" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="70" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="114" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="83" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.2.getResource()" signature="()Lorg/eclipse/core/resources/IResource;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$2"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="-1" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="-1" member="exists" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.exists(String, IResource[])" signature="(Ljava/lang/String;[Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IWorkspace" type="org.eclipse.core.resources.IWorkspace">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fWorkspace" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.fWorkspace" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard"/>
+            <reference linenumber="112" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+            <reference linenumber="299" member="validateFolderName" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateFolderName()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResourceChangeEvent" type="org.eclipse.core.resources.IResourceChangeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="resourceChanged" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.2.resourceChanged(IResourceChangeEvent)" signature="(Lorg/eclipse/core/resources/IResourceChangeEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView$2"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.resources.IFolder" type="org.eclipse.core.resources.IFolder">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="131" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+            <reference linenumber="274" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="326" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="194" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="72" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard"/>
+            <reference linenumber="180" member="createFolderHandle" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createFolderHandle(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="77" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard"/>
+        <reference linenumber="76" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="76" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$folderHandle" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.val$folderHandle" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        <reference linenumber="-1" member="fExperiment" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.fExperiment" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="-1" member="fExperimentFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.fExperimentFolder" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="-1" member="fTraceFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.fTraceFolder" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="fTrace" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode.fTrace" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="-1" member="createFolderHandle" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createFolderHandle(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        <reference linenumber="-1" member="getFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.getFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="getFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.getFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="-1" member="getFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode.getFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode"/>
+            <reference linenumber="-1" member="getFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.getFolder()" signature="()Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.4(NewExperimentDialog, URI, IFolder)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/dialogs/NewExperimentDialog;Ljava/net/URI;Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode.LTTngTraceNode(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.LTTngExperimentNode(ILTTngProjectTreeNode, IFolder)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/ILTTngProjectTreeNode;Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.LTTngExperimentNode(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode.LTTngTraceNode(ILTTngProjectTreeNode, IFolder)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/ILTTngProjectTreeNode;Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceNode"/>
+            <reference linenumber="-1" member="addTrace" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.addTrace(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+            <reference linenumber="-1" member="addTrace" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.addTrace(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.LTTngExperimentFolderNode(ILTTngProjectTreeNode, IFolder)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/ILTTngProjectTreeNode;Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.LTTngExperimentFolderNode(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.LTTngTraceFolderNode(ILTTngProjectTreeNode, IFolder)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/ILTTngProjectTreeNode;Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.LTTngTraceFolderNode(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="-1" member="addExperiment" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.addExperiment(IFolder)" signature="(Lorg/eclipse/core/resources/IFolder;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="331" member="okPressed" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="94" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+        <reference linenumber="59" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="74" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="78" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="59" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+            <reference linenumber="58" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="93" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler"/>
+        <reference linenumber="56" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngExperimentFolderNode"/>
+            <reference linenumber="56" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngTraceFolderNode"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IProjectDescription" type="org.eclipse.core.resources.IProjectDescription">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="118" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+            <reference linenumber="127" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IWorkspaceRoot" type="org.eclipse.core.resources.IWorkspaceRoot">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="178" member="createFolderHandle" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createFolderHandle(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="113" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        <reference linenumber="57" member="refreshChildren" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot.refreshChildren()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectRoot"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IContainer" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="container" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.container" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.jobs.ISchedulingRule" type="org.eclipse.core.runtime.jobs.ISchedulingRule">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="39" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction"/>
+            <reference linenumber="328" member="executeConsoleCommand" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.executeConsoleCommand(String, String, String[], IPath)" signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$rule" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.1.val$rule" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction$1"/>
+            <reference linenumber="-1" member="val$rule" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.1.val$rule" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.1.1(InvokeAction, String, ISchedulingRule, String, IPath, String, String[])" signature="(Lorg/eclipse/linuxtools/cdt/autotools/actions/InvokeAction;Ljava/lang/String;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$1"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.1.1(ReconfigureAction, String, ISchedulingRule)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/actions/ReconfigureAction;Ljava/lang/String;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.jobs.Job" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.1" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.1" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction"/>
+            <reference linenumber="330" member="executeConsoleCommand" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.executeConsoleCommand(String, String, String[], IPath)" signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction"/>
+        </reference_kind>
+    </target>
+</references>

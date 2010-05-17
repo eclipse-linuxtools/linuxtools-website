@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IProgressMonitor" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.LogReader.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.LogReader"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="129" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="129" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.dashboard (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.consolelog (0.3.0.201005111809)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="180" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+            <reference linenumber="394" member="createClientSession" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.createClientSession()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="184" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="184" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="console" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.console" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        <reference linenumber="-1" member="cmd" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.ActiveModuleData.cmd" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.ActiveModuleData"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="202" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="subscription" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.subscription" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="398" member="createClientSession" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.createClientSession()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+    </target>
+</references>

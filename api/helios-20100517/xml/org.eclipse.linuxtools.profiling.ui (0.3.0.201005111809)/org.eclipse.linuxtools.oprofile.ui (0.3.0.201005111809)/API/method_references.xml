@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" reference_count="8" reference_visibility="1">
+    <target member="openEditorAndSelect" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="97" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+            <reference linenumber="107" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="findFunctionsInProject" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findFunctionsInProject(ICProject, String, int, String, boolean)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;ILjava/lang/String;Z)Ljava/util/HashMap;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="104" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+            <reference linenumber="90" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="findCProjectWithAbsolutePath" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findCProjectWithAbsolutePath(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/model/ICProject;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="68" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="openEditorAndSelect" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="123" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+            <reference linenumber="94" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+            <reference linenumber="112" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

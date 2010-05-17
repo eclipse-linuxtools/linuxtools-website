@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.dashboard (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" reference_count="18" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.DashboardAdapter(DashboardComposite, GraphData, IDataSet, String)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/DashboardComposite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter"/>
+            <reference linenumber="-1" member="createGraph" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.createGraph(GraphData, IDataSet)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter"/>
+        <reference linenumber="-1" member="createGraph" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardView.createGraph(GraphData, IDataSet, String)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Ljava/lang/String;)Lorg/eclipse/linuxtools/systemtap/ui/dashboard/DashboardAdapter;" type="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="208" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+            <reference linenumber="206" member="runScript" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/DashboardModule;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="data" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.ActiveModuleData.data" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.ActiveModuleData"/>
+            <reference linenumber="-1" member="data" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData.data" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.GraphData" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.GraphData">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createGraph" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.createGraph(GraphData, IDataSet)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.DashboardAdapter(DashboardComposite, GraphData, IDataSet, String)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/dashboard/DashboardComposite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter"/>
+        <reference linenumber="-1" member="createGraph" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardView.createGraph(GraphData, IDataSet, String)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/structures/GraphData;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Ljava/lang/String;)Lorg/eclipse/linuxtools/systemtap/ui/dashboard/DashboardAdapter;" type="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="123" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardMetaData.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardMetaData"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="graphs" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardModule.graphs" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardModule"/>
+            <reference linenumber="-1" member="graph" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData.graph" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="127" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardMetaData.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardMetaData"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="parser" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardModule.parser" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardModule"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.IDataSetFilter" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.IDataSetFilter">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="filters" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData.filters" type="org.eclipse.linuxtools.systemtap.ui.dashboard.structures.DashboardGraphData"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="98" member="add" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardGraphsBrowserView.add(String, ActiveModuleData)" signature="(Ljava/lang/String;Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/ActiveModuleData;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.views.DashboardGraphsBrowserView"/>
+            <reference linenumber="100" member="add" origin="org.eclipse.linuxtools.systemtap.ui.dashboard.views.ActiveModuleBrowserView.add(String, ActiveModuleData)" signature="(Ljava/lang/String;Lorg/eclipse/linuxtools/systemtap/ui/dashboard/structures/ActiveModuleData;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.views.ActiveModuleBrowserView"/>
+        </reference_kind>
+    </target>
+</references>

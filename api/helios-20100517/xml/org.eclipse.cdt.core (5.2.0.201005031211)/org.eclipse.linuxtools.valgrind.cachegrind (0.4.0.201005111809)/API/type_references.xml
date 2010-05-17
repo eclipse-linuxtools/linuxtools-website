@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="29" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.model.ISourceRange" type="org.eclipse.cdt.core.model.ISourceRange">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="132" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ISourceReference" type="org.eclipse.cdt.core.model.ISourceReference">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="129" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.CModelException" type="org.eclipse.cdt.core.model.CModelException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="136" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="136" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.model.IParent" type="org.eclipse.cdt.core.model.IParent">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="69" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="60" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ICElement" type="org.eclipse.cdt.core.model.ICElement">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="42" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="84" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="80" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="84" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="81" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IFunction" type="org.eclipse.cdt.core.model.IFunction">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="85" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IMethod" type="org.eclipse.cdt.core.model.IMethod">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="85" member="findElement" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.findElement(String, IParent)" signature="(Ljava/lang/String;Lorg/eclipse/cdt/core/model/IParent;)Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ITranslationUnit" type="org.eclipse.cdt.core.model.ITranslationUnit">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IStructure" type="org.eclipse.cdt.core.model.IStructure">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="65" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="64" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    </target>
+</references>

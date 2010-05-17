@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="20" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.Activator" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorLauncher" type="org.eclipse.ui.IEditorLauncher">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.model.WorkbenchLabelProvider" type="org.eclipse.ui.model.WorkbenchLabelProvider">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.ISelectionStatusValidator" type="org.eclipse.ui.dialogs.ISelectionStatusValidator">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.4" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$4"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="124" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="101" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="124" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="101" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="213" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        <reference linenumber="89" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="121" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="73" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorInput" type="org.eclipse.ui.IEditorInput">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="41" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceNotFoundEditor.openSourceFileAtLocation(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceNotFoundEditor"/>
+            <reference linenumber="108" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="54" member="getFileStore" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getFileStore(IProject, IPath)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="74" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="110" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

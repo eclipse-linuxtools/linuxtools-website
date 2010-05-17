@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="33" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Status" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="169" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction$1"/>
+            <reference linenumber="90" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="259" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="203" member="restoreState" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.restoreState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="123" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+            <reference linenumber="94" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+            <reference linenumber="228" member="saveState" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.saveState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="275" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="140" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="184" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+            <reference linenumber="79" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.1.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView$1"/>
+            <reference linenumber="117" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+            <reference linenumber="149" member="setFocus" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.setFocus()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+        <reference linenumber="68" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.ChartViewer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="90" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="275" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="203" member="restoreState" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.restoreState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="228" member="saveState" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.saveState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="140" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="123" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+            <reference linenumber="259" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="79" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.1.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView$1"/>
+            <reference linenumber="117" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+            <reference linenumber="184" member="setChart" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.setChart(Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+            <reference linenumber="149" member="setFocus" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.setFocus()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+        <reference linenumber="68" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.ChartViewer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IStatus" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="94" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.NullProgressMonitor" type="org.eclipse.core.runtime.NullProgressMonitor">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="92" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IProgressMonitor" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.Path" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="89" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="93" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="93" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+    </target>
+</references>

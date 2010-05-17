@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.cdt.ui (5.2.0.201005031211)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.cdt.ui.CElementLabelProvider" type="org.eclipse.cdt.ui.CElementLabelProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.1" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider$1"/>
+            <reference linenumber="34" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.1" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCLabelProvider" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.getCLabelProvider()" signature="()Lorg/eclipse/cdt/ui/CElementLabelProvider;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="cLabelProvider" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.cLabelProvider" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+</references>

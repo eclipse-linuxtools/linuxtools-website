@@ -1,0 +1,975 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>AbstractDecoratedTextEditor usage details</title>
+</head>
+<body>
+<h3>AbstractDecoratedTextEditor usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.ui.texteditor.AbstractDecoratedTextEditor has 81 total references to 25 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+<span>[+] </span>AbstractDecoratedTextEditor
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>EXTENDS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.AbstractDecoratedTextEditor() : void">
+<span>[+] </span>AbstractDecoratedTextEditor() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.CEditor()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.CEditor()</td>
+<td align="center">209</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createAnnotationRulerColumn(org.eclipse.jface.text.source.CompositeRuler) : org.eclipse.jface.text.source.IVerticalRulerColumn">
+<span>[+] </span>createAnnotationRulerColumn(CompositeRuler) : IVerticalRulerColumn
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$1(STAnnotatedCSourceEditor, CompositeRuler)</td>
+<td align="center">1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createChangeHover() : org.eclipse.jface.text.source.LineChangeHover">
+<span>[+] </span>createChangeHover() : LineChangeHover
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)</td>
+<td align="center">311</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createCompositeRuler() : org.eclipse.jface.text.source.CompositeRuler">
+<span>[+] </span>createCompositeRuler() : CompositeRuler
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createLineNumberRulerColumn() : org.eclipse.jface.text.source.IVerticalRulerColumn">
+<span>[+] </span>createLineNumberRulerColumn() : IVerticalRulerColumn
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$4(STAnnotatedCSourceEditor)</td>
+<td align="center">1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">283</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">281</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createOverviewRuler(org.eclipse.jface.text.source.ISharedTextColors) : org.eclipse.jface.text.source.IOverviewRuler">
+<span>[+] </span>createOverviewRuler(ISharedTextColors) : IOverviewRuler
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.fLineNumberRulerColumn">
+<span>[+] </span>fLineNumberRulerColumn
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)</td>
+<td align="center">312</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+<span>[+] </span>AbstractDecoratedTextEditor
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CASTS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANCEOF</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">133</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">133</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorPart)</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.collectContextMenuPreferencePages() : java.lang.String[]">
+<span>[+] </span>collectContextMenuPreferencePages() : String[]
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.collectContextMenuPreferencePages()</td>
+<td align="center">454</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.collectContextMenuPreferencePages()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(org.eclipse.swt.widgets.Composite) : void">
+<span>[+] </span>createPartControl(Composite) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)</td>
+<td align="center">698</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createPartControl(Composite)</td>
+<td align="center">166</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.createPartControl(Composite)</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)</td>
+<td align="center">291</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)</td>
+<td align="center">44</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createSourceViewer(org.eclipse.swt.widgets.Composite, org.eclipse.jface.text.source.IVerticalRuler, int) : org.eclipse.jface.text.source.ISourceViewer">
+<span>[+] </span>createSourceViewer(Composite, IVerticalRuler, int) : ISourceViewer
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.dispose() : void">
+<span>[+] </span>dispose() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.dispose()</td>
+<td align="center">270</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.dispose()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getAnnotationAccess() : org.eclipse.jface.text.source.IAnnotationAccess">
+<span>[+] </span>getAnnotationAccess() : IAnnotationAccess
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)</td>
+<td align="center">714</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createPartControl(Composite)</td>
+<td align="center">168</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)</td>
+<td align="center">412</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">277</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getDocumentProvider() : org.eclipse.ui.texteditor.IDocumentProvider">
+<span>[+] </span>getDocumentProvider() : IDocumentProvider
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.getInputDocument()</td>
+<td align="center">182</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfReconcilingStrategy.AutoconfReconcilingStrategy(AutoconfEditor)</td>
+<td align="center">33</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.processReconcile()</td>
+<td align="center">276</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.initialize()</td>
+<td align="center">158</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.processReconcile()</td>
+<td align="center">249</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.getFindRepalceDocumentAdapter()</td>
+<td align="center">292</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)</td>
+<td align="center">302</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.initialize()</td>
+<td align="center">151</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getInputDocument()</td>
+<td align="center">117</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.SpecfileReconcilingStrategy(SpecfileEditor)</td>
+<td align="center">39</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">107</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getOverviewRuler() : org.eclipse.jface.text.source.IOverviewRuler">
+<span>[+] </span>getOverviewRuler() : IOverviewRuler
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">736</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()</td>
+<td align="center">425</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getSharedColors() : org.eclipse.jface.text.source.ISharedTextColors">
+<span>[+] </span>getSharedColors() : ISharedTextColors
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)</td>
+<td align="center">714</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createPartControl(Composite)</td>
+<td align="center">168</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)</td>
+<td align="center">310</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getSourceViewerDecorationSupport(org.eclipse.jface.text.source.ISourceViewer) : org.eclipse.ui.texteditor.SourceViewerDecorationSupport">
+<span>[+] </span>getSourceViewerDecorationSupport(ISourceViewer) : SourceViewerDecorationSupport
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">739</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">190</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">58</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.initializeKeyBindingScopes() : void">
+<span>[+] </span>initializeKeyBindingScopes() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.initializeKeyBindingScopes()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.initializeLineNumberRulerColumn(org.eclipse.jface.text.source.LineNumberRulerColumn) : void">
+<span>[+] </span>initializeLineNumberRulerColumn(LineNumberRulerColumn) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)</td>
+<td align="center">312</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isEditable() : boolean">
+<span>[+] </span>isEditable() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileSourceConfiguration.getReconciler(ISourceViewer)</td>
+<td align="center">119</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileSourceConfiguration.getReconciler(ISourceViewer)</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration.getReconciler(ISourceViewer)</td>
+<td align="center">177</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isLineNumberRulerVisible() : boolean">
+<span>[+] </span>isLineNumberRulerVisible() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$6(STAnnotatedCSourceEditor)</td>
+<td align="center">1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">280</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isOverviewRulerVisible() : boolean">
+<span>[+] </span>isOverviewRulerVisible() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">736</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createSourceViewer(Composite, IVerticalRuler, int)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isPrefQuickDiffAlwaysOn() : boolean">
+<span>[+] </span>isPrefQuickDiffAlwaysOn() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()</td>
+<td align="center">282</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isTabsToSpacesConversionEnabled() : boolean">
+<span>[+] </span>isTabsToSpacesConversionEnabled() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isTabsToSpacesConversionEnabled()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

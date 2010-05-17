@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.zest.layouts (1.1.0.v20090504-1850)" reference_count="7" reference_visibility="1">
+    <target member="setLocation" name="org.eclipse.zest.layouts.dataStructures.InternalNode.setLocation(double, double)" signature="(DD)V" type="org.eclipse.zest.layouts.dataStructures.InternalNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+            <reference linenumber="73" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target member="getInternalWidth" name="org.eclipse.zest.layouts.dataStructures.InternalNode.getInternalWidth()" signature="()D" type="org.eclipse.zest.layouts.dataStructures.InternalNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target member="postLayoutAlgorithm" name="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target member="getInternalHeight" name="org.eclipse.zest.layouts.dataStructures.InternalNode.getInternalHeight()" signature="()D" type="org.eclipse.zest.layouts.dataStructures.InternalNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="65" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target member="setSize" name="org.eclipse.zest.layouts.dataStructures.InternalNode.setSize(double, double)" signature="(DD)V" type="org.eclipse.zest.layouts.dataStructures.InternalNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="68" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm.GridLayoutAlgorithm(int)" signature="(I)V" type="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.AggregateLayoutAlgorithm(int, TreeSet, Long, int)" signature="(ILjava/util/TreeSet;Ljava/lang/Long;I)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+</references>

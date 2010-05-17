@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools.core (1.0.0.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.jobs.ISchedulingRule" type="org.eclipse.core.runtime.jobs.ISchedulingRule">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="116" member="addAutotoolsBuilder" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.addAutotoolsBuilder(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.1.1(String, ISchedulingRule, IProject, ICommand[])" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/core/resources/ICommand;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$rule" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.1.val$rule" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.jobs.Job" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="119" member="addAutotoolsBuilder" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.addAutotoolsBuilder(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.1" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature$1"/>
+        </reference_kind>
+    </target>
+</references>

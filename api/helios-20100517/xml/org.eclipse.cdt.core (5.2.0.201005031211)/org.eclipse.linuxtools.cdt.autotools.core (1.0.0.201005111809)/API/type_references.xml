@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools.core (1.0.0.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="41" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.settings.model.ICConfigurationDescription" type="org.eclipse.cdt.core.settings.model.ICConfigurationDescription">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="cdesc" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.cdesc" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="56" member="handleValue" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsOptionValueHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsOptionValueHandler"/>
+            <reference linenumber="352" member="saveConfigs" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.saveConfigs(IProject, ICConfigurationDescription[])" signature="(Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="202" member="getSavedConfigs" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.getSavedConfigs(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Ljava/util/Map;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="406" member="applyConfigs" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.applyConfigs(String, ICConfigurationDescription[])" signature="(Ljava/lang/String;[Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+        <reference linenumber="89" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="replaceProjectConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.replaceProjectConfigurations(IProject, Map, ICConfigurationDescription[])" signature="(Lorg/eclipse/core/resources/IProject;Ljava/util/Map;[Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="syncNameField" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.syncNameField(ICConfigurationDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="applyConfigs" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.applyConfigs(String, ICConfigurationDescription[])" signature="(Ljava/lang/String;[Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="cloneCfg" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.cloneCfg(IProject, String, ICConfigurationDescription)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="saveConfigs" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.saveConfigs(IProject, ICConfigurationDescription[])" signature="(Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="isConfigurationAlreadySaved" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.isConfigurationAlreadySaved(IProject, ICConfigurationDescription)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+            <reference linenumber="-1" member="getTmpConfiguration" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.getTmpConfiguration(IProject, ICConfigurationDescription)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)Lorg/eclipse/linuxtools/internal/cdt/autotools/core/configure/IAConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.resources.IConsole" type="org.eclipse.cdt.core.resources.IConsole">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="runCommand" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runCommand(IPath, IPath, String[], String, String, IConsole, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="-1" member="runScript" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runScript(IPath, IPath, String[], String, String, IConsole, ArrayList, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Ljava/util/ArrayList;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="347" member="regenerateMakefiles" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.regenerateMakefiles(IConfiguration, boolean)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;Z)Lorg/eclipse/core/runtime/Status;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="73" member="build" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsConfigurationBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsConfigurationBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.settings.model.ICProjectDescription" type="org.eclipse.cdt.core.settings.model.ICProjectDescription">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="151" member="initialize" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.initialize(IProject, IManagedBuildInfo, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        <reference linenumber="149" member="syncConfigurations" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager.syncConfigurations(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.configure.AutotoolsConfigurationManager"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.ConsoleOutputStream" type="org.eclipse.cdt.core.ConsoleOutputStream">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="930" member="runScript" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runScript(IPath, IPath, String[], String, String, IConsole, ArrayList, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Ljava/util/ArrayList;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="743" member="runCommand" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runCommand(IPath, IPath, String[], String, String, IConsole, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.ICDescriptor" type="org.eclipse.cdt.core.ICDescriptor">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="1104" member="saveTargets" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.saveTargets(IMakeTarget[])" signature="([Lorg/eclipse/cdt/make/core/IMakeTarget;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.settings.model.ICStorageElement" type="org.eclipse.cdt.core.settings.model.ICStorageElement">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="1065" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1105" member="saveTargets" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.saveTargets(IMakeTarget[])" signature="([Lorg/eclipse/cdt/make/core/IMakeTarget;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1069" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.CommandLauncher" type="org.eclipse.cdt.core.CommandLauncher">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="764" member="runCommand" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runCommand(IPath, IPath, String[], String, String, IConsole, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="951" member="runScript" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runScript(IPath, IPath, String[], String, String, IConsole, ArrayList, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Ljava/util/ArrayList;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="764" member="runCommand" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runCommand(IPath, IPath, String[], String, String, IConsole, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="951" member="runScript" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.runScript(IPath, IPath, String[], String, String, IConsole, ArrayList, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Ljava/util/ArrayList;Z)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.ProblemMarkerInfo" type="org.eclipse.cdt.core.ProblemMarkerInfo">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addMarker" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.MarkerGenerator.addMarker(ProblemMarkerInfo)" signature="(Lorg/eclipse/cdt/core/ProblemMarkerInfo;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.MarkerGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.IMarkerGenerator" type="org.eclipse.cdt.core.IMarkerGenerator">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.MarkerGenerator" type="org.eclipse.linuxtools.internal.cdt.autotools.core.MarkerGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.resources.ACBuilder" type="org.eclipse.cdt.core.resources.ACBuilder">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsConfigurationBuilder" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsConfigurationBuilder"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.templateengine.TemplateCore" type="org.eclipse.cdt.core.templateengine.TemplateCore">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.templateengine.process.ProcessArgument" type="org.eclipse.cdt.core.templateengine.process.ProcessArgument">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.templateengine.process.ProcessFailureException" type="org.eclipse.cdt.core.templateengine.process.ProcessFailureException">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="74" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+            <reference linenumber="108" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+            <reference linenumber="106" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="process" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject.process(TemplateCore, ProcessArgument[], String, IProgressMonitor)" signature="(Lorg/eclipse/cdt/core/templateengine/TemplateCore;[Lorg/eclipse/cdt/core/templateengine/process/ProcessArgument;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.templateengine.process.ProcessRunner" type="org.eclipse.cdt.core.templateengine.process.ProcessRunner">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject" type="org.eclipse.linuxtools.internal.cdt.autotools.core.wizards.NewAutotoolsProject"/>
+        </reference_kind>
+    </target>
+</references>

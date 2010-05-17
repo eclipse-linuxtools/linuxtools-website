@@ -1,0 +1,944 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>PreferencePage usage details</title>
+</head>
+<body>
+<h3>PreferencePage usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.jface.preference.PreferencePage has 110 total references to 16 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage">
+<span>[+] </span>PreferencePage
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>EXTENDS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.PreferencePage() : void">
+<span>[+] </span>PreferencePage() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.AbstractEditorPreferencePage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.ChangeLogPreferencesPage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.SyntaxColoringPreferencePage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.EnvironmentVariablesPreferencePage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.ValgrindPreferencePage()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.AbstractEditorPreferencePage()</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.ChangeLogPreferencesPage()</td>
+<td align="center">39</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage()</td>
+<td align="center">33</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.SyntaxColoringPreferencePage()</td>
+<td align="center">29</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.EnvironmentVariablesPreferencePage()</td>
+<td align="center">34</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.ValgrindPreferencePage()</td>
+<td align="center">38</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.PreferencePage(java.lang.String) : void">
+<span>[+] </span>PreferencePage(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AbstractConfigurePropertyOptionsPage.AbstractConfigurePropertyOptionsPage(String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage(String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage(String)</td>
+<td align="center">38</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.PreferencePage(java.lang.String, org.eclipse.jface.resource.ImageDescriptor) : void">
+<span>[+] </span>PreferencePage(String, ImageDescriptor) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage(String, ImageDescriptor)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.STAnnotatedSourceEditorPreferencePage(String, ImageDescriptor)</td>
+<td align="center">44</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.applyDialogFont(org.eclipse.swt.widgets.Composite) : void">
+<span>[+] </span>applyDialogFont(Composite) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createContents(Composite)</td>
+<td align="center">261</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createContents(Composite)</td>
+<td align="center">282</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.computeSize() : org.eclipse.swt.graphics.Point">
+<span>[+] </span>computeSize() : Point
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.displayPageForElement(ToolListElement)</td>
+<td align="center">305</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.createContents(org.eclipse.swt.widgets.Composite) : org.eclipse.swt.widgets.Control">
+<span>[+] </span>createContents(Composite) : Control
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.preferencespages.STAnnotatedSourceEditorPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.createControl(org.eclipse.swt.widgets.Composite) : void">
+<span>[+] </span>createControl(Composite) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.displayPageForElement(ToolListElement)</td>
+<td align="center">287</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.doGetPreferenceStore() : org.eclipse.jface.preference.IPreferenceStore">
+<span>[+] </span>doGetPreferenceStore() : IPreferenceStore
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.doGetPreferenceStore()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.doGetPreferenceStore()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.getPreferenceStore() : org.eclipse.jface.preference.IPreferenceStore">
+<span>[+] </span>getPreferenceStore() : IPreferenceStore
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createOverlayStore()</td>
+<td align="center">245</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createOverlayStore()</td>
+<td align="center">230</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.updateCheckboxData(boolean)</td>
+<td align="center">401</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.initializeValues()</td>
+<td align="center">195</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.initializeDefaults()</td>
+<td align="center">109</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.storeValues()</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createLocalesCombo(Composite)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()</td>
+<td align="center">140</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()</td>
+<td align="center">139</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createColorFieldEditor(String, String, Composite)</td>
+<td align="center">105</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.createStringFieldEditor(String, String, Composite)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.init(IWorkbench)</td>
+<td align="center">107</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.noDefaultAndApplyButton() : void">
+<span>[+] </span>noDefaultAndApplyButton() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AbstractConfigurePropertyOptionsPage.AbstractConfigurePropertyOptionsPage(int)</td>
+<td align="center">35</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.performDefaults() : void">
+<span>[+] </span>performDefaults() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performDefaults()</td>
+<td align="center">152</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.performDefaults()</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.performDefaults()</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.performDefaults()</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.performDefaults()</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.performDefaults()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.performOk() : boolean">
+<span>[+] </span>performOk() : boolean
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.performOk()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.setContainer(org.eclipse.jface.preference.IPreferencePageContainer) : void">
+<span>[+] </span>setContainer(IPreferencePageContainer) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.displayPageForElement(ToolListElement)</td>
+<td align="center">285</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(org.eclipse.jface.preference.IPreferenceStore) : void">
+<span>[+] </span>setPreferenceStore(IPreferenceStore) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.AbstractEditorPreferencePage()</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage.AutotoolsPreferencePage()</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AbstractConfigurePropertyOptionsPage.createFieldEditors()</td>
+<td align="center">42</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.LibHoverPreferencePage()</td>
+<td align="center">40</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.man.preferences.ManPathPage.ManPathPage()</td>
+<td align="center">31</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.RpmlintPreferencePage()</td>
+<td align="center">28</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.MainPreferencePage()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.RpmProposalsPreferencePage()</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.RpmInformationsPreferencePage()</td>
+<td align="center">32</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroProposalsPreferencePage()</td>
+<td align="center">53</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TaskTagsPreferencePage()</td>
+<td align="center">27</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.StubbyPreferencePage()</td>
+<td align="center">31</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.ConsoleLogPreferencePage()</td>
+<td align="center">27</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.preferences.DashboardPreferencePage.DashboardPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.GraphingPreferencePage()</td>
+<td align="center">28</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.DataTablePreferencePage()</td>
+<td align="center">31</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.GraphPreferencePage()</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.preferences.GraphPreferencePage.GraphPreferencePage()</td>
+<td align="center">28</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.preferences.DataTablePreferencePage.DataTablePreferencePage()</td>
+<td align="center">28</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.preferences.GraphingAPIPreferencePage.GraphingAPIPreferencePage()</td>
+<td align="center">25</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.IDEPreferencePage.IDEPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapPreferencePage.StapPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.CodeAssistPreferencePage.CodeAssistPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.PathPreferencePage.PathPreferencePage()</td>
+<td align="center">29</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.ConditionalFilterPreferencePage.ConditionalFilterPreferencePage()</td>
+<td align="center">29</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapOptionsPreferencePage.StapOptionsPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.TypeingPreferencePage.TypeingPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.TapsetsPreferencePage.TapsetsPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.EditorPreferencePage.EditorPreferencePage()</td>
+<td align="center">26</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.SyntaxColoringPreferencePage()</td>
+<td align="center">31</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.logging.preferences.LoggingPreferencePage.LoggingPreferencePage()</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.SystemTapPreferencePage.SystemTapPreferencePage()</td>
+<td align="center">32</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.EnvironmentVariablesPreferencePage()</td>
+<td align="center">36</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.preference.PreferencePage.setValid(boolean) : void">
+<span>[+] </span>setValid(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.updateStatus(IStatus)</td>
+<td align="center">245</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

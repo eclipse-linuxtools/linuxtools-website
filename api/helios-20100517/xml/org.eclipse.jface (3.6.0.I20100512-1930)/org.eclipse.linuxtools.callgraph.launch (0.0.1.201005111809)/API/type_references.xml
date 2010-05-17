@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph.launch (0.0.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="13" reference_visibility="1">
+    <target name="org.eclipse.jface.dialogs.InputDialog" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="125" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="125" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProviderListener" type="org.eclipse.jface.viewers.ILabelProviderListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="removeListener" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.removeListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+            <reference linenumber="-1" member="addListener" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.addListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelection" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.launch(ISelection, String)" signature="(Lorg/eclipse/jface/viewers/ISelection;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.layout.GridDataFactory" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="163" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+            <reference linenumber="170" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeContentProvider" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.RuledTreeSelectionDialog.RuledTreeSelectionDialog(Shell, ILabelProvider, ITreeContentProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.linuxtools.callgraph.launch.RuledTreeSelectionDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.launch.ListTreeContentProvider" type="org.eclipse.linuxtools.callgraph.launch.ListTreeContentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.Viewer" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="inputChanged" origin="org.eclipse.linuxtools.callgraph.launch.ListTreeContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.callgraph.launch.ListTreeContentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.callgraph.launch.CallgraphLaunchPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.callgraph.launch.CallgraphLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProvider" type="org.eclipse.jface.viewers.ILabelProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.RuledTreeSelectionDialog.RuledTreeSelectionDialog(Shell, ILabelProvider, ITreeContentProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.linuxtools.callgraph.launch.RuledTreeSelectionDialog"/>
+        </reference_kind>
+    </target>
+</references>

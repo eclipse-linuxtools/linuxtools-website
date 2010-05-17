@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)" reference_count="68" reference_visibility="1">
+    <target name="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo" type="org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="initialize" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initialize(IProject, IManagedBuildInfo, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="-1" member="buildFile" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo.buildFile(IPath, IFile, IManagedBuildInfo)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo"/>
+            <reference linenumber="-1" member="getMakefile" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo.getMakefile(IManagedBuildInfo, IPath)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="37" member="getCollectionName" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfoProvider.getCollectionName(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfoProvider"/>
+            <reference linenumber="403" member="removeBuildDir" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.removeBuildDir(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="196" member="getCompilationString" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo.getCompilationString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo"/>
+            <reference linenumber="364" member="clean" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.clean(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="123" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        <reference linenumber="52" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction$1$1"/>
+            <reference linenumber="348" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IManagedProject" type="org.eclipse.cdt.managedbuilder.core.IManagedProject">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="100" member="hasTargetBuilder" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.hasTargetBuilder(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.BuildException" type="org.eclipse.cdt.managedbuilder.core.BuildException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="112" member="buildFile" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo.buildFile(IPath, IFile, IManagedBuildInfo)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo"/>
+            <reference linenumber="126" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="getAutogenArgs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.getAutogenArgs()" signature="()[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="-1" member="runCommand" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.runCommand(IPath, IPath, String[], String, String, IConsole, boolean)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/resources/IConsole;Z)I" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="-1" member="getConfigArgs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.getConfigArgs()" signature="()[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IOptionApplicability" type="org.eclipse.cdt.managedbuilder.core.IOptionApplicability">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IOption" type="org.eclipse.cdt.managedbuilder.core.IOption">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="124" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="74" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="isOptionUsedInCommandLine" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionUsedInCommandLine(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionVisible" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionVisible(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionEnabled" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionEnabled(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IConfiguration" type="org.eclipse.cdt.managedbuilder.core.IConfiguration">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="164" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="54" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="59" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="404" member="removeBuildDir" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.removeBuildDir(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="365" member="clean" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.clean(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        <reference linenumber="349" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$1$1"/>
+        <reference linenumber="76" member="getProject" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="45" member="getProject" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="cfg" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.cfg" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="50" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="54" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="initialize" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initialize(int, IConfiguration, IBuilder, IProgressMonitor)" signature="(ILorg/eclipse/cdt/managedbuilder/core/IConfiguration;Lorg/eclipse/cdt/managedbuilder/core/IBuilder;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IBuildObject" type="org.eclipse.cdt.managedbuilder.core.IBuildObject">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionEnabled" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionEnabled(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionUsedInCommandLine" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionUsedInCommandLine(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionVisible" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionVisible(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.ManagedOptionValueHandler" type="org.eclipse.cdt.managedbuilder.core.ManagedOptionValueHandler">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IBuilder" type="org.eclipse.cdt.managedbuilder.core.IBuilder">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsBuilder.AutotoolsBuilder(IBuilder, IProject, ToolChain)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuilder;Lorg/eclipse/core/resources/IProject;Lorg/eclipse/cdt/managedbuilder/internal/core/ToolChain;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsBuilder"/>
+            <reference linenumber="-1" member="getTargets" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.getTargets(int, IBuilder)" signature="(ILorg/eclipse/cdt/managedbuilder/core/IBuilder;)[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="-1" member="initialize" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initialize(int, IConfiguration, IBuilder, IProgressMonitor)" signature="(ILorg/eclipse/cdt/managedbuilder/core/IConfiguration;Lorg/eclipse/cdt/managedbuilder/core/IBuilder;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="builder" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.builder" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="265" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="379" member="clean" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.clean(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="270" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="380" member="clean" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.clean(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator2" type="org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator2">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.IHoldsOptions" type="org.eclipse.cdt.managedbuilder.core.IHoldsOptions">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="isOptionEnabled" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionEnabled(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionUsedInCommandLine" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionUsedInCommandLine(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="isOptionVisible" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.isOptionVisible(IBuildObject, IHoldsOptions, IOption)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="-1" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.macros.BuildMacroException" type="org.eclipse.cdt.managedbuilder.macros.BuildMacroException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="739" member="getAutogenArgs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.getAutogenArgs()" signature="()[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="151" member="initializeBuildConfigDirs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initializeBuildConfigDirs()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="780" member="getConfigArgs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.getConfigArgs()" signature="()[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="136" member="initializeBuildConfigDirs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initializeBuildConfigDirs()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="176" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="190" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator" type="org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="124" member="build" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="366" member="clean" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.clean(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+            <reference linenumber="405" member="removeBuildDir" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder.removeBuildDir(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsMakefileBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getBuildFileGenerator" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsBuilder.getBuildFileGenerator()" signature="()Lorg/eclipse/cdt/managedbuilder/makegen/IManagedBuilderMakefileGenerator;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.managedbuilder.core.ITool" type="org.eclipse.cdt.managedbuilder.core.ITool">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="63" member="handleValue" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler.handleValue(IBuildObject, IHoldsOptions, IOption, String, int)" signature="(Lorg/eclipse/cdt/managedbuilder/core/IBuildObject;Lorg/eclipse/cdt/managedbuilder/core/IHoldsOptions;Lorg/eclipse/cdt/managedbuilder/core/IOption;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsDefaultBuildDirHandler"/>
+            <reference linenumber="97" member="buildFile" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo.buildFile(IPath, IFile, IManagedBuildInfo)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/cdt/managedbuilder/core/IManagedBuildInfo;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsScannerInfo"/>
+            <reference linenumber="126" member="initializeBuildConfigDirs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.initializeBuildConfigDirs()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+            <reference linenumber="770" member="getConfigArgs" origin="org.eclipse.linuxtools.cdt.autotools.MakeGenerator.getConfigArgs()" signature="()[Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.MakeGenerator"/>
+        </reference_kind>
+    </target>
+</references>

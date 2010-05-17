@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.compare.core (3.5.100.I20100505-1245)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.compare.rangedifferencer.IRangeComparator" type="org.eclipse.compare.rangedifferencer.IRangeComparator">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="rangesEqual" origin="org.eclipse.linuxtools.changelog.core.LineComparator.rangesEqual(int, IRangeComparator, int)" signature="(ILorg/eclipse/compare/rangedifferencer/IRangeComparator;I)Z" type="org.eclipse.linuxtools.changelog.core.LineComparator"/>
+            <reference linenumber="-1" member="skipRangeComparison" origin="org.eclipse.linuxtools.changelog.core.LineComparator.skipRangeComparison(int, int, IRangeComparator)" signature="(IILorg/eclipse/compare/rangedifferencer/IRangeComparator;)Z" type="org.eclipse.linuxtools.changelog.core.LineComparator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.LineComparator" type="org.eclipse.linuxtools.changelog.core.LineComparator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.compare.rangedifferencer.RangeDifference" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="193" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="245" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+</references>

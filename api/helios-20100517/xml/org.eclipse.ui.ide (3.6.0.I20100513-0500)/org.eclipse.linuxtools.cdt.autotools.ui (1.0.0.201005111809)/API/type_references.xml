@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="29" reference_visibility="1">
+    <target name="org.eclipse.ui.IFileEditorInput" type="org.eclipse.ui.IFileEditorInput">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="196" member="doSetInput" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.doSetInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="47" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+            <reference linenumber="81" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider"/>
+            <reference linenumber="438" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="131" member="getFile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction"/>
+        <reference linenumber="273" member="getHoverDoc" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/text/hover/AutoconfTextHover$AutotoolsHoverDoc;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="197" member="doSetInput" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.doSetInput(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="84" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider"/>
+            <reference linenumber="132" member="getFile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction"/>
+            <reference linenumber="48" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+            <reference linenumber="439" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        <reference linenumber="274" member="getHoverDoc" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/text/hover/AutoconfTextHover$AutotoolsHoverDoc;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="84" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileDocumentProvider"/>
+            <reference linenumber="439" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="48" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+        <reference linenumber="274" member="getHoverDoc" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/text/hover/AutoconfTextHover$AutotoolsHoverDoc;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IStorageEditorInput" type="org.eclipse.ui.IStorageEditorInput">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.AutoconfOutlineErrorHandler(IStorageEditorInput, IDocument)" signature="(Lorg/eclipse/ui/IStorageEditorInput;Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="47" member="equals" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="47" member="equals" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+            <reference linenumber="107" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction.openInEditor(IDirective)" signature="(Lorg/eclipse/cdt/make/core/makefile/IDirective;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ITranslationUnitEditorInput" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ITranslationUnitEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="45" member="equals" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IURIEditorInput" type="org.eclipse.ui.IURIEditorInput">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="51" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="52" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="52" member="createFileInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider.createFileInfo(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/editors/text/TextFileDocumentProvider$FileInfo;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.part.FileEditorInput" type="org.eclipse.ui.part.FileEditorInput">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="248" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="285" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="228" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.wizards.newresource.BasicNewResourceWizard" type="org.eclipse.ui.wizards.newresource.BasicNewResourceWizard">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="217" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.debug.ui (3.6.0.v20100512)" reference_count="23" reference_visibility="1">
+    <target member="updateLaunchConfigurationDialog" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.updateLaunchConfigurationDialog()" signature="()V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="220" member="_handleCheckSelected" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab._handleCheckSelected(Button)" signature="(Lorg/eclipse/swt/widgets/Button;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="260" member="_handleEnabledToggle" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab._handleEnabledToggle()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="138" member="initializeFrom" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="1" member="access$0" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.access$0(OprofileEventConfigTab)" signature="(Lorg/eclipse/linuxtools/oprofile/launch/configuration/OprofileEventConfigTab;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="246" member="_handleKernelImageFileTextModify" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab._handleKernelImageFileTextModify(Text)" signature="(Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorMessage" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.setErrorMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$2" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.access$2(OprofileEventConfigTab, String)" signature="(Lorg/eclipse/linuxtools/oprofile/launch/configuration/OprofileEventConfigTab;Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="245" member="_handleKernelImageFileTextModify" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab._handleKernelImageFileTextModify(Text)" signature="(Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.AbstractLaunchConfigurationTab()" signature="()V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="66" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.OprofileEventConfigTab()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.OprofileSetupTab()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.OprofileEventConfigTab()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.OprofileSetupTab()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+    </target>
+    <target member="isValid" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="-1" member="isValid" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+    </target>
+    <target member="createPushButton" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.createPushButton(Composite, String, Image)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="147" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+        </reference_kind>
+    </target>
+    <target member="setControl" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.setControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="115" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="78" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="createVerticalSpacer" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.createVerticalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="120" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="85" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="155" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="97" member="createControl" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+            <reference linenumber="1" member="access$1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.access$1(OprofileEventConfigTab, Composite, int)" signature="(Lorg/eclipse/linuxtools/oprofile/launch/configuration/OprofileEventConfigTab;Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileSetupTab"/>
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab"/>
+        </reference_kind>
+    </target>
+</references>

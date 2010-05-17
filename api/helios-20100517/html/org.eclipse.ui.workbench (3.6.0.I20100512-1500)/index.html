@@ -1,0 +1,1101 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Types used in org.eclipse.ui.workbench (3.6.0.I20100512-1500)</title>
+</head>
+<body>
+<h3>Types used in org.eclipse.ui.workbench (3.6.0.I20100512-1500)</h3>
+<p>The list of all referencing bundles is available <a href="#bundles">here</a>.</p>
+<h4>References</h4>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="30%"><b>Referenced Type</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="API references are references that are only made to public API of a bundle"><b>API</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal references are references that are only made to internal non-API of a bundle"><b>Internal</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal-Permissible references are references that are only made to internal non-API of a bundle, but are allowed via the x-friends directive"><b>Internal-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Fragment-Permissible references are references that are made to internal non-API of a host bundle by a fragment"><b>Fragment-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Illegal references are ones made to API that has restrictions"><b>Illegal</b></td>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IActionBars.html">org.eclipse.ui.IActionBars</a></b></td>
+	<td align="center">34</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorDescriptor.html">org.eclipse.ui.IEditorDescriptor</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorInput.html">org.eclipse.ui.IEditorInput</a></b></td>
+	<td align="center">79</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorLauncher.html">org.eclipse.ui.IEditorLauncher</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorPart.html">org.eclipse.ui.IEditorPart</a></b></td>
+	<td align="center">121</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorRegistry.html">org.eclipse.ui.IEditorRegistry</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IEditorSite.html">org.eclipse.ui.IEditorSite</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IElementFactory.html">org.eclipse.ui.IElementFactory</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IExportWizard.html">org.eclipse.ui.IExportWizard</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IFolderLayout.html">org.eclipse.ui.IFolderLayout</a></b></td>
+	<td align="center">26</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IImportWizard.html">org.eclipse.ui.IImportWizard</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IMemento.html">org.eclipse.ui.IMemento</a></b></td>
+	<td align="center">198</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.INewWizard.html">org.eclipse.ui.INewWizard</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IObjectActionDelegate.html">org.eclipse.ui.IObjectActionDelegate</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPageLayout.html">org.eclipse.ui.IPageLayout</a></b></td>
+	<td align="center">54</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPartListener.html">org.eclipse.ui.IPartListener</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPartService.html">org.eclipse.ui.IPartService</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPathEditorInput.html">org.eclipse.ui.IPathEditorInput</a></b></td>
+	<td align="center">12</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPersistableElement.html">org.eclipse.ui.IPersistableElement</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPerspectiveDescriptor.html">org.eclipse.ui.IPerspectiveDescriptor</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPerspectiveFactory.html">org.eclipse.ui.IPerspectiveFactory</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPlaceholderFolderLayout.html">org.eclipse.ui.IPlaceholderFolderLayout</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IPropertyListener.html">org.eclipse.ui.IPropertyListener</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.ISaveablePart.html">org.eclipse.ui.ISaveablePart</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.ISelectionListener.html">org.eclipse.ui.ISelectionListener</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.ISelectionService.html">org.eclipse.ui.ISelectionService</a></b></td>
+	<td align="center">19</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.ISharedImages.html">org.eclipse.ui.ISharedImages</a></b></td>
+	<td align="center">15</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IStartup.html">org.eclipse.ui.IStartup</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IViewActionDelegate.html">org.eclipse.ui.IViewActionDelegate</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IViewLayout.html">org.eclipse.ui.IViewLayout</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IViewPart.html">org.eclipse.ui.IViewPart</a></b></td>
+	<td align="center">59</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IViewReference.html">org.eclipse.ui.IViewReference</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IViewSite.html">org.eclipse.ui.IViewSite</a></b></td>
+	<td align="center">15</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbench.html">org.eclipse.ui.IWorkbench</a></b></td>
+	<td align="center">335</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchListener.html">org.eclipse.ui.IWorkbenchListener</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchPage.html">org.eclipse.ui.IWorkbenchPage</a></b></td>
+	<td align="center">170</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchPart.html">org.eclipse.ui.IWorkbenchPart</a></b></td>
+	<td align="center">37</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchPartReference.html">org.eclipse.ui.IWorkbenchPartReference</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchPartSite.html">org.eclipse.ui.IWorkbenchPartSite</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchPreferencePage.html">org.eclipse.ui.IWorkbenchPreferencePage</a></b></td>
+	<td align="center">35</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchSite.html">org.eclipse.ui.IWorkbenchSite</a></b></td>
+	<td align="center">31</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchWindow.html">org.eclipse.ui.IWorkbenchWindow</a></b></td>
+	<td align="center">290</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchWindowActionDelegate.html">org.eclipse.ui.IWorkbenchWindowActionDelegate</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.IWorkbenchWizard.html">org.eclipse.ui.IWorkbenchWizard</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.PartInitException.html">org.eclipse.ui.PartInitException</a></b></td>
+	<td align="center">71</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.PlatformUI.html">org.eclipse.ui.PlatformUI</a></b></td>
+	<td align="center">210</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.WorkbenchException.html">org.eclipse.ui.WorkbenchException</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.XMLMemento.html">org.eclipse.ui.XMLMemento</a></b></td>
+	<td align="center">63</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.actions.ActionContext.html">org.eclipse.ui.actions.ActionContext</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.actions.ActionDelegate.html">org.eclipse.ui.actions.ActionDelegate</a></b></td>
+	<td align="center">36</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.actions.ActionFactory.html">org.eclipse.ui.actions.ActionFactory</a></b></td>
+	<td align="center">38</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td><b><a href="./org.eclipse.ui.actions.ActionFactory.IWorkbenchAction.html">org.eclipse.ui.actions.ActionFactory.IWorkbenchAction</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.actions.ActionGroup.html">org.eclipse.ui.actions.ActionGroup</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.actions.ContributionItemFactory.html">org.eclipse.ui.actions.ContributionItemFactory</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.ActionBarAdvisor.html">org.eclipse.ui.application.ActionBarAdvisor</a></b></td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.IActionBarConfigurer.html">org.eclipse.ui.application.IActionBarConfigurer</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.IWorkbenchConfigurer.html">org.eclipse.ui.application.IWorkbenchConfigurer</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.IWorkbenchWindowConfigurer.html">org.eclipse.ui.application.IWorkbenchWindowConfigurer</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.WorkbenchAdvisor.html">org.eclipse.ui.application.WorkbenchAdvisor</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.application.WorkbenchWindowAdvisor.html">org.eclipse.ui.application.WorkbenchWindowAdvisor</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.AbstractElementListSelectionDialog.html">org.eclipse.ui.dialogs.AbstractElementListSelectionDialog</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.CheckedTreeSelectionDialog.html">org.eclipse.ui.dialogs.CheckedTreeSelectionDialog</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.ElementListSelectionDialog.html">org.eclipse.ui.dialogs.ElementListSelectionDialog</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.ElementTreeSelectionDialog.html">org.eclipse.ui.dialogs.ElementTreeSelectionDialog</a></b></td>
+	<td align="center">48</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.ISelectionStatusValidator.html">org.eclipse.ui.dialogs.ISelectionStatusValidator</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.ISelectionValidator.html">org.eclipse.ui.dialogs.ISelectionValidator</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.ListDialog.html">org.eclipse.ui.dialogs.ListDialog</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.PreferencesUtil.html">org.eclipse.ui.dialogs.PreferencesUtil</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.PropertyPage.html">org.eclipse.ui.dialogs.PropertyPage</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.SelectionDialog.html">org.eclipse.ui.dialogs.SelectionDialog</a></b></td>
+	<td align="center">76</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.SelectionStatusDialog.html">org.eclipse.ui.dialogs.SelectionStatusDialog</a></b></td>
+	<td align="center">36</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.dialogs.TwoPaneElementSelector.html">org.eclipse.ui.dialogs.TwoPaneElementSelector</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.fieldassist.ContentAssistCommandAdapter.html">org.eclipse.ui.fieldassist.ContentAssistCommandAdapter</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.handlers.HandlerUtil.html">org.eclipse.ui.handlers.HandlerUtil</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.help.IWorkbenchHelpSystem.html">org.eclipse.ui.help.IWorkbenchHelpSystem</a></b></td>
+	<td align="center">15</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#F2C3C3">
+	<td><b><a href="./org.eclipse.ui.internal.WorkbenchPlugin.html">org.eclipse.ui.internal.WorkbenchPlugin</a></b></td>
+	<td align="center">0</td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.keys.IBindingService.html">org.eclipse.ui.keys.IBindingService</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.model.WorkbenchLabelProvider.html">org.eclipse.ui.model.WorkbenchLabelProvider</a></b></td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.model.WorkbenchViewerComparator.html">org.eclipse.ui.model.WorkbenchViewerComparator</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.CoolItemGroupMarker.html">org.eclipse.ui.part.CoolItemGroupMarker</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.DrillDownComposite.html">org.eclipse.ui.part.DrillDownComposite</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.EditorActionBarContributor.html">org.eclipse.ui.part.EditorActionBarContributor</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.EditorPart.html">org.eclipse.ui.part.EditorPart</a></b></td>
+	<td align="center">53</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.IPageSite.html">org.eclipse.ui.part.IPageSite</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.MultiPageEditorPart.html">org.eclipse.ui.part.MultiPageEditorPart</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.Page.html">org.eclipse.ui.part.Page</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.PageBook.html">org.eclipse.ui.part.PageBook</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.ViewPart.html">org.eclipse.ui.part.ViewPart</a></b></td>
+	<td align="center">86</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.part.WorkbenchPart.html">org.eclipse.ui.part.WorkbenchPart</a></b></td>
+	<td align="center">93</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.plugin.AbstractUIPlugin.html">org.eclipse.ui.plugin.AbstractUIPlugin</a></b></td>
+	<td align="center">547</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.preferences.ViewPreferencesAction.html">org.eclipse.ui.preferences.ViewPreferencesAction</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.progress.IProgressConstants.html">org.eclipse.ui.progress.IProgressConstants</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.progress.IProgressService.html">org.eclipse.ui.progress.IProgressService</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.progress.IWorkbenchSiteProgressService.html">org.eclipse.ui.progress.IWorkbenchSiteProgressService</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.progress.UIJob.html">org.eclipse.ui.progress.UIJob</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.statushandlers.StatusAdapter.html">org.eclipse.ui.statushandlers.StatusAdapter</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.ui.statushandlers.StatusManager.html">org.eclipse.ui.statushandlers.StatusManager</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+</table>
+<br><h4>Referencing Bundles</h4>
+<p>The following bundles have references to org.eclipse.ui.workbench (3.6.0.I20100512-1500)</p>
+<a name="bundles"></a>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="50%"><b>Bundle</b></td>
+	<td bgcolor="#E0C040" width="20%" align="center"><b>Version</b></td>
+	<td bgcolor="#E0C040" width="10%" align="center"><b>Reference Count</b></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.binutils</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">32</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">31</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph.core</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">87</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph.launch</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">96</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools</b></td>
+	<td>2.0.0.201005111809</td>
+	<td align="center">47</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.core</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">16</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.ui</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">271</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.libhover</b></td>
+	<td>1.0.3.201005111809</td>
+	<td align="center">16</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.core</b></td>
+	<td>2.6.7.201005111809</td>
+	<td align="center">152</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.cparser</b></td>
+	<td>2.6.3.201005111809</td>
+	<td align="center">8</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.parsers.java</b></td>
+	<td>2.6.3.201005111809</td>
+	<td align="center">8</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">88</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">20</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.charts</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">40</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gcov</b></td>
+	<td>4.1.1.201005111809</td>
+	<td align="center">67</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gprof</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">44</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.lttng.ui</b></td>
+	<td>0.2.0.201005111809</td>
+	<td align="center">260</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.man</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">20</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">20</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">30</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">32</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">30</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.core</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">4</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.rpmlint</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">25</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.ui</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">62</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.ui.editor</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">112</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpmstubby</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">32</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.consolelog</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">87</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.dashboard</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">330</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.dashboardextension</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">137</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.editor</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">81</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphicalrun</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">43</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphing</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">100</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">60</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">128</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.ide</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">320</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.logging</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">15</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.structures</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">13</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.systemtapgui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">127</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.tmf.ui</b></td>
+	<td>0.2.0.201005111809</td>
+	<td align="center">16</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.cachegrind</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">17</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.core</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">11</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.launch</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">38</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.massif</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">73</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.memcheck</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">12</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">50</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui.editor</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">15</td>
+</tr>
+</table>
+<p><a href="../index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+

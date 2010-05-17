@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.core.commands (3.6.0.I20100512-1500)" reference_count="9" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.core.commands.AbstractHandler.AbstractHandler()" signature="()V" type="org.eclipse.core.commands.AbstractHandler">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.AbstractAutotoolsHandler()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="23" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.AbstractAutotoolsHandler()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getApplicationContext" name="org.eclipse.core.commands.ExecutionEvent.getApplicationContext()" signature="()Ljava/lang/Object;" type="org.eclipse.core.commands.ExecutionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="26" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.LibtoolizeHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.LibtoolizeHandler"/>
+            <reference linenumber="22" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutomakeHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutomakeHandler"/>
+            <reference linenumber="22" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoconfHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoconfHandler"/>
+            <reference linenumber="26" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AclocalHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AclocalHandler"/>
+            <reference linenumber="26" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoreconfHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoreconfHandler"/>
+            <reference linenumber="26" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoheaderHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AutoheaderHandler"/>
+            <reference linenumber="26" member="execute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureHandler"/>
+        </reference_kind>
+    </target>
+</references>

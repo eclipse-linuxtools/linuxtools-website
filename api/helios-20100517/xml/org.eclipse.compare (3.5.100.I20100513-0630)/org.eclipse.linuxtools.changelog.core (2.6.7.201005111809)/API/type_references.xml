@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.compare (3.5.100.I20100513-0630)" reference_count="12" reference_visibility="1">
+    <target name="org.eclipse.compare.structuremergeviewer.IDiffElement" type="org.eclipse.compare.structuremergeviewer.IDiffElement">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="172" member="extractSynchronizeModelInfo" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.extractSynchronizeModelInfo(ISynchronizeModelElement, IPath, Vector, Vector, Vector)" signature="(Lorg/eclipse/team/ui/synchronize/ISynchronizeModelElement;Lorg/eclipse/core/runtime/IPath;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.compare.IResourceProvider" type="org.eclipse.compare.IResourceProvider">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="324" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="323" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.compare.ITypedElement" type="org.eclipse.compare.ITypedElement">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="321" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.compare.CompareEditorInput" type="org.eclipse.compare.CompareEditorInput">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="315" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="186" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="317" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="188" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="317" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="188" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.compare.structuremergeviewer.ICompareInput" type="org.eclipse.compare.structuremergeviewer.ICompareInput">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="320" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="321" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+</references>

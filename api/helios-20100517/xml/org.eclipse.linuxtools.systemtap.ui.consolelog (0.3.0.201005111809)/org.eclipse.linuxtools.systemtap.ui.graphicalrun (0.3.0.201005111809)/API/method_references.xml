@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.consolelog (0.3.0.201005111809)" reference_count="18" reference_visibility="1">
+    <target member="getInstance" name="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.getInstance(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ScriptConsole;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="91" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.linuxtools.systemtap.ui.consolelog.internal.ConsoleLogPlugin.getDefault()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/consolelog/internal/ConsoleLogPlugin;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.internal.ConsoleLogPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="69" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient.ScpClient()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="78" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="addInputStreamListener" name="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.addInputStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="78" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="95" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActive" name="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.getActive()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ScriptConsole;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="63" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+    <target member="getCommand" name="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.getCommand()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/consolelog/LoggedCommand2;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="95" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        <reference linenumber="40" member="setParser" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.setParser(IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+    <target member="getInputStreamListeners" name="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.getInputStreamListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="66" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.run(String[], String[], IPasswordPrompt, IErrorParser)" signature="([Ljava/lang/String;[Ljava/lang/String;Lorg/eclipse/linuxtools/systemtap/ui/structures/IPasswordPrompt;Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/IErrorParser;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="92" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="transfer" name="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient.transfer(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpClient">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="81" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.ConsoleAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.ModifyParsingAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.ModifyParsingAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.SelectServerDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+<target member="getOutput" name="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2.getOutput()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="setParser" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.setParser(IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+</references>

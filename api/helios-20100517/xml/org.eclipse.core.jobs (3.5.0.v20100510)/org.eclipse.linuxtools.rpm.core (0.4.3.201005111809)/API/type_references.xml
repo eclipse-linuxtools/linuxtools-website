@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="3" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.jobs.Job" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.core.utils.Utils.1" type="org.eclipse.linuxtools.rpm.core.utils.Utils$1"/>
+            <reference linenumber="69" origin="org.eclipse.linuxtools.rpm.core.utils.Utils.1" type="org.eclipse.linuxtools.rpm.core.utils.Utils$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="69" member="runCommand" origin="org.eclipse.linuxtools.rpm.core.utils.Utils.runCommand(OutputStream, String[])" signature="(Ljava/io/OutputStream;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.core.utils.Utils"/>
+        </reference_kind>
+    </target>
+</references>

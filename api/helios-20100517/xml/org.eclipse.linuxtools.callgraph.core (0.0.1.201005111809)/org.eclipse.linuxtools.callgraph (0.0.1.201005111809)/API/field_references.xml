@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" reference_count="26" reference_visibility="1">
+    <target member="sourcePath" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.sourcePath" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="40" member="access$0" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.access$0(StapGraphParser)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraphParser;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="107" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="view" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.view" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="487" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="543" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="544" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="save_file" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.save_file" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="340" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="masterComposite" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.masterComposite" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="401" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="372" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="383" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="404" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="417" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="406" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="416" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="418" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="internalData" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.internalData" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="392" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="497" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="500" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="389" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="120" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="viewID" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.viewID" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="886" member="setViewID" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setViewID()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="open_file" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.open_file" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="836" member="createOpenAction" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createOpenAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="open_default" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.open_default" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="859" member="createOpenDefaultAction" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createOpenDefaultAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="monitor" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.monitor" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="507" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="404" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="file" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.file" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="509" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+</references>

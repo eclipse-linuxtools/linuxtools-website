@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="4" reference_visibility="1">
+    <target member="getOffset" name="org.eclipse.jface.text.IRegion.getOffset()" signature="()I" type="org.eclipse.jface.text.IRegion">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target member="getLineInformation" name="org.eclipse.jface.text.IDocument.getLineInformation(int)" signature="(I)Lorg/eclipse/jface/text/IRegion;" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="120" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target member="getLength" name="org.eclipse.jface.text.IRegion.getLength()" signature="()I" type="org.eclipse.jface.text.IRegion">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target member="getLineOffset" name="org.eclipse.jface.text.IDocument.getLineOffset(int)" signature="(I)I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="77" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+</references>

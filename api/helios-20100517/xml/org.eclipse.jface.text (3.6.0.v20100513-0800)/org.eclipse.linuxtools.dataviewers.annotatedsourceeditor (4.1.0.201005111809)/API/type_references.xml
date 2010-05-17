@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.jface.text (3.6.0.v20100513-0800)" reference_count="166" reference_visibility="1">
+    <target name="org.eclipse.jface.text.source.IAnnotationAccessExtension" type="org.eclipse.jface.text.source.IAnnotationAccessExtension">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="1104" member="findColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.findColor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="159" member="isSubtype" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.FilterIterator.isSubtype(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$FilterIterator"/>
+            <reference linenumber="1271" member="updateHeaderToolTipText" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.updateHeaderToolTipText()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1004" member="isCovered" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.isCovered(Object, Set)" signature="(Ljava/lang/Object;Ljava/util/Set;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="1005" member="isCovered" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.isCovered(Object, Set)" signature="(Ljava/lang/Object;Ljava/util/Set;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="160" member="isSubtype" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.FilterIterator.isSubtype(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$FilterIterator"/>
+            <reference linenumber="1105" member="findColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.findColor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="160" member="isSubtype" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.FilterIterator.isSubtype(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$FilterIterator"/>
+            <reference linenumber="1105" member="findColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.findColor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1005" member="isCovered" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.isCovered(Object, Set)" signature="(Ljava/lang/Object;Ljava/util/Set;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1290" member="updateHeaderToolTipText" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.updateHeaderToolTipText()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IOverviewRuler" type="org.eclipse.jface.text.source.IOverviewRuler">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="412" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.CompositeRuler" type="org.eclipse.jface.text.source.CompositeRuler">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.1.1(STAnnotatedCSourceEditorSTColumnSupport, RulerColumnDescriptor, ISTAnnotationColumn, CompositeRuler, int)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STAnnotatedCSourceEditor$STColumnSupport;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;Lorg/eclipse/jface/text/source/CompositeRuler;I)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport$1"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="computeIndex" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.computeIndex(CompositeRuler, RulerColumnDescriptor)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+            <reference linenumber="-1" member="addSTColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.addSTColumn(CompositeRuler, RulerColumnDescriptor, ISTAnnotationColumn)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fParentRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.fParentRuler" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="-1" member="val$ruler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.1.val$ruler" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="269" member="initializeColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.initializeColumn(IContributedRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/rulers/IContributedRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="125" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="178" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="125" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="271" member="initializeColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.initializeColumn(IContributedRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/rulers/IContributedRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+            <reference linenumber="178" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="121" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getParentRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.getParentRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ILineDifferExtension" type="org.eclipse.jface.text.source.ILineDifferExtension">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="672" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="571" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="563" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="629" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="630" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="673" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="671" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="564" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="572" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ILineDifferExtension2" type="org.eclipse.jface.text.source.ILineDifferExtension2">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="670" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="669" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRuler" type="org.eclipse.jface.text.source.IVerticalRuler">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="268" member="initializeColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.initializeColumn(IContributedRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/rulers/IContributedRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRulerInfoExtension" type="org.eclipse.jface.text.source.IVerticalRulerInfoExtension">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="211" member="removeVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.removeVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="185" member="addVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.addVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="202" member="getModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getModel()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="193" member="getHover" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getHover()" signature="()Lorg/eclipse/jface/text/source/IAnnotationHover;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="201" member="getModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getModel()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="192" member="getHover" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getHover()" signature="()Lorg/eclipse/jface/text/source/IAnnotationHover;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="210" member="removeVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.removeVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="184" member="addVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.addVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IChangeRulerColumn" type="org.eclipse.jface.text.source.IChangeRulerColumn">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="386" member="updateAddedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateAddedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="598" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="611" member="installChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="627" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="393" member="updateDeletedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateDeletedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="693" member="getDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="379" member="updateChangedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateChangedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="597" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="626" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="384" member="updateAddedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateAddedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="692" member="getDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="609" member="installChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="391" member="updateDeletedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateDeletedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="377" member="updateChangedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateChangedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ILineRange" type="org.eclipse.jface.text.source.ILineRange">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="end" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.end(ILineRange)" signature="(Lorg/eclipse/jface/text/source/ILineRange;)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="-1" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doPaint(GC, ILineRange)" signature="(Lorg/eclipse/swt/graphics/GC;Lorg/eclipse/jface/text/source/ILineRange;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="-1" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.doPaint(GC, ILineRange)" signature="(Lorg/eclipse/swt/graphics/GC;Lorg/eclipse/jface/text/source/ILineRange;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="641" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension" type="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="792" member="getRevisionSelectionProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getRevisionSelectionProvider()" signature="()Lorg/eclipse/jface/viewers/ISelectionProvider;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="437" member="updateRevisionIdVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="430" member="updateRevisionAuthorVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="417" member="updateRevisionRenderingMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="793" member="getRevisionSelectionProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getRevisionSelectionProvider()" signature="()Lorg/eclipse/jface/viewers/ISelectionProvider;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="422" member="updateRevisionRenderingMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="432" member="updateRevisionAuthorVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="439" member="updateRevisionIdVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.revisions.IRevisionRulerColumn" type="org.eclipse.jface.text.revisions.IRevisionRulerColumn">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="762" member="showRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.showRevisionInformation(RevisionInformation, String)" signature="(Lorg/eclipse/jface/text/revisions/RevisionInformation;Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="770" member="hideRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.hideRevisionInformation()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="761" member="showRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.showRevisionInformation(RevisionInformation, String)" signature="(Lorg/eclipse/jface/text/revisions/RevisionInformation;Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="769" member="hideRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.hideRevisionInformation()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextViewerExtension" type="org.eclipse.jface.text.ITextViewerExtension">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="503" member="layout" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.layout(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="502" member="layout" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.layout(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="503" member="layout" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.layout(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextViewer" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="107" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fCachedTextViewer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.fCachedTextViewer" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="-1" member="fTextViewer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.fTextViewer" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.createControl(Composite, ITextViewer)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/ITextViewer;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension.RenderingMode" type="org.eclipse.jface.text.revisions.IRevisionRulerColumnExtension$RenderingMode">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setRevisionRenderingMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.setRevisionRenderingMode(IRevisionRulerColumnExtensionRenderingMode)" signature="(Lorg/eclipse/jface/text/revisions/IRevisionRulerColumnExtension$RenderingMode;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="419" member="updateRevisionRenderingMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ISourceViewer" type="org.eclipse.jface.text.source.ISourceViewer">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="613" member="installChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="632" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="647" member="getAnnotationModelWithDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationModelWithDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="164" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="687" member="getDiffer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getDiffer()" signature="()Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="109" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fViewer" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.fViewer" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="108" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IAnnotationHover" type="org.eclipse.jface.text.source.IAnnotationHover">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getHover" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getHover()" signature="()Lorg/eclipse/jface/text/source/IAnnotationHover;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="getHover" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.getHover()" signature="()Lorg/eclipse/jface/text/source/IAnnotationHover;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setHover" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.setHover(IAnnotationHover)" signature="(Lorg/eclipse/jface/text/source/IAnnotationHover;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.IViewportListener" type="org.eclipse.jface.text.IViewportListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.InternalListener" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$InternalListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.projection.AnnotationBag" type="org.eclipse.jface.text.source.projection.AnnotationBag">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="144" member="skip" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.FilterIterator.skip()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$FilterIterator"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.revisions.RevisionInformation" type="org.eclipse.jface.text.revisions.RevisionInformation">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="showRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.showRevisionInformation(RevisionInformation, String)" signature="(Lorg/eclipse/jface/text/revisions/RevisionInformation;Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="setRevisionInformation" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.setRevisionInformation(RevisionInformation)" signature="(Lorg/eclipse/jface/text/revisions/RevisionInformation;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextViewerExtension5" type="org.eclipse.jface.text.ITextViewerExtension5">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="760" member="toLineNumbers" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)" signature="(I)[I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="593" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="759" member="toLineNumbers" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)" signature="(I)[I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="477" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="760" member="toLineNumbers" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)" signature="(I)[I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="593" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ISharedTextColors" type="org.eclipse.jface.text.source.ISharedTextColors">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.STChangeRulerColumn(ISharedTextColors, ISTAnnotationColumn)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.STOverviewRuler(IAnnotationAccess, int, ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/IAnnotationAccess;ILorg/eclipse/jface/text/source/ISharedTextColors;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="-1" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fSharedTextColors" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.fSharedTextColors" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSharedColors" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getSharedColors()" signature="()Lorg/eclipse/jface/text/source/ISharedTextColors;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="371" member="updateBackgroundColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateBackgroundColor(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="359" member="updateForegroundColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateForegroundColor(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRulerColumn" type="org.eclipse.jface.text.source.IVerticalRulerColumn">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="236" member="computeIndex" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.computeIndex(CompositeRuler, RulerColumnDescriptor)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+            <reference linenumber="131" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="181" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="updateQuickDiffVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateQuickDiffVisibility(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateCharacterMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateCharacterMode(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateDeletedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateDeletedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateRevisionAuthorVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionAuthorVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateChangedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateChangedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateBackgroundColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateBackgroundColor(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateRevisionRenderingMode" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionRenderingMode(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateLineNumbersVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateLineNumbersVisibility(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="installChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.installChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateAddedColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateAddedColor(AnnotationPreference, IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/ui/texteditor/AnnotationPreference;Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="uninstallChangeRulerModel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.uninstallChangeRulerModel(IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateForegroundColor" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateForegroundColor(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="updateRevisionIdVisibility" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.updateRevisionIdVisibility(IPreferenceStore, IVerticalRulerColumn)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/jface/text/source/IVerticalRulerColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fDelegate" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.fDelegate" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="292" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.3.createSTRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport$3"/>
+            <reference linenumber="131" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="181" member="rulerContextMenuAboutToShow" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.rulerContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="236" member="computeIndex" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.computeIndex(CompositeRuler, RulerColumnDescriptor)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ICompatibilityForwarder.createSTRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn$ICompatibilityForwarder"/>
+            <reference linenumber="-1" member="createLineNumberRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.2.createLineNumberRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport$2"/>
+            <reference linenumber="-1" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.3.createSTRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport$3"/>
+            <reference linenumber="-1" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IAnnotationAccess" type="org.eclipse.jface.text.source.IAnnotationAccess">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fAnnotationAccess" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.fAnnotationAccess" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.STOverviewRuler(IAnnotationAccess, int, ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/IAnnotationAccess;ILorg/eclipse/jface/text/source/ISharedTextColors;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRulerListener" type="org.eclipse.jface.text.source.IVerticalRulerListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="removeVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.removeVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="addVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.addVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+            <reference linenumber="-1" member="addVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.addVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="-1" member="removeVerticalRulerListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.removeVerticalRulerListener(IVerticalRulerListener)" signature="(Lorg/eclipse/jface/text/source/IVerticalRulerListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.revisions.IRevisionListener" type="org.eclipse.jface.text.revisions.IRevisionListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="removeRevisionListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.removeRevisionListener(IRevisionListener)" signature="(Lorg/eclipse/jface/text/revisions/IRevisionListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+            <reference linenumber="-1" member="addRevisionListener" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.addRevisionListener(IRevisionListener)" signature="(Lorg/eclipse/jface/text/revisions/IRevisionListener;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.TextEvent" type="org.eclipse.jface.text.TextEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="textChanged" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.InternalListener.textChanged(TextEvent)" signature="(Lorg/eclipse/jface/text/TextEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$InternalListener"/>
+            <reference linenumber="-1" member="textChanged" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.InternalListener.textChanged(TextEvent)" signature="(Lorg/eclipse/jface/text/TextEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$InternalListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRulerInfo" type="org.eclipse.jface.text.source.IVerticalRulerInfo">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="176" member="toDocumentLineNumber" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.toDocumentLineNumber(int)" signature="(I)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="167" member="getLineOfLastMouseButtonActivity" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getLineOfLastMouseButtonActivity()" signature="()I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="175" member="toDocumentLineNumber" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.toDocumentLineNumber(int)" signature="(I)I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="166" member="getLineOfLastMouseButtonActivity" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getLineOfLastMouseButtonActivity()" signature="()I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextListener" type="org.eclipse.jface.text.ITextListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.InternalListener" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$InternalListener"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.InternalListener" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$InternalListener"/>
+        </reference_kind>
+    </target>
+</references>

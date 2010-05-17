@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.debug.core (3.6.0.v20100510)" reference_count="32" reference_visibility="1">
+    <target name="org.eclipse.debug.core.ILaunchConfigurationType" type="org.eclipse.debug.core.ILaunchConfigurationType">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getLaunchConfigType" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.ILaunch" type="org.eclipse.debug.core.ILaunch">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.launch" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setCurrentLaunch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.setCurrentLaunch(ILaunch)" signature="(Lorg/eclipse/debug/core/ILaunch;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="createNewProcess" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createNewProcess(ILaunch, Process, String)" signature="(Lorg/eclipse/debug/core/ILaunch;Ljava/lang/Process;Ljava/lang/String;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        <reference linenumber="-1" member="handleLaunch" origin="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCurrentLaunch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getCurrentLaunch()" signature="()Lorg/eclipse/debug/core/ILaunch;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.ILaunchConfiguration" type="org.eclipse.debug.core.ILaunchConfiguration">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getValgrindArgumentsArray" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.getValgrindArgumentsArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="verifyOutputPath" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.verifyOutputPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="-1" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="getTool" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.getTool(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="setOutputPath" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.setOutputPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="setCurrentLaunchConfiguration" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.setCurrentLaunchConfiguration(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        <reference linenumber="-1" member="getCommandArray" origin="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate.getCommandArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate"/>
+            <reference linenumber="-1" member="handleLaunch" origin="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="launchConfiguration" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.launchConfiguration" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="-1" member="config" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.config" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="-1" member="config" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.config" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCurrentLaunchConfiguration" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getCurrentLaunchConfiguration()" signature="()Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.model.IProcess" type="org.eclipse.debug.core.model.IProcess">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="process" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.process" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createNewProcess" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createNewProcess(ILaunch, Process, String)" signature="(Lorg/eclipse/debug/core/ILaunch;Ljava/lang/Process;Ljava/lang/String;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.ILaunchConfigurationWorkingCopy" type="org.eclipse.debug.core.ILaunchConfigurationWorkingCopy">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setDefaultProfileAttributes" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="-1" member="setDefaults" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="launchConfigurationWorkingCopy" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.launchConfigurationWorkingCopy" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="262" member="setOutputPath" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.setOutputPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="379" member="handleToolChanged" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.handleToolChanged()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.model.ISourceLocator" type="org.eclipse.debug.core.model.ISourceLocator">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="211" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

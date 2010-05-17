@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IPath" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="177" member="main" origin="org.eclipse.linuxtools.cdt.libhover.utils.BuildFunctionInfos.main(String[])" signature="([Ljava/lang/String;)V" type="org.eclipse.linuxtools.cdt.libhover.utils.BuildFunctionInfos"/>
+        <reference linenumber="97" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHoverLibrary.getHoverInfo()" signature="()Lorg/eclipse/linuxtools/cdt/libhover/LibHoverInfo;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHoverLibrary"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.IStatus" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="runOnAST" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.EnclosingASTNameJob.runOnAST(ILanguage, IASTTranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ILanguage;Lorg/eclipse/cdt/core/dom/ast/IASTTranslationUnit;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover$EnclosingASTNameJob"/>
+            <reference linenumber="-1" member="runOnAST" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.ASTDeclarationFinderJob.runOnAST(ILanguage, IASTTranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ILanguage;Lorg/eclipse/cdt/core/dom/ast/IASTTranslationUnit;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover$ASTDeclarationFinderJob"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.QualifiedName" type="org.eclipse.core.runtime.QualifiedName">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="libhoverProperty" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.libhoverProperty" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="83" member="getPropertyString" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getPropertyString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+            <reference linenumber="242" member="performOk" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.performOk()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="13" reference_visibility="1">
+    <target member="schedule" name="org.eclipse.core.runtime.jobs.Job.schedule()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="141" member="makeView" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.makeView()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+            <reference linenumber="94" member="appendToFile" origin="org.eclipse.linuxtools.callgraph.core.Helper.appendToFile(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.Helper"/>
+            <reference linenumber="118" member="update" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.update()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="137" member="setBufferedWriter" origin="org.eclipse.linuxtools.callgraph.core.Helper.setBufferedWriter(String)" signature="(Ljava/lang/String;)Ljava/io/BufferedWriter;" type="org.eclipse.linuxtools.callgraph.core.Helper"/>
+            <reference linenumber="72" member="writeToFile" origin="org.eclipse.linuxtools.callgraph.core.Helper.writeToFile(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.Helper"/>
+            <reference linenumber="182" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+            <reference linenumber="246" member="launchFileErrorDialog" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.launchFileErrorDialog()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+            <reference linenumber="128" member="parsingError" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.parsingError(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.jobs.Job.Job(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.SystemTapParser(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.SystemTapParser()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+        </reference_kind>
+    </target>
+    <target member="join" name="org.eclipse.core.runtime.jobs.Job.join()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="119" member="update" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.update()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="142" member="makeView" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.makeView()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.jobs.Job.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapParser.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser"/>
+        </reference_kind>
+    </target>
+</references>

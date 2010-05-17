@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.editors (3.6.0.v20100513-0800)" reference_count="14" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.editors.text.FileDocumentProvider.FileDocumentProvider()" signature="()V" type="org.eclipse.ui.editors.text.FileDocumentProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyDocumentProvider.MyDocumentProvider(PrepareChangeLogAction)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PrepareChangeLogAction;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="createDocument" name="org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.ui.editors.text.StorageDocumentProvider">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="90" member="createDocument" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyDocumentProvider"/>
+            <reference linenumber="98" member="createDocument" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyStorageDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyStorageDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDocument" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyStorageDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyStorageDocumentProvider"/>
+            <reference linenumber="-1" member="createDocument" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.editors.text.StorageDocumentProvider.StorageDocumentProvider()" signature="()V" type="org.eclipse.ui.editors.text.StorageDocumentProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="94" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyStorageDocumentProvider.MyStorageDocumentProvider(PrepareChangeLogAction)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PrepareChangeLogAction;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyStorageDocumentProvider"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.ui.editors.text.TextEditor.TextEditor()" signature="()V" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.ChangeLogEditor()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.ChangeLogEditor()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.editors.text.TextFileDocumentProvider.TextFileDocumentProvider()" signature="()V" type="org.eclipse.ui.editors.text.TextFileDocumentProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="19" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider.ChangeLogDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider.ChangeLogDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getDocument" name="org.eclipse.ui.editors.text.TextFileDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.ui.editors.text.TextFileDocumentProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getDocument" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="23" member="getDocument" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="editorContextMenuAboutToShow" name="org.eclipse.ui.editors.text.TextEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="editorContextMenuAboutToShow" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="117" member="editorContextMenuAboutToShow" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+    </target>
+</references>

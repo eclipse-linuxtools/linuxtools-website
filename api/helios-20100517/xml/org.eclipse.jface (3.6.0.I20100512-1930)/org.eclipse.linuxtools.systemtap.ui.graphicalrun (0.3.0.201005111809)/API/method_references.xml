@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="6" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.WizardDialog.WizardDialog(Shell, IWizard)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/wizard/IWizard;)V" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="138" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.jface.dialogs.Dialog.create()" signature="()V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="139" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+</references>

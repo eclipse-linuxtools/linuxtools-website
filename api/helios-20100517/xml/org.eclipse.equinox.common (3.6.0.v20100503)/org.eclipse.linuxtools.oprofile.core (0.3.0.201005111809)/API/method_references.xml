@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.core (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="10" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="152" member="createErrorStatus" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.createErrorStatus(String, Exception)" signature="(Ljava/lang/String;Ljava/lang/Exception;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+            <reference linenumber="154" member="createErrorStatus" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.createErrorStatus(String, Exception)" signature="(Ljava/lang/String;Ljava/lang/Exception;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getStatus" name="org.eclipse.core.runtime.CoreException.getStatus()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="showErrorDialog" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.showErrorDialog(String, CoreException)" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/CoreException;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.CoreException.CoreException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OpxmlException.OpxmlException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.oprofile.core.OpxmlException"/>
+            <reference linenumber="22" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OpcontrolException.OpcontrolException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.oprofile.core.OpcontrolException"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OpxmlException.OpxmlException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.oprofile.core.OpxmlException"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OpcontrolException.OpcontrolException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.oprofile.core.OpcontrolException"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="278" member="_findOpcontrol" origin="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider._findOpcontrol()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider"/>
+        </reference_kind>
+    </target>
+    <target member="toFileURL" name="org.eclipse.core.runtime.FileLocator.toFileURL(URL)" signature="(Ljava/net/URL;)Ljava/net/URL;" type="org.eclipse.core.runtime.FileLocator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="282" member="_findOpcontrol" origin="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider._findOpcontrol()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider"/>
+        </reference_kind>
+    </target>
+    <target member="find" name="org.eclipse.core.runtime.FileLocator.find(Bundle, IPath, Map)" signature="(Lorg/osgi/framework/Bundle;Lorg/eclipse/core/runtime/IPath;Ljava/util/Map;)Ljava/net/URL;" type="org.eclipse.core.runtime.FileLocator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="278" member="_findOpcontrol" origin="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider._findOpcontrol()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider"/>
+        </reference_kind>
+    </target>
+</references>

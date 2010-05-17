@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="18" reference_visibility="1">
+    <target member="bind" name="org.eclipse.osgi.util.NLS.bind(String, Object, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="136" member="getValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindVersion()" signature="()Lorg/osgi/framework/Version;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="compareTo" name="org.osgi.framework.Version.compareTo(Object)" signature="(Ljava/lang/Object;)I" type="org.osgi.framework.Version">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="305" member="getValgrindArgumentsArray" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.getValgrindArgumentsArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="472" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="286" member="createErrorOptions" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createErrorOptions(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="534" member="performApply" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="563" member="setDefaults" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="135" member="getValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindVersion()" signature="()Lorg/osgi/framework/Version;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.osgi.framework.Version.toString()" signature="()Ljava/lang/String;" type="org.osgi.framework.Version">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="136" member="getValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindVersion()" signature="()Lorg/osgi/framework/Version;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="bind" name="org.eclipse.osgi.util.NLS.bind(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="203" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.isValid()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+            <reference linenumber="274" member="createDirectory" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createDirectory(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="169" member="findValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.findValgrindVersion()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+            <reference linenumber="506" member="isGeneralValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isGeneralValid()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="52" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard$1"/>
+            <reference linenumber="279" member="createDirectory" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createDirectory(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard$1"/>
+            <reference linenumber="172" member="findValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.findValgrindVersion()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+            <reference linenumber="206" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.isValid()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="parseVersion" name="org.osgi.framework.Version.parseVersion(String)" signature="(Ljava/lang/String;)Lorg/osgi/framework/Version;" type="org.osgi.framework.Version">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="166" member="findValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.findValgrindVersion()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,810 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>List usage details</title>
+</head>
+<body>
+<h3>List usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.swt.widgets.List has 81 total references to 17 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List">
+<span>[+] </span>List
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.formatterList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.editorList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog._feedbackList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.projectList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.list</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.suppFileList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.allocFnList</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INSTANTIATION</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createListBox(Composite, int)</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.createCustomArea(Composite)</td>
+<td align="center">273</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">234</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)</td>
+<td align="center">311</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)</td>
+<td align="center">321</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)</td>
+<td align="center">209</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createListBox(Composite, int)</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.createCustomArea(Composite)</td>
+<td align="center">273</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createListBox(Composite, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.getSuppFileList()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getAllocFnList()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.List(org.eclipse.swt.widgets.Composite, int) : void">
+<span>[+] </span>List(Composite, int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CONSTRUCTOR_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createListBox(Composite, int)</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.createCustomArea(Composite)</td>
+<td align="center">273</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">234</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)</td>
+<td align="center">311</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)</td>
+<td align="center">321</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)</td>
+<td align="center">209</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.add(java.lang.String) : void">
+<span>[+] </span>add(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateFormatList(IPreferenceStore)</td>
+<td align="center">158</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateEditorList(IPreferenceStore)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.createCustomArea(Composite)</td>
+<td align="center">275</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">277</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">285</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.6.widgetSelected(SelectionEvent)</td>
+<td align="center">354</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)</td>
+<td align="center">342</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.handleNewButtonPressed()</td>
+<td align="center">245</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.add(java.lang.String, int) : void">
+<span>[+] </span>add(String, int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.addToFeedbackList(String)</td>
+<td align="center">292</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addFilePressed()</td>
+<td align="center">174</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addFilePressed()</td>
+<td align="center">172</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)</td>
+<td align="center">398</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addDirPressed()</td>
+<td align="center">192</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addDirPressed()</td>
+<td align="center">190</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.addSelectionListener(org.eclipse.swt.events.SelectionListener) : void">
+<span>[+] </span>addSelectionListener(SelectionListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">300</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)</td>
+<td align="center">314</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getItem(int) : java.lang.String">
+<span>[+] </span>getItem(int) : String
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultFormatter(IPreferenceStore)</td>
+<td align="center">124</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultEditor(IPreferenceStore)</td>
+<td align="center">136</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getItemCount() : int">
+<span>[+] </span>getItemCount() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateEditorList(IPreferenceStore)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultFormatter(IPreferenceStore)</td>
+<td align="center">123</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultEditor(IPreferenceStore)</td>
+<td align="center">135</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateFormatList(IPreferenceStore)</td>
+<td align="center">164</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">283</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.selectionChanged()</td>
+<td align="center">375</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getItemHeight() : int">
+<span>[+] </span>getItemHeight() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.createListBox(Composite, int)</td>
+<td align="center">94</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">246</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getItems() : java.lang.String[]">
+<span>[+] </span>getItems() : String[]
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.performApply(ILaunchConfigurationWorkingCopy)</td>
+<td align="center">529</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isGeneralValid()</td>
+<td align="center">500</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.performApply(ILaunchConfigurationWorkingCopy)</td>
+<td align="center">298</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getSelection() : java.lang.String[]">
+<span>[+] </span>getSelection() : String[]
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.storeValues()</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.storeValues()</td>
+<td align="center">210</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getSelectedProjectName()</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()</td>
+<td align="center">382</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)</td>
+<td align="center">395</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getSelectionIndex() : int">
+<span>[+] </span>getSelectionIndex() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab._handleEventListSelectionChange()</td>
+<td align="center">588</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.removePressed()</td>
+<td align="center">361</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)</td>
+<td align="center">391</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addDirPressed()</td>
+<td align="center">188</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.selectionChanged()</td>
+<td align="center">374</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addFilePressed()</td>
+<td align="center">170</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.getSelectionIndices() : int[]">
+<span>[+] </span>getSelectionIndices() : int[]
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.7.widgetSelected(SelectionEvent)</td>
+<td align="center">363</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.handleRemoveButtonPressed()</td>
+<td align="center">251</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.remove(int) : void">
+<span>[+] </span>remove(int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.removePressed()</td>
+<td align="center">363</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)</td>
+<td align="center">397</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.remove(int[]) : void">
+<span>[+] </span>remove(int[]) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.7.widgetSelected(SelectionEvent)</td>
+<td align="center">365</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.handleRemoveButtonPressed()</td>
+<td align="center">252</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.setItems(java.lang.String[]) : void">
+<span>[+] </span>setItems(String[]) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)</td>
+<td align="center">468</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.initializeFrom(ILaunchConfiguration)</td>
+<td align="center">268</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.setSelection(int) : void">
+<span>[+] </span>setSelection(int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateFormatList(IPreferenceStore)</td>
+<td align="center">164</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultEditor(IPreferenceStore)</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.populateEditorList(IPreferenceStore)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.setDefaultFormatter(IPreferenceStore)</td>
+<td align="center">125</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">297</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)</td>
+<td align="center">279</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)</td>
+<td align="center">399</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.swt.widgets.List.setTopIndex(int) : void">
+<span>[+] </span>setTopIndex(int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.addToFeedbackList(String)</td>
+<td align="center">293</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="3" reference_visibility="1">
+    <target member="getBundle" name="org.eclipse.core.runtime.Plugin.getBundle()" signature="()Lorg/osgi/framework/Bundle;" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="105" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHoverLibrary.getHoverInfo()" signature="()Lorg/eclipse/linuxtools/cdt/libhover/LibHoverInfo;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHoverLibrary"/>
+        </reference_kind>
+    </target>
+<target member="getExtensionRegistry" name="org.eclipse.core.runtime.Platform.getExtensionRegistry()" signature="()Lorg/eclipse/core/runtime/IExtensionRegistry;" type="org.eclipse.core.runtime.Platform">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="117" member="getExtensions" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.getExtensions()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="371" member="getExtensions" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getExtensions()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="47" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.Activator.Activator()" signature="()V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.Activator.Activator()" signature="()V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.gcov.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="39" member="start" origin="org.eclipse.linuxtools.gcov.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="49" member="stop" origin="org.eclipse.linuxtools.gcov.Activator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.gcov.Activator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.gcov.Activator"/>
+        </reference_kind>
+    </target>
+<target member="getDisplay" name="org.eclipse.ui.IWorkbench.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="47" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        <reference linenumber="227" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="195" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="197" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.2.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$2"/>
+            <reference linenumber="169" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.1.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$1"/>
+            <reference linenumber="167" member="displayCovDetailedResult" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovDetailedResult(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        <reference linenumber="50" member="getColor" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="47" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        <reference linenumber="227" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="169" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.1.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$1"/>
+            <reference linenumber="167" member="displayCovDetailedResult" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovDetailedResult(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="195" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="197" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.2.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$2"/>
+            <reference linenumber="211" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        <reference linenumber="50" member="getColor" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+    </target>
+<target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="258" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setValidator" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setValidator(ISelectionStatusValidator)" signature="(Lorg/eclipse/ui/dialogs/ISelectionStatusValidator;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="264" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setInitialSelection" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setInitialSelection(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="263" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setAllowMultiple" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setAllowMultiple(boolean)" signature="(Z)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="261" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.model.WorkbenchLabelProvider.WorkbenchLabelProvider()" signature="()V" type="org.eclipse.ui.model.WorkbenchLabelProvider">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstResult" name="org.eclipse.ui.dialogs.SelectionStatusDialog.getFirstResult()" signature="()Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="277" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.open()" signature="()I" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="276" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="257" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.ElementTreeSelectionDialog(Shell, ILabelProvider, ITreeContentProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="256" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="259" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setComparator" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setComparator(ViewerComparator)" signature="(Lorg/eclipse/jface/viewers/ViewerComparator;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="260" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+<target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="213" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="212" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getViewSite" name="org.eclipse.ui.part.ViewPart.getViewSite()" signature="()Lorg/eclipse/ui/IViewSite;" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="84" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="showView" name="org.eclipse.ui.IWorkbenchPage.showView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IViewPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="214" member="displayCovResults" origin="org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)" signature="(Lorg/eclipse/linuxtools/gcov/parser/CovManager;)Lorg/eclipse/linuxtools/gcov/view/CovView;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target member="getDialogSettings" name="org.eclipse.ui.plugin.AbstractUIPlugin.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="78" member="getDialogSettings" origin="org.eclipse.linuxtools.gcov.view.CovViewer.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchSite.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="84" member="contributeToToolbar" origin="org.eclipse.linuxtools.gcov.view.CovView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+<target member="openEditor" name="org.eclipse.ui.IWorkbenchPage.openEditor(IEditorInput, String, boolean)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="110" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="98" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="activate" name="org.eclipse.ui.IWorkbenchPage.activate(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="122" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.IEditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="114" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="closeEditor" name="org.eclipse.ui.IWorkbenchPage.closeEditor(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Z" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="76" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSite" name="org.eclipse.ui.IWorkbenchPart.getSite()" signature="()Lorg/eclipse/ui/IWorkbenchPartSite;" type="org.eclipse.ui.IWorkbenchPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="findEditor" name="org.eclipse.ui.IWorkbenchPage.findEditor(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="74" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.part.EditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceNotFoundEditor.openSourceFileAtLocation(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPage" name="org.eclipse.ui.IWorkbenchSite.getPage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

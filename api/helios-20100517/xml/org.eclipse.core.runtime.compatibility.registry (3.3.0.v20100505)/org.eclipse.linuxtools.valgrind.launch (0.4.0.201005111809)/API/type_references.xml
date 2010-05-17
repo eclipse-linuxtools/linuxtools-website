@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.core.runtime.compatibility.registry (3.3.0.v20100505)" reference_count="2" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IExtensionPoint" type="org.eclipse.core.runtime.IExtensionPoint">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="294" member="initializeToolMap" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.initializeToolMap()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+            <reference linenumber="234" member="getOutputDirectoryProvider" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getOutputDirectoryProvider()" signature="()Lorg/eclipse/linuxtools/valgrind/launch/IValgrindOutputDirectoryProvider;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+</references>

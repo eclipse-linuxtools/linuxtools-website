@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.zest.layouts (1.1.0.v20090504-1850)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.zest.layouts.dataStructures.InternalNode" type="org.eclipse.zest.layouts.dataStructures.InternalNode">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="61" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.zest.layouts.dataStructures.InternalRelationship" type="org.eclipse.zest.layouts.dataStructures.InternalRelationship">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="postLayoutAlgorithm" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm.postLayoutAlgorithm(InternalNode[], InternalRelationship[])" signature="([Lorg/eclipse/zest/layouts/dataStructures/InternalNode;[Lorg/eclipse/zest/layouts/dataStructures/InternalRelationship;)V" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm" type="org.eclipse.zest.layouts.algorithms.GridLayoutAlgorithm">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm" type="org.eclipse.linuxtools.callgraph.AggregateLayoutAlgorithm"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,1657 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>IWorkbenchWindow usage details</title>
+</head>
+<body>
+<h3>IWorkbenchWindow usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.ui.IWorkbenchWindow has 290 total references to 6 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow">
+<span>[+] </span>IWorkbenchWindow
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.FindReplaceDialogStub.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.fWorkbenchWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.fMainWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.fWindow</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.window</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages.runInUIThread(IProgressMonitor)</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()</td>
+<td align="center">279</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.getActiveWorkbenchShell()</td>
+<td align="center">172</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.getStatusLineManager()</td>
+<td align="center">1170</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()</td>
+<td align="center">42</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)</td>
+<td align="center">140</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.internal.DashboardCloseMonitor.preShutdown(IWorkbench, boolean)</td>
+<td align="center">34</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()</td>
+<td align="center">35</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor.preShutdown(IWorkbench, boolean)</td>
+<td align="center">33</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.PathEditorInput(IPath, IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.init(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.KernelSourceAction(IWorkbenchWindow, KernelBrowserView)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.ProbeAliasAction(IWorkbenchWindow, ProbeAliasBrowserView)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.FunctionBrowserAction(IWorkbenchWindow, FunctionBrowserView)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.getWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.OprofileLaunchPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.RPMUIPlugin.getActiveWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getMainWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.getWorkbenchWindow()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow.getActivePage() : org.eclipse.ui.IWorkbenchPage">
+<span>[+] </span>getActivePage() : IWorkbenchPage
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.ViewFactory.2.run()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.ViewFactory.1.run()</td>
+<td align="center">42</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeIfUnmaximized()</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getActivePage()</td>
+<td align="center">320</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.getActivePage()</td>
+<td align="center">287</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActivePage()</td>
+<td align="center">253</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.outputMultipleEntryChangeLog(PatchFile, String[])</td>
+<td align="center">440</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.execute(ExecutionEvent)</td>
+<td align="center">104</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction.FormatChangeLogAction()</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.openEditor(IFile)</td>
+<td align="center">97</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.open()</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.getStatusLineManager()</td>
+<td align="center">1174</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()</td>
+<td align="center">58</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.view.ChartView.1.run()</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.view.ChartView.2.run()</td>
+<td align="center">165</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.view.CovView.displayCovResults(CovManager)</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)</td>
+<td align="center">225</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.isEnabled()</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.execute(ExecutionEvent)</td>
+<td align="center">73</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.isEnabled()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.isEnabled()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.RefreshHandler.isEnabled()</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.isEnabled()</td>
+<td align="center">52</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.isEnabled()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.CloseProjectHandler.isEnabled()</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.isEnabled()</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenProjectHandler.isEnabled()</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.isEnabled()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenExperimentHandler.isEnabled()</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.AbstractOprofileLaunchConfigurationDelegate.refreshOprofileView()</td>
+<td align="center">149</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()</td>
+<td align="center">95</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)</td>
+<td align="center">109</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)</td>
+<td align="center">139</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.getParsedSpecfile()</td>
+<td align="center">82</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)</td>
+<td align="center">141</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.2.run()</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator.1.run()</td>
+<td align="center">244</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpmstubby.StubbyGenerator.1.run()</td>
+<td align="center">311</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.getActive()</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.createErrorDaemon(IErrorParser)</td>
+<td align="center">144</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2.createErrorDaemon(IErrorParser)</td>
+<td align="center">139</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.1.mouseDoubleClick(MouseEvent)</td>
+<td align="center">168</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.1.run()</td>
+<td align="center">63</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.dispose()</td>
+<td align="center">240</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.DashboardAdapter.closeShim()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.buildEnablementChecks()</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.dispose()</td>
+<td align="center">118</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.stopmodule(DashboardModule)</td>
+<td align="center">100</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.buildEnablementChecks()</td>
+<td align="center">95</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.dispose()</td>
+<td align="center">122</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ActivateGraphAction.run(GraphTreeNode, String)</td>
+<td align="center">114</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.4.selectionChanged(SelectionChangedEvent)</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopGraphAction.run(GraphTreeNode)</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.dispose()</td>
+<td align="center">274</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ActivateGraphAction.run(GraphTreeNode, String)</td>
+<td align="center">105</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopGraphAction.run(GraphTreeNode)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.dispose()</td>
+<td align="center">278</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.buildEnablementChecks()</td>
+<td align="center">151</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.4.selectionChanged(SelectionChangedEvent)</td>
+<td align="center">362</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.3.selectionChanged(SelectionChangedEvent)</td>
+<td align="center">242</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.buildEnablementChecks()</td>
+<td align="center">251</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.dispose()</td>
+<td align="center">179</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ActivateGraphAction.run(GraphTreeNode)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.buildEnablementChecks()</td>
+<td align="center">246</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.addActive(String, ActiveModuleData)</td>
+<td align="center">161</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.dispose()</td>
+<td align="center">175</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.run()</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.PauseModuleAction.run()</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.buildEnablementChecks()</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)</td>
+<td align="center">171</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.StopModuleAction.stopmodule(DashboardModule)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ActivateGraphAction.run(GraphTreeNode)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.hidden.GetSelectedModule.getNode(IViewPart)</td>
+<td align="center">76</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.hidden.GetSelectedModule.getModule(IViewPart)</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.internal.DashboardCloseMonitor.preShutdown(IWorkbench, boolean)</td>
+<td align="center">35</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.getActivePage()</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()</td>
+<td align="center">82</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.buildEnablementChecks()</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.getDataSet()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.buildEnablementChecks()</td>
+<td align="center">175</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getGraph()</td>
+<td align="center">89</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()</td>
+<td align="center">37</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValid()</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()</td>
+<td align="center">45</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()</td>
+<td align="center">99</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()</td>
+<td align="center">97</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.buildEnablementChecks()</td>
+<td align="center">316</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.getFilePath()</td>
+<td align="center">117</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.run()</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()</td>
+<td align="center">99</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()</td>
+<td align="center">159</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()</td>
+<td align="center">162</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()</td>
+<td align="center">118</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()</td>
+<td align="center">105</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()</td>
+<td align="center">93</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.dispose()</td>
+<td align="center">372</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.6.run()</td>
+<td align="center">314</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.1.run()</td>
+<td align="center">91</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.2.run()</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow.getPartService() : org.eclipse.ui.IPartService">
+<span>[+] </span>getPartService() : IPartService
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()</td>
+<td align="center">280</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.FindReplaceDialogStub.widgetDisposed(DisposeEvent)</td>
+<td align="center">149</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.update()</td>
+<td align="center">315</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.FindReplaceDialogStub.FindReplaceDialogStub(IWorkbenchPartSite)</td>
+<td align="center">76</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.buildEnablementChecks()</td>
+<td align="center">75</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow.getSelectionService() : org.eclipse.ui.ISelectionService">
+<span>[+] </span>getSelectionService() : ISelectionService
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.TreeExpandCollapseAction(Class)</td>
+<td align="center">53</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.FunctionBrowserAction(IWorkbenchWindow, FunctionBrowserView)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.dispose()</td>
+<td align="center">76</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.KernelSourceAction(IWorkbenchWindow, KernelBrowserView)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.dispose()</td>
+<td align="center">98</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.dispose()</td>
+<td align="center">73</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.ProbeAliasAction(IWorkbenchWindow, ProbeAliasBrowserView)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.dispose()</td>
+<td align="center">82</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow.getShell() : org.eclipse.swt.widgets.Shell">
+<span>[+] </span>getShell() : Shell
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getActiveWorkbenchShell()</td>
+<td align="center">134</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.getShell()</td>
+<td align="center">42</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.getActiveWorkbenchShell()</td>
+<td align="center">106</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchShell()</td>
+<td align="center">100</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.getShell()</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)</td>
+<td align="center">168</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.getActiveWorkbenchShell()</td>
+<td align="center">174</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.doRun()</td>
+<td align="center">77</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.doRun()</td>
+<td align="center">151</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()</td>
+<td align="center">76</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gprof.utils.Aggregator.1.run()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.SelectTracesHandler.execute(ExecutionEvent)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewProjectHandler.execute(ExecutionEvent)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.ImportTraceHandler.execute(ExecutionEvent)</td>
+<td align="center">92</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameProjectHandler.execute(ExecutionEvent)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.OpenTraceHandler.execute(ExecutionEvent)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.TraceErrorHandler.execute(ExecutionEvent)</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameTraceHandler.execute(ExecutionEvent)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.RenameExperimentHandler.execute(ExecutionEvent)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.lttng.ui.views.project.handlers.NewExperimentHandler.execute(ExecutionEvent)</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.OprofileLaunchPlugin.getActiveWorkbenchShell()</td>
+<td align="center">103</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog.OprofiledControlDialog(OprofileManualLaunchConfigurationDelegate)</td>
+<td align="center">160</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchShell()</td>
+<td align="center">124</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.getActiveWorkbenchShell()</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.profiling.ui.ProfileUIPlugin.getActiveWorkbenchShell()</td>
+<td align="center">65</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)</td>
+<td align="center">76</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.RPMUIPlugin.getActiveWorkbenchShell()</td>
+<td align="center">120</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpmstubby.StubbyPlugin.getActiveWorkbenchShell()</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.actions.SaveLogAction.getFile()</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.ErrorMessage.1.run()</td>
+<td align="center">24</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2.saveStream(File)</td>
+<td align="center">225</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.saveStream(File)</td>
+<td align="center">238</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.createClientSession()</td>
+<td align="center">394</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.run()</td>
+<td align="center">82</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.queryFolder()</td>
+<td align="center">93</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.RunModuleAction.runScript(DashboardModule)</td>
+<td align="center">180</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.CustomAction.run()</td>
+<td align="center">19</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.internal.DashboardCloseMonitor.preShutdown(IWorkbench, boolean)</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)</td>
+<td align="center">88</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)</td>
+<td align="center">100</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)</td>
+<td align="center">75</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)</td>
+<td align="center">159</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.queryFile()</td>
+<td align="center">173</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()</td>
+<td align="center">62</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction.queryFile()</td>
+<td align="center">30</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.queryFile()</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.run(IAction)</td>
+<td align="center">64</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.queryFile()</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.displayError(String)</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)</td>
+<td align="center">171</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.getFile()</td>
+<td align="center">89</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getFile()</td>
+<td align="center">125</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.displayError(String)</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.displayError(String)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.datadisplay.DataGrid.AddFilterSelection.widgetSelected(SelectionEvent)</td>
+<td align="center">180</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.createClientSession()</td>
+<td align="center">261</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)</td>
+<td align="center">140</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidDirectory(String)</td>
+<td align="center">157</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction.getCommandLineOptions(ArrayList)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.queryFile()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.run()</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()</td>
+<td align="center">24</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor.preShutdown(IWorkbench, boolean)</td>
+<td align="center">39</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.getTapsetLocation(IPreferenceStore)</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()</td>
+<td align="center">91</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.1.run()</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.6.widgetSelected(SelectionEvent)</td>
+<td align="center">177</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()</td>
+<td align="center">27</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getActiveWorkbenchShell()</td>
+<td align="center">166</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.IWorkbenchWindow.getWorkbench() : org.eclipse.ui.IWorkbench">
+<span>[+] </span>getWorkbench() : IWorkbench
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.dashboard.actions.ImportModuleLocationAction.run()</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.getEditorId(File)</td>
+<td align="center">85</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()</td>
+<td align="center">99</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()</td>
+<td align="center">97</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)</td>
+<td align="center">120</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

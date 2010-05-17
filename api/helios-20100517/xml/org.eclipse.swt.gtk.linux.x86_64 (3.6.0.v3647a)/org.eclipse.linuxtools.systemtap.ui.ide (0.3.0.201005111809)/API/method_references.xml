@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="76" reference_visibility="1">
+    <target member="setText" name="org.eclipse.swt.widgets.Dialog.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        <reference linenumber="26" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        <reference linenumber="92" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.DirectoryDialog.DirectoryDialog(Shell, int)" signature="(Lorg/eclipse/swt/widgets/Shell;I)V" type="org.eclipse.swt.widgets.DirectoryDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="72" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        <reference linenumber="91" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.FillLayout.FillLayout()" signature="()V" type="org.eclipse.swt.layout.FillLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="146" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.swt.widgets.DirectoryDialog.open()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.DirectoryDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        <reference linenumber="93" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+<target member="open" name="org.eclipse.swt.widgets.MessageBox.open()" signature="()I" type="org.eclipse.swt.widgets.MessageBox">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="27" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        </reference_kind>
+    </target>
+    <target member="syncExec" name="org.eclipse.swt.widgets.Display.syncExec(Runnable)" signature="(Ljava/lang/Runnable;)V" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="22" member="open" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.swt.widgets.MessageBox.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.MessageBox">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="25" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.MessageBox.MessageBox(Shell, int)" signature="(Lorg/eclipse/swt/widgets/Shell;I)V" type="org.eclipse.swt.widgets.MessageBox">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.swt.widgets.Display.getDefault()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="22" member="open" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage"/>
+        <reference linenumber="125" member="calculatePositions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.calculatePositions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+<target member="addMouseListener" name="org.eclipse.swt.widgets.Control.addMouseListener(MouseListener)" signature="(Lorg/eclipse/swt/events/MouseListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="295" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getDisplay" name="org.eclipse.swt.widgets.Widget.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="99" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+            <reference linenumber="160" member="handleUpdateEvent" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewUpdater.handleUpdateEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="setCursor" name="org.eclipse.swt.widgets.Control.setCursor(Cursor)" signature="(Lorg/eclipse/swt/graphics/Cursor;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="99" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="194" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.graphics.Cursor.Cursor(Device, int)" signature="(Lorg/eclipse/swt/graphics/Device;I)V" type="org.eclipse.swt.graphics.Cursor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="99" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+<target member="asyncExec" name="org.eclipse.swt.widgets.Display.asyncExec(Runnable)" signature="(Ljava/lang/Runnable;)V" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="125" member="calculatePositions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.calculatePositions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        <reference linenumber="160" member="handleUpdateEvent" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewUpdater.handleUpdateEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewUpdater"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.swt.graphics.RGB.RGB(int, int, int)" signature="(III)V" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="49" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.TabItem.TabItem(TabFolder, int)" signature="(Lorg/eclipse/swt/widgets/TabFolder;I)V" type="org.eclipse.swt.widgets.TabItem">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="45" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+            <reference linenumber="73" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setControl" name="org.eclipse.swt.widgets.TabItem.setControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.swt.widgets.TabItem">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="76" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+            <reference linenumber="48" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.TabFolder.TabFolder(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.TabFolder">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="42" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.TabItem.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.TabItem">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="46" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+            <reference linenumber="74" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Composite.Composite(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="75" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+            <reference linenumber="47" member="createContents" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+        <reference linenumber="73" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="61" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+<target member="setText" name="org.eclipse.swt.widgets.Label.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setBackground" name="org.eclipse.swt.widgets.Control.setBackground(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="80" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Label.Label(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="77" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.graphics.Rectangle.Rectangle(int, int, int, int)" signature="(IIII)V" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="74" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="63" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="82" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="78" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.swt.widgets.Button.getSelection()" signature="()Z" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="132" member="buttonPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setLayout" name="org.eclipse.swt.widgets.Composite.setLayout(Layout)" signature="(Lorg/eclipse/swt/widgets/Layout;)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="62" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.graphics.Point.Point(int, int)" signature="(II)V" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="50" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.swt.widgets.Text.getText()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="100" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.2.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$2"/>
+            <reference linenumber="135" member="buttonPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setBounds" name="org.eclipse.swt.widgets.Control.setBounds(Rectangle)" signature="(Lorg/eclipse/swt/graphics/Rectangle;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="63" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="78" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="82" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Button.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="68" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getBackground" name="org.eclipse.swt.widgets.Control.getBackground()" signature="()Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="80" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.swt.widgets.Widget.dispose()" signature="()V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="157" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="159" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="156" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="162" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="163" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        <reference linenumber="95" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="128" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridLayout.GridLayout()" signature="()V" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="59" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="addKeyListener" name="org.eclipse.swt.widgets.Control.addKeyListener(KeyListener)" signature="(Lorg/eclipse/swt/events/KeyListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="108" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="95" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+            <reference linenumber="85" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Text.Text(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="81" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Shell.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setSize" name="org.eclipse.swt.widgets.Control.setSize(Point)" signature="(Lorg/eclipse/swt/graphics/Point;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Button.Button(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="67" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+<target member="setMenu" name="org.eclipse.swt.widgets.Control.setMenu(Menu)" signature="(Lorg/eclipse/swt/widgets/Menu;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="80" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="107" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.swt.widgets.Control.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.swt.widgets.Control.setFocus()" signature="()Z" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="148" member="setFocus" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.setFocus()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+</references>

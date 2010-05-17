@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" reference_count="3" reference_visibility="1">
+    <target member="insertText" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="82" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="82" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="82" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+        </reference_kind>
+    </target>
+</references>

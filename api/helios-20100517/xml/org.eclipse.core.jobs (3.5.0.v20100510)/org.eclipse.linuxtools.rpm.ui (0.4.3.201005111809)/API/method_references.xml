@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui (0.4.3.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="5" reference_visibility="1">
+    <target member="schedule" name="org.eclipse.core.runtime.jobs.Job.schedule()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="66" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.jobs.Job.Job(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.1.1(RPMExportWizard, String, RPMExportOperation)" signature="(Lorg/eclipse/linuxtools/rpm/ui/RPMExportWizard;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/RPMExportOperation;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard$1"/>
+        </reference_kind>
+    </target>
+    <target member="setProperty" name="org.eclipse.core.runtime.jobs.Job.setProperty(QualifiedName, Object)" signature="(Lorg/eclipse/core/runtime/QualifiedName;Ljava/lang/Object;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard$1"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.jobs.Job.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard$1"/>
+        </reference_kind>
+    </target>
+    <target member="setUser" name="org.eclipse.core.runtime.jobs.Job.setUser(boolean)" signature="(Z)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="65" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+</references>

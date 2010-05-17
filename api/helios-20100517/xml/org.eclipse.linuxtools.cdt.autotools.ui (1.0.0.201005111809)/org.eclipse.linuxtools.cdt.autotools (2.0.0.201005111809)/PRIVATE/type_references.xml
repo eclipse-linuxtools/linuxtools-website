@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" reference_count="9" reference_visibility="2">
+    <target name="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.AutotoolsConsole" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.AutotoolsConsole"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CConfigureConsole" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CConfigureConsole"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.CBuildStepsConsole" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.CBuildStepsConsole"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.cdt.autotools.ui.SingleCharReader" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.SingleCharReader">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.SubstitutionTextReader" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.SubstitutionTextReader"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayKey" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$OverlayKey">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="57" member="propertyChange" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$PropertyListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="this$0" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.this$0" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$PropertyListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.PropertyListener(OverlayPreferenceStore)" signature="(Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$PropertyListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.TypeDescriptor" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$TypeDescriptor">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fDescriptor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayKey.fDescriptor" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$OverlayKey"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayKey.OverlayKey(OverlayPreferenceStoreTypeDescriptor, String)" signature="(Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore$TypeDescriptor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$OverlayKey"/>
+        </reference_kind>
+    </target>
+</references>

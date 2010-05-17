@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.charts.Activator" type="org.eclipse.linuxtools.dataviewers.charts.Activator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IActionBars" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="112" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="78" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.1.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="78" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView.1.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.part.ViewPart" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.charts.view.ChartView" type="org.eclipse.linuxtools.dataviewers.charts.view.ChartView"/>
+        </reference_kind>
+    </target>
+</references>

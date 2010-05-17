@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" reference_count="4" reference_visibility="1">
+    <target member="parse" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser.parse(StringBuilder)" signature="(Ljava/lang/StringBuilder;)Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataEntry;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="84" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="setData" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet.setData(IDataEntry)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataEntry;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="86" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="readFromFile" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet.readFromFile(File)" signature="(Ljava/io/File;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="113" member="readFile" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.readFile(File)" signature="(Ljava/io/File;)Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+    </target>
+    <target member="writeToFile" name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet.writeToFile(File)" signature="(Ljava/io/File;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="61" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+        </reference_kind>
+    </target>
+</references>

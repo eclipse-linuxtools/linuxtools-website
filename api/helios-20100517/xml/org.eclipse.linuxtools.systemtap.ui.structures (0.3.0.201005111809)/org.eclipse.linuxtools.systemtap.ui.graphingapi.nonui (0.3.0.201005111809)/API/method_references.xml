@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" reference_count="7" reference_visibility="1">
+    <target member="copy" name="org.eclipse.linuxtools.systemtap.ui.structures.Copier.copy(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.structures.Copier">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="42" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter"/>
+            <reference linenumber="40" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter"/>
+            <reference linenumber="43" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter"/>
+            <reference linenumber="42" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+        </reference_kind>
+    </target>
+    <target member="quicksort" name="org.eclipse.linuxtools.systemtap.ui.structures.Sort.quicksort(Object[], int, int)" signature="([Ljava/lang/Object;II)V" type="org.eclipse.linuxtools.systemtap.ui.structures.Sort">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="53" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.structures.IndexedObject.IndexedObject(int, Object)" signature="(ILjava/lang/Object;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.IndexedObject">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="50" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+            <reference linenumber="47" member="filter" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.filter(ArrayList[])" signature="([Ljava/util/ArrayList;)[Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.massif (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="208" reference_visibility="1">
+    <target name="org.eclipse.swt.events.ModifyEvent" type="org.eclipse.swt.events.ModifyEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.2.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="77" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="115" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="83" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="90" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="214" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="154" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="165" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="99" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="129" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="193" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="175" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="106" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="143" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        <reference linenumber="62" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="77" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="214" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="175" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="286" member="getChartSavePath" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getChartSavePath(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="286" member="getChartSavePath" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getChartSavePath(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionListener" type="org.eclipse.swt.events.SelectionListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="selectListener" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.selectListener" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getHeaderListener" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getHeaderListener()" signature="()Lorg/eclipse/swt/events/SelectionListener;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.List" type="org.eclipse.swt.widgets.List">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="allocFnList" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.allocFnList" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="209" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getAllocFnList" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getAllocFnList()" signature="()Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Font" type="org.eclipse.swt.graphics.Font">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getFont" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider.getFont(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Font;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="457" member="getFont" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider.getFont(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Font;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        <reference linenumber="113" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])" signature="([Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifSnapshot;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+            <reference linenumber="-1" member="getFontMetrics" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.getFontMetrics(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/graphics/FontMetrics;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+            <reference linenumber="-1" member="setTopControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.setTopControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Spinner" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getAlignmentSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getAlignmentSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getHeapAdminSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getHeapAdminSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getPeakInaccuracySpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getPeakInaccuracySpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getThresholdSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getThresholdSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getDepthSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getDepthSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getMaxSnapshotsSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getMaxSnapshotsSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getDetailedFreqSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getDetailedFreqSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="134" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="159" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="95" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="187" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="120" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="111" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="170" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="alignmentSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.alignmentSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="detailedFreqSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.detailedFreqSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="thresholdSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.thresholdSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="maxSnapshotsSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.maxSnapshotsSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="heapAdminSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.heapAdminSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="depthSpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.depthSpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="peakInaccuracySpinner" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.peakInaccuracySpinner" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="354" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="231" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="217" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="110" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="211" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="80" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="116" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="194" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="221" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="198" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        <reference linenumber="63" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+            <reference linenumber="70" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.ChartControl(Composite, Chart, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/birt/chart/model/Chart;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="354" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionAdapter" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="62" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+            <reference linenumber="180" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.3" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$3"/>
+            <reference linenumber="222" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.4" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.5" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$5"/>
+            <reference linenumber="232" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.5" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$5"/>
+            <reference linenumber="175" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.4" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.3" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Combo" type="org.eclipse.swt.widgets.Combo">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getTimeUnitCombo" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getTimeUnitCombo()" signature="()Lorg/eclipse/swt/widgets/Combo;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="148" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="timeUnitCombo" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.timeUnitCombo" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Menu" type="org.eclipse.swt.widgets.Menu">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+            <reference linenumber="-1" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Menu)" signature="(Lorg/eclipse/swt/widgets/Menu;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="48" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="97" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.MassifTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="menu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.menu" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Menu)" signature="(Lorg/eclipse/swt/widgets/Menu;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.4.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$4"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$5"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="89" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="142" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="82" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="153" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="192" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="75" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="128" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="114" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="174" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="213" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="98" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="164" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="105" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        <reference linenumber="61" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="213" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="128" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="192" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="75" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="153" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="82" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="89" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="142" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="105" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="164" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="107" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="98" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="174" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="114" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        <reference linenumber="61" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.MassifTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.ChartControl(Composite, Chart, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/birt/chart/model/Chart;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="top" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.top" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="139" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="167" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="131" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="196" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="92" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="156" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="125" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="117" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="108" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="353" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="145" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="131" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="196" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="92" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="139" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="167" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="117" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="145" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="108" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="125" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="156" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="353" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="229" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="219" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="85" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="219" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="101" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="178" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="229" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="stacksButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.stacksButton" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="alignmentButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.alignmentButton" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="heapButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.heapButton" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getStacksButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getStacksButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getHeapButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getHeapButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="-1" member="getAlignmentButton" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.getAlignmentButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Image" type="org.eclipse.swt.graphics.Image">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="27" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider"/>
+            <reference linenumber="421" member="getColumnImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider.getColumnImage(Object, int)" signature="(Ljava/lang/Object;I)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        <reference linenumber="162" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getColumnImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider.getColumnImage(Object, int)" signature="(Ljava/lang/Object;I)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="164" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="171" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="buffer" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.buffer" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.custom.StackLayout" type="org.eclipse.swt.custom.StackLayout">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="stackLayout" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.stackLayout" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="108" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.TableColumn" type="org.eclipse.swt.widgets.TableColumn">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="178" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="178" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+            <reference linenumber="196" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+            <reference linenumber="342" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.FileDialog" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="287" member="getChartSavePath" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getChartSavePath(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="287" member="getChartSavePath" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getChartSavePath(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Table" type="org.eclipse.swt.widgets.Table">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="191" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+            <reference linenumber="179" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2"/>
+            <reference linenumber="115" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyListener" type="org.eclipse.swt.events.ModifyListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="modifyListener" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.modifyListener" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.2" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.GC" type="org.eclipse.swt.graphics.GC">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="69" member="getFontMetrics" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.getFontMetrics(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/graphics/FontMetrics;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        <reference linenumber="175" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="209" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="175" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.FontMetrics" type="org.eclipse.swt.graphics.FontMetrics">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="210" member="createAllocFnControls" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.createAllocFnControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+            <reference linenumber="71" member="getFontMetrics" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.getFontMetrics(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/graphics/FontMetrics;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getFontMetrics" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.getFontMetrics(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/graphics/FontMetrics;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.events.DisposeListener" type="org.eclipse.swt.events.DisposeListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.1" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.FontData" type="org.eclipse.swt.graphics.FontData">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="114" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])" signature="([Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifSnapshot;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.PaintEvent" type="org.eclipse.swt.events.PaintEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ControlListener" type="org.eclipse.swt.events.ControlListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.MouseEvent" type="org.eclipse.swt.events.MouseEvent">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="93" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="69" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="69" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG"/>
+            <reference linenumber="93" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Canvas" type="org.eclipse.swt.widgets.Canvas">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.DisposeEvent" type="org.eclipse.swt.events.DisposeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetDisposed" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.1.widgetDisposed(DisposeEvent)" signature="(Lorg/eclipse/swt/events/DisposeEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ControlEvent" type="org.eclipse.swt.events.ControlEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="controlResized" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.controlResized(ControlEvent)" signature="(Lorg/eclipse/swt/events/ControlEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="-1" member="controlMoved" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.controlMoved(ControlEvent)" signature="(Lorg/eclipse/swt/events/ControlEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.PaintListener" type="org.eclipse.swt.events.PaintListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Rectangle" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="147" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="146" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="147" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+            <reference linenumber="166" member="paintControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+</references>

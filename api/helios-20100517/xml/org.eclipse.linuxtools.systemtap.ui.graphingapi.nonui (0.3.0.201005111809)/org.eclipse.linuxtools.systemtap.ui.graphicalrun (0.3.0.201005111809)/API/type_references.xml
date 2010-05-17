@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.structures.ChartStreamDaemon">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="70" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSet">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="dataSet" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.dataSet" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="60" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setParser" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.setParser(IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.ChartStreamDaemon2(ScriptConsole, IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ScriptConsole;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="parser" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.parser" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="59" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setParser" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.setParser(IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2.ChartStreamDaemon2(ScriptConsole, IDataSet, IDataSetParser)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ScriptConsole;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSetParser;)V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.structures.ChartStreamDaemon2"/>
+        </reference_kind>
+    </target>
+</references>

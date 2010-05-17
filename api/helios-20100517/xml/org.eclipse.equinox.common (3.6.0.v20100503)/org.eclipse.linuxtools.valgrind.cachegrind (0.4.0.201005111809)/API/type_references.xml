@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="23" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IProgressMonitor" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="handleLaunch" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+            <reference linenumber="-1" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IPath" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="81" member="getCommandArray" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.getCommandArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+            <reference linenumber="47" member="handleLaunch" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile.CachegrindFile(CachegrindOutput, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindOutput;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="280" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="227" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="280" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="227" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="getCommandArray" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.getCommandArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+            <reference linenumber="-1" member="handleLaunch" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IAdaptable" type="org.eclipse.core.runtime.IAdaptable">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="67" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="54" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.CachegrindFunction(CachegrindFile, String)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/model/CachegrindFile;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getModel" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindLine.getModel()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindLine"/>
+            <reference linenumber="-1" member="getModel" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.getModel()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="-1" member="getModel" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile.getModel()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile"/>
+            <reference linenumber="-1" member="getModel" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindOutput.getModel()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindOutput"/>
+            <reference linenumber="-1" member="getModel" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.ICachegrindElement.getModel()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.ICachegrindElement"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="model" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction.model" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFunction"/>
+            <reference linenumber="-1" member="model" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile.model" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.model.CachegrindFile"/>
+        </reference_kind>
+    </target>
+</references>

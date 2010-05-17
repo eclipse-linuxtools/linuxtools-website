@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.tmf (0.2.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="5" reference_visibility="1">
+    <target member="CANCEL_STATUS" name="org.eclipse.core.runtime.Status.CANCEL_STATUS" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="626" member="run" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment$IndexingJob"/>
+        <reference linenumber="438" member="run" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.trace.TmfTrace$IndexingJob"/>
+        </reference_kind>
+    </target>
+    <target member="OK_STATUS" name="org.eclipse.core.runtime.Status.OK_STATUS" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="592" member="run" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment$IndexingJob"/>
+            <reference linenumber="650" member="run" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment$IndexingJob"/>
+        <reference linenumber="461" member="run" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.trace.TmfTrace$IndexingJob"/>
+        </reference_kind>
+    </target>
+</references>

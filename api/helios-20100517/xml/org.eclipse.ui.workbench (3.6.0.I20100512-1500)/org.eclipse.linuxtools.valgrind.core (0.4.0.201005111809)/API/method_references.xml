@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="8" reference_visibility="1">
+    <target member="initializeDefaultPreferences" name="org.eclipse.ui.plugin.AbstractUIPlugin.initializeDefaultPreferences(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.initializeDefaultPreferences(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.ValgrindPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.ValgrindPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="38" member="start" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="102" member="doGetPreferenceStore" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.doGetPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="48" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin"/>
+        </reference_kind>
+    </target>
+</references>

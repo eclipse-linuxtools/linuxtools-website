@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.consolelog (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="50" reference_visibility="1">
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.ConsoleAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction.ConsoleAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.ConsoleAction"/>
+        </reference_kind>
+    </target>
+<target member="setValue" name="org.eclipse.jface.preference.IPreferenceStore.setValue(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="112" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="131" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="134" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+        </reference_kind>
+    </target>
+    <target member="setValue" name="org.eclipse.jface.preference.IPreferenceStore.setValue(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="97" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+            <reference linenumber="130" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="96" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+            <reference linenumber="133" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="132" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.ConsoleLogPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="29" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="27" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.ConsoleLogPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.jface.preference.FieldEditorPreferencePage.dispose()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="66" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="32" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="31" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="26" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="33" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="30" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="28" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+            <reference linenumber="34" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="55" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="40" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="37" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="52" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="34" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.IntegerFieldEditor.IntegerFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.IntegerFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="56" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="38" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.BooleanFieldEditor.BooleanFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.BooleanFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.ConsoleLogPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="35" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="38" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="56" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getTextControl" name="org.eclipse.jface.preference.StringFieldEditor.getTextControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Text;" type="org.eclipse.jface.preference.StringFieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.StringFieldEditor.StringFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.StringFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="35" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDescription" name="org.eclipse.jface.dialogs.DialogPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage.ConsoleLogPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.preferences.ConsoleLogPreferencePage"/>
+        </reference_kind>
+    </target>
+<target member="openWarning" name="org.eclipse.jface.dialogs.MessageDialog.openWarning(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="225" member="saveStream" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2.saveStream(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2"/>
+            <reference linenumber="238" member="saveStream" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole.saveStream(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole"/>
+        </reference_kind>
+    </target>
+    <target member="createImage" name="org.eclipse.jface.resource.ImageDescriptor.createImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="84" member="addRow" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.addRow(String[])" signature="([Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.core (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="4" reference_visibility="1">
+    <target member="openError" name="org.eclipse.jface.dialogs.ErrorDialog.openError(Shell, String, String, IStatus)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IStatus;)I" type="org.eclipse.jface.dialogs.ErrorDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="172" member="run" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin$1"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.operation.IRunnableWithProgress.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.jface.operation.IRunnableWithProgress">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="171" member="checkEvent" origin="org.eclipse.linuxtools.oprofile.core.Oprofile.checkEvent(int, int, int)" signature="(III)Ljava/lang/Boolean;" type="org.eclipse.linuxtools.oprofile.core.Oprofile"/>
+            <reference linenumber="193" member="getEvents" origin="org.eclipse.linuxtools.oprofile.core.Oprofile.getEvents()" signature="()[Lorg/eclipse/linuxtools/oprofile/core/model/OpModelEvent;" type="org.eclipse.linuxtools.oprofile.core.Oprofile"/>
+            <reference linenumber="215" member="getModelData" origin="org.eclipse.linuxtools.oprofile.core.Oprofile.getModelData(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/oprofile/core/model/OpModelImage;" type="org.eclipse.linuxtools.oprofile.core.Oprofile"/>
+        </reference_kind>
+    </target>
+</references>

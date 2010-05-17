@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.ui.editors (3.6.0.v20100513-0800)" reference_count="2" reference_visibility="1">
+    <target name="org.eclipse.ui.editors.text.TextEditor" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.editors.text.TextFileDocumentProvider" type="org.eclipse.ui.editors.text.TextFileDocumentProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.equinox.preferences (3.3.0.v20100503)" reference_count="14" reference_visibility="1">
+    <target member="getInt" name="org.osgi.service.prefs.Preferences.getInt(String, int)" signature="(Ljava/lang/String;I)I" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="getBoolean" name="org.osgi.service.prefs.Preferences.getBoolean(String, boolean)" signature="(Ljava/lang/String;Z)Z" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="81" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="putLong" name="org.osgi.service.prefs.Preferences.putLong(String, long)" signature="(Ljava/lang/String;J)V" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="112" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+            <reference linenumber="107" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="getLong" name="org.osgi.service.prefs.Preferences.getLong(String, long)" signature="(Ljava/lang/String;J)J" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="89" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="removePreferenceChangeListener" name="org.eclipse.core.runtime.preferences.IEclipsePreferences.removePreferenceChangeListener(IEclipsePreferencesIPreferenceChangeListener)" signature="(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences$IPreferenceChangeListener;)V" type="org.eclipse.core.runtime.preferences.IEclipsePreferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="195" member="setPropertyChangeListener" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.setPropertyChangeListener(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="addPreferenceChangeListener" name="org.eclipse.core.runtime.preferences.IEclipsePreferences.addPreferenceChangeListener(IEclipsePreferencesIPreferenceChangeListener)" signature="(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences$IPreferenceChangeListener;)V" type="org.eclipse.core.runtime.preferences.IEclipsePreferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="193" member="setPropertyChangeListener" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.setPropertyChangeListener(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="getKey" name="org.eclipse.core.runtime.preferences.IEclipsePreferences.PreferenceChangeEvent.getKey()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.preferences.IEclipsePreferences$PreferenceChangeEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="46" member="preferenceChange" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.1.preferenceChange(IEclipsePreferencesPreferenceChangeEvent)" signature="(Lorg/eclipse/core/runtime/preferences/IEclipsePreferences$PreferenceChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob$1"/>
+        </reference_kind>
+    </target>
+<target member="getNode" name="org.eclipse.core.runtime.preferences.InstanceScope.getNode(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;" type="org.eclipse.core.runtime.preferences.InstanceScope">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="51" member="performOk" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="flush" name="org.osgi.service.prefs.Preferences.flush()" signature="()V" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="51" member="performOk" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer.AbstractPreferenceInitializer()" signature="()V" type="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.PreferenceInitializer()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="21" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.PreferenceInitializer()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.preferences.InstanceScope.InstanceScope()" signature="()V" type="org.eclipse.core.runtime.preferences.InstanceScope">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="51" member="performOk" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="initializeDefaultPreferences" name="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+</references>

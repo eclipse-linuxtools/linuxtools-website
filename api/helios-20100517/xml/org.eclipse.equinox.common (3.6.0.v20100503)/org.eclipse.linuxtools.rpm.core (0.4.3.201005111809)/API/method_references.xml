@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="49" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="186" member="prepareExport" origin="org.eclipse.linuxtools.rpm.core.RPMProject.prepareExport()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="106" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="89" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.QualifiedName.QualifiedName(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.core.runtime.QualifiedName">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="123" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="82" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="65" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="48" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="52" member="setSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.setSourceRPM(SourceRPM)" signature="(Lorg/eclipse/linuxtools/rpm/core/SourceRPM;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="99" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="75" member="setSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.setSpecFile(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="89" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="72" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="106" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="55" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+            <reference linenumber="116" member="initialize" origin="org.eclipse.linuxtools.rpm.core.RPMConfiguration.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.CoreException.CoreException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="91" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="188" member="prepareExport" origin="org.eclipse.linuxtools.rpm.core.RPMProject.prepareExport()" signature="()V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="108" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        <reference linenumber="103" member="query" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.query(IFile, String[])" signature="(Lorg/eclipse/core/resources/IFile;[Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="79" member="install" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.install(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="85" member="buildPrep" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildPrep(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/io/InputStream;" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="131" member="buildAll" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildAll(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="108" member="buildBinary" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildBinary(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="154" member="buildSource" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildSource(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="68" member="getSpecFile" origin="org.eclipse.linuxtools.rpm.core.RPMProject.getSpecFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="88" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+            <reference linenumber="105" member="importSourceRPM" origin="org.eclipse.linuxtools.rpm.core.RPMProject.importSourceRPM(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.RPMProject"/>
+        <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="74" member="install" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.install(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="55" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="55" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.RPM(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="98" member="query" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.query(IFile, String[])" signature="(Lorg/eclipse/core/resources/IFile;[Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.RPMBuild(RPMConfiguration)" signature="(Lorg/eclipse/linuxtools/rpm/core/RPMConfiguration;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, String, Throwable)" signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="80" member="install" origin="org.eclipse.linuxtools.rpm.core.utils.RPM.install(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPM"/>
+            <reference linenumber="86" member="buildPrep" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildPrep(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/io/InputStream;" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="132" member="buildAll" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildAll(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="104" member="query" origin="org.eclipse.linuxtools.rpm.core.utils.RPMQuery.query(IFile, String[])" signature="(Lorg/eclipse/core/resources/IFile;[Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.RPMQuery"/>
+            <reference linenumber="109" member="buildBinary" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildBinary(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="155" member="buildSource" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildSource(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="103" member="buildBinary" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildBinary(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="149" member="buildSource" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildSource(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="80" member="buildPrep" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildPrep(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/io/InputStream;" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+            <reference linenumber="126" member="buildAll" origin="org.eclipse.linuxtools.rpm.core.utils.RPMBuild.buildAll(IFile, OutputStream)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/io/OutputStream;)V" type="org.eclipse.linuxtools.rpm.core.utils.RPMBuild"/>
+        </reference_kind>
+    </target>
+</references>

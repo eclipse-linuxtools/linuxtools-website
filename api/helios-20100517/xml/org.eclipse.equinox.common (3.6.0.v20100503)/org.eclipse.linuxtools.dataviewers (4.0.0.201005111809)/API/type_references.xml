@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="21" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Status" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="504" member="initPrintStream" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.initPrintStream(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="39" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersColumnLabelProvider.STDataViewersColumnLabelProvider(Item)" signature="(Lorg/eclipse/swt/widgets/Item;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersColumnLabelProvider"/>
+            <reference linenumber="210" member="restoreState" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.restoreState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="495" member="initPrintStream" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.initPrintStream(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="35" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STOwnerDrawLabelProvider.STOwnerDrawLabelProvider(Item)" signature="(Lorg/eclipse/swt/widgets/Item;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STOwnerDrawLabelProvider"/>
+            <reference linenumber="78" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersComparator.STDataViewersComparator(Item[], int[], int[])" signature="([Lorg/eclipse/swt/widgets/Item;[I[I)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersComparator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="494" member="initPrintStream" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.initPrintStream(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="503" member="initPrintStream" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.initPrintStream(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IStatus" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="209" member="restoreState" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.restoreState()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="logStatus" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.logStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.NullProgressMonitor" type="org.eclipse.core.runtime.NullProgressMonitor">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="473" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="323" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IProgressMonitor" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="exportTo" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.exportTo(String, IProgressMonitor)" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+            <reference linenumber="-1" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.actions.STExportToCSVAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="monitor" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.monitor" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.Path" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="470" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="474" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="474" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.IPath" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="656" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog.handleBrowseWorkspace()" signature="()V" type="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog"/>
+        </reference_kind>
+    </target>
+</references>

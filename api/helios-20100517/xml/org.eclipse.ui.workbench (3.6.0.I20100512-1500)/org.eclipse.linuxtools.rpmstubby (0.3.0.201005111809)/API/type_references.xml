@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpmstubby (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="11" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpmstubby.StubbyPlugin" type="org.eclipse.linuxtools.rpmstubby.StubbyPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="247" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator$1"/>
+            <reference linenumber="314" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="247" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator$1"/>
+            <reference linenumber="314" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="310" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator$1"/>
+            <reference linenumber="243" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator$1"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchPart" type="org.eclipse.ui.IWorkbenchPart">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setActivePart" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction.setActivePart(IAction, IWorkbenchPart)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IObjectActionDelegate" type="org.eclipse.ui.IObjectActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction" type="org.eclipse.linuxtools.rpmstubby.popup.actions.StubifyAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPreferencePage" type="org.eclipse.ui.IWorkbenchPreferencePage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage" type="org.eclipse.linuxtools.rpmstubby.preferences.StubbyPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

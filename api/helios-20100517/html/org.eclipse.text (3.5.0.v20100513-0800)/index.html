@@ -1,0 +1,424 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Types used in org.eclipse.text (3.5.0.v20100513-0800)</title>
+</head>
+<body>
+<h3>Types used in org.eclipse.text (3.5.0.v20100513-0800)</h3>
+<p>The list of all referencing bundles is available <a href="#bundles">here</a>.</p>
+<h4>References</h4>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="30%"><b>Referenced Type</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="API references are references that are only made to public API of a bundle"><b>API</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal references are references that are only made to internal non-API of a bundle"><b>Internal</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal-Permissible references are references that are only made to internal non-API of a bundle, but are allowed via the x-friends directive"><b>Internal-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Fragment-Permissible references are references that are made to internal non-API of a host bundle by a fragment"><b>Fragment-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Illegal references are ones made to API that has restrictions"><b>Illegal</b></td>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.AbstractDocument.html">org.eclipse.jface.text.AbstractDocument</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.BadLocationException.html">org.eclipse.jface.text.BadLocationException</a></b></td>
+	<td align="center">189</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.BadPositionCategoryException.html">org.eclipse.jface.text.BadPositionCategoryException</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.DefaultLineTracker.html">org.eclipse.jface.text.DefaultLineTracker</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.DefaultPositionUpdater.html">org.eclipse.jface.text.DefaultPositionUpdater</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.Document.html">org.eclipse.jface.text.Document</a></b></td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.DocumentEvent.html">org.eclipse.jface.text.DocumentEvent</a></b></td>
+	<td align="center">20</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.FindReplaceDocumentAdapter.html">org.eclipse.jface.text.FindReplaceDocumentAdapter</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IDocument.html">org.eclipse.jface.text.IDocument</a></b></td>
+	<td align="center">478</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IDocumentExtension3.html">org.eclipse.jface.text.IDocumentExtension3</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IDocumentListener.html">org.eclipse.jface.text.IDocumentListener</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IDocumentPartitioner.html">org.eclipse.jface.text.IDocumentPartitioner</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IPositionUpdater.html">org.eclipse.jface.text.IPositionUpdater</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.IRegion.html">org.eclipse.jface.text.IRegion</a></b></td>
+	<td align="center">221</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.ITypedRegion.html">org.eclipse.jface.text.ITypedRegion</a></b></td>
+	<td align="center">18</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.Position.html">org.eclipse.jface.text.Position</a></b></td>
+	<td align="center">139</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.Region.html">org.eclipse.jface.text.Region</a></b></td>
+	<td align="center">83</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.TextUtilities.html">org.eclipse.jface.text.TextUtilities</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.source.Annotation.html">org.eclipse.jface.text.source.Annotation</a></b></td>
+	<td align="center">54</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.source.AnnotationModel.html">org.eclipse.jface.text.source.AnnotationModel</a></b></td>
+	<td align="center">34</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.source.IAnnotationModel.html">org.eclipse.jface.text.source.IAnnotationModel</a></b></td>
+	<td align="center">46</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.source.IAnnotationModelExtension.html">org.eclipse.jface.text.source.IAnnotationModelExtension</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.source.IAnnotationModelListener.html">org.eclipse.jface.text.source.IAnnotationModelListener</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.templates.DocumentTemplateContext.html">org.eclipse.jface.text.templates.DocumentTemplateContext</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.templates.Template.html">org.eclipse.jface.text.templates.Template</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.templates.TemplateContext.html">org.eclipse.jface.text.templates.TemplateContext</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.templates.TemplateContextType.html">org.eclipse.jface.text.templates.TemplateContextType</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.text.templates.TemplateException.html">org.eclipse.jface.text.templates.TemplateException</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+</table>
+<br><h4>Referencing Bundles</h4>
+<p>The following bundles have references to org.eclipse.text (3.5.0.v20100513-0800)</p>
+<a name="bundles"></a>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="50%"><b>Bundle</b></td>
+	<td bgcolor="#E0C040" width="20%" align="center"><b>Version</b></td>
+	<td bgcolor="#E0C040" width="10%" align="center"><b>Reference Count</b></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.binutils</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">3</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">31</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph.core</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">7</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools</b></td>
+	<td>2.0.0.201005111809</td>
+	<td align="center">57</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.ui</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">389</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.libhover</b></td>
+	<td>1.0.3.201005111809</td>
+	<td align="center">3</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.core</b></td>
+	<td>2.6.7.201005111809</td>
+	<td align="center">104</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">169</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gcov</b></td>
+	<td>4.1.1.201005111809</td>
+	<td align="center">3</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.man</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">4</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">9</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.rpmlint</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">33</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.ui.editor</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">377</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.editor</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">86</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.ide</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">68</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.cachegrind</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.massif</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui.editor</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">35</td>
+</tr>
+</table>
+<p><a href="../index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+

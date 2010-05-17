@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="55" reference_visibility="1">
+    <target member="getTree" name="org.eclipse.jface.viewers.TreeViewer.getTree()" signature="()Lorg/eclipse/swt/widgets/Tree;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="63" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+        <reference linenumber="242" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, ITreeContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.SwitchSampleTimeAction(AbstractSTDataView)" signature="(Lorg/eclipse/linuxtools/dataviewers/abstractview/AbstractSTDataView;)V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.action.Action.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.SwitchSampleTimeAction(AbstractSTDataView)" signature="(Lorg/eclipse/linuxtools/dataviewers/abstractview/AbstractSTDataView;)V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+            <reference linenumber="42" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, ITreeContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="238" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.StructuredViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="54" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="51" member="open" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        </reference_kind>
+    </target>
+    <target member="setToolTipText" name="org.eclipse.jface.action.Action.setToolTipText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.SwitchSampleTimeAction(AbstractSTDataView)" signature="(Lorg/eclipse/linuxtools/dataviewers/abstractview/AbstractSTDataView;)V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.SwitchContentProviderAction(String, String, ColumnViewer, ITreeContentProvider)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/viewers/ColumnViewer;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        <reference linenumber="230" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+        <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.gprof.utils.Aggregator.1.run()" signature="()V" type="org.eclipse.linuxtools.gprof.utils.Aggregator$1"/>
+        <reference linenumber="191" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="refresh" name="org.eclipse.jface.viewers.StructuredViewer.refresh()" signature="()V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="67" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchSampleTimeAction"/>
+        <reference linenumber="246" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="expandToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.Viewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+            <reference linenumber="53" member="run" origin="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction.run()" signature="()V" type="org.eclipse.linuxtools.gprof.action.SwitchContentProviderAction"/>
+        </reference_kind>
+    </target>
+<target member="setShellStyle" name="org.eclipse.jface.window.Window.setShellStyle(int)" signature="(I)V" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.OpenGmonDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.window.Window.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="createDialogArea" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+            <reference linenumber="234" member="handleBrowse" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+            <reference linenumber="106" member="createDialogArea" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+            <reference linenumber="205" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getButton" name="org.eclipse.jface.dialogs.Dialog.getButton(int)" signature="(I)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="186" member="validateBinary" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+            <reference linenumber="182" member="validateBinary" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.Dialog.Dialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="84" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.OpenGmonDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createDialogArea" name="org.eclipse.jface.dialogs.Dialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="107" member="createDialogArea" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.jface.dialogs.Dialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="100" member="createContents" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getShellStyle" name="org.eclipse.jface.window.Window.getShellStyle()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.OpenGmonDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+<target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="96" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="94" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="93" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="92" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="90" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="98" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.action.Action.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="231" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.action.Action.setChecked(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="91" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="237" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="236" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="94" member="handleOpenEvent" origin="org.eclipse.linuxtools.gprof.view.GmonViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gprof.view.GmonViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Separator.Separator()" signature="()V" type="org.eclipse.jface.action.Separator">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="89" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="95" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="97" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="setAutoExpandLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.setAutoExpandLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="createViewer" origin="org.eclipse.linuxtools.gprof.view.GmonViewer.createViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)Lorg/eclipse/jface/viewers/ColumnViewer;" type="org.eclipse.linuxtools.gprof.view.GmonViewer"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IContributionItem)" signature="(Lorg/eclipse/jface/action/IContributionItem;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="95" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="89" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="97" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.OpenEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.OpenEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="93" member="handleOpenEvent" origin="org.eclipse.linuxtools.gprof.view.GmonViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gprof.view.GmonViewer"/>
+        </reference_kind>
+    </target>
+<target member="getInput" name="org.eclipse.jface.viewers.ContentViewer.getInput()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.ContentViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="150" member="getProfRate" origin="org.eclipse.linuxtools.gprof.view.fields.SampleProfField.getProfRate()" signature="()D" type="org.eclipse.linuxtools.gprof.view.fields.SampleProfField"/>
+        </reference_kind>
+    </target>
+</references>

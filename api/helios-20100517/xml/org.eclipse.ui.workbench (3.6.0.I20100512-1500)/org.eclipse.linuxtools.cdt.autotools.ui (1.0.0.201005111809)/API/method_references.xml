@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="180" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.AutotoolsUIPlugin()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.AutotoolsUIPlugin()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="253" member="getActivePage" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="100" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        <reference linenumber="41" member="getShell" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="244" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+            <reference linenumber="98" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="76" member="start" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="148" member="getImageDescriptor" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.plugin.AbstractUIPlugin.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="98" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+            <reference linenumber="244" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        <reference linenumber="258" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage"/>
+            <reference linenumber="243" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="83" member="stop" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.AutotoolsUIPlugin"/>
+        </reference_kind>
+    </target>
+<target member="setHelp" name="org.eclipse.ui.help.IWorkbenchHelpSystem.setHelp(Control, String)" signature="(Lorg/eclipse/swt/widgets/Control;Ljava/lang/String;)V" type="org.eclipse.ui.help.IWorkbenchHelpSystem">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="728" member="createPartControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="243" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage"/>
+            <reference linenumber="258" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage"/>
+        <reference linenumber="102" member="setupHelpContextIds" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage.ManagedWizardOptionBlock.setupHelpContextIds()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage$ManagedWizardOptionBlock"/>
+            <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="150" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+            <reference linenumber="62" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="676" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="683" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="728" member="createPartControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="412" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="78" member="getImageDescriptor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+            <reference linenumber="455" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        <reference linenumber="109" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.AutoconfTextHover(AutoconfEditor)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfEditor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="150" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+            <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="62" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock"/>
+            <reference linenumber="102" member="setupHelpContextIds" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage.ManagedWizardOptionBlock.setupHelpContextIds()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage$ManagedWizardOptionBlock"/>
+        </reference_kind>
+    </target>
+    <target member="setHelp" name="org.eclipse.ui.help.IWorkbenchHelpSystem.setHelp(IAction, String)" signature="(Lorg/eclipse/jface/action/IAction;Ljava/lang/String;)V" type="org.eclipse.ui.help.IWorkbenchHelpSystem">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="676" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="683" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="validateMacroCall" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditorMacroValidator.validateMacroCall(AutoconfMacroElement)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/AutoconfMacroElement;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditorMacroValidator"/>
+            <reference linenumber="244" member="createTextAttribute" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroCodeScanner.createTextAttribute(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/text/TextAttribute;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroCodeScanner"/>
+            <reference linenumber="652" member="isFoldingEnabled" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.isFoldingEnabled()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="224" member="createTextAttribute" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfCodeScanner.createTextAttribute(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/text/TextAttribute;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfCodeScanner"/>
+            <reference linenumber="292" member="getPreferenceColor" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.getPreferenceColor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="88" member="validateMacroCall" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditorMacroValidator.validateMacroCall(AutoconfMacroElement)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/parser/AutoconfMacroElement;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditorMacroValidator"/>
+            <reference linenumber="153" member="initializeEditor" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.initializeEditor()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="182" member="initializePreferences" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.initializePreferences()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater"/>
+        <reference linenumber="70" member="initializeEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor.initializeEditor()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor"/>
+            <reference linenumber="165" member="createTextAttribute" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractMakefileCodeScanner.createTextAttribute(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/text/TextAttribute;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractMakefileCodeScanner"/>
+            <reference linenumber="131" member="initializeEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.initializeEditor()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+            <reference linenumber="52" member="getPreferenceColor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory.getPreferenceColor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory"/>
+            <reference linenumber="150" member="isFoldingEnabled" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isFoldingEnabled()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+            <reference linenumber="175" member="initializePreferences" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.initializePreferences()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater"/>
+        <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage.AutotoolsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage"/>
+            <reference linenumber="45" member="isBuildTargetInBackground" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage.isBuildTargetInBackground()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage"/>
+            <reference linenumber="80" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.AbstractEditorPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage"/>
+            <reference linenumber="49" member="setBuildTargetInBackground" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage.setBuildTargetInBackground(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsPreferencePage"/>
+        <reference linenumber="259" member="initializeAMVersion" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.initializeAMVersion()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+            <reference linenumber="186" member="performDefaults" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performDefaults()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+            <reference linenumber="237" member="initializeACVersion" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.initializeACVersion()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+            <reference linenumber="173" member="performDefaults" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performDefaults()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+        <reference linenumber="143" member="getDefaultAutomakeMacrosVer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getDefaultAutomakeMacrosVer()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+            <reference linenumber="126" member="getDefaultAutoconfMacrosVer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getDefaultAutoconfMacrosVer()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.part.EditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="reconcile" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfReconcilingStrategy.reconcile(IRegion)" signature="(Lorg/eclipse/jface/text/IRegion;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfReconcilingStrategy"/>
+            <reference linenumber="316" member="handleVersionChange" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.handleVersionChange(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="236" member="getOutlinePage" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.getOutlinePage()" signature="()Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/outline/AutoconfContentOutlinePage;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="235" member="getOutlinePage" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.getOutlinePage()" signature="()Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/outline/AutoconfContentOutlinePage;" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="159" member="initialize" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.initialize()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater"/>
+            <reference linenumber="277" member="processReconcile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.processReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater"/>
+        <reference linenumber="156" member="initialize" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.initialize()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater"/>
+            <reference linenumber="122" member="getMakefile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor.getMakefile()" signature="()Lorg/eclipse/cdt/make/core/makefile/IMakefile;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor"/>
+            <reference linenumber="152" member="initialize" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.initialize()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater"/>
+            <reference linenumber="302" member="setSelection" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)" signature="(Lorg/eclipse/cdt/make/core/makefile/IDirective;Z)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+            <reference linenumber="113" member="getOutlinePage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.getOutlinePage()" signature="()Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/MakefileContentOutlinePage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeErrorHandler.AutomakeErrorHandler(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeErrorHandler"/>
+            <reference linenumber="90" member="getAutomakeOutlinePage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor.getAutomakeOutlinePage()" signature="()Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/AutomakefileContentOutlinePage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditor"/>
+            <reference linenumber="250" member="processReconcile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.processReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater"/>
+            <reference linenumber="292" member="getFindRepalceDocumentAdapter" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.getFindRepalceDocumentAdapter()" signature="()Lorg/eclipse/jface/text/FindReplaceDocumentAdapter;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        <reference linenumber="371" member="getMacroList" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getMacroList(AutoconfEditor)" signature="(Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfEditor;)[Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfMacro;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+            <reference linenumber="312" member="getIndexedInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getIndexedInfo(String, AutoconfEditor)" signature="(Ljava/lang/String;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfEditor;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+            <reference linenumber="434" member="getPrototype" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getPrototype(String, AutoconfEditor)" signature="(Ljava/lang/String;Lorg/eclipse/linuxtools/cdt/autotools/ui/editors/AutoconfEditor;)Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/text/hover/AutoconfPrototype;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+    </target>
+    <target member="getHelpSystem" name="org.eclipse.ui.IWorkbench.getHelpSystem()" signature="()Lorg/eclipse/ui/help/IWorkbenchHelpSystem;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="728" member="createPartControl" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="676" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+            <reference linenumber="683" member="createActions" origin="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor"/>
+        <reference linenumber="243" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage"/>
+            <reference linenumber="258" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage"/>
+        <reference linenumber="62" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ManagedProjectOptionBlock"/>
+            <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="102" member="setupHelpContextIds" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage.ManagedWizardOptionBlock.setupHelpContextIds()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.NewAutotoolsProjectOptionPage$ManagedWizardOptionBlock"/>
+            <reference linenumber="150" member="createPageControls" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.createPageControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="150" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.CProjectPlatformPage"/>
+        </reference_kind>
+    </target>
+<target member="getDialogSettings" name="org.eclipse.ui.plugin.AbstractUIPlugin.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="97" member="getDialogSettings" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog"/>
+            <reference linenumber="94" member="getDialogSettings" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog.getDialogSettings()" signature="()Lorg/eclipse/jface/dialogs/IDialogSettings;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog"/>
+            <reference linenumber="141" member="clearAllRememberedStates" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog.clearAllRememberedStates()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.OptionalMessageDialog"/>
+        <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction.LexicalSortingAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction"/>
+            <reference linenumber="59" member="valueChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction.valueChanged(boolean, boolean)" signature="(ZZ)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction"/>
+        </reference_kind>
+    </target>
+<target member="run" name="org.eclipse.ui.actions.ActionDelegate.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.ui.actions.ActionDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutomakeAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutomakeAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoheaderAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoheaderAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoreconfAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoreconfAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoconfAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoconfAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAclocalAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAclocalAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeLibtoolizeAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeLibtoolizeAction"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.ui.actions.ActionDelegate.dispose()" signature="()V" type="org.eclipse.ui.actions.ActionDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutomakeAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutomakeAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoheaderAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoheaderAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoconfAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoconfAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoreconfAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoreconfAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.ReconfigureAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeLibtoolizeAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeLibtoolizeAction"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAclocalAction.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAclocalAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.actions.ActionDelegate.ActionDelegate()" signature="()V" type="org.eclipse.ui.actions.ActionDelegate">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.AbstractTargetAction()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.AbstractTargetAction()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSite" name="org.eclipse.ui.IWorkbenchPart.getSite()" signature="()Lorg/eclipse/ui/IWorkbenchPartSite;" type="org.eclipse.ui.IWorkbenchPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="getShell" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchSite.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="getShell" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target member="selectionChanged" name="org.eclipse.ui.actions.ActionDelegate.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.ui.actions.ActionDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+<target member="openEditor" name="org.eclipse.ui.IWorkbenchPage.openEditor(IEditorInput, String, boolean)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="206" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.openInEditor(IEditorInput, String, boolean)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="putString" name="org.eclipse.ui.IMemento.putString(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="88" member="saveState" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.saveState(IMemento, ExternalEditorInput)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/ExternalEditorInput;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+            <reference linenumber="77" member="saveState" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.saveState(IMemento, ExternalEditorInput)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/ExternalEditorInput;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultEditor" name="org.eclipse.ui.IEditorRegistry.getDefaultEditor(String, IContentType)" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/content/IContentType;)Lorg/eclipse/ui/IEditorDescriptor;" type="org.eclipse.ui.IEditorRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="456" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.IEditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="175" member="computeContextInformation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor.computeContextInformation(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/IContextInformation;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor"/>
+            <reference linenumber="176" member="computeContextInformation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor.computeContextInformation(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/IContextInformation;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor"/>
+            <reference linenumber="121" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor"/>
+            <reference linenumber="85" member="reconcile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.reconcile()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy"/>
+            <reference linenumber="44" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.AutomakefileReconcilingStrategy(AutomakeEditor)" signature="(Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/AutomakeEditor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy"/>
+            <reference linenumber="380" member="getActiveEditorCInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getActiveEditorCInput()" signature="()Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="63" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover"/>
+            <reference linenumber="120" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor"/>
+            <reference linenumber="83" member="reconcile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy"/>
+            <reference linenumber="68" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction"/>
+            <reference linenumber="85" member="reconcile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy"/>
+            <reference linenumber="65" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction"/>
+            <reference linenumber="56" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover"/>
+        </reference_kind>
+    </target>
+    <target member="findEditor" name="org.eclipse.ui.IWorkbenchPage.findEditor(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="89" member="isOpenInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.isOpenInEditor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveEditor" name="org.eclipse.ui.IWorkbenchPage.getActiveEditor()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="378" member="getActiveEditorCInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getActiveEditorCInput()" signature="()Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorRegistry" name="org.eclipse.ui.IWorkbench.getEditorRegistry()" signature="()Lorg/eclipse/ui/IEditorRegistry;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="78" member="getImageDescriptor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+            <reference linenumber="412" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="455" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.ui.IMemento.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="58" member="createElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.createElement(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+            <reference linenumber="50" member="createElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.createElement(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getToolBarManager" name="org.eclipse.ui.IActionBars.getToolBarManager()" signature="()Lorg/eclipse/jface/action/IToolBarManager;" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="329" member="setActionBars" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.setActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="getImageDescriptor" name="org.eclipse.ui.IEditorRegistry.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.IEditorRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="79" member="getImageDescriptor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="setActionBars" name="org.eclipse.ui.part.Page.setActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.ui.part.Page">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setActionBars" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.setActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="328" member="setActionBars" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.setActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="setResult" name="org.eclipse.ui.dialogs.SelectionDialog.setResult(List)" signature="(Ljava/util/List;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="61" member="cancelPressed" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog.cancelPressed()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog"/>
+            <reference linenumber="163" member="setResult" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.setResult(int, Object)" signature="(ILjava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+            <reference linenumber="36" member="computeResult" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ElementListSelectionDialog.computeResult()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ElementListSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="bringToTop" name="org.eclipse.ui.IWorkbenchPage.bringToTop(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="265" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setMessage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setSelectionProvider" name="org.eclipse.ui.IWorkbenchSite.setSelectionProvider(ISelectionProvider)" signature="(Lorg/eclipse/jface/viewers/ISelectionProvider;)V" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="271" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="registerContextMenu" name="org.eclipse.ui.part.IPageSite.registerContextMenu(String, MenuManager, ISelectionProvider)" signature="(Ljava/lang/String;Lorg/eclipse/jface/action/MenuManager;Lorg/eclipse/jface/viewers/ISelectionProvider;)V" type="org.eclipse.ui.part.IPageSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="270" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="configureShell" name="org.eclipse.ui.dialogs.SelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="53" member="configureShell" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSite" name="org.eclipse.ui.part.WorkbenchPart.getSite()" signature="()Lorg/eclipse/ui/IWorkbenchPartSite;" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="279" member="isActivePart" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setInitialSelections" name="org.eclipse.ui.dialogs.SelectionDialog.setInitialSelections(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="154" member="setInitialSelections" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.setInitialSelections(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setInitialSelections" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.setInitialSelections(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.ui.IEditorInput.getName()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IEditorInput">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="472" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="456" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getOkButton" name="org.eclipse.ui.dialogs.SelectionDialog.getOkButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="180" member="updateButtonsEnableState" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.updateButtonsEnableState(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbenchWindow" name="org.eclipse.ui.IWorkbenchSite.getWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="279" member="isActivePart" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getInitialElementSelections" name="org.eclipse.ui.dialogs.SelectionDialog.getInitialElementSelections()" signature="()Ljava/util/List;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="96" member="getPrimaryInitialSelection" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.getPrimaryInitialSelection()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+            <reference linenumber="135" member="setInitialSelection" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.setInitialSelection(int, Object)" signature="(ILjava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.SelectionDialog.SelectionDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.SelectionStatusDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="115" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.SelectionStatusDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePart" name="org.eclipse.ui.IPartService.getActivePart()" signature="()Lorg/eclipse/ui/IWorkbenchPart;" type="org.eclipse.ui.IPartService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="281" member="isActivePart" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSite" name="org.eclipse.ui.part.Page.getSite()" signature="()Lorg/eclipse/ui/part/IPageSite;" type="org.eclipse.ui.part.Page">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="268" member="createControl" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="172" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog.AbstractElementListSelectionDialog(Shell, String, Image, ILabelProvider, boolean, boolean)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;Lorg/eclipse/jface/viewers/ILabelProvider;ZZ)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AbstractElementListSelectionDialog"/>
+            <reference linenumber="267" member="chooseFile" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.chooseFile(ArrayList)" signature="(Ljava/util/ArrayList;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target member="setGlobalActionHandler" name="org.eclipse.ui.IActionBars.setGlobalActionHandler(String, IAction)" signature="(Ljava/lang/String;Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="101" member="init" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor.init(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor"/>
+        </reference_kind>
+    </target>
+    <target member="getResult" name="org.eclipse.ui.dialogs.SelectionDialog.getResult()" signature="()[Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="161" member="setResult" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.setResult(int, Object)" signature="(ILjava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+            <reference linenumber="60" member="getSelectedElements" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ElementListSelectionDialog.getSelectedElements()" signature="()[Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ElementListSelectionDialog"/>
+            <reference linenumber="109" member="getPrimaryResult" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog.getPrimaryResult()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.SelectionStatusDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getPartService" name="org.eclipse.ui.IWorkbenchWindow.getPartService()" signature="()Lorg/eclipse/ui/IPartService;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="280" member="isActivePart" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.isActivePart()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultEditor" name="org.eclipse.ui.IEditorRegistry.getDefaultEditor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorDescriptor;" type="org.eclipse.ui.IEditorRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="414" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.ui.IEditorDescriptor.getId()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IEditorDescriptor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="458" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="416" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.ui.part.EditorActionBarContributor.init(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.ui.part.EditorActionBarContributor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor.init(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="91" member="init" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor.init(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor"/>
+        </reference_kind>
+    </target>
+    <target member="getMenuManager" name="org.eclipse.ui.IActionBars.getMenuManager()" signature="()Lorg/eclipse/jface/action/IMenuManager;" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="92" member="init" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor.init(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditorActionContributor"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.ui.model.WorkbenchViewerComparator.WorkbenchViewerComparator()" signature="()V" type="org.eclipse.ui.model.WorkbenchViewerComparator">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="320" member="createSyntaxPage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage.createSyntaxPage(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutomakeEditorPreferencePage"/>
+            <reference linenumber="381" member="createSyntaxPage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage.createSyntaxPage(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutoconfEditorPreferencePage"/>
+        </reference_kind>
+    </target>
+<target member="getBestActiveBindingFormattedFor" name="org.eclipse.ui.keys.IBindingService.getBestActiveBindingFormattedFor(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.ui.keys.IBindingService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="560" member="getTooltipAffordanceString" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getTooltipAffordanceString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="7" reference_visibility="1">
+    <target member="isEditorInputModifiable" name="org.eclipse.ui.texteditor.ITextEditorExtension2.isEditorInputModifiable()" signature="()Z" type="org.eclipse.ui.texteditor.ITextEditorExtension2">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="288" member="run" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+            <reference linenumber="114" member="partActivated" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.FindReplaceDialogStub.partActivated(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction$FindReplaceDialogStub"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.texteditor.ResourceAction.ResourceAction(ResourceBundle, String)" signature="(Ljava/util/ResourceBundle;Ljava/lang/String;)V" type="org.eclipse.ui.texteditor.ResourceAction">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="258" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(Shell, ISTFindReplaceTarget)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/dataviewers/findreplace/ISTFindReplaceTarget;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+            <reference linenumber="231" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.ui.texteditor.IEditorStatusLine.setMessage(boolean, String, Image)" signature="(ZLjava/lang/String;Lorg/eclipse/swt/graphics/Image;)V" type="org.eclipse.ui.texteditor.IEditorStatusLine">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1201" member="statusMessage" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog.statusMessage(boolean, String)" signature="(ZLjava/lang/String;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setHelpContextId" name="org.eclipse.ui.texteditor.ResourceAction.setHelpContextId(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.texteditor.ResourceAction">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="260" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(Shell, ISTFindReplaceTarget)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/dataviewers/findreplace/ISTFindReplaceTarget;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+            <reference linenumber="233" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction.STFindReplaceAction(IWorkbenchPart)" signature="(Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.dataviewers.findreplace.STFindReplaceAction"/>
+        </reference_kind>
+    </target>
+</references>

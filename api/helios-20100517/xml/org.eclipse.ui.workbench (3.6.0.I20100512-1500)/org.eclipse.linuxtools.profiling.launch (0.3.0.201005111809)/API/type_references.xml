@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.dialogs.ElementListSelectionDialog" type="org.eclipse.ui.dialogs.ElementListSelectionDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="285" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="285" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.TwoPaneElementSelector" type="org.eclipse.ui.dialogs.TwoPaneElementSelector">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="264" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="264" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+</references>

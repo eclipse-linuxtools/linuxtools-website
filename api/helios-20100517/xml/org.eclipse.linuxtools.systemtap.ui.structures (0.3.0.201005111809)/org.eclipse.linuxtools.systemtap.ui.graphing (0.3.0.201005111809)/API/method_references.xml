@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" reference_count="12" reference_visibility="1">
+    <target member="removeUpdateListener" name="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager.removeUpdateListener(IUpdateListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IUpdateListener;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="128" member="close" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.2.close(CTabFolderEvent)" signature="(Lorg/eclipse/swt/custom/CTabFolderEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$2"/>
+        </reference_kind>
+    </target>
+    <target member="tabClosed" name="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener.tabClosed()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="253" member="fireTabCloseEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.fireTabCloseEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="149" member="fireTabCloseEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.fireTabCloseEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="tabChanged" name="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener.tabChanged()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="263" member="fireTabChangedEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.fireTabChangedEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="159" member="fireTabChangedEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.fireTabChangedEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="tabOpened" name="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener.tabOpened()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.listeners.ITabListener">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="258" member="fireTabOpenEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.fireTabOpenEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        <reference linenumber="154" member="fireTabOpenEvent" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView.fireTabOpenEvent()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="184" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target member="addUpdateListener" name="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager.addUpdateListener(IUpdateListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IUpdateListener;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="150" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+            <reference linenumber="231" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+            <reference linenumber="67" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.GraphDisplaySet(Composite, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager.UpdateManager(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.UpdateManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="66" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.GraphDisplaySet(Composite, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+</references>

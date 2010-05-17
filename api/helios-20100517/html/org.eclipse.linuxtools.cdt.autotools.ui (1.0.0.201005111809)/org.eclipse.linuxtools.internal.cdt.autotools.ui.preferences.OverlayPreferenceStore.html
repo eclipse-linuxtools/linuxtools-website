@@ -1,0 +1,582 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>OverlayPreferenceStore usage details</title>
+</head>
+<body>
+<h3>OverlayPreferenceStore usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore has 65 total references to 8 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore">
+<span>[+] </span>OverlayPreferenceStore
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.this$0</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.PropertyListener(OverlayPreferenceStore)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.findOverlayKey(java.lang.String) : org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayKey">
+<span>[+] </span>findOverlayKey(String) : OverlayPreferenceStoreOverlayKey
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.covers(String)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagateProperty(org.eclipse.jface.preference.IPreferenceStore, org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayKey, org.eclipse.jface.preference.IPreferenceStore) : void">
+<span>[+] </span>propagateProperty(IPreferenceStore, OverlayPreferenceStoreOverlayKey, IPreferenceStore) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagate()</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setToDefault(java.lang.String) : void">
+<span>[+] </span>setToDefault(String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.loadDefaults()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fOverlayKeys">
+<span>[+] </span>fOverlayKeys
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.load()</td>
+<td align="center">196</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.load()</td>
+<td align="center">197</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.findOverlayKey(String)</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagate()</td>
+<td align="center">144</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.loadDefaults()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.findOverlayKey(String)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.loadDefaults()</td>
+<td align="center">201</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.findOverlayKey(String)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagate()</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayPreferenceStore(IPreferenceStore, OverlayPreferenceStore.OverlayKey[])</td>
+<td align="center">73</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fParent">
+<span>[+] </span>fParent
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.load()</td>
+<td align="center">197</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagate()</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.stop()</td>
+<td align="center">214</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.start()</td>
+<td align="center">208</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayPreferenceStore(IPreferenceStore, OverlayPreferenceStore.OverlayKey[])</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fPropertyListener">
+<span>[+] </span>fPropertyListener
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.stop()</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.stop()</td>
+<td align="center">214</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.start()</td>
+<td align="center">206</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.start()</td>
+<td align="center">208</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.start()</td>
+<td align="center">207</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.stop()</td>
+<td align="center">215</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fStore">
+<span>[+] </span>fStore
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, float)</td>
+<td align="center">366</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultLong(String)</td>
+<td align="center">286</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.addPropertyChangeListener(IPropertyChangeListener)</td>
+<td align="center">223</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.needsSaving()</td>
+<td align="center">342</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.firePropertyChangeEvent(String, Object, Object)</td>
+<td align="center">237</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.contains(String)</td>
+<td align="center">244</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, double)</td>
+<td align="center">358</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getFloat(String)</td>
+<td align="center">307</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.isDefault(String)</td>
+<td align="center">335</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagate()</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, double)</td>
+<td align="center">413</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)</td>
+<td align="center">59</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultFloat(String)</td>
+<td align="center">272</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getLong(String)</td>
+<td align="center">321</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultInt(String)</td>
+<td align="center">279</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDouble(String)</td>
+<td align="center">300</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getInt(String)</td>
+<td align="center">314</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, int)</td>
+<td align="center">429</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultBoolean(String)</td>
+<td align="center">258</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, int)</td>
+<td align="center">374</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, float)</td>
+<td align="center">421</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.load()</td>
+<td align="center">197</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getBoolean(String)</td>
+<td align="center">251</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, long)</td>
+<td align="center">382</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.putValue(String, String)</td>
+<td align="center">350</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, String)</td>
+<td align="center">445</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, boolean)</td>
+<td align="center">453</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, String)</td>
+<td align="center">390</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.removePropertyChangeListener(IPropertyChangeListener)</td>
+<td align="center">230</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setToDefault(String)</td>
+<td align="center">405</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setValue(String, long)</td>
+<td align="center">437</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultDouble(String)</td>
+<td align="center">265</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.setDefault(String, boolean)</td>
+<td align="center">398</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getDefaultString(String)</td>
+<td align="center">293</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.getString(String)</td>
+<td align="center">328</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayPreferenceStore(IPreferenceStore, OverlayPreferenceStore.OverlayKey[])</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

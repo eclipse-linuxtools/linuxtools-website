@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="7" reference_visibility="1">
+    <target member="getFile" name="org.eclipse.ui.IFileEditorInput.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.ui.IFileEditorInput">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="110" member="getInputFile" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getInputFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>
+        </reference_kind>
+    </target>
+<target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IMarker)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="69" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.ui.part.FileEditorInput.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.ui.part.FileEditorInput">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="146" member="prepareHyperlink" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)" signature="(Lorg/eclipse/jface/text/IRegion;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileElement;I)[Lorg/eclipse/jface/text/hyperlink/IHyperlink;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector"/>
+            <reference linenumber="73" member="detectHyperlinks" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;Z)[Lorg/eclipse/jface/text/hyperlink/IHyperlink;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IFile)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IFile;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="91" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.ContainerSelectionDialog.ContainerSelectionDialog(Shell, IContainer, boolean, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/core/resources/IContainer;ZLjava/lang/String;)V" type="org.eclipse.ui.dialogs.ContainerSelectionDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="319" member="handleBrowse" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.handleBrowse()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IFile, boolean)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IFile;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="140" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.2.run()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard$2"/>
+        </reference_kind>
+    </target>
+</references>

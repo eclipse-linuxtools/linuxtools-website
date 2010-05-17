@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="23" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String, ImageDescriptor)" signature="(Ljava/lang/String;Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="352" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.4.4(SystemTapView, String, ImageDescriptor)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapView;Ljava/lang/String;Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$4"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.2.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$2"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$1"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.4.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$4"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.3.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$3"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="214" member="addFileMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="217" member="addFileMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="358" member="addKillButton" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addKillButton()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="227" member="addHelpMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addHelpMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="212" member="addFileMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.IAction.run()" signature="()V" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="106" member="maximizeIfUnmaximized" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeIfUnmaximized()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="86" member="maximizeOrRefresh" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target member="openInformation" name="org.eclipse.jface.dialogs.MessageDialog.openInformation(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="254" member="run" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$1"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.action.Action.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="364" member="setKillButtonEnabled" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.setKillButtonEnabled(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.MenuManager.MenuManager(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="223" member="addHelpMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addHelpMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="206" member="addFileMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="50" member="runInUIThread" origin="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages.runInUIThread(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="263" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.2.2(SystemTapView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$2"/>
+            <reference linenumber="232" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.1.1(SystemTapView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$1"/>
+            <reference linenumber="336" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.3.3(SystemTapView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$3"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IContributionItem)" signature="(Lorg/eclipse/jface/action/IContributionItem;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="224" member="addHelpMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addHelpMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="207" member="addFileMenu" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.LabelProvider.LabelProvider()" signature="()V" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="55" member="findAndOpen" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.findAndOpen(ICProject, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+        </reference_kind>
+    </target>
+</references>

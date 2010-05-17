@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Path" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="63" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="136" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="findCProjectWithAbsolutePath" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findCProjectWithAbsolutePath(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/model/ICProject;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="-1" member="visit" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.1.visit(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Z" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="230" member="findFunctionsInProject" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findFunctionsInProject(ICProject, String, int, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;ILjava/lang/String;)Ljava/util/HashMap;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="230" member="findFunctionsInProject" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findFunctionsInProject(ICProject, String, int, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;ILjava/lang/String;)Ljava/util/HashMap;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+</references>

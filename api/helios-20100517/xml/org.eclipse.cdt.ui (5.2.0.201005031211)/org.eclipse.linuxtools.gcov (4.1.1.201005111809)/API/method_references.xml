@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.cdt.ui (5.2.0.201005031211)" reference_count="2" reference_visibility="1">
+    <target member="getActivePage" name="org.eclipse.cdt.ui.CUIPlugin.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.cdt.ui.CUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="89" member="openAnnotatedSourceFile" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/resources/IFile;Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/runtime/IPath;I)V" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+            <reference linenumber="73" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="222" reference_visibility="1">
+    <target member="addPerspectiveShortcut" name="org.eclipse.ui.IPageLayout.addPerspectiveShortcut(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="66" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="setCloseable" name="org.eclipse.ui.IViewLayout.setCloseable(boolean)" signature="(Z)V" type="org.eclipse.ui.IViewLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="49" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="57" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="58" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="48" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="addShowViewShortcut" name="org.eclipse.ui.IPageLayout.addShowViewShortcut(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="64" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="62" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="63" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="60" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="61" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="addView" name="org.eclipse.ui.IFolderLayout.addView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.IFolderLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="54" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="55" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="44" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="45" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="46" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="createFolder" name="org.eclipse.ui.IPageLayout.createFolder(String, int, float, String)" signature="(Ljava/lang/String;IFLjava/lang/String;)Lorg/eclipse/ui/IFolderLayout;" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="52" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorArea" name="org.eclipse.ui.IPageLayout.getEditorArea()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="38" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="addPlaceholder" name="org.eclipse.ui.IPlaceholderFolderLayout.addPlaceholder(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.IPlaceholderFolderLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="42" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="setEditorAreaVisible" name="org.eclipse.ui.IPageLayout.setEditorAreaVisible(boolean)" signature="(Z)V" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+    <target member="getViewLayout" name="org.eclipse.ui.IPageLayout.getViewLayout(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IViewLayout;" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="57" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="50" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="49" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="48" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+            <reference linenumber="58" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.IDEPerspective"/>
+        </reference_kind>
+    </target>
+<target member="getWorkbench" name="org.eclipse.ui.IWorkbenchWindow.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="97" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        <reference linenumber="120" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="146" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="69" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="74" member="getCommandLineOptions" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction.getCommandLineOptions(ArrayList)" signature="(Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction"/>
+            <reference linenumber="316" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="97" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        <reference linenumber="162" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.TreeExpandCollapseAction(Class)" signature="(Ljava/lang/Class;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="159" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        <reference linenumber="184" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="156" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="50" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+            <reference linenumber="33" member="preShutdown" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor.preShutdown(IWorkbench, boolean)" signature="(Lorg/eclipse/ui/IWorkbench;Z)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor"/>
+        <reference linenumber="130" member="getTapsetLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.getTapsetLocation(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+        <reference linenumber="91" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.IEditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="118" member="getFilePath" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.getFilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="131" member="isValid" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValid()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="120" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveEditor" name="org.eclipse.ui.IWorkbenchPage.getActiveEditor()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="316" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="117" member="getFilePath" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.getFilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="128" member="isValid" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValid()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="159" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="118" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="113" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="94" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        <reference linenumber="184" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.ui.IPerspectiveDescriptor.getId()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IPerspectiveDescriptor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="doSave" name="org.eclipse.ui.ISaveablePart.doSave(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.ui.ISaveablePart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="146" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+            <reference linenumber="128" member="isValid" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValid()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="45" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="97" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="316" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="117" member="getFilePath" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.getFilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="90" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="159" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="162" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="118" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="105" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="93" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        <reference linenumber="184" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="261" member="createClientSession" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.createClientSession()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="140" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="157" member="isValidDirectory" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidDirectory(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="74" member="getCommandLineOptions" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction.getCommandLineOptions(ArrayList)" signature="(Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction"/>
+            <reference linenumber="146" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="72" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="87" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        <reference linenumber="156" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="39" member="preShutdown" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor.preShutdown(IWorkbench, boolean)" signature="(Lorg/eclipse/ui/IWorkbench;Z)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDECloseMonitor"/>
+        <reference linenumber="130" member="getTapsetLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.getTapsetLocation(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+        <reference linenumber="91" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.IWorkbenchPage.openEditor(IEditorInput, String)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="45" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+            <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        <reference linenumber="124" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="162" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+    <target member="getPerspective" name="org.eclipse.ui.IWorkbenchPage.getPerspective()" signature="()Lorg/eclipse/ui/IPerspectiveDescriptor;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="146" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+            <reference linenumber="34" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+            <reference linenumber="69" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="74" member="getCommandLineOptions" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction.getCommandLineOptions(ArrayList)" signature="(Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptOptionsAction"/>
+            <reference linenumber="316" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="146" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.TreeExpandCollapseAction(Class)" signature="(Ljava/lang/Class;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+        <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.dialogs.ErrorMessage$1"/>
+        <reference linenumber="156" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="184" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="50" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        <reference linenumber="130" member="getTapsetLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.getTapsetLocation(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+        <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+            <reference linenumber="97" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+            <reference linenumber="91" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="92" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="154" member="isValidDirectory" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidDirectory(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="164" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="59" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="92" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.EditorPreferencePage.EditorPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.EditorPreferencePage"/>
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.ConditionalFilterPreferencePage.ConditionalFilterPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.ConditionalFilterPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapOptionsPreferencePage.StapOptionsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapOptionsPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.TypeingPreferencePage.TypeingPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.TypeingPreferencePage"/>
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage.SyntaxColoringPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.SyntaxColoringPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.IDEPreferencePage.IDEPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.IDEPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.TapsetsPreferencePage.TapsetsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.TapsetsPreferencePage"/>
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PathPreferencePage.PathPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PathPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.CodeAssistPreferencePage.CodeAssistPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.CodeAssistPreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapPreferencePage.StapPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.StapPreferencePage"/>
+            <reference linenumber="28" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.preferences.PreferenceInitializer"/>
+        <reference linenumber="56" member="init" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.init()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+            <reference linenumber="96" member="isTreeFileCurrent" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.isTreeFileCurrent()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+            <reference linenumber="69" member="runStapParser" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary.runStapParser()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TapsetLibrary"/>
+        <reference linenumber="86" member="refresh" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbenchWindows" name="org.eclipse.ui.IWorkbench.getWorkbenchWindows()" signature="()[Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="34" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="findView" name="org.eclipse.ui.IWorkbenchPage.findView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IViewPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+            <reference linenumber="97" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.ImportTapsetAction"/>
+        </reference_kind>
+    </target>
+    <target member="isDirty" name="org.eclipse.ui.ISaveablePart.isDirty()" signature="()Z" type="org.eclipse.ui.ISaveablePart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="145" member="isValidFile" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValidFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        </reference_kind>
+    </target>
+<target member="removeSelectionListener" name="org.eclipse.ui.ISelectionService.removeSelectionListener(ISelectionListener)" signature="(Lorg/eclipse/ui/ISelectionListener;)V" type="org.eclipse.ui.ISelectionService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="73" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="82" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="76" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="98" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+    <target member="getViewReferences" name="org.eclipse.ui.IWorkbenchPage.getViewReferences()" signature="()[Lorg/eclipse/ui/IViewReference;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="90" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorRegistry" name="org.eclipse.ui.IWorkbench.getEditorRegistry()" signature="()Lorg/eclipse/ui/IEditorRegistry;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectionService" name="org.eclipse.ui.IWorkbenchWindow.getSelectionService()" signature="()Lorg/eclipse/ui/ISelectionService;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.TreeExpandCollapseAction(Class)" signature="(Ljava/lang/Class;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="67" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.FunctionBrowserAction(IWorkbenchWindow, FunctionBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/FunctionBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="76" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.KernelSourceAction(IWorkbenchWindow, KernelBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/KernelBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="98" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="73" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.ProbeAliasAction(IWorkbenchWindow, ProbeAliasBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/ProbeAliasBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="82" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        </reference_kind>
+    </target>
+    <target member="getView" name="org.eclipse.ui.IViewReference.getView(boolean)" signature="(Z)Lorg/eclipse/ui/IViewPart;" type="org.eclipse.ui.IViewReference">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="94" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+        </reference_kind>
+    </target>
+    <target member="addSelectionListener" name="org.eclipse.ui.ISelectionService.addSelectionListener(ISelectionListener)" signature="(Lorg/eclipse/ui/ISelectionListener;)V" type="org.eclipse.ui.ISelectionService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction.TreeExpandCollapseAction(Class)" signature="(Ljava/lang/Class;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.TreeExpandCollapseAction"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.KernelSourceAction(IWorkbenchWindow, KernelBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/KernelBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="67" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.FunctionBrowserAction(IWorkbenchWindow, FunctionBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/FunctionBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.ProbeAliasAction(IWorkbenchWindow, ProbeAliasBrowserView)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;Lorg/eclipse/linuxtools/systemtap/ui/ide/views/ProbeAliasBrowserView;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbenchWindow" name="org.eclipse.ui.IWorkbenchPage.getWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="118" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultEditor" name="org.eclipse.ui.IEditorRegistry.getDefaultEditor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorDescriptor;" type="org.eclipse.ui.IEditorRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="122" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.ui.IEditorDescriptor.getId()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IEditorDescriptor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="125" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+            <reference linenumber="124" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+<target member="getSite" name="org.eclipse.ui.part.WorkbenchPart.getSite()" signature="()Lorg/eclipse/ui/IWorkbenchPartSite;" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="194" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="99" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        <reference linenumber="64" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+            <reference linenumber="81" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="67" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="108" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+            <reference linenumber="92" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchSite.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+            <reference linenumber="194" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.part.EditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="160" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.IDEPlugin()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.IDEPlugin()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="37" member="start" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="73" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.plugin.AbstractUIPlugin.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="53" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+            <reference linenumber="40" member="start" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="removeWorkbenchListener" name="org.eclipse.ui.IWorkbench.removeWorkbenchListener(IWorkbenchListener)" signature="(Lorg/eclipse/ui/IWorkbenchListener;)V" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="47" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="addWorkbenchListener" name="org.eclipse.ui.IWorkbench.addWorkbenchListener(IWorkbenchListener)" signature="(Lorg/eclipse/ui/IWorkbenchListener;)V" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="40" member="start" origin="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.internal.IDEPlugin"/>
+        </reference_kind>
+    </target>
+<target member="putString" name="org.eclipse.ui.IMemento.putString(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="184" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="150" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="182" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="176" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="178" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="171" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="173" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="createChild" name="org.eclipse.ui.XMLMemento.createChild(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IMemento;" type="org.eclipse.ui.XMLMemento">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="149" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="146" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="143" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="createReadRoot" name="org.eclipse.ui.XMLMemento.createReadRoot(Reader, String)" signature="(Ljava/io/Reader;Ljava/lang/String;)Lorg/eclipse/ui/XMLMemento;" type="org.eclipse.ui.XMLMemento">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="96" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="save" name="org.eclipse.ui.XMLMemento.save(Writer)" signature="(Ljava/io/Writer;)V" type="org.eclipse.ui.XMLMemento">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="153" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="putInteger" name="org.eclipse.ui.IMemento.putInteger(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="187" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.ui.IMemento.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="206" member="readTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="207" member="readTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="99" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="208" member="readTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="113" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="120" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="102" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="110" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="createChild" name="org.eclipse.ui.IMemento.createChild(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IMemento;" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="189" member="writeTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="getChild" name="org.eclipse.ui.XMLMemento.getChild(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IMemento;" type="org.eclipse.ui.XMLMemento">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="119" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="98" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+            <reference linenumber="109" member="readData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="getInteger" name="org.eclipse.ui.IMemento.getInteger(String)" signature="(Ljava/lang/String;)Ljava/lang/Integer;" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="210" member="readTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="getChildren" name="org.eclipse.ui.IMemento.getChildren(String)" signature="(Ljava/lang/String;)[Lorg/eclipse/ui/IMemento;" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="201" member="readTree" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.readTree(IMemento, TreeNode, int)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeNode;I)V" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+    <target member="createWriteRoot" name="org.eclipse.ui.XMLMemento.createWriteRoot(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/XMLMemento;" type="org.eclipse.ui.XMLMemento">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="141" member="writeData" origin="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings.writeData()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.structures.TreeSettings"/>
+        </reference_kind>
+    </target>
+<target member="registerContextMenu" name="org.eclipse.ui.IWorkbenchPartSite.registerContextMenu(MenuManager, ISelectionProvider)" signature="(Lorg/eclipse/jface/action/MenuManager;Lorg/eclipse/jface/viewers/ISelectionProvider;)V" type="org.eclipse.ui.IWorkbenchPartSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="81" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="108" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getViewSite" name="org.eclipse.ui.part.ViewPart.getViewSite()" signature="()Lorg/eclipse/ui/IViewSite;" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbenchWindow" name="org.eclipse.ui.IWorkbenchSite.getWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="92" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.FunctionBrowserView"/>
+            <reference linenumber="67" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.ProbeAliasBrowserView"/>
+            <reference linenumber="64" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.makeActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.BrowserView()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.BrowserView()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.ui.part.WorkbenchPart.dispose()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="152" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.ui.ISharedImages.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.ui.ISharedImages">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+            <reference linenumber="97" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getActionBars" name="org.eclipse.ui.IViewSite.getActionBars()" signature="()Lorg/eclipse/ui/IActionBars;" type="org.eclipse.ui.IViewSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="140" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="getSharedImages" name="org.eclipse.ui.IWorkbench.getSharedImages()" signature="()Lorg/eclipse/ui/ISharedImages;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="97" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+            <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView$ViewLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.setFocus()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+</references>

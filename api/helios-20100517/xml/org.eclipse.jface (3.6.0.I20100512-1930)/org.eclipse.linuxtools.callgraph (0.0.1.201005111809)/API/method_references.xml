@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="171" reference_visibility="1">
+    <target member="getTree" name="org.eclipse.jface.viewers.TreeViewer.getTree()" signature="()Lorg/eclipse/swt/widgets/Tree;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="194" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getToolTipText" name="org.eclipse.jface.action.Action.getToolTipText()" signature="()Ljava/lang/String;" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="809" member="togglePlayImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.togglePlayImage()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.9.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$9"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.18.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$18"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.19.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$19"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.6.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$6"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.7.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$7"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.8.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$8"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.12.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$12"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.16.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$16"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.17.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$17"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.14.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$14"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.15.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$15"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.2.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$2"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$1"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.3.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$3"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.21.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$21"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="71" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+            <reference linenumber="73" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+            <reference linenumber="69" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+            <reference linenumber="42" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+            <reference linenumber="75" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+            <reference linenumber="77" member="keyReleased" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener.keyReleased(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphKeyListener"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.action.Action.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="356" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="354" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="353" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="604" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.6.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$6"/>
+            <reference linenumber="351" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="350" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="349" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="348" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="616" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.7.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$7"/>
+            <reference linenumber="347" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="346" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="344" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="343" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="342" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="341" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="339" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="591" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="340" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="357" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="358" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="629" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.8.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$8"/>
+            <reference linenumber="360" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="361" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="362" member="setGraphOptions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGraphOptions(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="setToolTipText" name="org.eclipse.jface.action.Action.setToolTipText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="811" member="togglePlayImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.togglePlayImage()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="815" member="togglePlayImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.togglePlayImage()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelProvider" name="org.eclipse.jface.viewers.TreeViewer.getLabelProvider()" signature="()Lorg/eclipse/jface/viewers/IBaseLabelProvider;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="231" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="230" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="addTreeListener" name="org.eclipse.jface.viewers.AbstractTreeViewer.addTreeListener(ITreeViewerListener)" signature="(Lorg/eclipse/jface/viewers/ITreeViewerListener;)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="195" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="241" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.TreeViewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="191" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.StructuredSelection.StructuredSelection(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="320" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="57" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.TreeViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="220" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="768" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.14.14(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$14"/>
+            <reference linenumber="445" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.2.2(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$2"/>
+            <reference linenumber="859" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.21.21(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$21"/>
+            <reference linenumber="826" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.19.19(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$19"/>
+            <reference linenumber="583" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.5(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="611" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.7.7(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$7"/>
+            <reference linenumber="774" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.15.15(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$15"/>
+            <reference linenumber="439" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.1.1(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$1"/>
+            <reference linenumber="458" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4.4(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="636" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.9.9(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$9"/>
+            <reference linenumber="785" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.16.16(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$16"/>
+            <reference linenumber="599" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.6.6(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$6"/>
+            <reference linenumber="451" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.3.3(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$3"/>
+            <reference linenumber="836" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.20(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="793" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.17.17(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$17"/>
+            <reference linenumber="820" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.18.18(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$18"/>
+            <reference linenumber="624" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.8.8(CallgraphView, String)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$8"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IContributionItem)" signature="(Lorg/eclipse/jface/action/IContributionItem;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="509" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="536" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="519" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="518" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="529" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="expandToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1663" member="reset" origin="org.eclipse.linuxtools.callgraph.StapGraph.reset()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="removeDoubleClickListener" name="org.eclipse.jface.viewers.StructuredViewer.removeDoubleClickListener(IDoubleClickListener)" signature="(Lorg/eclipse/jface/viewers/IDoubleClickListener;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="236" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="665" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11.11(CallgraphView, String, int)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="653" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10.10(CallgraphView, String, int)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="691" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.13(CallgraphView, String, int)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="674" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.12.12(CallgraphView, String, int)" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$12"/>
+        </reference_kind>
+    </target>
+    <target member="expandToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(Object, int)" signature="(Ljava/lang/Object;I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="319" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1059" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="56" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        <reference linenumber="44" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="543" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="512" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="544" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="511" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="541" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="510" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="542" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="539" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="540" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="551" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="552" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="549" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="548" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="513" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="528" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="527" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="526" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="525" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="524" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="523" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="522" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="535" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="534" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="533" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="532" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.action.Action.setChecked(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="656" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="668" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="669" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="763" member="createActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1547" member="setAnimationMode" origin="org.eclipse.linuxtools.callgraph.StapGraph.setAnimationMode(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="658" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="657" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="662" member="createAnimateActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createAnimateActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1544" member="setAnimationMode" origin="org.eclipse.linuxtools.callgraph.StapGraph.setAnimationMode(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1543" member="setAnimationMode" origin="org.eclipse.linuxtools.callgraph.StapGraph.setAnimationMode(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1546" member="setAnimationMode" origin="org.eclipse.linuxtools.callgraph.StapGraph.setAnimationMode(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1576" member="setCollapseMode" origin="org.eclipse.linuxtools.callgraph.StapGraph.setCollapseMode(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="113" member="run" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraphParser$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.MenuManager.MenuManager(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="508" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="517" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="516" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="515" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="514" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.jface.viewers.IBaseLabelProvider.dispose()" signature="()V" type="org.eclipse.jface.viewers.IBaseLabelProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="231" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="refresh" name="org.eclipse.jface.viewers.StructuredViewer.refresh()" signature="()V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="242" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="224" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="collapseToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.collapseToLevel(Object, int)" signature="(Ljava/lang/Object;I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1058" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="55" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        <reference linenumber="43" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="setSelection" name="org.eclipse.jface.viewers.Viewer.setSelection(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="320" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="57" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.action.Action.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="642" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="689" member="createAnimateActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createAnimateActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="810" member="togglePlayImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.togglePlayImage()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="633" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="595" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="608" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="814" member="togglePlayImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.togglePlayImage()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="620" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="801" member="createMovementActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createMovementActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getContentProvider" name="org.eclipse.jface.viewers.ContentViewer.getContentProvider()" signature="()Lorg/eclipse/jface/viewers/IContentProvider;" type="org.eclipse.jface.viewers.ContentViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="228" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="222" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="218" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="233" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="createImage" name="org.eclipse.jface.resource.ImageDescriptor.createImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="152" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="137" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="collapseAll" name="org.eclipse.jface.viewers.AbstractTreeViewer.collapseAll()" signature="()V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1662" member="reset" origin="org.eclipse.linuxtools.callgraph.StapGraph.reset()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewer.TreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="193" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="addDoubleClickListener" name="org.eclipse.jface.viewers.StructuredViewer.addDoubleClickListener(IDoubleClickListener)" signature="(Lorg/eclipse/jface/viewers/IDoubleClickListener;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="239" member="initializeTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.initializeTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+<target member="getSelection" name="org.eclipse.jface.viewers.DoubleClickEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="36" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+            <reference linenumber="34" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="iterator" name="org.eclipse.jface.viewers.IStructuredSelection.iterator()" signature="()Ljava/util/Iterator;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getElement" name="org.eclipse.jface.viewers.TreeExpansionEvent.getElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.TreeExpansionEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="37" member="treeCollapsed" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeCollapsed(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+            <reference linenumber="59" member="treeExpanded" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeExpanded(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+            <reference linenumber="56" member="treeExpanded" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeExpanded(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+        </reference_kind>
+    </target>
+    <target member="size" name="org.eclipse.jface.viewers.IStructuredSelection.size()" signature="()I" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="37" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

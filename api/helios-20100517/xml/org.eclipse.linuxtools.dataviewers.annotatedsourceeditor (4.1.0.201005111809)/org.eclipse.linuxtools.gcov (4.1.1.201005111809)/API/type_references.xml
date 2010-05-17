@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.ISTAnnotationColumn" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.ISTAnnotationColumn">
+        <reference_kind flags="0" kind="8388608" reference_kind_name="DECLARED_PARAMETERIZED_METHOD">
+            <reference linenumber="-1" member="getColumns" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColumns()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.CoverageAnnotationColumn" type="org.eclipse.linuxtools.gcov.view.annotatedsource.CoverageAnnotationColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="columns" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.columns" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.AbstractSTAnnotatedSourceEditorInput" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.AbstractSTAnnotatedSourceEditorInput">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="getInput" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.getInput(SourceFile, IFileStore)" signature="(Lorg/eclipse/linuxtools/gcov/parser/SourceFile;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

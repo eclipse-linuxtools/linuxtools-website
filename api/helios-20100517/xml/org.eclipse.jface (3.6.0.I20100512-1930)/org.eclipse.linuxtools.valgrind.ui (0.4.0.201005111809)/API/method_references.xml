@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="55" reference_visibility="1">
+    <target member="remove" name="org.eclipse.jface.action.IContributionManager.remove(IContributionItem)" signature="(Lorg/eclipse/jface/action/IContributionItem;)Lorg/eclipse/jface/action/IContributionItem;" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="79" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setRemoveAllWhenShown" name="org.eclipse.jface.action.MenuManager.setRemoveAllWhenShown(boolean)" signature="(Z)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="185" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getTree" name="org.eclipse.jface.viewers.TreeViewer.getTree()" signature="()Lorg/eclipse/swt/widgets/Tree;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="186" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.DoubleClickEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="111" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.ActionContributionItem.ActionContributionItem(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.ActionContributionItem">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="102" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.2.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$2"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$1"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.action.Action.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="154" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="150" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewer.TreeViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="hasChildren" name="org.eclipse.jface.viewers.ITreeContentProvider.hasChildren(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="178" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+        </reference_kind>
+    </target>
+    <target member="appendToGroup" name="org.eclipse.jface.action.IContributionManager.appendToGroup(String, IContributionItem)" signature="(Ljava/lang/String;Lorg/eclipse/jface/action/IContributionItem;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="103" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.LabelProvider.LabelProvider()" signature="()V" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="88" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2.2(CoreMessagesViewer)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/CoreMessagesViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.AbstractTreeViewer.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="176" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.jface.viewers.LabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getText" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="145" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="29" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="29" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="177" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.TreeViewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+            <reference linenumber="180" member="showCorePage" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showCorePage()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="187" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.StructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="111" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.TreeViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="22" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.ExpandAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="22" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.CollapseAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+        </reference_kind>
+    </target>
+    <target member="update" name="org.eclipse.jface.action.IContributionManager.update(boolean)" signature="(Z)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="122" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="createContextMenu" name="org.eclipse.jface.action.MenuManager.createContextMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="186" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="removeAll" name="org.eclipse.jface.action.IContributionManager.removeAll()" signature="()V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="113" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.1.1(ValgrindViewPart, String, int)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/ValgrindViewPart;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$1"/>
+            <reference linenumber="62" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.2.2(ValgrindViewPart, String, int)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/ValgrindViewPart;Ljava/lang/String;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$2"/>
+        </reference_kind>
+    </target>
+    <target member="expandToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(Object, int)" signature="(Ljava/lang/Object;I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+            <reference linenumber="30" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="180" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+            <reference linenumber="179" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+            <reference linenumber="117" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="118" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="addMenuListener" name="org.eclipse.jface.action.MenuManager.addMenuListener(IMenuListener)" signature="(Lorg/eclipse/jface/action/IMenuListener;)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="174" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.action.Action.setChecked(boolean)" signature="(Z)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="187" member="showToolPage" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showToolPage()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="181" member="showCorePage" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showCorePage()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="188" member="showToolPage" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showToolPage()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="182" member="showCorePage" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showCorePage()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="collapseToLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.collapseToLevel(Object, int)" signature="(Ljava/lang/Object;I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="30" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="160" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="88" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getExpandedState" name="org.eclipse.jface.viewers.AbstractTreeViewer.getExpandedState(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="159" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target member="addDoubleClickListener" name="org.eclipse.jface.viewers.StructuredViewer.addDoubleClickListener(IDoubleClickListener)" signature="(Lorg/eclipse/jface/viewers/IDoubleClickListener;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="168" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.MenuManager.MenuManager()" signature="()V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="173" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.jface.viewers.LabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+        </reference_kind>
+    </target>
+</references>

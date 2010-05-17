@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.man (0.0.1.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="6" reference_visibility="1">
+    <target member="getSystemColor" name="org.eclipse.swt.widgets.Display.getSystemColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="setDocument" origin="org.eclipse.linuxtools.man.views.ManTextViewer.setDocument(ManDocument)" signature="(Lorg/eclipse/linuxtools/man/parser/ManDocument;)V" type="org.eclipse.linuxtools.man.views.ManTextViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getDisplay" name="org.eclipse.swt.widgets.Widget.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="setDocument" origin="org.eclipse.linuxtools.man.views.ManTextViewer.setDocument(ManDocument)" signature="(Lorg/eclipse/linuxtools/man/parser/ManDocument;)V" type="org.eclipse.linuxtools.man.views.ManTextViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setBackground" name="org.eclipse.swt.custom.StyledText.setBackground(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.swt.custom.StyledText">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="55" member="setDocument" origin="org.eclipse.linuxtools.man.views.ManTextViewer.setDocument(ManDocument)" signature="(Lorg/eclipse/linuxtools/man/parser/ManDocument;)V" type="org.eclipse.linuxtools.man.views.ManTextViewer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.custom.StyleRange.StyleRange(int, int, Color, Color, int)" signature="(IILorg/eclipse/swt/graphics/Color;Lorg/eclipse/swt/graphics/Color;I)V" type="org.eclipse.swt.custom.StyleRange">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="53" member="setDocument" origin="org.eclipse.linuxtools.man.views.ManTextViewer.setDocument(ManDocument)" signature="(Lorg/eclipse/linuxtools/man/parser/ManDocument;)V" type="org.eclipse.linuxtools.man.views.ManTextViewer"/>
+            <reference linenumber="46" member="setDocument" origin="org.eclipse.linuxtools.man.views.ManTextViewer.setDocument(ManDocument)" signature="(Lorg/eclipse/linuxtools/man/parser/ManDocument;)V" type="org.eclipse.linuxtools.man.views.ManTextViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.swt.widgets.Control.setFocus()" signature="()Z" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="setFocus" origin="org.eclipse.linuxtools.man.views.ManView.setFocus()" signature="()V" type="org.eclipse.linuxtools.man.views.ManView"/>
+        </reference_kind>
+    </target>
+</references>

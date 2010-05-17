@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="9" reference_visibility="1">
+    <target member="getStateLocation" name="org.eclipse.core.runtime.Plugin.getStateLocation()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="59" member="start" origin="org.eclipse.linuxtools.gprof.Activator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.gprof.Activator"/>
+        </reference_kind>
+    </target>
+<target member="log" name="org.eclipse.core.runtime.ILog.log(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.ILog">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="128" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+            <reference linenumber="119" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        <reference linenumber="209" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="256" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="getLog" name="org.eclipse.core.runtime.Plugin.getLog()" signature="()Lorg/eclipse/core/runtime/ILog;" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="128" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+            <reference linenumber="119" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        <reference linenumber="256" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="209" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+</references>

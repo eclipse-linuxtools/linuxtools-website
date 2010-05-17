@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="79" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.ChangelogPlugin.ChangelogPlugin()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ChangelogPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.ChangelogPlugin.ChangelogPlugin()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ChangelogPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="105" member="doGetPreferenceStore" origin="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage.doGetPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.linuxtools.changelog.core.ChangeLogPreferencesPage"/>
+            <reference linenumber="24" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.changelog.core.ChangelogPreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ChangelogPreferenceInitializer"/>
+        <reference linenumber="348" member="loadPreferences" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.loadPreferences()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="37" member="setup" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant.setup(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentSetupParticipant"/>
+            <reference linenumber="73" member="getConfig" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor.getConfig()" signature="()Lorg/eclipse/jface/text/source/SourceViewerConfiguration;" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+    </target>
+<target member="getDisplay" name="org.eclipse.ui.IWorkbench.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="253" member="populateClipboardBuffer" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.populateClipboardBuffer(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.ui.ISelectionService.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.ui.ISelectionService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="77" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="setHelp" name="org.eclipse.ui.help.IWorkbenchHelpSystem.setHelp(Control, String)" signature="(Lorg/eclipse/swt/widgets/Control;Ljava/lang/String;)V" type="org.eclipse.ui.help.IWorkbenchHelpSystem">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="114" member="configureShell" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.DrillDownComposite.DrillDownComposite(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.ui.part.DrillDownComposite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="256" member="createTreeViewer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.createTreeViewer(int)" signature="(I)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="168" member="askChangeLogLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="440" member="outputMultipleEntryChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.outputMultipleEntryChangeLog(PatchFile, String[])" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="61" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="77" member="doRun" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.doRun()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="130" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="138" member="createChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="103" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler"/>
+            <reference linenumber="172" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="97" member="openEditor" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.openEditor(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="151" member="doRun" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.doRun()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction.FormatChangeLogAction()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction"/>
+        <reference linenumber="59" member="open" origin="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.IEditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="145" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="276" member="getDocumentIFile" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentIFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="305" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="67" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="298" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="172" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.ui.IWorkbenchPartReference.getId()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IWorkbenchPartReference">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="96" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveEditor" name="org.eclipse.ui.IWorkbenchPage.getActiveEditor()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="131" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction.FormatChangeLogAction()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction"/>
+            <reference linenumber="104" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getViewReferences" name="org.eclipse.ui.IWorkbenchPage.getViewReferences()" signature="()[Lorg/eclipse/ui/IViewReference;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="95" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="138" member="createChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.createChangeLog(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="168" member="askChangeLogLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="174" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="77" member="doRun" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.doRun()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="151" member="doRun" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.doRun()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="440" member="outputMultipleEntryChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.outputMultipleEntryChangeLog(PatchFile, String[])" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="104" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.InsertChangeLogKeyHandler"/>
+            <reference linenumber="41" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction.FormatChangeLogAction()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction"/>
+            <reference linenumber="97" member="openEditor" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.openEditor(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="131" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="61" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        <reference linenumber="60" member="open" origin="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="setResult" name="org.eclipse.ui.dialogs.SelectionDialog.setResult(List)" signature="(Ljava/util/List;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="169" member="okPressed" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.okPressed()" signature="()V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectionProvider" name="org.eclipse.ui.IWorkbenchSite.getSelectionProvider()" signature="()Lorg/eclipse/jface/viewers/ISelectionProvider;" type="org.eclipse.ui.IWorkbenchSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="102" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.ChangeLogContainerSelectionDialog(Shell, IContainer, boolean, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/core/resources/IContainer;ZLjava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+            <reference linenumber="100" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.ChangeLogContainerSelectionDialog(Shell, IContainer, boolean, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/core/resources/IContainer;ZLjava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="configureShell" name="org.eclipse.ui.dialogs.SelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="112" member="configureShell" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getOkButton" name="org.eclipse.ui.dialogs.SelectionDialog.getOkButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="handleEvent" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.1.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog$1"/>
+            <reference linenumber="132" member="handleEvent" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.1.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog$1"/>
+        </reference_kind>
+    </target>
+    <target member="isValid" name="org.eclipse.ui.dialogs.ISelectionValidator.isValid(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.ui.dialogs.ISelectionValidator">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="128" member="handleEvent" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.1.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.SelectionDialog.SelectionDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="95" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.ChangeLogContainerSelectionDialog(Shell, IContainer, boolean, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/core/resources/IContainer;ZLjava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getActivePart" name="org.eclipse.ui.IPartService.getActivePart()" signature="()Lorg/eclipse/ui/IWorkbenchPart;" type="org.eclipse.ui.IPartService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="441" member="outputMultipleEntryChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.outputMultipleEntryChangeLog(PatchFile, String[])" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="62" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getView" name="org.eclipse.ui.IViewReference.getView(boolean)" signature="(Z)Lorg/eclipse/ui/IViewPart;" type="org.eclipse.ui.IViewReference">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="97" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getMessage" name="org.eclipse.ui.dialogs.SelectionDialog.getMessage()" signature="()Ljava/lang/String;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="143" member="createDialogArea" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="96" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.ChangeLogContainerSelectionDialog(Shell, IContainer, boolean, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/core/resources/IContainer;ZLjava/lang/String;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.plugin.AbstractUIPlugin.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="85" member="getWorkbench" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="48" member="getWorkbench" origin="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.linuxtools.changelog.core.actions.FormatChangeLogAction"/>
+        <reference linenumber="69" member="getWorkbench" origin="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="113" member="configureShell" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setChildTree" name="org.eclipse.ui.part.DrillDownComposite.setChildTree(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.ui.part.DrillDownComposite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="264" member="createTreeViewer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.createTreeViewer(int)" signature="(I)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+        </reference_kind>
+    </target>
+    <target member="getViewSite" name="org.eclipse.ui.IViewPart.getViewSite()" signature="()Lorg/eclipse/ui/IViewSite;" type="org.eclipse.ui.IViewPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+    </target>
+    <target member="getResult" name="org.eclipse.ui.dialogs.SelectionDialog.getResult()" signature="()[Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="175" member="askChangeLogLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.askChangeLogLocation(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectedPage" name="org.eclipse.ui.part.MultiPageEditorPart.getSelectedPage()" signature="()Ljava/lang/Object;" type="org.eclipse.ui.part.MultiPageEditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="296" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getId" name="org.eclipse.ui.IEditorDescriptor.getId()" signature="()Ljava/lang/String;" type="org.eclipse.ui.IEditorDescriptor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="526" member="guessFunctionNames" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;)[Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDecoratingWorkbenchLabelProvider" name="org.eclipse.ui.model.WorkbenchLabelProvider.getDecoratingWorkbenchLabelProvider()" signature="()Lorg/eclipse/jface/viewers/ILabelProvider;" type="org.eclipse.ui.model.WorkbenchLabelProvider">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="269" member="createTreeViewer" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup.createTreeViewer(int)" signature="(I)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionGroup"/>
+        </reference_kind>
+    </target>
+    <target member="getHelpSystem" name="org.eclipse.ui.IWorkbench.getHelpSystem()" signature="()Lorg/eclipse/ui/help/IWorkbenchHelpSystem;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="113" member="configureShell" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogContainerSelectionDialog"/>
+        </reference_kind>
+    </target>
+<target member="getEditorInput" name="org.eclipse.ui.part.EditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.part.EditorPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="336" member="getDocument" origin="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.getDocument(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.changelog.core.formatters.GNUFormat"/>
+        </reference_kind>
+    </target>
+<target member="fillContextMenu" name="org.eclipse.ui.actions.ActionGroup.fillContextMenu(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.ui.actions.ActionGroup">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="fillContextMenu" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.fillContextMenu(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="123" member="fillContextMenu" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.fillContextMenu(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setGlobalActionHandler" name="org.eclipse.ui.IActionBars.setGlobalActionHandler(String, IAction)" signature="(Ljava/lang/String;Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="130" member="fillActionBars" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.fillActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.ui.actions.ActionContext.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.ui.actions.ActionContext">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="98" member="run" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.1.run()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider$1"/>
+        </reference_kind>
+    </target>
+    <target member="fillActionBars" name="org.eclipse.ui.actions.ActionGroup.fillActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.ui.actions.ActionGroup">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="fillActionBars" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.fillActionBars(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getContext" name="org.eclipse.ui.actions.ActionGroup.getContext()" signature="()Lorg/eclipse/ui/actions/ActionContext;" type="org.eclipse.ui.actions.ActionGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="98" member="run" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.1.run()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider$1"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.editors (3.6.0.v20100513-0800)" reference_count="8" reference_visibility="1">
+    <target name="org.eclipse.ui.editors.text.TextEditor" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setTextEditor" origin="org.eclipse.linuxtools.changelog.core.IEditorChangeLogContrib.setTextEditor(TextEditor)" signature="(Lorg/eclipse/ui/editors/text/TextEditor;)V" type="org.eclipse.linuxtools.changelog.core.IEditorChangeLogContrib"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.GNUHyperlinkDetector(ITextViewer, TextEditor)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/ui/editors/text/TextEditor;)V" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+            <reference linenumber="-1" member="setTextEditor" origin="org.eclipse.linuxtools.changelog.core.editors.GNUEditorConfiguration.setTextEditor(TextEditor)" signature="(Lorg/eclipse/ui/editors/text/TextEditor;)V" type="org.eclipse.linuxtools.changelog.core.editors.GNUEditorConfiguration"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="parentEditor" origin="org.eclipse.linuxtools.changelog.core.editors.GNUEditorConfiguration.parentEditor" type="org.eclipse.linuxtools.changelog.core.editors.GNUEditorConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogEditor"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.editors.text.FileDocumentProvider" type="org.eclipse.ui.editors.text.FileDocumentProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyDocumentProvider" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.editors.text.StorageDocumentProvider" type="org.eclipse.ui.editors.text.StorageDocumentProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.MyStorageDocumentProvider" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction$MyStorageDocumentProvider"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.editors.text.TextFileDocumentProvider" type="org.eclipse.ui.editors.text.TextFileDocumentProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider" type="org.eclipse.linuxtools.changelog.core.editors.ChangeLogDocumentProvider"/>
+        </reference_kind>
+    </target>
+</references>

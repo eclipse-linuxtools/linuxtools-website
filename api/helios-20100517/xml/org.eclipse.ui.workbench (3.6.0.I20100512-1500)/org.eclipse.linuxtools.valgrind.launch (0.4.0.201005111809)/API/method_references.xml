@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="30" reference_visibility="1">
+    <target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="335" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="177" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.6.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$6"/>
+            <reference linenumber="27" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+        </reference_kind>
+    </target>
+    <target member="getProgressService" name="org.eclipse.ui.IWorkbench.getProgressService()" signature="()Lorg/eclipse/ui/progress/IProgressService;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="44" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="100" member="stop" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.model.WorkbenchLabelProvider.WorkbenchLabelProvider()" signature="()V" type="org.eclipse.ui.model.WorkbenchLabelProvider">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="333" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstResult" name="org.eclipse.ui.dialogs.SelectionStatusDialog.getFirstResult()" signature="()Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="339" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="busyCursorWhile" name="org.eclipse.ui.progress.IProgressService.busyCursorWhile(IRunnableWithProgress)" signature="(Lorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.ui.progress.IProgressService">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="46" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.ui.IWorkbenchWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.ui.IWorkbenchWizard">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="29" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.open()" signature="()I" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="338" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="334" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="82" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.ValgrindLaunchPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.ValgrindLaunchPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.ui.ISharedImages.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.ui.ISharedImages">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="177" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.6.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$6"/>
+            <reference linenumber="27" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.ElementTreeSelectionDialog(Shell, ILabelProvider, ITreeContentProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/ITreeContentProvider;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="333" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="90" member="start" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="imageDescriptorFromPlugin" name="org.eclipse.ui.plugin.AbstractUIPlugin.imageDescriptorFromPlugin(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="437" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="177" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.6.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$6"/>
+            <reference linenumber="44" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard"/>
+            <reference linenumber="27" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+            <reference linenumber="29" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+            <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="336" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="118" member="getValgrindLocation" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindLocation()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getSharedImages" name="org.eclipse.ui.IWorkbench.getSharedImages()" signature="()Lorg/eclipse/ui/ISharedImages;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="99" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.1.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target member="setComparator" name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog.setComparator(ViewerComparator)" signature="(Lorg/eclipse/jface/viewers/ViewerComparator;)V" type="org.eclipse.ui.dialogs.ElementTreeSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="337" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab$5"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,439 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Types used in org.eclipse.cdt.ui (5.2.0.201005031211)</title>
+</head>
+<body>
+<h3>Types used in org.eclipse.cdt.ui (5.2.0.201005031211)</h3>
+<p>The list of all referencing bundles is available <a href="#bundles">here</a>.</p>
+<h4>References</h4>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="30%"><b>Referenced Type</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="API references are references that are only made to public API of a bundle"><b>API</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal references are references that are only made to internal non-API of a bundle"><b>Internal</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal-Permissible references are references that are only made to internal non-API of a bundle, but are allowed via the x-friends directive"><b>Internal-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Fragment-Permissible references are references that are made to internal non-API of a host bundle by a fragment"><b>Fragment-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Illegal references are ones made to API that has restrictions"><b>Illegal</b></td>
+<tr bgcolor="#F2C3C3">
+	<td><b><a href="./org.eclipse.cdt.internal.ui.editor.CEditor.html">org.eclipse.cdt.internal.ui.editor.CEditor</a></b></td>
+	<td align="center">0</td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.CElementLabelProvider.html">org.eclipse.cdt.ui.CElementLabelProvider</a></b></td>
+	<td align="center">21</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.CUIPlugin.html">org.eclipse.cdt.ui.CUIPlugin</a></b></td>
+	<td align="center">41</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.IBuildConsoleManager.html">org.eclipse.cdt.ui.IBuildConsoleManager</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.ICHelpBook.html">org.eclipse.cdt.ui.ICHelpBook</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.ICHelpProvider.html">org.eclipse.cdt.ui.ICHelpProvider</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.ICHelpResourceDescriptor.html">org.eclipse.cdt.ui.ICHelpResourceDescriptor</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.IFunctionSummary.html">org.eclipse.cdt.ui.IFunctionSummary</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.IFunctionSummary.IFunctionPrototypeSummary.html">org.eclipse.cdt.ui.IFunctionSummary.IFunctionPrototypeSummary</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.IRequiredInclude.html">org.eclipse.cdt.ui.IRequiredInclude</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.IWorkingCopyManager.html">org.eclipse.cdt.ui.IWorkingCopyManager</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.AbstractCOptionPage.html">org.eclipse.cdt.ui.dialogs.AbstractCOptionPage</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.AbstractErrorParserBlock.html">org.eclipse.cdt.ui.dialogs.AbstractErrorParserBlock</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.BinaryParserBlock.html">org.eclipse.cdt.ui.dialogs.BinaryParserBlock</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.ICOptionContainer.html">org.eclipse.cdt.ui.dialogs.ICOptionContainer</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.ICOptionPage.html">org.eclipse.cdt.ui.dialogs.ICOptionPage</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.IndexerBlock.html">org.eclipse.cdt.ui.dialogs.IndexerBlock</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.ReferenceBlock.html">org.eclipse.cdt.ui.dialogs.ReferenceBlock</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.dialogs.TabFolderOptionBlock.html">org.eclipse.cdt.ui.dialogs.TabFolderOptionBlock</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.AbstractCPropertyTab.html">org.eclipse.cdt.ui.newui.AbstractCPropertyTab</a></b></td>
+	<td align="center">99</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.AbstractPage.html">org.eclipse.cdt.ui.newui.AbstractPage</a></b></td>
+	<td align="center">27</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.CDTPrefUtil.html">org.eclipse.cdt.ui.newui.CDTPrefUtil</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.ICPropertyProvider.html">org.eclipse.cdt.ui.newui.ICPropertyProvider</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.MultiLineTextFieldEditor.html">org.eclipse.cdt.ui.newui.MultiLineTextFieldEditor</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.PageLayout.html">org.eclipse.cdt.ui.newui.PageLayout</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.newui.UIMessages.html">org.eclipse.cdt.ui.newui.UIMessages</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.text.ICHelpInvocationContext.html">org.eclipse.cdt.ui.text.ICHelpInvocationContext</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.text.IHoverHelpInvocationContext.html">org.eclipse.cdt.ui.text.IHoverHelpInvocationContext</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.text.SharedASTJob.html">org.eclipse.cdt.ui.text.SharedASTJob</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.CNewWizard.html">org.eclipse.cdt.ui.wizards.CNewWizard</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.EntryDescriptor.html">org.eclipse.cdt.ui.wizards.EntryDescriptor</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.NewCCProjectWizard.html">org.eclipse.cdt.ui.wizards.NewCCProjectWizard</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.NewCProjectWizard.html">org.eclipse.cdt.ui.wizards.NewCProjectWizard</a></b></td>
+	<td align="center">57</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.NewCProjectWizardOptionPage.html">org.eclipse.cdt.ui.wizards.NewCProjectWizardOptionPage</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.NewCProjectWizardPage.html">org.eclipse.cdt.ui.wizards.NewCProjectWizardPage</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.conversion.ConversionWizard.html">org.eclipse.cdt.ui.wizards.conversion.ConversionWizard</a></b></td>
+	<td align="center">15</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.ui.wizards.conversion.ConvertProjectWizardPage.html">org.eclipse.cdt.ui.wizards.conversion.ConvertProjectWizardPage</a></b></td>
+	<td align="center">11</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.utils.ui.controls.ControlFactory.html">org.eclipse.cdt.utils.ui.controls.ControlFactory</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+</table>
+<br><h4>Referencing Bundles</h4>
+<p>The following bundles have references to org.eclipse.cdt.ui (5.2.0.201005031211)</p>
+<a name="bundles"></a>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="50%"><b>Bundle</b></td>
+	<td bgcolor="#E0C040" width="20%" align="center"><b>Version</b></td>
+	<td bgcolor="#E0C040" width="10%" align="center"><b>Reference Count</b></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.binutils</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools</b></td>
+	<td>2.0.0.201005111809</td>
+	<td align="center">58</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.ui</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">302</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.libhover</b></td>
+	<td>1.0.3.201005111809</td>
+	<td align="center">49</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.cparser</b></td>
+	<td>2.6.3.201005111809</td>
+	<td align="center">14</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">17</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gcov</b></td>
+	<td>4.1.1.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">10</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.cachegrind</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">11</td>
+</tr>
+</table>
+<p><a href="../index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+

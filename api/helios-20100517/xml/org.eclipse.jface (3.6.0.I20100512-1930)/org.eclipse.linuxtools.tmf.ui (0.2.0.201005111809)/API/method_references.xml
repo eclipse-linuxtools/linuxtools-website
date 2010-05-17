@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.tmf.ui (0.2.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="36" reference_visibility="1">
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="674" member="notifySelectionListeners" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisViewer.notifySelectionListeners(TmfTimeSelectionEventtype)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent$type;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisViewer"/>
+        </reference_kind>
+    </target>
+    <target member="isEmpty" name="org.eclipse.jface.viewers.ISelection.isEmpty()" signature="()Z" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="673" member="notifySelectionListeners" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisViewer.notifySelectionListeners(TmfTimeSelectionEventtype)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent$type;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisViewer"/>
+        </reference_kind>
+    </target>
+<target member="newCheckList" name="org.eclipse.jface.viewers.CheckboxTableViewer.newCheckList(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)Lorg/eclipse/jface/viewers/CheckboxTableViewer;" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="78" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="compare" name="org.eclipse.jface.viewers.ViewerComparator.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.jface.viewers.ViewerComparator">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="compare" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.TraceComparator.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$TraceComparator"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.jface.dialogs.TitleAreaDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.TitleAreaDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="90" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+            <reference linenumber="109" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createDialogArea" name="org.eclipse.jface.dialogs.TitleAreaDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.TitleAreaDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="76" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+            <reference linenumber="77" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.LabelProvider.LabelProvider()" signature="()V" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="176" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.ViewLabelProvider.ViewLabelProvider(TmfTimeFilterDialog)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/dialogs/TmfTimeFilterDialog;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$ViewLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setComparator" name="org.eclipse.jface.viewers.StructuredViewer.setComparator(ViewerComparator)" signature="(Lorg/eclipse/jface/viewers/ViewerComparator;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="88" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="configureShell" name="org.eclipse.jface.window.Window.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="135" member="configureShell" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+            <reference linenumber="176" member="configureShell" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.viewers.CheckboxTableViewer.setChecked(Object, boolean)" signature="(Ljava/lang/Object;Z)Z" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="105" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getChecked" name="org.eclipse.jface.viewers.CheckStateChangedEvent.getChecked()" signature="()Z" type="org.eclipse.jface.viewers.CheckStateChangedEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="98" member="checkStateChanged" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.1.checkStateChanged(CheckStateChangedEvent)" signature="(Lorg/eclipse/jface/viewers/CheckStateChangedEvent;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$1"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="91" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setHelpAvailable" name="org.eclipse.jface.dialogs.TrayDialog.setHelpAvailable(boolean)" signature="(Z)V" type="org.eclipse.jface.dialogs.TrayDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="92" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+            <reference linenumber="111" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="89" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.StructuredViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="87" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="66" member="open" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.open(Shell, TmfTimeAnalysisProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+            <reference linenumber="62" member="getTraceFilter" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.getTraceFilter(Shell, Object[], boolean[])" signature="(Lorg/eclipse/swt/widgets/Shell;[Ljava/lang/Object;[Z)Z" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getTable" name="org.eclipse.jface.viewers.TableViewer.getTable()" signature="()Lorg/eclipse/swt/widgets/Table;" type="org.eclipse.jface.viewers.TableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="81" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.jface.dialogs.TitleAreaDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.TitleAreaDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="108" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+            <reference linenumber="89" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="getElement" name="org.eclipse.jface.viewers.CheckStateChangedEvent.getElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.CheckStateChangedEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="95" member="checkStateChanged" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.1.checkStateChanged(CheckStateChangedEvent)" signature="(Lorg/eclipse/jface/viewers/CheckStateChangedEvent;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$1"/>
+        </reference_kind>
+    </target>
+    <target member="createButtonsForButtonBar" name="org.eclipse.jface.dialogs.Dialog.createButtonsForButtonBar(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createButtonsForButtonBar" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createButtonsForButtonBar(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.jface.viewers.LabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.ViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$ViewLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="addCheckStateListener" name="org.eclipse.jface.viewers.CheckboxTableViewer.addCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="93" member="createDialogArea" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.TitleAreaDialog.TitleAreaDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.TitleAreaDialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.TmfTimeFilterDialog(Shell, Object[], boolean[])" signature="(Lorg/eclipse/swt/widgets/Shell;[Ljava/lang/Object;[Z)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog"/>
+            <reference linenumber="70" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.TmfTimeLegend(Shell, TmfTimeAnalysisProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="createButton" name="org.eclipse.jface.dialogs.Dialog.createButton(Composite, int, String, boolean)" signature="(Lorg/eclipse/swt/widgets/Composite;ILjava/lang/String;Z)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="182" member="createButtonsForButtonBar" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend.createButtonsForButtonBar(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeLegend"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.ViewerComparator.ViewerComparator()" signature="()V" type="org.eclipse.jface.viewers.ViewerComparator">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="200" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog.TraceComparator.TraceComparator(TmfTimeFilterDialog)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/dialogs/TmfTimeFilterDialog;)V" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.dialogs.TmfTimeFilterDialog$TraceComparator"/>
+        </reference_kind>
+    </target>
+</references>

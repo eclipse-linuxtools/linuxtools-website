@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.core (1.0.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="3" reference_visibility="1">
+    <target member="getCurrent" name="org.eclipse.swt.widgets.Display.getCurrent()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="209" member="logException" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.logException(Throwable, String, String)" signature="(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="asyncExec" name="org.eclipse.swt.widgets.Display.asyncExec(Runnable)" signature="(Ljava/lang/Runnable;)V" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="213" member="logException" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.logException(Throwable, String, String)" signature="(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.swt.widgets.Display.getDefault()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="211" member="logException" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin.logException(Throwable, String, String)" signature="(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+</references>

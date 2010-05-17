@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="6" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.osgi.util.NLS.NLS()" signature="()V" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages.STDataViewersMessages()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="15" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages.STDataViewersMessages()" signature="()V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages"/>
+        <reference linenumber="24" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages.RegExMessages()" signature="()V" type="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages"/>
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.findreplace.EditorMessages.EditorMessages()" signature="()V" type="org.eclipse.linuxtools.dataviewers.findreplace.EditorMessages"/>
+        </reference_kind>
+    </target>
+<target member="bind" name="org.eclipse.osgi.util.NLS.bind(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="119" member="createPrioritiesArea" origin="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersSortDialog.createPrioritiesArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersSortDialog"/>
+        </reference_kind>
+    </target>
+<target member="initializeMessages" name="org.eclipse.osgi.util.NLS.initializeMessages(String, Class)" signature="(Ljava/lang/String;Ljava/lang/Class;)V" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="33" member="reloadMessages" origin="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages.reloadMessages()" signature="()V" type="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages"/>
+        </reference_kind>
+    </target>
+</references>

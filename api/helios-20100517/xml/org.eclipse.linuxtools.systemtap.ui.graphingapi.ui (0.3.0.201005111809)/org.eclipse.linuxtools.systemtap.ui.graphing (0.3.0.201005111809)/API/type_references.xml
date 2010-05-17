@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui (0.3.0.201005111809)" reference_count="16" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.chart.widget.ChartCanvas" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.chart.widget.ChartCanvas">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="106" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getImage(ChartCanvas)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;)Lorg/eclipse/swt/graphics/ImageData;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="90" member="getGraph" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getGraph()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getGraph" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getGraph()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        <reference linenumber="-1" member="getActiveGraph" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.getActiveGraph()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getImage(ChartCanvas)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;)Lorg/eclipse/swt/graphics/ImageData;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="170" member="getActiveGraph" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.getActiveGraph()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.dataset.DataSetWizard">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="168" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="168" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.widgets.GraphComposite">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="222" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="222" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.datadisplay.DataGrid" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.datadisplay.DataGrid">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="148" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.wizards.graph.SelectGraphWizard">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="210" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="210" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartBuilder" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartBuilder">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="226" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="128" member="close" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.2.close(CTabFolderEvent)" signature="(Lorg/eclipse/swt/custom/CTabFolderEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$2"/>
+        </reference_kind>
+    </target>
+</references>

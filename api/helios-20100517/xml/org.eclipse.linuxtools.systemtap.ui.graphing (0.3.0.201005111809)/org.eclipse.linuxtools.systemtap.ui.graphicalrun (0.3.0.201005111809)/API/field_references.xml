@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" reference_count="4" reference_visibility="1">
+    <target member="DataSetMetaData" name="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingConstants.DataSetMetaData" type="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingConstants">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="52" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+            <reference linenumber="135" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.getChartingOptions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="ID" name="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective.ID" type="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="99" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.RunScriptChartAction"/>
+            <reference linenumber="99" member="getFilePath" origin="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction.getFilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.graphicalrun.actions.ModifyParsingAction"/>
+        </reference_kind>
+    </target>
+</references>

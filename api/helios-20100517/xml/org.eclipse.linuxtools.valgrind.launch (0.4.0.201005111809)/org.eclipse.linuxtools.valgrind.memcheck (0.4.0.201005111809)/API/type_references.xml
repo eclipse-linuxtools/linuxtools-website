@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.memcheck (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" reference_count="3" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.valgrind.launch.IValgrindToolPage" type="org.eclipse.linuxtools.valgrind.launch.IValgrindToolPage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate" type="org.eclipse.linuxtools.valgrind.launch.IValgrindLaunchDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckLaunchDelegate"/>
+        </reference_kind>
+    </target>
+</references>

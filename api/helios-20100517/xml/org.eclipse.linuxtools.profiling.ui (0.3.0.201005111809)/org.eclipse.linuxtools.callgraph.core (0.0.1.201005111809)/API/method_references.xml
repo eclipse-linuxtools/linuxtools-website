@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" reference_count="2" reference_visibility="1">
+    <target member="openEditorAndSelect" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="79" member="open" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.open(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+        </reference_kind>
+    </target>
+    <target member="findFunctionsInProject" name="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.findFunctionsInProject(ICProject, String, int, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;ILjava/lang/String;)Ljava/util/HashMap;" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="46" member="findAndOpen" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.findAndOpen(ICProject, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+        </reference_kind>
+    </target>
+</references>

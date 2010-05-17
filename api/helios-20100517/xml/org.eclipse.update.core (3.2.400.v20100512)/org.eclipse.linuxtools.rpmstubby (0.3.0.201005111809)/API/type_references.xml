@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpmstubby (0.3.0.201005111809)" referee="org.eclipse.update.core (3.2.400.v20100512)" reference_count="13" reference_visibility="1">
+    <target name="org.eclipse.update.core.model.FeatureModelFactory" type="org.eclipse.update.core.model.FeatureModelFactory">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="118" member="getIncudedFeatures" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getIncudedFeatures()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.StubbyPackageModel(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.StubbyPackageModel(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+            <reference linenumber="118" member="getIncudedFeatures" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getIncudedFeatures()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.IIncludedFeatureReference" type="org.eclipse.update.core.IIncludedFeatureReference">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="124" member="getIncudedFeatures" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getIncudedFeatures()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.model.PluginEntryModel" type="org.eclipse.update.core.model.PluginEntryModel">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="277" member="getProvides" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getProvides()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.VersionedIdentifier" type="org.eclipse.update.core.VersionedIdentifier">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="125" member="getIncudedFeatures" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getIncudedFeatures()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.model.FeatureModel" type="org.eclipse.update.core.model.FeatureModel">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="135" member="getIncudedFeatures" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getIncudedFeatures()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="featureModel" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.featureModel" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.model.ImportModel" type="org.eclipse.update.core.model.ImportModel">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="304" member="getRequires" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getRequires()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.update.core.model.URLEntryModel" type="org.eclipse.update.core.model.URLEntryModel">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="239" member="getURL" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getURL()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+            <reference linenumber="246" member="getDescription" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getDescription()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+            <reference linenumber="218" member="getLicense" origin="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel.getLicense()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpmstubby.StubbyPackageModel"/>
+        </reference_kind>
+    </target>
+</references>

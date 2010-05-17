@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="23" reference_visibility="1">
+    <target name="org.eclipse.ui.progress.UIJob" type="org.eclipse.ui.progress.UIJob">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages" type="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.StapUIJob" type="org.eclipse.linuxtools.callgraph.core.StapUIJob"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.ViewUIUpdater" type="org.eclipse.linuxtools.callgraph.core.SystemTapView$ViewUIUpdater"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.DocWriter" type="org.eclipse.linuxtools.callgraph.core.DocWriter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.CallgraphCorePlugin" type="org.eclipse.linuxtools.callgraph.core.CallgraphCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.dialogs.ElementListSelectionDialog" type="org.eclipse.ui.dialogs.ElementListSelectionDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="55" member="findAndOpen" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.findAndOpen(ICProject, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="55" member="findAndOpen" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.findAndOpen(ICProject, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.actions.ActionFactory.IWorkbenchAction" type="org.eclipse.ui.actions.ActionFactory$IWorkbenchAction">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="104" member="maximizeIfUnmaximized" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeIfUnmaximized()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="84" member="maximizeOrRefresh" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IViewPart" type="org.eclipse.ui.IViewPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.2.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$2"/>
+            <reference linenumber="41" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getView" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.getView()" signature="()Lorg/eclipse/ui/IViewPart;" type="org.eclipse.linuxtools.callgraph.core.ViewFactory"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="views" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.views" type="org.eclipse.linuxtools.callgraph.core.ViewFactory"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="103" member="getView" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.getView()" signature="()Lorg/eclipse/ui/IViewPart;" type="org.eclipse.linuxtools.callgraph.core.ViewFactory"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="41" member="runInUIThread" origin="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages.runInUIThread(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="77" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.2.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$2"/>
+            <reference linenumber="80" member="open" origin="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.open(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener"/>
+            <reference linenumber="48" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="77" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.2.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$2"/>
+            <reference linenumber="48" member="run" origin="org.eclipse.linuxtools.callgraph.core.ViewFactory.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.ViewFactory$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="79" member="maximizeOrRefresh" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="100" member="maximizeIfUnmaximized" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeIfUnmaximized()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.part.ViewPart" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+</references>

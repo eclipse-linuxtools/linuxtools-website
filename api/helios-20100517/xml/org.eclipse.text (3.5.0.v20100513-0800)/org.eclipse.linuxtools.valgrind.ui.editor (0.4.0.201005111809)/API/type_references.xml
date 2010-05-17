@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="23" reference_visibility="1">
+    <target name="org.eclipse.jface.text.IRegion" type="org.eclipse.jface.text.IRegion">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="reconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.reconcile(DirtyRegion, IRegion)" signature="(Lorg/eclipse/jface/text/reconciler/DirtyRegion;Lorg/eclipse/jface/text/IRegion;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+            <reference linenumber="-1" member="reconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.reconcile(IRegion)" signature="(Lorg/eclipse/jface/text/IRegion;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.BadLocationException" type="org.eclipse.jface.text.BadLocationException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="getToolName" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.getToolName(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+            <reference linenumber="-1" member="completionWord" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.completionWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="50" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+            <reference linenumber="67" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="67" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+            <reference linenumber="50" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.IDocument" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="24" member="getDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+            <reference linenumber="32" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="document" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.document" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getToolName" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.getToolName(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+            <reference linenumber="-1" member="completionWord" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.completionWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+            <reference linenumber="-1" member="setDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.setDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.Position" type="org.eclipse.jface.text.Position">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="80" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="positions" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.positions" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="64" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="updateFoldingStructure" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.updateFoldingStructure(Position[])" signature="([Lorg/eclipse/jface/text/Position;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="80" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="64" member="updateFoldingStructure" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.updateFoldingStructure(Position[])" signature="([Lorg/eclipse/jface/text/Position;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.Annotation" type="org.eclipse.jface.text.source.Annotation">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="63" member="updateFoldingStructure" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.updateFoldingStructure(Position[])" signature="([Lorg/eclipse/jface/text/Position;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="oldAnnotations" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.oldAnnotations" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+</references>

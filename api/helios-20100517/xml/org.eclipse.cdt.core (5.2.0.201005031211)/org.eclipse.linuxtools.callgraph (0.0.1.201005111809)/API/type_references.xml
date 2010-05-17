@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.model.ICProject" type="org.eclipse.cdt.core.model.ICProject">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setProject" origin="org.eclipse.linuxtools.callgraph.StapGraph.setProject(ICProject)" signature="(Lorg/eclipse/cdt/core/model/ICProject;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.callgraph.StapGraph.getProject()" signature="()Lorg/eclipse/cdt/core/model/ICProject;" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.project" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.callgraph.StapGraph.project" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.parsers.java (2.6.3.201005111809)" referee="org.eclipse.jdt.ui (3.6.0.v20100513-0800)" reference_count="8" reference_visibility="1">
+    <target member="disconnect" name="org.eclipse.jdt.ui.IWorkingCopyManager.disconnect(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.jdt.ui.IWorkingCopyManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="55" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        <reference linenumber="55" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        </reference_kind>
+    </target>
+    <target member="connect" name="org.eclipse.jdt.ui.IWorkingCopyManager.connect(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.jdt.ui.IWorkingCopyManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="45" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        <reference linenumber="45" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkingCopyManager" name="org.eclipse.jdt.ui.JavaUI.getWorkingCopyManager()" signature="()Lorg/eclipse/jdt/ui/IWorkingCopyManager;" type="org.eclipse.jdt.ui.JavaUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="44" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        <reference linenumber="44" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkingCopy" name="org.eclipse.jdt.ui.IWorkingCopyManager.getWorkingCopy(IEditorInput)" signature="(Lorg/eclipse/ui/IEditorInput;)Lorg/eclipse/jdt/core/ICompilationUnit;" type="org.eclipse.jdt.ui.IWorkingCopyManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="48" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        <reference linenumber="48" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.java.JavaParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.java.JavaParser"/>
+        </reference_kind>
+    </target>
+</references>

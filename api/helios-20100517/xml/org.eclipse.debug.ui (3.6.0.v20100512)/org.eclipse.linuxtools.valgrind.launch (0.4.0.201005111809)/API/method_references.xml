@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.debug.ui (3.6.0.v20100512)" reference_count="37" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.AbstractLaunchConfigurationTab()" signature="()V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.ValgrindOptionsTab()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.ValgrindOptionsTab()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.access$1(ValgrindOptionsTab)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/launch/ValgrindOptionsTab;)Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.dispose()" signature="()V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="582" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.debug.ui.ILaunchConfigurationTab.dispose()" signature="()V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="580" member="dispose" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.dispose()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="createVerticalSpacer" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.createVerticalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="319" member="createSuppressionsOption" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="123" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="138" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="119" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunchConfigurationDialog" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.getLaunchConfigurationDialog()" signature="()Lorg/eclipse/debug/ui/ILaunchConfigurationDialog;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="413" member="loadDynamicArea" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.loadDynamicArea()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="performApply" name="org.eclipse.debug.ui.ILaunchConfigurationTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="542" member="performApply" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.performApply(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaults" name="org.eclipse.debug.ui.ILaunchConfigurationTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="388" member="handleToolChanged" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.handleToolChanged()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="572" member="setDefaults" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="28" member="setDefaultProfileAttributes" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="480" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="442" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getImage" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getImage" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.getImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.debug.ui.ILaunchConfigurationTab.getName()" signature="()Ljava/lang/String;" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="394" member="handleToolChanged" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.handleToolChanged()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="setLaunchConfigurationDialog" name="org.eclipse.debug.ui.ILaunchConfigurationTab.setLaunchConfigurationDialog(ILaunchConfigurationDialog)" signature="(Lorg/eclipse/debug/ui/ILaunchConfigurationDialog;)V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="413" member="loadDynamicArea" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.loadDynamicArea()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="updateLaunchConfigurationDialog" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.updateLaunchConfigurationDialog()" signature="()V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="595" member="updateLaunchConfigurationDialog" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.updateLaunchConfigurationDialog()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="updateLaunchConfigurationDialog" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.updateLaunchConfigurationDialog()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorMessage" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.setErrorMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="506" member="isGeneralValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isGeneralValid()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="486" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="490" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="494" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="isValid" name="org.eclipse.debug.ui.ILaunchConfigurationTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="493" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="createControl" name="org.eclipse.debug.ui.ILaunchConfigurationTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="414" member="loadDynamicArea" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.loadDynamicArea()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="isValid" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="createPushButton" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.createPushButton(Composite, String, Image)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="330" member="createSuppressionsOption" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="347" member="createSuppressionsOption" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="359" member="createSuppressionsOption" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createSuppressionsOption(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="initializeFrom" name="org.eclipse.debug.ui.ILaunchConfigurationTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="391" member="handleToolChanged" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.handleToolChanged()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="setControl" name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab.setControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceElement" name="org.eclipse.debug.ui.sourcelookup.ISourceLookupResult.getSourceElement()" signature="()Ljava/lang/Object;" type="org.eclipse.debug.ui.sourcelookup.ISourceLookupResult">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="213" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="lookupSource" name="org.eclipse.debug.ui.DebugUITools.lookupSource(Object, ISourceLocator)" signature="(Ljava/lang/Object;Lorg/eclipse/debug/core/model/ISourceLocator;)Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;" type="org.eclipse.debug.ui.DebugUITools">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="212" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getErrorMessage" name="org.eclipse.debug.ui.ILaunchConfigurationTab.getErrorMessage()" signature="()Ljava/lang/String;" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="494" member="isValid" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.isValid(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Z" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+</references>

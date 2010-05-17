@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="3" reference_visibility="1">
+    <target member="getCProject" name="org.eclipse.cdt.core.model.ICModel.getCProject(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/model/ICProject;" type="org.eclipse.cdt.core.model.ICModel">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="524" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="getCModel" name="org.eclipse.cdt.core.model.CoreModel.getCModel()" signature="()Lorg/eclipse/cdt/core/model/ICModel;" type="org.eclipse.cdt.core.model.CoreModel">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="524" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.cdt.core.model.CoreModel.getDefault()" signature="()Lorg/eclipse/cdt/core/model/CoreModel;" type="org.eclipse.cdt.core.model.CoreModel">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="524" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+</references>

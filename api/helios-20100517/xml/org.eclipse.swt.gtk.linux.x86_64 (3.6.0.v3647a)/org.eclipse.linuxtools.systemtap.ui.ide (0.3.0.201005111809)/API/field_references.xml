@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="10" reference_visibility="1">
+    <target member="doit" name="org.eclipse.swt.events.KeyEvent.doit" type="org.eclipse.swt.events.KeyEvent">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="88" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.1.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$1"/>
+            <reference linenumber="101" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.2.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$2"/>
+            <reference linenumber="112" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.3.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$3"/>
+            <reference linenumber="99" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.2.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$2"/>
+        </reference_kind>
+    </target>
+    <target member="character" name="org.eclipse.swt.events.KeyEvent.character" type="org.eclipse.swt.events.KeyEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="111" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.3.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$3"/>
+            <reference linenumber="97" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.2.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$2"/>
+            <reference linenumber="110" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.3.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$3"/>
+            <reference linenumber="87" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.1.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$1"/>
+            <reference linenumber="98" member="keyPressed" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.2.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog$2"/>
+        </reference_kind>
+    </target>
+    <target member="numColumns" name="org.eclipse.swt.layout.GridLayout.numColumns" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="60" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.ide.uistructures.StapSettingsDialog"/>
+        </reference_kind>
+    </target>
+</references>

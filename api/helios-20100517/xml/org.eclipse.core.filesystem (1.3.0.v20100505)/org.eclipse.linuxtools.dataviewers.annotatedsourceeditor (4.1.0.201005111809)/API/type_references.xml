@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.core.filesystem (1.3.0.v20100505)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.core.filesystem.IFileStore" type="org.eclipse.core.filesystem.IFileStore">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.AbstractSTAnnotatedSourceEditorInput.AbstractSTAnnotatedSourceEditorInput(IFileStore)" signature="(Lorg/eclipse/core/filesystem/IFileStore;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.AbstractSTAnnotatedSourceEditorInput"/>
+        <reference linenumber="-1" member="getInput" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getInput(IFileStore)" signature="(Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+            <reference linenumber="-1" member="getInput" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.getInput(IFileStore)" signature="(Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+            <reference linenumber="-1" member="getInput" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction.getInput(IFileStore)" signature="(Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/AbstractSTAnnotatedSourceEditorInput;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="43" member="run" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+            <reference linenumber="54" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+            <reference linenumber="60" member="run" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+            <reference linenumber="-1" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction"/>
+            <reference linenumber="-1" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+</references>

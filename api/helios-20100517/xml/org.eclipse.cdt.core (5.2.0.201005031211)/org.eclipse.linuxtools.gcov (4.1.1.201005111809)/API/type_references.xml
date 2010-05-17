@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.model.ICProject" type="org.eclipse.cdt.core.model.ICProject">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="130" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.CModelException" type="org.eclipse.cdt.core.model.CModelException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="139" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.IBinaryParser.IBinaryObject" type="org.eclipse.cdt.core.IBinaryParser$IBinaryObject">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="224" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="254" member="getGCDALocations" origin="org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+            <reference linenumber="183" member="fillGcovView" origin="org.eclipse.linuxtools.gcov.parser.CovManager.fillGcovView()" signature="()V" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="isGCovCompatible" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.isGCovCompatible(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Z" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+            <reference linenumber="-1" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+        </reference_kind>
+    </target>
+</references>

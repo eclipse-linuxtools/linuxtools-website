@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.consolelog (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="114" reference_visibility="1">
+    <target name="org.eclipse.swt.widgets.FileDialog" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="49" member="getFile" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.SaveLogAction.getFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.SaveLogAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="49" member="getFile" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.SaveLogAction.getFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.actions.SaveLogAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="37" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="42" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        <reference linenumber="42" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="42" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="37" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        <reference linenumber="42" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.1.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$1"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.1.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$1"/>
+            <reference linenumber="-1" member="widgetDefaultSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.widgetDefaultSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionListener" type="org.eclipse.swt.events.SelectionListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.1" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.1" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="64" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="50" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="59" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="45" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="78" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="50" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="64" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="45" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="59" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="78" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.2(SCPDetails, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/dialogs/SCPDetails;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.1.1(SCPDetails, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/dialogs/SCPDetails;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$1"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2.2(SelectServerDialog, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/dialogs/SelectServerDialog;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.3(SelectServerDialog, Shell)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/dialogs/SelectServerDialog;Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.SCPDetails(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.SelectServerDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.3.val$shell" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$3"/>
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.2.val$shell" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog$2"/>
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.1.val$shell" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$1"/>
+            <reference linenumber="-1" member="val$shell" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.2.val$shell" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails$2"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="37" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="33" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="32" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="33" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="37" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="36" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Display" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="105" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="143" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="connectButton" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.connectButton" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="cancelButton" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.cancelButton" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="rememberButton" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.rememberButton" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="sendButton" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.sendButton" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="-1" member="cancelButton" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.cancelButton" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="106" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="121" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="87" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="94" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="74" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Text" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="hostText" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.hostText" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="passwordText" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.passwordText" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="userText" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.userText" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="-1" member="passwordText" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.passwordText" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="-1" member="userText" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.userText" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="71" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="52" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="66" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="85" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="57" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.MessageBox" type="org.eclipse.swt.widgets.MessageBox">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.ErrorMessage$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="24" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.ErrorMessage.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.ErrorMessage$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Dialog" type="org.eclipse.swt.widgets.Dialog">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="54" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="72" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="42" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="82" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="119" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="63" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="75" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="47" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="68" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="56" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="104" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="91" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="49" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="61" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+            <reference linenumber="85" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+        <reference linenumber="45" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="42" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SCPDetails"/>
+            <reference linenumber="47" member="open" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.dialogs.SelectServerDialog"/>
+        <reference linenumber="45" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.widgets.TableItem" type="org.eclipse.swt.widgets.TableItem">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="item" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.item" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="98" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.3.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.ErrorTableDisplay(Composite, String[])" signature="(Lorg/eclipse/swt/widgets/Composite;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="40" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="40" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.views.ErrorView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.MouseEvent" type="org.eclipse.swt.events.MouseEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="mouseUp" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.1.mouseUp(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$1"/>
+            <reference linenumber="-1" member="mouseDown" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.1.mouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$1"/>
+            <reference linenumber="-1" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.1.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Image" type="org.eclipse.swt.graphics.Image">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$img" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.3.val$img" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.3.3(ErrorTableDisplay, String[], Image)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/consolelog/structures/ErrorTableDisplay;[Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$3"/>
+            <reference linenumber="-1" member="addRow" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.addRow(String[], Image)" signature="([Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.TableColumn" type="org.eclipse.swt.widgets.TableColumn">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="54" member="createControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="54" member="createControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Table" type="org.eclipse.swt.widgets.Table">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="table" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.table" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="46" member="createControl" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.MouseListener" type="org.eclipse.swt.events.MouseListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="mouseListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.mouseListener" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay.1" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ErrorTableDisplay$1"/>
+        </reference_kind>
+    </target>
+</references>

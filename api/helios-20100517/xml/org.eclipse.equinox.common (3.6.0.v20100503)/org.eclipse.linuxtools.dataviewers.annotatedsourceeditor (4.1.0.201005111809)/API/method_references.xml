@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="10" reference_visibility="1">
+    <target member="isLegal" name="org.eclipse.core.runtime.Assert.isLegal(boolean)" signature="(Z)Z" type="org.eclipse.core.runtime.Assert">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="108" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="444" member="showLinesColored" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        <reference linenumber="65" member="run" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.AbstractOpenSourceFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="isNotNull" name="org.eclipse.core.runtime.Assert.isNotNull(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.core.runtime.Assert">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="71" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn.STChangeRulerColumn(ISharedTextColors, ISTAnnotationColumn)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STChangeRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="isTrue" name="org.eclipse.core.runtime.Assert.isTrue(boolean)" signature="(Z)Z" type="org.eclipse.core.runtime.Assert">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="106" member="createControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.createControl(CompositeRuler, Composite)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.SafeRunner.run(ISafeRunnable)" signature="(Lorg/eclipse/core/runtime/ISafeRunnable;)V" type="org.eclipse.core.runtime.SafeRunner">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="262" member="addSTColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.STColumnSupport.addSTColumn(CompositeRuler, RulerColumnDescriptor, ISTAnnotationColumn)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;Lorg/eclipse/ui/texteditor/rulers/RulerColumnDescriptor;Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$STColumnSupport"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="29" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenFileFullPathAction"/>
+            <reference linenumber="49" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+    <target member="toFile" name="org.eclipse.core.runtime.IPath.toFile()" signature="()Ljava/io/File;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="51" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+    <target member="getStatus" name="org.eclipse.core.runtime.CoreException.getStatus()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.Activator" type="org.eclipse.linuxtools.rpm.rpmlint.Activator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPreferencePage" type="org.eclipse.ui.IWorkbenchPreferencePage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="52" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="53" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="53" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="48" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+</references>

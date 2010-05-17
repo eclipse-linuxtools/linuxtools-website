@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="37" reference_visibility="1">
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.dialogs.ProgressMonitorDialog" type="org.eclipse.jface.dialogs.ProgressMonitorDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="305" member="executeCommand" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.executeCommand(IPath, String[], String[], IPath)" signature="(Lorg/eclipse/core/runtime/IPath;[Ljava/lang/String;[Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)Ljava/util/HashMap;" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.dialogs.InputDialog" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoheaderAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoheaderAction"/>
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeLibtoolizeAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeLibtoolizeAction"/>
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoreconfAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoreconfAction"/>
+            <reference linenumber="71" member="showInput" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.showInput(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.TwoInputDialog" type="org.eclipse.linuxtools.cdt.autotools.actions.TwoInputDialog"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.SingleInputDialog" type="org.eclipse.linuxtools.cdt.autotools.actions.SingleInputDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="71" member="showInput" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.showInput(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeLibtoolizeAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeLibtoolizeAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAclocalAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAclocalAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoheaderAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoheaderAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoconfAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoconfAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.ReconfigureAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutomakeAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutomakeAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoreconfAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAutoreconfAction"/>
+            <reference linenumber="-1" member="setActivePart" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.setActivePart(IAction, IWorkbenchPart)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelection" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.dialogs.IInputValidator" type="org.eclipse.jface.dialogs.IInputValidator">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.actions.TwoInputDialog.TwoInputDialog(Shell, String, String, String, String, String, IInputValidator)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.TwoInputDialog"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.actions.SingleInputDialog.SingleInputDialog(Shell, String, String, String, String, IInputValidator)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.SingleInputDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="66" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="66" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="65" member="selectionChanged" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.operation.IRunnableWithProgress" type="org.eclipse.jface.operation.IRunnableWithProgress">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction.ExecuteProgressDialog" type="org.eclipse.linuxtools.cdt.autotools.actions.InvokeAction$ExecuteProgressDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.util.PropertyChangeEvent" type="org.eclipse.jface.util.PropertyChangeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="propertyChange" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$PropertyListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.preference.IPreferenceStore" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="propagateProperty" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.propagateProperty(IPreferenceStore, OverlayPreferenceStoreOverlayKey, IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore$OverlayKey;Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayPreferenceStore(IPreferenceStore, OverlayPreferenceStoreOverlayKey[])" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;[Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore$OverlayKey;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+            <reference linenumber="-1" member="loadProperty" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.loadProperty(IPreferenceStore, OverlayPreferenceStoreOverlayKey, IPreferenceStore, boolean)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore$OverlayKey;Lorg/eclipse/jface/preference/IPreferenceStore;Z)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+            <reference linenumber="-1" member="initializeDefaultValues" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsEditorPreferenceConstants.initializeDefaultValues(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AutotoolsEditorPreferenceConstants"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fParent" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fParent" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+            <reference linenumber="-1" member="fStore" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.fStore" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.preference.PreferenceStore" type="org.eclipse.jface.preference.PreferenceStore">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.OverlayPreferenceStore(IPreferenceStore, OverlayPreferenceStoreOverlayKey[])" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;[Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/preferences/OverlayPreferenceStore$OverlayKey;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.util.IPropertyChangeListener" type="org.eclipse.jface.util.IPropertyChangeListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="removePropertyChangeListener" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.removePropertyChangeListener(IPropertyChangeListener)" signature="(Lorg/eclipse/jface/util/IPropertyChangeListener;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+            <reference linenumber="-1" member="addPropertyChangeListener" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.addPropertyChangeListener(IPropertyChangeListener)" signature="(Lorg/eclipse/jface/util/IPropertyChangeListener;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore.PropertyListener" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.OverlayPreferenceStore$PropertyListener"/>
+        </reference_kind>
+    </target>
+</references>

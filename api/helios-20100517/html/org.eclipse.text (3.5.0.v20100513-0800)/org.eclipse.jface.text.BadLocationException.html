@@ -1,0 +1,1055 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>BadLocationException usage details</title>
+</head>
+<body>
+<h3>BadLocationException usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.jface.text.BadLocationException has 189 total references to 1 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.BadLocationException">
+<span>[+] </span>BadLocationException
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>CATCHES_EXCEPTION</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)</td>
+<td align="center">426</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">91</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)</td>
+<td align="center">89</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.DocWriter.runInUIThread(IProgressMonitor)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer.handleError(int, int, String)</td>
+<td align="center">375</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)</td>
+<td align="center">1024</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.getCharOffset(int, int)</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextBetween(Token, Token)</td>
+<td align="center">348</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement.getSource()</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextFromUpTo(Token, Token)</td>
+<td align="center">365</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)</td>
+<td align="center">77</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)</td>
+<td align="center">194</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.isGlobal(IDocument, int)</td>
+<td align="center">242</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.updatePresentation(int, TextPresentation)</td>
+<td align="center">163</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationDispatchAction.makeTextHoverFocusable(ISourceViewer, ITextHover)</td>
+<td align="center">509</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditorMacroValidator.validateMacroCall(AutoconfMacroElement)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfAnnotationHover.compareRulerLine(Position, IDocument, int)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.isContextInformationValid(int)</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroContentAssistProcessor.computeCompletionProposals(ITextViewer, int)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationDispatchAction.makeAnnotationHoverFocusable(ISourceViewer, IAnnotationHover)</td>
+<td align="center">579</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroContentAssistProcessor.computeMacroStart(IDocument, int)</td>
+<td align="center">43</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfTokenizer.handleError(int, int, String)</td>
+<td align="center">376</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextFromUpTo(Token, Token)</td>
+<td align="center">366</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)</td>
+<td align="center">1025</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getTokenSpanTextBetween(Token, Token)</td>
+<td align="center">349</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.getCharOffset(int, int)</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement.getSource()</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.isGlobal(IDocument, int)</td>
+<td align="center">242</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)</td>
+<td align="center">77</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)</td>
+<td align="center">194</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.autoconf.ProjectionFileUpdater.createProjectionPosition(AutoconfElement)</td>
+<td align="center">260</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.WordPartDetector.inMacro(IDocument, int)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.WordPartDetector.WordPartDetector(IDocument, int)</td>
+<td align="center">56</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">85</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)</td>
+<td align="center">334</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.findWord(IDocument, int)</td>
+<td align="center">167</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeErrorHandler.getCharOffset(int, int)</td>
+<td align="center">223</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.createProjectionPosition(IDirective)</td>
+<td align="center">234</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">502</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)</td>
+<td align="center">590</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">154</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">81</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogEntry(IDocument, String)</td>
+<td align="center">305</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogPattern(IDocument, int)</td>
+<td align="center">269</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">171</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">196</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">576</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)</td>
+<td align="center">769</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()</td>
+<td align="center">443</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.expandSelection(int)</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">832</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.findBestMatchingLineNumber(int[])</td>
+<td align="center">854</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)</td>
+<td align="center">687</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.startSelecting()</td>
+<td align="center">191</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.gcov.view.annotatedsource.OpenSourceFileAction.openAnnotatedSourceFile(IProject, IFile, SourceFile, IPath, int)</td>
+<td align="center">118</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)</td>
+<td align="center">125</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.getLineOffset(int)</td>
+<td align="center">141</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.getLineLenght(int)</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)</td>
+<td align="center">52</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.run(IMarker)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution.run(IMarker)</td>
+<td align="center">34</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.getPrefix(ITextViewer, int)</td>
+<td align="center">446</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">106</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.findWord(IDocument, int)</td>
+<td align="center">176</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileDoubleClickStrategy.selectWord(int)</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.update(ISourceViewer)</td>
+<td align="center">94</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileDoubleClickStrategy.selectComment(int)</td>
+<td align="center">74</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">55</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.getGroupPrefix(ITextViewer, int)</td>
+<td align="center">475</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.findPackages(IDocument, int)</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeCompletionProposals(ITextViewer, int)</td>
+<td align="center">155</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate.execute(ExecutionEvent)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.parseSpecfile(DocumentRangeNode, IDocument, IProgressMonitor)</td>
+<td align="center">114</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.parseSpecfile(DocumentRangeNode, IDocument, IProgressMonitor)</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.getBody()</td>
+<td align="center">210</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">73</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler.getCharOffset(int, int)</td>
+<td align="center">36</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(String, SpecfilePackage, String)</td>
+<td align="center">260</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSource.changeDeclaration(int)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(String, String)</td>
+<td align="center">273</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection.getContents()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSource.changeReferences(int)</td>
+<td align="center">95</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(SpecfileTag, String)</td>
+<td align="center">284</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.selectLine(int)</td>
+<td align="center">102</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectWord(int)</td>
+<td align="center">124</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.jumpToLocation(int, int)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectComment(int)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">100</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.find(String)</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">53</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionReplaceWordLocation(IDocument, int)</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionWord(IDocument, int)</td>
+<td align="center">117</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.initialReconcile()</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)</td>
+<td align="center">154</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)</td>
+<td align="center">91</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)</td>
+<td align="center">89</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.callgraph.core.DocWriter.runInUIThread(IProgressMonitor)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.getCharOffset(int, int)</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfOutlineErrorHandler.getCharOffset(int, int)</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeErrorHandler.getCharOffset(int, int)</td>
+<td align="center">223</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)</td>
+<td align="center">590</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">112</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogEntry(IDocument, String)</td>
+<td align="center">305</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">81</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">154</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogPattern(IDocument, int)</td>
+<td align="center">269</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">196</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">171</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()</td>
+<td align="center">443</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)</td>
+<td align="center">125</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.getLineOffset(int)</td>
+<td align="center">141</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.getLineLenght(int)</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)</td>
+<td align="center">52</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution.run(IMarker)</td>
+<td align="center">34</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.run(IMarker)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.update(ISourceViewer)</td>
+<td align="center">94</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeCompletionProposals(ITextViewer, int)</td>
+<td align="center">155</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate.execute(ExecutionEvent)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.parseSpecfile(DocumentRangeNode, IDocument, IProgressMonitor)</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.compare.SpecStructureCreator.parseSpecfile(DocumentRangeNode, IDocument, IProgressMonitor)</td>
+<td align="center">114</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler.getCharOffset(int, int)</td>
+<td align="center">36</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(String, SpecfilePackage, String)</td>
+<td align="center">260</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSource.changeDeclaration(int)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(String, String)</td>
+<td align="center">273</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSource.changeReferences(int)</td>
+<td align="center">95</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection.getContents()</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.modifyDefine(SpecfileTag, String)</td>
+<td align="center">284</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionWord(IDocument, int)</td>
+<td align="center">117</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionReplaceWordLocation(IDocument, int)</td>
+<td align="center">87</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">53</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)</td>
+<td align="center">154</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>THROWS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.getStringEnd(IDocument, int, int, char)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.getCharCount(IDocument, int, int, char, char, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.getWordAtSelection(ISelection, IDocument)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.getLineLength(int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.getLine(int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.changeLine(int, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.calculatePositions()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.findEndOfProbeOrFunction()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionReplaceWordLocation(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.findEndOfComment()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.matchKeyWord(String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.isProbe()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.isFunction()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.classifyComponent(int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.buildPositions()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.getToolName(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.completionWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

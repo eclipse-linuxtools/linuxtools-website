@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="53" reference_visibility="1">
+    <target name="org.eclipse.core.resources.IProject" type="org.eclipse.core.resources.IProject">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="41" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="toggleNature" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.toggleNature(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        <reference linenumber="-1" member="setProject" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.setProject(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="40" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="42" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+            <reference linenumber="44" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProject" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+            <reference linenumber="-1" member="build" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="project" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.project" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IProjectDescription" type="org.eclipse.core.resources.IProjectDescription">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="63" member="toggleNature" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.toggleNature(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+        <reference linenumber="34" member="configure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.configure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+            <reference linenumber="56" member="deconfigure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.deconfigure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IFile" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="48" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="50" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+            <reference linenumber="52" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        <reference linenumber="65" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="111" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="129" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="101" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="49" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="fileToString" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.fileToString(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="-1" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="-1" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        <reference linenumber="-1" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+            <reference linenumber="-1" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, int, int, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="currentFile" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.currentFile" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.resources.IResourceDeltaVisitor" type="org.eclipse.core.resources.IResourceDeltaVisitor">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IncrementalProjectBuilder" type="org.eclipse.core.resources.IncrementalProjectBuilder">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IProjectNature" type="org.eclipse.core.resources.IProjectNature">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResourceDelta" type="org.eclipse.core.resources.IResourceDelta">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="incrementalBuild" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.incrementalBuild(IResourceDelta, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IResourceDelta;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="-1" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor.visit(IResourceDelta)" signature="(Lorg/eclipse/core/resources/IResourceDelta;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="71" member="build" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.build(int, Map, IProgressMonitor)" signature="(ILjava/util/Map;Lorg/eclipse/core/runtime/IProgressMonitor;)[Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.ICommand" type="org.eclipse.core.resources.ICommand">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="60" member="deconfigure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.deconfigure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+            <reference linenumber="41" member="configure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.configure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="36" member="configure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.configure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+            <reference linenumber="43" member="configure" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature.configure()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintNature"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResource" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="29" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor.visit(IResourceDelta)" signature="(Lorg/eclipse/core/resources/IResourceDelta;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintDeltaVisitor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor"/>
+            <reference linenumber="-1" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerRemoveVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerRemoveVisitor"/>
+            <reference linenumber="-1" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        <reference linenumber="-1" member="deleteMarkers" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.deleteMarkers(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.resources.IResourceVisitor" type="org.eclipse.core.resources.IResourceVisitor">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerRemoveVisitor" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerRemoveVisitor"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintPreVisitor"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.resources.IMarker" type="org.eclipse.core.resources.IMarker">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="97" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+            <reference linenumber="78" member="addMarker" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.addMarker(IFile, String, int, int, int, int, String, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution"/>
+            <reference linenumber="-1" member="getResolutions" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator.getResolutions(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)[Lorg/eclipse/ui/IMarkerResolution;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator"/>
+            <reference linenumber="-1" member="hasResolutions" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator.hasResolutions(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator"/>
+            <reference linenumber="-1" member="getRpmlintErrorId" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator.getRpmlintErrorId(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.RpmlintMarkerResolutionGenerator"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution"/>
+            <reference linenumber="-1" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+</references>

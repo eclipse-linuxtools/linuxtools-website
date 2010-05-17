@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="45" reference_visibility="1">
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="run" origin="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt.1.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.PasswordPrompt$1"/>
+        <reference linenumber="50" member="getNewInputObject" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+<target member="buttonPressed" name="org.eclipse.jface.dialogs.Dialog.buttonPressed(int)" signature="(I)V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="75" member="buttonPressed" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="buttonPressed" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.jface.preference.FieldEditor.init(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="24" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.ListEditor(String, String, String, String, IInputValidator, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.ComboFieldEditor(String, String, String[][], Composite)" signature="(Ljava/lang/String;Ljava/lang/String;[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doLoad" name="org.eclipse.jface.preference.FieldEditor.doLoad()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doLoad" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doStore" name="org.eclipse.jface.preference.FieldEditor.doStore()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getNewInputObject" name="org.eclipse.jface.preference.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getNewInputObject" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doLoadDefault" name="org.eclipse.jface.preference.FieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doLoadDefault" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="configureShell" name="org.eclipse.jface.window.Window.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="32" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setValue" name="org.eclipse.jface.preference.IPreferenceStore.setValue(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="135" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.jface.preference.FieldEditor.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="116" member="doLoad" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="131" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="123" member="doLoadDefault" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditor.FieldEditor()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="45" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.ComboFieldEditor(String, String, String[][], Composite)" signature="(Ljava/lang/String;Ljava/lang/String;[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.jface.preference.IPreferenceStore.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="116" member="doLoad" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.preference.ListEditor.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="getNewInputObject" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createControl" name="org.eclipse.jface.preference.FieldEditor.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.ComboFieldEditor(String, String, String[][], Composite)" signature="(Ljava/lang/String;Ljava/lang/String;[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.ListEditor(String, String, String, String, IInputValidator, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setPresentsDefaultValue" name="org.eclipse.jface.preference.FieldEditor.setPresentsDefaultValue(boolean)" signature="(Z)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$3" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.access$3(ComboFieldEditor, boolean)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/ui/ComboFieldEditor;Z)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelControl" name="org.eclipse.jface.preference.FieldEditor.getLabelControl()" signature="()Lorg/eclipse/swt/widgets/Label;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="76" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="84" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getNumberOfControls" name="org.eclipse.jface.preference.FieldEditor.getNumberOfControls()" signature="()I" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getNumberOfControls" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.getNumberOfControls()" signature="()I" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.Dialog.Dialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.PasswordDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.PasswordDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target member="adjustForNumColumns" name="org.eclipse.jface.preference.FieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createList" name="org.eclipse.jface.preference.ListEditor.createList(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createList" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.createList(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelControl" name="org.eclipse.jface.preference.FieldEditor.getLabelControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Label;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="100" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.ListEditor.ListEditor()" signature="()V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="23" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.ListEditor(String, String, String, String, IInputValidator, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doFillIntoGrid" name="org.eclipse.jface.preference.FieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceName" name="org.eclipse.jface.preference.FieldEditor.getPreferenceName()" signature="()Ljava/lang/String;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="116" member="doLoad" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="131" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="123" member="doLoadDefault" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.jface.dialogs.InputDialog.getValue()" signature="()Ljava/lang/String;" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="getNewInputObject" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createDialogArea" name="org.eclipse.jface.dialogs.Dialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultString" name="org.eclipse.jface.preference.IPreferenceStore.getDefaultString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="123" member="doLoadDefault" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setToDefault" name="org.eclipse.jface.preference.IPreferenceStore.setToDefault(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="131" member="doStore" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="fireValueChanged" name="org.eclipse.jface.preference.FieldEditor.fireValueChanged(String, Object, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$4" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.access$4(ComboFieldEditor, String, Object, Object)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/ui/ComboFieldEditor;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="parseString" name="org.eclipse.jface.preference.ListEditor.parseString(String)" signature="(Ljava/lang/String;)[Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="parseString" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.parseString(String)" signature="(Ljava/lang/String;)[Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.InputDialog.InputDialog(Shell, String, String, String, IInputValidator)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;)V" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="49" member="getNewInputObject" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+        </reference_kind>
+    </target>
+<target member="isValid" name="org.eclipse.jface.dialogs.IInputValidator.isValid(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.dialogs.IInputValidator">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="34" member="isValid" origin="org.eclipse.linuxtools.systemtap.ui.structures.validators.MultiValidator.isValid(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.validators.MultiValidator"/>
+        </reference_kind>
+    </target>
+</references>

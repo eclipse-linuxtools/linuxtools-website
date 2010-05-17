@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.callgraph.launch (0.0.1.201005111809)" referee="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" reference_count="2" reference_visibility="1">
+    <target member="SYSTEMTAP_OPTIONS_TAB_HORIZONTAL_SPACING" name="org.eclipse.linuxtools.callgraph.core.PluginConstants.SYSTEMTAP_OPTIONS_TAB_HORIZONTAL_SPACING" type="org.eclipse.linuxtools.callgraph.core.PluginConstants">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="658" member="createCommandOption" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.createCommandOption(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target member="STAP_PATH" name="org.eclipse.linuxtools.callgraph.core.PluginConstants.STAP_PATH" type="org.eclipse.linuxtools.callgraph.core.PluginConstants">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="158" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.compare.core (3.5.100.I20100505-1245)" reference_count="12" reference_visibility="1">
+    <target member="leftLength" name="org.eclipse.compare.rangedifferencer.RangeDifference.leftLength()" signature="()I" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="251" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="findDifferences" name="org.eclipse.compare.rangedifferencer.RangeDifferencer.findDifferences(IRangeComparator, IRangeComparator)" signature="(Lorg/eclipse/compare/rangedifferencer/IRangeComparator;Lorg/eclipse/compare/rangedifferencer/IRangeComparator;)[Lorg/eclipse/compare/rangedifferencer/RangeDifference;" type="org.eclipse.compare.rangedifferencer.RangeDifferencer">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="245" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="193" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="rightStart" name="org.eclipse.compare.rangedifferencer.RangeDifference.rightStart()" signature="()I" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="221" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="220" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="199" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="255" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="rightLength" name="org.eclipse.compare.rangedifferencer.RangeDifference.rightLength()" signature="()I" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="248" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="196" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="kind" name="org.eclipse.compare.rangedifferencer.RangeDifference.kind()" signature="()I" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="194" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="246" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="leftStart" name="org.eclipse.compare.rangedifferencer.RangeDifference.leftStart()" signature="()I" type="org.eclipse.compare.rangedifferencer.RangeDifference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="254" member="getChangedLines" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.getChangedLines(Subscriber, PatchFile, IProgressMonitor)" signature="(Lorg/eclipse/team/core/subscribers/Subscriber;Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+</references>

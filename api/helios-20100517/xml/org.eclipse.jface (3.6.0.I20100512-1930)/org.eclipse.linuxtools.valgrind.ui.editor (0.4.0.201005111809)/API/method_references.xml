@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="14" reference_visibility="1">
+    <target member="run" name="org.eclipse.jface.operation.IRunnableContext.run(boolean, boolean, IRunnableWithProgress)" signature="(ZZLorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.jface.operation.IRunnableContext">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="100" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.jface.wizard.WizardPage.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="addPages" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.wizard.WizardPage.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="addPages" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.wizard.Wizard.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="105" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+            <reference linenumber="143" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="addPages" name="org.eclipse.jface.wizard.Wizard.addPages()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="addPages" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="performFinish" name="org.eclipse.jface.wizard.Wizard.performFinish()" signature="()Z" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setDescription" name="org.eclipse.jface.wizard.WizardPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="addPages" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="105" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setNeedsProgressMonitor" name="org.eclipse.jface.wizard.Wizard.setNeedsProgressMonitor(boolean)" signature="(Z)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.NewSuppressionWizard()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="addPage" name="org.eclipse.jface.wizard.Wizard.addPage(IWizardPage)" signature="(Lorg/eclipse/jface/wizard/IWizardPage;)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="77" member="addPages" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getContainer" name="org.eclipse.jface.wizard.Wizard.getContainer()" signature="()Lorg/eclipse/jface/wizard/IWizardContainer;" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="100" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.Wizard.Wizard()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.NewSuppressionWizard()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.NewSuppressionWizard()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+</references>

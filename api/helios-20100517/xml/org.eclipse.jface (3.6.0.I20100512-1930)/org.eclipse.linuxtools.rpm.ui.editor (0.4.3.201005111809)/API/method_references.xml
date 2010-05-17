@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="283" reference_visibility="1">
+    <target member="addPostSelectionChangedListener" name="org.eclipse.jface.viewers.IPostSelectionProvider.addPostSelectionChangedListener(ISelectionChangedListener)" signature="(Lorg/eclipse/jface/viewers/ISelectionChangedListener;)V" type="org.eclipse.jface.viewers.IPostSelectionProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.RpmMacroOccurrencesUpdater(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="setValue" name="org.eclipse.jface.preference.IPreferenceStore.setValue(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="44" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+            <reference linenumber="47" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+        <reference linenumber="87" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+            <reference linenumber="140" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="139" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="put" name="org.eclipse.jface.resource.ImageRegistry.put(String, ImageDescriptor)" signature="(Ljava/lang/String;Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.resource.ImageRegistry">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="197" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="getInt" name="org.eclipse.jface.preference.IPreferenceStore.getInt(String)" signature="(Ljava/lang/String;)I" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="66" member="getProposals" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getProposals(String)" signature="(Ljava/lang/String;)Ljava/util/List;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="244" member="getTabSize" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration.getTabSize()" signature="()I" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="get" name="org.eclipse.jface.resource.ImageRegistry.get(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.resource.ImageRegistry">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="194" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+            <reference linenumber="198" member="getImage" origin="org.eclipse.linuxtools.rpm.ui.editor.Activator.getImage(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.rpm.ui.editor.Activator"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.ISelectionProvider.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.ISelectionProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="71" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.update(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+            <reference linenumber="109" member="computeCompletionProposals" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor"/>
+            <reference linenumber="187" member="computeTemplateProposals" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeTemplateProposals(ITextViewer, IRegion, Specfile, String)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;Ljava/lang/String;)Ljava/util/List;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.jface.preference.IPreferenceStore.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+            <reference linenumber="267" member="getMacroValueFromMacroList" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getMacroValueFromMacroList(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover"/>
+            <reference linenumber="134" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+            <reference linenumber="45" member="setPackagesList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.setPackagesList()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="55" member="buildMacroList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroProposalsList.buildMacroList()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroProposalsList"/>
+            <reference linenumber="136" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        <reference linenumber="60" member="formatDateLine" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.formatDateLine(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter"/>
+            <reference linenumber="96" member="formatTodaysDate" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.formatTodaysDate()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter"/>
+        <reference linenumber="153" member="generateTaskMarker" origin="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser.generateTaskMarker(int, String)" signature="(ILjava/lang/String;)V" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser"/>
+        <reference linenumber="69" member="createLocalesCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createLocalesCombo(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="149" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="removePostSelectionChangedListener" name="org.eclipse.jface.viewers.IPostSelectionProvider.removePostSelectionChangedListener(ISelectionChangedListener)" signature="(Lorg/eclipse/jface/viewers/ISelectionChangedListener;)V" type="org.eclipse.jface.viewers.IPostSelectionProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="237" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroOccurrencesUpdater"/>
+        </reference_kind>
+    </target>
+    <target member="getBoolean" name="org.eclipse.jface.preference.IPreferenceStore.getBoolean(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="161" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="163" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="157" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="249" member="isTabConversionEnabled" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration.isTabConversionEnabled()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileConfiguration"/>
+            <reference linenumber="159" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="153" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="155" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="149" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="151" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="145" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="147" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="141" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="143" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="139" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="165" member="getformattedRpmInformations" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getformattedRpmInformations()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+        </reference_kind>
+    </target>
+<target member="hint" name="org.eclipse.jface.layout.GridDataFactory.hint(int, int)" signature="(II)Lorg/eclipse/jface/layout/GridDataFactory;" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="84" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getTree" name="org.eclipse.jface.viewers.TreeViewer.getTree()" signature="()Lorg/eclipse/swt/widgets/Tree;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="createUIListenersTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIListenersTreeViewer()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="96" member="keyPressed" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.1.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$1"/>
+            <reference linenumber="94" member="keyPressed" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.1.keyPressed(KeyEvent)" signature="(Lorg/eclipse/swt/events/KeyEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog$1"/>
+        </reference_kind>
+    </target>
+    <target member="select" name="org.eclipse.jface.viewers.ViewerFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.jface.viewers.ViewerFilter">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="select" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.jface.viewers.ILabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.jface.viewers.ILabelProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="select" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+    <target member="expandAll" name="org.eclipse.jface.viewers.AbstractTreeViewer.expandAll()" signature="()V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.1.run()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage$1"/>
+            <reference linenumber="116" member="stringMatcherUpdated" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.stringMatcherUpdated()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="saveDialogBounds" name="org.eclipse.jface.dialogs.PopupDialog.saveDialogBounds(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="60" member="setVisible" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.dialogs.PopupDialog.open()" signature="()I" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="setVisible" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelProvider" name="org.eclipse.jface.viewers.TreeViewer.getLabelProvider()" signature="()Lorg/eclipse/jface/viewers/IBaseLabelProvider;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="select" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.jface.window.Window.create()" signature="()V" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.SpecfileQuickOutlineDialog(Shell, int, SpecfileEditor)" signature="(Lorg/eclipse/swt/widgets/Shell;ILorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.AbstractTreeViewer.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="getSelectedElement" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.getSelectedElement()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewer.TreeViewer(Tree)" signature="(Lorg/eclipse/swt/widgets/Tree;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="126" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="grab" name="org.eclipse.jface.layout.GridDataFactory.grab(boolean, boolean)" signature="(ZZ)Lorg/eclipse/jface/layout/GridDataFactory;" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="83" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="applyTo" name="org.eclipse.jface.layout.GridDataFactory.applyTo(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="85" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="136" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="77" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.1.run()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage$1"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="164" member="getSelectedElement" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.getSelectedElement()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="95" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        <reference linenumber="301" member="initialize" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.TreeViewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="update" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.update()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+            <reference linenumber="114" member="stringMatcherUpdated" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.stringMatcherUpdated()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="117" member="stringMatcherUpdated" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.stringMatcherUpdated()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="73" member="createDialogArea" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="isEmpty" name="org.eclipse.jface.viewers.ISelection.isEmpty()" signature="()Z" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="90" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        <reference linenumber="296" member="initialize" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="addSelectionChangedListener" name="org.eclipse.jface.viewers.Viewer.addSelectionChangedListener(ISelectionChangedListener)" signature="(Lorg/eclipse/jface/viewers/ISelectionChangedListener;)V" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="setAutoExpandLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.setAutoExpandLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="134" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.TreeViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="72" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+            <reference linenumber="131" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.ViewerFilter.ViewerFilter()" signature="()V" type="org.eclipse.jface.viewers.ViewerFilter">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="23" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.ContainsFilter()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.ContainsFilter()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+    <target member="fillDefaults" name="org.eclipse.jface.layout.GridDataFactory.fillDefaults()" signature="()Lorg/eclipse/jface/layout/GridDataFactory;" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="83" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.window.Window.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="setSize" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.setSize(int, int)" signature="(II)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="60" member="setVisible" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+            <reference linenumber="61" member="setVisible" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="align" name="org.eclipse.jface.layout.GridDataFactory.align(int, int)" signature="(II)Lorg/eclipse/jface/layout/GridDataFactory;" type="org.eclipse.jface.layout.GridDataFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="83" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="refresh" name="org.eclipse.jface.viewers.StructuredViewer.refresh()" signature="()V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="115" member="stringMatcherUpdated" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.stringMatcherUpdated()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="convertHeightInCharsToPixels" name="org.eclipse.jface.dialogs.Dialog.convertHeightInCharsToPixels(FontMetrics, int)" signature="(Lorg/eclipse/swt/graphics/FontMetrics;I)I" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="85" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.PopupDialog.PopupDialog(Shell, int, boolean, boolean, boolean, boolean, boolean, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;IZZZZZLjava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.SpecfileQuickOutlineDialog(Shell, int, SpecfileEditor)" signature="(Lorg/eclipse/swt/widgets/Shell;ILorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.SelectionChangedEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.SelectionChangedEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="89" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+    <target member="getContentProvider" name="org.eclipse.jface.viewers.ContentViewer.getContentProvider()" signature="()Lorg/eclipse/jface/viewers/IContentProvider;" type="org.eclipse.jface.viewers.ContentViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="hasUnfilteredChild" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.hasUnfilteredChild(TreeViewer, Object)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+    <target member="close" name="org.eclipse.jface.dialogs.PopupDialog.close()" signature="()Z" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="66" member="dispose" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.dispose()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+            <reference linenumber="133" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createDialogArea" name="org.eclipse.jface.dialogs.PopupDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setUseHashlookup" name="org.eclipse.jface.viewers.StructuredViewer.setUseHashlookup(boolean)" signature="(Z)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="createTitleControl" name="org.eclipse.jface.dialogs.PopupDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.PopupDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createTitleControl" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createTitleControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="addFilter" name="org.eclipse.jface.viewers.StructuredViewer.addFilter(ViewerFilter)" signature="(Lorg/eclipse/jface/viewers/ViewerFilter;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="128" member="createUIWidgetTreeViewer" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog.createUIWidgetTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileQuickOutlineDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getChildren" name="org.eclipse.jface.viewers.ITreeContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="53" member="hasUnfilteredChild" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter.hasUnfilteredChild(TreeViewer, Object)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.rpm.ui.editor.outline.ContainsFilter"/>
+        </reference_kind>
+    </target>
+<target member="propertyChange" name="org.eclipse.jface.preference.FieldEditorPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="145" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.preference.ListEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setEnabled" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="416" member="setEnabled" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="checkParent" name="org.eclipse.jface.preference.FieldEditor.checkParent(Control, Composite)" signature="(Lorg/eclipse/swt/widgets/Control;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="321" member="getListControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="295" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.jface.preference.FieldEditor.init(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="126" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.MacroListEditor(MacroProposalsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/MacroProposalsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TaskTagsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+            <reference linenumber="50" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.MainPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.RpmProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.RpmInformationsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="40" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="getNewInputObject" name="org.eclipse.jface.preference.ListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+            <reference linenumber="-1" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="selectionChanged" name="org.eclipse.jface.preference.ListEditor.selectionChanged()" signature="()V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.selectionChanged()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="36" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="48" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="34" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="32" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="44" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="46" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="78" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="42" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, boolean)" signature="(Ljava/lang/String;Z)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="68" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="38" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="70" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="64" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="66" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="60" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="62" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="56" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="58" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="52" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="54" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="81" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="50" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="74" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="72" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+            <reference linenumber="76" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.IntegerFieldEditor.IntegerFieldEditor(String, String, Composite, int)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.preference.IntegerFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="119" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.BooleanFieldEditor.BooleanFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.BooleanFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="49" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="52" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="51" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="117" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="54" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="44" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="66" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getButtonBoxControl" name="org.eclipse.jface.preference.ListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getButtonBoxControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getButtonBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.RpmProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.MainPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.RpmInformationsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TaskTagsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="60" member="maxProposalsIntegerFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.maxProposalsIntegerFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="64" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="63" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="66" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="127" member="buildTimeListRateFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.buildTimeListRateFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="49" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="51" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="37" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="52" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="44" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="54" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="101" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="117" member="rpmtoolsRadioGroupFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.rpmtoolsRadioGroupFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="76" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getOldValue" name="org.eclipse.jface.util.PropertyChangeEvent.getOldValue()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.util.PropertyChangeEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="147" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.StringFieldEditor.StringFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.StringFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="63" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDescription" name="org.eclipse.jface.dialogs.DialogPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.RpmInformationsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.preference.ListEditor.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="59" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getShell" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getNewValue" name="org.eclipse.jface.util.PropertyChangeEvent.getNewValue()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.util.PropertyChangeEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="147" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.jface.resource.JFaceResources.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.resource.JFaceResources">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="223" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createControl" name="org.eclipse.jface.preference.FieldEditor.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="127" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.MacroListEditor(MacroProposalsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/MacroProposalsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setPresentsDefaultValue" name="org.eclipse.jface.preference.FieldEditor.setPresentsDefaultValue(boolean)" signature="(Z)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="360" member="removePressed" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.removePressed()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="184" member="addDirPressed" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addDirPressed()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="390" member="swap" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.swap(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="166" member="addFilePressed" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.addFilePressed()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="performDefaults" name="org.eclipse.jface.preference.FieldEditorPreferencePage.performDefaults()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="137" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="86" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.MainPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.RpmProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.RpmInformationsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroProposalsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage.SpecTemplatePreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TaskTagsPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setValidRange" name="org.eclipse.jface.preference.IntegerFieldEditor.setValidRange(int, int)" signature="(II)V" type="org.eclipse.jface.preference.IntegerFieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="61" member="maxProposalsIntegerFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.maxProposalsIntegerFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.RadioGroupFieldEditor.RadioGroupFieldEditor(String, String, int, String[][], Composite, boolean)" signature="(Ljava/lang/String;Ljava/lang/String;I[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;Z)V" type="org.eclipse.jface.preference.RadioGroupFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="122" member="buildTimeListRateFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.buildTimeListRateFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="56" member="changelogEntryFormatFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.changelogEntryFormatFieldEditor(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="114" member="rpmtoolsRadioGroupFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.rpmtoolsRadioGroupFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="65" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="46" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="49" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="51" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="52" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="116" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="122" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="40" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="44" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="65" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="66" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="67" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="60" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="110" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="54" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+            <reference linenumber="77" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="64" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage"/>
+            <reference linenumber="35" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="createList" name="org.eclipse.jface.preference.ListEditor.createList(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createList" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createList(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+            <reference linenumber="-1" member="createList" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.createList(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.ListEditor.ListEditor()" signature="()V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="125" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.MacroListEditor(MacroProposalsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/MacroProposalsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.IntegerFieldEditor.IntegerFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.IntegerFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="58" member="maxProposalsIntegerFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.maxProposalsIntegerFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="87" member="widgetSelected" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage$1"/>
+            <reference linenumber="69" member="createLocalesCombo" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.createLocalesCombo(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="140" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+            <reference linenumber="139" member="performDefaults" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MainPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="61" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        <reference linenumber="322" member="handleBrowse" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.handleBrowse()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.jface.dialogs.InputDialog.getValue()" signature="()Ljava/lang/String;" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.ListEditor.ListEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.TasksListEditor(TaskTagsPreferencePage, String, String, Composite)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/preferences/TaskTagsPreferencePage;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorMessage" name="org.eclipse.jface.preference.StringFieldEditor.setErrorMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.preference.StringFieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="62" member="maxProposalsIntegerFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage.maxProposalsIntegerFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmInformationsPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="createSelectionListener" name="org.eclipse.jface.preference.ListEditor.createSelectionListener()" signature="()V" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createSelectionListener" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createSelectionListener()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="convertHorizontalDLUsToPixels" name="org.eclipse.jface.preference.FieldEditor.convertHorizontalDLUsToPixels(Control, int)" signature="(Lorg/eclipse/swt/widgets/Control;I)I" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="226" member="createPushButton" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.createPushButton(Composite, String)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/String;)Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.InputDialog.InputDialog(Shell, String, String, String, IInputValidator)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;)V" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="59" member="getNewInputObject" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.getNewInputObject()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="parseString" name="org.eclipse.jface.preference.ListEditor.parseString(String)" signature="(Ljava/lang/String;)[Ljava/lang/String;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="parseString" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage.TasksListEditor.parseString(String)" signature="(Ljava/lang/String;)[Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.TaskTagsPreferencePage$TasksListEditor"/>
+            <reference linenumber="-1" member="parseString" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.parseString(String)" signature="(Ljava/lang/String;)[Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getListControl" name="org.eclipse.jface.preference.ListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.jface.preference.ListEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getListControl" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage.MacroListEditor.getListControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/List;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.MacroProposalsPreferencePage$MacroListEditor"/>
+        </reference_kind>
+    </target>
+<target member="createFromFile" name="org.eclipse.jface.resource.ImageDescriptor.createFromFile(Class, String)" signature="(Ljava/lang/Class;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.NoExecutableWizardPage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="performFinish" name="org.eclipse.jface.wizard.Wizard.performFinish()" signature="()Z" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setDescription" name="org.eclipse.jface.wizard.WizardPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="101" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.SpecfileNewWizardPage(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="99" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.WizardPage.WizardPage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="99" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.SpecfileNewWizardPage(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="24" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.NoExecutableWizardPage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.DialogPage.DialogPage()" signature="()V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.NoExecutableWizardPage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorMessage" name="org.eclipse.jface.wizard.WizardPage.setErrorMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="380" member="updateStatus" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.updateStatus(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="size" name="org.eclipse.jface.viewers.IStructuredSelection.size()" signature="()I" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="299" member="initialize" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.initialize()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getContainer" name="org.eclipse.jface.wizard.Wizard.getContainer()" signature="()Lorg/eclipse/jface/wizard/IWizardContainer;" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="93" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.wizard.WizardPage.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="320" member="handleBrowse" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.handleBrowse()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.Wizard.Wizard()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.SpecfileNewWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.SpecfileNewWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.operation.IRunnableContext.run(boolean, boolean, IRunnableWithProgress)" signature="(ZZLorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.jface.operation.IRunnableContext">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="93" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.jface.wizard.WizardPage.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="100" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.SpecfileNewWizardPage(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="43" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.wizard.WizardPage.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.NoExecutableWizardPage()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.wizard.Wizard.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="doFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.doFinish(String, String, InputStream, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+            <reference linenumber="99" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="addPages" name="org.eclipse.jface.wizard.Wizard.addPages()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setPageComplete" name="org.eclipse.jface.wizard.WizardPage.setPageComplete(boolean)" signature="(Z)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="381" member="updateStatus" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.updateStatus(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="setNeedsProgressMonitor" name="org.eclipse.jface.wizard.Wizard.setNeedsProgressMonitor(boolean)" signature="(Z)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.SpecfileNewWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="addPage" name="org.eclipse.jface.wizard.Wizard.addPage(IWizardPage)" signature="(Lorg/eclipse/jface/wizard/IWizardPage;)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="66" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+            <reference linenumber="63" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isPageComplete" name="org.eclipse.jface.wizard.WizardPage.isPageComplete()" signature="()Z" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isPageComplete" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.isPageComplete()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="setControl" name="org.eclipse.jface.dialogs.DialogPage.setControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="217" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+            <reference linenumber="42" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.NoExecutableWizardPage"/>
+        </reference_kind>
+    </target>
+</references>

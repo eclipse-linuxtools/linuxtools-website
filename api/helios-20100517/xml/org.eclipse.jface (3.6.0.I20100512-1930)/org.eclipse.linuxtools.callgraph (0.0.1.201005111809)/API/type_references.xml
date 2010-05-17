@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="135" reference_visibility="1">
+    <target name="org.eclipse.jface.viewers.StructuredSelection" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="320" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="57" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IDoubleClickListener" type="org.eclipse.jface.viewers.IDoubleClickListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="treeDoubleListener" origin="org.eclipse.linuxtools.callgraph.StapGraph.treeDoubleListener" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IToolBarManager" type="org.eclipse.jface.action.IToolBarManager">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="mgr" origin="org.eclipse.linuxtools.callgraph.CallgraphView.mgr" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.MenuManager" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="517" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="516" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="515" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="514" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="508" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuManager" type="org.eclipse.jface.action.IMenuManager">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="animation" origin="org.eclipse.linuxtools.callgraph.CallgraphView.animation" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="saveMenu" origin="org.eclipse.linuxtools.callgraph.CallgraphView.saveMenu" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="gotoMenu" origin="org.eclipse.linuxtools.callgraph.CallgraphView.gotoMenu" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="menu" origin="org.eclipse.linuxtools.callgraph.CallgraphView.menu" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="markers" origin="org.eclipse.linuxtools.callgraph.CallgraphView.markers" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getAnimation" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getAnimation()" signature="()Lorg/eclipse/jface/action/IMenuManager;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setAnimation" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setAnimation(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="pauseImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.pauseImage" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="playImage" origin="org.eclipse.linuxtools.callgraph.CallgraphView.playImage" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="594" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="641" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="607" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="688" member="createAnimateActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createAnimateActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="619" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="632" member="createViewActions" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createViewActions()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.callgraph.CallgraphPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.callgraph.CallgraphPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TreeViewer" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setTreeViewer" origin="org.eclipse.linuxtools.callgraph.StapGraph.setTreeViewer(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.StapTreeDoubleClickListener(TreeViewer, StapGraph)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;Lorg/eclipse/linuxtools/callgraph/StapGraph;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getTreeViewer" origin="org.eclipse.linuxtools.callgraph.StapGraph.getTreeViewer()" signature="()Lorg/eclipse/jface/viewers/TreeViewer;" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="treeViewer" origin="org.eclipse.linuxtools.callgraph.StapGraph.treeViewer" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="-1" member="viewer" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.viewer" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="193" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.Action" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.1" type="org.eclipse.linuxtools.callgraph.CallgraphView$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.15" type="org.eclipse.linuxtools.callgraph.CallgraphView$15"/>
+            <reference linenumber="599" origin="org.eclipse.linuxtools.callgraph.CallgraphView.6" type="org.eclipse.linuxtools.callgraph.CallgraphView$6"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.16" type="org.eclipse.linuxtools.callgraph.CallgraphView$16"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.3" type="org.eclipse.linuxtools.callgraph.CallgraphView$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.17" type="org.eclipse.linuxtools.callgraph.CallgraphView$17"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.2" type="org.eclipse.linuxtools.callgraph.CallgraphView$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.18" type="org.eclipse.linuxtools.callgraph.CallgraphView$18"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.9" type="org.eclipse.linuxtools.callgraph.CallgraphView$9"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.19" type="org.eclipse.linuxtools.callgraph.CallgraphView$19"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.8" type="org.eclipse.linuxtools.callgraph.CallgraphView$8"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.7" type="org.eclipse.linuxtools.callgraph.CallgraphView$7"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.6" type="org.eclipse.linuxtools.callgraph.CallgraphView$6"/>
+            <reference linenumber="458" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.12" type="org.eclipse.linuxtools.callgraph.CallgraphView$12"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.14" type="org.eclipse.linuxtools.callgraph.CallgraphView$14"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="768" origin="org.eclipse.linuxtools.callgraph.CallgraphView.14" type="org.eclipse.linuxtools.callgraph.CallgraphView$14"/>
+            <reference linenumber="653" origin="org.eclipse.linuxtools.callgraph.CallgraphView.10" type="org.eclipse.linuxtools.callgraph.CallgraphView$10"/>
+            <reference linenumber="583" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="774" origin="org.eclipse.linuxtools.callgraph.CallgraphView.15" type="org.eclipse.linuxtools.callgraph.CallgraphView$15"/>
+            <reference linenumber="636" origin="org.eclipse.linuxtools.callgraph.CallgraphView.9" type="org.eclipse.linuxtools.callgraph.CallgraphView$9"/>
+            <reference linenumber="665" origin="org.eclipse.linuxtools.callgraph.CallgraphView.11" type="org.eclipse.linuxtools.callgraph.CallgraphView$11"/>
+            <reference linenumber="793" origin="org.eclipse.linuxtools.callgraph.CallgraphView.17" type="org.eclipse.linuxtools.callgraph.CallgraphView$17"/>
+            <reference linenumber="785" origin="org.eclipse.linuxtools.callgraph.CallgraphView.16" type="org.eclipse.linuxtools.callgraph.CallgraphView$16"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.21" type="org.eclipse.linuxtools.callgraph.CallgraphView$21"/>
+            <reference linenumber="624" origin="org.eclipse.linuxtools.callgraph.CallgraphView.8" type="org.eclipse.linuxtools.callgraph.CallgraphView$8"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="859" origin="org.eclipse.linuxtools.callgraph.CallgraphView.21" type="org.eclipse.linuxtools.callgraph.CallgraphView$21"/>
+            <reference linenumber="674" origin="org.eclipse.linuxtools.callgraph.CallgraphView.12" type="org.eclipse.linuxtools.callgraph.CallgraphView$12"/>
+            <reference linenumber="611" origin="org.eclipse.linuxtools.callgraph.CallgraphView.7" type="org.eclipse.linuxtools.callgraph.CallgraphView$7"/>
+            <reference linenumber="439" origin="org.eclipse.linuxtools.callgraph.CallgraphView.1" type="org.eclipse.linuxtools.callgraph.CallgraphView$1"/>
+            <reference linenumber="451" origin="org.eclipse.linuxtools.callgraph.CallgraphView.3" type="org.eclipse.linuxtools.callgraph.CallgraphView$3"/>
+            <reference linenumber="445" origin="org.eclipse.linuxtools.callgraph.CallgraphView.2" type="org.eclipse.linuxtools.callgraph.CallgraphView$2"/>
+            <reference linenumber="836" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="820" origin="org.eclipse.linuxtools.callgraph.CallgraphView.18" type="org.eclipse.linuxtools.callgraph.CallgraphView$18"/>
+            <reference linenumber="826" origin="org.eclipse.linuxtools.callgraph.CallgraphView.19" type="org.eclipse.linuxtools.callgraph.CallgraphView$19"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setAnimation_fast" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setAnimation_fast(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setGoto_last" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGoto_last(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setAnimation_slow" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setAnimation_slow(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setView_aggregateview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setView_aggregateview(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setGoto_next" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGoto_next(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setGoto_previous" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGoto_previous(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setView_levelview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setView_levelview(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setGoto_parent" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setGoto_parent(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setView_refresh" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setView_refresh(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setView_treeview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setView_treeview(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setView_radialview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setView_radialview(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="setMode_collapsednodes" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setMode_collapsednodes(Action)" signature="(Lorg/eclipse/jface/action/Action;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="save_dot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.save_dot" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="markers_previous" origin="org.eclipse.linuxtools.callgraph.CallgraphView.markers_previous" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="animation_slow" origin="org.eclipse.linuxtools.callgraph.CallgraphView.animation_slow" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="animation_fast" origin="org.eclipse.linuxtools.callgraph.CallgraphView.animation_fast" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="mode_collapsednodes" origin="org.eclipse.linuxtools.callgraph.CallgraphView.mode_collapsednodes" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="save_cur_dot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.save_cur_dot" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="save_col_dot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.save_col_dot" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view_refresh" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view_refresh" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="goto_next" origin="org.eclipse.linuxtools.callgraph.CallgraphView.goto_next" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="goto_last" origin="org.eclipse.linuxtools.callgraph.CallgraphView.goto_last" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="play" origin="org.eclipse.linuxtools.callgraph.CallgraphView.play" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view_treeview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view_treeview" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view_levelview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view_levelview" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="markers_next" origin="org.eclipse.linuxtools.callgraph.CallgraphView.markers_next" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view_aggregateview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view_aggregateview" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="view_radialview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.view_radialview" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="goto_previous" origin="org.eclipse.linuxtools.callgraph.CallgraphView.goto_previous" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="limits" origin="org.eclipse.linuxtools.callgraph.CallgraphView.limits" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="save_text" origin="org.eclipse.linuxtools.callgraph.CallgraphView.save_text" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getPlay" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getPlay()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getMode_collapsednodes" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getMode_collapsednodes()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getAnimation_slow" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getAnimation_slow()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getView_aggregateview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getView_aggregateview()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getView_refresh" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getView_refresh()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getView_levelview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getView_levelview()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getGoto_previous" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getGoto_previous()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getView_treeview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getView_treeview()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getView_radialview" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getView_radialview()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getGoto_next" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getGoto_next()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getAnimation_fast" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getAnimation_fast()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="-1" member="getGoto_last" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getGoto_last()" signature="()Lorg/eclipse/jface/action/Action;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelection" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.viewers.TreeExpansionEvent" type="org.eclipse.jface.viewers.TreeExpansionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="treeCollapsed" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeCollapsed(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+            <reference linenumber="-1" member="treeExpanded" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeExpanded(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProviderListener" type="org.eclipse.jface.viewers.ILabelProviderListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="removeListener" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.removeListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+            <reference linenumber="-1" member="addListener" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.addListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="36" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="36" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="34" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeContentProvider" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeContentProvider" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeContentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.Viewer" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="inputChanged" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeContentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeViewerListener" type="org.eclipse.jface.viewers.ITreeViewerListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProvider" type="org.eclipse.jface.viewers.ILabelProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.DoubleClickEvent" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

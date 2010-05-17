@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="70" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.WizardDialog.WizardDialog(Shell, IWizard)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/wizard/IWizard;)V" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="171" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        <reference linenumber="213" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="173" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        <reference linenumber="215" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="openWarning" name="org.eclipse.jface.dialogs.MessageDialog.openWarning(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="146" member="displayError" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.displayError(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="131" member="displayError" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.displayError(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="156" member="displayError" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.displayError(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.action.IAction.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="131" member="setEnablement" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.setEnablement(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+            <reference linenumber="216" member="setEnablement" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.setEnablement(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.ImportDataSetAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.OpenScriptOutputAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="44" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.SaveGraphImageAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="39" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.ExportDataSetAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.SaveGraphImageAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.ImportDataSetAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.ExportDataSetAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.OpenScriptOutputAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.jface.dialogs.Dialog.create()" signature="()V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="172" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        <reference linenumber="214" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.preference.BooleanFieldEditor.BooleanFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.BooleanFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.IntegerFieldEditor.IntegerFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.IntegerFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="51" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="63" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="57" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="37" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="45" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.DataTablePreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.GraphingPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.GraphPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="27" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.GraphingPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.DataTablePreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.GraphPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.GraphingPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.DataTablePreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.GraphPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="47" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="60" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="66" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="48" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="40" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="54" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.jface.preference.FieldEditorPreferencePage.dispose()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="67" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="54" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="80" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDescription" name="org.eclipse.jface.dialogs.DialogPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.GraphPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.GraphingPreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.DataTablePreferencePage()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="36" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="49" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="39" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="56" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="44" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="44" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+            <reference linenumber="39" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="62" member="createFieldEditors" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+<target member="getInt" name="org.eclipse.jface.preference.IPreferenceStore.getInt(String)" signature="(Ljava/lang/String;)I" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="62" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.GraphDisplaySet(Composite, IDataSet)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+    <target member="createImage" name="org.eclipse.jface.resource.ImageDescriptor.createImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="136" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet"/>
+        </reference_kind>
+    </target>
+</references>

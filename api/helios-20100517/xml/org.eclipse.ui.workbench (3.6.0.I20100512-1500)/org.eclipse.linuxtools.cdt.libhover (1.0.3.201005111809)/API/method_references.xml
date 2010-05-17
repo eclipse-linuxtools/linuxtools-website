@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="12" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.LibhoverPlugin()" signature="()V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.LibhoverPlugin()" signature="()V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="40" member="start" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="50" member="stop" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.cdt.libhover.LibhoverPlugin"/>
+        </reference_kind>
+    </target>
+<target member="getPreferenceStore" name="org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.LibHoverPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+            <reference linenumber="29" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.PreferenceInitializer"/>
+        <reference linenumber="71" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+<target member="getElement" name="org.eclipse.ui.dialogs.PropertyPage.getElement()" signature="()Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.ui.dialogs.PropertyPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="getProject" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.PropertyPage.PropertyPage()" signature="()V" type="org.eclipse.ui.dialogs.PropertyPage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="70" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

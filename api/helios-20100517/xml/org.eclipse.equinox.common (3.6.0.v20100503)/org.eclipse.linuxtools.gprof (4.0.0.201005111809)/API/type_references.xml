@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="32" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IPath" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="141" member="getAbsoluteProgramPath" origin="org.eclipse.linuxtools.gprof.Activator.getAbsoluteProgramPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.Activator"/>
+        <reference linenumber="260" member="isDCache" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.isDCache()" signature="()Z" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+            <reference linenumber="254" member="isICache" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.isICache()" signature="()Z" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="open" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+            <reference linenumber="-1" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.OpenGmonDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="gmonFile" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.gmonFile" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="getAbsoluteProgramPath" origin="org.eclipse.linuxtools.gprof.Activator.getAbsoluteProgramPath(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.Activator"/>
+            <reference linenumber="-1" member="createTimeStampDir" origin="org.eclipse.linuxtools.gprof.Activator.createTimeStampDir(String, IFolder)" signature="(Ljava/lang/String;Lorg/eclipse/core/resources/IFolder;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.gprof.Activator"/>
+            <reference linenumber="-1" member="createAnalysisDir" origin="org.eclipse.linuxtools.gprof.Activator.createAnalysisDir(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.gprof.Activator"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="240" member="handleBrowse" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+            <reference linenumber="175" member="validateBinary" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.Status" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="112" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+            <reference linenumber="121" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        <reference linenumber="249" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="202" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="121" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+            <reference linenumber="112" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        <reference linenumber="217" member="validate" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.3.validate(Object[])" signature="([Ljava/lang/Object;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog$3"/>
+            <reference linenumber="220" member="validate" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.3.validate(Object[])" signature="([Ljava/lang/Object;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog$3"/>
+            <reference linenumber="222" member="validate" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.3.validate(Object[])" signature="([Ljava/lang/Object;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog$3"/>
+        <reference linenumber="249" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(GmonDecoder, String, String)" signature="(Lorg/eclipse/linuxtools/gprof/parser/GmonDecoder;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+            <reference linenumber="202" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.IStatus" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="validate" origin="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog.3.validate(Object[])" signature="([Ljava/lang/Object;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.gprof.dialog.OpenGmonDialog$3"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.Path" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="254" member="isICache" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.isICache()" signature="()Z" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+            <reference linenumber="260" member="isDCache" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.isDCache()" signature="()Z" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        <reference linenumber="55" member="isGProfCompatible" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.isGProfCompatible(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+        <reference linenumber="189" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        <reference linenumber="82" member="getName" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+            <reference linenumber="102" member="getName" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="82" member="getName" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+            <reference linenumber="102" member="getName" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+        </reference_kind>
+    </target>
+</references>

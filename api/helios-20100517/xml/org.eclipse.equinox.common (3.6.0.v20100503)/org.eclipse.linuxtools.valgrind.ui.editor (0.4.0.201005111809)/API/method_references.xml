@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="13" reference_visibility="1">
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="56" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        <reference linenumber="123" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="done" name="org.eclipse.core.runtime.IProgressMonitor.done()" signature="()V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="76" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        <reference linenumber="95" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard$1"/>
+        </reference_kind>
+    </target>
+    <target member="worked" name="org.eclipse.core.runtime.IProgressMonitor.worked(int)" signature="(I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="72" member="initialReconcile" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy"/>
+        <reference linenumber="141" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+            <reference linenumber="153" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="168" member="throwCoreException" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.throwCoreException(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="130" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+            <reference linenumber="125" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setTaskName" name="org.eclipse.core.runtime.IProgressMonitor.setTaskName(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="142" member="doFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.doFinish(String, String, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.CoreException.CoreException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="169" member="throwCoreException" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.throwCoreException(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="86" member="performFinish" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.wizards.NewSuppressionWizard"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.graphing (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="36" reference_visibility="1">
+    <target name="org.eclipse.ui.IPerspectiveFactory" type="org.eclipse.ui.IPerspectiveFactory">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective" type="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IPageLayout" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.GraphingPerspective"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="169" member="getChartingOptions" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.getChartingOptions(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        <reference linenumber="211" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet.ButtonClickListener.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.structures.GraphDisplaySet$ButtonClickListener"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IViewPart" type="org.eclipse.ui.IViewPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="93" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="175" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="72" member="getDataSet" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.getDataSet()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/nonui/datasets/IDataSet;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+            <reference linenumber="112" member="buildEnablementChecks" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.buildEnablementChecks()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+            <reference linenumber="89" member="getGraph" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.getGraph()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/graphingapi/ui/chart/widget/ChartCanvas;" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="89" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindowActionDelegate" type="org.eclipse.ui.IWorkbenchWindowActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fWindow" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.fWindow" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+            <reference linenumber="-1" member="fWindow" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.fWindow" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="-1" member="fWindow" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.fWindow" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="-1" member="fWindow" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.fWindow" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.SaveGraphImageAction"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ExportDataSetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.WorkbenchException" type="org.eclipse.ui.WorkbenchException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="95" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="91" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="95" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+            <reference linenumber="91" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="88" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.ImportDataSetAction"/>
+            <reference linenumber="92" member="run" origin="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.graphing.actions.OpenScriptOutputAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.internal.GraphingPlugin" type="org.eclipse.linuxtools.systemtap.ui.graphing.internal.GraphingPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchPreferencePage" type="org.eclipse.ui.IWorkbenchPreferencePage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphingPreferencePage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.DataTablePreferencePage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage" type="org.eclipse.linuxtools.systemtap.ui.graphing.preferences.GraphPreferencePage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.part.ViewPart" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView" type="org.eclipse.linuxtools.systemtap.ui.graphing.views.GraphSelectorView"/>
+        </reference_kind>
+    </target>
+</references>

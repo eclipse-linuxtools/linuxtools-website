@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="21" reference_visibility="1">
+    <target member="segments" name="org.eclipse.core.runtime.IPath.segments()" signature="()[Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="78" member="getName" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="145" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="84" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="147" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="149" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="equals" name="org.eclipse.core.runtime.IPath.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="66" member="equals" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.PathEditorInput()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+            <reference linenumber="136" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        <reference linenumber="100" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="isNotNull" name="org.eclipse.core.runtime.Assert.isNotNull(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.core.runtime.Assert">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="42" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.NonRuleBasedDamagerRepairer(TextAttribute)" signature="(Lorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+    <target member="toFile" name="org.eclipse.core.runtime.IPath.toFile()" signature="()Ljava/io/File;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="135" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="70" member="exists" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.exists()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+            <reference linenumber="184" member="isModifiable" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.isModifiable(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="71" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="74" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="makeRelative" name="org.eclipse.core.runtime.IPath.makeRelative()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="getToolTipText" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getToolTipText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.CoreException.CoreException(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="147" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="84" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="145" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="149" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="getToolTipText" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getToolTipText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,1276 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>IRegion usage details</title>
+</head>
+<body>
+<h3>IRegion usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.jface.text.IRegion has 221 total references to 4 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.IRegion">
+<span>[+] </span>IRegion
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationProvider.fHoverRegion</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.region</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.fStartLine</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.region</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.region</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.region</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.isContextInformationValid(int)</td>
+<td align="center">143</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationDispatchAction.computeOffsetAtLocation(ITextViewer, int, int)</td>
+<td align="center">603</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationDispatchAction.makeTextHoverFocusable(ISourceViewer, ITextHover)</td>
+<td align="center">488</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">49</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.WordPartDetector.WordPartDetector(IDocument, int)</td>
+<td align="center">44</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)</td>
+<td align="center">321</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)</td>
+<td align="center">269</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogEntry(IDocument, String)</td>
+<td align="center">302</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">548</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">499</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.expandSelection(int)</td>
+<td align="center">214</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">791</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)</td>
+<td align="center">765</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)</td>
+<td align="center">659</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">819</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)</td>
+<td align="center">646</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)</td>
+<td align="center">120</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverRegion(ITextViewer, int)</td>
+<td align="center">109</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)</td>
+<td align="center">136</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.find(String)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">63</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">82</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PARAMETER</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationProvider.getInformation(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationProvider.getInformation2(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationProvider.InformationProvider(IRegion, Object, IInformationControlCreator)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.FileHyperlink(IRegion, IFile)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmGroupProposals(IRegion, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeSourcesProposals(IRegion, Specfile, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeTemplateProposals(ITextViewer, IRegion, Specfile, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computePatchesProposals(IRegion, Specfile, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmMacroProposals(IRegion, Specfile, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.createContext(ITextViewer, IRegion, Specfile)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmPackageProposals(IRegion, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.SpecfileElementHyperlink(IRegion, SpecfileElement, IFile)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.URLHyperlinkWithMacroDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.SourcesFileHyperlink(IFile, String, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.SourcesFileDownloadHyperlink(IFile, String, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlink.MailHyperlink(IRegion, String)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.reconcile(DirtyRegion, IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.MultilineRuleDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationProvider.getSubject(ITextViewer, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverRegion(ITextViewer, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverRegion(ITextViewer, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.findWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverRegion(ITextViewer, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.MultilineRuleDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.getHyperlinkRegion()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.findWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.findPackages(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverRegion(ITextViewer, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlink.getHyperlinkRegion()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.getHyperlinkRegion()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlink.getHyperlinkRegion()</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.IRegion.getLength() : int">
+<span>[+] </span>getLength() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.isContextInformationValid(int)</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.WordPartDetector.WordPartDetector(IDocument, int)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">38</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)</td>
+<td align="center">325</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">500</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)</td>
+<td align="center">275</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">85</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">531</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.startSelecting()</td>
+<td align="center">186</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.expandSelection(int)</td>
+<td align="center">217</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">798</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">541</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)</td>
+<td align="center">121</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.createPresentation(TextPresentation, ITypedRegion)</td>
+<td align="center">122</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmMacroProposals(IRegion, Specfile, String)</td>
+<td align="center">237</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmGroupProposals(IRegion, String)</td>
+<td align="center">345</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmPackageProposals(IRegion, String)</td>
+<td align="center">329</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">94</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeSourcesProposals(IRegion, Specfile, String)</td>
+<td align="center">300</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.createContext(ITextViewer, IRegion, Specfile)</td>
+<td align="center">402</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">62</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">102</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computePatchesProposals(IRegion, Specfile, String)</td>
+<td align="center">269</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">65</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">64</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.createPresentation(TextPresentation, ITypedRegion)</td>
+<td align="center">116</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">92</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">51</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.IRegion.getOffset() : int">
+<span>[+] </span>getOffset() : int
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfEditor.InformationDispatchAction.computeOffsetAtLocation(ITextViewer, int, int)</td>
+<td align="center">604</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfPartitioner.printPartitions(ITypedRegion[])</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.AutoconfMacroParameterListValidator.isContextInformationValid(int)</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">71</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">48</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">52</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">66</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.reconcile(IRegion)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">47</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.WordPartDetector.WordPartDetector(IDocument, int)</td>
+<td align="center">45</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)</td>
+<td align="center">57</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileEditor.setSelection(IDirective, boolean)</td>
+<td align="center">324</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">500</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)</td>
+<td align="center">275</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">85</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">97</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.changelog.core.formatters.GNUFormat.findChangeLogEntry(IDocument, String)</td>
+<td align="center">316</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.expandSelection(int)</td>
+<td align="center">217</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.expandSelection(int)</td>
+<td align="center">216</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">559</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">531</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)</td>
+<td align="center">766</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)</td>
+<td align="center">670</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">798</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.startSelecting()</td>
+<td align="center">186</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">549</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">795</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">541</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)</td>
+<td align="center">540</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)</td>
+<td align="center">660</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)</td>
+<td align="center">821</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)</td>
+<td align="center">121</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.createContext(ITextViewer, IRegion, Specfile)</td>
+<td align="center">398</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmMacroProposals(IRegion, Specfile, String)</td>
+<td align="center">237</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">102</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.createPresentation(TextPresentation, ITypedRegion)</td>
+<td align="center">121</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileHover.getHoverInfo(ITextViewer, IRegion)</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmGroupProposals(IRegion, String)</td>
+<td align="center">344</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">61</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.createContext(ITextViewer, IRegion, Specfile)</td>
+<td align="center">402</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">62</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">85</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeRpmPackageProposals(IRegion, String)</td>
+<td align="center">329</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computePatchesProposals(IRegion, Specfile, String)</td>
+<td align="center">269</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">93</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">94</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.SpecfileCompletionProcessor.computeSourcesProposals(IRegion, Specfile, String)</td>
+<td align="center">300</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileChangelogFormatter.mergeChangelog(String, String, String, IEditorPart, String, String)</td>
+<td align="center">155</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">63</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">58</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">77</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.MailHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">54</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.prepareHyperlink(IRegion, String, String, SpecfileElement, int)</td>
+<td align="center">136</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SpecfileElementHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">72</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileHyperlinkDetector.detectHyperlinks(ITextViewer, IRegion, boolean)</td>
+<td align="center">67</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">92</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.createPresentation(TextPresentation, ITypedRegion)</td>
+<td align="center">115</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.find(String)</td>
+<td align="center">69</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">96</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">70</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">83</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">65</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.endOfLineOf(int)</td>
+<td align="center">64</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.getDamageRegion(ITypedRegion, DocumentEvent, boolean)</td>
+<td align="center">89</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">50</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)</td>
+<td align="center">46</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.jface.text.IRegion">
+<span>[+] </span>IRegion
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>RETURN_TYPE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findWord(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.CWordFinder.findFunction(IDocument, int)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

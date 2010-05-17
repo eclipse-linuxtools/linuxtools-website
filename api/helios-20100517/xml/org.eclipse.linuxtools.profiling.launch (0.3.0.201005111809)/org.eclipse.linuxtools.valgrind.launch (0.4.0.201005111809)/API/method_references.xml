@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" reference_count="8" reference_visibility="1">
+    <target member="getLaunchManager" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.getLaunchManager()" signature="()Lorg/eclipse/debug/core/ILaunchManager;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="36" member="getLaunchConfigType" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.ProfileLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="20" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.ValgrindLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.ValgrindLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaultProfileAttributes" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setDefaultProfileAttributes" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getProfileTabs" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getProfileTabs" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup.ProfileLaunchConfigurationTabGroup()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="16" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup.ValgrindLaunchConfigurationTabGroup()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup.ValgrindLaunchConfigurationTabGroup()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunchConfigType" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getLaunchConfigType" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    </target>
+</references>

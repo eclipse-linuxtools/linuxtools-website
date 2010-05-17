@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="4" reference_visibility="1">
+    <target member="getFile" name="org.eclipse.core.resources.IContainer.getFile(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.core.resources.IContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="49" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+    <target member="getRoot" name="org.eclipse.core.resources.IWorkspace.getRoot()" signature="()Lorg/eclipse/core/resources/IWorkspaceRoot;" type="org.eclipse.core.resources.IWorkspace">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="48" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkspace" name="org.eclipse.core.resources.ResourcesPlugin.getWorkspace()" signature="()Lorg/eclipse/core/resources/IWorkspace;" type="org.eclipse.core.resources.ResourcesPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="46" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+    <target member="getLocation" name="org.eclipse.core.resources.IResource.getLocation()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="getFileStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction.getFileStore()" signature="()Lorg/eclipse/core/filesystem/IFileStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.actions.OpenWksRelFilePathAction"/>
+        </reference_kind>
+    </target>
+</references>

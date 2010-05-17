@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="22" reference_visibility="1">
+    <target name="org.eclipse.ui.application.WorkbenchAdvisor" type="org.eclipse.ui.application.WorkbenchAdvisor">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.application.IWorkbenchWindowConfigurer" type="org.eclipse.ui.application.IWorkbenchWindowConfigurer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor.ApplicationWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer)" signature="(Lorg/eclipse/ui/application/IWorkbenchWindowConfigurer;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor"/>
+            <reference linenumber="-1" member="createWorkbenchWindowAdvisor" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor.createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer)" signature="(Lorg/eclipse/ui/application/IWorkbenchWindowConfigurer;)Lorg/eclipse/ui/application/WorkbenchWindowAdvisor;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="39" member="preWindowOpen" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor.preWindowOpen()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IPerspectiveFactory" type="org.eclipse.ui.IPerspectiveFactory">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Perspective" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Perspective"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.application.IActionBarConfigurer" type="org.eclipse.ui.application.IActionBarConfigurer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createActionBarAdvisor" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor.createActionBarAdvisor(IActionBarConfigurer)" signature="(Lorg/eclipse/ui/application/IActionBarConfigurer;)Lorg/eclipse/ui/application/ActionBarAdvisor;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.ApplicationActionBarAdvisor(IActionBarConfigurer)" signature="(Lorg/eclipse/ui/application/IActionBarConfigurer;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.application.ActionBarAdvisor" type="org.eclipse.ui.application.ActionBarAdvisor">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createActionBarAdvisor" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor.createActionBarAdvisor(IActionBarConfigurer)" signature="(Lorg/eclipse/ui/application/IActionBarConfigurer;)Lorg/eclipse/ui/application/ActionBarAdvisor;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IPageLayout" type="org.eclipse.ui.IPageLayout">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createInitialLayout" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Perspective.createInitialLayout(IPageLayout)" signature="(Lorg/eclipse/ui/IPageLayout;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Perspective"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.application.WorkbenchWindowAdvisor" type="org.eclipse.ui.application.WorkbenchWindowAdvisor">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchWindowAdvisor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createWorkbenchWindowAdvisor" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor.createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer)" signature="(Lorg/eclipse/ui/application/IWorkbenchWindowConfigurer;)Lorg/eclipse/ui/application/WorkbenchWindowAdvisor;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.part.CoolItemGroupMarker" type="org.eclipse.ui.part.CoolItemGroupMarker">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="77" member="fillCoolBar" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.fillCoolBar(ICoolBarManager)" signature="(Lorg/eclipse/jface/action/ICoolBarManager;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="76" member="fillCoolBar" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.fillCoolBar(ICoolBarManager)" signature="(Lorg/eclipse/jface/action/ICoolBarManager;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.application.IWorkbenchConfigurer" type="org.eclipse.ui.application.IWorkbenchConfigurer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="initialize" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor.initialize(IWorkbenchConfigurer)" signature="(Lorg/eclipse/ui/application/IWorkbenchConfigurer;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationWorkbenchAdvisor"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.internal.SystemTapGUIPlugin" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.internal.SystemTapGUIPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.SystemTapPreferencePage.init(IWorkbench)" signature="(Lorg/eclipse/ui/IWorkbench;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.SystemTapPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPreferencePage" type="org.eclipse.ui.IWorkbenchPreferencePage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.EnvironmentVariablesPreferencePage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.SystemTapPreferencePage" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.preferences.SystemTapPreferencePage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.part.ViewPart" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.views.WelcomeView" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.views.WelcomeView"/>
+        </reference_kind>
+    </target>
+</references>

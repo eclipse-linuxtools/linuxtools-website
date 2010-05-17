@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="18" reference_visibility="1">
+    <target member="getOwner" name="org.eclipse.cdt.core.dom.ast.IBinding.getOwner()" signature="()Lorg/eclipse/cdt/core/dom/ast/IBinding;" type="org.eclipse.cdt.core.dom.ast.IBinding">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="291" member="getFunctionInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)" signature="(Lorg/eclipse/cdt/ui/text/ICHelpInvocationContext;[Lorg/eclipse/cdt/ui/ICHelpBook;Ljava/lang/String;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPFunction.getType()" signature="()Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPFunctionType;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPFunction">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="289" member="getFunctionInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)" signature="(Lorg/eclipse/cdt/ui/text/ICHelpInvocationContext;[Lorg/eclipse/cdt/ui/ICHelpBook;Ljava/lang/String;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getTypeOfNonTypeValue" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument.getTypeOfNonTypeValue()" signature="()Lorg/eclipse/cdt/core/dom/ast/IType;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="356" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="isCXXLanguage" name="org.eclipse.cdt.core.model.ITranslationUnit.isCXXLanguage()" signature="()Z" type="org.eclipse.cdt.core.model.ITranslationUnit">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="265" member="getFunctionInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)" signature="(Lorg/eclipse/cdt/ui/text/ICHelpInvocationContext;[Lorg/eclipse/cdt/ui/ICHelpBook;Ljava/lang/String;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getTemplateNestingLevel" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateParameter.getTemplateNestingLevel()" signature="()S" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateParameter">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="357" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="isTypeValue" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument.isTypeValue()" signature="()Z" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="353" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="findEnclosingName" name="org.eclipse.cdt.core.dom.ast.IASTNodeSelector.findEnclosingName(int, int)" signature="(II)Lorg/eclipse/cdt/core/dom/ast/IASTName;" type="org.eclipse.cdt.core.dom.ast.IASTNodeSelector">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="229" member="runOnAST" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.EnclosingASTNameJob.runOnAST(ILanguage, IASTTranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ILanguage;Lorg/eclipse/cdt/core/dom/ast/IASTTranslationUnit;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover$EnclosingASTNameJob"/>
+        </reference_kind>
+    </target>
+    <target member="getTemplateParameterMap" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPSpecialization.getTemplateParameterMap()" signature="()Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPTemplateParameterMap;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPSpecialization">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="341" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getDeclarationsInAST" name="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit.getDeclarationsInAST(IBinding)" signature="(Lorg/eclipse/cdt/core/dom/ast/IBinding;)[Lorg/eclipse/cdt/core/dom/ast/IASTName;" type="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="247" member="runOnAST" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.ASTDeclarationFinderJob.runOnAST(ILanguage, IASTTranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ILanguage;Lorg/eclipse/cdt/core/dom/ast/IASTTranslationUnit;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover$ASTDeclarationFinderJob"/>
+        </reference_kind>
+    </target>
+    <target member="getTemplateDefinition" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateInstance.getTemplateDefinition()" signature="()Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPTemplateDefinition;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateInstance">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="342" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getNodeSelector" name="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit.getNodeSelector(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/dom/ast/IASTNodeSelector;" type="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="229" member="runOnAST" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.EnclosingASTNameJob.runOnAST(ILanguage, IASTTranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ILanguage;Lorg/eclipse/cdt/core/dom/ast/IASTTranslationUnit;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover$EnclosingASTNameJob"/>
+        </reference_kind>
+    </target>
+    <target member="getReturnType" name="org.eclipse.cdt.core.dom.ast.IFunctionType.getReturnType()" signature="()Lorg/eclipse/cdt/core/dom/ast/IType;" type="org.eclipse.cdt.core.dom.ast.IFunctionType">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="404" member="getMemberSummary" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getMemberSummary(LibHoverLibrary, String, String, ICPPFunctionType)" signature="(Lorg/eclipse/linuxtools/internal/cdt/libhover/LibHoverLibrary;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPFunctionType;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getBinding" name="org.eclipse.cdt.core.dom.ast.IASTName.getBinding()" signature="()Lorg/eclipse/cdt/core/dom/ast/IBinding;" type="org.eclipse.cdt.core.dom.ast.IASTName">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="286" member="getFunctionInfo" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getFunctionInfo(ICHelpInvocationContext, ICHelpBook[], String)" signature="(Lorg/eclipse/cdt/ui/text/ICHelpInvocationContext;[Lorg/eclipse/cdt/ui/ICHelpBook;Ljava/lang/String;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getParameterTypes" name="org.eclipse.cdt.core.dom.ast.IFunctionType.getParameterTypes()" signature="()[Lorg/eclipse/cdt/core/dom/ast/IType;" type="org.eclipse.cdt.core.dom.ast.IFunctionType">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="403" member="getMemberSummary" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getMemberSummary(LibHoverLibrary, String, String, ICPPFunctionType)" signature="(Lorg/eclipse/linuxtools/internal/cdt/libhover/LibHoverLibrary;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPFunctionType;)Lorg/eclipse/cdt/ui/IFunctionSummary;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getTemplateParameters" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateDefinition.getTemplateParameters()" signature="()[Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPTemplateParameter;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="343" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getTypeValue" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument.getTypeValue()" signature="()Lorg/eclipse/cdt/core/dom/ast/IType;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateArgument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="354" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getArgument" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateParameterMap.getArgument(ICPPTemplateParameter)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPTemplateParameter;)Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPTemplateArgument;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPTemplateParameterMap">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="348" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+    <target member="getQualifiedName" name="org.eclipse.cdt.core.dom.ast.cpp.ICPPBinding.getQualifiedName()" signature="()[Ljava/lang/String;" type="org.eclipse.cdt.core.dom.ast.cpp.ICPPBinding">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="330" member="getClassName" origin="org.eclipse.linuxtools.internal.cdt.libhover.LibHover.getClassName(ICPPClassType)" signature="(Lorg/eclipse/cdt/core/dom/ast/cpp/ICPPClassType;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.libhover.LibHover"/>
+        </reference_kind>
+    </target>
+</references>

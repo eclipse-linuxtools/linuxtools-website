@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="2" reference_visibility="1">
+    <target member="marginWidth" name="org.eclipse.swt.layout.GridLayout.marginWidth" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="52" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="marginHeight" name="org.eclipse.swt.layout.GridLayout.marginHeight" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="52" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+</references>

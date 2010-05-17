@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.tmf.ui (0.2.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="14" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.TmfUiPlugin()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="42" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.TmfUiPlugin()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="68" member="start" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="79" member="stop" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.tmf.ui.TmfUiPlugin"/>
+        </reference_kind>
+    </target>
+<target member="dispose" name="org.eclipse.ui.part.WorkbenchPart.dispose()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.dispose()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="43" member="dispose" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.dispose()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+    <target member="getTitle" name="org.eclipse.ui.part.WorkbenchPart.getTitle()" signature="()Ljava/lang/String;" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="190" member="createPartControl" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+    <target member="setPartName" name="org.eclipse.ui.part.ViewPart.setPartName(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="256" member="experimentSelected" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.experimentSelected(TmfExperimentSelectedSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfExperimentSelectedSignal;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.TmfEventsView()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="35" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.TmfView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.setFocus()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+</references>

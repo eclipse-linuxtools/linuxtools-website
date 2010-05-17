@@ -1,0 +1,985 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Axis usage details</title>
+</head>
+<body>
+<h3>Axis usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.birt.chart.model.component.Axis has 144 total references to 10 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis">
+<span>[+] </span>Axis
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>DECLARED_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartWithoutAxisBuilder.yAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.DialChartBuilder.xAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartWithAxisBuilder.xAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartWithoutAxisBuilder.xAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.DialChartBuilder.yAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AbstractChartWithAxisBuilder.yAxis</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>LOCAL_VAR_DECLARED</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">135</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">187</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">177</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">345</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">327</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">352</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">351</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">342</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">348</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">358</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">333</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">128</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">145</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getLabel() : org.eclipse.birt.chart.model.component.Label">
+<span>[+] </span>getLabel() : Label
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">138</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">214</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">226</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">205</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">229</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">208</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">230</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">194</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">140</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getMajorGrid() : org.eclipse.birt.chart.model.component.Grid">
+<span>[+] </span>getMajorGrid() : Grid
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">136</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">188</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">181</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">210</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">205</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">201</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">208</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">217</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">220</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">219</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">216</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">222</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">219</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">190</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">221</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">147</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getOrigin() : org.eclipse.birt.chart.model.attribute.AxisOrigin">
+<span>[+] </span>getOrigin() : AxisOrigin
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">182</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">228</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">206</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">203</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">192</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">227</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">206</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">224</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">131</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getScale() : org.eclipse.birt.chart.model.component.Scale">
+<span>[+] </span>getScale() : Scale
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYSeries()</td>
+<td align="center">304</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYSeries()</td>
+<td align="center">319</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">368</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYSeries()</td>
+<td align="center">318</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">367</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYSeries()</td>
+<td align="center">303</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYSeries()</td>
+<td align="center">328</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYSeries()</td>
+<td align="center">329</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYSeries()</td>
+<td align="center">322</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">378</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYSeries()</td>
+<td align="center">323</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">377</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">371</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">370</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">354</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">353</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getSeriesDefinitions() : org.eclipse.emf.common.util.EList">
+<span>[+] </span>getSeriesDefinitions() : EList
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">166</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">201</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">231</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXSeries()</td>
+<td align="center">250</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">363</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXSeries()</td>
+<td align="center">265</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYSeries()</td>
+<td align="center">299</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXSeries()</td>
+<td align="center">261</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">329</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYSeries()</td>
+<td align="center">314</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">354</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">366</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYSeries()</td>
+<td align="center">324</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.updateDataSet()</td>
+<td align="center">347</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYSeries()</td>
+<td align="center">318</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.updateDataSet()</td>
+<td align="center">349</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.updateDataSet()</td>
+<td align="center">344</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.updateDataSet()</td>
+<td align="center">373</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXSeries()</td>
+<td align="center">264</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">286</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">225</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.getTitle() : org.eclipse.birt.chart.model.component.Label">
+<span>[+] </span>getTitle() : Label
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">140</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">141</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">139</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">178</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">184</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">203</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">200</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">201</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">200</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">203</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">229</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">188</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">207</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">199</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">193</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">189</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">204</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">216</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">228</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">225</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">148</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">133</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">149</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">135</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">151</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.setLabelPosition(org.eclipse.birt.chart.model.attribute.Position) : void">
+<span>[+] </span>setLabelPosition(Position) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">183</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.setTitlePosition(org.eclipse.birt.chart.model.attribute.Position) : void">
+<span>[+] </span>setTitlePosition(Position) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">179</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.birt.chart.model.component.Axis.setType(org.eclipse.birt.chart.model.attribute.AxisType) : void">
+<span>[+] </span>setType(AxisType) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INTERFACE_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">137</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])</td>
+<td align="center">130</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)</td>
+<td align="center">180</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildYAxis()</td>
+<td align="center">226</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildXAxis()</td>
+<td align="center">202</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildXAxis()</td>
+<td align="center">205</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.AreaChartBuilder.buildYAxis()</td>
+<td align="center">223</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildYAxis()</td>
+<td align="center">212</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.BarChartBuilder.buildXAxis()</td>
+<td align="center">205</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.LineChartBuilder.buildYAxis()</td>
+<td align="center">227</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui.charts.ScatterChartBuilder.buildXAxis()</td>
+<td align="center">191</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.valgrind.massif.birt.HeapChart.HeapChart(MassifSnapshot[])</td>
+<td align="center">129</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

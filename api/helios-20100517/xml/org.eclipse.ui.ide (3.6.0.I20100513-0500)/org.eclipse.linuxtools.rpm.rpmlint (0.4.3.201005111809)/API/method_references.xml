@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="1" reference_visibility="1">
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IMarker)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="52" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+</references>

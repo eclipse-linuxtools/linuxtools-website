@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.zest.core (1.2.0.v20100426-2050)" reference_count="124" reference_visibility="1">
+    <target member="setBorderWidth" name="org.eclipse.zest.core.widgets.GraphNode.setBorderWidth(int)" signature="(I)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="532" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setLocation" name="org.eclipse.zest.core.widgets.GraphNode.setLocation(double, double)" signature="(DD)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="331" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="813" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1144" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="708" member="moveAllNodesTo" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveAllNodesTo(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="378" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="804" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="433" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="805" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1379" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="556" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1232" member="moveRecursive" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveRecursive(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="890" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="755" member="drawBox" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawBox(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1261" member="moveAllNodesBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveAllNodesBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="349" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1365" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="762" member="drawBox" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawBox(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setSelection" name="org.eclipse.zest.core.widgets.Graph.setSelection(GraphItem[])" signature="([Lorg/eclipse/zest/core/widgets/GraphItem;)V" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1209" member="clearSelection" origin="org.eclipse.linuxtools.callgraph.StapGraph.clearSelection()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1655" member="reset" origin="org.eclipse.linuxtools.callgraph.StapGraph.reset()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="228" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="159" member="getAggregateNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getAggregateNodeFromSelection()" signature="()Lorg/eclipse/zest/core/widgets/GraphNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="141" member="getNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getNodeFromSelection()" signature="()Lorg/eclipse/linuxtools/callgraph/StapNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="82" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="89" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="231" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="149" member="getNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getNodeFromSelection()" signature="()Lorg/eclipse/linuxtools/callgraph/StapNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="167" member="getAggregateNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getAggregateNodeFromSelection()" signature="()Lorg/eclipse/zest/core/widgets/GraphNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="200" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="setBackgroundColor" name="org.eclipse.zest.core.widgets.GraphNode.setBackgroundColor(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="432" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="562" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="384" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="818" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="565" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="334" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="441" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="524" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="824" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="377" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="659" member="extendTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.extendTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="658" member="extendTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.extendTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="73" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="71" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="getGraphModel" name="org.eclipse.zest.core.widgets.Graph.getGraphModel()" signature="()Lorg/eclipse/zest/core/widgets/Graph;" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="500" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getLocation" name="org.eclipse.zest.core.widgets.GraphNode.getLocation()" signature="()Lorg/eclipse/draw2d/geometry/Point;" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1103" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="602" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1260" member="moveAllNodesBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveAllNodesBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="589" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="1259" member="moveAllNodesBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveAllNodesBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="660" member="extendTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.extendTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1104" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1165" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1231" member="moveRecursive" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveRecursive(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1380" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1381" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="355" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="356" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="804" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1230" member="moveRecursive" origin="org.eclipse.linuxtools.callgraph.StapGraph.moveRecursive(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="680" member="shrinkTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.shrinkTree()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="872" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="873" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1368" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="587" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="1366" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.zest.core.widgets.GraphNode.dispose()" signature="()V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="931" member="deleteLevelsFromBottom" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteLevelsFromBottom(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="883" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="910" member="deleteLevelsFromTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteLevelsFromTop(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="863" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setForegroundColor" name="org.eclipse.zest.core.widgets.GraphNode.setForegroundColor(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="526" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getSize" name="org.eclipse.zest.core.widgets.GraphNode.getSize()" signature="()Lorg/eclipse/draw2d/geometry/Dimension;" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="613" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1367" member="recursivelyCollapseAllChildrenOfNode" origin="org.eclipse.linuxtools.callgraph.StapGraph.recursivelyCollapseAllChildrenOfNode(int)" signature="(I)Z" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="428" member="radialHelper" origin="org.eclipse.linuxtools.callgraph.StapGraph.radialHelper(int, int, int, int, int)" signature="(IIIII)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="557" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="329" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="798" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setHighlightColor" name="org.eclipse.zest.core.widgets.GraphNode.setHighlightColor(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="525" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setLayoutAlgorithm" name="org.eclipse.zest.core.widgets.Graph.setLayoutAlgorithm(LayoutAlgorithm, boolean)" signature="(Lorg/eclipse/zest/layouts/LayoutAlgorithm;Z)V" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="537" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.zest.core.widgets.GraphNode.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="38" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="507" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getGraphModel" name="org.eclipse.zest.core.widgets.GraphNode.getGraphModel()" signature="()Lorg/eclipse/zest/core/widgets/Graph;" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="82" member="getData" origin="org.eclipse.linuxtools.callgraph.StapNode.getData()" signature="()Lorg/eclipse/linuxtools/callgraph/StapData;" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="98" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="99" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.zest.core.widgets.GraphConnection.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.zest.core.widgets.GraphConnection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="100" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="69" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="setSize" name="org.eclipse.zest.core.widgets.GraphNode.setSize(double, double)" signature="(DD)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="557" member="drawTree" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawTree(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="798" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.zest.core.widgets.GraphConnection.GraphConnection(Graph, int, GraphNode, GraphNode)" signature="(Lorg/eclipse/zest/core/widgets/Graph;ILorg/eclipse/zest/core/widgets/GraphNode;Lorg/eclipse/zest/core/widgets/GraphNode;)V" type="org.eclipse.zest.core.widgets.GraphConnection">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="98" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="67" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="setTooltip" name="org.eclipse.zest.core.widgets.GraphNode.setTooltip(IFigure)" signature="(Lorg/eclipse/draw2d/IFigure;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="527" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.zest.core.widgets.Graph.getSelection()" signature="()Ljava/util/List;" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1204" member="clearSelection" origin="org.eclipse.linuxtools.callgraph.StapGraph.clearSelection()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="204" member="mouseDownEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDownEvent(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="157" member="getAggregateNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getAggregateNodeFromSelection()" signature="()Lorg/eclipse/zest/core/widgets/GraphNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="220" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="139" member="getNodeFromSelection" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.getNodeFromSelection()" signature="()Lorg/eclipse/linuxtools/callgraph/StapNode;" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="clearSelection" name="org.eclipse.zest.core.widgets.Graph.clearSelection()" signature="()V" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="clearSelection" origin="org.eclipse.linuxtools.callgraph.StapGraph.clearSelection()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="highlight" name="org.eclipse.zest.core.widgets.GraphNode.highlight()" signature="()V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="891" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="263" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="266" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="259" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.zest.core.widgets.GraphNode.GraphNode(IContainer, int)" signature="(Lorg/eclipse/zest/core/widgets/IContainer;I)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="500" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="unhighlight" name="org.eclipse.zest.core.widgets.GraphNode.unhighlight()" signature="()V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="882" member="deleteAll" origin="org.eclipse.linuxtools.callgraph.StapGraph.deleteAll(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1126" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1120" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1190" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1659" member="reset" origin="org.eclipse.linuxtools.callgraph.StapGraph.reset()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1207" member="clearSelection" origin="org.eclipse.linuxtools.callgraph.StapGraph.clearSelection()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="182" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="127" member="unhighlightall" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.unhighlightall(StapNode)" signature="(Lorg/eclipse/linuxtools/callgraph/StapNode;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="133" member="unhighlightall" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.unhighlightall(StapNode)" signature="(Lorg/eclipse/linuxtools/callgraph/StapNode;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="69" member="mouseDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="197" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="131" member="unhighlightall" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.unhighlightall(StapNode)" signature="(Lorg/eclipse/linuxtools/callgraph/StapNode;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        <reference linenumber="47" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="setVisible" name="org.eclipse.zest.core.widgets.GraphNode.setVisible(boolean)" signature="(Z)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="797" member="drawFromBottomToTop" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawFromBottomToTop(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.zest.core.widgets.GraphNode.GraphNode(IContainer, int, String)" signature="(Lorg/eclipse/zest/core/widgets/IContainer;ILjava/lang/String;)V" type="org.eclipse.zest.core.widgets.GraphNode">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.zest.core.widgets.Graph.Graph(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="165" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+<target member="getNodes" name="org.eclipse.zest.core.widgets.Graph.getNodes()" signature="()Ljava/util/List;" type="org.eclipse.zest.core.widgets.Graph">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="246" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="274" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+</references>

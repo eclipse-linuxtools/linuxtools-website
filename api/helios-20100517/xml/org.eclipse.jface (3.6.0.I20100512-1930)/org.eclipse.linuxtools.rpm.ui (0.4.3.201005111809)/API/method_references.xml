@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui (0.4.3.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="89" reference_visibility="1">
+    <target member="setDescription" name="org.eclipse.jface.wizard.WizardPage.setDescription(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.SRPMImportPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="162" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="62" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.RPMExportPage(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorMessage" name="org.eclipse.jface.wizard.WizardPage.setErrorMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="163" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="412" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="359" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="157" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="354" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="getContainer" name="org.eclipse.jface.wizard.Wizard.getContainer()" signature="()Lorg/eclipse/jface/wizard/IWizardContainer;" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="47" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.wizard.WizardPage.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="444" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.operation.IRunnableContext.run(boolean, boolean, IRunnableWithProgress)" signature="(ZZLorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.jface.operation.IRunnableContext">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="410" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="47" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="87" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="98" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="97" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="86" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="85" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.jface.wizard.WizardPage.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="60" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="addPages" name="org.eclipse.jface.wizard.Wizard.addPages()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="-1" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="58" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="77" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isEmpty" name="org.eclipse.jface.viewers.ISelection.isEmpty()" signature="()Z" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="83" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setNeedsProgressMonitor" name="org.eclipse.jface.wizard.Wizard.setNeedsProgressMonitor(boolean)" signature="(Z)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="init" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="41" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="setPageComplete" name="org.eclipse.jface.wizard.WizardPage.setPageComplete(boolean)" signature="(Z)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="330" member="handleEvent" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.RPMExportPage(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="96" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="168" member="handleEvent" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="134" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="99" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="108" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.SRPMImportPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="setControl" name="org.eclipse.jface.dialogs.DialogPage.setControl(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)V" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="88" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+            <reference linenumber="142" member="createControl" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="setWindowTitle" name="org.eclipse.jface.wizard.Wizard.setWindowTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="39" member="init" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="42" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="createFromFile" name="org.eclipse.jface.resource.ImageDescriptor.createFromFile(Class, String)" signature="(Ljava/lang/Class;Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="63" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="performFinish" name="org.eclipse.jface.wizard.Wizard.performFinish()" signature="()Z" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="-1" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="-1" member="performFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.performFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.ErrorDialog.openError(Shell, String, String, IStatus)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IStatus;)I" type="org.eclipse.jface.dialogs.ErrorDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="421" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.jface.dialogs.Dialog.create()" signature="()V" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="445" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="getContainer" name="org.eclipse.jface.wizard.WizardPage.getContainer()" signature="()Lorg/eclipse/jface/wizard/IWizardContainer;" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="410" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="421" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="1" member="access$0" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.access$0(SRPMImportPage)" signature="(Lorg/eclipse/linuxtools/rpm/ui/SRPMImportPage;)Lorg/eclipse/jface/wizard/IWizardContainer;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.Wizard.Wizard()" signature="()V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.RPMExportWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.SRPMImportWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.RPMNewProject()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.RPMNewProject()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.SRPMImportWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.RPMExportWizard()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="canFinish" name="org.eclipse.jface.wizard.Wizard.canFinish()" signature="()Z" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="-1" member="canFinish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.canFinish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.jface.wizard.IWizardContainer.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.jface.wizard.IWizardContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="421" member="finish" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.finish()" signature="()Z" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="189" member="handleEvent" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage$2"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.WizardDialog.WizardDialog(Shell, IWizard)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/wizard/IWizard;)V" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="444" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="setImageDescriptor" name="org.eclipse.jface.wizard.WizardPage.setImageDescriptor(ImageDescriptor)" signature="(Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="63" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="446" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="iterator" name="org.eclipse.jface.viewers.IStructuredSelection.iterator()" signature="()Ljava/util/Iterator;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="257" member="createProjectBox" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.createProjectBox(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target member="addPage" name="org.eclipse.jface.wizard.Wizard.addPage(IWizardPage)" signature="(Lorg/eclipse/jface/wizard/IWizardPage;)V" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="65" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="109" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="76" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.wizard.WizardPage.WizardPage(String, String, ImageDescriptor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="106" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.SRPMImportPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage.RPMExportPage(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+        </reference_kind>
+    </target>
+<target member="convertWidthInCharsToPixels" name="org.eclipse.jface.dialogs.DialogPage.convertWidthInCharsToPixels(int)" signature="(I)I" type="org.eclipse.jface.dialogs.DialogPage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="addInfoField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage.addInfoField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage"/>
+            <reference linenumber="57" member="addInfoField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage.addInfoField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage"/>
+            <reference linenumber="107" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="57" member="addChangelogField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage.addChangelogField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage"/>
+            <reference linenumber="71" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="56" member="addChangelogField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage.addChangelogField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage"/>
+            <reference linenumber="72" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="99" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="98" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="86" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="79" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="90" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="57" member="addProvidesField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage.addProvidesField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage"/>
+            <reference linenumber="89" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="56" member="addProvidesField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage.addProvidesField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage"/>
+            <reference linenumber="93" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="100" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="81" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="80" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.jface.preference.PreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+        </reference_kind>
+    </target>
+</references>

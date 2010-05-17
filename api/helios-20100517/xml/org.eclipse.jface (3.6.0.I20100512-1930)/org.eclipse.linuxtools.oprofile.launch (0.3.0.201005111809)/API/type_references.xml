@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.oprofile.launch (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="16" reference_visibility="1">
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.oprofile.launch.OprofileLaunchPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.oprofile.launch.OprofileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.viewers.IStructuredContentProvider" type="org.eclipse.jface.viewers.IStructuredContentProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.3" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.StructuredSelection" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="539" member="initializeTab" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.initializeTab(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProviderListener" type="org.eclipse.jface.viewers.ILabelProviderListener">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addListener" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.2.addListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$2"/>
+            <reference linenumber="-1" member="removeListener" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.2.removeListener(ILabelProviderListener)" signature="(Lorg/eclipse/jface/viewers/ILabelProviderListener;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelectionChangedListener" type="org.eclipse.jface.viewers.ISelectionChangedListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.4" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$4"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.SelectionChangedEvent" type="org.eclipse.jface.viewers.SelectionChangedEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.4.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$4"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.Viewer" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="inputChanged" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.3.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ListViewer" type="org.eclipse.jface.viewers.ListViewer">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="433" member="createLeftCell" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.createLeftCell(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="_eventList" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab._eventList" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ILabelProvider" type="org.eclipse.jface.viewers.ILabelProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab.CounterSubTab.2" type="org.eclipse.linuxtools.oprofile.launch.configuration.OprofileEventConfigTab$CounterSubTab$2"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.dialogs.ProgressMonitorDialog" type="org.eclipse.jface.dialogs.ProgressMonitorDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="130" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="130" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.dialogs.MessageDialog" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.OprofiledControlDialog" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$OprofiledControlDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.operation.IRunnableWithProgress" type="org.eclipse.jface.operation.IRunnableWithProgress">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="118" member="run" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate.LaunchTerminationDialogCloser.1.1" type="org.eclipse.linuxtools.oprofile.launch.launching.OprofileManualLaunchConfigurationDelegate$LaunchTerminationDialogCloser$1$1"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.linuxtools.rpm.core (0.4.3.201005111809)" reference_count="16" reference_visibility="1">
+    <target member="runCommandToString" name="org.eclipse.linuxtools.rpm.core.utils.Utils.runCommandToString(String[])" signature="([Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.core.utils.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="210" member="getMacroEval" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroProposalsList.getMacroEval(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmMacroProposalsList"/>
+            <reference linenumber="112" member="getRpmInfo" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.getRpmInfo(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+        </reference_kind>
+    </target>
+    <target member="runCommandToInputStream" name="org.eclipse.linuxtools.rpm.core.utils.Utils.runCommandToInputStream(String[])" signature="([Ljava/lang/String;)Ljava/io/BufferedInputStream;" type="org.eclipse.linuxtools.rpm.core.utils.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="143" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+            <reference linenumber="37" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+        <reference linenumber="427" member="runRpmdevNewSpec" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage.runRpmdevNewSpec(String)" signature="(Ljava/lang/String;)Ljava/io/BufferedInputStream;" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="copyFile" name="org.eclipse.linuxtools.rpm.core.utils.Utils.copyFile(File, File)" signature="(Ljava/io/File;Ljava/io/File;)V" type="org.eclipse.linuxtools.rpm.core.utils.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="164" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+            <reference linenumber="147" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+        </reference_kind>
+    </target>
+    <target member="fileExist" name="org.eclipse.linuxtools.rpm.core.utils.Utils.fileExist(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.rpm.core.utils.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="36" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+            <reference linenumber="141" member="retrievePackageList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob.retrievePackageList(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageBuildProposalsJob"/>
+            <reference linenumber="42" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+            <reference linenumber="47" member="setPackagesList" origin="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList.setPackagesList()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.RpmPackageProposalsList"/>
+            <reference linenumber="45" member="pluginSanityCheck" origin="org.eclipse.linuxtools.rpm.ui.editor.UiUtils.pluginSanityCheck()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.UiUtils"/>
+        <reference linenumber="101" member="rpmtoolsRadioGroupFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.rpmtoolsRadioGroupFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="98" member="rpmtoolsRadioGroupFieldEditor" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.rpmtoolsRadioGroupFieldEditor()" signature="()Lorg/eclipse/jface/preference/FieldEditor;" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+            <reference linenumber="151" member="propertyChange" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage.propertyChange(PropertyChangeEvent)" signature="(Lorg/eclipse/jface/util/PropertyChangeEvent;)V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.RpmProposalsPreferencePage"/>
+        <reference linenumber="62" member="addPages" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard.addPages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.SpecfileNewWizard"/>
+        </reference_kind>
+    </target>
+</references>

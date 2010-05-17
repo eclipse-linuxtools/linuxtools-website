@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.equinox.registry (3.5.0.v20100503)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.IConfigurationElement" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="194" member="getToolView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="175" member="initializeToolMap" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.initializeToolMap()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+            <reference linenumber="194" member="getToolView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="toolMap" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.toolMap" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8388608" reference_kind_name="DECLARED_PARAMETERIZED_METHOD">
+            <reference linenumber="-1" member="getToolMap" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolMap()" signature="()Ljava/util/HashMap;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+    </target>
+</references>

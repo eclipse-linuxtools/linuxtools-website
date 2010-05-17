@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" reference_count="5" reference_visibility="1">
+    <target member="getDefault" name="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getDefault()" signature="()Lorg/eclipse/linuxtools/internal/valgrind/ui/ValgrindUIPlugin;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="70" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getView" name="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getView()" signature="()Lorg/eclipse/linuxtools/internal/valgrind/ui/ValgrindViewPart;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="70" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.ExpandAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="154" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.CollapseAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="155" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getDynamicView" name="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.getDynamicView()" signature="()Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="71" member="parseOutput" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.parseOutput(File[], IProgressMonitor)" signature="([Ljava/io/File;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
+        </reference_kind>
+    </target>
+</references>

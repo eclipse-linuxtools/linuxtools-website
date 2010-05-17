@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="16" reference_visibility="1">
+    <target name="org.eclipse.swt.graphics.Color" type="org.eclipse.swt.graphics.Color">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="34" member="getColor" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+            <reference linenumber="30" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="36" member="getColor" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="28" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="colorTable" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.colorTable" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="34" member="getColor" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getColor" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.custom.StyleRange" type="org.eclipse.swt.custom.StyleRange">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="131" member="addRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.FileDialog" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="173" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        <reference linenumber="30" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction"/>
+            <reference linenumber="71" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="173" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        <reference linenumber="71" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+            <reference linenumber="30" member="queryFile" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction.queryFile()" signature="()Ljava/io/File;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.RGB" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="colorTable" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.colorTable" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getColor" origin="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager"/>
+        </reference_kind>
+    </target>
+</references>

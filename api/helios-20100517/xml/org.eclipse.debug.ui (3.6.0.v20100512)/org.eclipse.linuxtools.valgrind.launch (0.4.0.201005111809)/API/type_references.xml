@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.debug.ui (3.6.0.v20100512)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.debug.ui.ILaunchConfigurationTab" type="org.eclipse.debug.ui.ILaunchConfigurationTab">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="27" member="setDefaultProfileAttributes" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchShortcut"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.valgrind.launch.IValgrindToolPage" type="org.eclipse.linuxtools.valgrind.launch.IValgrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.ui.AbstractLaunchConfigurationTab" type="org.eclipse.debug.ui.AbstractLaunchConfigurationTab">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProfileTabs" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="21" member="getProfileTabs" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup.getProfileTabs()" signature="()[Lorg/eclipse/debug/ui/AbstractLaunchConfigurationTab;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationTabGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.ui.sourcelookup.ISourceLookupResult" type="org.eclipse.debug.ui.sourcelookup.ISourceLookupResult">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="212" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.ui.editor (0.4.0.201005111809)" referee="org.eclipse.jface.text (3.6.0.v20100513-0800)" reference_count="87" reference_visibility="1">
+    <target member="modifyAnnotations" name="org.eclipse.jface.text.source.projection.ProjectionAnnotationModel.modifyAnnotations(Annotation[], Map, Annotation[])" signature="([Lorg/eclipse/jface/text/source/Annotation;Ljava/util/Map;[Lorg/eclipse/jface/text/source/Annotation;)V" type="org.eclipse.jface.text.source.projection.ProjectionAnnotationModel">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="70" member="updateFoldingStructure" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.updateFoldingStructure(Position[])" signature="([Lorg/eclipse/jface/text/Position;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setRules" name="org.eclipse.jface.text.rules.RuleBasedScanner.setRules(IRule[])" signature="([Lorg/eclipse/jface/text/rules/IRule;)V" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="setContentAssistProcessor" name="org.eclipse.jface.text.contentassist.ContentAssistant.setContentAssistProcessor(IContentAssistProcessor, String)" signature="(Lorg/eclipse/jface/text/contentassist/IContentAssistProcessor;Ljava/lang/String;)V" type="org.eclipse.jface.text.contentassist.ContentAssistant">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="76" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="78" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="77" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaultReturnToken" name="org.eclipse.jface.text.rules.RuleBasedScanner.setDefaultReturnToken(IToken)" signature="(Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="85" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.WhitespaceRule.WhitespaceRule(IWhitespaceDetector)" signature="(Lorg/eclipse/jface/text/rules/IWhitespaceDetector;)V" type="org.eclipse.jface.text.rules.WhitespaceRule">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="92" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="getReconciler" name="org.eclipse.jface.text.source.SourceViewerConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="getColumn" name="org.eclipse.jface.text.rules.ICharacterScanner.getColumn()" signature="()I" type="org.eclipse.jface.text.rules.ICharacterScanner">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="145" member="checkColon" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.checkColon(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="70" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="85" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+        </reference_kind>
+    </target>
+    <target member="enableAutoInsert" name="org.eclipse.jface.text.contentassist.ContentAssistant.enableAutoInsert(boolean)" signature="(Z)V" type="org.eclipse.jface.text.contentassist.ContentAssistant">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="80" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.presentation.PresentationReconciler.PresentationReconciler()" signature="()V" type="org.eclipse.jface.text.presentation.PresentationReconciler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="44" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="evaluate" name="org.eclipse.jface.text.rules.WordRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.jface.text.rules.WordRule">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="67" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.reconciler.MonoReconciler.MonoReconciler(IReconcilingStrategy, boolean)" signature="(Lorg/eclipse/jface/text/reconciler/IReconcilingStrategy;Z)V" type="org.eclipse.jface.text.reconciler.MonoReconciler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="68" member="getReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.EndOfLineRule.EndOfLineRule(String, IToken)" signature="(Ljava/lang/String;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.jface.text.rules.EndOfLineRule">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="87" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner.SuppressionsPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.WordRule.WordRule(IWordDetector)" signature="(Lorg/eclipse/jface/text/rules/IWordDetector;)V" type="org.eclipse.jface.text.rules.WordRule">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="33" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.SuppressionToolRule(String[], IToken)" signature="([Ljava/lang/String;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="44" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.SuppressionKindRule(Map, IToken)" signature="(Ljava/util/Map;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+        </reference_kind>
+    </target>
+    <target member="setDamager" name="org.eclipse.jface.text.presentation.PresentationReconciler.setDamager(IPresentationDamager, String)" signature="(Lorg/eclipse/jface/text/presentation/IPresentationDamager;Ljava/lang/String;)V" type="org.eclipse.jface.text.presentation.PresentationReconciler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="51" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="47" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="59" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="55" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="getInformationControlCreator" name="org.eclipse.jface.text.source.SourceViewerConfiguration.getInformationControlCreator(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/IInformationControlCreator;" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="setPredicateRules" name="org.eclipse.jface.text.rules.RuleBasedPartitionScanner.setPredicateRules(IPredicateRule[])" signature="([Lorg/eclipse/jface/text/rules/IPredicateRule;)V" type="org.eclipse.jface.text.rules.RuleBasedPartitionScanner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="33" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner.SuppressionsPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target member="connect" name="org.eclipse.jface.text.rules.FastPartitioner.connect(IDocument, boolean)" signature="(Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.jface.text.rules.FastPartitioner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="30" member="getDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="doOperation" name="org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(int)" signature="(I)V" type="org.eclipse.jface.text.source.projection.ProjectionViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getConfiguredContentTypes" name="org.eclipse.jface.text.source.SourceViewerConfiguration.getConfiguredContentTypes(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)[Ljava/lang/String;" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getConfiguredContentTypes" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getConfiguredContentTypes(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.contentassist.ContentAssistant.ContentAssistant()" signature="()V" type="org.eclipse.jface.text.contentassist.ContentAssistant">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="74" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.source.projection.ProjectionAnnotation.ProjectionAnnotation()" signature="()V" type="org.eclipse.jface.text.source.projection.ProjectionAnnotation">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="66" member="updateFoldingStructure" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.updateFoldingStructure(Position[])" signature="([Lorg/eclipse/jface/text/Position;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="unread" name="org.eclipse.jface.text.rules.ICharacterScanner.unread()" signature="()V" type="org.eclipse.jface.text.rules.ICharacterScanner">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="149" member="checkColon" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.checkColon(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="86" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="140" member="unreadBuffer" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.unreadBuffer(ICharacterScanner, int)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="112" member="unreadBuffer" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.unreadBuffer(ICharacterScanner, int)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="65" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="71" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="106" member="checkColon" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.checkColon(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="77" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.RuleBasedPartitionScanner.RuleBasedPartitionScanner()" signature="()V" type="org.eclipse.jface.text.rules.RuleBasedPartitionScanner">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner.SuppressionsPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="27" member="getDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner.SuppressionsPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.TextAttribute.TextAttribute(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="60" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="getTokenLength" name="org.eclipse.jface.text.rules.RuleBasedScanner.getTokenLength()" signature="()I" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="60" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+        </reference_kind>
+    </target>
+    <target member="read" name="org.eclipse.jface.text.rules.ICharacterScanner.read()" signature="()I" type="org.eclipse.jface.text.rules.ICharacterScanner">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="104" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="102" member="checkColon" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.checkColon(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="150" member="checkColon" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.checkColon(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Z" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="85" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="108" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="77" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+            <reference linenumber="93" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+        </reference_kind>
+    </target>
+    <target member="isUndefined" name="org.eclipse.jface.text.rules.IToken.isUndefined()" signature="()Z" type="org.eclipse.jface.text.rules.IToken">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="71" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="57" member="evaluate" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.evaluate(ICharacterScanner)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.source.projection.ProjectionViewer.ProjectionViewer(Composite, IVerticalRuler, IOverviewRuler, boolean, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;Lorg/eclipse/jface/text/source/IOverviewRuler;ZI)V" type="org.eclipse.jface.text.source.projection.ProjectionViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="56" member="createSourceViewer" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="install" name="org.eclipse.jface.text.source.projection.ProjectionSupport.install()" signature="()V" type="org.eclipse.jface.text.source.projection.ProjectionSupport">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="47" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="addWord" name="org.eclipse.jface.text.rules.WordRule.addWord(String, IToken)" signature="(Ljava/lang/String;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.jface.text.rules.WordRule">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="62" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule.SuppressionKindRule(Map, IToken)" signature="(Ljava/util/Map;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionKindRule"/>
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule.SuppressionToolRule(String[], IToken)" signature="([Ljava/lang/String;Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionToolRule"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.FastPartitioner.FastPartitioner(IPartitionTokenScanner, String[])" signature="(Lorg/eclipse/jface/text/rules/IPartitionTokenScanner;[Ljava/lang/String;)V" type="org.eclipse.jface.text.rules.FastPartitioner">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="26" member="getDocument" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider.getDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.TextAttribute.TextAttribute(Color, Color, int)" signature="(Lorg/eclipse/swt/graphics/Color;Lorg/eclipse/swt/graphics/Color;I)V" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="58" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="getProjectionAnnotationModel" name="org.eclipse.jface.text.source.projection.ProjectionViewer.getProjectionAnnotationModel()" signature="()Lorg/eclipse/jface/text/source/projection/ProjectionAnnotationModel;" type="org.eclipse.jface.text.source.projection.ProjectionViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.DefaultDamagerRepairer.DefaultDamagerRepairer(ITokenScanner)" signature="(Lorg/eclipse/jface/text/rules/ITokenScanner;)V" type="org.eclipse.jface.text.rules.DefaultDamagerRepairer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="46" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="50" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="58" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="54" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.source.SourceViewerConfiguration.SourceViewerConfiguration()" signature="()V" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.SuppressionsConfiguration(ColorManager, SuppressionsEditor)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/SuppressionsEditor;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="getContentAssistant" name="org.eclipse.jface.text.source.SourceViewerConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.contentassist.CompletionProposal.CompletionProposal(String, int, int, int)" signature="(Ljava/lang/String;III)V" type="org.eclipse.jface.text.contentassist.CompletionProposal">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="48" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+        </reference_kind>
+    </target>
+    <target member="setRepairer" name="org.eclipse.jface.text.presentation.PresentationReconciler.setRepairer(IPresentationRepairer, String)" signature="(Lorg/eclipse/jface/text/presentation/IPresentationRepairer;Ljava/lang/String;)V" type="org.eclipse.jface.text.presentation.PresentationReconciler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="52" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="60" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+            <reference linenumber="56" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="getDocument" name="org.eclipse.jface.text.ITextViewer.getDocument()" signature="()Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="32" member="computeCompletionProposals" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsContentAssistProcessor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.Token.Token(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.text.rules.Token">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="55" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+            <reference linenumber="31" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner.SuppressionsPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.source.projection.ProjectionSupport.ProjectionSupport(ProjectionViewer, IAnnotationAccess, ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/projection/ProjectionViewer;Lorg/eclipse/jface/text/source/IAnnotationAccess;Lorg/eclipse/jface/text/source/ISharedTextColors;)V" type="org.eclipse.jface.text.source.projection.ProjectionSupport">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="46" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPresentationReconciler" name="org.eclipse.jface.text.source.SourceViewerConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getPresentationReconciler" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.rules.BufferedRuleBasedScanner.BufferedRuleBasedScanner()" signature="()V" type="org.eclipse.jface.text.rules.BufferedRuleBasedScanner">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner.SuppressionsElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="setInformationControlCreator" name="org.eclipse.jface.text.contentassist.ContentAssistant.setInformationControlCreator(IInformationControlCreator)" signature="(Lorg/eclipse/jface/text/IInformationControlCreator;)V" type="org.eclipse.jface.text.contentassist.ContentAssistant">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="getContentAssistant" origin="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsConfiguration"/>
+        </reference_kind>
+    </target>
+</references>

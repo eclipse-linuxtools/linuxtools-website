@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fWindow" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.fWindow" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActivePage" origin="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.linuxtools.cdt.autotools.AutotoolsPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchPart" type="org.eclipse.ui.IWorkbenchPart">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fPart" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.fPart" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setActivePart" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction.setActivePart(IAction, IWorkbenchPart)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/ui/IWorkbenchPart;)V" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindowActionDelegate" type="org.eclipse.ui.IWorkbenchWindowActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IObjectActionDelegate" type="org.eclipse.ui.IObjectActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.actions.ActionDelegate" type="org.eclipse.ui.actions.ActionDelegate">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction" type="org.eclipse.linuxtools.cdt.autotools.actions.AbstractTargetAction"/>
+        </reference_kind>
+    </target>
+</references>

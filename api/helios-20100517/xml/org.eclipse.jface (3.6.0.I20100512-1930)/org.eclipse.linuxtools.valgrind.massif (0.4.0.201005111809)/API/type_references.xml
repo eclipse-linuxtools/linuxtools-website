@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.massif (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="64" reference_visibility="1">
+    <target name="org.eclipse.jface.dialogs.InputDialog" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="241" member="handleNewButtonPressed" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.handleNewButtonPressed()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="241" member="handleNewButtonPressed" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage.handleNewButtonPressed()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getToolbarActions" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="282" member="getToolbarActions" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.LabelProvider" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeLabelProvider"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuListener" type="org.eclipse.jface.action.IMenuListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.3" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuManager" type="org.eclipse.jface.action.IMenuManager">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.3.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TreeSelection" type="org.eclipse.jface.viewers.TreeSelection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="70" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.2.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.DoubleClickEvent" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$1"/>
+            <reference linenumber="-1" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.2.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITableLabelProvider" type="org.eclipse.jface.viewers.ITableLabelProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.StructuredSelection" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="146" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$1"/>
+        <reference linenumber="81" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG"/>
+            <reference linenumber="105" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TableViewer" type="org.eclipse.jface.viewers.TableViewer">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="viewer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.viewer" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getTableViewer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getTableViewer()" signature="()Lorg/eclipse/jface/viewers/TableViewer;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="191" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="112" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="74" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartSVG"/>
+            <reference linenumber="98" member="callback" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl.callback(Object, Object, CallBackValue)" signature="(Ljava/lang/Object;Ljava/lang/Object;Lorg/eclipse/birt/chart/model/attribute/CallBackValue;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartControl"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TableViewerColumn" type="org.eclipse.jface.viewers.TableViewerColumn">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="123" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="123" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="140" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IFontProvider" type="org.eclipse.jface.viewers.IFontProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.MassifLabelProvider" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$MassifLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IDoubleClickListener" type="org.eclipse.jface.viewers.IDoubleClickListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.2" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getDoubleClickListener" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.getDoubleClickListener()" signature="()Lorg/eclipse/jface/viewers/IDoubleClickListener;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="doubleClickListener" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.doubleClickListener" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.ActionContributionItem" type="org.eclipse.jface.action.ActionContributionItem">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="51" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="51" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+            <reference linenumber="72" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="72" member="getMenu" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.getMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeContentProvider" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="contentProvider" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.contentProvider" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ViewerComparator" type="org.eclipse.jface.viewers.ViewerComparator">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="188" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.MenuManager" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="84" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.MassifTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="84" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.MassifTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.Viewer" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="inputChanged" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.1.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$1"/>
+            <reference linenumber="-1" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.2.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$2$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ArrayContentProvider" type="org.eclipse.jface.viewers.ArrayContentProvider">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="132" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog.ChartLocationsDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartLocationsDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuCreator" type="org.eclipse.jface.action.IMenuCreator">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeSelection" type="org.eclipse.jface.viewers.ITreeSelection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="87" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.3.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="87" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.3.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TreeViewer" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getTreeViewer" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.getTreeViewer()" signature="()Lorg/eclipse/jface/viewers/TreeViewer;" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.Action" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.4" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.5" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$5"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction$1"/>
+            <reference linenumber="263" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.5" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$5"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.3" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$3"/>
+            <reference linenumber="231" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.3" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$3"/>
+            <reference linenumber="247" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.4" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction"/>
+            <reference linenumber="51" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction.1" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPidMenuAction$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="saveChartAction" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.saveChartAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="-1" member="collapseAction" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.collapseAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+            <reference linenumber="-1" member="expandAction" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer.expandAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifTreeViewer"/>
+            <reference linenumber="-1" member="chartAction" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.chartAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+            <reference linenumber="-1" member="treeAction" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart.treeAction" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifViewPart"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.internal.valgrind.massif.birt.ChartEditorInput"/>
+        </reference_kind>
+    </target>
+</references>

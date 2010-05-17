@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="11" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.CallgraphPlugin" type="org.eclipse.linuxtools.callgraph.CallgraphPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="window" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.window" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="-1" member="window" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.window" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindowActionDelegate" type="org.eclipse.ui.IWorkbenchWindowActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="60" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+            <reference linenumber="52" member="run" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="51" member="run" origin="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.RemoveMarkerAction"/>
+            <reference linenumber="59" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+</references>

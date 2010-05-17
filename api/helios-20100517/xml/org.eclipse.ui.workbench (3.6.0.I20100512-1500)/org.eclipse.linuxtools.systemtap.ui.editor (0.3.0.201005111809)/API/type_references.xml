@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="40" reference_visibility="1">
+    <target name="org.eclipse.ui.IPersistableElement" type="org.eclipse.ui.IPersistableElement">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getPersistable" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getPersistable()" signature="()Lorg/eclipse/ui/IPersistableElement;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorSite" type="org.eclipse.ui.IEditorSite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IActionBars" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="registerActionBar" origin="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager.registerActionBar(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="35" member="update" origin="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager.update()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="addedBars" origin="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager.addedBars" type="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.PathEditorInput(IPath, IWorkbenchWindow)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.init(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fMainWindow" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.fMainWindow" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        <reference linenumber="-1" member="window" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.window" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getMainWindow" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getMainWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        <reference linenumber="-1" member="getWorkbenchWindow" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.getWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorInput" type="org.eclipse.ui.IEditorInput">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="48" member="createDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="-1" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="46" member="createDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.createDocument(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        <reference linenumber="-1" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="114" member="doSaveAs" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.doSaveAs()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        <reference linenumber="53" member="run" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IPathEditorInput" type="org.eclipse.ui.IPathEditorInput">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="133" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="183" member="isModifiable" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.isModifiable(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="71" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="70" member="setDocumentContent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setDocumentContent(IDocument, IEditorInput)" signature="(Lorg/eclipse/jface/text/IDocument;Lorg/eclipse/ui/IEditorInput;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="132" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="182" member="isModifiable" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.isModifiable(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="183" member="isModifiable" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.isModifiable(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+            <reference linenumber="133" member="doSaveDocument" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.doSaveDocument(IProgressMonitor, Object, IDocument, boolean)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/Object;Lorg/eclipse/jface/text/IDocument;Z)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.init(IEditorSite, IEditorInput)" signature="(Lorg/eclipse/ui/IEditorSite;Lorg/eclipse/ui/IEditorInput;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="59" member="run" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IWorkbenchWindowActionDelegate" type="org.eclipse.ui.IWorkbenchWindowActionDelegate">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorPart" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActiveEditor" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.getActiveEditor()" signature="()Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="34" member="updateState" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.updateState()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchPage" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActivePage" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.IEditorRegistry" type="org.eclipse.ui.IEditorRegistry">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="86" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="85" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IEditorDescriptor" type="org.eclipse.ui.IEditorDescriptor">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="87" member="getEditorId" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.getEditorId(File)" signature="(Ljava/io/File;)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin" type="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IStartup" type="org.eclipse.ui.IStartup">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin" type="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin"/>
+        </reference_kind>
+    </target>
+</references>

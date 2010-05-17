@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="182" reference_visibility="1">
+    <target member="setBackground" name="org.eclipse.swt.widgets.Control.setBackground(Color)" signature="(Lorg/eclipse/swt/graphics/Color;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1090" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Label.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="701" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="709" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="isDisposed" name="org.eclipse.swt.widgets.Widget.isDisposed()" signature="()Z" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="191" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="368" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="380" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.swt.widgets.Control.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="349" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Button.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="716" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="getHorizontalBar" name="org.eclipse.swt.widgets.Scrollable.getHorizontalBar()" signature="()Lorg/eclipse/swt/widgets/ScrollBar;" type="org.eclipse.swt.widgets.Scrollable">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1879" member="scrollSmoothBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollSmoothBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1867" member="scrollBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="194" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.FileDialog.FileDialog(Shell, int)" signature="(Lorg/eclipse/swt/widgets/Shell;I)V" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="462" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="1026" member="writeToDot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.writeToDot(boolean, Set)" signature="(ZLjava/util/Set;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="839" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+        </reference_kind>
+    </target>
+    <target member="getData" name="org.eclipse.swt.widgets.Widget.getData()" signature="()Ljava/lang/Object;" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getData" origin="org.eclipse.linuxtools.callgraph.StapNode.getData()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="getBackground" name="org.eclipse.swt.widgets.Control.getBackground()" signature="()Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1090" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.swt.widgets.ScrollBar.getSelection()" signature="()I" type="org.eclipse.swt.widgets.ScrollBar">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1879" member="scrollSmoothBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollSmoothBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1880" member="scrollSmoothBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollSmoothBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1867" member="scrollBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1868" member="scrollBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        <reference linenumber="58" member="treeExpanded" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeExpanded(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+            <reference linenumber="40" member="treeCollapsed" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeCollapsed(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+        </reference_kind>
+    </target>
+    <target member="setToolTipText" name="org.eclipse.swt.widgets.Control.setToolTipText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="159" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="144" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="addKeyListener" name="org.eclipse.swt.widgets.Control.addKeyListener(KeyListener)" signature="(Lorg/eclipse/swt/events/KeyListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="204" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setData" name="org.eclipse.swt.widgets.Widget.setData(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="510" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="asyncExec" name="org.eclipse.swt.widgets.Display.asyncExec(Runnable)" signature="(Ljava/lang/Runnable;)V" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        <reference linenumber="65" member="run" origin="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.FillLayout.FillLayout()" signature="()V" type="org.eclipse.swt.layout.FillLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="375" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Shell.Shell()" signature="()V" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="1025" member="writeToDot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.writeToDot(boolean, Set)" signature="(ZLjava/util/Set;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="113" member="run" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.1.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraphParser$1"/>
+            <reference linenumber="839" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="696" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="461" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+        </reference_kind>
+    </target>
+    <target member="getBounds" name="org.eclipse.swt.widgets.Display.getBounds()" signature="()Lorg/eclipse/swt/graphics/Rectangle;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridLayout.GridLayout(int, boolean)" signature="(IZ)V" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="385" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="125" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="419" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Composite.Composite(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="383" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="372" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getPrimaryMonitor" name="org.eclipse.swt.widgets.Display.getPrimaryMonitor()" signature="()Lorg/eclipse/swt/widgets/Monitor;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="getBounds" name="org.eclipse.swt.widgets.Monitor.getBounds()" signature="()Lorg/eclipse/swt/graphics/Rectangle;" type="org.eclipse.swt.widgets.Monitor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="setData" name="org.eclipse.swt.widgets.Widget.setData(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="142" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="157" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="widgetSelected" name="org.eclipse.swt.events.SelectionAdapter.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+        </reference_kind>
+    </target>
+    <target member="getSize" name="org.eclipse.swt.widgets.Control.getSize()" signature="()Lorg/eclipse/swt/graphics/Point;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="406" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        <reference linenumber="75" member="mouseScrolled" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseWheelListener.mouseScrolled(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseWheelListener"/>
+            <reference linenumber="76" member="mouseScrolled" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseWheelListener.mouseScrolled(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseWheelListener"/>
+        </reference_kind>
+    </target>
+    <target member="getCurrent" name="org.eclipse.swt.widgets.Display.getCurrent()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="34" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="114" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        <reference linenumber="28" member="getImage" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+            <reference linenumber="26" member="getImage" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.swt.widgets.Spinner.getSelection()" signature="()I" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="721" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+            <reference linenumber="723" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+            <reference linenumber="722" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+        </reference_kind>
+    </target>
+    <target member="getSize" name="org.eclipse.swt.widgets.Shell.getSize()" signature="()Lorg/eclipse/swt/graphics/Point;" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="350" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setParent" name="org.eclipse.swt.widgets.Control.setParent(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Z" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="401" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="404" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="addSelectionListener" name="org.eclipse.swt.widgets.Button.addSelectionListener(SelectionListener)" signature="(Lorg/eclipse/swt/events/SelectionListener;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="168" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="718" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="166" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="setImage" name="org.eclipse.swt.widgets.Button.setImage(Image)" signature="(Lorg/eclipse/swt/graphics/Image;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="143" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="158" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="update" name="org.eclipse.swt.widgets.Control.update()" signature="()V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1115" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.events.SelectionAdapter.SelectionAdapter()" signature="()V" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="718" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.1(new CallgraphView(){})" signature="(Lorg/eclipse/linuxtools/callgraph/CallgraphView$13;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Button.Button(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="715" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="153" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="138" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="setRedraw" name="org.eclipse.swt.widgets.Control.setRedraw(boolean)" signature="(Z)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1043" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1095" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setLayout" name="org.eclipse.swt.widgets.Composite.setLayout(Layout)" signature="(Lorg/eclipse/swt/widgets/Layout;)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="130" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="697" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="389" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="375" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="423" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="setSelection" name="org.eclipse.swt.widgets.Spinner.setSelection(int)" signature="(I)V" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="704" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="712" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="setMaximum" name="org.eclipse.swt.widgets.Spinner.setMaximum(int)" signature="(I)V" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="703" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="711" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="redraw" name="org.eclipse.swt.widgets.Control.redraw()" signature="()V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1139" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.swt.widgets.FileDialog.open()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="463" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.4.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$4"/>
+            <reference linenumber="840" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+            <reference linenumber="1028" member="writeToDot" origin="org.eclipse.linuxtools.callgraph.CallgraphView.writeToDot(boolean, Set)" signature="(ZLjava/util/Set;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Spinner.Spinner(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="710" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="702" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.swt.widgets.Shell.dispose()" signature="()V" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="740" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+        </reference_kind>
+    </target>
+    <target member="getBounds" name="org.eclipse.swt.widgets.Control.getBounds()" signature="()Lorg/eclipse/swt/graphics/Rectangle;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="588" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.5.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$5"/>
+            <reference linenumber="309" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="310" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1112" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1145" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1144" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="330" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="329" member="drawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1117" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1531" member="setDimensions" origin="org.eclipse.linuxtools.callgraph.StapGraph.setDimensions(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="537" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1532" member="setDimensions" origin="org.eclipse.linuxtools.callgraph.StapGraph.setDimensions(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="349" member="preDrawRadial" origin="org.eclipse.linuxtools.callgraph.StapGraph.preDrawRadial(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1125" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setVisible" name="org.eclipse.swt.widgets.Control.setVisible(boolean)" signature="(Z)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1057" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1074" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1089" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1067" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1049" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1081" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.graphics.Color.Color(Device, int, int, int)" signature="(Lorg/eclipse/swt/graphics/Device;III)V" type="org.eclipse.swt.graphics.Color">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="523" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="526" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.swt.widgets.Item.getText()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.Item">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="96" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target member="getLayoutData" name="org.eclipse.swt.widgets.Control.getLayoutData()" signature="()Ljava/lang/Object;" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1054" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1086" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1071" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1046" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1078" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1064" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setSize" name="org.eclipse.swt.widgets.Control.setSize(int, int)" signature="(II)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="698" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="406" member="initializePartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializePartControl()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getDisplay" name="org.eclipse.swt.widgets.Widget.getDisplay()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="523" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="526" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Label.Label(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="699" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="707" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="addMouseWheelListener" name="org.eclipse.swt.widgets.Control.addMouseWheelListener(MouseWheelListener)" signature="(Lorg/eclipse/swt/events/MouseWheelListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="205" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="addMouseListener" name="org.eclipse.swt.widgets.Control.addMouseListener(MouseListener)" signature="(Lorg/eclipse/swt/events/MouseListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="203" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraph.StapGraph(Composite, int, Composite, Canvas, CallgraphView)" signature="(Lorg/eclipse/swt/widgets/Composite;ILorg/eclipse/swt/widgets/Composite;Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/linuxtools/callgraph/CallgraphView;)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.swt.widgets.Widget.dispose()" signature="()V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="381" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="369" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="417" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridData.GridData(int, int)" signature="(II)V" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="421" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridLayout.GridLayout()" signature="()V" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="697" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="setLayoutData" name="org.eclipse.swt.widgets.Control.setLayoutData(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1080" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="390" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="1048" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="175" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="700" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="1073" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1088" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1056" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="133" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="713" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="1194" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="164" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="717" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="705" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="1066" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="376" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="708" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="424" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="getVerticalBar" name="org.eclipse.swt.widgets.Scrollable.getVerticalBar()" signature="()Lorg/eclipse/swt/widgets/ScrollBar;" type="org.eclipse.swt.widgets.Scrollable">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1868" member="scrollBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1880" member="scrollSmoothBy" origin="org.eclipse.linuxtools.callgraph.StapGraph.scrollSmoothBy(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setBackgroundMode" name="org.eclipse.swt.widgets.Composite.setBackgroundMode(int)" signature="(I)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="121" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Canvas.Canvas(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Canvas">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="124" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="148" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridData.GridData(int, int, boolean, boolean)" signature="(IIZZ)V" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="717" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="1194" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="708" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="705" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="131" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="384" member="makeGraphComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeGraphComp()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="154" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="373" member="makeTreeComp" origin="org.eclipse.linuxtools.callgraph.CallgraphView.makeTreeComp(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="713" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="700" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+            <reference linenumber="173" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="139" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.swt.widgets.Shell.open()" signature="()V" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="749" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.swt.widgets.Display.getDefault()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="109" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="116" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        <reference linenumber="65" member="run" origin="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist"/>
+        </reference_kind>
+    </target>
+<target member="getCaretOffset" name="org.eclipse.swt.custom.StyledText.getCaretOffset()" signature="()I" type="org.eclipse.swt.custom.StyledText">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="70" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+    <target member="setCaretOffset" name="org.eclipse.swt.custom.StyledText.setCaretOffset(int)" signature="(I)V" type="org.eclipse.swt.custom.StyledText">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="77" member="run" origin="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.callgraph.actions.InsertMarkerAction"/>
+        </reference_kind>
+    </target>
+<target member="getData" name="org.eclipse.swt.widgets.Widget.getData(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="180" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="removeListener" name="org.eclipse.swt.widgets.Widget.removeListener(int, Listener)" signature="(ILorg/eclipse/swt/widgets/Listener;)V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="218" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="removeMouseMoveListener" name="org.eclipse.swt.widgets.Control.removeMouseMoveListener(MouseMoveListener)" signature="(Lorg/eclipse/swt/events/MouseMoveListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="217" member="mouseUpEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseUpEvent()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="addMouseMoveListener" name="org.eclipse.swt.widgets.Control.addMouseMoveListener(MouseMoveListener)" signature="(Lorg/eclipse/swt/events/MouseMoveListener;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="208" member="mouseDownEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDownEvent(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+    <target member="addListener" name="org.eclipse.swt.widgets.Widget.addListener(int, Listener)" signature="(ILorg/eclipse/swt/widgets/Listener;)V" type="org.eclipse.swt.widgets.Widget">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="209" member="mouseDownEvent" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.mouseDownEvent(int, int)" signature="(II)V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.swt.graphics.Image.Image(Device, String)" signature="(Lorg/eclipse/swt/graphics/Device;Ljava/lang/String;)V" type="org.eclipse.swt.graphics.Image">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="28" member="getImage" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+            <reference linenumber="26" member="getImage" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setSelection" name="org.eclipse.swt.widgets.ScrollBar.setSelection(int)" signature="(I)V" type="org.eclipse.swt.widgets.ScrollBar">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="58" member="treeExpanded" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeExpanded(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+            <reference linenumber="40" member="treeCollapsed" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener.treeCollapsed(TreeExpansionEvent)" signature="(Lorg/eclipse/jface/viewers/TreeExpansionEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeListener"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.swt.widgets.Composite.setFocus()" signature="()Z" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="doubleClick" origin="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.callgraph.treeviewer.StapTreeDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

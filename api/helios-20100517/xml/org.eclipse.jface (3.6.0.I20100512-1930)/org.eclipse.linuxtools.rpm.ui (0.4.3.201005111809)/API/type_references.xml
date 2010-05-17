@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui (0.4.3.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="17" reference_visibility="1">
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.SRPMImportPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="selection" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.selection" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="-1" member="selection" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.selection" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="-1" member="selection" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.selection" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.operation.IRunnableWithProgress" type="org.eclipse.jface.operation.IRunnableWithProgress">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportOperation" type="org.eclipse.linuxtools.rpm.ui.SRPMImportOperation"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMExportOperation" type="org.eclipse.linuxtools.rpm.ui.RPMExportOperation"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.WizardDialog" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="444" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="444" member="getNewProject" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.getNewProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.WizardPage" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMExportPage" type="org.eclipse.linuxtools.rpm.ui.RPMExportPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.Wizard" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+</references>

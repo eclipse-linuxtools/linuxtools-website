@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.jface.text (3.6.0.v20100513-0800)" reference_count="5" reference_visibility="1">
+    <target member="UNDEFINED" name="org.eclipse.jface.text.rules.Token.UNDEFINED" type="org.eclipse.jface.text.rules.Token">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="112" member="evaluate" origin="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule.evaluate(ICharacterScanner, boolean)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;Z)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule"/>
+            <reference linenumber="74" member="evaluate" origin="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule.evaluate(ICharacterScanner, boolean)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;Z)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule"/>
+            <reference linenumber="101" member="evaluate" origin="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule.evaluate(ICharacterScanner, boolean)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;Z)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.changelog.core.editors.GNUFileEntryRule"/>
+        </reference_kind>
+    </target>
+    <target member="fOffset" name="org.eclipse.jface.text.rules.RuleBasedScanner.fOffset" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="98" member="getOffset" origin="org.eclipse.linuxtools.changelog.core.editors.GNUElementScanner.getOffset()" signature="()I" type="org.eclipse.linuxtools.changelog.core.editors.GNUElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="fDefaultReturnToken" name="org.eclipse.jface.text.rules.RuleBasedScanner.fDefaultReturnToken" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="107" member="getDefaultToken" origin="org.eclipse.linuxtools.changelog.core.editors.GNUElementScanner.getDefaultToken()" signature="()Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.changelog.core.editors.GNUElementScanner"/>
+        </reference_kind>
+    </target>
+</references>

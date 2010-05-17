@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="3" reference_visibility="1">
+    <target member="bind" name="org.eclipse.osgi.util.NLS.bind(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="313" member="validateFolderName" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateFolderName()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="232" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+<target member="getEntry" name="org.osgi.framework.Bundle.getEntry(String)" signature="(Ljava/lang/String;)Ljava/net/URL;" type="org.osgi.framework.Bundle">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="59" member="loadIcon" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider.loadIcon(String)" signature="(Ljava/lang/String;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectLabelProvider"/>
+        </reference_kind>
+    </target>
+</references>

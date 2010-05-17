@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.ui (0.3.0.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="3" reference_visibility="1">
+    <target member="openEditorOnFileStore" name="org.eclipse.ui.ide.IDE.openEditorOnFileStore(IWorkbenchPage, IFileStore)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/filesystem/IFileStore;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="142" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int, int)" signature="(Ljava/lang/String;II)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+            <reference linenumber="69" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IEditorInput, String)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/ui/IEditorInput;Ljava/lang/String;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="111" member="openEditorAndSelect" origin="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils.openEditorAndSelect(ISourceLookupResult, int)" signature="(Lorg/eclipse/debug/ui/sourcelookup/ISourceLookupResult;I)V" type="org.eclipse.linuxtools.profiling.ui.ProfileUIUtils"/>
+        </reference_kind>
+    </target>
+</references>

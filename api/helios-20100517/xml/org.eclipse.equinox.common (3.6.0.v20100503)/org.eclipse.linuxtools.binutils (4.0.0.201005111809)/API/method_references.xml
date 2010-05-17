@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="39" reference_visibility="1">
+    <target member="removeLastSegments" name="org.eclipse.core.runtime.IPath.removeLastSegments(int)" signature="(I)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="216" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="equals" name="org.eclipse.core.runtime.IPath.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="150" member="equals" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="lastSegment" name="org.eclipse.core.runtime.Path.lastSegment()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="205" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="203" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="129" member="openSourceFileAtAddress" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(String, long)" signature="(Ljava/lang/String;J)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="104" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="220" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IProject, String, int)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="190" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IPath, String, int)" signature="(Lorg/eclipse/core/runtime/IPath;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="117" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(String, String, int)" signature="(Ljava/lang/String;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="141" member="openSourceFileAtAddress" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtAddress(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="359" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IBinaryParserIBinaryObject, String, int)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="91" member="openSourceFileAtLocation" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        <reference linenumber="432" member="getBinaryObject" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager"/>
+        </reference_kind>
+    </target>
+    <target member="segment" name="org.eclipse.core.runtime.IPath.segment(int)" signature="(I)Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="211" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="lastSegment" name="org.eclipse.core.runtime.IPath.lastSegment()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="67" member="getName" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditorInput"/>
+            <reference linenumber="205" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="toFile" name="org.eclipse.core.runtime.IPath.toFile()" signature="()Ljava/io/File;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="444" member="getEditorInput" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getEditorInput(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="405" member="openFileImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openFileImpl(IProject, IPath, int)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IPath;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="93" member="isValidMissingFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.isValidMissingFile()" signature="()Z" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="segmentCount" name="org.eclipse.core.runtime.Path.segmentCount()" signature="()I" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="217" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="209" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getStatus" name="org.eclipse.core.runtime.CoreException.getStatus()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="538" member="getFileForPathImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getFileForPathImpl(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="450" member="getEditorInput" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getEditorInput(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="487" member="getFileForPath" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getFileForPath(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        <reference linenumber="539" member="getBinaryParser" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryParser(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/cdt/core/IBinaryParser;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager"/>
+            <reference linenumber="473" member="getBinaryObject" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(IPath, IBinaryParser)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/IBinaryParser;)Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager"/>
+            <reference linenumber="71" member="getBinutilsFactoryImpl" origin="org.eclipse.linuxtools.binutils.utils.STBinutilsFactoryManager.getBinutilsFactoryImpl(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/binutils/utils/ISTBinutilsFactory;" type="org.eclipse.linuxtools.binutils.utils.STBinutilsFactoryManager"/>
+        </reference_kind>
+    </target>
+    <target member="segment" name="org.eclipse.core.runtime.Path.segment(int)" signature="(I)Ljava/lang/String;" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="211" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getFileExtension" name="org.eclipse.core.runtime.IPath.getFileExtension()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="200" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isAbsolute" name="org.eclipse.core.runtime.IPath.isAbsolute()" signature="()Z" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="502" member="getFileForPathImpl" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getFileForPathImpl(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="443" member="getEditorInput" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.getEditorInput(IPath, IProject)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+    <target member="removeLastSegments" name="org.eclipse.core.runtime.Path.removeLastSegments(int)" signature="(I)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="217" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="segmentCount" name="org.eclipse.core.runtime.IPath.segmentCount()" signature="()I" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="216" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="207" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="208" member="locateFile" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.locateFile()" signature="()V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="463" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        <reference linenumber="411" member="getAddr2line" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getAddr2line(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/cdt/utils/Addr2line;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, String, Throwable)" signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="96" member="run" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.1.run()" signature="()V" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager$1"/>
+            <reference linenumber="541" member="getBinaryParser" origin="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryParser(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/cdt/core/IBinaryParser;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager"/>
+        </reference_kind>
+    </target>
+</references>

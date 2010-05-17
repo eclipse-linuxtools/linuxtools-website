@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.man (0.0.1.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="3" reference_visibility="1">
+    <target name="org.eclipse.jface.preference.IPreferenceStore" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="30" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.man.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.man.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.preference.FieldEditorPreferencePage" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.man.preferences.ManPathPage" type="org.eclipse.linuxtools.man.preferences.ManPathPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.preference.FileFieldEditor" type="org.eclipse.jface.preference.FileFieldEditor">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="43" member="createFieldEditors" origin="org.eclipse.linuxtools.man.preferences.ManPathPage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.man.preferences.ManPathPage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="17" reference_visibility="1">
+    <target member="getString" name="org.eclipse.jface.preference.IPreferenceStore.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="91" member="getRpmlintPath" origin="org.eclipse.linuxtools.rpm.rpmlint.Activator.getRpmlintPath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.rpmlint.Activator"/>
+        <reference linenumber="307" member="getMixedUseOfTabsAndSpaces" origin="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser.getMixedUseOfTabsAndSpaces(String)" signature="(Ljava/lang/String;)I" type="org.eclipse.linuxtools.rpm.rpmlint.parser.RpmlintParser"/>
+        </reference_kind>
+    </target>
+<target member="toList" name="org.eclipse.jface.viewers.IStructuredSelection.toList()" signature="()Ljava/util/List;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="39" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.ToggleRpmlintNatureAction"/>
+            <reference linenumber="47" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.ErrorDialog.openError(Shell, String, String, IStatus)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/core/runtime/IStatus;)I" type="org.eclipse.jface.dialogs.ErrorDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="75" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.RpmlintPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.RpmlintPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.RpmlintPreferencePage()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+            <reference linenumber="49" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FileFieldEditor.FileFieldEditor(String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FileFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="38" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.RadioGroupFieldEditor.RadioGroupFieldEditor(String, String, int, String[][], Composite, boolean)" signature="(Ljava/lang/String;Ljava/lang/String;I[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;Z)V" type="org.eclipse.jface.preference.RadioGroupFieldEditor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="42" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="32" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.PreferenceInitializer"/>
+            <reference linenumber="33" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+            <reference linenumber="41" member="createFieldEditors" origin="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.rpm.rpmlint.preferences.RpmlintPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

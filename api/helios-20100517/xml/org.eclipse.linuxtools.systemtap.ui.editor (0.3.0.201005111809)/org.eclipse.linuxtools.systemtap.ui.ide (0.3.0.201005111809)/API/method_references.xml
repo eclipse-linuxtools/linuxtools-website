@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" reference_count="53" reference_visibility="1">
+    <target member="jumpToLocation" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.jumpToLocation(int, int)" signature="(II)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="81" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.PathEditorInput()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="44" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction"/>
+        </reference_kind>
+    </target>
+    <target member="getPath" name="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="131" member="isValid" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.isValid()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction"/>
+        <reference linenumber="167" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="find" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.find(String)" signature="(Ljava/lang/String;)I" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="118" member="probeFind" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.probeFind(TreeDefinitionNode, STPEditor)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeDefinitionNode;Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPEditor;)I" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="120" member="probeFind" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.probeFind(TreeDefinitionNode, STPEditor)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeDefinitionNode;Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPEditor;)I" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="100" member="functionFind" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.functionFind(TreeDefinitionNode, STPEditor)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeDefinitionNode;Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPEditor;)I" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="115" member="probeFind" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.probeFind(TreeDefinitionNode, STPEditor)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeDefinitionNode;Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPEditor;)I" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+            <reference linenumber="103" member="functionFind" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.functionFind(TreeDefinitionNode, STPEditor)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/TreeDefinitionNode;Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPEditor;)I" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.PathEditorInput(IPath, IWorkbenchWindow)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="70" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        <reference linenumber="108" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+<target member="insertTextAtCurrent" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="130" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="98" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="117" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+        <reference linenumber="183" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="insertText" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="129" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+        <reference linenumber="190" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction.NewFileAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.NewFileAction">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="96" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.ProbeAliasAction"/>
+            <reference linenumber="115" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.FunctionBrowserAction"/>
+        <reference linenumber="181" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.DoubleClickStrategy()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="63" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="107" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.NonRuleBasedDamagerRepairer(TextAttribute)" signature="(Lorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="95" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.SimpleDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.CDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.STPDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="33" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.CDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="24" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.STPDocumentProvider()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getColor" name="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.getColor(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="70" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="96" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+            <reference linenumber="71" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="72" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="73" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="74" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="82" member="getSTPScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getSTPScanner()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPElementScanner;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="60" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.WhitespaceDetector.WhitespaceDetector()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.WhitespaceDetector">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="91" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="269" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="114" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createAnnotationModel" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="-1" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.WordDetector.WordDetector()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.WordDetector">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="94" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager.ColorManager()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.ColorManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="229" member="internal_init" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.internal_init()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="61" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.STPEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setupDocument" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="-1" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.SimpleEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.STPEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.STPEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+<target member="getInstance" name="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager.getInstance()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/editor/RecentFileMenuManager;" type="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="140" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+    <target member="registerActionBar" name="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager.registerActionBar(IActionBars)" signature="(Lorg/eclipse/ui/IActionBars;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.RecentFileMenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.BrowserView"/>
+        </reference_kind>
+    </target>
+</references>

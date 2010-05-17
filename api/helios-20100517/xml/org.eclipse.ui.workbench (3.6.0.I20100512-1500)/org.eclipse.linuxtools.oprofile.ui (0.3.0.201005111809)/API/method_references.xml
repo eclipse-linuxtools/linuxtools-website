@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="23" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.OprofileUiPlugin()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="63" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.OprofileUiPlugin()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="124" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        <reference linenumber="51" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="118" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        <reference linenumber="51" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="95" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="71" member="start" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.plugin.AbstractUIPlugin.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="118" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="78" member="stop" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+<target member="getActivePage" name="org.eclipse.ui.IWorkbenchWindow.getActivePage()" signature="()Lorg/eclipse/ui/IWorkbenchPage;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="95" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="getViewSite" name="org.eclipse.ui.part.ViewPart.getViewSite()" signature="()Lorg/eclipse/ui/IViewSite;" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="77" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="showView" name="org.eclipse.ui.IWorkbenchPage.showView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IViewPart;" type="org.eclipse.ui.IWorkbenchPage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="95" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.part.WorkbenchPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.PlatformUI.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.PlatformUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="51" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="95" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="getActionBars" name="org.eclipse.ui.IViewSite.getActionBars()" signature="()Lorg/eclipse/ui/IActionBars;" type="org.eclipse.ui.IViewSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="77" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.ViewPart.ViewPart()" signature="()V" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="58" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.OprofileView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.OprofileView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.part.WorkbenchPart.setFocus()" signature="()V" type="org.eclipse.ui.part.WorkbenchPart">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setFocus" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.setFocus()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="getMenuManager" name="org.eclipse.ui.IActionBars.getMenuManager()" signature="()Lorg/eclipse/jface/action/IMenuManager;" type="org.eclipse.ui.IActionBars">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="77" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.team.ui (3.5.100.I20100513-0630)" reference_count="21" reference_visibility="1">
+    <target name="org.eclipse.team.ui.synchronize.ISynchronizeModelElement" type="org.eclipse.team.ui.synchronize.ISynchronizeModelElement">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="174" member="extractSynchronizeModelInfo" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.extractSynchronizeModelInfo(ISynchronizeModelElement, IPath, Vector, Vector, Vector)" signature="(Lorg/eclipse/team/ui/synchronize/ISynchronizeModelElement;Lorg/eclipse/core/runtime/IPath;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="83" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="305" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="108" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="307" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="282" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="302" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="82" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+            <reference linenumber="173" member="extractSynchronizeModelInfo" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.extractSynchronizeModelInfo(ISynchronizeModelElement, IPath, Vector, Vector, Vector)" signature="(Lorg/eclipse/team/ui/synchronize/ISynchronizeModelElement;Lorg/eclipse/core/runtime/IPath;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="281" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="107" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangelogKeyHandler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="305" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+            <reference linenumber="282" member="prepareChangeLog" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.prepareChangeLog(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="extractSynchronizeModelInfo" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.extractSynchronizeModelInfo(ISynchronizeModelElement, IPath, Vector, Vector, Vector)" signature="(Lorg/eclipse/team/ui/synchronize/ISynchronizeModelElement;Lorg/eclipse/core/runtime/IPath;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.team.ui.synchronize.SyncInfoCompareInput" type="org.eclipse.team.ui.synchronize.SyncInfoCompareInput">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="314" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="185" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.team.ui.mapping.ISynchronizationCompareAdapter" type="org.eclipse.team.ui.mapping.ISynchronizationCompareAdapter">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCompareAdapter" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getCompareAdapter(ResourceMapping)" signature="(Lorg/eclipse/core/resources/mapping/ResourceMapping;)Lorg/eclipse/team/ui/mapping/ISynchronizationCompareAdapter;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="114" member="getCompareAdapter" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getCompareAdapter(ResourceMapping)" signature="(Lorg/eclipse/core/resources/mapping/ResourceMapping;)Lorg/eclipse/team/ui/mapping/ISynchronizationCompareAdapter;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="113" member="getCompareAdapter" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getCompareAdapter(ResourceMapping)" signature="(Lorg/eclipse/core/resources/mapping/ResourceMapping;)Lorg/eclipse/team/ui/mapping/ISynchronizationCompareAdapter;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.team.ui.synchronize.ISynchronizePageConfiguration" type="org.eclipse.team.ui.synchronize.ISynchronizePageConfiguration">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="47" member="getSynchronizePageConfiguration" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getSynchronizePageConfiguration()" signature="()Lorg/eclipse/team/ui/synchronize/ISynchronizePageConfiguration;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSynchronizePageConfiguration" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getSynchronizePageConfiguration()" signature="()Lorg/eclipse/team/ui/synchronize/ISynchronizePageConfiguration;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+</references>

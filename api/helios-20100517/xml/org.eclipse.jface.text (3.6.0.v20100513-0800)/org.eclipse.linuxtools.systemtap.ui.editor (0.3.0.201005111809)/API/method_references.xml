@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" referee="org.eclipse.jface.text (3.6.0.v20100513-0800)" reference_count="21" reference_visibility="1">
+    <target member="getOffset" name="org.eclipse.jface.text.ITextSelection.getOffset()" signature="()I" type="org.eclipse.jface.text.ITextSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="168" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="164" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="166" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.TextSelection.TextSelection(IDocument, int, int)" signature="(Lorg/eclipse/jface/text/IDocument;II)V" type="org.eclipse.jface.text.TextSelection">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="89" member="jumpToLocation" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.jumpToLocation(int, int)" signature="(II)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="101" member="selectLine" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.selectLine(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    </target>
+    <target member="addStyleRange" name="org.eclipse.jface.text.TextPresentation.addStyleRange(StyleRange)" signature="(Lorg/eclipse/swt/custom/StyleRange;)V" type="org.eclipse.jface.text.TextPresentation">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="130" member="addRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+    <target member="getStyle" name="org.eclipse.jface.text.TextAttribute.getStyle()" signature="()I" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="136" member="addRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+    <target member="getForeground" name="org.eclipse.jface.text.TextAttribute.getForeground()" signature="()Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="134" member="addRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+    <target member="getSelectedRange" name="org.eclipse.jface.text.ITextViewer.getSelectedRange()" signature="()Lorg/eclipse/swt/graphics/Point;" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="23" member="doubleClicked" origin="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.doubleClicked(ITextViewer)" signature="(Lorg/eclipse/jface/text/ITextViewer;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy"/>
+        </reference_kind>
+    </target>
+    <target member="getDocument" name="org.eclipse.jface.text.ITextViewer.getDocument()" signature="()Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="85" member="jumpToLocation" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.jumpToLocation(int, int)" signature="(II)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="160" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="146" member="insertText" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="61" member="find" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.find(String)" signature="(Ljava/lang/String;)I" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="98" member="selectLine" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.selectLine(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+            <reference linenumber="40" member="selectComment" origin="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectComment(int)" signature="(I)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy"/>
+            <reference linenumber="94" member="selectWord" origin="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectWord(int)" signature="(I)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy"/>
+            <reference linenumber="116" member="doSaveAs" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.doSaveAs()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getLength" name="org.eclipse.jface.text.ITextSelection.getLength()" signature="()I" type="org.eclipse.jface.text.ITextSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="166" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setSelectedRange" name="org.eclipse.jface.text.ITextViewer.setSelectedRange(int, int)" signature="(II)V" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="80" member="selectComment" origin="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectComment(int)" signature="(I)Z" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy"/>
+            <reference linenumber="132" member="selectRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy.selectRange(int, int)" signature="(II)V" type="org.eclipse.linuxtools.systemtap.ui.editor.DoubleClickStrategy"/>
+        </reference_kind>
+    </target>
+    <target member="getBackground" name="org.eclipse.jface.text.TextAttribute.getBackground()" signature="()Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="135" member="addRange" origin="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer.addRange(TextPresentation, int, int, TextAttribute)" signature="(Lorg/eclipse/jface/text/TextPresentation;IILorg/eclipse/jface/text/TextAttribute;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.NonRuleBasedDamagerRepairer"/>
+        </reference_kind>
+    </target>
+</references>

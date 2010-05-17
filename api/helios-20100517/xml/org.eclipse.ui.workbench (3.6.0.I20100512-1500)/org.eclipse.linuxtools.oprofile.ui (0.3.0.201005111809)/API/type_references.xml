@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.oprofile.ui.OprofileUiPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.PartInitException" type="org.eclipse.ui.PartInitException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="96" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+            <reference linenumber="127" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="96" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+            <reference linenumber="127" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.part.ViewPart" type="org.eclipse.ui.part.ViewPart">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+</references>

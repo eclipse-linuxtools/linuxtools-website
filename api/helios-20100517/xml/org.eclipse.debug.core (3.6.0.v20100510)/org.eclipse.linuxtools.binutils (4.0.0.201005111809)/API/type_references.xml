@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" referee="org.eclipse.debug.core (3.6.0.v20100510)" reference_count="13" reference_visibility="1">
+    <target name="org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector" type="org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="460" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="191" member="addSourceMappingToCommon" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToCommon(IPath, IPath)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.sourcelookup.containers.LocalFileStorage" type="org.eclipse.debug.core.sourcelookup.containers.LocalFileStorage">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="468" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="467" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="468" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.debug.core.sourcelookup.ISourceContainer" type="org.eclipse.debug.core.sourcelookup.ISourceContainer">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="187" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="187" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="171" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="462" member="findFileInCommonSourceLookup" origin="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.findFileInCommonSourceLookup(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport"/>
+            <reference linenumber="171" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="165" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+            <reference linenumber="170" member="addSourceMappingToDirector" origin="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor.addSourceMappingToDirector(IPath, IPath, AbstractSourceLookupDirector)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/debug/core/sourcelookup/AbstractSourceLookupDirector;)V" type="org.eclipse.linuxtools.binutils.link2source.STCSourceNotFoundEditor"/>
+        </reference_kind>
+    </target>
+</references>

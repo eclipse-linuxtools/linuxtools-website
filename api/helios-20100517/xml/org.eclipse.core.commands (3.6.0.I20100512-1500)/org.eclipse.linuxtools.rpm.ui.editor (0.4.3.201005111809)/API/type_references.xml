@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.core.commands (3.6.0.I20100512-1500)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.core.commands.AbstractHandler" type="org.eclipse.core.commands.AbstractHandler">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.commands.ExecutionException" type="org.eclipse.core.commands.ExecutionException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate"/>
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate"/>
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.commands.ExecutionEvent" type="org.eclipse.core.commands.ExecutionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorOrganizePatchesActionDelegate"/>
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorToggleCommentActionDelegate"/>
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.ui.editor.actions.SpecfileEditorShowOutlineActionDelegate"/>
+        </reference_kind>
+    </target>
+</references>

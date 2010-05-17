@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="26" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.ui.plugin.AbstractUIPlugin.AbstractUIPlugin()" signature="()V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.ProfileLaunchPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.ProfileLaunchPlugin()" signature="()V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchWindow" name="org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="59" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getShell" name="org.eclipse.ui.IWorkbenchWindow.getShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="59" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.ui.plugin.AbstractUIPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="36" member="start" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkbench" name="org.eclipse.ui.plugin.AbstractUIPlugin.getWorkbench()" signature="()Lorg/eclipse/ui/IWorkbench;" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="59" member="getActiveWorkbenchShell" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.ui.plugin.AbstractUIPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="46" member="stop" origin="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.internal.profiling.launch.ProfileLaunchPlugin"/>
+        </reference_kind>
+    </target>
+<target member="setUpperListLabel" name="org.eclipse.ui.dialogs.TwoPaneElementSelector.setUpperListLabel(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.TwoPaneElementSelector">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="268" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setMessage" name="org.eclipse.ui.dialogs.SelectionDialog.setMessage(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="267" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="288" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setLowerListLabel" name="org.eclipse.ui.dialogs.TwoPaneElementSelector.setLowerListLabel(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.TwoPaneElementSelector">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="269" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setTitle" name="org.eclipse.ui.dialogs.SelectionDialog.setTitle(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.ui.dialogs.SelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="287" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="266" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setMultipleSelection" name="org.eclipse.ui.dialogs.AbstractElementListSelectionDialog.setMultipleSelection(boolean)" signature="(Z)V" type="org.eclipse.ui.dialogs.AbstractElementListSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="289" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="270" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorInput" name="org.eclipse.ui.IEditorPart.getEditorInput()" signature="()Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.ui.IEditorPart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="58" member="launch" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.ui.dialogs.AbstractElementListSelectionDialog.open()" signature="()I" type="org.eclipse.ui.dialogs.AbstractElementListSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="271" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="290" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setElements" name="org.eclipse.ui.dialogs.TwoPaneElementSelector.setElements(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.TwoPaneElementSelector">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="265" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.TwoPaneElementSelector.TwoPaneElementSelector(Shell, ILabelProvider, ILabelProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/ILabelProvider;)V" type="org.eclipse.ui.dialogs.TwoPaneElementSelector">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="264" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.dialogs.ElementListSelectionDialog.ElementListSelectionDialog(Shell, ILabelProvider)" signature="(Lorg/eclipse/swt/widgets/Shell;Lorg/eclipse/jface/viewers/ILabelProvider;)V" type="org.eclipse.ui.dialogs.ElementListSelectionDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="285" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstResult" name="org.eclipse.ui.dialogs.SelectionStatusDialog.getFirstResult()" signature="()Ljava/lang/Object;" type="org.eclipse.ui.dialogs.SelectionStatusDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="272" member="chooseBinary" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseBinary(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="293" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setElements" name="org.eclipse.ui.dialogs.ElementListSelectionDialog.setElements(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.ui.dialogs.ElementListSelectionDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="286" member="chooseConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.chooseConfiguration(List, String)" signature="(Ljava/util/List;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+</references>

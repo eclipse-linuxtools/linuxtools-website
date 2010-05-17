@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.birt.chart.engine (2.6.0.v20100428)" reference_count="230" reference_visibility="1">
+    <target member="getType" name="org.eclipse.birt.chart.event.StructureSource.getType()" signature="()Lorg/eclipse/birt/chart/event/StructureType;" type="org.eclipse.birt.chart.event.StructureSource">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="36" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="instance" name="org.eclipse.birt.chart.factory.Generator.instance()" signature="()Lorg/eclipse/birt/chart/factory/Generator;" type="org.eclipse.birt.chart.factory.Generator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="242" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="192" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="173" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="read" name="org.eclipse.birt.chart.model.Serializer.read(InputStream)" signature="(Ljava/io/InputStream;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.birt.chart.model.Serializer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.OpenChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.OpenChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.birt.chart.render.ActionRendererAdapter.ActionRendererAdapter()" signature="()V" type="org.eclipse.birt.chart.render.ActionRendererAdapter">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.ChartActionRenderer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.ChartActionRenderer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.birt.chart.model.attribute.TooltipValue.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.birt.chart.model.attribute.TooltipValue">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="42" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.attribute.impl.BoundsImpl.create(double, double, double, double)" signature="(DDDD)Lorg/eclipse/birt/chart/model/attribute/Bounds;" type="org.eclipse.birt.chart.model.attribute.impl.BoundsImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="249" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="252" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="159" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getLeft" name="org.eclipse.birt.chart.model.attribute.Bounds.getLeft()" signature="()D" type="org.eclipse.birt.chart.model.attribute.Bounds">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="249" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDevice" name="org.eclipse.birt.chart.util.PluginSettings.getDevice(String)" signature="(Ljava/lang/String;)Lorg/eclipse/birt/chart/device/IDeviceRenderer;" type="org.eclipse.birt.chart.util.PluginSettings">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="123" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="136" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="132" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="129" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="126" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="66" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.ChartViewer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setProperty" name="org.eclipse.birt.chart.device.IDeviceRenderer.setProperty(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)V" type="org.eclipse.birt.chart.device.IDeviceRenderer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="269" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="167" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="177" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="render" name="org.eclipse.birt.chart.factory.Generator.render(IDeviceRenderer, GeneratedChartState)" signature="(Lorg/eclipse/birt/chart/device/IDeviceRenderer;Lorg/eclipse/birt/chart/factory/GeneratedChartState;)V" type="org.eclipse.birt.chart.factory.Generator">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="273" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="179" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="processAction" name="org.eclipse.birt.chart.render.ActionRendererAdapter.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.birt.chart.render.ActionRendererAdapter">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="write" name="org.eclipse.birt.chart.model.Serializer.write(Chart, OutputStream)" signature="(Lorg/eclipse/birt/chart/model/Chart;Ljava/io/OutputStream;)V" type="org.eclipse.birt.chart.model.Serializer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="88" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+        </reference_kind>
+    </target>
+    <target member="getWidth" name="org.eclipse.birt.chart.model.attribute.Bounds.getWidth()" signature="()D" type="org.eclipse.birt.chart.model.attribute.Bounds">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="249" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getHeight" name="org.eclipse.birt.chart.model.attribute.Bounds.getHeight()" signature="()D" type="org.eclipse.birt.chart.model.attribute.Bounds">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="249" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSource" name="org.eclipse.birt.chart.event.StructureSource.getSource()" signature="()Ljava/lang/Object;" type="org.eclipse.birt.chart.event.StructureSource">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="38" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.birt.chart.factory.RunTimeContext.RunTimeContext()" signature="()V" type="org.eclipse.birt.chart.factory.RunTimeContext">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="239" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="182" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.birt.chart.model.data.Action.getType()" signature="()Lorg/eclipse/birt/chart/model/attribute/ActionType;" type="org.eclipse.birt.chart.model.data.Action">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="33" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="setULocale" name="org.eclipse.birt.chart.factory.RunTimeContext.setULocale(ULocale)" signature="(Lcom/ibm/icu/util/ULocale;)V" type="org.eclipse.birt.chart.factory.RunTimeContext">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="240" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="183" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.attribute.impl.JavaNumberFormatSpecifierImpl.create(String)" signature="(Ljava/lang/String;)Lorg/eclipse/birt/chart/model/attribute/JavaNumberFormatSpecifier;" type="org.eclipse.birt.chart.model.attribute.impl.JavaNumberFormatSpecifierImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="40" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="instance" name="org.eclipse.birt.chart.util.PluginSettings.instance()" signature="()Lorg/eclipse/birt/chart/util/PluginSettings;" type="org.eclipse.birt.chart.util.PluginSettings">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="123" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="136" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="129" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="132" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+            <reference linenumber="126" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="66" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.ChartViewer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="format" name="org.eclipse.birt.chart.model.attribute.JavaNumberFormatSpecifier.format(double, ULocale)" signature="(DLcom/ibm/icu/util/ULocale;)Ljava/lang/String;" type="org.eclipse.birt.chart.model.attribute.JavaNumberFormatSpecifier">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="40" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.birt.chart.model.data.Action.getValue()" signature="()Lorg/eclipse/birt/chart/model/attribute/ActionValue;" type="org.eclipse.birt.chart.model.data.Action">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="35" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="getTop" name="org.eclipse.birt.chart.model.attribute.Bounds.getTop()" signature="()D" type="org.eclipse.birt.chart.model.attribute.Bounds">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="249" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDisplayServer" name="org.eclipse.birt.chart.device.IDeviceRenderer.getDisplayServer()" signature="()Lorg/eclipse/birt/chart/device/IDisplayServer;" type="org.eclipse.birt.chart.device.IDeviceRenderer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="257" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="175" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+            <reference linenumber="169" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="instance" name="org.eclipse.birt.chart.model.impl.SerializerImpl.instance()" signature="()Lorg/eclipse/birt/chart/model/Serializer;" type="org.eclipse.birt.chart.model.impl.SerializerImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="85" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveXMLAction"/>
+            <reference linenumber="59" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.OpenChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.OpenChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="getOrthogonalValue" name="org.eclipse.birt.chart.computation.DataPointHints.getOrthogonalValue()" signature="()Ljava/lang/Object;" type="org.eclipse.birt.chart.computation.DataPointHints">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="processAction" origin="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer.processAction(Action, StructureSource)" signature="(Lorg/eclipse/birt/chart/model/data/Action;Lorg/eclipse/birt/chart/event/StructureSource;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartActionRenderer"/>
+        </reference_kind>
+    </target>
+    <target member="build" name="org.eclipse.birt.chart.factory.Generator.build(IDisplayServer, Chart, Bounds, IExternalContext, RunTimeContext, IStyleProcessor)" signature="(Lorg/eclipse/birt/chart/device/IDisplayServer;Lorg/eclipse/birt/chart/model/Chart;Lorg/eclipse/birt/chart/model/attribute/Bounds;Lorg/eclipse/birt/chart/script/IExternalContext;Lorg/eclipse/birt/chart/factory/RunTimeContext;Lorg/eclipse/birt/chart/style/IStyleProcessor;)Lorg/eclipse/birt/chart/factory/GeneratedChartState;" type="org.eclipse.birt.chart.factory.Generator">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="257" member="generateImageFile" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.generateImageFile(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        <reference linenumber="175" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+<target member="setVisible" name="org.eclipse.birt.chart.model.component.Label.setVisible(boolean)" signature="(Z)V" type="org.eclipse.birt.chart.model.component.Label">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="139" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="162" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="178" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getSeries" name="org.eclipse.birt.chart.model.data.SeriesDefinition.getSeries()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.data.SeriesDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="157" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="167" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="232" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="109" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="224" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="132" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getMajorGrid" name="org.eclipse.birt.chart.model.component.Axis.getMajorGrid()" signature="()Lorg/eclipse/birt/chart/model/component/Grid;" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="136" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="131" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="188" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="181" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getLegend" name="org.eclipse.birt.chart.model.Chart.getLegend()" signature="()Lorg/eclipse/birt/chart/model/layout/Legend;" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="124" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="85" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="173" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getOrigin" name="org.eclipse.birt.chart.model.component.Axis.getOrigin()" signature="()Lorg/eclipse/birt/chart/model/attribute/AxisOrigin;" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="132" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="182" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="GREEN" name="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl.GREEN()" signature="()Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;" type="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="143" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="setTickStyle" name="org.eclipse.birt.chart.model.component.Grid.setTickStyle(TickStyle)" signature="(Lorg/eclipse/birt/chart/model/attribute/TickStyle;)V" type="org.eclipse.birt.chart.model.component.Grid">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="136" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="131" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="188" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="181" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getSeriesPalette" name="org.eclipse.birt.chart.model.data.SeriesDefinition.getSeriesPalette()" signature="()Lorg/eclipse/birt/chart/model/attribute/Palette;" type="org.eclipse.birt.chart.model.data.SeriesDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="154" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="199" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="108" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getOutline" name="org.eclipse.birt.chart.model.layout.Block.getOutline()" signature="()Lorg/eclipse/birt/chart/model/attribute/LineAttributes;" type="org.eclipse.birt.chart.model.layout.Block">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="111" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="163" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="167" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="92" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="82" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="88" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getTitle" name="org.eclipse.birt.chart.model.Chart.getTitle()" signature="()Lorg/eclipse/birt/chart/model/layout/TitleBlock;" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="118" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="167" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="166" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="92" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="91" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setRotation" name="org.eclipse.birt.chart.model.attribute.FontDefinition.setRotation(double)" signature="(D)V" type="org.eclipse.birt.chart.model.attribute.FontDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="138" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="getLabel" name="org.eclipse.birt.chart.model.component.Axis.getLabel()" signature="()Lorg/eclipse/birt/chart/model/component/Label;" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="138" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.impl.ChartWithAxesImpl.create()" signature="()Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.birt.chart.model.impl.ChartWithAxesImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="106" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="151" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getBlock" name="org.eclipse.birt.chart.model.Chart.getBlock()" signature="()Lorg/eclipse/birt/chart/model/layout/Block;" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="111" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="110" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="73" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="154" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.birt.chart.factory.AbstractGroupedDataRowExpressionEvaluator.AbstractGroupedDataRowExpressionEvaluator()" signature="()V" type="org.eclipse.birt.chart.factory.AbstractGroupedDataRowExpressionEvaluator">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="55" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.GroupedRowExpressionsEvaluator(IResultIterator, boolean)" signature="(Lorg/eclipse/birt/data/engine/api/IResultIterator;Z)V" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+        </reference_kind>
+    </target>
+    <target member="getPrimaryBaseAxes" name="org.eclipse.birt.chart.model.ChartWithAxes.getPrimaryBaseAxes()" signature="()[Lorg/eclipse/birt/chart/model/component/Axis;" type="org.eclipse.birt.chart.model.ChartWithAxes">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="128" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="177" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setType" name="org.eclipse.birt.chart.model.attribute.AxisOrigin.setType(IntersectionType)" signature="(Lorg/eclipse/birt/chart/model/attribute/IntersectionType;)V" type="org.eclipse.birt.chart.model.attribute.AxisOrigin">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="132" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="182" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getSeriesDefinitions" name="org.eclipse.birt.chart.model.component.Axis.getSeriesDefinitions()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="166" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="156" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="201" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="231" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl.create(int, int, int)" signature="(III)Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;" type="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="113" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="157" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="160" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setColor" name="org.eclipse.birt.chart.model.attribute.Text.setColor(ColorDefinition)" signature="(Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;)V" type="org.eclipse.birt.chart.model.attribute.Text">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="143" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="log" name="org.eclipse.birt.chart.log.ILogger.log(Exception)" signature="(Ljava/lang/Exception;)V" type="org.eclipse.birt.chart.log.ILogger">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="144" member="evaluate" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.evaluate(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="187" member="first" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.first()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="276" member="next" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.next()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="126" member="close" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.close()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+        </reference_kind>
+    </target>
+    <target member="getClientArea" name="org.eclipse.birt.chart.model.layout.Plot.getClientArea()" signature="()Lorg/eclipse/birt/chart/model/layout/ClientArea;" type="org.eclipse.birt.chart.model.layout.Plot">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="113" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="156" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="80" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="81" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setVisible" name="org.eclipse.birt.chart.model.attribute.LineAttributes.setVisible(boolean)" signature="(Z)V" type="org.eclipse.birt.chart.model.attribute.LineAttributes">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="111" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="92" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="163" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="88" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="167" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="81" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="82" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getTitle" name="org.eclipse.birt.chart.model.component.Axis.getTitle()" signature="()Lorg/eclipse/birt/chart/model/component/Label;" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="140" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="141" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="139" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="178" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="184" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getDataDefinition" name="org.eclipse.birt.chart.model.component.Series.getDataDefinition()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="150" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="161" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="getPrimaryOrthogonalAxis" name="org.eclipse.birt.chart.model.ChartWithAxes.getPrimaryOrthogonalAxis(Axis)" signature="(Lorg/eclipse/birt/chart/model/component/Axis;)Lorg/eclipse/birt/chart/model/component/Axis;" type="org.eclipse.birt.chart.model.ChartWithAxes">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="135" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="187" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.type.impl.BarSeriesImpl.create()" signature="()Lorg/eclipse/birt/chart/model/component/Series;" type="org.eclipse.birt.chart.model.type.impl.BarSeriesImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="160" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="216" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setBackground" name="org.eclipse.birt.chart.model.layout.Block.setBackground(Fill)" signature="(Lorg/eclipse/birt/chart/model/attribute/Fill;)V" type="org.eclipse.birt.chart.model.layout.Block">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="110" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="73" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="154" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="87" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.QueryImpl.create(String)" signature="(Ljava/lang/String;)Lorg/eclipse/birt/chart/model/data/Query;" type="org.eclipse.birt.chart.model.data.impl.QueryImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="151" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="161" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="bindData" name="org.eclipse.birt.chart.factory.Generator.bindData(IDataRowExpressionEvaluator, Chart, RunTimeContext)" signature="(Lorg/eclipse/birt/chart/factory/IDataRowExpressionEvaluator;Lorg/eclipse/birt/chart/model/Chart;Lorg/eclipse/birt/chart/factory/RunTimeContext;)V" type="org.eclipse.birt.chart.factory.Generator">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="192" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="setBackground" name="org.eclipse.birt.chart.model.layout.ClientArea.setBackground(Fill)" signature="(Lorg/eclipse/birt/chart/model/attribute/Fill;)V" type="org.eclipse.birt.chart.model.layout.ClientArea">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="113" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="157" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="80" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setValue" name="org.eclipse.birt.chart.model.attribute.Text.setValue(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.birt.chart.model.attribute.Text">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="140" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="91" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="166" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="184" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="shift" name="org.eclipse.birt.chart.model.attribute.Palette.shift(int)" signature="(I)V" type="org.eclipse.birt.chart.model.attribute.Palette">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="154" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="199" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="108" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.component.impl.SeriesImpl.create()" signature="()Lorg/eclipse/birt/chart/model/component/Series;" type="org.eclipse.birt.chart.model.component.impl.SeriesImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="146" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="228" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="103" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setType" name="org.eclipse.birt.chart.model.Chart.setType(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="107" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="WHITE" name="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl.WHITE()" signature="()Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;" type="org.eclipse.birt.chart.model.attribute.impl.ColorDefinitionImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="110" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="73" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="154" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getFont" name="org.eclipse.birt.chart.model.attribute.Text.getFont()" signature="()Lorg/eclipse/birt/chart/model/attribute/FontDefinition;" type="org.eclipse.birt.chart.model.attribute.Text">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="138" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="174" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="86" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getPlot" name="org.eclipse.birt.chart.model.Chart.getPlot()" signature="()Lorg/eclipse/birt/chart/model/layout/Plot;" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="112" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="155" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="79" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setType" name="org.eclipse.birt.chart.model.component.Axis.setType(AxisType)" signature="(Lorg/eclipse/birt/chart/model/attribute/AxisType;)V" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="137" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="130" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="180" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setSubType" name="org.eclipse.birt.chart.model.Chart.setSubType(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="108" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="getLabel" name="org.eclipse.birt.chart.model.layout.LabelBlock.getLabel()" signature="()Lorg/eclipse/birt/chart/model/component/Label;" type="org.eclipse.birt.chart.model.layout.LabelBlock">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="119" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="166" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="91" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.SeriesDefinitionImpl.create()" signature="()Lorg/eclipse/birt/chart/model/data/SeriesDefinition;" type="org.eclipse.birt.chart.model.data.impl.SeriesDefinitionImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="153" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="165" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="230" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="111" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="198" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="106" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getCaption" name="org.eclipse.birt.chart.model.component.Label.getCaption()" signature="()Lorg/eclipse/birt/chart/model/attribute/Text;" type="org.eclipse.birt.chart.model.component.Label">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="142" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="120" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="140" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="138" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        <reference linenumber="91" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="184" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="166" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.birt.chart.exception.ChartException.ChartException(String, int, Throwable)" signature="(Ljava/lang/String;ILjava/lang/Throwable;)V" type="org.eclipse.birt.chart.exception.ChartException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="196" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="282" member="createQueryDefinition" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createQueryDefinition(OdaDataSetDesign, String[])" signature="(Lorg/eclipse/birt/data/engine/api/querydefn/OdaDataSetDesign;[Ljava/lang/String;)Lorg/eclipse/birt/data/engine/api/querydefn/QueryDefinition;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelPosition" name="org.eclipse.birt.chart.model.component.Series.setLabelPosition(Position)" signature="(Lorg/eclipse/birt/chart/model/attribute/Position;)V" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="163" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="setItemType" name="org.eclipse.birt.chart.model.layout.Legend.setItemType(LegendItemType)" signature="(Lorg/eclipse/birt/chart/model/attribute/LegendItemType;)V" type="org.eclipse.birt.chart.model.layout.Legend">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="125" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+    <target member="getLabel" name="org.eclipse.birt.chart.model.component.Series.getLabel()" signature="()Lorg/eclipse/birt/chart/model/component/Label;" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="162" member="createChartModel" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.createChartModel(String[])" signature="([Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+    </target>
+<target member="setDimension" name="org.eclipse.birt.chart.model.Chart.setDimension(ChartDimension)" signature="(Lorg/eclipse/birt/chart/model/attribute/ChartDimension;)V" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="76" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setSeriesThickness" name="org.eclipse.birt.chart.model.Chart.setSeriesThickness(double)" signature="(D)V" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="71" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setExplosion" name="org.eclipse.birt.chart.model.type.PieSeries.setExplosion(int)" signature="(I)V" type="org.eclipse.birt.chart.model.type.PieSeries">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="126" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setGridColumnCount" name="org.eclipse.birt.chart.model.Chart.setGridColumnCount(int)" signature="(I)V" type="org.eclipse.birt.chart.model.Chart">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="72" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getTriggers" name="org.eclipse.birt.chart.model.component.Series.getTriggers()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="249" member="setTriggering" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.setTriggering(Series)" signature="(Lorg/eclipse/birt/chart/model/component/Series;)V" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setSize" name="org.eclipse.birt.chart.model.attribute.FontDefinition.setSize(float)" signature="(F)V" type="org.eclipse.birt.chart.model.attribute.FontDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="174" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="86" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.type.impl.PieSeriesImpl.create()" signature="()Lorg/eclipse/birt/chart/model/component/Series;" type="org.eclipse.birt.chart.model.type.impl.PieSeriesImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="124" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setTransposed" name="org.eclipse.birt.chart.model.ChartWithAxes.setTransposed(boolean)" signature="(Z)V" type="org.eclipse.birt.chart.model.ChartWithAxes">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="170" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.attribute.impl.GradientImpl.create(ColorDefinition, ColorDefinition, double, boolean)" signature="(Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;DZ)Lorg/eclipse/birt/chart/model/attribute/Gradient;" type="org.eclipse.birt.chart.model.attribute.impl.GradientImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="157" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getSeriesDefinitions" name="org.eclipse.birt.chart.model.ChartWithoutAxes.getSeriesDefinitions()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.ChartWithoutAxes">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="107" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getOutline" name="org.eclipse.birt.chart.model.layout.ClientArea.getOutline()" signature="()Lorg/eclipse/birt/chart/model/attribute/LineAttributes;" type="org.eclipse.birt.chart.model.layout.ClientArea">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="81" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setTitlePosition" name="org.eclipse.birt.chart.model.component.Axis.setTitlePosition(Position)" signature="(Lorg/eclipse/birt/chart/model/attribute/Position;)V" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="179" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.NumberDataSetImpl.create(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/birt/chart/model/data/NumberDataSet;" type="org.eclipse.birt.chart.model.data.impl.NumberDataSetImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="214" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="121" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setRiserOutline" name="org.eclipse.birt.chart.model.type.BarSeries.setRiserOutline(ColorDefinition)" signature="(Lorg/eclipse/birt/chart/model/attribute/ColorDefinition;)V" type="org.eclipse.birt.chart.model.type.BarSeries">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="219" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getSeriesDefinitions" name="org.eclipse.birt.chart.model.data.SeriesDefinition.getSeriesDefinitions()" signature="()Lorg/eclipse/emf/common/util/EList;" type="org.eclipse.birt.chart.model.data.SeriesDefinition">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="112" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setSeriesIdentifier" name="org.eclipse.birt.chart.model.component.Series.setSeriesIdentifier(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="125" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="217" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.ActionImpl.create(ActionType, ActionValue)" signature="(Lorg/eclipse/birt/chart/model/attribute/ActionType;Lorg/eclipse/birt/chart/model/attribute/ActionValue;)Lorg/eclipse/birt/chart/model/data/Action;" type="org.eclipse.birt.chart.model.data.impl.ActionImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="248" member="setTriggering" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.setTriggering(Series)" signature="(Lorg/eclipse/birt/chart/model/component/Series;)V" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.TextDataSetImpl.create(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/birt/chart/model/data/TextDataSet;" type="org.eclipse.birt.chart.model.data.impl.TextDataSetImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="100" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="197" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="peerInstance" name="org.eclipse.birt.chart.device.EmptyUpdateNotifier.peerInstance()" signature="()Ljava/lang/Object;" type="org.eclipse.birt.chart.device.EmptyUpdateNotifier">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="peerInstance" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartUpdateNotifier.peerInstance()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartUpdateNotifier"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.birt.chart.device.EmptyUpdateNotifier.EmptyUpdateNotifier(Chart, Chart)" signature="(Lorg/eclipse/birt/chart/model/Chart;Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.birt.chart.device.EmptyUpdateNotifier">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartUpdateNotifier.ChartUpdateNotifier(Canvas, Chart, Chart)" signature="(Lorg/eclipse/swt/widgets/Canvas;Lorg/eclipse/birt/chart/model/Chart;Lorg/eclipse/birt/chart/model/Chart;)V" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartUpdateNotifier"/>
+        </reference_kind>
+    </target>
+    <target member="setDataSet" name="org.eclipse.birt.chart.model.component.Series.setDataSet(DataSet)" signature="(Lorg/eclipse/birt/chart/model/data/DataSet;)V" type="org.eclipse.birt.chart.model.component.Series">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="229" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="104" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="218" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="127" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.data.impl.TriggerImpl.create(TriggerCondition, Action)" signature="(Lorg/eclipse/birt/chart/model/attribute/TriggerCondition;Lorg/eclipse/birt/chart/model/data/Action;)Lorg/eclipse/birt/chart/model/data/Trigger;" type="org.eclipse.birt.chart.model.data.impl.TriggerImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="247" member="setTriggering" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.setTriggering(Series)" signature="(Lorg/eclipse/birt/chart/model/component/Series;)V" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.impl.ChartWithoutAxesImpl.create()" signature="()Lorg/eclipse/birt/chart/model/ChartWithoutAxes;" type="org.eclipse.birt.chart.model.impl.ChartWithoutAxesImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="70" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelPosition" name="org.eclipse.birt.chart.model.component.Axis.setLabelPosition(Position)" signature="(Lorg/eclipse/birt/chart/model/attribute/Position;)V" type="org.eclipse.birt.chart.model.component.Axis">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="183" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.birt.chart.model.layout.Legend.getText()" signature="()Lorg/eclipse/birt/chart/model/attribute/Text;" type="org.eclipse.birt.chart.model.layout.Legend">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="86" member="producePieChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.producePieChart(Object[], ISTDataViewersField, List)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+            <reference linenumber="174" member="produceBarChart" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.produceBarChart(Object[], ISTDataViewersField, List, String, boolean)" signature="([Ljava/lang/Object;Lorg/eclipse/linuxtools/dataviewers/abstractviewers/ISTDataViewersField;Ljava/util/List;Ljava/lang/String;Z)Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.birt.chart.model.attribute.impl.TooltipValueImpl.create(int, String)" signature="(ILjava/lang/String;)Lorg/eclipse/birt/chart/model/attribute/TooltipValue;" type="org.eclipse.birt.chart.model.attribute.impl.TooltipValueImpl">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="248" member="setTriggering" origin="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory.setTriggering(Series)" signature="(Lorg/eclipse/birt/chart/model/component/Series;)V" type="org.eclipse.linuxtools.dataviewers.charts.provider.ChartFactory"/>
+        </reference_kind>
+    </target>
+<target member="scale" name="org.eclipse.birt.chart.model.attribute.Bounds.scale(double)" signature="(D)V" type="org.eclipse.birt.chart.model.attribute.Bounds">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="169" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getRunTimeContext" name="org.eclipse.birt.chart.factory.GeneratedChartState.getRunTimeContext()" signature="()Lorg/eclipse/birt/chart/factory/RunTimeContext;" type="org.eclipse.birt.chart.factory.GeneratedChartState">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="176" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="setActionRenderer" name="org.eclipse.birt.chart.factory.RunTimeContext.setActionRenderer(IActionRenderer)" signature="(Lorg/eclipse/birt/chart/render/IActionRenderer;)V" type="org.eclipse.birt.chart.factory.RunTimeContext">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="176" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getDpiResolution" name="org.eclipse.birt.chart.device.IDisplayServer.getDpiResolution()" signature="()I" type="org.eclipse.birt.chart.device.IDisplayServer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="170" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+    <target member="getChartModel" name="org.eclipse.birt.chart.factory.GeneratedChartState.getChartModel()" signature="()Lorg/eclipse/birt/chart/model/Chart;" type="org.eclipse.birt.chart.factory.GeneratedChartState">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="178" member="updateBuffer" origin="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer.updateBuffer()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.viewer.ChartViewer"/>
+        </reference_kind>
+    </target>
+</references>

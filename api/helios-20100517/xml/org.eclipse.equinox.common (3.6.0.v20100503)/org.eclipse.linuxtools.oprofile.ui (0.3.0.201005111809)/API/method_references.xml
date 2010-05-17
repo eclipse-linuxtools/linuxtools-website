@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="12" reference_visibility="1">
+    <target member="isLegal" name="org.eclipse.core.runtime.Assert.isLegal(boolean, String)" signature="(ZLjava/lang/String;)Z" type="org.eclipse.core.runtime.Assert">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="35" member="hasChildren" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider.hasChildren(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider"/>
+            <reference linenumber="25" member="getChildren" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider.getChildren(Object)" signature="(Ljava/lang/Object;)[Ljava/lang/Object;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider"/>
+            <reference linenumber="30" member="getParent" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider.getParent(Object)" signature="(Ljava/lang/Object;)Ljava/lang/Object;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewContentProvider"/>
+            <reference linenumber="26" member="getImage" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLabelProvider.getImage(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLabelProvider"/>
+            <reference linenumber="31" member="getText" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="102" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+    <target member="done" name="org.eclipse.core.runtime.IProgressMonitor.done()" signature="()V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="119" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+    <target member="worked" name="org.eclipse.core.runtime.IProgressMonitor.worked(int)" signature="(I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="107" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+            <reference linenumber="117" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="97" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+            <reference linenumber="130" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+            <reference linenumber="128" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+</references>

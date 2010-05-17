@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="19" reference_visibility="1">
+    <target member="FORWARD_HISTORY" name="org.eclipse.ui.actions.ActionFactory.FORWARD_HISTORY" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="197" member="createNavigateMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createNavigateMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="305" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="HELP_SEARCH" name="org.eclipse.ui.actions.ActionFactory.HELP_SEARCH" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="309" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="268" member="createHelpMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createHelpMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="OPEN_NEW_WINDOW" name="org.eclipse.ui.actions.ActionFactory.OPEN_NEW_WINDOW" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="301" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="236" member="createWindowMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createWindowMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="FIND" name="org.eclipse.ui.actions.ActionFactory.FIND" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="299" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="PERSPECTIVES_SHORTLIST" name="org.eclipse.ui.actions.ContributionItemFactory.PERSPECTIVES_SHORTLIST" type="org.eclipse.ui.actions.ContributionItemFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="312" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="ABOUT" name="org.eclipse.ui.actions.ActionFactory.ABOUT" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="271" member="createHelpMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createHelpMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="307" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="PREFERENCES" name="org.eclipse.ui.actions.ActionFactory.PREFERENCES" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="251" member="createWindowMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createWindowMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="302" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="VIEWS_SHORTLIST" name="org.eclipse.ui.actions.ContributionItemFactory.VIEWS_SHORTLIST" type="org.eclipse.ui.actions.ContributionItemFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="311" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="BACKWARD_HISTORY" name="org.eclipse.ui.actions.ActionFactory.BACKWARD_HISTORY" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="306" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="198" member="createNavigateMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createNavigateMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="QUIT" name="org.eclipse.ui.actions.ActionFactory.QUIT" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="158" member="createFileMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createFileMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="292" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+    <target member="HELP_CONTENTS" name="org.eclipse.ui.actions.ActionFactory.HELP_CONTENTS" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="308" member="makeActions" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.makeActions(IWorkbenchWindow)" signature="(Lorg/eclipse/ui/IWorkbenchWindow;)V" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+            <reference linenumber="267" member="createHelpMenu" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor.createHelpMenu()" signature="()Lorg/eclipse/jface/action/MenuManager;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.ApplicationActionBarAdvisor"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" reference_count="43" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages.SystemTapUIErrorMessages(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="422" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="463" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="726" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.CallgraphView.13.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView$13$1"/>
+            <reference linenumber="375" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="setParser" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.setParser(SystemTapParser)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapParser;)Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setParser" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setParser(SystemTapParser)" signature="(Lorg/eclipse/linuxtools/callgraph/core/SystemTapParser;)Z" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="initialize" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.initialize()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="initialize" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.initialize()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="addFileMenu" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.addFileMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="437" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="createOpenAction" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.createOpenAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createOpenAction" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createOpenAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="cleanFunctionName" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.cleanFunctionName(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="246" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="330" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="realTimeParsing" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="setSourcePath" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setSourcePath(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="843" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+        </reference_kind>
+    </target>
+    <target member="addHelpMenu" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.addHelpMenu()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="520" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.SystemTapView()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.CallgraphView()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="60" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.CallgraphView.CallgraphView()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="createOpenDefaultAction" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.createOpenDefaultAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createOpenDefaultAction" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createOpenDefaultAction()" signature="()Z" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="println" name="org.eclipse.linuxtools.callgraph.core.MP.println(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.MP">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="1447" member="printContents" origin="org.eclipse.linuxtools.callgraph.StapGraph.printContents(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="96" member="makeConnection" origin="org.eclipse.linuxtools.callgraph.StapNode.makeConnection(int, StapNode, int)" signature="(ILorg/eclipse/linuxtools/callgraph/StapNode;I)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="1443" member="printContents" origin="org.eclipse.linuxtools.callgraph.StapGraph.printContents(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1445" member="printContents" origin="org.eclipse.linuxtools.callgraph.StapGraph.printContents(int)" signature="(I)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.SystemTapParser()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.StapGraphParser()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.StapGraphParser()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="maximizeOrRefresh" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1148" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setViewID" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setViewID(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="863" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.21.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$21"/>
+            <reference linenumber="844" member="run" origin="org.eclipse.linuxtools.callgraph.CallgraphView.20.run()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView$20"/>
+        </reference_kind>
+    </target>
+    <target member="update" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.update()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="544" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="487" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="addKillButton" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.addKillButton()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="538" member="createPartControl" origin="org.eclipse.linuxtools.callgraph.CallgraphView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="layout" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.layout()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1050" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1094" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1083" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="1069" member="draw" origin="org.eclipse.linuxtools.callgraph.StapGraph.draw(int, int, int)" signature="(III)V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="parsingError" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.parsingError(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="333" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="342" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="setViewID" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.setViewID()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setViewID" origin="org.eclipse.linuxtools.callgraph.CallgraphView.setViewID()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="nonRealTimeParsing" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="updateMethod" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="updateMethod" origin="org.eclipse.linuxtools.callgraph.CallgraphView.updateMethod()" signature="()V" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="initializeView" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target member="isFunctionNameClean" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.isFunctionNameClean(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="221" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="325" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        </reference_kind>
+    </target>
+    <target member="getParser" name="org.eclipse.linuxtools.callgraph.core.SystemTapView.getParser()" signature="()Lorg/eclipse/linuxtools/callgraph/core/SystemTapParser;" type="org.eclipse.linuxtools.callgraph.core.SystemTapView">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getParser" origin="org.eclipse.linuxtools.callgraph.CallgraphView.getParser()" signature="()Lorg/eclipse/linuxtools/callgraph/core/SystemTapParser;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+<target member="findAndOpen" name="org.eclipse.linuxtools.callgraph.core.FileFinderOpener.findAndOpen(ICProject, String)" signature="(Lorg/eclipse/cdt/core/model/ICProject;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.FileFinderOpener">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="196" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+            <reference linenumber="181" member="controlDoubleClick" origin="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener.controlDoubleClick()" signature="()V" type="org.eclipse.linuxtools.callgraph.graphlisteners.StapGraphMouseListener"/>
+        </reference_kind>
+    </target>
+</references>

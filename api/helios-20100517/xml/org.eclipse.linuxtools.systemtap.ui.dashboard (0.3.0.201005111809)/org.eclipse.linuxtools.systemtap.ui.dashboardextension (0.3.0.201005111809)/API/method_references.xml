@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.dashboard (0.3.0.201005111809)" reference_count="7" reference_visibility="1">
+    <target member="getDefault" name="org.eclipse.linuxtools.systemtap.ui.dashboard.internal.DashboardPlugin.getDefault()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/dashboard/internal/DashboardPlugin;" type="org.eclipse.linuxtools.systemtap.ui.dashboard.internal.DashboardPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="112" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="84" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+        <reference linenumber="74" member="open" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.open()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails"/>
+            <reference linenumber="116" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+            <reference linenumber="115" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ScriptDetails$2"/>
+        </reference_kind>
+    </target>
+    <target member="refresh" name="org.eclipse.linuxtools.systemtap.ui.dashboard.views.ModuleView.refresh()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboard.views.ModuleView">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="251" member="updateDashboard" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.updateDashboard()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="238" member="updateDashboard" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.updateDashboard()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+</references>

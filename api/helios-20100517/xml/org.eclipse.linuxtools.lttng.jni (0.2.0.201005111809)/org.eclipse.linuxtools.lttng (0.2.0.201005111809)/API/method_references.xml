@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng (0.2.0.201005111809)" referee="org.eclipse.linuxtools.lttng.jni (0.2.0.201005111809)" reference_count="56" reference_visibility="1">
+    <target member="getCurrentEventTimestamp" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getCurrentEventTimestamp()" signature="()Lorg/eclipse/linuxtools/lttng/jni/common/JniTime;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+            <reference linenumber="162" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+    </target>
+    <target member="getParentTracefile" name="org.eclipse.linuxtools.lttng.jni.JniEvent.getParentTracefile()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniTracefile;" type="org.eclipse.linuxtools.lttng.jni.JniEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+            <reference linenumber="162" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        <reference linenumber="717" member="convertJniEventToTmf" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmf(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="904" member="getEventTypeKey" origin="org.eclipse.linuxtools.lttng.trace.EventTypeKey.getEventTypeKey(JniEvent)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.EventTypeKey"/>
+            <reference linenumber="755" member="convertJniEventToTmfMultipleEventEvilFix" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmfMultipleEventEvilFix(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getTime" name="org.eclipse.linuxtools.lttng.jni.common.JniTime.getTime()" signature="()J" type="org.eclipse.linuxtools.lttng.jni.common.JniTime">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+            <reference linenumber="162" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        <reference linenumber="753" member="convertJniEventToTmfMultipleEventEvilFix" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmfMultipleEventEvilFix(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="168" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="169" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="712" member="convertJniEventToTmf" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmf(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="463" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getParentTrace" name="org.eclipse.linuxtools.lttng.jni.JniTracefile.getParentTrace()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniTrace;" type="org.eclipse.linuxtools.lttng.jni.JniTracefile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+            <reference linenumber="162" member="convertEventTmfToJni" origin="org.eclipse.linuxtools.lttng.event.LttngEvent.convertEventTmfToJni()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.event.LttngEvent"/>
+        </reference_kind>
+    </target>
+    <target member="parseFieldByName" name="org.eclipse.linuxtools.lttng.jni.JniEvent.parseFieldByName(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.jni.JniEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="172" member="getFields" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getFields()" signature="()[Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+            <reference linenumber="228" member="getField" origin="org.eclipse.linuxtools.lttng.event.LttngEventContent.getField(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/lttng/event/LttngEventField;" type="org.eclipse.linuxtools.lttng.event.LttngEventContent"/>
+        </reference_kind>
+    </target>
+<target member="getMinor" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.getMinor()" signature="()I" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="86" member="getTraceMinorVersion" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.getTraceMinorVersion()" signature="()I" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="getStartTime" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getStartTime()" signature="()Lorg/eclipse/linuxtools/lttng/jni/common/JniTime;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="168" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.linuxtools.lttng.jni.JniMarker.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.jni.JniMarker">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="243" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="904" member="getEventTypeKey" origin="org.eclipse.linuxtools.lttng.trace.EventTypeKey.getEventTypeKey(JniEvent)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.EventTypeKey"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.lttng.jni.common.JniTime.JniTime(long)" signature="(J)V" type="org.eclipse.linuxtools.lttng.jni.common.JniTime">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="393" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(TmfTimestamp)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfTimestamp;)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getTracefilesMap" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getTracefilesMap()" signature="()Ljava/util/HashMap;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="233" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="230" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getVersionAsFloat" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.getVersionAsFloat()" signature="()F" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="115" member="isValidLttngTrace" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.isValidLttngTrace()" signature="()Z" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+            <reference linenumber="104" member="getTraceFloatVersion" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.getTraceFloatVersion()" signature="()F" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="getCpuNumber" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getCpuNumber()" signature="()I" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="846" member="getCpuNumber" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.getCpuNumber()" signature="()I" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getJniTrace" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceFactory.getJniTrace(String, boolean)" signature="(Ljava/lang/String;Z)Lorg/eclipse/linuxtools/lttng/jni/JniTrace;" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="130" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getLttMinorVersion" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getLttMinorVersion()" signature="()S" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="829" member="getVersionMinor" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.getVersionMinor()" signature="()S" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="requestEventSource" name="org.eclipse.linuxtools.lttng.jni.JniEvent.requestEventSource()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.jni.JniEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="754" member="convertJniEventToTmfMultipleEventEvilFix" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmfMultipleEventEvilFix(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="713" member="convertJniEventToTmf" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmf(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getMajor" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.getMajor()" signature="()I" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="95" member="getTraceMajorVersion" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.getTraceMajorVersion()" signature="()I" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="requestEventMarker" name="org.eclipse.linuxtools.lttng.jni.JniEvent.requestEventMarker()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniMarker;" type="org.eclipse.linuxtools.lttng.jni.JniEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="904" member="getEventTypeKey" origin="org.eclipse.linuxtools.lttng.trace.EventTypeKey.getEventTypeKey(JniEvent)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.EventTypeKey"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.JniTraceVersion()" signature="()V" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.LTTngTraceVersion()" signature="()V" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.LTTngTraceVersion(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="getLttMajorVersion" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getLttMajorVersion()" signature="()S" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="812" member="getVersionMajor" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.getVersionMajor()" signature="()S" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getVersionAsString" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.getVersionAsString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="77" member="getTraceVersionString" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.getTraceVersionString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="getCpuNumber" name="org.eclipse.linuxtools.lttng.jni.JniTracefile.getCpuNumber()" signature="()J" type="org.eclipse.linuxtools.lttng.jni.JniTracefile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="243" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="904" member="getEventTypeKey" origin="org.eclipse.linuxtools.lttng.trace.EventTypeKey.getEventTypeKey(JniEvent)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.EventTypeKey"/>
+        </reference_kind>
+    </target>
+    <target member="seekToTime" name="org.eclipse.linuxtools.lttng.jni.JniTrace.seekToTime(JniTime)" signature="(Lorg/eclipse/linuxtools/lttng/jni/common/JniTime;)V" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="393" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(TmfTimestamp)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfTimestamp;)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getTracefileMarkersMap" name="org.eclipse.linuxtools.lttng.jni.JniTracefile.getTracefileMarkersMap()" signature="()Ljava/util/HashMap;" type="org.eclipse.linuxtools.lttng.jni.JniTracefile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="236" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="239" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="readNextEvent" name="org.eclipse.linuxtools.lttng.jni.JniTrace.readNextEvent()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="651" member="readEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.readEvent(LttngLocation)" signature="(Lorg/eclipse/linuxtools/lttng/event/LttngLocation;)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="457" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getTracefileName" name="org.eclipse.linuxtools.lttng.jni.JniTracefile.getTracefileName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.jni.JniTracefile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="243" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="904" member="getEventTypeKey" origin="org.eclipse.linuxtools.lttng.trace.EventTypeKey.getEventTypeKey(JniEvent)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.trace.EventTypeKey"/>
+        </reference_kind>
+    </target>
+    <target member="readVersionFromTrace" name="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion.readVersionFromTrace(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.jni.factory.JniTraceVersion">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="fillJniTraceVersion" origin="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion.fillJniTraceVersion(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTraceVersion"/>
+        </reference_kind>
+    </target>
+    <target member="getTracefilePath" name="org.eclipse.linuxtools.lttng.jni.JniTracefile.getTracefilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.jni.JniTracefile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="717" member="convertJniEventToTmf" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmf(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="755" member="convertJniEventToTmfMultipleEventEvilFix" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmfMultipleEventEvilFix(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getMarkerFieldsHashMap" name="org.eclipse.linuxtools.lttng.jni.JniMarker.getMarkerFieldsHashMap()" signature="()Ljava/util/HashMap;" type="org.eclipse.linuxtools.lttng.jni.JniMarker">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="242" member="initialiseEventTypes" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.initialiseEventTypes(JniTrace)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniTrace;)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getEventTime" name="org.eclipse.linuxtools.lttng.jni.JniEvent.getEventTime()" signature="()Lorg/eclipse/linuxtools/lttng/jni/common/JniTime;" type="org.eclipse.linuxtools.lttng.jni.JniEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="712" member="convertJniEventToTmf" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmf(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="463" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+            <reference linenumber="753" member="convertJniEventToTmfMultipleEventEvilFix" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.convertJniEventToTmfMultipleEventEvilFix(JniEvent, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/jni/JniEvent;Z)Lorg/eclipse/linuxtools/lttng/event/LttngEvent;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="findNextEvent" name="org.eclipse.linuxtools.lttng.jni.JniTrace.findNextEvent()" signature="()Lorg/eclipse/linuxtools/lttng/jni/JniEvent;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="453" member="seekEvent" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.seekEvent(long)" signature="(J)Lorg/eclipse/linuxtools/tmf/trace/TmfContext;" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+    <target member="getEndTime" name="org.eclipse.linuxtools.lttng.jni.JniTrace.getEndTime()" signature="()Lorg/eclipse/linuxtools/lttng/jni/common/JniTime;" type="org.eclipse.linuxtools.lttng.jni.JniTrace">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="169" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.trace.LTTngTrace.LTTngTrace(String, boolean, boolean)" signature="(Ljava/lang/String;ZZ)V" type="org.eclipse.linuxtools.lttng.trace.LTTngTrace"/>
+        </reference_kind>
+    </target>
+</references>

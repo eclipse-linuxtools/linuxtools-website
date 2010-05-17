@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="59" reference_visibility="1">
+    <target member="getTree" name="org.eclipse.jface.viewers.TreeViewer.getTree()" signature="()Lorg/eclipse/swt/widgets/Tree;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="170" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="221" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+            <reference linenumber="176" member="setFocus" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.setFocus()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="233" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3$1"/>
+            <reference linenumber="196" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="96" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setRemoveAllWhenShown" name="org.eclipse.jface.action.MenuManager.setRemoveAllWhenShown(boolean)" signature="(Z)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="169" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.DoubleClickEvent.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewer.TreeViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="91" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setComparator" name="org.eclipse.jface.viewers.StructuredViewer.setComparator(ViewerComparator)" signature="(Lorg/eclipse/jface/viewers/ViewerComparator;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="230" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.jface.viewers.ViewerCell.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="61" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="91" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="94" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="88" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="74" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="56" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="69" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="83" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.AbstractTreeViewer.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="160" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.2.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$2"/>
+        </reference_kind>
+    </target>
+    <target member="getColumn" name="org.eclipse.jface.viewers.TreeViewerColumn.getColumn()" signature="()Lorg/eclipse/swt/widgets/TreeColumn;" type="org.eclipse.jface.viewers.TreeViewerColumn">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="189" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="188" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="103" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="102" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="104" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="105" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="191" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="190" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="192" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.IStructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="161" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.2.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$2"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="195" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getColumnIndex" name="org.eclipse.jface.viewers.ViewerCell.getColumnIndex()" signature="()I" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getControl" name="org.eclipse.jface.viewers.TreeViewer.getControl()" signature="()Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="171" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.StructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.1.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.CellLabelProvider.CellLabelProvider()" signature="()V" type="org.eclipse.jface.viewers.CellLabelProvider">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.CachegrindLabelProvider()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.CachegrindLabelProvider()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="setAutoExpandLevel" name="org.eclipse.jface.viewers.AbstractTreeViewer.setAutoExpandLevel(int)" signature="(I)V" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="111" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="getElement" name="org.eclipse.jface.viewers.ViewerCell.getElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewerColumn.TreeViewerColumn(TreeViewer, int)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;I)V" type="org.eclipse.jface.viewers.TreeViewerColumn">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="101" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="187" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.TreeViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.ViewerComparator.ViewerComparator()" signature="()V" type="org.eclipse.jface.viewers.ViewerComparator">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="230" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.1.1(new CachegrindViewPart(){})" signature="(Lorg/eclipse/linuxtools/internal/valgrind/cachegrind/CachegrindViewPart$3;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3$1"/>
+        </reference_kind>
+    </target>
+    <target member="update" name="org.eclipse.jface.viewers.CellLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.jface.viewers.CellLabelProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="createContextMenu" name="org.eclipse.jface.action.MenuManager.createContextMenu(Control)" signature="(Lorg/eclipse/swt/widgets/Control;)Lorg/eclipse/swt/widgets/Menu;" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="170" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="163" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.2.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$2"/>
+            <reference linenumber="164" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.2.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$2"/>
+        </reference_kind>
+    </target>
+    <target member="compare" name="org.eclipse.jface.viewers.ViewerComparator.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.jface.viewers.ViewerComparator">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3$1"/>
+        </reference_kind>
+    </target>
+    <target member="addMenuListener" name="org.eclipse.jface.action.MenuManager.addMenuListener(IMenuListener)" signature="(Lorg/eclipse/jface/action/IMenuListener;)V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="158" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ViewerColumn.setLabelProvider(CellLabelProvider)" signature="(Lorg/eclipse/jface/viewers/CellLabelProvider;)V" type="org.eclipse.jface.viewers.ViewerColumn">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="106" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="193" member="refreshView" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.refreshView()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="110" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="addDoubleClickListener" name="org.eclipse.jface.viewers.StructuredViewer.addDoubleClickListener(IDoubleClickListener)" signature="(Lorg/eclipse/jface/viewers/IDoubleClickListener;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="152" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target member="setImage" name="org.eclipse.jface.viewers.ViewerCell.setImage(Image)" signature="(Lorg/eclipse/swt/graphics/Image;)V" type="org.eclipse.jface.viewers.ViewerCell">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="62" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="80" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="57" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="84" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+            <reference linenumber="70" member="update" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.update(ViewerCell)" signature="(Lorg/eclipse/jface/viewers/ViewerCell;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.MenuManager.MenuManager()" signature="()V" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="157" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+</references>

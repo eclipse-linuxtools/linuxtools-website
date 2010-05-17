@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.ui.editors (3.6.0.v20100513-0800)" reference_count="26" reference_visibility="1">
+    <target member="isPrefQuickDiffAlwaysOn" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isPrefQuickDiffAlwaysOn()" signature="()Z" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="282" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isLineNumberRulerVisible" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isLineNumberRulerVisible()" signature="()Z" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="280" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.AbstractDecoratedTextEditor()" signature="()V" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.CEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="209" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.CEditor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createPartControl" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="291" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="68" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.dispose()" signature="()V" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="270" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getAnnotationAccess" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getAnnotationAccess()" signature="()Lorg/eclipse/jface/text/source/IAnnotationAccess;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="277" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="70" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createCompositeRuler" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createLineNumberRulerColumn" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createLineNumberRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="283" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+            <reference linenumber="281" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+<target member="createActions" name="org.eclipse.ui.editors.text.TextEditor.createActions()" signature="()V" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="106" member="createActions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createActions()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getOverviewRuler" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getOverviewRuler()" signature="()Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.ui.editors.text.TextEditor.dispose()" signature="()V" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="115" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSharedColors" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getSharedColors()" signature="()Lorg/eclipse/jface/text/source/ISharedTextColors;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="70" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceViewerDecorationSupport" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getSourceViewerDecorationSupport(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/ui/texteditor/SourceViewerDecorationSupport;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="80" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createSourceViewer" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isOverviewRulerVisible" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isOverviewRulerVisible()" signature="()Z" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="79" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target member="editorContextMenuAboutToShow" name="org.eclipse.ui.editors.text.TextEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.ui.editors.text.TextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="editorContextMenuAboutToShow" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="120" member="editorContextMenuAboutToShow" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.editorContextMenuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+</references>

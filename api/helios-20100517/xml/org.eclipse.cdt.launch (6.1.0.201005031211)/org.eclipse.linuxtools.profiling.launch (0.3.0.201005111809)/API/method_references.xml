@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" referee="org.eclipse.cdt.launch (6.1.0.201005031211)" reference_count="7" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.AbstractCLaunchDelegate()" signature="()V" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.ProfileLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="28" member="&lt;init&gt;" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.ProfileLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="renderProcessLabel" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.renderProcessLabel(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="162" member="createNewProcess" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.createNewProcess(ILaunch, Process, String)" signature="(Lorg/eclipse/debug/core/ILaunch;Ljava/lang/Process;Ljava/lang/String;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getWorkingDirectory" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getWorkingDirectory(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/io/File;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="69" member="createProcess" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.createProcess(ILaunchConfiguration, ILaunch)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.launch.ui.CArgumentsTab.CArgumentsTab()" signature="()V" type="org.eclipse.cdt.launch.ui.CArgumentsTab">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="30" member="createTabs" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup.createTabs(ILaunchConfigurationDialog, String)" signature="(Lorg/eclipse/debug/ui/ILaunchConfigurationDialog;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup"/>
+        </reference_kind>
+    </target>
+    <target member="getEnvironment" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.getEnvironment(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="82" member="createProcess" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.createProcess(ILaunchConfiguration, ILaunch)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.launch.ui.CMainTab.CMainTab()" signature="()V" type="org.eclipse.cdt.launch.ui.CMainTab">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="29" member="createTabs" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup.createTabs(ILaunchConfigurationDialog, String)" signature="(Lorg/eclipse/debug/ui/ILaunchConfigurationDialog;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationTabGroup"/>
+        </reference_kind>
+    </target>
+</references>

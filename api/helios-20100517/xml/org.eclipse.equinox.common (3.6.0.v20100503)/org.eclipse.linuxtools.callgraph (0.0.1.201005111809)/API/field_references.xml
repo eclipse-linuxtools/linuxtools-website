@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="24" reference_visibility="1">
+    <target member="CANCEL_STATUS" name="org.eclipse.core.runtime.Status.CANCEL_STATUS" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="317" member="finishLoad" origin="org.eclipse.linuxtools.callgraph.CallgraphView.finishLoad(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="539" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="508" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="467" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="390" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="323" member="finishLoad" origin="org.eclipse.linuxtools.callgraph.CallgraphView.finishLoad(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="371" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="426" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="118" member="nonRealTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.nonRealTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="498" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="334" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="231" member="loadData" origin="org.eclipse.linuxtools.callgraph.CallgraphView.loadData(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="405" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="343" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="382" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+        <reference linenumber="85" member="run" origin="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist"/>
+        </reference_kind>
+    </target>
+    <target member="OK_STATUS" name="org.eclipse.core.runtime.Status.OK_STATUS" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="201" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="384" member="parse" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="492" member="parseDotFile" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.parseDotFile()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="1842" member="play" origin="org.eclipse.linuxtools.callgraph.StapGraph.play()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="554" member="realTimeParsing" origin="org.eclipse.linuxtools.callgraph.StapGraphParser.realTimeParsing()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.StapGraphParser"/>
+            <reference linenumber="290" member="loadData" origin="org.eclipse.linuxtools.callgraph.CallgraphView.loadData(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+            <reference linenumber="330" member="finishLoad" origin="org.eclipse.linuxtools.callgraph.CallgraphView.finishLoad(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        <reference linenumber="60" member="run" origin="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.graphlisteners.Projectionist"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="114" reference_visibility="1">
+    <target member="lineOffset" name="org.eclipse.swt.custom.LineBackgroundEvent.lineOffset" type="org.eclipse.swt.custom.LineBackgroundEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="320" member="lineGetBackground" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.lineGetBackground(LineBackgroundEvent)" signature="(Lorg/eclipse/swt/custom/LineBackgroundEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="width" name="org.eclipse.swt.graphics.Rectangle.width" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="682" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="571" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="624" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="236" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="464" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="x" name="org.eclipse.swt.events.MouseEvent.x" type="org.eclipse.swt.events.MouseEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="149" member="mouseDoubleClick" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="127" member="mouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="172" member="mouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+        </reference_kind>
+    </target>
+    <target member="y" name="org.eclipse.swt.events.MouseEvent.y" type="org.eclipse.swt.events.MouseEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="874" member="handleMouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.handleMouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="149" member="mouseDoubleClick" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="884" member="handleMouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.handleMouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="158" member="mouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="249" member="autoScroll" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.autoScroll(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="129" member="mouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="127" member="mouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="244" member="autoScroll" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.autoScroll(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="866" member="handleMouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.handleMouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="172" member="mouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+        </reference_kind>
+    </target>
+    <target member="red" name="org.eclipse.swt.graphics.RGB.red" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="1042" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1041" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1040" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1027" member="interpolate" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.interpolate(RGB, RGB, double)" signature="(Lorg/eclipse/swt/graphics/RGB;Lorg/eclipse/swt/graphics/RGB;D)Lorg/eclipse/swt/graphics/RGB;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="horizontalIndent" name="org.eclipse.swt.layout.GridData.horizontalIndent" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="137" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="108" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="138" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="data" name="org.eclipse.swt.events.TypedEvent.data" type="org.eclipse.swt.events.TypedEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="319" member="lineGetBackground" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.lineGetBackground(LineBackgroundEvent)" signature="(Lorg/eclipse/swt/custom/LineBackgroundEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="blue" name="org.eclipse.swt.graphics.RGB.blue" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="1029" member="interpolate" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.interpolate(RGB, RGB, double)" signature="(Lorg/eclipse/swt/graphics/RGB;Lorg/eclipse/swt/graphics/RGB;D)Lorg/eclipse/swt/graphics/RGB;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1042" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1040" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="grabExcessVerticalSpace" name="org.eclipse.swt.layout.GridData.grabExcessVerticalSpace" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="101" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="horizontalSpan" name="org.eclipse.swt.layout.GridData.horizontalSpan" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="107" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="horizontalSpacing" name="org.eclipse.swt.layout.GridLayout.horizontalSpacing" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="97" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="widthHint" name="org.eclipse.swt.layout.GridData.widthHint" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="139" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="y" name="org.eclipse.swt.widgets.Event.y" type="org.eclipse.swt.widgets.Event">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="389" member="getToolTipArea" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.ToolTipSupport.getToolTipArea(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor$ToolTipSupport"/>
+        </reference_kind>
+    </target>
+    <target member="marginHeight" name="org.eclipse.swt.layout.FillLayout.marginHeight" type="org.eclipse.swt.layout.FillLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="111" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="y" name="org.eclipse.swt.graphics.Point.y" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="630" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="741" member="toLineNumbers" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)" signature="(I)[I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="827" member="getAnnotationPosition" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)" signature="([IZ)Lorg/eclipse/jface/text/Position;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="464" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="671" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="865" member="paintHyperLink" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.paintHyperLink(int, int, int, int, GC, Display)" signature="(IIIILorg/eclipse/swt/graphics/GC;Lorg/eclipse/swt/widgets/Display;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="624" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="470" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="241" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="475" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="745" member="toLineNumbers" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.toLineNumbers(int)" signature="(I)[I" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="459" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="619" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="508" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="560" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="507" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="600" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="639" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="662" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="601" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="231" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="551" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="508" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="601" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="x" name="org.eclipse.swt.graphics.Point.x" type="org.eclipse.swt.graphics.Point">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="464" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="630" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="675" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="624" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="571" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="470" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="241" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="682" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="475" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="564" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="459" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="619" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="535" member="computeIndentations" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.computeIndentations()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="639" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="827" member="getAnnotationPosition" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.getAnnotationPosition(int[], boolean)" signature="([IZ)Lorg/eclipse/jface/text/Position;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="531" member="computeIndentations" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.computeIndentations()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+            <reference linenumber="231" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+        </reference_kind>
+    </target>
+    <target member="display" name="org.eclipse.swt.events.TypedEvent.display" type="org.eclipse.swt.events.TypedEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="165" member="mouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="161" member="mouseMove" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseMove(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+        </reference_kind>
+    </target>
+    <target member="lineBackground" name="org.eclipse.swt.custom.LineBackgroundEvent.lineBackground" type="org.eclipse.swt.custom.LineBackgroundEvent">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="321" member="lineGetBackground" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.lineGetBackground(LineBackgroundEvent)" signature="(Lorg/eclipse/swt/custom/LineBackgroundEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="grabExcessHorizontalSpace" name="org.eclipse.swt.layout.GridData.grabExcessHorizontalSpace" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="100" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="155" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="height" name="org.eclipse.swt.graphics.Rectangle.height" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="236" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="244" member="autoScroll" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.autoScroll(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="464" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="624" member="doubleBufferPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.doubleBufferPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="572" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="683" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="y" name="org.eclipse.swt.graphics.Rectangle.y" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="236" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="570" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="681" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="borderInsideRGB" name="org.eclipse.swt.custom.ViewForm.borderInsideRGB" type="org.eclipse.swt.custom.ViewForm">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="203" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.HeaderPainter(STOverviewRuler)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STOverviewRuler;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+        </reference_kind>
+    </target>
+    <target member="marginWidth" name="org.eclipse.swt.layout.FillLayout.marginWidth" type="org.eclipse.swt.layout.FillLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="111" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="x" name="org.eclipse.swt.graphics.Rectangle.x" type="org.eclipse.swt.graphics.Rectangle">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="236" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="569" member="doPaint" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="680" member="doPaint1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.doPaint1(GC)" signature="(Lorg/eclipse/swt/graphics/GC;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="horizontalAlignment" name="org.eclipse.swt.layout.GridData.horizontalAlignment" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="154" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="gc" name="org.eclipse.swt.events.PaintEvent.gc" type="org.eclipse.swt.events.PaintEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="389" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.1.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$1"/>
+            <reference linenumber="232" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="559" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.2.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$2"/>
+            <reference linenumber="236" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="239" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="240" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="241" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+            <reference linenumber="230" member="paintControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.HeaderPainter.paintControl(PaintEvent)" signature="(Lorg/eclipse/swt/events/PaintEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler$HeaderPainter"/>
+        </reference_kind>
+    </target>
+    <target member="foreground" name="org.eclipse.swt.graphics.TextStyle.foreground" type="org.eclipse.swt.graphics.TextStyle">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="859" member="paintHyperLink" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.paintHyperLink(int, int, int, int, GC, Display)" signature="(IIIILorg/eclipse/swt/graphics/GC;Lorg/eclipse/swt/widgets/Display;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="button" name="org.eclipse.swt.events.MouseEvent.button" type="org.eclipse.swt.events.MouseEvent">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="117" member="mouseUp" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseUp(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+            <reference linenumber="139" member="mouseDown" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.MouseHandler.mouseDown(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn$MouseHandler"/>
+        </reference_kind>
+    </target>
+    <target member="underline" name="org.eclipse.swt.graphics.TextStyle.underline" type="org.eclipse.swt.graphics.TextStyle">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="860" member="paintHyperLink" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn.paintHyperLink(int, int, int, int, GC, Display)" signature="(IIIILorg/eclipse/swt/graphics/GC;Lorg/eclipse/swt/widgets/Display;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="green" name="org.eclipse.swt.graphics.RGB.green" type="org.eclipse.swt.graphics.RGB">
+        <reference_kind flags="0" kind="8192" reference_kind_name="GETS_FIELD">
+            <reference linenumber="1028" member="interpolate" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.interpolate(RGB, RGB, double)" signature="(Lorg/eclipse/swt/graphics/RGB;Lorg/eclipse/swt/graphics/RGB;D)Lorg/eclipse/swt/graphics/RGB;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1042" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+            <reference linenumber="1040" member="greyLevel" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler.greyLevel(RGB)" signature="(Lorg/eclipse/swt/graphics/RGB;)D" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STOverviewRuler"/>
+        </reference_kind>
+    </target>
+    <target member="verticalIndent" name="org.eclipse.swt.layout.GridData.verticalIndent" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="108" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="numColumns" name="org.eclipse.swt.layout.GridLayout.numColumns" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="96" member="createPartControl" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.ui.console (3.5.0.v20100503)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.ui.console.IConsole" type="org.eclipse.ui.console.IConsole">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="101" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.console.MessageConsole" type="org.eclipse.ui.console.MessageConsole">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="98" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="62" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+            <reference linenumber="100" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="100" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.console.IConsoleManager" type="org.eclipse.ui.console.IConsoleManager">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="94" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.console.ConsolePlugin" type="org.eclipse.ui.console.ConsolePlugin">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="93" member="findConsole" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.findConsole(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/MessageConsole;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.console.MessageConsoleStream" type="org.eclipse.ui.console.MessageConsoleStream">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="63" member="execute" origin="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.rpm.rpmlint.actions.RunRpmlintAction"/>
+        </reference_kind>
+    </target>
+</references>

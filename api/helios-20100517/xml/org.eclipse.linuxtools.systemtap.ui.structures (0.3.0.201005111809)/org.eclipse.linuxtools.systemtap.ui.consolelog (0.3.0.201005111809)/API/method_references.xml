@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.consolelog (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" reference_count="38" reference_visibility="1">
+    <target member="addDataListener" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.addDataListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="84" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="86" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="191" member="addErrorStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.addErrorStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="221" member="addInputStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.addInputStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="233" member="addErrorStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.addErrorStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="180" member="addInputStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.addInputStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon.LoggingStreamDaemon()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2.LoggedCommand2(String[], String[], IPasswordPrompt, int, String)" signature="([Ljava/lang/String;[Ljava/lang/String;Lorg/eclipse/linuxtools/systemtap/ui/structures/IPasswordPrompt;ILjava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2"/>
+            <reference linenumber="89" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="getDataListeners" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.getDataListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="246" member="getInputStreamListeners" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.getInputStreamListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="257" member="getErrorStreamListeners" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.getErrorStreamListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="215" member="getErrorStreamListeners" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.getErrorStreamListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="204" member="getInputStreamListeners" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.getInputStreamListeners()" signature="()Ljava/util/ArrayList;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+        </reference_kind>
+    </target>
+    <target member="fireNewDataEvent" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.fireNewDataEvent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="154" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="138" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="94" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2"/>
+        </reference_kind>
+    </target>
+    <target member="getOutput" name="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon.getOutput()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="185" member="getOutput" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.getOutput()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="62" member="getOutput" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2.getOutput()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2"/>
+        </reference_kind>
+    </target>
+    <target member="saveLog" name="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon.saveLog(File)" signature="(Ljava/io/File;)Z" type="org.eclipse.linuxtools.systemtap.ui.structures.LoggingStreamDaemon">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="saveLog" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2.saveLog(File)" signature="(Ljava/io/File;)Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.LoggedCommand2"/>
+            <reference linenumber="189" member="saveLog" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.saveLog(File)" signature="(Ljava/io/File;)Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="201" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="256" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="252" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="207" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.start()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="112" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="111" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="122" member="run" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.StreamGobbler(InputStream)" signature="(Ljava/io/InputStream;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="80" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="79" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="101" member="init" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.init()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+    <target member="removeDataListener" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.removeDataListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="277" member="removeErrorStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.removeErrorStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="235" member="removeErrorStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.removeErrorStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="266" member="removeInputStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.removeInputStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="224" member="removeInputStreamListener" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.removeInputStreamListener(IGobblerListener)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/structures/listeners/IGobblerListener;)V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+        </reference_kind>
+    </target>
+    <target member="stop" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler.stop()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.StreamGobbler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="150" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.stop()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="152" member="stop" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec.stop()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.ScpExec"/>
+            <reference linenumber="208" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+            <reference linenumber="202" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.consolelog.Subscription"/>
+        </reference_kind>
+    </target>
+<target member="isDisposed" name="org.eclipse.linuxtools.systemtap.ui.structures.runnable.Command.isDisposed()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.structures.runnable.Command">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="215" member="isDisposed" origin="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2.isDisposed()" signature="()Z" type="org.eclipse.linuxtools.systemtap.ui.consolelog.structures.ScriptConsole2"/>
+        </reference_kind>
+    </target>
+</references>

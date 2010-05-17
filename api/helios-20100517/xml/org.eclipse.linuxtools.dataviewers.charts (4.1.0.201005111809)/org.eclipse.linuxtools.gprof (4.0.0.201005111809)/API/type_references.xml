@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.dataviewers.charts.actions.ChartAction" type="org.eclipse.linuxtools.dataviewers.charts.actions.ChartAction">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="98" member="contributeToToolbar" origin="org.eclipse.linuxtools.gprof.view.GmonView.contributeToToolbar(IToolBarManager)" signature="(Lorg/eclipse/jface/action/IToolBarManager;)V" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.dataviewers.charts.provider.IChartField" type="org.eclipse.linuxtools.dataviewers.charts.provider.IChartField">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.view.fields.CallsProfField" type="org.eclipse.linuxtools.gprof.view.fields.CallsProfField"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.view.fields.SampleProfField" type="org.eclipse.linuxtools.gprof.view.fields.SampleProfField"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gprof.view.fields.RatioProfField" type="org.eclipse.linuxtools.gprof.view.fields.RatioProfField"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.valgrind.memcheck (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="3" reference_visibility="1">
+    <target member="horizontalSpan" name="org.eclipse.swt.layout.GridData.horizontalSpan" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="271" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage"/>
+        </reference_kind>
+    </target>
+    <target member="marginWidth" name="org.eclipse.swt.layout.GridLayout.marginWidth" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="135" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage"/>
+        </reference_kind>
+    </target>
+    <target member="marginHeight" name="org.eclipse.swt.layout.GridLayout.marginHeight" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="135" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.memcheck.MemcheckToolPage"/>
+        </reference_kind>
+    </target>
+</references>

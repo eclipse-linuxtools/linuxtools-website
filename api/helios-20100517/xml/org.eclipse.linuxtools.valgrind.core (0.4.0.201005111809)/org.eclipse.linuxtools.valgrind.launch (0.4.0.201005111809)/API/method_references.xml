@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" reference_count="15" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCoreParser.ValgrindCoreParser(File, ILaunch)" signature="(Ljava/io/File;Lorg/eclipse/debug/core/ILaunch;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCoreParser">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="188" member="parseLogs" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.parseLogs(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)[Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getFile()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="212" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getLine" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getLine()" signature="()I" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="210" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+            <reference linenumber="220" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunch" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame.getLaunch()" signature="()Lorg/eclipse/debug/core/ILaunch;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindStackFrame">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="211" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getCommandLine" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.getCommandLine()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="144" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getChildren" name="org.eclipse.linuxtools.valgrind.core.IValgrindMessage.getChildren()" signature="()[Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.valgrind.core.IValgrindMessage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="205" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="execute" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getProcess" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.getProcess()" signature="()Ljava/lang/Process;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="142" member="launch" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin.getDefault()" signature="()Lorg/eclipse/linuxtools/internal/valgrind/core/ValgrindPlugin;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="118" member="getValgrindLocation" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindLocation()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.linuxtools.valgrind.core.IValgrindMessage.getText()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.valgrind.core.IValgrindMessage">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="218" member="createMarkers" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.createMarkers(IValgrindMessage[])" signature="([Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getMessages" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCoreParser.getMessages()" signature="()[Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCoreParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="189" member="parseLogs" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.parseLogs(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)[Lorg/eclipse/linuxtools/valgrind/core/IValgrindMessage;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="whichVersion" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.whichVersion(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="160" member="findValgrindVersion" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.findValgrindVersion()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="whichValgrind" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.whichValgrind()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="147" member="findValgrindLocation" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.findValgrindLocation()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.ValgrindCommand()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="183" member="getValgrindCommand" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindCommand()" signature="()Lorg/eclipse/linuxtools/internal/valgrind/core/ValgrindCommand;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin"/>
+        </reference_kind>
+    </target>
+</references>

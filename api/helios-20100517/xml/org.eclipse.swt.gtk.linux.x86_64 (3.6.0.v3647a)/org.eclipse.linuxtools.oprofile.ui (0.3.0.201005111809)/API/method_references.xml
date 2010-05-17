@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="11" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridData.GridData(int, int)" signature="(II)V" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="131" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setLayoutData" name="org.eclipse.swt.widgets.Control.setLayoutData(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="134" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+            <reference linenumber="138" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Text.Text(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="136" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="asyncExec" name="org.eclipse.swt.widgets.Display.asyncExec(Runnable)" signature="(Ljava/lang/Runnable;)V" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="112" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+    <target member="setLayout" name="org.eclipse.swt.widgets.Composite.setLayout(Layout)" signature="(Lorg/eclipse/swt/widgets/Layout;)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="133" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridLayout.GridLayout(int, boolean)" signature="(IZ)V" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="130" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Composite.Composite(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="129" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Text.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="137" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridData.GridData(int, int, boolean, boolean)" signature="(IIZZ)V" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="138" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.swt.widgets.Display.getDefault()" signature="()Lorg/eclipse/swt/widgets/Display;" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="112" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1"/>
+        </reference_kind>
+    </target>
+</references>

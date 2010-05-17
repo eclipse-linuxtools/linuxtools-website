@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.changelog.cparser (2.6.3.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="54" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.model.ILanguage" type="org.eclipse.cdt.core.model.ILanguage">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="163" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="163" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ICElement" type="org.eclipse.cdt.core.model.ICElement">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="68" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="116" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="99" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="113" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="68" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="116" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="99" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="113" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.CodeReader" type="org.eclipse.cdt.core.parser.CodeReader">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="41" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="159" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="46" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="53" member="createCodeReaderForTranslationUnit" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForTranslationUnit(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        <reference linenumber="41" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="159" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+            <reference linenumber="46" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="53" member="createCodeReaderForTranslationUnit" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForTranslationUnit(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="-1" member="createCodeReaderForTranslationUnit" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForTranslationUnit(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+            <reference linenumber="-1" member="createCodeReaderForTranslationUnit" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForTranslationUnit(String)" signature="(Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="159" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="159" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ast.IASTNode" type="org.eclipse.cdt.core.dom.ast.IASTNode">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="170" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="170" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.index.IIndexFileLocation" type="org.eclipse.cdt.core.index.IIndexFileLocation">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        <reference linenumber="-1" member="createCodeReaderForInclusion" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.createCodeReaderForInclusion(IIndexFileLocation, String)" signature="(Lorg/eclipse/cdt/core/index/IIndexFileLocation;Ljava/lang/String;)Lorg/eclipse/cdt/core/parser/CodeReader;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.ICodeReaderCache" type="org.eclipse.cdt.core.parser.ICodeReaderCache">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCodeReaderCache" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.getCodeReaderCache()" signature="()Lorg/eclipse/cdt/core/parser/ICodeReaderCache;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        <reference linenumber="-1" member="getCodeReaderCache" origin="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory.getCodeReaderCache()" signature="()Lorg/eclipse/cdt/core/parser/ICodeReaderCache;" type="org.eclipse.linuxtools.changelog.parsers.NullCodeReaderFactory"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ast.IASTNodeSelector" type="org.eclipse.cdt.core.dom.ast.IASTNodeSelector">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="169" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="169" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ICodeReaderFactory" type="org.eclipse.cdt.core.dom.ICodeReaderFactory">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="135" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="135" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.IScannerInfo" type="org.eclipse.cdt.core.parser.IScannerInfo">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="138" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="138" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IWorkingCopy" type="org.eclipse.cdt.core.model.IWorkingCopy">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="67" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="67" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ast.IASTFunctionDefinition" type="org.eclipse.cdt.core.dom.ast.IASTFunctionDefinition">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="173" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="173" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="172" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="172" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="173" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="173" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.ScannerInfo" type="org.eclipse.cdt.core.parser.ScannerInfo">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="138" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="138" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit" type="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="168" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="168" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="171" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="171" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.dom.ast.IASTFunctionDeclarator" type="org.eclipse.cdt.core.dom.ast.IASTFunctionDeclarator">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="174" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        <reference linenumber="174" member="parseCurrentFunction" origin="org.eclipse.linuxtools.changelog.parsers.CParser.parseCurrentFunction(IEditorInput, int)" signature="(Lorg/eclipse/ui/IEditorInput;I)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.parsers.CParser"/>
+        </reference_kind>
+    </target>
+</references>

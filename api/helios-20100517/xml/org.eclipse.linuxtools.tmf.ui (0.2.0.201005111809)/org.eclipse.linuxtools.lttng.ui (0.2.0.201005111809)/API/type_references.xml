@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.linuxtools.tmf.ui (0.2.0.201005111809)" reference_count="59" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.model.ITimeEvent" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.model.ITimeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="getEventHoverToolTipInfo" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventHoverToolTipInfo(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Ljava/util/Map;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="getEventName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventName(ITimeEvent, boolean, boolean)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;ZZ)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeEvent" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeEvent"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider.StateColor" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider$StateColor">
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="cpuStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.cpuStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="bdevStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.bdevStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="trapStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.trapStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="procStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.procStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="irqStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.irqStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="-1" member="softIrqStateToColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.softIrqStateToColor" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getStateName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getStateName(TmfTimeAnalysisProviderStateColor)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="61" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="74" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="68" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="71" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="80" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="83" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+            <reference linenumber="77" member="getEventColor" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getEventColor(ITimeEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITimeEvent;)Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeAnalysisProvider$StateColor;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.model.ITmfTimeAnalysisEntry" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.model.ITmfTimeAnalysisEntry">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeComposite" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeComposite"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getTraceClassName" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider.getTraceClassName(ITmfTimeAnalysisEntry)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;)Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        <reference linenumber="-1" member="flowModelUpdates" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.flowModelUpdates(ITmfTimeAnalysisEntry[], long, long, boolean)" signature="([Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;JJZ)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.18.18(ControlFlowView, ITmfTimeAnalysisEntry[], Table, long, long, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/controlflow/ControlFlowView;[Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;Lorg/eclipse/swt/widgets/Table;JJZ)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$18"/>
+        <reference linenumber="-1" member="resourceModelUpdates" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.resourceModelUpdates(ITmfTimeAnalysisEntry[], long, long, boolean)" signature="([Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;JJZ)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.12.12(ResourcesView, ITmfTimeAnalysisEntry[], long, long, boolean)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/resources/ResourcesView;[Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;JJZ)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$12"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getEntry" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeEvent.getEntry()" signature="()Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/model/ITmfTimeAnalysisEntry;" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeEvent"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="285" member="select" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewProcessFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewProcessFilter"/>
+            <reference linenumber="175" member="inputChanged" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewContentProvider"/>
+            <reference linenumber="351" member="selectionChanged" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.1.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="284" member="select" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewProcessFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewProcessFilter"/>
+            <reference linenumber="350" member="selectionChanged" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.1.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="285" member="select" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewProcessFilter.select(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewProcessFilter"/>
+            <reference linenumber="351" member="selectionChanged" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.1.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="elements" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewContentProvider.elements" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewContentProvider"/>
+            <reference linenumber="-1" member="val$items" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.18.val$items" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$18"/>
+        <reference linenumber="-1" member="val$items" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.12.val$items" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView$12"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8388608" reference_kind_name="DECLARED_PARAMETERIZED_METHOD">
+            <reference linenumber="-1" member="setFilter" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewProcessFilter.setFilter(Vector)" signature="(Ljava/util/Vector;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewProcessFilter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="filteredSet" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.ViewProcessFilter.filteredSet" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView$ViewProcessFilter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="1045" member="tmfTaProcessFilterSelection" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tmfTaProcessFilterSelection(TmfTimeFilterSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeFilterSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeAnalysisProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider" type="org.eclipse.linuxtools.lttng.ui.model.trange.TimeRangeViewerProvider"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeScaleSelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="processTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater.processTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)Z" type="org.eclipse.linuxtools.lttng.ui.views.common.ParamsUpdater"/>
+        <reference linenumber="-1" member="tsfTmProcessTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tsfTmProcessTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="tsfTmProcessTimeScaleEvent" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.tsfTmProcessTimeScaleEvent(TmfTimeScaleSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeScaleSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.views.TmfView" type="org.eclipse.linuxtools.tmf.ui.views.TmfView">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView" type="org.eclipse.linuxtools.lttng.ui.views.common.AbsTimeUpdateView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView" type="org.eclipse.linuxtools.lttng.ui.views.histogram.HistogramView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView" type="org.eclipse.linuxtools.lttng.ui.views.statistics.StatisticsView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView" type="org.eclipse.linuxtools.lttng.ui.views.timeframe.TimeFrameView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeScaleSelectionListener" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeScaleSelectionListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeFilterSelectionEvent" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeFilterSelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="tmfTaProcessFilterSelection" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tmfTaProcessFilterSelection(TmfTimeFilterSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeFilterSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeFilterSelectionListener" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeFilterSelectionListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeSelectionEvent" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.TmfTimeSelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="tsfTmProcessSelEvent" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tsfTmProcessSelEvent(TmfTimeSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="tsfTmProcessSelEvent" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.tsfTmProcessSelEvent(TmfTimeSelectionEvent)" signature="(Lorg/eclipse/linuxtools/tmf/ui/viewers/timeAnalysis/TmfTimeSelectionEvent;)V" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITimeAnalysisViewer">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="tsfviewer" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView.tsfviewer" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" member="tsfviewer" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView.tsfviewer" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeSelectionListener" type="org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis.ITmfTimeSelectionListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView" type="org.eclipse.linuxtools.lttng.ui.views.controlflow.ControlFlowView"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView" type="org.eclipse.linuxtools.lttng.ui.views.resources.ResourcesView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.events.EventsView" type="org.eclipse.linuxtools.lttng.ui.views.events.EventsView"/>
+        </reference_kind>
+    </target>
+</references>

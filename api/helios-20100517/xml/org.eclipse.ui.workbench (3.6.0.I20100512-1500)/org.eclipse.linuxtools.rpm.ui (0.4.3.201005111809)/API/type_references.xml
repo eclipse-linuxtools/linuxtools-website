@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui (0.4.3.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="20" reference_visibility="1">
+    <target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin" type="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IImportWizard" type="org.eclipse.ui.IImportWizard">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IExportWizard" type="org.eclipse.ui.IExportWizard">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbenchWindow" type="org.eclipse.ui.IWorkbenchWindow">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActiveWorkbenchWindow" origin="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin.getActiveWorkbenchWindow()" signature="()Lorg/eclipse/ui/IWorkbenchWindow;" type="org.eclipse.linuxtools.rpm.ui.RPMUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.IWorkbench" type="org.eclipse.ui.IWorkbench">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportPage.SRPMImportPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.SRPMImportPage"/>
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.rpm.ui.RPMExportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.rpm.ui.RPMExportWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="workbench" origin="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard.workbench" type="org.eclipse.linuxtools.rpm.ui.SRPMImportWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.INewWizard" type="org.eclipse.ui.INewWizard">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.RPMNewProject" type="org.eclipse.linuxtools.rpm.ui.RPMNewProject"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.dialogs.PropertyPage" type="org.eclipse.ui.dialogs.PropertyPage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage" type="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage" type="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage" type="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.statushandlers.StatusAdapter" type="org.eclipse.ui.statushandlers.StatusAdapter">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="124" member="addTargetFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage.addTargetFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.TargetPage"/>
+            <reference linenumber="65" member="addProvidesField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage.addProvidesField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ProvidesPage"/>
+            <reference linenumber="65" member="addInfoField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage.addInfoField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.SpecFileHeaderPage"/>
+            <reference linenumber="117" member="addScriptFields" origin="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage.addScriptFields(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.InstallScriptsPage"/>
+            <reference linenumber="65" member="addChangelogField" origin="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage.addChangelogField(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.rpm.ui.propertypage.ChangelogPage"/>
+        </reference_kind>
+    </target>
+</references>

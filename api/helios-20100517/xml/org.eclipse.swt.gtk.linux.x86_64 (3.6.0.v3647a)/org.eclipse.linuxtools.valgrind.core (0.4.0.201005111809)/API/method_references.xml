@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="22" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.FileDialog.FileDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="83" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage$1"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Label.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="63" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Label.Label(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="62" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setLayout" name="org.eclipse.swt.widgets.Composite.setLayout(Layout)" signature="(Lorg/eclipse/swt/widgets/Layout;)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getText" name="org.eclipse.swt.widgets.Text.getText()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="133" member="passesValidityChecks" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.passesValidityChecks()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="130" member="passesValidityChecks" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.passesValidityChecks()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Button.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setText" name="org.eclipse.swt.widgets.Text.setText(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="performDefaults" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="86" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage$1"/>
+            <reference linenumber="96" member="loadPreferences" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.loadPreferences()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.swt.widgets.FileDialog.open()" signature="()Ljava/lang/String;" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="84" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridLayout.GridLayout()" signature="()V" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="50" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setLayoutData" name="org.eclipse.swt.widgets.Control.setLayoutData(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="59" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="70" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="addSelectionListener" name="org.eclipse.swt.widgets.Button.addSelectionListener(SelectionListener)" signature="(Lorg/eclipse/swt/events/SelectionListener;)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Text.Text(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="66" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Shell.Shell()" signature="()V" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="82" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage$1"/>
+            <reference linenumber="136" member="passesValidityChecks" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.passesValidityChecks()" signature="()Z" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.layout.GridData.GridData()" signature="()V" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="54" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="67" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Composite.Composite(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="48" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.Button.Button(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="73" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.jface.text (3.6.0.v20100513-0800)" reference_count="164" reference_visibility="1">
+    <target name="org.eclipse.jface.text.rules.FastPartitioner" type="org.eclipse.jface.text.rules.FastPartitioner">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="38" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="49" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.MultiLineRule" type="org.eclipse.jface.text.rules.MultiLineRule">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="38" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner.CPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner"/>
+        <reference linenumber="80" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="92" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.Token" type="org.eclipse.jface.text.rules.Token">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="69" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="70" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="71" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="72" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="73" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="74" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="36" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner.CPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner"/>
+        <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="82" member="getSTPScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getSTPScanner()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPElementScanner;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="50" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="73" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.CompositeRuler" type="org.eclipse.jface.text.source.CompositeRuler">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="276" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="276" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IRule" type="org.eclipse.jface.text.rules.IRule">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="103" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="91" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="80" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.RuleBasedPartitionScanner" type="org.eclipse.jface.text.rules.RuleBasedPartitionScanner">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IPredicateRule" type="org.eclipse.jface.text.rules.IPredicateRule">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner.CPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner"/>
+        <reference linenumber="79" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.RuleBasedScanner" type="org.eclipse.jface.text.rules.RuleBasedScanner">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.AnnotationRulerColumn" type="org.eclipse.jface.text.source.AnnotationRulerColumn">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="277" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="277" member="createCompositeRuler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createCompositeRuler()" signature="()Lorg/eclipse/jface/text/source/CompositeRuler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.WhitespaceRule" type="org.eclipse.jface.text.rules.WhitespaceRule">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="91" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="103" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.SingleLineRule" type="org.eclipse.jface.text.rules.SingleLineRule">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="87" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="88" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="85" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="89" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="90" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="100" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="101" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.WordRule" type="org.eclipse.jface.text.rules.WordRule">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="94" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="64" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="94" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="64" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.DefaultDamagerRepairer" type="org.eclipse.jface.text.rules.DefaultDamagerRepairer">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="89" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="121" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="89" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="125" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="137" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="121" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="133" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="129" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.IVerticalRuler" type="org.eclipse.jface.text.source.IVerticalRuler">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="292" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.presentation.PresentationReconciler" type="org.eclipse.jface.text.presentation.PresentationReconciler">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="87" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="119" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="87" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="119" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.EndOfLineRule" type="org.eclipse.jface.text.rules.EndOfLineRule">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="83" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="81" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="82" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="98" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="97" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="99" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="94" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="93" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="96" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="95" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="83" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="86" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="85" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="88" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="87" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.SourceViewerConfiguration" type="org.eclipse.jface.text.source.SourceViewerConfiguration">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="311" member="notifyColorPrefsChanged" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.notifyColorPrefsChanged()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.SourceViewer" type="org.eclipse.jface.text.source.SourceViewer">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="320" member="notifyColorPrefsChanged" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.notifyColorPrefsChanged()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="320" member="notifyColorPrefsChanged" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.notifyColorPrefsChanged()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextDoubleClickStrategy" type="org.eclipse.jface.text.ITextDoubleClickStrategy">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="-1" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.TextAttribute" type="org.eclipse.jface.text.TextAttribute">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="73" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="74" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="96" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+            <reference linenumber="69" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="70" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="71" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="72" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="60" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="82" member="getSTPScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getSTPScanner()" signature="()Lorg/eclipse/linuxtools/systemtap/ui/ide/editors/stp/STPElementScanner;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="51" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.presentation.IPresentationReconciler" type="org.eclipse.jface.text.presentation.IPresentationReconciler">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="-1" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.ISourceViewer" type="org.eclipse.jface.text.source.ISourceViewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+            <reference linenumber="-1" member="getConfiguredContentTypes" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getConfiguredContentTypes(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)[Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+            <reference linenumber="-1" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CConfiguration"/>
+        <reference linenumber="-1" member="getReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="-1" member="getPresentationReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getPresentationReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/presentation/IPresentationReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="-1" member="getDoubleClickStrategy" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getDoubleClickStrategy(ISourceViewer, String)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;Ljava/lang/String;)Lorg/eclipse/jface/text/ITextDoubleClickStrategy;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="-1" member="getContentAssistant" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+            <reference linenumber="-1" member="getConfiguredContentTypes" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getConfiguredContentTypes(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)[Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getMySourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.getMySourceViewer()" signature="()Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+            <reference linenumber="-1" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="78" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IToken" type="org.eclipse.jface.text.rules.IToken">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="69" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="70" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="71" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="72" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="36" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner.CPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CPartitionScanner"/>
+            <reference linenumber="73" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+            <reference linenumber="74" member="initializeScanner" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner.initializeScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CScanner"/>
+        <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="72" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="74" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="73" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.STPPartitionScanner()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner"/>
+            <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="50" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.STPElementScanner(ColorManager)" signature="(Lorg/eclipse/linuxtools/systemtap/ui/editor/ColorManager;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSuccessToken" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule.getSuccessToken()" signature="()Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+            <reference linenumber="-1" member="evaluate" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule.evaluate(ICharacterScanner, boolean)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;Z)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fSuccessToken" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule.fSuccessToken" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule.EmptyCommentRule(IToken)" signature="(Lorg/eclipse/jface/text/rules/IToken;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.text.contentassist.IContentAssistProcessor" type="org.eclipse.jface.text.contentassist.IContentAssistProcessor">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="67" member="getContentAssistant" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.reconciler.DirtyRegion" type="org.eclipse.jface.text.reconciler.DirtyRegion">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="reconcile" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.reconcile(DirtyRegion, IRegion)" signature="(Lorg/eclipse/jface/text/reconciler/DirtyRegion;Lorg/eclipse/jface/text/IRegion;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.IContextInformation" type="org.eclipse.jface.text.contentassist.IContextInformation">
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.STPCompletionProcessor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="NO_CONTEXTS" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.NO_CONTEXTS" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="computeContextInformation" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeContextInformation(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/IContextInformation;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.projection.ProjectionSupport" type="org.eclipse.jface.text.source.projection.ProjectionSupport">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="70" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="stpProjectionSupport" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.stpProjectionSupport" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.reconciler.IReconcilingStrategyExtension" type="org.eclipse.jface.text.reconciler.IReconcilingStrategyExtension">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.BufferedRuleBasedScanner" type="org.eclipse.jface.text.rules.BufferedRuleBasedScanner">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.ICharacterScanner" type="org.eclipse.jface.text.rules.ICharacterScanner">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="evaluate" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentRule.evaluate(ICharacterScanner, boolean)" signature="(Lorg/eclipse/jface/text/rules/ICharacterScanner;Z)Lorg/eclipse/jface/text/rules/IToken;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentRule"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IPartitionTokenScanner" type="org.eclipse.jface.text.rules.IPartitionTokenScanner">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.STPPartitioner(IPartitionTokenScanner, String[])" signature="(Lorg/eclipse/jface/text/rules/IPartitionTokenScanner;[Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.ITextViewer" type="org.eclipse.jface.text.ITextViewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="computeContextInformation" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeContextInformation(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/IContextInformation;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+            <reference linenumber="-1" member="computeCompletionProposals" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.projection.ProjectionAnnotationModel" type="org.eclipse.jface.text.source.projection.ProjectionAnnotationModel">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="stpAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.stpAnnotationModel" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IWordDetector" type="org.eclipse.jface.text.rules.IWordDetector">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner.EmptyCommentDetector" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitionScanner$EmptyCommentDetector"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.1" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.CompletionProposal" type="org.eclipse.jface.text.contentassist.CompletionProposal">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="66" member="computeCompletionProposals" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.IContextInformationValidator" type="org.eclipse.jface.text.contentassist.IContextInformationValidator">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getContextInformationValidator" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.getContextInformationValidator()" signature="()Lorg/eclipse/jface/text/contentassist/IContextInformationValidator;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.ContentAssistant" type="org.eclipse.jface.text.contentassist.ContentAssistant">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="60" member="getContentAssistant" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="60" member="getContentAssistant" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.projection.ProjectionAnnotation" type="org.eclipse.jface.text.source.projection.ProjectionAnnotation">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="92" member="updateFoldingStructure" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.updateFoldingStructure(ArrayList)" signature="(Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="89" member="updateFoldingStructure" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.updateFoldingStructure(ArrayList)" signature="(Ljava/util/ArrayList;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.reconciler.IReconciler" type="org.eclipse.jface.text.reconciler.IReconciler">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.source.projection.ProjectionViewer" type="org.eclipse.jface.text.source.projection.ProjectionViewer">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="69" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="69" member="createPartControl" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="78" member="createSourceViewer" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.createSourceViewer(Composite, IVerticalRuler, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Lorg/eclipse/jface/text/source/IVerticalRuler;I)Lorg/eclipse/jface/text/source/ISourceViewer;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.ICompletionProposal" type="org.eclipse.jface.text.contentassist.ICompletionProposal">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="computeCompletionProposals" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="61" member="computeCompletionProposals" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.computeCompletionProposals(ITextViewer, int)" signature="(Lorg/eclipse/jface/text/ITextViewer;I)[Lorg/eclipse/jface/text/contentassist/ICompletionProposal;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+            <reference linenumber="27" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.STPCompletionProcessor()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="NO_COMPLETIONS" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.NO_COMPLETIONS" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.contentassist.IContentAssistant" type="org.eclipse.jface.text.contentassist.IContentAssistant">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getContentAssistant" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getContentAssistant(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/contentassist/IContentAssistant;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.reconciler.IReconcilingStrategy" type="org.eclipse.jface.text.reconciler.IReconcilingStrategy">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.rules.IWhitespaceDetector" type="org.eclipse.jface.text.rules.IWhitespaceDetector">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner.2" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPElementScanner$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.reconciler.MonoReconciler" type="org.eclipse.jface.text.reconciler.MonoReconciler">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="97" member="getReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="97" member="getReconciler" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration.getReconciler(ISourceViewer)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;)Lorg/eclipse/jface/text/reconciler/IReconciler;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPConfiguration"/>
+        </reference_kind>
+    </target>
+</references>

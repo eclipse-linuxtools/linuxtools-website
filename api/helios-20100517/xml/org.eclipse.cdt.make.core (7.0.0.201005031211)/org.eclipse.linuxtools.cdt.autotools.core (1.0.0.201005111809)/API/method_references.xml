@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.core (1.0.0.201005111809)" referee="org.eclipse.cdt.make.core (7.0.0.201005031211)" reference_count="34" reference_visibility="1">
+    <target member="getTarget" name="org.eclipse.cdt.make.core.makefile.IRule.getTarget()" signature="()Lorg/eclipse/cdt/make/core/makefile/ITarget;" type="org.eclipse.cdt.make.core.makefile.IRule">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1165" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getTargetBuilderID" name="org.eclipse.cdt.make.core.IMakeTarget.getTargetBuilderID()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1067" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.cdt.make.core.IMakeTarget.getName()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1123" member="compare" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.MakeTargetComparator.compare(Object, Object)" signature="(Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator$MakeTargetComparator"/>
+            <reference linenumber="1066" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1188" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="setUseDefaultBuildCmd" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.setUseDefaultBuildCmd(boolean)" signature="(Z)V" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1177" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="setContainer" name="org.eclipse.cdt.make.core.IMakeTarget.setContainer(IContainer)" signature="(Lorg/eclipse/core/resources/IContainer;)V" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1174" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getBuildCommand" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.getBuildCommand()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1161" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="createMakefile" name="org.eclipse.cdt.make.core.MakeCorePlugin.createMakefile(URI, boolean, String[])" signature="(Ljava/net/URI;Z[Ljava/lang/String;)Lorg/eclipse/cdt/make/core/makefile/IMakefile;" type="org.eclipse.cdt.make.core.MakeCorePlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="1149" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="findTarget" name="org.eclipse.cdt.make.core.IMakeTargetManager.findTarget(IContainer, String)" signature="(Lorg/eclipse/core/resources/IContainer;Ljava/lang/String;)Lorg/eclipse/cdt/make/core/IMakeTarget;" type="org.eclipse.cdt.make.core.IMakeTargetManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1170" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.cdt.make.core.MakeCorePlugin.getDefault()" signature="()Lorg/eclipse/cdt/make/core/MakeCorePlugin;" type="org.eclipse.cdt.make.core.MakeCorePlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="1147" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getBuildArguments" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.getBuildArguments()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1163" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getBuilderID" name="org.eclipse.cdt.make.core.IMakeTargetManager.getBuilderID(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeTargetManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1159" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.cdt.make.core.makefile.ITarget.toString()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.make.core.makefile.ITarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1166" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getTargetManager" name="org.eclipse.cdt.make.core.MakeCorePlugin.getTargetManager()" signature="()Lorg/eclipse/cdt/make/core/IMakeTargetManager;" type="org.eclipse.cdt.make.core.MakeCorePlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1147" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="createBuildInfo" name="org.eclipse.cdt.make.core.MakeCorePlugin.createBuildInfo(IProject, String)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;)Lorg/eclipse/cdt/make/core/IMakeBuilderInfo;" type="org.eclipse.cdt.make.core.MakeCorePlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="1158" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="isStopOnError" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.isStopOnError()" signature="()Z" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1160" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1085" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="setStopOnError" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.setStopOnError(boolean)" signature="(Z)V" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1175" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="createTarget" name="org.eclipse.cdt.make.core.IMakeTargetManager.createTarget(IProject, String, String)" signature="(Lorg/eclipse/core/resources/IProject;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/cdt/make/core/IMakeTarget;" type="org.eclipse.cdt.make.core.IMakeTargetManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1172" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="isDefaultBuildCmd" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.isDefaultBuildCmd()" signature="()Z" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1088" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getBuildAttribute" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.getBuildAttribute(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1072" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1070" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1078" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getContainer" name="org.eclipse.cdt.make.core.IMakeTarget.getContainer()" signature="()Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1068" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="runAllBuilders" name="org.eclipse.cdt.make.core.IMakeTarget.runAllBuilders()" signature="()Z" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1091" member="createTargetElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.createTargetElement(ICStorageElement, IMakeTarget)" signature="(Lorg/eclipse/cdt/core/settings/model/ICStorageElement;Lorg/eclipse/cdt/make/core/IMakeTarget;)Lorg/eclipse/cdt/core/settings/model/ICStorageElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getTargetBuilders" name="org.eclipse.cdt.make.core.IMakeTargetManager.getTargetBuilders(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)[Ljava/lang/String;" type="org.eclipse.cdt.make.core.IMakeTargetManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1153" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="getTargetRules" name="org.eclipse.cdt.make.core.makefile.IMakefile.getTargetRules()" signature="()[Lorg/eclipse/cdt/make/core/makefile/ITargetRule;" type="org.eclipse.cdt.make.core.makefile.IMakefile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1150" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="setBuildAttribute" name="org.eclipse.cdt.make.core.IMakeCommonBuildInfo.setBuildAttribute(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.cdt.make.core.IMakeCommonBuildInfo">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1186" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1179" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1178" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1181" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+            <reference linenumber="1182" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+    <target member="setRunAllBuilders" name="org.eclipse.cdt.make.core.IMakeTarget.setRunAllBuilders(boolean)" signature="(Z)V" type="org.eclipse.cdt.make.core.IMakeTarget">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1176" member="addMakeTargetsToManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator.addMakeTargetsToManager(File)" signature="(Ljava/io/File;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsNewMakeGenerator"/>
+        </reference_kind>
+    </target>
+</references>

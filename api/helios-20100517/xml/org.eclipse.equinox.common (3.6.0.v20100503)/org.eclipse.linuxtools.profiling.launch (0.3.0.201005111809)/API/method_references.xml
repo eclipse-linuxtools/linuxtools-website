@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="12" reference_visibility="1">
+    <target member="getAdapter" name="org.eclipse.core.runtime.IAdaptable.getAdapter(Class)" signature="(Ljava/lang/Class;)Ljava/lang/Object;" type="org.eclipse.core.runtime.IAdaptable">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="176" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+    <target member="equals" name="org.eclipse.core.runtime.IPath.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="91" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="lastSegment" name="org.eclipse.core.runtime.IPath.lastSegment()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="243" member="getText" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.2.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$2"/>
+        </reference_kind>
+    </target>
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="171" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+    <target member="done" name="org.eclipse.core.runtime.IProgressMonitor.done()" signature="()V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="199" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+            <reference linenumber="196" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="133" member="createConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="257" member="getText" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.3.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$3"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.SubProgressMonitor.SubProgressMonitor(IProgressMonitor, int)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;I)V" type="org.eclipse.core.runtime.SubProgressMonitor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="173" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+    <target member="isCanceled" name="org.eclipse.core.runtime.IProgressMonitor.isCanceled()" signature="()Z" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="193" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="146" member="createConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="98" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+</references>

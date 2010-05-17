@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor (4.1.0.201005111809)" referee="org.eclipse.ui.editors (3.6.0.v20100513-0800)" reference_count="16" reference_visibility="1">
+    <target member="getSharedTextColors" name="org.eclipse.ui.editors.text.EditorsUI.getSharedTextColors()" signature="()Lorg/eclipse/jface/text/source/ISharedTextColors;" type="org.eclipse.ui.editors.text.EditorsUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="229" member="getSharedColors" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getSharedColors()" signature="()Lorg/eclipse/jface/text/source/ISharedTextColors;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="createAnnotationRulerColumn" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createAnnotationRulerColumn(CompositeRuler)" signature="(Lorg/eclipse/jface/text/source/CompositeRuler;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$1" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$1(STAnnotatedCSourceEditor, CompositeRuler)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STAnnotatedCSourceEditor;Lorg/eclipse/jface/text/source/CompositeRuler;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="initializeLineNumberRulerColumn" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.initializeLineNumberRulerColumn(LineNumberRulerColumn)" signature="(Lorg/eclipse/jface/text/source/LineNumberRulerColumn;)V" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="312" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="isLineNumberRulerVisible" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.isLineNumberRulerVisible()" signature="()Z" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$6" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$6(STAnnotatedCSourceEditor)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STAnnotatedCSourceEditor;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.ui.editors.text.EditorsUI.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.ui.editors.text.EditorsUI">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="225" member="getPreferenceStore" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="45" member="start" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedSourceEditorActivator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedSourceEditorActivator"/>
+            <reference linenumber="577" member="ensureQuickDiffProvider" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.ensureQuickDiffProvider(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+            <reference linenumber="356" member="toggleSTRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.toggleSTRuler()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getAnnotationPreferences" name="org.eclipse.ui.texteditor.MarkerAnnotationPreferences.getAnnotationPreferences()" signature="()Ljava/util/List;" type="org.eclipse.ui.texteditor.MarkerAnnotationPreferences">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="414" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+            <reference linenumber="346" member="getAnnotationPreferenceMap" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn.getAnnotationPreferenceMap()" signature="()Ljava/util/Map;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STContributedRulerColumn"/>
+        </reference_kind>
+    </target>
+    <target member="getOverviewRuler" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getOverviewRuler()" signature="()Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="425" member="showLinesColored" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.showLinesColored()" signature="()V" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getAnnotationAccess" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getAnnotationAccess()" signature="()Lorg/eclipse/jface/text/source/IAnnotationAccess;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="412" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createOverviewRuler" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createOverviewRuler" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createOverviewRuler(ISharedTextColors)" signature="(Lorg/eclipse/jface/text/source/ISharedTextColors;)Lorg/eclipse/jface/text/source/IOverviewRuler;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createChangeHover" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createChangeHover()" signature="()Lorg/eclipse/jface/text/source/LineChangeHover;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="311" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getSharedColors" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.getSharedColors()" signature="()Lorg/eclipse/jface/text/source/ISharedTextColors;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="310" member="createSTRulerColumn" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.createSTRulerColumn(ISTAnnotationColumn)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/ISTAnnotationColumn;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+    <target member="createLineNumberRulerColumn" name="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createLineNumberRulerColumn()" signature="()Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.ui.texteditor.AbstractDecoratedTextEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1" member="access$4" origin="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor.access$4(STAnnotatedCSourceEditor)" signature="(Lorg/eclipse/linuxtools/dataviewers/annotatedsourceeditor/STAnnotatedCSourceEditor;)Lorg/eclipse/jface/text/source/IVerticalRulerColumn;" type="org.eclipse.linuxtools.dataviewers.annotatedsourceeditor.STAnnotatedCSourceEditor"/>
+        </reference_kind>
+    </target>
+</references>

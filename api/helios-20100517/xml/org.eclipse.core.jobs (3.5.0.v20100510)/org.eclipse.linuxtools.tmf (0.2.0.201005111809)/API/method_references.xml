@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.tmf (0.2.0.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="8" reference_visibility="1">
+    <target member="schedule" name="org.eclipse.core.runtime.jobs.Job.schedule()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="566" member="indexExperiment" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.indexExperiment(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment"/>
+        <reference linenumber="383" member="indexTrace" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.indexTrace(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.trace.TmfTrace"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.jobs.Job.Job(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="580" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.IndexingJob.IndexingJob(TmfExperiment, String)" signature="(Lorg/eclipse/linuxtools/tmf/experiment/TmfExperiment;Ljava/lang/String;)V" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment$IndexingJob"/>
+        <reference linenumber="397" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.IndexingJob.IndexingJob(TmfTrace, String)" signature="(Lorg/eclipse/linuxtools/tmf/trace/TmfTrace;Ljava/lang/String;)V" type="org.eclipse.linuxtools.tmf.trace.TmfTrace$IndexingJob"/>
+        </reference_kind>
+    </target>
+    <target member="join" name="org.eclipse.core.runtime.jobs.Job.join()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="570" member="indexExperiment" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.indexExperiment(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment"/>
+        <reference linenumber="387" member="indexTrace" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.indexTrace(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.tmf.trace.TmfTrace"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.jobs.Job.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment$IndexingJob"/>
+        <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.tmf.trace.TmfTrace.IndexingJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.tmf.trace.TmfTrace$IndexingJob"/>
+        </reference_kind>
+    </target>
+</references>

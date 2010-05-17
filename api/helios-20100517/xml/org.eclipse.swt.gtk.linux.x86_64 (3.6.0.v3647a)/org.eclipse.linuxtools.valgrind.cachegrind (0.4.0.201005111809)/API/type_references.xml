@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="119" reference_visibility="1">
+    <target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="175" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="138" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="86" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="101" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="86" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="86" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="101" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="175" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="71" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="138" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Group" type="org.eclipse.swt.widgets.Group">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="85" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="85" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyEvent" type="org.eclipse.swt.events.ModifyEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.2.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Tree" type="org.eclipse.swt.widgets.Tree">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="221" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+            <reference linenumber="233" member="compare" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.1.compare(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3$1"/>
+            <reference linenumber="96" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionListener" type="org.eclipse.swt.events.SelectionListener">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getHeaderListener" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.getHeaderListener()" signature="()Lorg/eclipse/swt/events/SelectionListener;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="selectListener" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.selectListener" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.TreeColumn" type="org.eclipse.swt.widgets.TreeColumn">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="220" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="220" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Spinner" type="org.eclipse.swt.widgets.Spinner">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="159" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="145" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="152" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="122" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="189" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="196" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="108" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="115" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="182" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getI1LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getI1LineSizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getI1AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getI1AssocSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getI1SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getI1SizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getL2LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getL2LineSizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getL2SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getL2SizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getL2AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getL2AssocSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getD1LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getD1LineSizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getD1AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getD1AssocSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getD1SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getD1SizeSpinner()" signature="()Lorg/eclipse/swt/widgets/Spinner;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="i1LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.i1LineSizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="l2LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.l2LineSizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="i1SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.i1SizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="d1LineSizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.d1LineSizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="i1AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.i1AssocSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="l2AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.l2AssocSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="d1SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.d1SizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="d1AssocSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.d1AssocSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="l2SizeSpinner" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.l2SizeSpinner" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="291" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="89" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="72" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="99" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="291" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionAdapter" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+            <reference linenumber="166" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.5" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$5"/>
+            <reference linenumber="217" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+            <reference linenumber="57" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.1" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.5" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$5"/>
+            <reference linenumber="92" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.3" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.4" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$4"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.3" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.1" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$1"/>
+            <reference linenumber="129" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.4" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$4"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Menu" type="org.eclipse.swt.widgets.Menu">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="170" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getBranchButton" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getBranchButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getL2Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getL2Button()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getI1Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getI1Button()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getCacheButton" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getCacheButton()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="getD1Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.getD1Button()" signature="()Lorg/eclipse/swt/widgets/Button;" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="d1Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.d1Button" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="l2Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.l2Button" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="branchButton" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.branchButton" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="i1Button" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.i1Button" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="cacheButton" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.cacheButton" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="127" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="90" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="79" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="164" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="75" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="119" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="186" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="156" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="290" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="179" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="149" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="112" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="142" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="105" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="193" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="142" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="112" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="179" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="149" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="186" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="156" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="119" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="193" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="105" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="290" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="137" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="100" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="70" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="85" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+            <reference linenumber="174" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createHorizontalSpacer" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createHorizontalSpacer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="70" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="85" member="createPartControl" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="i1Top" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.i1Top" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="l2Top" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.l2Top" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+            <reference linenumber="-1" member="d1Top" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.d1Top" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindViewPart$3"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.5.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$5"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.4.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$4"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Image" type="org.eclipse.swt.graphics.Image">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="FUNC_IMG" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider.FUNC_IMG" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyListener" type="org.eclipse.swt.events.ModifyListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.2" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage$2"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="modifyListener" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage.modifyListener" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindToolPage"/>
+        </reference_kind>
+    </target>
+</references>

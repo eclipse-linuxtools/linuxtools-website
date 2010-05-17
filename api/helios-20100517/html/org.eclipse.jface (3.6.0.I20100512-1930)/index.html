@@ -1,0 +1,1394 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Types used in org.eclipse.jface (3.6.0.I20100512-1930)</title>
+</head>
+<body>
+<h3>Types used in org.eclipse.jface (3.6.0.I20100512-1930)</h3>
+<p>The list of all referencing bundles is available <a href="#bundles">here</a>.</p>
+<h4>References</h4>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="30%"><b>Referenced Type</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="API references are references that are only made to public API of a bundle"><b>API</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal references are references that are only made to internal non-API of a bundle"><b>Internal</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal-Permissible references are references that are only made to internal non-API of a bundle, but are allowed via the x-friends directive"><b>Internal-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Fragment-Permissible references are references that are made to internal non-API of a host bundle by a fragment"><b>Fragment-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Illegal references are ones made to API that has restrictions"><b>Illegal</b></td>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.Action.html">org.eclipse.jface.action.Action</a></b></td>
+	<td align="center">743</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.ActionContributionItem.html">org.eclipse.jface.action.ActionContributionItem</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.ContributionManager.html">org.eclipse.jface.action.ContributionManager</a></b></td>
+	<td align="center">59</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.GroupMarker.html">org.eclipse.jface.action.GroupMarker</a></b></td>
+	<td align="center">34</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IAction.html">org.eclipse.jface.action.IAction</a></b></td>
+	<td align="center">144</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IContributionItem.html">org.eclipse.jface.action.IContributionItem</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IContributionManager.html">org.eclipse.jface.action.IContributionManager</a></b></td>
+	<td align="center">194</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.ICoolBarManager.html">org.eclipse.jface.action.ICoolBarManager</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IMenuCreator.html">org.eclipse.jface.action.IMenuCreator</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IMenuListener.html">org.eclipse.jface.action.IMenuListener</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IMenuManager.html">org.eclipse.jface.action.IMenuManager</a></b></td>
+	<td align="center">38</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.IToolBarManager.html">org.eclipse.jface.action.IToolBarManager</a></b></td>
+	<td align="center">12</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.MenuManager.html">org.eclipse.jface.action.MenuManager</a></b></td>
+	<td align="center">123</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.Separator.html">org.eclipse.jface.action.Separator</a></b></td>
+	<td align="center">154</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.ToolBarContributionItem.html">org.eclipse.jface.action.ToolBarContributionItem</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.action.ToolBarManager.html">org.eclipse.jface.action.ToolBarManager</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.Dialog.html">org.eclipse.jface.dialogs.Dialog</a></b></td>
+	<td align="center">133</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.DialogPage.html">org.eclipse.jface.dialogs.DialogPage</a></b></td>
+	<td align="center">120</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.ErrorDialog.html">org.eclipse.jface.dialogs.ErrorDialog</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.IDialogConstants.html">org.eclipse.jface.dialogs.IDialogConstants</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.IDialogPage.html">org.eclipse.jface.dialogs.IDialogPage</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.IDialogSettings.html">org.eclipse.jface.dialogs.IDialogSettings</a></b></td>
+	<td align="center">134</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.IInputValidator.html">org.eclipse.jface.dialogs.IInputValidator</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.IPageChangedListener.html">org.eclipse.jface.dialogs.IPageChangedListener</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.InputDialog.html">org.eclipse.jface.dialogs.InputDialog</a></b></td>
+	<td align="center">75</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.MessageDialog.html">org.eclipse.jface.dialogs.MessageDialog</a></b></td>
+	<td align="center">59</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.MessageDialogWithToggle.html">org.eclipse.jface.dialogs.MessageDialogWithToggle</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.PageChangedEvent.html">org.eclipse.jface.dialogs.PageChangedEvent</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.PopupDialog.html">org.eclipse.jface.dialogs.PopupDialog</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.ProgressMonitorDialog.html">org.eclipse.jface.dialogs.ProgressMonitorDialog</a></b></td>
+	<td align="center">32</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.TitleAreaDialog.html">org.eclipse.jface.dialogs.TitleAreaDialog</a></b></td>
+	<td align="center">13</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.dialogs.TrayDialog.html">org.eclipse.jface.dialogs.TrayDialog</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.fieldassist.ComboContentAdapter.html">org.eclipse.jface.fieldassist.ComboContentAdapter</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.fieldassist.FieldDecoration.html">org.eclipse.jface.fieldassist.FieldDecoration</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.fieldassist.FieldDecorationRegistry.html">org.eclipse.jface.fieldassist.FieldDecorationRegistry</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.fieldassist.IContentProposal.html">org.eclipse.jface.fieldassist.IContentProposal</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.fieldassist.IContentProposalProvider.html">org.eclipse.jface.fieldassist.IContentProposalProvider</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.layout.GridDataFactory.html">org.eclipse.jface.layout.GridDataFactory</a></b></td>
+	<td align="center">18</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.operation.IRunnableContext.html">org.eclipse.jface.operation.IRunnableContext</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.operation.IRunnableWithProgress.html">org.eclipse.jface.operation.IRunnableWithProgress</a></b></td>
+	<td align="center">44</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.BooleanFieldEditor.html">org.eclipse.jface.preference.BooleanFieldEditor</a></b></td>
+	<td align="center">76</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.ColorFieldEditor.html">org.eclipse.jface.preference.ColorFieldEditor</a></b></td>
+	<td align="center">19</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.DirectoryFieldEditor.html">org.eclipse.jface.preference.DirectoryFieldEditor</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.FieldEditor.html">org.eclipse.jface.preference.FieldEditor</a></b></td>
+	<td align="center">132</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.FieldEditorPreferencePage.html">org.eclipse.jface.preference.FieldEditorPreferencePage</a></b></td>
+	<td align="center">332</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.FileFieldEditor.html">org.eclipse.jface.preference.FileFieldEditor</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.IPreferencePageContainer.html">org.eclipse.jface.preference.IPreferencePageContainer</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.IPreferenceStore.html">org.eclipse.jface.preference.IPreferenceStore</a></b></td>
+	<td align="center">595</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.IntegerFieldEditor.html">org.eclipse.jface.preference.IntegerFieldEditor</a></b></td>
+	<td align="center">37</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.ListEditor.html">org.eclipse.jface.preference.ListEditor</a></b></td>
+	<td align="center">25</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PathEditor.html">org.eclipse.jface.preference.PathEditor</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferenceConverter.html">org.eclipse.jface.preference.PreferenceConverter</a></b></td>
+	<td align="center">44</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferenceDialog.html">org.eclipse.jface.preference.PreferenceDialog</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferenceManager.html">org.eclipse.jface.preference.PreferenceManager</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferenceNode.html">org.eclipse.jface.preference.PreferenceNode</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferencePage.html">org.eclipse.jface.preference.PreferencePage</a></b></td>
+	<td align="center">110</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.PreferenceStore.html">org.eclipse.jface.preference.PreferenceStore</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.RadioGroupFieldEditor.html">org.eclipse.jface.preference.RadioGroupFieldEditor</a></b></td>
+	<td align="center">20</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.preference.StringFieldEditor.html">org.eclipse.jface.preference.StringFieldEditor</a></b></td>
+	<td align="center">42</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.FontRegistry.html">org.eclipse.jface.resource.FontRegistry</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.ImageDescriptor.html">org.eclipse.jface.resource.ImageDescriptor</a></b></td>
+	<td align="center">136</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.ImageRegistry.html">org.eclipse.jface.resource.ImageRegistry</a></b></td>
+	<td align="center">28</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.JFaceColors.html">org.eclipse.jface.resource.JFaceColors</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.JFaceResources.html">org.eclipse.jface.resource.JFaceResources</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.ResourceManager.html">org.eclipse.jface.resource.ResourceManager</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.resource.StringConverter.html">org.eclipse.jface.resource.StringConverter</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.util.IPropertyChangeListener.html">org.eclipse.jface.util.IPropertyChangeListener</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.util.PropertyChangeEvent.html">org.eclipse.jface.util.PropertyChangeEvent</a></b></td>
+	<td align="center">60</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.util.SafeRunnable.html">org.eclipse.jface.util.SafeRunnable</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.AbstractListViewer.html">org.eclipse.jface.viewers.AbstractListViewer</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.AbstractTableViewer.html">org.eclipse.jface.viewers.AbstractTableViewer</a></b></td>
+	<td align="center">14</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.AbstractTreeViewer.html">org.eclipse.jface.viewers.AbstractTreeViewer</a></b></td>
+	<td align="center">64</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ArrayContentProvider.html">org.eclipse.jface.viewers.ArrayContentProvider</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.BaseLabelProvider.html">org.eclipse.jface.viewers.BaseLabelProvider</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.CellLabelProvider.html">org.eclipse.jface.viewers.CellLabelProvider</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.CheckStateChangedEvent.html">org.eclipse.jface.viewers.CheckStateChangedEvent</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.CheckboxTableViewer.html">org.eclipse.jface.viewers.CheckboxTableViewer</a></b></td>
+	<td align="center">51</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ColumnLabelProvider.html">org.eclipse.jface.viewers.ColumnLabelProvider</a></b></td>
+	<td align="center">29</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ColumnViewer.html">org.eclipse.jface.viewers.ColumnViewer</a></b></td>
+	<td align="center">42</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ColumnViewerToolTipSupport.html">org.eclipse.jface.viewers.ColumnViewerToolTipSupport</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ContentViewer.html">org.eclipse.jface.viewers.ContentViewer</a></b></td>
+	<td align="center">21</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.DoubleClickEvent.html">org.eclipse.jface.viewers.DoubleClickEvent</a></b></td>
+	<td align="center">20</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IBaseLabelProvider.html">org.eclipse.jface.viewers.IBaseLabelProvider</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ICheckStateListener.html">org.eclipse.jface.viewers.ICheckStateListener</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IColorProvider.html">org.eclipse.jface.viewers.IColorProvider</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IContentProvider.html">org.eclipse.jface.viewers.IContentProvider</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IDoubleClickListener.html">org.eclipse.jface.viewers.IDoubleClickListener</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IFontProvider.html">org.eclipse.jface.viewers.IFontProvider</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ILabelProvider.html">org.eclipse.jface.viewers.ILabelProvider</a></b></td>
+	<td align="center">25</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ILabelProviderListener.html">org.eclipse.jface.viewers.ILabelProviderListener</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IOpenListener.html">org.eclipse.jface.viewers.IOpenListener</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IPostSelectionProvider.html">org.eclipse.jface.viewers.IPostSelectionProvider</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ISelection.html">org.eclipse.jface.viewers.ISelection</a></b></td>
+	<td align="center">101</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ISelectionChangedListener.html">org.eclipse.jface.viewers.ISelectionChangedListener</a></b></td>
+	<td align="center">33</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ISelectionProvider.html">org.eclipse.jface.viewers.ISelectionProvider</a></b></td>
+	<td align="center">27</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IStructuredContentProvider.html">org.eclipse.jface.viewers.IStructuredContentProvider</a></b></td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.IStructuredSelection.html">org.eclipse.jface.viewers.IStructuredSelection</a></b></td>
+	<td align="center">198</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ITableLabelProvider.html">org.eclipse.jface.viewers.ITableLabelProvider</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ITreeContentProvider.html">org.eclipse.jface.viewers.ITreeContentProvider</a></b></td>
+	<td align="center">40</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ITreeSelection.html">org.eclipse.jface.viewers.ITreeSelection</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ITreeViewerListener.html">org.eclipse.jface.viewers.ITreeViewerListener</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.LabelProvider.html">org.eclipse.jface.viewers.LabelProvider</a></b></td>
+	<td align="center">84</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ListViewer.html">org.eclipse.jface.viewers.ListViewer</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.OpenEvent.html">org.eclipse.jface.viewers.OpenEvent</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.OwnerDrawLabelProvider.html">org.eclipse.jface.viewers.OwnerDrawLabelProvider</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.SelectionChangedEvent.html">org.eclipse.jface.viewers.SelectionChangedEvent</a></b></td>
+	<td align="center">34</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.StructuredSelection.html">org.eclipse.jface.viewers.StructuredSelection</a></b></td>
+	<td align="center">87</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.StructuredViewer.html">org.eclipse.jface.viewers.StructuredViewer</a></b></td>
+	<td align="center">120</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TableLayout.html">org.eclipse.jface.viewers.TableLayout</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TableViewer.html">org.eclipse.jface.viewers.TableViewer</a></b></td>
+	<td align="center">74</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TableViewerColumn.html">org.eclipse.jface.viewers.TableViewerColumn</a></b></td>
+	<td align="center">10</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TreeExpansionEvent.html">org.eclipse.jface.viewers.TreeExpansionEvent</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TreePath.html">org.eclipse.jface.viewers.TreePath</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TreeSelection.html">org.eclipse.jface.viewers.TreeSelection</a></b></td>
+	<td align="center">12</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td><b><a href="./org.eclipse.jface.viewers.TreeViewer.html">org.eclipse.jface.viewers.TreeViewer</a></b></td>
+	<td align="center">193</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">4</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.TreeViewerColumn.html">org.eclipse.jface.viewers.TreeViewerColumn</a></b></td>
+	<td align="center">29</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.Viewer.html">org.eclipse.jface.viewers.Viewer</a></b></td>
+	<td align="center">92</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerCell.html">org.eclipse.jface.viewers.ViewerCell</a></b></td>
+	<td align="center">125</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerColumn.html">org.eclipse.jface.viewers.ViewerColumn</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerComparator.html">org.eclipse.jface.viewers.ViewerComparator</a></b></td>
+	<td align="center">33</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerFilter.html">org.eclipse.jface.viewers.ViewerFilter</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerRow.html">org.eclipse.jface.viewers.ViewerRow</a></b></td>
+	<td align="center">89</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.viewers.ViewerSorter.html">org.eclipse.jface.viewers.ViewerSorter</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.window.DefaultToolTip.html">org.eclipse.jface.window.DefaultToolTip</a></b></td>
+	<td align="center">3</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.window.ToolTip.html">org.eclipse.jface.window.ToolTip</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.window.Window.html">org.eclipse.jface.window.Window</a></b></td>
+	<td align="center">128</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.IWizard.html">org.eclipse.jface.wizard.IWizard</a></b></td>
+	<td align="center">6</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.IWizardContainer.html">org.eclipse.jface.wizard.IWizardContainer</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.IWizardPage.html">org.eclipse.jface.wizard.IWizardPage</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.ProgressMonitorPart.html">org.eclipse.jface.wizard.ProgressMonitorPart</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.Wizard.html">org.eclipse.jface.wizard.Wizard</a></b></td>
+	<td align="center">142</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.WizardDialog.html">org.eclipse.jface.wizard.WizardDialog</a></b></td>
+	<td align="center">46</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.jface.wizard.WizardPage.html">org.eclipse.jface.wizard.WizardPage</a></b></td>
+	<td align="center">145</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+</table>
+<br><h4>Referencing Bundles</h4>
+<p>The following bundles have references to org.eclipse.jface (3.6.0.I20100512-1930)</p>
+<a name="bundles"></a>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="50%"><b>Bundle</b></td>
+	<td bgcolor="#E0C040" width="20%" align="center"><b>Version</b></td>
+	<td bgcolor="#E0C040" width="10%" align="center"><b>Reference Count</b></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.binutils</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">3</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">306</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph.core</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">52</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.callgraph.launch</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">34</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools</b></td>
+	<td>2.0.0.201005111809</td>
+	<td align="center">172</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.core</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">4</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.ui</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">858</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.libhover</b></td>
+	<td>1.0.3.201005111809</td>
+	<td align="center">77</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.core</b></td>
+	<td>2.6.7.201005111809</td>
+	<td align="center">162</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.cparser</b></td>
+	<td>2.6.3.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.changelog.parsers.java</b></td>
+	<td>2.6.3.201005111809</td>
+	<td align="center">2</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">723</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.annotatedsourceeditor</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">115</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.dataviewers.charts</b></td>
+	<td>4.1.0.201005111809</td>
+	<td align="center">97</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gcov</b></td>
+	<td>4.1.1.201005111809</td>
+	<td align="center">65</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.gprof</b></td>
+	<td>4.0.0.201005111809</td>
+	<td align="center">89</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.lttng.ui</b></td>
+	<td>0.2.0.201005111809</td>
+	<td align="center">593</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.man</b></td>
+	<td>0.0.1.201005111809</td>
+	<td align="center">13</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.core</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">22</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">38</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.oprofile.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">67</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.launch</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">14</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.profiling.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.core</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">6</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.rpmlint</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">30</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.ui</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">106</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpm.ui.editor</b></td>
+	<td>0.4.3.201005111809</td>
+	<td align="center">380</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.rpmstubby</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">51</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.consolelog</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">68</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.dashboard</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">284</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.dashboardextension</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">80</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.editor</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">28</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphicalrun</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">11</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphing</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">107</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.graphingapi.ui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">293</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.ide</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">444</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.logging</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">43</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.structures</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">61</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.systemtap.ui.systemtapgui</b></td>
+	<td>0.3.0.201005111809</td>
+	<td align="center">289</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.tmf.ui</b></td>
+	<td>0.2.0.201005111809</td>
+	<td align="center">64</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.cachegrind</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">86</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.core</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">19</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.launch</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">53</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.massif</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">173</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.memcheck</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">97</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.valgrind.ui.editor</b></td>
+	<td>0.4.0.201005111809</td>
+	<td align="center">19</td>
+</tr>
+</table>
+<p><a href="../index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+

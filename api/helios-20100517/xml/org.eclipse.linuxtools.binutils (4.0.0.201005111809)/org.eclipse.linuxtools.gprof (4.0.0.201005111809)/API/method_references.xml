@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.linuxtools.binutils (4.0.0.201005111809)" reference_count="13" reference_visibility="1">
+    <target member="getFilename" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFilename(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)Ljava/lang/String;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="245" member="getFileName" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.getFileName(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        </reference_kind>
+    </target>
+<target member="getFileName" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getFileName(IBinaryParserIBinaryObject, IAddress)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;Lorg/eclipse/cdt/core/IAddress;)Ljava/lang/String;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc.CallGraphArc(CallGraphNode, IAddress, CallGraphNode, int, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;ILorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc"/>
+        </reference_kind>
+    </target>
+    <target member="getLineNumber" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParserIBinaryObject, IAddress)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;Lorg/eclipse/cdt/core/IAddress;)I" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc.CallGraphArc(CallGraphNode, IAddress, CallGraphNode, int, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;ILorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc"/>
+        <reference linenumber="70" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.addBucket(Bucket, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+        </reference_kind>
+    </target>
+<target member="getBinaryObject" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getBinaryObject(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="55" member="isGProfCompatible" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.isGProfCompatible(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+        <reference linenumber="189" member="displayGprofView" origin="org.eclipse.linuxtools.gprof.view.GmonView.displayGprofView(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/gprof/view/GmonView;" type="org.eclipse.linuxtools.gprof.view.GmonView"/>
+        </reference_kind>
+    </target>
+    <target member="getNM" name="org.eclipse.linuxtools.binutils.utils.STNMFactory.getNM(String, String, STNMSymbolsHandler)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/linuxtools/binutils/utils/STNMSymbolsHandler;)Lorg/eclipse/linuxtools/binutils/utils/STNM;" type="org.eclipse.linuxtools.binutils.utils.STNMFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="48" member="getProgramChecker" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gprof/utils/GprofProgramChecker;" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+            <reference linenumber="40" member="getProgramChecker" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gprof/utils/GprofProgramChecker;" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+        </reference_kind>
+    </target>
+<target member="openSourceFileAtLocation" name="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport.openSourceFileAtLocation(IBinaryParserIBinaryObject, String, int)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;Ljava/lang/String;I)Z" type="org.eclipse.linuxtools.binutils.link2source.STLink2SourceSupport">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="103" member="handleOpenEvent" origin="org.eclipse.linuxtools.gprof.view.GmonViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gprof.view.GmonViewer"/>
+        </reference_kind>
+    </target>
+<target member="getLineNumber" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.getLineNumber(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)I" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="115" member="getSourceLine" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getSourceLine()" signature="()I" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="131" member="getSourceLine" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.getSourceLine()" signature="()I" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+        </reference_kind>
+    </target>
+    <target member="demangle" name="org.eclipse.linuxtools.binutils.utils.STSymbolManager.demangle(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)Ljava/lang/String;" type="org.eclipse.linuxtools.binutils.utils.STSymbolManager">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="109" member="getName" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+            <reference linenumber="92" member="getFunctionName" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getFunctionName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui (0.3.0.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="2" reference_visibility="1">
+    <target member="EXIT_RESTART" name="org.eclipse.core.runtime.IPlatformRunnable.EXIT_RESTART" type="org.eclipse.core.runtime.IPlatformRunnable">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="37" member="run" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Application.run(Object)" signature="(Ljava/lang/Object;)Ljava/lang/Object;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Application"/>
+        </reference_kind>
+    </target>
+    <target member="EXIT_OK" name="org.eclipse.core.runtime.IPlatformRunnable.EXIT_OK" type="org.eclipse.core.runtime.IPlatformRunnable">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="39" member="run" origin="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Application.run(Object)" signature="(Ljava/lang/Object;)Ljava/lang/Object;" type="org.eclipse.linuxtools.systemtap.ui.systemtapgui.Application"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="26" reference_visibility="1">
+    <target member="setDocumentPartitioner" name="org.eclipse.jface.text.IDocument.setDocumentPartitioner(IDocumentPartitioner)" signature="(Lorg/eclipse/jface/text/IDocumentPartitioner;)V" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="42" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="54" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.source.AnnotationModel.AnnotationModel()" signature="()V" type="org.eclipse.jface.text.source.AnnotationModel">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="49" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="64" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getLineOffset" name="org.eclipse.jface.text.IDocument.getLineOffset(int)" signature="(I)I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="121" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="get" name="org.eclipse.jface.text.IDocument.get()" signature="()Ljava/lang/String;" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="102" member="mouseDoubleClick" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.RulerDoubleClickHandler.mouseDoubleClick(MouseEvent)" signature="(Lorg/eclipse/swt/events/MouseEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$RulerDoubleClickHandler"/>
+        </reference_kind>
+    </target>
+    <target member="connect" name="org.eclipse.jface.text.IDocumentPartitioner.connect(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.jface.text.IDocumentPartitioner">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="53" member="setupDocument" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.setupDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+<target member="getLength" name="org.eclipse.jface.text.IDocument.getLength()" signature="()I" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="41" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+            <reference linenumber="93" member="initialReconcile" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.initialReconcile()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target member="getChar" name="org.eclipse.jface.text.IDocument.getChar(int)" signature="(I)C" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="270" member="findEndOfComment" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.findEndOfComment()" signature="()I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="233" member="matchKeyWord" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.matchKeyWord(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="267" member="findEndOfComment" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.findEndOfComment()" signature="()I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="149" member="classifyComponent" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.classifyComponent(int)" signature="(I)I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="251" member="findEndOfProbeOrFunction" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.findEndOfProbeOrFunction()" signature="()I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="84" member="completionReplaceWordLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionReplaceWordLocation(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+            <reference linenumber="144" member="classifyComponent" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.classifyComponent(int)" signature="(I)I" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+            <reference linenumber="108" member="completionWord" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+        </reference_kind>
+    </target>
+    <target member="getOffset" name="org.eclipse.jface.text.IRegion.getOffset()" signature="()I" type="org.eclipse.jface.text.IRegion">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="50" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+            <reference linenumber="46" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+    <target member="getLength" name="org.eclipse.jface.text.IRegion.getLength()" signature="()I" type="org.eclipse.jface.text.IRegion">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="47" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+            <reference linenumber="51" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+    <target member="get" name="org.eclipse.jface.text.IDocument.get(int, int)" signature="(II)Ljava/lang/String;" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="110" member="completionWord" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor.completionWord(IDocument, int)" signature="(Lorg/eclipse/jface/text/IDocument;I)Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPCompletionProcessor"/>
+            <reference linenumber="50" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.text.Position.Position(int, int)" signature="(II)V" type="org.eclipse.jface.text.Position">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="218" member="writePosition" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.writePosition(int, int)" signature="(II)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.jface.text.ITypedRegion.getType()" signature="()Ljava/lang/String;" type="org.eclipse.jface.text.ITypedRegion">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="45" member="printPartitions" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner.printPartitions(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPPartitioner"/>
+        </reference_kind>
+    </target>
+</references>

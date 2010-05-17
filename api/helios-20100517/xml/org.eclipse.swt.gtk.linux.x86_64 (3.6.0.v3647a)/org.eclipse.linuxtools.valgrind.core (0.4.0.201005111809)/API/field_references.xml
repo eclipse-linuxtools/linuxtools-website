@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="7" reference_visibility="1">
+    <target member="grabExcessHorizontalSpace" name="org.eclipse.swt.layout.GridData.grabExcessHorizontalSpace" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="57" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="69" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="grabExcessVerticalSpace" name="org.eclipse.swt.layout.GridData.grabExcessVerticalSpace" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="58" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="verticalAlignment" name="org.eclipse.swt.layout.GridData.verticalAlignment" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="55" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="horizontalAlignment" name="org.eclipse.swt.layout.GridData.horizontalAlignment" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="68" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+            <reference linenumber="56" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="numColumns" name="org.eclipse.swt.layout.GridLayout.numColumns" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="16384" reference_kind_name="PUT_FIELD">
+            <reference linenumber="51" member="createContents" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="104" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.resources.IConsole" type="org.eclipse.cdt.core.resources.IConsole">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="343" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ICProject" type="org.eclipse.cdt.core.model.ICProject">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="52" member="getRelevance" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.FileRelevance.getRelevance(IFile, IProject)" signature="(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/core/resources/IProject;)I" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.FileRelevance"/>
+        <reference linenumber="312" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="343" member="getWorkspaceFileAtLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getWorkspaceFileAtLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="56" member="createElement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.createElement(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Lorg/eclipse/core/runtime/IAdaptable;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="68" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+            <reference linenumber="37" member="getContainer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.getContainer(IEvaluationContext)" signature="(Lorg/eclipse/core/expressions/IEvaluationContext;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.ConsoleOutputStream" type="org.eclipse.cdt.core.ConsoleOutputStream">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getErrorStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getErrorStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="-1" member="getOutputStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getOutputStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="-1" member="getInfoStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getInfoStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="345" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.model.ICElement" type="org.eclipse.cdt.core.model.ICElement">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="36" member="getContainer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.getContainer(IEvaluationContext)" signature="(Lorg/eclipse/core/expressions/IEvaluationContext;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+            <reference linenumber="67" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        <reference linenumber="70" member="category" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction.LexicalCSorter.category(Object)" signature="(Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction$LexicalCSorter"/>
+            <reference linenumber="244" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="71" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+            <reference linenumber="40" member="getContainer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.getContainer(IEvaluationContext)" signature="(Lorg/eclipse/core/expressions/IEvaluationContext;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+            <reference linenumber="38" member="getContainer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.getContainer(IEvaluationContext)" signature="(Lorg/eclipse/core/expressions/IEvaluationContext;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+            <reference linenumber="69" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+        <reference linenumber="382" member="getActiveEditorCInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getActiveEditorCInput()" signature="()Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="71" member="category" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction.LexicalCSorter.category(Object)" signature="(Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction$LexicalCSorter"/>
+            <reference linenumber="245" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="getWorkspaceFileAtLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getWorkspaceFileAtLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.openInEditor(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="441" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="71" member="category" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction.LexicalCSorter.category(Object)" signature="(Ljava/lang/Object;)I" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.LexicalSortingAction$LexicalCSorter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getActiveEditorCInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getActiveEditorCInput()" signature="()Lorg/eclipse/cdt/core/model/ICElement;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.CommandLauncher" type="org.eclipse.cdt.core.CommandLauncher">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="369" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+            <reference linenumber="246" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.ExecuteProgressDialog.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$ExecuteProgressDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="246" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.ExecuteProgressDialog.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$ExecuteProgressDialog"/>
+            <reference linenumber="369" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction.1.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAction$1$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ICContainer" type="org.eclipse.cdt.core.model.ICContainer">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="68" member="selectionChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractTargetAction"/>
+            <reference linenumber="37" member="getContainer" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler.getContainer(IEvaluationContext)" signature="(Lorg/eclipse/core/expressions/IEvaluationContext;)Lorg/eclipse/core/resources/IContainer;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.AbstractAutotoolsHandler"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.model.IBuffer" type="org.eclipse.cdt.core.model.IBuffer">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="542" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IBinary" type="org.eclipse.cdt.core.model.IBinary">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="233" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="234" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.ExtendedScannerInfo" type="org.eclipse.cdt.core.parser.ExtendedScannerInfo">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="108" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.IScannerInfo" type="org.eclipse.cdt.core.parser.IScannerInfo">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="102" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IInclude" type="org.eclipse.cdt.core.model.IInclude">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="284" member="getIncludeStatement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.getIncludeStatement(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)Lorg/eclipse/cdt/core/model/IInclude;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getIncludeStatement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.getIncludeStatement(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)Lorg/eclipse/cdt/core/model/IInclude;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="285" member="getIncludeStatement" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.getIncludeStatement(ISelection)" signature="(Lorg/eclipse/jface/viewers/ISelection;)Lorg/eclipse/cdt/core/model/IInclude;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="81" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.resources.FileStorage" type="org.eclipse.cdt.core.resources.FileStorage">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="230" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="555" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(ITranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="324" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="321" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="544" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="316" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="106" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction.openInEditor(IDirective)" signature="(Lorg/eclipse/cdt/make/core/makefile/IDirective;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.IWorkingCopy" type="org.eclipse.cdt.core.model.IWorkingCopy">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="221" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="222" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="221" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.IExtendedScannerInfo" type="org.eclipse.cdt.core.parser.IExtendedScannerInfo">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="108" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.parser.IScannerInfoProvider" type="org.eclipse.cdt.core.parser.IScannerInfoProvider">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="100" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ITranslationUnit" type="org.eclipse.cdt.core.model.ITranslationUnit">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="80" member="saveState" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory.saveState(IMemento, ExternalEditorInput)" signature="(Lorg/eclipse/ui/IMemento;Lorg/eclipse/linuxtools/internal/cdt/autotools/ui/editors/automake/ExternalEditorInput;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInputFactory"/>
+            <reference linenumber="314" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getWorkingCopy" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getWorkingCopy(ITranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;)Lorg/eclipse/cdt/core/model/ITranslationUnit;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(ITranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.ExternalEditorInput(ITranslationUnit, IStorage)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;Lorg/eclipse/core/resources/IStorage;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="443" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="437" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="225" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getTranslationUnit" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.getTranslationUnit()" signature="()Lorg/eclipse/cdt/core/model/ITranslationUnit;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+            <reference linenumber="-1" member="getTranslationUnit" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ITranslationUnitEditorInput.getTranslationUnit()" signature="()Lorg/eclipse/cdt/core/model/ITranslationUnit;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ITranslationUnitEditorInput"/>
+            <reference linenumber="-1" member="getWorkingCopy" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getWorkingCopy(ITranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;)Lorg/eclipse/cdt/core/model/ITranslationUnit;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="unit" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput.unit" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ExternalEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="224" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="436" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="442" member="getEditorID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorID(IEditorInput, Object)" signature="(Lorg/eclipse/ui/IEditorInput;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.ISourceReference" type="org.eclipse.cdt.core.model.ISourceReference">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="215" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="216" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.CModelException" type="org.eclipse.cdt.core.model.CModelException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="556" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(ITranslationUnit)" signature="(Lorg/eclipse/cdt/core/model/ITranslationUnit;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="546" member="getStorage" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getStorage(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="82" member="isOpenInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.isOpenInEditor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="164" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.openInEditor(IFile, boolean)" signature="(Lorg/eclipse/core/resources/IFile;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="153" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+            <reference linenumber="306" member="getEditorInputForLocation" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInputForLocation(IPath, ICElement)" signature="(Lorg/eclipse/core/runtime/IPath;Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.openInEditor(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="openInEditor" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.openInEditor(Object, boolean)" signature="(Ljava/lang/Object;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+            <reference linenumber="-1" member="getEditorInput" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility.getEditorInput(ICElement)" signature="(Lorg/eclipse/cdt/core/model/ICElement;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.EditorUtility"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="153" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenIncludeAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.settings.model.ICConfigurationDescription" type="org.eclipse.cdt.core.settings.model.ICConfigurationDescription">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="348" member="performOK" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.performOK()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+        <reference linenumber="36" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler.convertProject(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsBuildWizardHandler"/>
+            <reference linenumber="202" member="convertProject" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getCfgd" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage.getCfgd()" signature="()Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="icfgd" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.icfgd" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+            <reference linenumber="-1" member="cfgd" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage.cfgd" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="cfgChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage.cfgChanged(ICConfigurationDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage"/>
+            <reference linenumber="-1" member="getConfiguration" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage.getConfiguration(ICConfigurationDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICConfigurationDescription;)Lorg/eclipse/linuxtools/internal/cdt/autotools/core/configure/IAConfiguration;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.settings.model.ICResourceDescription" type="org.eclipse.cdt.core.settings.model.ICResourceDescription">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsConfigurePropertyTab"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.ICDescriptor" type="org.eclipse.cdt.core.ICDescriptor">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="235" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="235" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+</references>

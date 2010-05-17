@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="8" reference_visibility="1">
+    <target member="exec" name="org.eclipse.cdt.utils.spawner.ProcessFactory.exec(String[], String[])" signature="([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;" type="org.eclipse.cdt.utils.spawner.ProcessFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.utils.pty.PTY.PTY()" signature="()V" type="org.eclipse.cdt.utils.pty.PTY">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="49" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+    <target member="getFactory" name="org.eclipse.cdt.utils.spawner.ProcessFactory.getFactory()" signature="()Lorg/eclipse/cdt/utils/spawner/ProcessFactory;" type="org.eclipse.cdt.utils.spawner.ProcessFactory">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="52" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+            <reference linenumber="45" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+            <reference linenumber="49" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+    <target member="exec" name="org.eclipse.cdt.utils.spawner.ProcessFactory.exec(String[], String[], File, PTY)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Lorg/eclipse/cdt/utils/pty/PTY;)Ljava/lang/Process;" type="org.eclipse.cdt.utils.spawner.ProcessFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="49" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+    <target member="isSupported" name="org.eclipse.cdt.utils.pty.PTY.isSupported()" signature="()Z" type="org.eclipse.cdt.utils.pty.PTY">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="48" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+    <target member="exec" name="org.eclipse.cdt.utils.spawner.ProcessFactory.exec(String[], String[], File)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;" type="org.eclipse.cdt.utils.spawner.ProcessFactory">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="52" member="execute" origin="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.execute(String[], String[], File, boolean)" signature="([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;Z)V" type="org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand"/>
+        </reference_kind>
+    </target>
+</references>

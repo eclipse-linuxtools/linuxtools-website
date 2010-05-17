@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.libhover (1.0.3.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="61" reference_visibility="1">
+    <target member="getElementAt" name="org.eclipse.jface.viewers.AbstractTableViewer.getElementAt(int)" signature="(I)Ljava/lang/Object;" type="org.eclipse.jface.viewers.AbstractTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="322" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="369" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="329" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+            <reference linenumber="451" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="init" name="org.eclipse.jface.preference.FieldEditor.init(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.CheckboxFieldEditor(String, String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="39" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.LibHoverPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="doLoad" name="org.eclipse.jface.preference.FieldEditor.doLoad()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doLoad" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doStore" name="org.eclipse.jface.preference.FieldEditor.doStore()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doStore" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doStore()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="doLoadDefault" name="org.eclipse.jface.preference.FieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doLoadDefault" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setDefault" name="org.eclipse.jface.preference.IPreferenceStore.setDefault(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="30" member="initializeDefaultPreferences" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.PreferenceInitializer.initializeDefaultPreferences()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.PreferenceInitializer"/>
+        </reference_kind>
+    </target>
+    <target member="createFieldEditors" name="org.eclipse.jface.preference.FieldEditorPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createFieldEditors" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="setChecked" name="org.eclipse.jface.viewers.CheckboxTableViewer.setChecked(Object, boolean)" signature="(Ljava/lang/Object;Z)Z" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="327" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="334" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="184" member="doLoadDefault" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="164" member="doLoad" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="432" member="updateCheckboxData" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.updateCheckboxData(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setValue" name="org.eclipse.jface.preference.IPreferenceStore.setValue(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="380" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getPreferenceStore" name="org.eclipse.jface.preference.FieldEditor.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="380" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="140" member="doLoad" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditorPreferencePage.FieldEditorPreferencePage()" signature="()V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.LibHoverPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="getFieldEditorParent" name="org.eclipse.jface.preference.FieldEditorPreferencePage.getFieldEditorParent()" signature="()Lorg/eclipse/swt/widgets/Composite;" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="53" member="createFieldEditors" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.preference.FieldEditor.FieldEditor()" signature="()V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="53" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.CheckboxFieldEditor(String, String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getString" name="org.eclipse.jface.preference.IPreferenceStore.getString(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.jface.preference.IPreferenceStore">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="140" member="doLoad" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="401" member="updateCheckboxData" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.updateCheckboxData(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setAllChecked" name="org.eclipse.jface.viewers.CheckboxTableViewer.setAllChecked(boolean)" signature="(Z)V" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="305" member="buttonPressed" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="308" member="buttonPressed" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="315" member="buttonPressed" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+            <reference linenumber="312" member="buttonPressed" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.buttonPressed(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="createControl" name="org.eclipse.jface.preference.FieldEditor.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="57" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.CheckboxFieldEditor(String, String, String, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelControl" name="org.eclipse.jface.preference.FieldEditor.getLabelControl()" signature="()Lorg/eclipse/swt/widgets/Label;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="74" member="adjustForNumColumns" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="67" member="adjustForNumColumns" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getNumberOfControls" name="org.eclipse.jface.preference.FieldEditor.getNumberOfControls()" signature="()I" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getNumberOfControls" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.getNumberOfControls()" signature="()I" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.setPreferenceStore(IPreferenceStore)" signature="(Lorg/eclipse/jface/preference/IPreferenceStore;)V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="40" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.LibHoverPreferencePage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        <reference linenumber="71" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.LibHoverPropertyPage()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="adjustForNumColumns" name="org.eclipse.jface.preference.FieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="adjustForNumColumns" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="insert" name="org.eclipse.jface.viewers.AbstractTableViewer.insert(Object, int)" signature="(Ljava/lang/Object;I)V" type="org.eclipse.jface.viewers.AbstractTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="326" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="333" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="addField" name="org.eclipse.jface.preference.FieldEditorPreferencePage.addField(FieldEditor)" signature="(Lorg/eclipse/jface/preference/FieldEditor;)V" type="org.eclipse.jface.preference.FieldEditorPreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="50" member="createFieldEditors" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage.createFieldEditors()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.LibHoverPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.CheckboxTableViewer.CheckboxTableViewer(Table)" signature="(Lorg/eclipse/swt/widgets/Table;)V" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="225" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="144" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="getLabelControl" name="org.eclipse.jface.preference.FieldEditor.getLabelControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Label;" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="94" member="doFillIntoGrid" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="getChecked" name="org.eclipse.jface.viewers.CheckboxTableViewer.getChecked(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="375" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="323" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="457" member="save" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.save()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+            <reference linenumber="330" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="doFillIntoGrid" name="org.eclipse.jface.preference.FieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="doFillIntoGrid" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.StructuredViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="226" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="145" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setCheckedElements" name="org.eclipse.jface.viewers.CheckboxTableViewer.setCheckedElements(Object[])" signature="([Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="185" member="doLoadDefault" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoadDefault()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+            <reference linenumber="165" member="doLoad" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.doLoad()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="433" member="updateCheckboxData" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.updateCheckboxData(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="remove" name="org.eclipse.jface.viewers.AbstractTableViewer.remove(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.AbstractTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="324" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="331" member="moveItem" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.moveItem(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="setEnabled" name="org.eclipse.jface.preference.FieldEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.jface.preference.FieldEditor">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setEnabled" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="390" member="setEnabled" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.setEnabled(boolean, Composite)" signature="(ZLorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target member="addCheckStateListener" name="org.eclipse.jface.viewers.CheckboxTableViewer.addCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="234" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.preferences.CheckboxFieldEditor"/>
+        <reference linenumber="153" member="getCheckboxControl" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.getCheckboxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+<target member="getPreferenceStore" name="org.eclipse.jface.preference.PreferencePage.getPreferenceStore()" signature="()Lorg/eclipse/jface/preference/IPreferenceStore;" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="401" member="updateCheckboxData" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.updateCheckboxData(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="performDefaults" name="org.eclipse.jface.preference.PreferencePage.performDefaults()" signature="()V" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performDefaults" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="performOk" name="org.eclipse.jface.preference.PreferencePage.performOk()" signature="()Z" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performOk" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.performOk()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.jface.preference.PreferencePage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.preference.PreferencePage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.internal.cdt.libhover.properties.LibHoverPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

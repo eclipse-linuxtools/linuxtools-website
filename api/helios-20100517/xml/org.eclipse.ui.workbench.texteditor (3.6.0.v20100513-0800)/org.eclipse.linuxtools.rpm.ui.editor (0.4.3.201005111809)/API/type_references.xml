@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.ui.workbench.texteditor (3.6.0.v20100513-0800)" reference_count="5" reference_visibility="1">
+    <target name="org.eclipse.ui.texteditor.IDocumentProvider" type="org.eclipse.ui.texteditor.IDocumentProvider">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="documentProvider" origin="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy.documentProvider" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileReconcilingStrategy"/>
+        <reference linenumber="-1" member="documentProvider" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider.documentProvider" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.texteditor.ITextEditor" type="org.eclipse.ui.texteditor.ITextEditor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider.SpecfileContentProvider(ITextEditor)" signature="(Lorg/eclipse/ui/texteditor/ITextEditor;)V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="editor" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage.editor" type="org.eclipse.linuxtools.rpm.ui.editor.outline.SpecfileContentOutlinePage"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage" type="org.eclipse.ui.texteditor.templates.TemplatePreferencePage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.SpecTemplatePreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

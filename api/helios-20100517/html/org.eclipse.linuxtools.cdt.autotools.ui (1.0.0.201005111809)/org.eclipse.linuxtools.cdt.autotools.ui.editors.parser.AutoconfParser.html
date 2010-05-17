@@ -1,0 +1,814 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>AutoconfParser usage details</title>
+</head>
+<body>
+<h3>AutoconfParser usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser has 84 total references to 16 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleError(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token, java.lang.String) : void">
+<span>[+] </span>handleError(AutoconfElement, Token, String) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseHERE(AutoconfElement, Token)</td>
+<td align="center">557</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">647</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">335</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(AutoconfElement)</td>
+<td align="center">749</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">633</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">869</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(AutoconfElement)</td>
+<td align="center">751</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">687</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.validateMacroParameterCount(AutoconfMacroElement, Token, int)</td>
+<td align="center">880</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlockExpression(Token, AutoconfElement)</td>
+<td align="center">255</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkBlockValidity(AutoconfElement, Token, Class[], String)</td>
+<td align="center">792</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">702</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(AutoconfElement)</td>
+<td align="center">764</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseHERE(AutoconfElement, Token)</td>
+<td align="center">567</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkLineStart(AutoconfElement, Token, boolean)</td>
+<td align="center">544</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.validateMacroParameterCount(AutoconfMacroElement, Token, int)</td>
+<td align="center">878</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacroArguments(AutoconfMacroElement, Token)</td>
+<td align="center">995</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">413</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token, java.lang.String, int) : void">
+<span>[+] </span>handleMessage(AutoconfElement, Token, String, int) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleError(AutoconfElement, Token, String)</td>
+<td align="center">1009</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleWarning(AutoconfElement, Token, String)</td>
+<td align="center">1012</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(org.eclipse.jface.text.IDocument, boolean) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement">
+<span>[+] </span>parse(IDocument, boolean) : AutoconfElement
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(IDocument)</td>
+<td align="center">90</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlock(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : void">
+<span>[+] </span>parseBlock(AutoconfElement, Token, AutoconfElement) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">447</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">497</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">482</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">466</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">456</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">487</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">492</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : void">
+<span>[+] </span>parseCaseBlock(AutoconfElement, Token, AutoconfElement) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">512</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseCaseExpression(AutoconfElement) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">281</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">313</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseExpression(AutoconfElement) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlockExpression(Token, AutoconfElement)</td>
+<td align="center">215</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseForExpression(AutoconfElement) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlockExpression(Token, AutoconfElement)</td>
+<td align="center">217</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfMacroElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseMacro(AutoconfMacroElement, Token) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">818</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacroArguments(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfMacroElement, org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseMacroArguments(AutoconfMacroElement, Token) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">899</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : void">
+<span>[+] </span>parseStatement(AutoconfElement) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">317</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">197</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseTopLevel(AutoconfElement)</td>
+<td align="center">163</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseTopLevel(org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfElement) : org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.Token">
+<span>[+] </span>parseTopLevel(AutoconfElement) : Token
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(IDocument, boolean)</td>
+<td align="center">109</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.errorHandler">
+<span>[+] </span>errorHandler
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)</td>
+<td align="center">1027</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.getErrorHandler()</td>
+<td align="center">1038</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.handleMessage(AutoconfElement, Token, String, int)</td>
+<td align="center">1015</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(IDocument, boolean)</td>
+<td align="center">104</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">913</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.AutoconfParser(IAutoconfErrorHandler, IAutoconfMacroDetector, IAutoconfMacroValidator)</td>
+<td align="center">77</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.macroDetector">
+<span>[+] </span>macroDetector
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">807</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.AutoconfParser(IAutoconfErrorHandler, IAutoconfMacroDetector, IAutoconfMacroValidator)</td>
+<td align="center">78</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.macroValidator">
+<span>[+] </span>macroValidator
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">911</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">909</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.AutoconfParser(IAutoconfErrorHandler, IAutoconfMacroDetector, IAutoconfMacroValidator)</td>
+<td align="center">79</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.tokenizer">
+<span>[+] </span>tokenizer
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">902</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">906</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">688</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">599</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">439</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">824</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlockExpression(Token, AutoconfElement)</td>
+<td align="center">258</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">457</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">895</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseBlock(AutoconfElement, Token, AutoconfElement)</td>
+<td align="center">298</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">680</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(IDocument, boolean)</td>
+<td align="center">106</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacro(AutoconfMacroElement, Token)</td>
+<td align="center">897</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">681</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">648</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">856</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">664</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseBlockExpression(Token, AutoconfElement)</td>
+<td align="center">231</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">634</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseHERE(AutoconfElement, Token)</td>
+<td align="center">574</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseMacroArguments(AutoconfMacroElement, Token)</td>
+<td align="center">940</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseTopLevel(AutoconfElement)</td>
+<td align="center">166</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">843</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">406</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseStatement(AutoconfElement)</td>
+<td align="center">467</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseHERE(AutoconfElement, Token)</td>
+<td align="center">555</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(AutoconfElement)</td>
+<td align="center">765</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseExpression(AutoconfElement)</td>
+<td align="center">620</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">867</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseForExpression(AutoconfElement)</td>
+<td align="center">703</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseHERE(AutoconfElement, Token)</td>
+<td align="center">565</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parseCaseExpression(AutoconfElement)</td>
+<td align="center">719</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.checkMacro(AutoconfElement, Token)</td>
+<td align="center">806</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>PUT_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.cdt.autotools.ui.editors.parser.AutoconfParser.parse(IDocument, boolean)</td>
+<td align="center">104</td>
+<td align="center"><span class="typeslnk">API</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

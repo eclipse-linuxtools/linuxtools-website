@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="5" reference_visibility="1">
+    <target member="getName" name="org.eclipse.core.resources.IResource.getName()" signature="()Ljava/lang/String;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="92" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getProjectRelativePath" name="org.eclipse.core.resources.IResource.getProjectRelativePath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="90" member="findLaunchConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.findLaunchConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="133" member="createConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getProject" name="org.eclipse.core.resources.IResource.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.core.resources.IResource">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="139" member="createConfiguration" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut"/>
+            <reference linenumber="178" member="run" origin="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut$1"/>
+        </reference_kind>
+    </target>
+</references>

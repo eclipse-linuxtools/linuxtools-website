@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.launch (0.0.1.201005111809)" referee="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" reference_count="40" reference_visibility="1">
+    <target member="setRealTime" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setRealTime(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="241" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setMonitor" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setMonitor(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="233" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getConsoleByName" name="org.eclipse.linuxtools.callgraph.core.Helper.getConsoleByName(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/console/TextConsole;" type="org.eclipse.linuxtools.callgraph.core.Helper">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="305" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages.SystemTapUIErrorMessages(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapUIErrorMessages">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="313" member="finishLaunchHelper" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.finishLaunchHelper()" signature="()Z" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="324" member="finishLaunchHelper" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.finishLaunchHelper()" signature="()Z" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="282" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="86" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+            <reference linenumber="473" member="failedToLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.failedToLaunch(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="336" member="finishLaunchHelper" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.finishLaunchHelper()" signature="()Z" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="953" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="301" member="finishLaunchHelper" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.finishLaunchHelper()" signature="()Z" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="217" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="172" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getErrorMessage" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.getErrorMessage()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="285" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="isErrorRecognized" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.isErrorRecognized()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="281" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultIOPath" name="org.eclipse.linuxtools.callgraph.core.PluginConstants.getDefaultIOPath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.PluginConstants">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="152" member="initialize" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.initialize()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="949" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="75" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+        </reference_kind>
+    </target>
+    <target member="setBufferedWriter" name="org.eclipse.linuxtools.callgraph.core.Helper.setBufferedWriter(String)" signature="(Ljava/lang/String;)Ljava/io/BufferedWriter;" type="org.eclipse.linuxtools.callgraph.core.Helper">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="358" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.StreamListener.StreamListener(SystemTapLaunchConfigurationDelegate)" signature="(Lorg/eclipse/linuxtools/callgraph/launch/SystemTapLaunchConfigurationDelegate;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate$StreamListener"/>
+        </reference_kind>
+    </target>
+    <target member="handle" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.handle(IProgressMonitor, FileReader)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/io/FileReader;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="276" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.DocWriter.DocWriter(String, TextConsole, String)" signature="(Ljava/lang/String;Lorg/eclipse/ui/console/TextConsole;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.DocWriter">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="304" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setViewID" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setViewID(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="230" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="isDone" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.isDone()" signature="()Z" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="258" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setSecondaryID" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setSecondaryID(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="235" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setKillButtonEnabled" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setKillButtonEnabled(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="238" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="266" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="generateCommand" name="org.eclipse.linuxtools.callgraph.core.SystemTapCommandGenerator.generateCommand(String, String, String, boolean, boolean, String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.SystemTapCommandGenerator">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="382" member="generateCommand" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.generateCommand(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.SystemTapErrorHandler()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="270" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="appendToLog" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.appendToLog(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="273" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="finishHandling" name="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler.finishHandling(IProgressMonitor, String)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapErrorHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="280" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="cancelJob" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.cancelJob()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="269" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="259" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="297" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setDone" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setDone(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="234" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="setSourcePath" name="org.eclipse.linuxtools.callgraph.core.SystemTapParser.setSourcePath(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="232" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getPluginLocation" name="org.eclipse.linuxtools.callgraph.core.PluginConstants.getPluginLocation()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.PluginConstants">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="61" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+            <reference linenumber="150" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+            <reference linenumber="157" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$1"/>
+        </reference_kind>
+    </target>
+    <target member="getDefaultOutput" name="org.eclipse.linuxtools.callgraph.core.PluginConstants.getDefaultOutput()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.core.PluginConstants">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="167" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="200" member="setScriptPath" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.setScriptPath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+        </reference_kind>
+    </target>
+</references>

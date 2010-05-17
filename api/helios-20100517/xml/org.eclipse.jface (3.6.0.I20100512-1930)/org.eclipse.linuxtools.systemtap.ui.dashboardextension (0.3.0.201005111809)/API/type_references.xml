@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="36" reference_visibility="1">
+    <target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelection" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="95" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="95" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="95" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="96" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.WizardDialog" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="75" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+            <reference linenumber="88" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+        <reference linenumber="138" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="159" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="75" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+            <reference linenumber="88" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+        <reference linenumber="138" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$2"/>
+            <reference linenumber="159" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.Action" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.CreateModuleAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.dialogs.Dialog" type="org.eclipse.jface.dialogs.Dialog">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.dialogs.ExportScriptDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.internal.DashboardExtensionPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.internal.DashboardExtensionPlugin"/>
+        </reference_kind>
+    </target>
+</references>

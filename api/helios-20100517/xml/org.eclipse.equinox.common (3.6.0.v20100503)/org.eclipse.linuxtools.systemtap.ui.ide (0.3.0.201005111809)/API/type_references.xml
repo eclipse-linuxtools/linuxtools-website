@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Path" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="67" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        <reference linenumber="107" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="67" member="run" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.DefinitionAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.IPath" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="107" member="createEditorInput" origin="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction.createEditorInput(File)" signature="(Ljava/io/File;)Lorg/eclipse/ui/IEditorInput;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.hidden.KernelSourceAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CDocumentProvider"/>
+        <reference linenumber="-1" member="createAnnotationModel" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider.createAnnotationModel(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/jface/text/source/IAnnotationModel;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPDocumentProvider"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.runtime.Status" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="147" member="buildCompletionDataLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.buildCompletionDataLocation(String)" signature="(Ljava/lang/String;)Ljava/net/URL;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+            <reference linenumber="139" member="buildCompletionDataLocation" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor.buildCompletionDataLocation(String)" signature="(Ljava/lang/String;)Ljava/net/URL;" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.IProgressMonitor" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="setProgressMonitor" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy.setProgressMonitor(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.stp.STPReconcilingStrategy"/>
+        </reference_kind>
+    </target>
+</references>

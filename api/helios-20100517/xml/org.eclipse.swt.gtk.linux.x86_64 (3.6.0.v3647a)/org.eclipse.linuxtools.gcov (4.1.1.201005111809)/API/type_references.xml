@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="76" reference_visibility="1">
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="47" member="open" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.open(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        <reference linenumber="197" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.2.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$2"/>
+            <reference linenumber="169" member="run" origin="org.eclipse.linuxtools.gcov.view.CovView.1.run()" signature="()V" type="org.eclipse.linuxtools.gcov.view.CovView$1"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.OpenGCDialog(Shell, String, IPath)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/core/runtime/IPath;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.layout.GridLayout" type="org.eclipse.swt.layout.GridLayout">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="129" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="150" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="179" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="129" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="121" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="121" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Group" type="org.eclipse.swt.widgets.Group">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="126" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="174" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="126" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="174" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyEvent" type="org.eclipse.swt.events.ModifyEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="modifyText" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.BinaryModifyListener.modifyText(ModifyEvent)" signature="(Lorg/eclipse/swt/events/ModifyEvent;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$BinaryModifyListener"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="116" member="createContents" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="142" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="177" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="148" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="131" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="136" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="203" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="181" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="183" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="130" member="createTitle" origin="org.eclipse.linuxtools.gcov.view.CovView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="177" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="131" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="130" member="createTitle" origin="org.eclipse.linuxtools.gcov.view.CovView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionAdapter" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="191" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.3" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$3"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.3" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$3"/>
+            <reference linenumber="154" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.1" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.2" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$2"/>
+            <reference linenumber="165" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.2" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.1" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="191" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$1"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.2.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$2"/>
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="-1" member="createTitle" origin="org.eclipse.linuxtools.gcov.view.CovView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="-1" member="createPartControl" origin="org.eclipse.linuxtools.gcov.view.CovView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gcov.view.CovViewer.CovViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovViewer"/>
+            <reference linenumber="-1" member="createAbstractSTViewer" origin="org.eclipse.linuxtools.gcov.view.CovView.createAbstractSTViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/linuxtools/dataviewers/abstractviewers/AbstractSTViewer;" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="147" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="123" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="147" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="123" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="openThisFileOnlyButton" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.openThisFileOnlyButton" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="openCoverageSummaryButton" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.openCoverageSummaryButton" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="binBrowseWorkspaceButton" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.binBrowseWorkspaceButton" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="binBrowseFileSystemButton" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.binBrowseFileSystemButton" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="182" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="151" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="180" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="162" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="134" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="134" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="202" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="129" member="createTitle" origin="org.eclipse.linuxtools.gcov.view.CovView.createTitle(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="errorLabel" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.errorLabel" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        <reference linenumber="-1" member="label" origin="org.eclipse.linuxtools.gcov.view.CovView.label" type="org.eclipse.linuxtools.gcov.view.CovView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Text" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="-1" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowseWorkspace(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="binText" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.binText" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="140" member="createDialogArea" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.FileDialog" type="org.eclipse.swt.widgets.FileDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="285" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="285" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.ModifyListener" type="org.eclipse.swt.events.ModifyListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.BinaryModifyListener" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog$BinaryModifyListener"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.swt.widgets.Display" type="org.eclipse.swt.widgets.Display">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="50" member="getColor" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.graphics.Color" type="org.eclipse.swt.graphics.Color">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="GREEN" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.GREEN" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+            <reference linenumber="-1" member="greenColors" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.greenColors" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="60" member="getColor" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getColor" origin="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput.getColor(int)" signature="(I)Lorg/eclipse/swt/graphics/Color;" type="org.eclipse.linuxtools.gcov.view.annotatedsource.STAnnotatedSourceEditorInput"/>
+        </reference_kind>
+    </target>
+</references>

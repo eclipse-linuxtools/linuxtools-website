@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="12" reference_visibility="1">
+    <target member="getResource" name="org.eclipse.cdt.core.model.ICElement.getResource()" signature="()Lorg/eclipse/core/resources/IResource;" type="org.eclipse.cdt.core.model.ICElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="136" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.cdt.core.model.CoreModel.getDefault()" signature="()Lorg/eclipse/cdt/core/model/CoreModel;" type="org.eclipse.cdt.core.model.CoreModel">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="130" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target member="create" name="org.eclipse.cdt.core.model.CoreModel.create(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/cdt/core/model/ICProject;" type="org.eclipse.cdt.core.model.CoreModel">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="130" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target member="getBinaryContainer" name="org.eclipse.cdt.core.model.ICProject.getBinaryContainer()" signature="()Lorg/eclipse/cdt/core/model/IBinaryContainer;" type="org.eclipse.cdt.core.model.ICProject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="133" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+    <target member="getBinaries" name="org.eclipse.cdt.core.model.IBinaryContainer.getBinaries()" signature="()[Lorg/eclipse/cdt/core/model/IBinary;" type="org.eclipse.cdt.core.model.IBinaryContainer">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="134" member="getDefaultBinary" origin="org.eclipse.linuxtools.gcov.action.OpenGCAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gcov.action.OpenGCAction"/>
+        </reference_kind>
+    </target>
+<target member="getPath" name="org.eclipse.cdt.core.IBinaryParser.IBinaryFile.getPath()" signature="()Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.cdt.core.IBinaryParser$IBinaryFile">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="255" member="getGCDALocations" origin="org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+        <reference linenumber="39" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+            <reference linenumber="46" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+            <reference linenumber="35" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+        </reference_kind>
+    </target>
+    <target member="getCPU" name="org.eclipse.cdt.core.IBinaryParser.IBinaryObject.getCPU()" signature="()Ljava/lang/String;" type="org.eclipse.cdt.core.IBinaryParser$IBinaryObject">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="257" member="getGCDALocations" origin="org.eclipse.linuxtools.gcov.parser.CovManager.getGCDALocations()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.gcov.parser.CovManager"/>
+        <reference linenumber="46" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+            <reference linenumber="39" member="getProgramChecker" origin="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gcov/utils/STGcovProgramChecker;" type="org.eclipse.linuxtools.gcov.utils.STGcovProgramChecker"/>
+        </reference_kind>
+    </target>
+</references>

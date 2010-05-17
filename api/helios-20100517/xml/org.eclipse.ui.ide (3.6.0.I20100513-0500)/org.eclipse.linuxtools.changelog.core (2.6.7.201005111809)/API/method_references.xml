@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="14" reference_visibility="1">
+    <target member="execute" name="org.eclipse.ui.actions.WorkspaceModifyOperation.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.ui.actions.WorkspaceModifyOperation">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="execute" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.1.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction$1"/>
+        </reference_kind>
+    </target>
+    <target member="getEditorDescriptor" name="org.eclipse.ui.ide.IDE.getEditorDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/ui/IEditorDescriptor;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="525" member="guessFunctionNames" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;)[Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.ui.IFileEditorInput.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.ui.IFileEditorInput">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="155" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="156" member="loadClipboard" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.loadClipboard(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+            <reference linenumber="279" member="getDocumentIFile" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentIFile(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/resources/IFile;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="176" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector.getDocumentLocation(IEditorPart)" signature="(Lorg/eclipse/ui/IEditorPart;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.linuxtools.changelog.core.editors.GNUHyperlinkDetector"/>
+        </reference_kind>
+    </target>
+    <target member="getAdaptedResourceMapping" name="org.eclipse.ui.ide.IContributorResourceAdapter2.getAdaptedResourceMapping(IAdaptable)" signature="(Lorg/eclipse/core/runtime/IAdaptable;)Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.ui.ide.IContributorResourceAdapter2">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="111" member="getResourceMapping" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction.getResourceMapping(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareCommitAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.actions.WorkspaceModifyOperation.WorkspaceModifyOperation()" signature="()V" type="org.eclipse.ui.actions.WorkspaceModifyOperation">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="120" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.1.1(ChangeLogAction, IFile, InputStream)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/ChangeLogAction;Lorg/eclipse/core/resources/IFile;Ljava/io/InputStream;)V" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.part.FileEditorInput.FileEditorInput(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.ui.part.FileEditorInput">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="537" member="guessFunctionNames" origin="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction.guessFunctionNames(PatchFile)" signature="(Lorg/eclipse/linuxtools/changelog/core/actions/PatchFile;)[Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.PrepareChangeLogAction"/>
+        </reference_kind>
+    </target>
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IFile, boolean)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IFile;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="96" member="openEditor" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.openEditor(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        <reference linenumber="59" member="open" origin="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.changelog.core.editors.FileHyperlink"/>
+        </reference_kind>
+    </target>
+    <target member="getStorage" name="org.eclipse.ui.IStorageEditorInput.getStorage()" signature="()Lorg/eclipse/core/resources/IStorage;" type="org.eclipse.ui.IStorageEditorInput">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="91" member="equals" origin="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput.equals(Object)" signature="(Ljava/lang/Object;)Z" type="org.eclipse.linuxtools.changelog.core.actions.StorageEditorInput"/>
+        </reference_kind>
+    </target>
+    <target member="getFile" name="org.eclipse.ui.part.FileEditorInput.getFile()" signature="()Lorg/eclipse/core/resources/IFile;" type="org.eclipse.ui.part.FileEditorInput">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="301" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+            <reference linenumber="300" member="getDocumentLocation" origin="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction.getDocumentLocation(IEditorPart, boolean)" signature="(Lorg/eclipse/ui/IEditorPart;Z)Ljava/lang/String;" type="org.eclipse.linuxtools.changelog.core.actions.ChangeLogAction"/>
+        </reference_kind>
+    </target>
+</references>

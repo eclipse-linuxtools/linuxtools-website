@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.changelog.core (2.6.7.201005111809)" referee="org.eclipse.ui.navigator (3.5.0.I20100512-1500)" reference_count="8" reference_visibility="1">
+    <target member="init" name="org.eclipse.ui.navigator.CommonActionProvider.init(ICommonActionExtensionSite)" signature="(Lorg/eclipse/ui/navigator/ICommonActionExtensionSite;)V" type="org.eclipse.ui.navigator.CommonActionProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.init(ICommonActionExtensionSite)" signature="(Lorg/eclipse/ui/navigator/ICommonActionExtensionSite;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="77" member="init" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.init(ICommonActionExtensionSite)" signature="(Lorg/eclipse/ui/navigator/ICommonActionExtensionSite;)V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.navigator.CommonActionProvider.CommonActionProvider()" signature="()V" type="org.eclipse.ui.navigator.CommonActionProvider">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.ChangeLogActionProvider()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="36" member="&lt;init&gt;" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.ChangeLogActionProvider()" signature="()V" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getProperty" name="org.eclipse.ui.navigator.IExtensionStateModel.getProperty(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.ui.navigator.IExtensionStateModel">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="71" member="getSynchronizationContext" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getSynchronizationContext()" signature="()Lorg/eclipse/team/core/mapping/ISynchronizationContext;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+            <reference linenumber="48" member="getSynchronizePageConfiguration" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getSynchronizePageConfiguration()" signature="()Lorg/eclipse/team/ui/synchronize/ISynchronizePageConfiguration;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getExtensionStateModel" name="org.eclipse.ui.navigator.ICommonActionExtensionSite.getExtensionStateModel()" signature="()Lorg/eclipse/ui/navigator/IExtensionStateModel;" type="org.eclipse.ui.navigator.ICommonActionExtensionSite">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="60" member="getExtensionStateModel" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getExtensionStateModel()" signature="()Lorg/eclipse/ui/navigator/IExtensionStateModel;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getActionSite" name="org.eclipse.ui.navigator.CommonActionProvider.getActionSite()" signature="()Lorg/eclipse/ui/navigator/ICommonActionExtensionSite;" type="org.eclipse.ui.navigator.CommonActionProvider">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="60" member="getExtensionStateModel" origin="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider.getExtensionStateModel()" signature="()Lorg/eclipse/ui/navigator/IExtensionStateModel;" type="org.eclipse.linuxtools.changelog.core.ui.ChangeLogActionProvider"/>
+        </reference_kind>
+    </target>
+</references>

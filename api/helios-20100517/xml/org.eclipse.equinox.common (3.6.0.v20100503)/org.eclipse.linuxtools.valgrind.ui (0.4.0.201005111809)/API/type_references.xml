@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="10" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Status" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="202" member="getToolView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.CoreException" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="getToolView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+            <reference linenumber="-1" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="100" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin$1"/>
+            <reference linenumber="144" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.4.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin$4"/>
+            <reference linenumber="142" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="100" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin$1"/>
+            <reference linenumber="142" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+            <reference linenumber="144" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.4.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin$4"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="202" member="getToolView" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin.getToolView(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindUIPlugin"/>
+        </reference_kind>
+    </target>
+</references>

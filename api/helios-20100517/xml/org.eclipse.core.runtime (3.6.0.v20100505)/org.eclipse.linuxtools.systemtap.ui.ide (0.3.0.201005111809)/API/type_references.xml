@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="6" reference_visibility="1">
+    <target name="org.eclipse.core.runtime.Preferences.PropertyChangeEvent" type="org.eclipse.core.runtime.Preferences$PropertyChangeEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="propertyChange" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.1.propertyChange(PreferencesPropertyChangeEvent)" signature="(Lorg/eclipse/core/runtime/Preferences$PropertyChangeEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$1"/>
+        <reference linenumber="-1" member="propertyChange" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.1.propertyChange(PreferencesPropertyChangeEvent)" signature="(Lorg/eclipse/core/runtime/Preferences$PropertyChangeEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.core.runtime.Preferences.IPropertyChangeListener" type="org.eclipse.core.runtime.Preferences$IPropertyChangeListener">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="cColorPropertyChangeListener" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.cColorPropertyChangeListener" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor"/>
+        <reference linenumber="-1" member="propertyChangeListener" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.propertyChangeListener" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor.1" type="org.eclipse.linuxtools.systemtap.ui.ide.editors.c.CEditor$1"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView.1" type="org.eclipse.linuxtools.systemtap.ui.ide.views.KernelBrowserView$1"/>
+        </reference_kind>
+    </target>
+</references>

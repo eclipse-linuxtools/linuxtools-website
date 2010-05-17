@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.core (0.3.0.201005111809)" referee="org.eclipse.core.runtime (3.6.0.v20100505)" reference_count="8" reference_visibility="1">
+    <target member="stop" name="org.eclipse.core.runtime.Plugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="58" member="stop" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Plugin.Plugin()" signature="()V" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.OprofileCorePlugin()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="43" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.OprofileCorePlugin()" signature="()V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="start" name="org.eclipse.core.runtime.Plugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.core.runtime.Plugin">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="51" member="start" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+    <target member="getExtensionRegistry" name="org.eclipse.core.runtime.Platform.getExtensionRegistry()" signature="()Lorg/eclipse/core/runtime/IExtensionRegistry;" type="org.eclipse.core.runtime.Platform">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="85" member="getOpxmlProvider" origin="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin.getOpxmlProvider()" signature="()Lorg/eclipse/linuxtools/oprofile/core/IOpxmlProvider;" type="org.eclipse.linuxtools.oprofile.core.OprofileCorePlugin"/>
+        </reference_kind>
+    </target>
+<target member="getBundle" name="org.eclipse.core.runtime.Platform.getBundle(String)" signature="(Ljava/lang/String;)Lorg/osgi/framework/Bundle;" type="org.eclipse.core.runtime.Platform">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="278" member="_findOpcontrol" origin="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider._findOpcontrol()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.oprofile.core.linux.LinuxOpcontrolProvider"/>
+        </reference_kind>
+    </target>
+</references>

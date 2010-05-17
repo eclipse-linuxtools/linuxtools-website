@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.cdt.ui (5.2.0.201005031211)" reference_count="48" reference_visibility="1">
+    <target member="setVisible" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.setVisible(boolean)" signature="(Z)V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="210" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="206" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="265" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="setVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.setVisible(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="updateData" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="updateData" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.updateData(ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="performApply" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="performApply" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.performApply(ICResourceDescription, ICResourceDescription)" signature="(Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="isSingle" name="org.eclipse.cdt.ui.newui.AbstractPage.isSingle()" signature="()Z" type="org.eclipse.cdt.ui.newui.AbstractPage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="isSingle" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.isSingle()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="createContents" name="org.eclipse.cdt.ui.newui.AbstractPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.cdt.ui.newui.AbstractPage">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="28" member="createContents" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createContents" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.createContents(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.AbstractCPropertyTab()" signature="()V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.AutotoolsEditorPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.AutotoolsToolsPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="26" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.AutotoolsToolsPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+            <reference linenumber="29" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.AutotoolsEditorPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="createControls" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="53" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="86" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="55" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+            <reference linenumber="-1" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="createControls" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.createControls(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="performOK" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.performOK()" signature="()V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performOK" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.performOK()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+            <reference linenumber="-1" member="performOK" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.performOK()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="performOK" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.ui.newui.AbstractPage.AbstractPage()" signature="()V" type="org.eclipse.cdt.ui.newui.AbstractPage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.AutotoolsPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="20" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.AutotoolsPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="showsConfig" name="org.eclipse.cdt.ui.newui.AbstractPage.showsConfig()" signature="()Z" type="org.eclipse.cdt.ui.newui.AbstractPage">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="showsConfig" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage.showsConfig()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="getResDesc" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.getResDesc()" signature="()Lorg/eclipse/cdt/core/settings/model/ICResourceDescription;" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="76" member="getProject" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="45" member="getProject" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="performDefaults" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.performDefaults()" signature="()V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="performDefaults" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="performDefaults" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="performDefaults" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.performDefaults()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="canBeVisible" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.canBeVisible()" signature="()Z" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="canBeVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.canBeVisible()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="canBeVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.canBeVisible()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="canBeVisible" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.canBeVisible()" signature="()Z" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="updateButtons" name="org.eclipse.cdt.ui.newui.AbstractCPropertyTab.updateButtons()" signature="()V" type="org.eclipse.cdt.ui.newui.AbstractCPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="updateButtons" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage.updateButtons()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsEditorPropertyPage"/>
+            <reference linenumber="-1" member="updateButtons" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.updateButtons()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+            <reference linenumber="-1" member="updateButtons" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage.updateButtons()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsToolsPropertyPage"/>
+        </reference_kind>
+    </target>
+<target member="getDefault" name="org.eclipse.cdt.ui.CUIPlugin.getDefault()" signature="()Lorg/eclipse/cdt/ui/CUIPlugin;" type="org.eclipse.cdt.ui.CUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.Console(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+        </reference_kind>
+    </target>
+    <target member="getConsole" name="org.eclipse.cdt.ui.IBuildConsoleManager.getConsole(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)Lorg/eclipse/cdt/core/resources/IConsole;" type="org.eclipse.cdt.ui.IBuildConsoleManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="51" member="getInfoStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getInfoStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="47" member="getOutputStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getOutputStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="55" member="getErrorStream" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.getErrorStream()" signature="()Lorg/eclipse/cdt/core/ConsoleOutputStream;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+            <reference linenumber="39" member="start" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.start(IProject)" signature="(Lorg/eclipse/core/resources/IProject;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+        </reference_kind>
+    </target>
+    <target member="getConsoleManager" name="org.eclipse.cdt.ui.CUIPlugin.getConsoleManager(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/cdt/ui/IBuildConsoleManager;" type="org.eclipse.cdt.ui.CUIPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console.Console(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.Console"/>
+        </reference_kind>
+    </target>
+</references>

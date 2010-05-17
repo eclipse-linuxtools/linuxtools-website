@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.editor (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.jface.operation.IRunnableContext" type="org.eclipse.jface.operation.IRunnableContext">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getOperationRunner" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider.getOperationRunner(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/jface/operation/IRunnableContext;" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleDocumentProvider"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ISelection" type="org.eclipse.jface.viewers.ISelection">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="159" member="insertTextAtCurrent" origin="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor.insertTextAtCurrent(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.SimpleEditor"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput.getImageDescriptor()" signature="()Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.editor.PathEditorInput"/>
+        <reference linenumber="-1" member="getImageDescriptor" origin="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin.getImageDescriptor(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/resource/ImageDescriptor;" type="org.eclipse.linuxtools.systemtap.ui.editor.internal.EditorPlugin"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.selectionChanged(IAction, ISelection)" signature="(Lorg/eclipse/jface/action/IAction;Lorg/eclipse/jface/viewers/ISelection;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.file.OpenFileAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="action" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction.action" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.Action" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction" type="org.eclipse.linuxtools.systemtap.ui.editor.actions.EditorAction"/>
+        </reference_kind>
+    </target>
+</references>

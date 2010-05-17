@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.structures (0.3.0.201005111809)" referee="org.eclipse.swt.gtk.linux.x86_64 (3.6.0.v3647a)" reference_count="32" reference_visibility="1">
+    <target name="org.eclipse.swt.widgets.Button" type="org.eclipse.swt.widgets.Button">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="chkSavePassword" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.chkSavePassword" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="54" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Shell" type="org.eclipse.swt.widgets.Shell">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.PasswordDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+            <reference linenumber="-1" member="configureShell" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.configureShell(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Label" type="org.eclipse.swt.widgets.Label">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="47" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="47" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionEvent" type="org.eclipse.swt.events.SelectionEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="widgetSelected" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Composite" type="org.eclipse.swt.widgets.Composite">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="-1" member="getComboBoxControl" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.getComboBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Combo;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor.ListEditor(String, String, String, String, IInputValidator, Composite)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ListEditor"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.ComboFieldEditor(String, String, String[][], Composite)" signature="(Ljava/lang/String;Ljava/lang/String;[[Ljava/lang/String;Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="45" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="45" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Text" type="org.eclipse.swt.widgets.Text">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="51" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="txtPassword" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.txtPassword" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Control" type="org.eclipse.swt.widgets.Control">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="84" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="76" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="100" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="createDialogArea" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog.createDialogArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.PasswordDialog"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.layout.GridData" type="org.eclipse.swt.layout.GridData">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="88" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="86" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="82" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="79" member="adjustForNumColumns" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.adjustForNumColumns(int)" signature="(I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="105" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+            <reference linenumber="101" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="101" member="doFillIntoGrid" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.doFillIntoGrid(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.events.SelectionAdapter" type="org.eclipse.swt.events.SelectionAdapter">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="156" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.1" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.1" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.swt.widgets.Combo" type="org.eclipse.swt.widgets.Combo">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fCombo" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.fCombo" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getComboBoxControl" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.getComboBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Combo;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="150" member="getComboBoxControl" origin="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor.getComboBoxControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Combo;" type="org.eclipse.linuxtools.systemtap.ui.structures.ui.ComboFieldEditor"/>
+        </reference_kind>
+    </target>
+</references>

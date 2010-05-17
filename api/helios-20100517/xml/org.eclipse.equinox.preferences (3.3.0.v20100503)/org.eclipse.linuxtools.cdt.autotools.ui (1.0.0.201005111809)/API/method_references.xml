@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.equinox.preferences (3.3.0.v20100503)" reference_count="3" reference_visibility="1">
+    <target member="getNode" name="org.eclipse.core.runtime.preferences.InstanceScope.getNode(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/preferences/IEclipsePreferences;" type="org.eclipse.core.runtime.preferences.InstanceScope">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="117" member="performOk" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="flush" name="org.osgi.service.prefs.Preferences.flush()" signature="()V" type="org.osgi.service.prefs.Preferences">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="117" member="performOk" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.preferences.InstanceScope.InstanceScope()" signature="()V" type="org.eclipse.core.runtime.preferences.InstanceScope">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="115" member="performOk" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage.performOk()" signature="()Z" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.preferences.AbstractEditorPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

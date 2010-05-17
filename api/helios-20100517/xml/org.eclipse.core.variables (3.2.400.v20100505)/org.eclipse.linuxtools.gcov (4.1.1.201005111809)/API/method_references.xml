@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.gcov (4.1.1.201005111809)" referee="org.eclipse.core.variables (3.2.400.v20100505)" reference_count="6" reference_visibility="1">
+    <target member="getStringVariableManager" name="org.eclipse.core.variables.VariablesPlugin.getStringVariableManager()" signature="()Lorg/eclipse/core/variables/IStringVariableManager;" type="org.eclipse.core.variables.VariablesPlugin">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="215" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="288" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getDefault" name="org.eclipse.core.variables.VariablesPlugin.getDefault()" signature="()Lorg/eclipse/core/variables/VariablesPlugin;" type="org.eclipse.core.variables.VariablesPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="215" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="288" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+    <target member="performStringSubstitution" name="org.eclipse.core.variables.IStringVariableManager.performStringSubstitution(String, boolean)" signature="(Ljava/lang/String;Z)Ljava/lang/String;" type="org.eclipse.core.variables.IStringVariableManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="290" member="handleBrowse" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.handleBrowse(String, Text)" signature="(Ljava/lang/String;Lorg/eclipse/swt/widgets/Text;)V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+            <reference linenumber="217" member="validateBinary" origin="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog.validateBinary()" signature="()V" type="org.eclipse.linuxtools.gcov.dialog.OpenGCDialog"/>
+        </reference_kind>
+    </target>
+</references>

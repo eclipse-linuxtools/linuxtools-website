@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.oprofile.ui (0.3.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="37" reference_visibility="1">
+    <target member="createImage" name="org.eclipse.jface.resource.ImageDescriptor.createImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="83" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSession"/>
+            <reference linenumber="63" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSample"/>
+            <reference linenumber="69" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelEvent"/>
+            <reference linenumber="44" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelError.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelError"/>
+            <reference linenumber="94" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelSymbol"/>
+            <reference linenumber="94" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelImage"/>
+            <reference linenumber="68" member="getLabelImage" origin="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent.getLabelImage()" signature="()Lorg/eclipse/swt/graphics/Image;" type="org.eclipse.linuxtools.oprofile.ui.model.UiModelDependent"/>
+        </reference_kind>
+    </target>
+<target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.ProgressMonitorDialog.ProgressMonitorDialog(Shell)" signature="(Lorg/eclipse/swt/widgets/Shell;)V" type="org.eclipse.jface.dialogs.ProgressMonitorDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="123" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="add" name="org.eclipse.jface.action.IContributionManager.add(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.jface.action.IContributionManager">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="80" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+            <reference linenumber="81" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+            <reference linenumber="79" member="_createActionMenu" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createActionMenu()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.action.Action.run()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction"/>
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.jface.dialogs.ProgressMonitorDialog.run(boolean, boolean, IRunnableWithProgress)" signature="(ZZLorg/eclipse/jface/operation/IRunnableWithProgress;)V" type="org.eclipse.jface.dialogs.ProgressMonitorDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="55" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="125" member="refreshView" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.refreshView()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.viewers.TreeViewer.TreeViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="70" member="_createTreeViewer" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="openError" name="org.eclipse.jface.dialogs.MessageDialog.openError(Shell, String, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="82" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action()" signature="()V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.OprofileViewLogReaderAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction.OprofileViewRefreshAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.OprofileViewSaveDefaultSessionAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+    <target member="getSelection" name="org.eclipse.jface.viewers.AbstractTreeViewer.getSelection()" signature="()Lorg/eclipse/jface/viewers/ISelection;" type="org.eclipse.jface.viewers.AbstractTreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.MessageDialog.MessageDialog(Shell, String, Image, String, int, String[], int)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Lorg/eclipse/swt/graphics/Image;Ljava/lang/String;I[Ljava/lang/String;I)V" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="123" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.OprofiledLogDialog(Shell, String)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="setInput" name="org.eclipse.jface.viewers.StructuredViewer.setInput(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="114" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView.1.1.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView$1$1"/>
+        </reference_kind>
+    </target>
+    <target member="setLabelProvider" name="org.eclipse.jface.viewers.ColumnViewer.setLabelProvider(IBaseLabelProvider)" signature="(Lorg/eclipse/jface/viewers/IBaseLabelProvider;)V" type="org.eclipse.jface.viewers.ColumnViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="72" member="_createTreeViewer" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.window.Window.open()" signature="()I" type="org.eclipse.jface.window.Window">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="72" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+    <target member="getFirstElement" name="org.eclipse.jface.viewers.StructuredSelection.getFirstElement()" signature="()Ljava/lang/Object;" type="org.eclipse.jface.viewers.StructuredSelection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="46" member="doubleClick" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewDoubleClickListener"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.jface.dialogs.InputDialog.getValue()" signature="()Ljava/lang/String;" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="75" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+    <target member="open" name="org.eclipse.jface.dialogs.MessageDialog.open()" signature="()I" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="64" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+        </reference_kind>
+    </target>
+    <target member="setContentProvider" name="org.eclipse.jface.viewers.TreeViewer.setContentProvider(IContentProvider)" signature="(Lorg/eclipse/jface/viewers/IContentProvider;)V" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="71" member="_createTreeViewer" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="addDoubleClickListener" name="org.eclipse.jface.viewers.StructuredViewer.addDoubleClickListener(IDoubleClickListener)" signature="(Lorg/eclipse/jface/viewers/IDoubleClickListener;)V" type="org.eclipse.jface.viewers.StructuredViewer">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="73" member="_createTreeViewer" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileView._createTreeViewer(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.action.Action.Action(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="46" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction.OprofileViewLogReaderAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewLogReaderAction"/>
+            <reference linenumber="38" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.OprofileViewSaveDefaultSessionAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+            <reference linenumber="22" member="&lt;init&gt;" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction.OprofileViewRefreshAction()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewRefreshAction"/>
+        </reference_kind>
+    </target>
+    <target member="createCustomArea" name="org.eclipse.jface.dialogs.MessageDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.jface.dialogs.MessageDialog">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createCustomArea" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog.createCustomArea(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)Lorg/eclipse/swt/widgets/Control;" type="org.eclipse.linuxtools.oprofile.ui.view.OprofiledLogDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.jface.dialogs.InputDialog.InputDialog(Shell, String, String, String, IInputValidator)" signature="(Lorg/eclipse/swt/widgets/Shell;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/dialogs/IInputValidator;)V" type="org.eclipse.jface.dialogs.InputDialog">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="66" member="run" origin="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction.run()" signature="()V" type="org.eclipse.linuxtools.oprofile.ui.view.OprofileViewSaveDefaultSessionAction"/>
+        </reference_kind>
+    </target>
+</references>

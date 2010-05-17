@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.launch (0.0.1.201005111809)" referee="org.eclipse.linuxtools.profiling.launch (0.3.0.201005111809)" reference_count="25" reference_visibility="1">
+    <target member="getLaunchManager" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.getLaunchManager()" signature="()Lorg/eclipse/debug/core/ILaunchManager;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="403" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(String)" signature="(Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="162" member="getLaunchConfigType" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="744" member="getNewConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.getNewConfiguration()" signature="()Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="129" member="promptForInputs" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.promptForInputs()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+            <reference linenumber="454" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="381" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+            <reference linenumber="434" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="generateCommand" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.generateCommand(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="generateCommand" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.generateCommand(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.ProfileLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.SystemTapLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="106" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.SystemTapLaunchShortcut()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getActiveWorkbenchShell" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.getActiveWorkbenchShell()" signature="()Lorg/eclipse/swt/widgets/Shell;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="625" member="chooseUnit" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.chooseUnit(List, int)" signature="(Ljava/util/List;I)[Ljava/lang/Object;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="launch" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.launch(ISelection, String)" signature="(Lorg/eclipse/jface/viewers/ISelection;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.launch(ISelection, String)" signature="(Lorg/eclipse/jface/viewers/ISelection;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+    </target>
+    <target member="launch" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.launch(IBinary, String)" signature="(Lorg/eclipse/cdt/core/model/IBinary;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="getLaunchConfigType" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getLaunchConfigType" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.getLaunchConfigType()" signature="()Lorg/eclipse/debug/core/ILaunchConfigurationType;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.ProfileLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="48" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.SystemTapLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.SystemTapLaunchConfigurationDelegate()" signature="()V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="testOutput" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.testOutput(String)" signature="(Ljava/lang/String;)Z" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="171" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.launch(ILaunchConfiguration, String, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Ljava/lang/String;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="createConfiguration" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="375" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="createConfiguration" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.createConfiguration(IBinary)" signature="(Lorg/eclipse/cdt/core/model/IBinary;)Lorg/eclipse/debug/core/ILaunchConfiguration;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="setDefaultProfileAttributes" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setDefaultProfileAttributes" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.setDefaultProfileAttributes(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+    <target member="createProcess" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate.createProcess(ILaunchConfiguration, ILaunch)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;)Lorg/eclipse/debug/core/model/IProcess;" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchConfigurationDelegate">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="249" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="launch" name="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.profiling.launch.ProfileLaunchShortcut">
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="53" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchStapGraph"/>
+            <reference linenumber="-1" member="launch" origin="org.eclipse.linuxtools.callgraph.launch.LaunchWizard.launch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.LaunchWizard"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="140" member="reLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut.reLaunch(IEditorPart, String)" signature="(Lorg/eclipse/ui/IEditorPart;Ljava/lang/String;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchShortcut"/>
+        </reference_kind>
+    </target>
+</references>

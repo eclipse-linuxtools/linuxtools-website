@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="11" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.osgi.util.NLS.NLS()" signature="()V" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.Messages"/>
+        <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.actions.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.actions.Messages"/>
+        <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.compare.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.compare.Messages"/>
+        <reference linenumber="33" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.forms.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.forms.Messages"/>
+        <reference linenumber="30" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.Messages"/>
+        <reference linenumber="25" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.outline.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.outline.Messages"/>
+        <reference linenumber="59" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.preferences.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.preferences.Messages"/>
+        <reference linenumber="52" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.wizards.Messages.Messages()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.wizards.Messages"/>
+        </reference_kind>
+    </target>
+<target member="bind" name="org.eclipse.osgi.util.NLS.bind(String, Object)" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="172" member="open" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.open()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink"/>
+            <reference linenumber="59" member="run" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+            <reference linenumber="47" member="&lt;init&gt;" origin="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink.DownloadJob.DownloadJob(SourcesFileDownloadHyperlink, IFile, URLConnection, boolean)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/hyperlink/SourcesFileDownloadHyperlink;Lorg/eclipse/core/resources/IFile;Ljava/net/URLConnection;Z)V" type="org.eclipse.linuxtools.rpm.ui.editor.hyperlink.SourcesFileDownloadHyperlink$DownloadJob"/>
+        </reference_kind>
+    </target>
+</references>

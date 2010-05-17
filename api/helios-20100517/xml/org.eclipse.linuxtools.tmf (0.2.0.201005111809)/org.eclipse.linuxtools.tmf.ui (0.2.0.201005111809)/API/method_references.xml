@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.tmf.ui (0.2.0.201005111809)" referee="org.eclipse.linuxtools.tmf (0.2.0.201005111809)" reference_count="28" reference_visibility="1">
+    <target member="sendRequest" name="org.eclipse.linuxtools.tmf.component.TmfDataProvider.sendRequest(ITmfDataRequest)" signature="(Lorg/eclipse/linuxtools/tmf/request/ITmfDataRequest;)V" type="org.eclipse.linuxtools.tmf.component.TmfDataProvider">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="174" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.event.TmfTimestamp.TmfTimestamp(TmfTimestamp)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfTimestamp;)V" type="org.eclipse.linuxtools.tmf.event.TmfTimestamp">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="159" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+            <reference linenumber="183" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+        </reference_kind>
+    </target>
+    <target member="waitForCompletion" name="org.eclipse.linuxtools.tmf.request.TmfDataRequest.waitForCompletion()" signature="()V" type="org.eclipse.linuxtools.tmf.request.TmfDataRequest">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="176" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+        </reference_kind>
+    </target>
+    <target member="getContent" name="org.eclipse.linuxtools.tmf.event.TmfEvent.getContent()" signature="()Lorg/eclipse/linuxtools/tmf/event/TmfEventContent;" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="226" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.signal.TmfTimeSynchSignal.TmfTimeSynchSignal(Object, TmfTimestamp)" signature="(Ljava/lang/Object;Lorg/eclipse/linuxtools/tmf/event/TmfTimestamp;)V" type="org.eclipse.linuxtools.tmf.signal.TmfTimeSynchSignal">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="143" member="widgetSelected" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.1.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$1"/>
+        </reference_kind>
+    </target>
+    <target member="deregister" name="org.eclipse.linuxtools.tmf.signal.TmfSignalManager.deregister(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.linuxtools.tmf.signal.TmfSignalManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="42" member="dispose" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.dispose()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+    <target member="getType" name="org.eclipse.linuxtools.tmf.event.TmfEvent.getType()" signature="()Lorg/eclipse/linuxtools/tmf/event/TmfEventType;" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="224" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getSourceId" name="org.eclipse.linuxtools.tmf.event.TmfEventSource.getSourceId()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.tmf.event.TmfEventSource">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="223" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getSource" name="org.eclipse.linuxtools.tmf.event.TmfEvent.getSource()" signature="()Lorg/eclipse/linuxtools/tmf/event/TmfEventSource;" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="223" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.signal.TmfExperimentSelectedSignal.TmfExperimentSelectedSignal(Object, TmfExperiment)" signature="(Ljava/lang/Object;Lorg/eclipse/linuxtools/tmf/experiment/TmfExperiment;)V" type="org.eclipse.linuxtools.tmf.signal.TmfExperimentSelectedSignal">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="195" member="createPartControl" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getTimestamp" name="org.eclipse.linuxtools.tmf.event.TmfEvent.getTimestamp()" signature="()Lorg/eclipse/linuxtools/tmf/event/TmfTimestamp;" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="159" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+            <reference linenumber="183" member="handleEvent" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.handleEvent(Event)" signature="(Lorg/eclipse/swt/widgets/Event;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2"/>
+            <reference linenumber="222" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.linuxtools.tmf.event.TmfEventContent.toString()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.event.TmfEventContent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="226" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getReference" name="org.eclipse.linuxtools.tmf.event.TmfEventReference.getReference()" signature="()Ljava/lang/Object;" type="org.eclipse.linuxtools.tmf.event.TmfEventReference">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="225" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getTypeId" name="org.eclipse.linuxtools.tmf.event.TmfEventType.getTypeId()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.event.TmfEventType">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="224" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="256" member="experimentSelected" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.experimentSelected(TmfExperimentSelectedSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfExperimentSelectedSignal;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getExperiment" name="org.eclipse.linuxtools.tmf.signal.TmfExperimentSelectedSignal.getExperiment()" signature="()Lorg/eclipse/linuxtools/tmf/experiment/TmfExperiment;" type="org.eclipse.linuxtools.tmf.signal.TmfExperimentSelectedSignal">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="255" member="experimentSelected" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.experimentSelected(TmfExperimentSelectedSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfExperimentSelectedSignal;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getReference" name="org.eclipse.linuxtools.tmf.event.TmfEvent.getReference()" signature="()Lorg/eclipse/linuxtools/tmf/event/TmfEventReference;" type="org.eclipse.linuxtools.tmf.event.TmfEvent">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="225" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getNbEvents" name="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.getNbEvents()" signature="()J" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="276" member="run" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.4.run()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$4"/>
+            <reference linenumber="265" member="run" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.3.run()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$3"/>
+        </reference_kind>
+    </target>
+    <target member="register" name="org.eclipse.linuxtools.tmf.signal.TmfSignalManager.register(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.linuxtools.tmf.signal.TmfSignalManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.TmfView(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+    <target member="getData" name="org.eclipse.linuxtools.tmf.request.TmfDataRequest.getData()" signature="()[Lorg/eclipse/linuxtools/tmf/event/TmfData;" type="org.eclipse.linuxtools.tmf.request.TmfDataRequest">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="166" member="handleData" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.1.handleData()" signature="()V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2$1"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.tmf.request.TmfDataRequest.TmfDataRequest(Class, int, int)" signature="(Ljava/lang/Class;II)V" type="org.eclipse.linuxtools.tmf.request.TmfDataRequest">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="163" member="&lt;init&gt;" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.2.1.1(new TmfEventsView(){}, Class, int, int, int)" signature="(Lorg/eclipse/linuxtools/tmf/ui/views/TmfEventsView$2;Ljava/lang/Class;III)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView$2$1"/>
+        </reference_kind>
+    </target>
+    <target member="getValue" name="org.eclipse.linuxtools.tmf.event.TmfTimestamp.getValue()" signature="()J" type="org.eclipse.linuxtools.tmf.event.TmfTimestamp">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="222" member="extractItemFields" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.extractItemFields(TmfEvent)" signature="(Lorg/eclipse/linuxtools/tmf/event/TmfEvent;)[Ljava/lang/String;" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="getCurrentExperiment" name="org.eclipse.linuxtools.tmf.experiment.TmfExperiment.getCurrentExperiment()" signature="()Lorg/eclipse/linuxtools/tmf/experiment/TmfExperiment;" type="org.eclipse.linuxtools.tmf.experiment.TmfExperiment">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="193" member="createPartControl" origin="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView.createPartControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfEventsView"/>
+        </reference_kind>
+    </target>
+    <target member="dispatchSignal" name="org.eclipse.linuxtools.tmf.signal.TmfSignalManager.dispatchSignal(TmfSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfSignal;)V" type="org.eclipse.linuxtools.tmf.signal.TmfSignalManager">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="55" member="broadcast" origin="org.eclipse.linuxtools.tmf.ui.views.TmfView.broadcast(TmfSignal)" signature="(Lorg/eclipse/linuxtools/tmf/signal/TmfSignal;)V" type="org.eclipse.linuxtools.tmf.ui.views.TmfView"/>
+        </reference_kind>
+    </target>
+</references>

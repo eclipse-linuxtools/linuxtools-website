@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.birt.core (2.6.0.v20100428)" reference_count="15" reference_visibility="1">
+    <target name="org.eclipse.birt.core.exception.BirtException" type="org.eclipse.birt.core.exception.BirtException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="124" member="close" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.close()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="185" member="first" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.first()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="142" member="evaluate" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.evaluate(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="274" member="next" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.next()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="194" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32" reference_kind_name="THROWS">
+            <reference linenumber="-1" member="newDataEngine" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.newDataEngine()" signature="()Lorg/eclipse/birt/data/engine/api/DataEngine;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="-1" member="newDataSource" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.newDataSource()" signature="()Lorg/eclipse/birt/data/engine/api/querydefn/OdaDataSourceDesign;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="-1" member="prepareRowExpressionEvaluator" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.prepareRowExpressionEvaluator(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/factory/IDataRowExpressionEvaluator;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="-1" member="findNext" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.findNext()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="-1" member="findFirst" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.findFirst()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="142" member="evaluate" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.evaluate(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="124" member="close" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.close()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="274" member="next" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.next()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+            <reference linenumber="194" member="bindData" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine.bindData(ChartWithAxes, String[])" signature="(Lorg/eclipse/birt/chart/model/ChartWithAxes;[Ljava/lang/String;)Lorg/eclipse/birt/chart/model/ChartWithAxes;" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.BindDataEngine"/>
+            <reference linenumber="185" member="first" origin="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator.first()" signature="()Z" type="org.eclipse.linuxtools.dataviewers.charts.dataengine.GroupedRowExpressionsEvaluator"/>
+        </reference_kind>
+    </target>
+</references>

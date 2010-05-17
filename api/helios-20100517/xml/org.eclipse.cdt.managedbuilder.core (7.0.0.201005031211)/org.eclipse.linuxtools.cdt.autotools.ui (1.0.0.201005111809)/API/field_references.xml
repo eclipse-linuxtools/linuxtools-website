@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)" reference_count="5" reference_visibility="1">
+    <target member="MANAGED_MAKE_PROJECT_ID" name="org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.MANAGED_MAKE_PROJECT_ID" type="org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="139" member="getProjectID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizard.getProjectID()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizard"/>
+            <reference linenumber="330" member="getProjectID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.getProjectID()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+            <reference linenumber="330" member="getProjectID" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.getProjectID()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+    <target member="INTERFACE_IDENTITY" name="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.INTERFACE_IDENTITY" type="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="238" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2"/>
+            <reference linenumber="238" member="doRun" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2"/>
+        </reference_kind>
+    </target>
+</references>

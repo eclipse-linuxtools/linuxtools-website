@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.cdt.autotools.ui (1.0.0.201005111809)" referee="org.eclipse.cdt.make.ui (7.0.0.201005031211)" reference_count="14" reference_visibility="1">
+    <target name="org.eclipse.cdt.make.ui.IWorkingCopyManager" type="org.eclipse.cdt.make.ui.IWorkingCopyManager">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="55" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover.getHoverInfo(ITextViewer, IRegion)" signature="(Lorg/eclipse/jface/text/ITextViewer;Lorg/eclipse/jface/text/IRegion;)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileTextHover"/>
+            <reference linenumber="155" member="initialize" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater.initialize()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.ProjectionMakefileUpdater"/>
+            <reference linenumber="314" member="inputChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage"/>
+            <reference linenumber="62" member="getHoverInfo" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover.getHoverInfo(ISourceViewer, int)" signature="(Lorg/eclipse/jface/text/source/ISourceViewer;I)Ljava/lang/String;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileAnnotationHover"/>
+            <reference linenumber="64" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.OpenDeclarationAction"/>
+            <reference linenumber="156" member="inputChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage.AutomakefileContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileContentOutlinePage$AutomakefileContentProvider"/>
+            <reference linenumber="165" member="inputChanged" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage.MakefileContentProvider.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileContentOutlinePage$MakefileContentProvider"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="fManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy.fManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileReconcilingStrategy"/>
+            <reference linenumber="-1" member="fManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy.fManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakefileReconcilingStrategy"/>
+            <reference linenumber="-1" member="fManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor.fManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.MakefileCompletionProcessor"/>
+            <reference linenumber="-1" member="workingCopyManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory.workingCopyManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory"/>
+            <reference linenumber="-1" member="fManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor.fManager" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeCompletionProcessor"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getWorkingCopyManager" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory.getWorkingCopyManager()" signature="()Lorg/eclipse/cdt/make/ui/IWorkingCopyManager;" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AutomakeEditorFactory"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.make.ui.dialogs.MakeTargetDialog" type="org.eclipse.cdt.make.ui.dialogs.MakeTargetDialog">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="94" member="run" origin="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.cdt.autotools.ui.editors.automake.AddBuildTargetAction"/>
+        </reference_kind>
+    </target>
+</references>

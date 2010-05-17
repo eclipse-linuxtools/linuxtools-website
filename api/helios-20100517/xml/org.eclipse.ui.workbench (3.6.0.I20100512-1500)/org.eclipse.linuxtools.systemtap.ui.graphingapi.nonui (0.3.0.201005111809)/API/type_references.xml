@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui (0.3.0.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="19" reference_visibility="1">
+    <target name="org.eclipse.ui.IMemento" type="org.eclipse.ui.IMemento">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.IDataSetParser"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser.RowParser(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser"/>
+            <reference linenumber="-1" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser"/>
+        <reference linenumber="-1" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser.TableParser(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser"/>
+        <reference linenumber="-1" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+            <reference linenumber="-1" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.IDataSetFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.IDataSetFilter"/>
+            <reference linenumber="-1" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter"/>
+            <reference linenumber="-1" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter"/>
+            <reference linenumber="-1" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="79" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.row.RowParser"/>
+        <reference linenumber="94" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser"/>
+            <reference linenumber="37" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser.TableParser(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser"/>
+            <reference linenumber="90" member="saveXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser.saveXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)Z" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.datasets.table.TableParser"/>
+        <reference linenumber="100" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.UniqueFilter"/>
+            <reference linenumber="78" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.SortFilter"/>
+            <reference linenumber="62" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.MatchFilter"/>
+            <reference linenumber="97" member="writeXML" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter.writeXML(IMemento)" signature="(Lorg/eclipse/ui/IMemento;)V" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.filters.RangeFilter"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.plugin.AbstractUIPlugin" type="org.eclipse.ui.plugin.AbstractUIPlugin">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.internal.GraphingAPINonUIPlugin" type="org.eclipse.linuxtools.systemtap.ui.graphingapi.nonui.internal.GraphingAPINonUIPlugin"/>
+        </reference_kind>
+    </target>
+</references>

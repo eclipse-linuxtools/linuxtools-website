@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.jface.text.BadLocationException" type="org.eclipse.jface.text.BadLocationException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="90" member="runInUIThread" origin="org.eclipse.linuxtools.callgraph.core.DocWriter.runInUIThread(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.DocWriter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="90" member="runInUIThread" origin="org.eclipse.linuxtools.callgraph.core.DocWriter.runInUIThread(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.DocWriter"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.text.IDocument" type="org.eclipse.jface.text.IDocument">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="82" member="runInUIThread" origin="org.eclipse.linuxtools.callgraph.core.DocWriter.runInUIThread(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.core.DocWriter"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getConsoleDocumentByName" origin="org.eclipse.linuxtools.callgraph.core.Helper.getConsoleDocumentByName(String)" signature="(Ljava/lang/String;)Lorg/eclipse/jface/text/IDocument;" type="org.eclipse.linuxtools.callgraph.core.Helper"/>
+        </reference_kind>
+    </target>
+</references>

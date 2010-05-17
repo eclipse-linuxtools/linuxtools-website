@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.callgraph.launch (0.0.1.201005111809)" referee="org.eclipse.equinox.registry (3.5.0.v20100503)" reference_count="14" reference_visibility="1">
+    <target member="getName" name="org.eclipse.core.runtime.IConfigurationElement.getName()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1036" member="getText" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getConfigurationElementsFor" name="org.eclipse.core.runtime.IExtensionRegistry.getConfigurationElementsFor(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)[Lorg/eclipse/core/runtime/IConfigurationElement;" type="org.eclipse.core.runtime.IExtensionRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="391" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.6.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$6"/>
+            <reference linenumber="417" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.7.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$7"/>
+        </reference_kind>
+    </target>
+    <target member="getParent" name="org.eclipse.core.runtime.IConfigurationElement.getParent()" signature="()Ljava/lang/Object;" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="1011" member="getUsefulLabel" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.getUsefulLabel(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab"/>
+            <reference linenumber="1035" member="getText" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+            <reference linenumber="1009" member="getUsefulLabel" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.getUsefulLabel(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab"/>
+            <reference linenumber="1031" member="getText" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+            <reference linenumber="1029" member="getText" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.ListLabelProvider.getText(Object)" signature="(Ljava/lang/Object;)Ljava/lang/String;" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$ListLabelProvider"/>
+        </reference_kind>
+    </target>
+    <target member="getConfigurationElementsFor" name="org.eclipse.core.runtime.IExtensionRegistry.getConfigurationElementsFor(String, String, String)" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[Lorg/eclipse/core/runtime/IConfigurationElement;" type="org.eclipse.core.runtime.IExtensionRegistry">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="213" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getAttribute" name="org.eclipse.core.runtime.IConfigurationElement.getAttribute(String)" signature="(Ljava/lang/String;)Ljava/lang/String;" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="292" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="240" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+    <target member="getNamespaceIdentifier" name="org.eclipse.core.runtime.IConfigurationElement.getNamespaceIdentifier()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="421" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.7.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$7"/>
+        </reference_kind>
+    </target>
+    <target member="createExecutableExtension" name="org.eclipse.core.runtime.IConfigurationElement.createExecutableExtension(String)" signature="(Ljava/lang/String;)Ljava/lang/Object;" type="org.eclipse.core.runtime.IConfigurationElement">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="227" member="finishLaunch" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate.finishLaunch(ILaunch, ILaunchConfiguration, IProgressMonitor, boolean)" signature="(Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/core/runtime/IProgressMonitor;Z)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapLaunchConfigurationDelegate"/>
+            <reference linenumber="425" member="widgetSelected" origin="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab.7.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.linuxtools.callgraph.launch.SystemTapOptionsTab$7"/>
+        </reference_kind>
+    </target>
+</references>

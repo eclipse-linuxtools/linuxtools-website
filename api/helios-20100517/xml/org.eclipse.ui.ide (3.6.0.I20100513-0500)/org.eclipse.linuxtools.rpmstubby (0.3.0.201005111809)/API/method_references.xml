@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpmstubby (0.3.0.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="2" reference_visibility="1">
+    <target member="openEditor" name="org.eclipse.ui.ide.IDE.openEditor(IWorkbenchPage, IFile, boolean)" signature="(Lorg/eclipse/ui/IWorkbenchPage;Lorg/eclipse/core/resources/IFile;Z)Lorg/eclipse/ui/IEditorPart;" type="org.eclipse.ui.ide.IDE">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="313" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyGenerator$1"/>
+            <reference linenumber="246" member="run" origin="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator.1.run()" signature="()V" type="org.eclipse.linuxtools.rpmstubby.StubbyPomGenerator$1"/>
+        </reference_kind>
+    </target>
+</references>

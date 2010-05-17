@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.callgraph.core (0.0.1.201005111809)" referee="org.eclipse.ui.workbench (3.6.0.I20100512-1500)" reference_count="2" reference_visibility="1">
+    <target member="MAXIMIZE" name="org.eclipse.ui.actions.ActionFactory.MAXIMIZE" type="org.eclipse.ui.actions.ActionFactory">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="84" member="maximizeOrRefresh" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeOrRefresh(boolean)" signature="(Z)V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+            <reference linenumber="104" member="maximizeIfUnmaximized" origin="org.eclipse.linuxtools.callgraph.core.SystemTapView.maximizeIfUnmaximized()" signature="()V" type="org.eclipse.linuxtools.callgraph.core.SystemTapView"/>
+        </reference_kind>
+    </target>
+</references>

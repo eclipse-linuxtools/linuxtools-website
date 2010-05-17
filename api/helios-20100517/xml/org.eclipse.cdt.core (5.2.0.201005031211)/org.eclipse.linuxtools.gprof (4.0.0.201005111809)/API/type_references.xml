@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.gprof (4.0.0.201005111809)" referee="org.eclipse.cdt.core (5.2.0.201005031211)" reference_count="52" reference_visibility="1">
+    <target name="org.eclipse.cdt.core.model.ICProject" type="org.eclipse.cdt.core.model.ICProject">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="96" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.model.CModelException" type="org.eclipse.cdt.core.model.CModelException">
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="105" member="getDefaultBinary" origin="org.eclipse.linuxtools.gprof.action.OpenGmonAction.getDefaultBinary(IPath)" signature="(Lorg/eclipse/core/runtime/IPath;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.action.OpenGmonAction"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.cdt.core.IAddress" type="org.eclipse.cdt.core.IAddress">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="33" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+            <reference linenumber="31" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+            <reference linenumber="62" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+            <reference linenumber="64" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+        <reference linenumber="69" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.addBucket(Bucket, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addCallArc" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.addCallArc(IBinaryParserISymbol, IAddress, IBinaryParserISymbol, int)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;I)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc.CallGraphArc(CallGraphNode, IAddress, CallGraphNode, int, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;ILorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.IBinaryParser.ISymbol" type="org.eclipse.cdt.core.IBinaryParser$ISymbol">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="63" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+            <reference linenumber="32" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+            <reference linenumber="34" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+            <reference linenumber="65" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+        <reference linenumber="129" member="getSourcePath" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getSourcePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="71" member="addCallGraphNode" origin="org.eclipse.linuxtools.gprof.view.histogram.HistRoot.addCallGraphNode(CallGraphNode)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistRoot"/>
+            <reference linenumber="114" member="getSourceLine" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getSourceLine()" signature="()I" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="64" member="addCallGraphNode" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.addCallGraphNode(CallGraphNode)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+            <reference linenumber="90" member="getFunctionName" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getFunctionName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="88" member="getFunctionName" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getFunctionName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="76" member="getSamples" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getSamples()" signature="()I" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+            <reference linenumber="78" member="getSamples" origin="org.eclipse.linuxtools.gprof.view.histogram.CGArc.getSamples()" signature="()I" type="org.eclipse.linuxtools.gprof.view.histogram.CGArc"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8388608" reference_kind_name="DECLARED_PARAMETERIZED_METHOD">
+            <reference linenumber="-1" member="getNodes" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.getNodes()" signature="()Ljava/util/Map;" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4194304" reference_kind_name="DECLARED_PARAMETERIZED_FIELD">
+            <reference linenumber="-1" member="filenames" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.filenames" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+            <reference linenumber="-1" member="nodes" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.nodes" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+        <reference linenumber="-1" member="histSym" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.histSym" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.parser.HistogramDecoder.addBucket(Bucket, IBinaryParserISymbol)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)V" type="org.eclipse.linuxtools.gprof.parser.HistogramDecoder"/>
+            <reference linenumber="-1" member="addCallArc" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.addCallArc(IBinaryParserISymbol, IAddress, IBinaryParserISymbol, int)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;I)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+            <reference linenumber="-1" member="getFileName" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.getFileName(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)Ljava/lang/String;" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode.CallGraphNode(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)V" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode"/>
+        <reference linenumber="-1" member="getSamples" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.getSamples(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)I" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.HistFunction(HistFile, IBinaryParserISymbol)" signature="(Lorg/eclipse/linuxtools/gprof/view/histogram/HistFile;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+            <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistRoot.addBucket(Bucket, IBinaryParserISymbol, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistRoot"/>
+            <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.addBucket(Bucket, IBinaryParserISymbol, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+            <reference linenumber="-1" member="getChild" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.getChild(IBinaryParserISymbol)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;)Lorg/eclipse/linuxtools/gprof/view/histogram/HistFunction;" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="symbol" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode.symbol" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode"/>
+        <reference linenumber="-1" member="symbol" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.symbol" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSymbol" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode.getSymbol()" signature="()Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphNode"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.IAddressFactory" type="org.eclipse.cdt.core.IAddressFactory">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="61" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+            <reference linenumber="30" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.cdt.core.IBinaryParser.IBinaryObject" type="org.eclipse.cdt.core.IBinaryParser$IBinaryObject">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.GmonDecoder(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.GmonDecoder(IBinaryParserIBinaryObject, PrintStream)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;Ljava/io/PrintStream;)V" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc.CallGraphArc(CallGraphNode, IAddress, CallGraphNode, int, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;Lorg/eclipse/cdt/core/IAddress;Lorg/eclipse/linuxtools/gprof/symbolManager/CallGraphNode;ILorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.symbolManager.CallGraphArc"/>
+        <reference linenumber="-1" member="isGProfCompatible" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.isGProfCompatible(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Z" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+            <reference linenumber="-1" member="getProgramChecker" origin="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker.getProgramChecker(IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)Lorg/eclipse/linuxtools/gprof/utils/GprofProgramChecker;" type="org.eclipse.linuxtools.gprof.utils.GprofProgramChecker"/>
+        <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistRoot.addBucket(Bucket, IBinaryParserISymbol, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistRoot"/>
+            <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFunction.addBucket(Bucket, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFunction"/>
+            <reference linenumber="-1" member="addBucket" origin="org.eclipse.linuxtools.gprof.view.histogram.HistFile.addBucket(Bucket, IBinaryParserISymbol, IBinaryParserIBinaryObject)" signature="(Lorg/eclipse/linuxtools/gprof/symbolManager/Bucket;Lorg/eclipse/cdt/core/IBinaryParser$ISymbol;Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;)V" type="org.eclipse.linuxtools.gprof.view.histogram.HistFile"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getProgram" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.getProgram()" signature="()Lorg/eclipse/cdt/core/IBinaryParser$IBinaryObject;" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="60" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder"/>
+            <reference linenumber="29" member="decodeCallGraphRecord" origin="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64.decodeCallGraphRecord(DataInput)" signature="(Ljava/io/DataInput;)V" type="org.eclipse.linuxtools.gprof.parser.CallGraphDecoder_64"/>
+        <reference linenumber="102" member="handleOpenEvent" origin="org.eclipse.linuxtools.gprof.view.GmonViewer.handleOpenEvent(OpenEvent)" signature="(Lorg/eclipse/jface/viewers/OpenEvent;)V" type="org.eclipse.linuxtools.gprof.view.GmonViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="program" origin="org.eclipse.linuxtools.gprof.parser.GmonDecoder.program" type="org.eclipse.linuxtools.gprof.parser.GmonDecoder"/>
+        </reference_kind>
+    </target>
+</references>

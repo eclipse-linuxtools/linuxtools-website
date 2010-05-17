@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.callgraph (0.0.1.201005111809)" referee="org.eclipse.draw2d (3.6.0.v20100502-2050)" reference_count="9" reference_visibility="1">
+    <target name="org.eclipse.draw2d.Label" type="org.eclipse.draw2d.Label">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="528" member="drawAggregateView" origin="org.eclipse.linuxtools.callgraph.StapGraph.drawAggregateView()" signature="()V" type="org.eclipse.linuxtools.callgraph.StapGraph"/>
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="49" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+            <reference linenumber="54" member="&lt;init&gt;" origin="org.eclipse.linuxtools.callgraph.StapNode.StapNode(StapGraph, int, StapData)" signature="(Lorg/eclipse/linuxtools/callgraph/StapGraph;ILorg/eclipse/linuxtools/callgraph/StapData;)V" type="org.eclipse.linuxtools.callgraph.StapNode"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.draw2d.parts.ScrollableThumbnail" type="org.eclipse.draw2d.parts.ScrollableThumbnail">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="177" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="177" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.draw2d.LightweightSystem" type="org.eclipse.draw2d.LightweightSystem">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="176" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="176" member="initializeView" origin="org.eclipse.linuxtools.callgraph.CallgraphView.initializeView(Display, IProgressMonitor)" signature="(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.callgraph.CallgraphView"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.core.resources (3.6.0.V20100513-0800)" reference_count="3" reference_visibility="1">
+    <target name="org.eclipse.core.resources.IFile" type="org.eclipse.core.resources.IFile">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="470" member="export" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter.export(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersCSVExporter"/>
+        <reference linenumber="658" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog.handleBrowseWorkspace()" signature="()V" type="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.core.resources.IWorkspace" type="org.eclipse.core.resources.IWorkspace">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="657" member="handleBrowseWorkspace" origin="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog.handleBrowseWorkspace()" signature="()V" type="org.eclipse.linuxtools.dataviewers.dialogs.STDataViewersExportToCSVDialog"/>
+        </reference_kind>
+    </target>
+</references>

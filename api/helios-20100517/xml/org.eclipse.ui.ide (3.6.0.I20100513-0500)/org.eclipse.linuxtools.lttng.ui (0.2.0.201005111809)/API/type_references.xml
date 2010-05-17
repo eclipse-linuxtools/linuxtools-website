@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.ui.ide (3.6.0.I20100513-0500)" reference_count="4" reference_visibility="1">
+    <target name="org.eclipse.ui.dialogs.WizardNewProjectCreationPage" type="org.eclipse.ui.dialogs.WizardNewProjectCreationPage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectMainWizardPage" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectMainWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.ui.actions.WorkspaceModifyOperation" type="org.eclipse.ui.actions.WorkspaceModifyOperation">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+            <reference linenumber="196" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="196" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.ui (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="41" reference_visibility="1">
+    <target name="org.eclipse.jface.action.IAction" type="org.eclipse.jface.action.IAction">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="collapseAction" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.collapseAction" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+            <reference linenumber="-1" member="expandAction" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.expandAction" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getToolbarActions" origin="org.eclipse.linuxtools.valgrind.ui.IValgrindToolView.getToolbarActions()" signature="()[Lorg/eclipse/jface/action/IAction;" type="org.eclipse.linuxtools.valgrind.ui.IValgrindToolView"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.LabelProvider" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+            <reference linenumber="88" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.2" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$2"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuListener" type="org.eclipse.jface.action.IMenuListener">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IMenuManager" type="org.eclipse.jface.action.IMenuManager">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="112" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TreeSelection" type="org.eclipse.jface.viewers.TreeSelection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="111" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.DoubleClickEvent" type="org.eclipse.jface.viewers.DoubleClickEvent">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="doubleClick" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3.doubleClick(DoubleClickEvent)" signature="(Lorg/eclipse/jface/viewers/DoubleClickEvent;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IDoubleClickListener" type="org.eclipse.jface.viewers.IDoubleClickListener">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getDoubleClickListener" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.getDoubleClickListener()" signature="()Lorg/eclipse/jface/viewers/IDoubleClickListener;" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="doubleClickListener" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.doubleClickListener" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.3" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$3"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.ActionContributionItem" type="org.eclipse.jface.action.ActionContributionItem">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="dynamicActions" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.dynamicActions" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="78" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="32768" reference_kind_name="ALLOCATES_ARRAY">
+            <reference linenumber="100" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="102" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeContentProvider" type="org.eclipse.jface.viewers.ITreeContentProvider">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.1" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="contentProvider" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.contentProvider" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.IToolBarManager" type="org.eclipse.jface.action.IToolBarManager">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="76" member="createDynamicContent" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.createDynamicContent(String, String)" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/linuxtools/valgrind/ui/IValgrindToolView;" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.MenuManager" type="org.eclipse.jface.action.MenuManager">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="173" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="173" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.CoreMessagesViewer(Composite, int)" signature="(Lorg/eclipse/swt/widgets/Composite;I)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.Viewer" type="org.eclipse.jface.viewers.Viewer">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="inputChanged" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.1.inputChanged(Viewer, Object, Object)" signature="(Lorg/eclipse/jface/viewers/Viewer;Ljava/lang/Object;Ljava/lang/Object;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ITreeSelection" type="org.eclipse.jface.viewers.ITreeSelection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="176" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="176" member="menuAboutToShow" origin="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer.4.menuAboutToShow(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CoreMessagesViewer$4"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.TreeViewer" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="viewer" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.viewer" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="-1" member="viewer" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.viewer" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction.ExpandAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction.CollapseAction(TreeViewer)" signature="(Lorg/eclipse/jface/viewers/TreeViewer;)V" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.action.Action" type="org.eclipse.jface.action.Action">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.1" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction" type="org.eclipse.linuxtools.internal.valgrind.ui.ExpandAction"/>
+            <reference linenumber="56" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.1" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.2" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$2"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction" type="org.eclipse.linuxtools.internal.valgrind.ui.CollapseAction"/>
+            <reference linenumber="62" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.2" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart$2"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="showCoreAction" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showCoreAction" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+            <reference linenumber="-1" member="showToolAction" origin="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart.showToolAction" type="org.eclipse.linuxtools.internal.valgrind.ui.ValgrindViewPart"/>
+        </reference_kind>
+    </target>
+</references>

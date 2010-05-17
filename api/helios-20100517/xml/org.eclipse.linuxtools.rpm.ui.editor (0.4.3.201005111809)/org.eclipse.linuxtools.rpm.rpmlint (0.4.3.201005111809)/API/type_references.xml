@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" reference_count="41" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser">
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSpecfileParser" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileParser()" signature="()Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileParser;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="specfileParser" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.specfileParser" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="116" member="getSpecfileParser" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileParser()" signature="()Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileParser;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="125" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="errorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.errorHandler" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="taskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.taskHandler" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="137" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="42" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="43" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+            <reference linenumber="38" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16777216" reference_kind_name="DECLARED_PARAMETERIZED_VARIABLE">
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="42" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="38" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="43" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="-1" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="23" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution"/>
+            <reference linenumber="38" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution"/>
+            <reference linenumber="61" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+            <reference linenumber="51" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="61" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="58" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getEditor" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution.getEditor(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARpmlintResolution"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,361 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>Types used in org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)</title>
+</head>
+<body>
+<h3>Types used in org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)</h3>
+<p>The list of all referencing bundles is available <a href="#bundles">here</a>.</p>
+<h4>References</h4>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="30%"><b>Referenced Type</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="API references are references that are only made to public API of a bundle"><b>API</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal references are references that are only made to internal non-API of a bundle"><b>Internal</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Internal-Permissible references are references that are only made to internal non-API of a bundle, but are allowed via the x-friends directive"><b>Internal-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Fragment-Permissible references are references that are made to internal non-API of a host bundle by a fragment"><b>Fragment-Permissible</b></td>
+	<td bgcolor="#E0C040" align="center" width="8%" title="Illegal references are ones made to API that has restrictions"><b>Illegal</b></td>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyManager.html">org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyManager</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyType.html">org.eclipse.cdt.managedbuilder.buildproperties.IBuildPropertyType</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.BuildException.html">org.eclipse.cdt.managedbuilder.core.BuildException</a></b></td>
+	<td align="center">17</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.BuildListComparator.html">org.eclipse.cdt.managedbuilder.core.BuildListComparator</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IBuildObject.html">org.eclipse.cdt.managedbuilder.core.IBuildObject</a></b></td>
+	<td align="center">47</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IBuilder.html">org.eclipse.cdt.managedbuilder.core.IBuilder</a></b></td>
+	<td align="center">20</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IConfiguration.html">org.eclipse.cdt.managedbuilder.core.IConfiguration</a></b></td>
+	<td align="center">107</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IHoldsOptions.html">org.eclipse.cdt.managedbuilder.core.IHoldsOptions</a></b></td>
+	<td align="center">19</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.html">org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo</a></b></td>
+	<td align="center">45</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IManagedProject.html">org.eclipse.cdt.managedbuilder.core.IManagedProject</a></b></td>
+	<td align="center">24</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IMultiConfiguration.html">org.eclipse.cdt.managedbuilder.core.IMultiConfiguration</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IOption.html">org.eclipse.cdt.managedbuilder.core.IOption</a></b></td>
+	<td align="center">39</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IOptionApplicability.html">org.eclipse.cdt.managedbuilder.core.IOptionApplicability</a></b></td>
+	<td align="center">2</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IProjectType.html">org.eclipse.cdt.managedbuilder.core.IProjectType</a></b></td>
+	<td align="center">16</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.ITool.html">org.eclipse.cdt.managedbuilder.core.ITool</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.IToolChain.html">org.eclipse.cdt.managedbuilder.core.IToolChain</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.html">org.eclipse.cdt.managedbuilder.core.ManagedBuildManager</a></b></td>
+	<td align="center">71</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.html">org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin</a></b></td>
+	<td align="center">4</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature.html">org.eclipse.cdt.managedbuilder.core.ManagedCProjectNature</a></b></td>
+	<td align="center">7</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.core.ManagedOptionValueHandler.html">org.eclipse.cdt.managedbuilder.core.ManagedOptionValueHandler</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.envvar.IEnvironmentVariableProvider.html">org.eclipse.cdt.managedbuilder.envvar.IEnvironmentVariableProvider</a></b></td>
+	<td align="center">5</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#F2C3C3">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.internal.core.Builder.html">org.eclipse.cdt.managedbuilder.internal.core.Builder</a></b></td>
+	<td align="center">0</td>
+	<td align="center">12</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#F2C3C3">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.html">org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder</a></b></td>
+	<td align="center">0</td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#F2C3C3">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.internal.core.ToolChain.html">org.eclipse.cdt.managedbuilder.internal.core.ToolChain</a></b></td>
+	<td align="center">0</td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.macros.BuildMacroException.html">org.eclipse.cdt.managedbuilder.macros.BuildMacroException</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.macros.IBuildMacroProvider.html">org.eclipse.cdt.managedbuilder.macros.IBuildMacroProvider</a></b></td>
+	<td align="center">9</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator.html">org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator</a></b></td>
+	<td align="center">15</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator2.html">org.eclipse.cdt.managedbuilder.makegen.IManagedBuilderMakefileGenerator2</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.makegen.IManagedDependencyGenerator.html">org.eclipse.cdt.managedbuilder.makegen.IManagedDependencyGenerator</a></b></td>
+	<td align="center">1</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td><b><a href="./org.eclipse.cdt.managedbuilder.templateengine.ProjectCreatedActions.html">org.eclipse.cdt.managedbuilder.templateengine.ProjectCreatedActions</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">1</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.newmake.core.IMakeBuilderInfo.html">org.eclipse.cdt.newmake.core.IMakeBuilderInfo</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b><a href="./org.eclipse.cdt.newmake.core.IMakeCommonBuildInfo.html">org.eclipse.cdt.newmake.core.IMakeCommonBuildInfo</a></b></td>
+	<td align="center">8</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+	<td align="center">0</td>
+</tr>
+</table>
+<br><h4>Referencing Bundles</h4>
+<p>The following bundles have references to org.eclipse.cdt.managedbuilder.core (7.0.0.201005031211)</p>
+<a name="bundles"></a>
+<table border="1" width="80%">
+<tr>
+	<td bgcolor="#E0C040" width="50%"><b>Bundle</b></td>
+	<td bgcolor="#E0C040" width="20%" align="center"><b>Version</b></td>
+	<td bgcolor="#E0C040" width="10%" align="center"><b>Reference Count</b></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools</b></td>
+	<td>2.0.0.201005111809</td>
+	<td align="center">245</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.core</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">140</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+	<td><b>org.eclipse.linuxtools.cdt.autotools.ui</b></td>
+	<td>1.0.0.201005111809</td>
+	<td align="center">163</td>
+</tr>
+</table>
+<p><a href="../index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+

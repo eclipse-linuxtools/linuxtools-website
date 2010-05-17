@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.jface (3.6.0.I20100512-1930)" reference_count="13" reference_visibility="1">
+    <target name="org.eclipse.jface.viewers.LabelProvider" type="org.eclipse.jface.viewers.LabelProvider">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="91" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.1" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$1"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.1" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.CheckboxTableViewer" type="org.eclipse.jface.viewers.CheckboxTableViewer">
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="viewer" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.viewer" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="8" reference_kind_name="RETURN_TYPE">
+            <reference linenumber="-1" member="getViewer" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.getViewer()" signature="()Lorg/eclipse/jface/viewers/CheckboxTableViewer;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.IStructuredSelection" type="org.eclipse.jface.viewers.IStructuredSelection">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="init" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.init(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.viewers.ArrayContentProvider" type="org.eclipse.jface.viewers.ArrayContentProvider">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="90" member="createControl" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.operation.IRunnableWithProgress" type="org.eclipse.jface.operation.IRunnableWithProgress">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard.1" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.IWizardPage" type="org.eclipse.jface.wizard.IWizardPage">
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.WizardDialog" type="org.eclipse.jface.wizard.WizardDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="31" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="31" member="run" origin="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler.1.run()" signature="()V" type="org.eclipse.linuxtools.internal.valgrind.launch.ExportHandler$1"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.resource.ImageDescriptor" type="org.eclipse.jface.resource.ImageDescriptor">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage.ValgrindExportWizardPage(String, String, ImageDescriptor)" signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jface/resource/ImageDescriptor;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.WizardPage" type="org.eclipse.jface.wizard.WizardPage">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizardPage"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.jface.wizard.Wizard" type="org.eclipse.jface.wizard.Wizard">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindExportWizard"/>
+        </reference_kind>
+    </target>
+</references>

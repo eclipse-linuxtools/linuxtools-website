@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.lttng.ui (0.2.0.201005111809)" referee="org.eclipse.equinox.common (3.6.0.v20100503)" reference_count="37" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Status.Status(int, String, int, String, Throwable)" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/lang/Throwable;)V" type="org.eclipse.core.runtime.Status">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="53" member="warn" origin="org.eclipse.linuxtools.lttng.ui.TraceDebug.warn(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.TraceDebug"/>
+            <reference linenumber="45" member="info" origin="org.eclipse.linuxtools.lttng.ui.TraceDebug.info(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.TraceDebug"/>
+        <reference linenumber="262" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(int, String)" signature="(ILjava/lang/String;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="123" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="247" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+<target member="toOSString" name="org.eclipse.core.runtime.IPath.toOSString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="175" member="selectExperiment" origin="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView.selectExperiment(LTTngExperimentNode)" signature="(Lorg/eclipse/linuxtools/lttng/ui/views/project/model/LTTngExperimentNode;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.ProjectView"/>
+        <reference linenumber="39" member="&lt;init&gt;" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.ImportTraceWizardPage(IWorkbench, IStructuredSelection)" signature="(Lorg/eclipse/ui/IWorkbench;Lorg/eclipse/jface/viewers/IStructuredSelection;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+<target member="getPlugin" name="org.eclipse.core.runtime.IStatus.getPlugin()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="247" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="123" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.Path.Path(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.Path">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="310" member="validateFolderName" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateFolderName()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getException" name="org.eclipse.core.runtime.IStatus.getException()" signature="()Ljava/lang/Throwable;" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="124" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="248" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="toString" name="org.eclipse.core.runtime.IPath.toString()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="72" member="getDestination" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage.getDestination()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.ImportTraceWizardPage"/>
+        </reference_kind>
+    </target>
+    <target member="getSeverity" name="org.eclipse.core.runtime.IStatus.getSeverity()" signature="()I" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="277" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getStatus" name="org.eclipse.core.runtime.CoreException.getStatus()" signature="()Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="225" member="createNewFolder" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createNewFolder(String, URI)" signature="(Ljava/lang/String;Ljava/net/URI;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="getMessage" name="org.eclipse.core.runtime.IStatus.getMessage()" signature="()Ljava/lang/String;" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="248" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="124" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+        </reference_kind>
+    </target>
+    <target member="printStackTrace" name="org.eclipse.core.runtime.CoreException.printStackTrace()" signature="()V" type="org.eclipse.core.runtime.CoreException">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="142" member="createProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.createProject(String, URI, IProgressMonitor)" signature="(Ljava/lang/String;Ljava/net/URI;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+            <reference linenumber="87" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard"/>
+        <reference linenumber="83" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteExperimentHandler"/>
+            <reference linenumber="82" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteProjectHandler"/>
+            <reference linenumber="83" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler.execute(ExecutionEvent)" signature="(Lorg/eclipse/core/commands/ExecutionEvent;)Ljava/lang/Object;" type="org.eclipse.linuxtools.lttng.ui.views.project.handlers.DeleteTraceHandler"/>
+        <reference linenumber="141" member="closeProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.closeProject()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+            <reference linenumber="131" member="openProject" origin="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode.openProject()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.model.LTTngProjectNode"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.OperationCanceledException.OperationCanceledException()" signature="()V" type="org.eclipse.core.runtime.OperationCanceledException">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="202" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+            <reference linenumber="210" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        </reference_kind>
+    </target>
+    <target member="append" name="org.eclipse.core.runtime.IPath.append(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/runtime/IPath;" type="org.eclipse.core.runtime.IPath">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="179" member="createFolderHandle" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.createFolderHandle(String)" signature="(Ljava/lang/String;)Lorg/eclipse/core/resources/IFolder;" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="beginTask" name="org.eclipse.core.runtime.IProgressMonitor.beginTask(String, int)" signature="(Ljava/lang/String;I)V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="200" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        </reference_kind>
+    </target>
+    <target member="done" name="org.eclipse.core.runtime.IProgressMonitor.done()" signature="()V" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="213" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.NullProgressMonitor.NullProgressMonitor()" signature="()V" type="org.eclipse.core.runtime.NullProgressMonitor">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="96" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewProjectWizard"/>
+        </reference_kind>
+    </target>
+    <target member="isOK" name="org.eclipse.core.runtime.IStatus.isOK()" signature="()Z" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="283" member="validateLinkedResource" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateLinkedResource()" signature="()V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+            <reference linenumber="79" member="performFinish" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard.performFinish()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.AddTraceWizard"/>
+            <reference linenumber="306" member="validateFolderName" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.validateFolderName()" signature="()Z" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+    <target member="isCanceled" name="org.eclipse.core.runtime.IProgressMonitor.isCanceled()" signature="()Z" type="org.eclipse.core.runtime.IProgressMonitor">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="209" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+            <reference linenumber="201" member="execute" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.4.execute(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog$4"/>
+        </reference_kind>
+    </target>
+    <target member="getCode" name="org.eclipse.core.runtime.IStatus.getCode()" signature="()I" type="org.eclipse.core.runtime.IStatus">
+        <reference_kind flags="0" kind="512" reference_kind_name="INTERFACE_METHOD">
+            <reference linenumber="124" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.TraceErrorDialog"/>
+            <reference linenumber="248" member="updateStatus" origin="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog.updateStatus(IStatus)" signature="(Lorg/eclipse/core/runtime/IStatus;)V" type="org.eclipse.linuxtools.lttng.ui.views.project.dialogs.NewExperimentDialog"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" reference_count="12" reference_visibility="1">
+    <target member="getFilePath" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.getFilePath()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="67" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.RunScriptAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="56" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.ExportScriptAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.ExportScriptAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="dispose" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="248" member="dispose" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction.dispose()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.run()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="63" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="63" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="63" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction.TempFileAction()" signature="()V" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+        </reference_kind>
+    </target>
+</references>

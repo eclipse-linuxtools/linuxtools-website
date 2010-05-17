@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension (0.3.0.201005111809)" referee="org.eclipse.linuxtools.systemtap.ui.ide (0.3.0.201005111809)" reference_count="7" reference_visibility="1">
+    <target name="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.TempFileAction">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ViewScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.AddScriptAction"/>
+            <reference linenumber="62" member="run" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction.run(IAction)" signature="(Lorg/eclipse/jface/action/IAction;)V" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.DeleteScriptAction"/>
+        </reference_kind>
+    </target>
+    <target name="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction" type="org.eclipse.linuxtools.systemtap.ui.ide.actions.RunScriptAction">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction" type="org.eclipse.linuxtools.systemtap.ui.dashboardextension.actions.ExportScriptAction"/>
+        </reference_kind>
+    </target>
+</references>

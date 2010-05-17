@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools.core (1.0.0.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="4" reference_visibility="1">
+    <target member="schedule" name="org.eclipse.core.runtime.jobs.Job.schedule()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="142" member="addAutotoolsBuilder" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.addAutotoolsBuilder(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.jobs.Job.Job(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="119" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.1.1(String, ISchedulingRule, IProject, ICommand[])" signature="(Ljava/lang/String;Lorg/eclipse/core/runtime/jobs/ISchedulingRule;Lorg/eclipse/core/resources/IProject;[Lorg/eclipse/core/resources/ICommand;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature$1"/>
+        </reference_kind>
+    </target>
+    <target member="setRule" name="org.eclipse.core.runtime.jobs.Job.setRule(ISchedulingRule)" signature="(Lorg/eclipse/core/runtime/jobs/ISchedulingRule;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="141" member="addAutotoolsBuilder" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.addAutotoolsBuilder(IProject, IProgressMonitor)" signature="(Lorg/eclipse/core/resources/IProject;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.jobs.Job.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.cdt.autotools.core.AutotoolsNewProjectNature$1"/>
+        </reference_kind>
+    </target>
+</references>

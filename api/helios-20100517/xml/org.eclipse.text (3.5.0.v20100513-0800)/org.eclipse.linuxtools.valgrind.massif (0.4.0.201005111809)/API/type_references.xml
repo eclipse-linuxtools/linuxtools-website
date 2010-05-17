@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.valgrind.massif (0.4.0.201005111809)" referee="org.eclipse.text (3.5.0.v20100513-0800)" reference_count="2" reference_visibility="1">
+    <target name="org.eclipse.jface.text.BadLocationException" type="org.eclipse.jface.text.BadLocationException">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="86" member="openEditorForNode" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifHeapTreeNode;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="131072" reference_kind_name="CATCHES_EXCEPTION">
+            <reference linenumber="86" member="openEditorForNode" origin="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin.openEditorForNode(MassifHeapTreeNode)" signature="(Lorg/eclipse/linuxtools/internal/valgrind/massif/MassifHeapTreeNode;)V" type="org.eclipse.linuxtools.internal.valgrind.massif.MassifPlugin"/>
+        </reference_kind>
+    </target>
+</references>

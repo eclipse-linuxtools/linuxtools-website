@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.rpm.rpmlint (0.4.3.201005111809)" referee="org.eclipse.linuxtools.rpm.ui.editor (0.4.3.201005111809)" reference_count="44" reference_visibility="1">
+    <target member="setTaskHandler" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser.setTaskHandler(SpecfileTaskHandler)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;)V" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="125" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="95" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser.SpecfileParser()" signature="()V" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="116" member="getSpecfileParser" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileParser()" signature="()Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfileParser;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler.SpecfileTaskHandler(IFile, IDocument)" signature="(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileTaskHandler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="137" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="setErrorHandler" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser.setErrorHandler(SpecfileErrorHandler)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;)V" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="94" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+            <reference linenumber="122" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        </reference_kind>
+    </target>
+    <target member="parse" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser.parse(String)" signature="(Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileParser">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="96" member="visit" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor.visit(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Z" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintMarkerVisitor"/>
+        </reference_kind>
+    </target>
+    <target member="setFile" name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler.setFile(IFile)" signature="(Lorg/eclipse/core/resources/IFile;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="127" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="139" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler.SpecfileErrorHandler(IFile, IDocument)" signature="(Lorg/eclipse/core/resources/IFile;Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileErrorHandler">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="125" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+    <target member="setDocument" name="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler.setDocument(IDocument)" signature="(Lorg/eclipse/jface/text/IDocument;)V" type="org.eclipse.linuxtools.rpm.ui.editor.markers.SpecfileMarkerHandler">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="128" member="getSpecfileErrorHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileErrorHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileErrorHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+            <reference linenumber="140" member="getSpecfileTaskHandler" origin="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder.getSpecfileTaskHandler(IFile, String)" signature="(Lorg/eclipse/core/resources/IFile;Ljava/lang/String;)Lorg/eclipse/linuxtools/rpm/ui/editor/markers/SpecfileTaskHandler;" type="org.eclipse.linuxtools.rpm.rpmlint.builder.RpmlintBuilder"/>
+        </reference_kind>
+    </target>
+<target member="getSections" name="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.getSections()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+        </reference_kind>
+    </target>
+    <target member="getSpecfileSourceViewer" name="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getSpecfileSourceViewer()" signature="()Lorg/eclipse/jface/text/source/SourceViewer;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution"/>
+            <reference linenumber="56" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AInsertLineResolution"/>
+            <reference linenumber="28" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.ARemoveLineResolution"/>
+        </reference_kind>
+    </target>
+    <target member="getPackage" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection.getPackage()" signature="()Lorg/eclipse/linuxtools/rpm/ui/editor/parser/SpecfilePackage;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileSection">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+        </reference_kind>
+    </target>
+    <target member="getSpecfile" name="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor.getSpecfile()" signature="()Lorg/eclipse/linuxtools/rpm/ui/editor/parser/Specfile;" type="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+            <reference linenumber="37" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+            <reference linenumber="47" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution"/>
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="36" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+        </reference_kind>
+    </target>
+    <target member="getLine" name="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.getLine(int)" signature="(I)Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="47" member="run" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution.run(IMarker)" signature="(Lorg/eclipse/core/resources/IMarker;)V" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.AReplaceTextResolution"/>
+        </reference_kind>
+    </target>
+    <target member="getName" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileElement.getName()" signature="()Ljava/lang/String;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileElement">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="43" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="38" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+            <reference linenumber="38" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="40" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="39" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="44" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+            <reference linenumber="38" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+        </reference_kind>
+    </target>
+    <target member="getComplexSections" name="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile.getComplexSections()" signature="()Ljava/util/List;" type="org.eclipse.linuxtools.rpm.ui.editor.parser.Specfile">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+        </reference_kind>
+    </target>
+    <target member="getLineNumber" name="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileElement.getLineNumber()" signature="()I" type="org.eclipse.linuxtools.rpm.ui.editor.parser.SpecfileElement">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="42" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="44" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildSection"/>
+            <reference linenumber="39" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoPrepSection"/>
+            <reference linenumber="41" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleaningOfBuildroot"/>
+            <reference linenumber="39" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoInstallSection"/>
+            <reference linenumber="39" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoCleanSection"/>
+            <reference linenumber="46" member="getLineNumberForInsert" origin="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag.getLineNumberForInsert(SpecfileEditor)" signature="(Lorg/eclipse/linuxtools/rpm/ui/editor/SpecfileEditor;)I" type="org.eclipse.linuxtools.rpm.rpmlint.resolutions.NoBuildrootTag"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.dataviewers.charts (4.1.0.201005111809)" referee="org.eclipse.core.jobs (3.5.0.v20100510)" reference_count="4" reference_visibility="1">
+    <target member="schedule" name="org.eclipse.core.runtime.jobs.Job.schedule()" signature="()V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="181" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.core.runtime.jobs.Job.Job(String)" signature="(Ljava/lang/String;)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="160" member="&lt;init&gt;" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.1.1(SaveChartAction, String, File)" signature="(Lorg/eclipse/linuxtools/dataviewers/charts/actions/SaveChartAction;Ljava/lang/String;Ljava/io/File;)V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction$1"/>
+        </reference_kind>
+    </target>
+    <target member="run" name="org.eclipse.core.runtime.jobs.Job.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.1.run(IProgressMonitor)" signature="(Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/core/runtime/IStatus;" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction$1"/>
+        </reference_kind>
+    </target>
+    <target member="setUser" name="org.eclipse.core.runtime.jobs.Job.setUser(boolean)" signature="(Z)V" type="org.eclipse.core.runtime.jobs.Job">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="180" member="run" origin="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction.run()" signature="()V" type="org.eclipse.linuxtools.dataviewers.charts.actions.SaveChartAction"/>
+        </reference_kind>
+    </target>
+</references>

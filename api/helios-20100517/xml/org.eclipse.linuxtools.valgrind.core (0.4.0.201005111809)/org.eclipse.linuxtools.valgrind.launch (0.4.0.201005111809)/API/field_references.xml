@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.linuxtools.valgrind.launch (0.4.0.201005111809)" referee="org.eclipse.linuxtools.valgrind.core (0.4.0.201005111809)" reference_count="3" reference_visibility="1">
+    <target member="DEFAULT_GENERAL_SUPPFILES" name="org.eclipse.linuxtools.internal.valgrind.core.LaunchConfigurationConstants.DEFAULT_GENERAL_SUPPFILES" type="org.eclipse.linuxtools.internal.valgrind.core.LaunchConfigurationConstants">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="467" member="initializeFrom" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.initializeFrom(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="558" member="setDefaults" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab.setDefaults(ILaunchConfigurationWorkingCopy)" signature="(Lorg/eclipse/debug/core/ILaunchConfigurationWorkingCopy;)V" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindOptionsTab"/>
+            <reference linenumber="312" member="getValgrindArgumentsArray" origin="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.getValgrindArgumentsArray(ILaunchConfiguration)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;)[Ljava/lang/String;" type="org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate"/>
+        </reference_kind>
+    </target>
+</references>

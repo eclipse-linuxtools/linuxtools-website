@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.linuxtools.cdt.autotools (2.0.0.201005111809)" referee="org.eclipse.cdt.managedbuilder.ui (7.0.0.201005031211)" reference_count="3" reference_visibility="1">
+    <target member="&lt;init&gt;" name="org.eclipse.cdt.managedbuilder.ui.properties.AbstractCBuildPropertyTab.AbstractCBuildPropertyTab()" signature="()V" type="org.eclipse.cdt.managedbuilder.ui.properties.AbstractCBuildPropertyTab">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.AutotoolsBuildPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="32" member="&lt;init&gt;" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.AutotoolsBuildPropertyPage()" signature="()V" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+    <target member="getCfg" name="org.eclipse.cdt.managedbuilder.ui.properties.AbstractCBuildPropertyTab.getCfg()" signature="()Lorg/eclipse/cdt/managedbuilder/core/IConfiguration;" type="org.eclipse.cdt.managedbuilder.ui.properties.AbstractCBuildPropertyTab">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="45" member="getProject" origin="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.getProject()" signature="()Lorg/eclipse/core/resources/IProject;" type="org.eclipse.linuxtools.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage"/>
+        </reference_kind>
+    </target>
+</references>

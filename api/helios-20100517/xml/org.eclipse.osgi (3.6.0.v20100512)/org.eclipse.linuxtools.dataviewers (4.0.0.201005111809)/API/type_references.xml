@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.linuxtools.dataviewers (4.0.0.201005111809)" referee="org.eclipse.osgi (3.6.0.v20100512)" reference_count="5" reference_visibility="1">
+    <target name="org.osgi.framework.BundleContext" type="org.osgi.framework.BundleContext">
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="start" origin="org.eclipse.linuxtools.dataviewers.STDataViewersActivator.start(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.dataviewers.STDataViewersActivator"/>
+            <reference linenumber="-1" member="stop" origin="org.eclipse.linuxtools.dataviewers.STDataViewersActivator.stop(BundleContext)" signature="(Lorg/osgi/framework/BundleContext;)V" type="org.eclipse.linuxtools.dataviewers.STDataViewersActivator"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.osgi.util.NLS" type="org.eclipse.osgi.util.NLS">
+        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages" type="org.eclipse.linuxtools.dataviewers.abstractviewers.STDataViewersMessages"/>
+        <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages" type="org.eclipse.linuxtools.dataviewers.findreplace.RegExMessages"/>
+            <reference linenumber="-1" origin="org.eclipse.linuxtools.dataviewers.findreplace.EditorMessages" type="org.eclipse.linuxtools.dataviewers.findreplace.EditorMessages"/>
+        </reference_kind>
+    </target>
+</references>
