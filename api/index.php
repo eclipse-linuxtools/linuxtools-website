@@ -42,8 +42,7 @@ foreach ($files as $file) {
 	$cnt++;
 	if ($file != ".htaccess" && false===strpos($file,"index.") && $file != "CVS")
 	{
-#		echo '<tr><td> &#149; <a href="' . $file . '">' . $file . '</a></td></tr>';
-		echo '<tr><td> &#149; <a href="' foo '">' . $file . '</a></td></tr>';
+		echo '<tr><td> &#149;' . $file . '</td></tr>';
 	}
 }
 echo "</table>\n";
