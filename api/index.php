@@ -4,7 +4,7 @@ $thisDir = preg_replace("#(.+/)([^/]+$)#","$1",$_SERVER["SCRIPT_URL"]); #print $
 $cnt = 0;
 
 $files = array_merge(loadDirSimple("./",".*","f"), loadDirSimple("./",".*","d"));
-if (sizeof($files)>0) { ?>
+
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html>
 <head>
@@ -46,9 +46,7 @@ foreach ($files as $file) {
 	}
 }
 echo "</table>\n";
-} else {
-	echo "No API reports found.";
-}
+
 print "<p>&nbsp;</p>";
 
 function loadDirSimple($dir,$ext,$type) { // 1D array
