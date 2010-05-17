@@ -1,0 +1,611 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>AutotoolsPropertyConstants usage details</title>
+</head>
+<body>
+<h3>AutotoolsPropertyConstants usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants has 49 total references to 16 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.ACLOCAL_TOOL">
+<span>[+] </span>ACLOCAL_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAclocalAction.run(IAction)</td>
+<td align="center">86</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">163</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">280</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">155</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOCONF_TOOL">
+<span>[+] </span>AUTOCONF_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoconfAction.run(IAction)</td>
+<td align="center">41</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">302</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">185</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">193</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOCONF_VERSION">
+<span>[+] </span>AUTOCONF_VERSION
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.initializeACVersion()</td>
+<td align="center">235</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performOK()</td>
+<td align="center">143</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performOK()</td>
+<td align="center">132</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)</td>
+<td align="center">278</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOCONF_VERSION_COMPAT">
+<span>[+] </span>AUTOCONF_VERSION_COMPAT
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)</td>
+<td align="center">282</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOHEADER_TOOL">
+<span>[+] </span>AUTOHEADER_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoheaderAction.run(IAction)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeLibtoolizeAction.run(IAction)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">200</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">208</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">313</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOMAKE_TOOL">
+<span>[+] </span>AUTOMAKE_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutomakeAction.run(IAction)</td>
+<td align="center">80</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">178</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">291</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">170</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOMAKE_VERSION">
+<span>[+] </span>AUTOMAKE_VERSION
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performOK()</td>
+<td align="center">133</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.initializeAMVersion()</td>
+<td align="center">257</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.performOK()</td>
+<td align="center">154</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)</td>
+<td align="center">290</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTOMAKE_VERSION_COMPAT">
+<span>[+] </span>AUTOMAKE_VERSION_COMPAT
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.text.hover.AutoconfTextHover.getHoverDoc(IEditorInput)</td>
+<td align="center">294</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTORECONF_TOOL">
+<span>[+] </span>AUTORECONF_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.actions.InvokeAutoreconfAction.run(IAction)</td>
+<td align="center">60</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">215</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">324</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">223</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.AUTO_BUILD_NAME">
+<span>[+] </span>AUTO_BUILD_NAME
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.initialize()</td>
+<td align="center">215</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()</td>
+<td align="center">175</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()</td>
+<td align="center">169</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.CLEAN_DELETE">
+<span>[+] </span>CLEAN_DELETE
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()</td>
+<td align="center">150</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()</td>
+<td align="center">156</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.initialize()</td>
+<td align="center">213</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.CLEAN_MAKE_TARGET">
+<span>[+] </span>CLEAN_MAKE_TARGET
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.performOK()</td>
+<td align="center">161</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsBuildPropertyPage.initialize()</td>
+<td align="center">214</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.LIBTOOLIZE_TOOL">
+<span>[+] </span>LIBTOOLIZE_TOOL
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">238</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.performOK()</td>
+<td align="center">230</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsToolsPropertyTab.initialize()</td>
+<td align="center">335</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.SCANNER_USE_MAKE_W">
+<span>[+] </span>SCANNER_USE_MAKE_W
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCProjectWizardV2.doRun(IProgressMonitor)</td>
+<td align="center">198</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.ConvertToAutotoolsProjectWizardPage.convertProject(IProject, IProgressMonitor, String)</td>
+<td align="center">125</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.wizards.AutotoolsNewCCProjectWizardV2.doRun(IProgressMonitor)</td>
+<td align="center">198</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.fACVersions">
+<span>[+] </span>fACVersions
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.createControls(Composite)</td>
+<td align="center">101</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.createControls(Composite)</td>
+<td align="center">100</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.linuxtools.internal.cdt.autotools.core.AutotoolsPropertyConstants.fAMVersions">
+<span>[+] </span>fAMVersions
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>GETS_STATIC_FIELD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.createControls(Composite)</td>
+<td align="center">114</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.linuxtools.internal.cdt.autotools.ui.properties.AutotoolsEditorPropertyTab.createControls(Composite)</td>
+<td align="center">113</td>
+<td align="center"><span class="typeslnk">PRIVATE_PERMISSIBLE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

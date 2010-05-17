@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Methods" origin="org.eclipse.linuxtools.valgrind.cachegrind (0.4.0.201005111809)" referee="org.eclipse.cdt.launch (6.1.0.201005031211)" reference_count="1" reference_visibility="1">
-    <target member="abort" name="org.eclipse.cdt.launch.AbstractCLaunchDelegate.abort(String, Throwable, int)" signature="(Ljava/lang/String;Ljava/lang/Throwable;I)V" type="org.eclipse.cdt.launch.AbstractCLaunchDelegate">
-        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
-            <reference linenumber="55" member="handleLaunch" origin="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate.handleLaunch(ILaunchConfiguration, ILaunch, IProgressMonitor)" signature="(Lorg/eclipse/debug/core/ILaunchConfiguration;Lorg/eclipse/debug/core/ILaunch;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.linuxtools.internal.valgrind.cachegrind.CachegrindLaunchDelegate"/>
-        </reference_kind>
-    </target>
-</references>

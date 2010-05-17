@@ -48,7 +48,7 @@ foreach ($files as $file) {
 echo "</table>\n";
 
 } else {
-	echo "No files found!";
+	echo "No API reports found.";
 }
 print "<p>&nbsp;</p>";
 
