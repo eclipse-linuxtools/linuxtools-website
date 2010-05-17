@@ -42,12 +42,12 @@ foreach ($files as $file) {
 	$cnt++;
 	if ($file != ".htaccess" && false===strpos($file,"index.") && $file != "CVS")
 	{
-		echo '<tr><td> &#149; <a href="'$directDownloadPrefix . $file . '">' . $file. '</a></td></tr>';
+		echo '<tr><td> &#149; <a href="$file">' . $file . '</a></td></tr>';
 	}
 }
 echo "</table>\n";
 } else {
-	echo "No files found!";
+	echo "No API reports found.";
 }
 print "<p>&nbsp;</p>";
 
@@ -67,17 +67,4 @@ function loadDirSimple($dir,$ext,$type) { // 1D array
 	return $stuff;
 }
 
-function pretty_size($bytes)
-{
-	$sufs = array("B", "K", "M", "G", "T", "P"); //we shouldn't be larger than 999.9 petabytes any time soon, hopefully
-	$suf = 0;
-
-	while($bytes >= 1000)
-	{
-		$bytes /= 1024;
-		$suf++;
-	}
-
-	return sprintf("%3.1f%s", $bytes, $sufs[$suf]);
-}
 ?>
