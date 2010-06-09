@@ -183,7 +183,9 @@
 		<p>
 		The full installation procedure can be found in the User Guide. In Eclipse, switch to Help
 		(Help > Help Contents) and open the LTTng User Guide. Follow the installation procedure
-		from the "Getting Started/Installing the LTTng parsing library" page.
+		from the "Getting Started/Installing the LTTng parsing library" page.  More information is 
+		also available on the LTTng component's 
+		<a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng">wiki page</a>.
 		<p>
 		Note that you need the org.eclipse.linuxtools.lttng.help plugin to access the User Guide.
 
