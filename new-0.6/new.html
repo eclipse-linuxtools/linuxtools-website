@@ -174,8 +174,9 @@
 <a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
 <br>
 <a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools
-0.2.1</a> <br> <a href="http://www.eclipse.org/linuxtools/new-0.3">Linux
-Tools 0.3</a> <br>
+0.2.1</a> <br>
+<a href="http://www.eclipse.org/linuxtools/new-0.3">Linux Tools 0.3</a>
+<br>
 <a href="http://www.eclipse.org/linuxtools/new-0.4">Linux Tools 0.4</a>
 <br>
 <a href="http://www.eclipse.org/linuxtools/new-0.5.1">Linux Tools
@@ -202,13 +203,13 @@ in Linux Tools 0.6</span></p>
 <table cellpadding="10" cellspacing="0">
 	<tr>
 		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
-		<p align="right"><b>Change to .autotools file</b></p>
+		<p align="right"><b>Configuration</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">The latest version of the Autotools plug-in has
-		changed the format of the .autotools file to store configurations with
-		their configuration id rather than name. In addition, the order of
-		configuration options has been stabilized to a set order.</p>
+		<p align="left">The Autotools integration plugins add support for
+		running a configuration step prior to running the Makefile of existing
+		projects that use a configure or autogen.sh script.</p>
+		<p><img border="0" src="images-0.6/autotools-configuration.png">
 		</td>
 	</tr>
 	<tr>
@@ -216,15 +217,28 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
-</table>
-
-<table cellpadding="10" cellspacing="0">
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Maintenance</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The Autotools plugins include colourized editors
+		for configure scripts including hover help and completion for macros.</p>
+		<p><img border="0" src="images-0.6/autotools-editor.png"><br>
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
 	<tr>
 		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
 		<p align="right"><b>Project Templates</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">The GNU Autotools plug-in now provides template
+		<p align="left">The GNU Autotools plug-in provides template
 		projects for both C and C++ in the CDT C and C++ Project Wizards.
 		There are two templates for each language: an empty project template
 		used when importing existing projects and a sample "Hello World"
@@ -244,13 +258,11 @@ in Linux Tools 0.6</span></p>
 		<p align="right"><b>Autotools Configuration</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">The Autotools plug-in has been rewritten. As part
-		of the rewrite, the configuration settings have been moved under the
-		Autotools properties page. Configuration options are now stored in a
-		new project xml file: .autotools. The build directory is no longer
-		specified in the configuration settings. It is specified exclusively
-		using the "Build Location" setting found in the C/C++ Build properties
-		page.</p>
+		<p align="left">The configuration settings can be found under the
+		Autotools properties page. Configuration options write and store a new
+		project xml file: .autotools. Note that the build directory is not specified in
+		the configuration settings, it is specified exclusively using the
+		"Build Location" setting found in the C/C++ Build properties page.</p>
 		<img border="0" alt="New configuration settings"
 			src="images-0.6/autotools-newconfigure.png">
 		<p align="left">If the build location is not set, then by default,
@@ -278,14 +290,73 @@ in Linux Tools 0.6</span></p>
 <table cellpadding="10" cellspacing="0">
 	<tr>
 		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
-		<p align="right"><b>Support for removed functions/methods</b></p>
+		<p align="right"><b>Source code parsing</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">A fix has been made to the ChangeLog plug-in so
-		functions that have been removed are also added to a prepared
-		ChangeLog entry.</p>
-		<img border="0" alt="Sample ChangeLog function removal"
-			src="images-0.6/changelog-remove.png"></td>
+		<p align="left">The ChangeLog tools assist in generating ChangeLog
+		entries. Pressing the key combination Ctrl-Alt-c will parse the
+		current file and add a ChangeLog entry in the appropriate ChangeLog
+		file. C, C++, and Java source files are parsed to indicate
+		methods/functions which have been modified, added or removed. Hold Ctrl 
+		and click on one of the files to jump to that file in the Editor.</p>
+		<p><img border="0" src="images-0.6/changelog-generation-3.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Repository integration</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The ChangeLog tools can generate a ChangeLog entry
+		for projects that use a source code repository. Support is provided
+		for standard org.eclipse.team providers and has been tested with both
+		CVS and SVN repositories. A ChangeLog entry can be generated for all
+		changes between the local copy and the repository by pressing
+		Ctrl+Alt+p.</p>
+		<p><img border="0" src="images-0.6/changelog-generation.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Filename Support Improvements</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Previously files with blanks in their names or
+		parentheses or colons caused the ChangeLog parser to misinterpret the
+		actual file name vs the function name. This would prevent a Ctrl-click
+		from opening files properly. This is now fixed and files with such
+		names will show up with escape characters automatically added.
+		Ctrl-click now works on these files.</p>
+		<img border="0" alt="ChangeLog entry with spaces in file name"
+			src="images-0.6/changelog-odd-names.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Multiple files per entry</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The plugin now allows entries that have multiple
+		files specified in one entry. The multiple file names are separated by
+		commas and can continue on multiple lines. This is useful when there
+		is one change made on a large group of files. The Ctrl-click feature
+		works on each file.</p>
+		<img border="0" alt="ChangeLog entry with multiple file entries"
+			src="images-0.6/changelog-multiple-files.png"></td>
 	</tr>
 	<tr>
 		<td colspan="2">
@@ -404,8 +475,8 @@ in Linux Tools 0.6</span></p>
 		<p align="right"><b>C++ Support</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">The new Libhover Libstdc++ feature adds C++ hover
-		help for the libstdc++ library.</p>
+		<p align="left">The Libhover Libstdc++ feature adds C++ hover help
+		for the libstdc++ library.</p>
 		<img border="0" alt="Alt text for the image"
 			src="images-0.6/cpplibhover.png"></td>
 	</tr>
@@ -414,6 +485,24 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Standards</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The Libhover plugin adds C library hover help and
+		completion support for various C libraries including glibc and newlib.
+		The plugin provides an extension and a documentation format for adding
+		new C libraries in the future.</p>
+		<p><img border="0" src="images-0.6/libhover-sample.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+
 </table>
 
 <h2><a name="oprofile">OProfile Profiling</a></h2>
@@ -450,6 +539,100 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Timer Interrupt Profiling</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The plugin will now work with OProfile's timer
+		interrupt-based profiling. This happens automatically when the host
+		CPU has no debug registers, or can be forced by manually loading the
+		OProfile module with: <pre># modprobe oprofile timer=1</pre></p>
+		<img border="0" alt="Timer Interrupt Event In The OProfile View"
+			src="images-0.6/oprofile-timer-int-scr.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Multi-Architecture Support</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The plugin includes fragments to support PPC, x86 and x86_64 for
+		use with their respective processors.</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>New View</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The OProfile plugin gives users a way to
+		statistically profile a C/C++ application at runtime. It makes use of
+		the OProfile commandline tool to collect data on function calls and
+		time spent within functions. The plugin includes a way to view the
+		results of oprofile runs. Events are top level elements allowing
+		multiple events to be shown simultaneously. Double-clicking on a line
+		number node brings up an editor with the source file at the
+		appropriate line (if available). Double-clicking on the default
+		session (named "current") allows it to be saved for future viewing.</p>
+		<p><img border="0" alt="New OProfile View UI"
+			src="images-0.6/oprofile-newui.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>One Click Launch</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Profiling is as easy as a single click.
+		Right-clicking on a CDT binary, project or editor of a source file
+		will launch the associated project's binary under OProfile with no
+		configuration needed. Configuration is set to appropriate defaults for
+		the user's processor (an event based on execution time) and this
+		configuration is left for the user to customize later.</p>
+		<p><img border="0" alt="Launch Shortcut"
+			src="images-0.6/oprofile-launchshortcut.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Event Config Tab UI</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Allows users of all experience levels with
+		OProfile to take advantage of its powerful profiling capabilities.
+		Default event configuration option. Multiple hardware counters appear
+		as tabs. All unit masks properly displayed with appropriate defaults.
+		Caching of event check results allowing for faster validation.
+		Scrollable composite for events with many unit masks.</p>
+		<p><img border="0" alt="Event Config Tab"
+			src="images-0.6/oprofile-eventconfigtab.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
 </table>
 
 <h2><a name="callgraph">Eclipse Callgraph</a></h2>
@@ -476,11 +659,11 @@ in Linux Tools 0.6</span></p>
 		<p align="right"><b>Convert To DOT Language</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">Eclipse Callgraph can now save graphs to the DOT
+		<p align="left">Eclipse Callgraph can save graphs to the DOT
 		language. In Eclipse Callgraph, click the main menu and choose File ->
 		Save As, then choose an option to save parts of the graph or the whole
 		graph as a .dot file. Graphs in DOT language can then be graphed or
-		converted to other formats (e.g. PDF, PNG, etc.) by any of a large
+		converted to other formats (e.g. PDF, SVG, etc.) by any of a large
 		number of existing DOT parsing programs.</p>
 		<img border="0"
 			alt="Sample Callgraph-generated .dot file and resulting graph in graphviz"
@@ -614,26 +797,13 @@ in Linux Tools 0.6</span></p>
 <table cellpadding="10" cellspacing="0">
 	<tr>
 		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
-		<p align="right"><b>Improved Maven projects support</b></p>
+		<p align="right"><b>Generation</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">Proper install for jars in a pom project and make
-		use %{_mavenpomdir} macro.</p>
-		<img border="0" alt="Alt text for the image"
-			src="images-0.6/rpmstubby-mvn-install.png"></td>
-	</tr>
-	<tr>
-		<td colspan="2">
-		<hr>
-		</td>
-	</tr>
-	<tr>
-		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
-		<p align="right"><b>Simplification</b></p>
-		</td>
-		<td valign="top" width="70%">
-		<p align="left">Ability to generate gcj specific parts has been
-		dropped.</p>
+		<p align="left">The RPM Stubby plugin assists in generating an RPM
+		specfile for an Eclipse feature by using the data in its feature.xml.
+		The plugin uses the latest best practices for packaging an Eclipse
+		feature as an RPM.</p>
 		</td>
 	</tr>
 	<tr>
@@ -641,16 +811,31 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
-	<tr>
+		<tr>
 		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
 		<p align="right"><b>Robustness</b></p>
 		</td>
 		<td valign="top" width="70%">
-		<p align="left">Use %global macro instead of %define. See <a
+		<p align="left">Uses %global macro instead of %define. See <a
 			href="http://fedoraproject.org/wiki/PackagingDrafts/global_preferred_over_define">here</a>
 		for details.</p>
 		<img border="0" alt="Alt text for the image"
 			src="images-0.6/rpmstubby-global.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Improved Maven projects support</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Proper install for jars in a pom project and make
+		use of the %{_mavenpomdir} macro.</p>
+		<img border="0" alt="Alt text for the image"
+			src="images-0.6/rpmstubby-mvn-install.png"></td>
 	</tr>
 	<tr>
 		<td colspan="2">
@@ -671,6 +856,7 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
+	<tr>
 </table>
 
 <h2><a name="specfileeditor">RPM <tt>.spec</tt> Editor</a></h2>
@@ -682,9 +868,9 @@ in Linux Tools 0.6</span></p>
 		</td>
 		<td valign="top" width="70%">
 		<p align="left">Sometimes when working with an RPM spec file it is
-		necessary to download any referenced sources. The editor makes this
-		easy by allowing sources defined in the spec file to be downloaded
-		directly from inside Eclipse.</p>
+		necessary to download any referenced sources. The RPM .spec editor
+		makes this easy by allowing sources defined in the spec file to be
+		downloaded directly from inside Eclipse.</p>
 		<img border="0" alt="Alt text for the image"
 			src="images-0.6/specfile-download.png"></td>
 	</tr>
@@ -748,6 +934,65 @@ in Linux Tools 0.6</span></p>
 		setting up RPM projects.</p>
 		<img border="0" alt="RPM project"
 			src="images-0.6/specfile-new-rpm-project.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Rpmlint markers for .spec files</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The RPM .spec editor comes with an option to run
+		RPMLint on spec files. The RPMLint option will run the rpmlint tool and
+		mark warnings/errors on the spec file.</p>
+		<img border="0" src="images-0.6/specfile-rpm-rpmlint.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Structured compare support</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Structured compare has been added for ease of use
+		with version control systems.</p>
+		<img border="0" src="images-0.6/specfile-compare.png"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>%global definition support</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Support for %global way of defining variables. For
+		details about why %global should be preferred over %define see <a
+			href="https://fedoraproject.org/wiki/PackagingDrafts/global_preferred_over_define">here.</a>
+		</p>
+		<img border="0" src="images-0.6/specfile-global.png"></td>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Fully-featured editor</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">The RPM .spec editor is a fully featured editor
+		for spec files. It includes context-sensitive autocompletion support,
+		syntax highlighting, quick fixes, hover-help and other features
+		designed to make editing spec files easier.</p>
 	</tr>
 	<tr>
 		<td colspan="2">
@@ -844,6 +1089,105 @@ in Linux Tools 0.6</span></p>
 		<hr>
 		</td>
 	</tr>
+	<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+	<p align="right"><b>Massif Chart Interactivity</b></p>
+	</td>
+	<td valign="top" width="70%">
+	<p align="left">A new interactivity feature has been added to
+	Massif's heap allocation charts. As before, single-clicking on a data
+	point in the chart selects that snapshot in the Valgrind view. Now you
+	can double-click on a data point that is a detailed snapshot to open an
+	editor for one of its allocation function calls. This feature considers
+	all of the locations in your project's sources that call an allocation
+	function such as malloc or new. If your project contains functions that
+	serve as wrappers to allocation functions, be sure to add them to the
+	list of allocation functions in the launch configuration. This will
+	ensure you get the most meaningful profiling results.</p>
+	<img alt="Selecting A Function Call To Open"
+		src="images-0.6/valgrind-chart-interactive.png" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Fold Valgrind results</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">To help manage large amounts of profiling results,
+		all three tools offer a new "Expand/Collapse Beneath Selection"
+		feature in their tree viewers. Accessible from the viewer's context
+		menu, this will expand (or collapse) all items beneath the selected
+		element.</p>
+		<img alt="Expand/Collapse Beneath Action"
+			src="images-0.6/valgrind-expand-collapse.png" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Cachegrind Integration</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">A Cachegrind plugin allows users to profile the
+		cache and branch behaviour of their program. A hierarchical breakdown
+		of these statistics is presented in a tree for easy navigation and
+		sorting.</p>
+		<img alt="Cachegrind Profiling Results"
+			src="images-0.6/valgrind-cachegrind.png" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Memcheck Integration</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Support for Memcheck, the memory error-checking
+		tool, includes a tree view of errors and their corresponding stack
+		trace. Stack frames can be double-clicked to show the given line in an
+		editor. Markers annotate the corresponding source code.</p>
+		<p><img border="0" src="images-0.6/valgrind-memcheck.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" width="15%" bgcolor=#FAF7FB>
+		<p align="right"><b>Massif Integration</b></p>
+		</td>
+		<td valign="top" width="70%">
+		<p align="left">Massif integration consists of three different
+		forms of output. A table view lists each heap snapshot taken. Of these
+		snapshots, some have more detailed information available, including a
+		call trace of the functions performing heap allocations in each
+		snapshot. This extended information is available in a tree view
+		accessible either by double clicking on a snapshot with the "tree"
+		icon, or by clicking the similar icon in the Valgrind view's toolbar.
+		Within the tree view, allocation functions found in source files can
+		be viewed in an editor by double clicking on the element in the tree.
+		Finally, there is a heap chart displayed in an editor that graphically
+		outlines the information provided in the snapshots. Clicking on a
+		point in the chart selects the snapshot in the table.</p>
+		<p><img border="0" src="images-0.6/valgrind-massif.png">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr>
+		</td>
+	</tr>
 </table>
 
 
@@ -892,8 +1236,8 @@ in Linux Tools 0.6</span></p>
 		<p align="left">Linux Tools encompasses a fully-featured IDE for
 		the SystemTap language. This includes a SystemTap editor and views
 		that list available systemtap probes, systemtap functions and the
-		kernel source code. Code completion, context-assistance and
-		highlighting are all included in the IDE.</p>
+		kernel source code. Code completion, code folding, context-assistance
+		and highlighting are all included in the IDE.</p>
 		<img border="0" alt="SystemTap IDE"
 			src="images-0.6/Screenshot-systemtap-1.png"></td>
 	</tr>
