@@ -20,8 +20,8 @@
 	          We build on the source editing and debugging features of the
 	          <a href="http://eclipse.org/cdt">CDT</a> and integrate popular native
 	          development tools such as the GNU Autotools, Valgrind, OProfile, RPM, SystemTap, GCov, GProf, LTTng, etc.  Current
-	          projects include Autotools build integration, a Valgrind heap usage analysis tool, and an OProfile call profiling
-	          tool.  We also have projects implementing LTTng trace viewers and analyzers.
+	          projects include LTTng trace viewers and analyzers, an RPM .spec editor, Autotools build integration, a Valgrind heap 
+	          usage analysis tool, and OProfile call profiling tools.
 	          </p>
 	          <p>
 	          The project also provides a place for Linux
@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.5.1</b> release (<em>2010-05-12</em>)!</td>
+	                    <td>Get our latest <b>0.6.0</b> release (<em>2010-06-23</em>)!  It's a part of <a href="http://eclipse.org/helios/">Helios</a> or is available from our update site (see our <a href="http://www.eclipse.org/linuxtools/downloads.php">downloads page</a> for more details).</td>
 	                  </tr>
 	                </table>
 	              </td>
@@ -90,6 +90,7 @@
 	          <div class="homeitem3col">
 				<h3>Project News</h3>
 				<ul>
+				    <li><em>2010-06-23</em>:  Our 0.6.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/helios/">Helios</a>!  There is also an <a href="http://www.eclipse.org/downloads/">all-in-one EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 				    <li><em>2010-05-12</em>:  Our 0.5.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
 				    <li><em>2010-03-18</em>:  Our 0.5.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 				    <li><em>2009-12-21</em>:  Our 0.4.1 bug-fix release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>, fixing some Autotools and OProfile plugin <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;target_milestone=0.4.1;product=Linux%20Tools;classification=Technology">bugs</a>.
