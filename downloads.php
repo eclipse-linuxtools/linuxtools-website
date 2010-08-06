@@ -38,7 +38,7 @@
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>Nightly builds&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
-		<br>&nbsp;&nbsp;&nbsp;Zips of these nightly builds are available here:  <a href="http://download.eclipse.org/technology/linuxtools/">http://download.eclipse.org/technology/linuxtools/</a>
+<!--		<br>&nbsp;&nbsp;&nbsp;Zips of these nightly builds are available here:  <a href="http://download.eclipse.org/technology/linuxtools/">http://download.eclipse.org/technology/linuxtools/</a> -->
 		<ul>
 			<li>
 				Nightly update site:  <b>http://download.eclipse.org/technology/linuxtools/updates-nightly</b>
@@ -58,6 +58,11 @@
 		<li>&nbsp;&nbsp;&nbsp;<a href="/linuxtools/projectPages/callgraph">Function Callgraph</a> (<a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/callgraph-realtimeparsing.ogg">original Ogg Theora</a>, <a href="http://video.linuxfoundation.org/video/1198">Flash video for viewing in a web browser</a>))</li>
 		
 		</ul>
+		</div>
+		
+		<div class="homeitem3col" style="margin-left:40px; width:90%">
+		<h3>Older releases</h3>
+		&nbsp;&nbsp;&nbsp;<a href="http://archive.eclipse.org/technology/linuxtools/">archive.eclipse.org</a> hosts older releases.  If a URL contains <tt>download.php?file=</tt> then it will function whether something is on the Eclipse mirrors, at download.eclipse.org, or if it has been moved to archive.eclipse.org.
 		</div>
 	</div>
 
