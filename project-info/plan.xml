@@ -268,6 +268,23 @@
 			<proposed>
 			</proposed>
 		</theme>
+		<theme name="Improve Valgrind integration">
+			<description>
+				<html:p>
+					The present state of Valgrind integration in the Linux Tools Project
+					allows C/C++ Eclipse users to easily profile their code using the
+					Memcheck, Massif and Cachegrind tools. The results of the run are integrated
+					into the workbench through views and editors that users would expect to see. Our
+					future goal is to improve the incentive of using Valgrind with
+					Eclipse versus the command line. One such feature we hope to offer is to
+					be able profile projects in your local workspace on remote machines.
+				</html:p>
+			</description>
+			<committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;component=Valgrind;target_milestone=0.7;product=Linux%20Tools;classification=Technology">
+			</committed>
+			<proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;component=Valgrind;target_milestone=0.7;product=Linux%20Tools;classification=Technology">
+			</proposed>
+		</theme>
 	</themes_and_priorities>
 	<appendix />
 </plan>
