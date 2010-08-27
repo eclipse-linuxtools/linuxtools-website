@@ -44,7 +44,7 @@
 	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
 	                  </tr>
 	                  <tr>
-	                    <td>Get our latest <b>0.6.0</b> release (<em>2010-06-23</em>)!  It's a part of <a href="http://eclipse.org/helios/">Helios</a> or is available from our update site (see our <a href="http://www.eclipse.org/linuxtools/downloads.php">downloads page</a> for more details).</td>
+	                    <td>Get our latest <b>0.6.1</b> release (<em>2010-08-26</em>)!  Previous version (0.6.0) a part of <a href="http://eclipse.org/helios/">Helios</a> or is available from our update site (see our <a href="http://www.eclipse.org/linuxtools/downloads.php">downloads page</a> for more details).</td>
 	                  </tr>
 	                </table>
 	              </td>
