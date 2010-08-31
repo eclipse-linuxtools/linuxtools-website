@@ -77,7 +77,7 @@
 
         <h4>LTTng internals</h4>
         <ul>
-            <li>Integration of UST</li>
+            <li>Integration of User Space Tracing (UST)</li>
             <li>Integration of trace synchronization analysis</li>
             <li>Integration of dependency analysis</li>
         </ul>
@@ -90,12 +90,15 @@
             <li>Correlation of heterogeneous traces</li>
             <li>Generic tracing project management</li>
             <li>Generic tracing tool control</li>
-            <li>Generic tracing views</li>
+            <li>Generic tracing and statistical views</li>
+            <li>Event filtering and color coding</li>
+            <li>Trace annotation</li>
+            <li>Source code lookup</li>
             <li>Toolbox of tracing widgets that can be used to assemble application specific views</li>
             <li>Toolbox of statistical widgets</li>
             <li>Wizards for tracing/logging/monitoring application integration</li>
             <li>Wizards for parser generation (CSV, XML, plain text, regular expression, ...)</li>
-            <li>Wizards for analysis components integration</li>
+            <li>Wizards for analysis components integration (generic or proprietary)</li>
             <li>Support for Cut and Paste, Drag and Drop, etc</li>
         </ul>
 
