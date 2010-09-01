@@ -109,6 +109,13 @@
 				Native development tools: SystemTap integration, Autotools, libhover, ChangeLog, OProfile, Valgrind, GProf, LTTng
 			</html:p>
 		</milestone>
+		<milestone date="2010-08-27" milestone="0.6.1">
+			<html:p>0.6 release</html:p>
+			<html:p>
+				Bug-fix release for 0.6.1.
+				Updated eclipse-build for Eclipse 3.6.
+			</html:p>
+		</milestone>
 		<!--
 		<milestone date="2011 Q3" milestone="1.0">
 			<html:p>1.0 release</html:p>
@@ -126,11 +133,12 @@
 			updating from 3.3 in places) and require Java 5.0. Some
 			tools -- notable the autotools and profiling plugins -- require CDT &gt;= 5.0.0 (6.0 for our 0.3 release and greater).
 			For releases &gt;= 0.3, the tools run with Eclipse 3.5.x and related dependencies.
+			For releases &gt;= 0.6, the tools run with Eclipse 3.6.x and related dependencies.
 		</html:p>
 		<html:p>
 			The packaging tools not delivered as Eclipse plugins have
 			varying requirements but generally require basic tools such
-			as bash, sh, sed, awk, grep, etc.
+			as ant, bash, sh, sed, awk, grep, etc.
 		</html:p>
 		<internationalization>
 			<html:p>
@@ -285,6 +293,21 @@
 			</committed>
 			<proposed
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;classification=Technology&amp;component=Valgrind&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
+			</proposed>
+		</theme>
+		<theme name="Improve consumability">
+			<description>
+				<html:p>
+					In order to ease the lives of our consumer community, we will work towards a more stable API.
+					As part of this effort, we will track our usage of the internal APIs of our dependencies.
+					We will also attempt to regularly run the PDE API Tools on our code base to ensure we don't break our own API. 
+				</html:p>
+			</description>
+			<committed
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;classification=Technology&amp;component=Project&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
+			</committed>
+			<proposed
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;classification=Technology&amp;component=Project&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
 			</proposed>
 		</theme>
 	</themes_and_priorities>
