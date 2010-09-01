@@ -13,7 +13,8 @@
 
 		<p>
 		The preferred method of installation is via the
-		Update Manager (<a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a>).
+		Update Manager (<a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a>).  A getting started
+		guide is <a href="http://wiki.eclipse.org/Linux_Tools_Project/Getting_Started">available on the wiki</a>.
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
