@@ -26,13 +26,14 @@ Using autotools is very common in the world of Open Source projects such as thos
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with CDT 5.0.1, the plugin can do the following:
+		In conjunction with the CDT, the plugin can do the following:
 		<ul>
           <li>Build a C/C++ project that uses a configure script or an autogen script or a Makefile.cvs script</li>
+	  <li>Create a simple C or C++ hello world Autotools project via a template</li>
           <li>Allow configuration parameters to be set via a gui and to rebuild when configuration parameters are changed</li>
           <li>Colorized editing of configuration files such as configure.in, configure.ac, Makefile.am, and Makefile.in with full hover help for autoconf/automake macros</li>
           <li>Allow specification of multiple build configurations for a single project</li>
-          <li>Run autoconf, automake, or aclocal directly using a gui interface</li>
+          <li>Run autotools such as autoconf, automake, or aclocal directly using a gui interface</li>
 	  <li>Help for autoconf and automake</li>
         </ul>
 		</p>
@@ -40,10 +41,11 @@ Using autotools is very common in the world of Open Source projects such as thos
 		<h2>Future Plans</h2>
 		<p>
 		<ul>
-		  <li>Wizard support for creation of Autotool projects </li>
-		  <li>Templates for autoconf/automake input files</li>
-          <li>Better error parsing of autoconf/automake input files </li>
-          <li> Increase test coverage</li>
+		  <li>Wizard support for creation of Autotool projects</li>
+		  <li>Templates for autoconf/automake tasks</li>
+          <li>Better error parsing of autoconf/automake input files</li>
+	  <li>Support loading of missing packages noted by pkg-config</li>
+          <li>Increased test coverage</li>
         </ul>
 		</p>
 
@@ -57,7 +59,7 @@ Using autotools is very common in the world of Open Source projects such as thos
 		</p>
 		<p>
 		  <center>
-		    <img src="images/autotoolsConfig.png">
+		    <img src="images/autotoolsConfig2.png">
 		    <br>
 		    Autotools configuration parameters
 		  </center>
@@ -76,9 +78,12 @@ Using autotools is very common in the world of Open Source projects such as thos
 		  Or check the project plugins out of SVN
 		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
           You will need to check out the following from autotools/trunk:
-<pre>     org.eclipse.linuxtools.autotools
-     org.eclipse.linuxtools.autotools.docs
-     org.eclipse.linuxtools.autotools-feature
+<pre>
+     org.eclipse.linuxtools.cdt.autotools
+     org.eclipse.linuxtools.cdt.autotools.core
+     org.eclipse.linuxtools.cdt.autotools.ui
+     org.eclipse.linuxtools.cdt.autotools-docs
+     org.eclipse.linuxtools.cdt.autotools-feature
 </pre>
 From there, run the plugins as an Eclipse Application.
 		</p>
