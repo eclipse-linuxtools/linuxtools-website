@@ -13,7 +13,6 @@
 	        <td valign="top">
 	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
 	        </td>
-	        <td></td>
 	        <td valign="top">
 	          <p>
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
@@ -50,22 +49,6 @@
 	              </td>
 	            </tr>
 
-	            <!-- Get Involved -->
-	            <tr>
-	              <td width=20></td>
-	              <td><a href="/linuxtools/getInvolved.php"><img border=0 src="images/community.jpg"></a></td>
-	              <td>
-	                <table border="0" cellpadding="0">
-	                  <tr>
-	                    <td><font size=+1><a href="/linuxtools/getInvolved.php">Get Involved</a></font></td>
-	                  </tr>
-	                  <tr>
-	                    <td>Find out how you can get involved with the project</td>
-	                  </tr>
-	                </table>
-	              </td>
-	            </tr>
-
 	            <!-- Plans -->
 	            <tr>
 	              <td width=20></td>
@@ -81,8 +64,6 @@
 	                </table>
 	              </td>
 	            </tr>
-
-	            <tr height=11></tr>
 
 	          </table>
 
