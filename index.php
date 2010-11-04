@@ -91,9 +91,9 @@
 	    </table>
 	</div>
 
-	include("_rightColumn.php");
 
 EOHTML;
+	include("_rightColumn.php");
 
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
