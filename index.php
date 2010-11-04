@@ -25,7 +25,7 @@
 	          Eclipse SDK that can be used by all Linux distributions building and distributing it.
 	          </p>
 	</div>
-	    <? include("_rightColumn.php"); ?>
+	    <?php include("_rightColumn.php"); ?>
 </div>
 <?php
     $html = ob_get_clean();
