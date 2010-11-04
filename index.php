@@ -5,8 +5,8 @@
 	$pageAuthor		= "Andrew Overholt";
 
 	# Paste your HTML content between the EOHTML markers!
-	$html = <<<EOHTML
-
+	ob_start();?>
+<div id="maincontent">
 	<div id="midcolumn">
 	    <table border="0" cellpadding="5">
 	      <tr>
@@ -90,11 +90,10 @@
 	      </tr>
 	    </table>
 	</div>
-
-
-EOHTML;
-	include("_rightColumn.php");
-
+	    <? include("_rightColumn.php"); ?>
+</div>
+<?php
+    $html = ob_get_clean();
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
