@@ -37,7 +37,7 @@
 		<br/><br/><br/>
 	</div>
 
-	<div id="rightcolumn" class="sideitem" style="text-align: center">
+	<div id="rightcolumn" class="sideitem">
 	    <h6>Incubation</h6>
 	    <a href="/projects/what-is-incubation.php"><img alt="Incubation" src="/images/egg-incubation.png"/></a>
 	</div>
