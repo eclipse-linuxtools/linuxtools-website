@@ -1,6 +1,7 @@
 <div class="sideitem">
 	<h6>News</h6>
 	<ul>
+	                <li><em>2010-08-27</em>:  Our 0.6.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
 				    <li><em>2010-06-23</em>:  Our 0.6.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/helios/">Helios</a>!  There is also an <a href="http://www.eclipse.org/downloads/">all-in-one EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 				    <li><em>2010-05-12</em>:  Our 0.5.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
 				    <li><em>2010-03-18</em>:  Our 0.5.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
