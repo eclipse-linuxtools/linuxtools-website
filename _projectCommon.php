@@ -50,5 +50,5 @@ $Nav->addNavSeparator("Packaging/Distribution Projects", "/linuxtools/index.php"
 	$Nav->addCustomNav("RPM Stubby", "/linuxtools/projectPages/rpmstubby", "_self", 2);
 	$Nav->addCustomNav("Specfile Editor", "/linuxtools/projectPages/specfile", "_self", 2);
 	$Nav->addCustomNav("Distribution Packaging Status", 	"http://wiki.eclipse.org/Linux_Distributions_Packaging_Status", "_self", 2);
-	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"$homeurl/style.css\"/>\n");
+	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"/linuxtools/style.css\"/>\n");
 ?>
