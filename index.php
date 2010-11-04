@@ -7,7 +7,7 @@
 	# Paste your HTML content between the EOHTML markers!
 	ob_start();?>
 <div id="maincontent">
-	<div id="midcolumn">
+	<div id="midcolumn" class="homeitem">
 	    <table border="0" cellpadding="5">
 	      <tr>
 	        <td valign="top">
