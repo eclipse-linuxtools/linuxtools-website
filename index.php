@@ -8,12 +8,7 @@
 	ob_start();?>
 <div id="maincontent">
 	<div id="midcolumn" class="homeitem">
-	    <table border="0" cellpadding="5">
-	      <tr>
-	        <td valign="top">
 	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
-	        </td>
-	        <td valign="top">
 	          <p>
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
 	          We build on the source editing and debugging features of the
@@ -29,47 +24,6 @@
 	          packaging.  Since our 0.3.0 release, one of our features is a source archive of the
 	          Eclipse SDK that can be used by all Linux distributions building and distributing it.
 	          </p>
-
-	          <table border="0" cellpadding="5">
-	            <tr height=9>
-
-	            <!-- Downloads -->
-	            <tr>
-	              <td width=20></td>
-	              <td><a href="/linuxtools/downloads.php"><img border=0 src="images/downloads.gif"></a></td>
-	              <td>
-	                <table border="0" cellpadding="0">
-	                  <tr>
-	                    <td><font size=+1><a href="/linuxtools/downloads.php">Downloads</a></font></td>
-	                  </tr>
-	                  <tr>
-	                    <td>Get our latest <b>0.6.1</b> release (<em>2010-08-26</em>)!  Previous version (0.6.0) a part of <a href="http://eclipse.org/helios/">Helios</a> or is available from our update site (see our <a href="http://www.eclipse.org/linuxtools/downloads.php">downloads page</a> for more details).</td>
-	                  </tr>
-	                </table>
-	              </td>
-	            </tr>
-
-	            <!-- Plans -->
-	            <tr>
-	              <td width=20></td>
-	              <td><a href="http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros"><img border=0 src="images/reference.png"></a></td>
-	              <td>
-	                <table border="0" cellpadding="0">
-	                  <tr>
-	                    <td><font size=+1><a href="http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros">Plans</a></font></td>
-	                  </tr>
-	                  <tr>
-	                    <td>See the project plans</td>
-	                  </tr>
-	                </table>
-	              </td>
-	            </tr>
-
-	          </table>
-
-	         </td>
-	      </tr>
-	    </table>
 	</div>
 	    <? include("_rightColumn.php"); ?>
 </div>
