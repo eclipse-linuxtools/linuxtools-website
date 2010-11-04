@@ -9,7 +9,7 @@ else
 	$theme = "Lazarus";
 }
 
-#$theme="Nova";
+$theme="Nova";
 
 $Nav->setLinkList(null);
 
