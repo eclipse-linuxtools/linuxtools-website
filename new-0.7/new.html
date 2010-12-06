@@ -109,6 +109,7 @@
 	<li><a href="#systemtap">Systemtap Editor (# of items for this area; comment out if none)</a></li>
 	<li><a href="#systemtapprofiling">Systemtap-based Profiling (# of items for this area; comment out if none)</a></li>
 	<li><a href="#valgrind">Valgrind Profiling (# of items for this area; comment out if none)</a></li>
+	<li><a href="#lttng">LTTng (4)</a></li>
 </ul>
 
 <h2><a name="autotools">GNU Autotools Support</a></h2>
@@ -490,6 +491,88 @@
 		<tr>
 			<td colspan="2">
 			<hr>
+			</td>
+		</tr>
+</table>
+
+
+<h2><a name="lttng">LTTng</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Histogram View</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+			The Histogram View layout has been improved. The larger histogram, at
+			the bottom, shows the events distribution over the whole trace.
+			The timetamps (sec.nanosec) correspond to the first and the last
+			events in the trace. The selected area corresponds to the current
+			time range window. When clicking in that viewer, the mouse wheel
+			can be used to zoom in/out and update the time range window.
+			<p>
+      		The smaller histogram, on the top right of the view, is a zoom
+      		of the current time range window. It also has timestamps on the
+      		bottom that correspond to the time range. The scale of the
+      		histogram (i.e. the number of events) is displayed on the right.
+      		<p>
+      		The three text fields keep track of, respectively, [1] the timestamp
+      		of the currently selected event, [2] the time range window size, and
+      		[3] the timestamp of the window center. 
+			</p>
+			<img border="0" alt="Alt text for the image" src="images-0.7/LTTngHistogramView.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Help re-vamped</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+			The LTTng Help was re-vamped base on the wiki-based LTTng User
+			Guide.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Individual trace analysis</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+			It is now possible to bypass the experiment and to select an
+			individual trace for analysis. The trace can be selected from the
+			Traces folder or from an experiment folder (under Experiments).
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Performance Improvements</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+			Miscellaneous performance improvements. The current version runs
+			~20 times faster than the original delivery (which was definitely
+			not a speed demon...) and executes now in an acceptable time
+			compared to the C version of the visualizer.
+			</p>
 			</td>
 		</tr>
 </table>
