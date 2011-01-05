@@ -39,6 +39,8 @@ $Nav->addNavSeparator("C/C++ Tools Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Autotools", "/linuxtools/projectPages/autotools", "_self", 2);
 	$Nav->addCustomNav("Callgraph", "/linuxtools/projectPages/callgraph", "_self", 2);
 	$Nav->addCustomNav("ChangeLog", "/linuxtools/projectPages/changelog", "_self", 2);
+	$Nav->addCustomNav("GProf", "/linuxtools/projectPages/gprof", "_self", 2);
+	$Nav->addCustomNav("Gcov", "/linuxtools/projectPages/gcov", "_self", 2);
 	$Nav->addCustomNav("Libhover", "/linuxtools/projectPages/libhover", "_self", 2);
 	$Nav->addCustomNav("Man Page", "/linuxtools/projectPages/manpage", "_self", 2);
 	$Nav->addCustomNav("LTTng", "/linuxtools/projectPages/lttng", "_self", 2);	
