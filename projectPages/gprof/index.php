@@ -36,7 +36,8 @@
 		<h2>Future Plans</h2>
 		<p>
 		<ul>
-		  <li> Support "BSD" gmon files (see https://bugs.eclipse.org/bugs/show_bug.cgi?id=315027) </li>
+		  <li> Support "BSD" gmon files (see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=315027">
+		       https://bugs.eclipse.org/bugs/show_bug.cgi?id=315027</a>) </li>
 		  <li> Enhance online documentation </li>
         	</ul>
 		</p>

@@ -36,7 +36,7 @@
 		<h2>Future Plans</h2>
 		<p>
 		<ul>
-		  <li> Support coverage on libraries (see https://bugs.eclipse.org/bugs/show_bug.cgi?id=326121 ) </li>
+		  <li> Support coverage on libraries </li>
 		  <li> Enhance online documentation </li>
         	</ul>
 		</p>
