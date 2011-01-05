@@ -30,6 +30,10 @@
           <li>API for fetching preformated simple html</li>
 	      <li>Preference page for setting path to the man executable</li>
         </ul>
+	        </p>
+		<p>
+		Note that the Man Page plugin is currently only available directly from the Linux Tools update sites.  It is not found on the
+		Eclipse train update sites nor is it built as part of the Eclipse IDE for C/C++ Linux Developers.
 		</p>
 
 		<h2>Screenshots</h2>
