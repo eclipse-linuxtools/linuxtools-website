@@ -27,7 +27,6 @@
 <div id="maincontent">
      $contents
 </div>
-</div>
 
 
 EOHTML;
