@@ -5,7 +5,7 @@
 	#****************************************************************************
 	
 	#
-	$pageTitle 		= "Linux Tools New & Noteworthy";
+	$pageTitle 		= "Linux Tools New &amp; Noteworthy";
 	
 	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new-0.7/new.html";
     $dataFile = fopen( $filename, "r" ) ;
