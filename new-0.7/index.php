@@ -24,7 +24,7 @@
 		
 	$html = <<<EOHTML
 
-<div id="maincontent">
+<div id="midcolumn">
      $contents
 </div>
 
