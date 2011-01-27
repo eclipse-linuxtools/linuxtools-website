@@ -116,6 +116,26 @@
 				Updated eclipse-build for Eclipse 3.6.
 			</html:p>
 		</milestone>
+		<milestone date="2011-02-04" milestone="0.7">
+			<html:p>0.7 release</html:p>
+			<html:p>
+				Valgrind plugins available for Mac OS X.
+				Bug fixes and features in RPM .spec editor.
+				Many fixes and improvements in tracing framework and LTTng visualization.
+				Possibility to use OProfile plugin without native component.
+				Improvements to running of SDK tests.
+				Updated eclipse-build for Eclipse 3.6.1.
+			</html:p>
+		</milestone>
+		<milestone date="2011-06-29" milestone="0.8">
+			<html:p>0.8 release</html:p>
+			<html:p>
+				New OProfile viewer contribution.
+				Enhanced tracing and monitoring framework.
+				Improved LTTng tooling.
+				Updated eclipse-build for Eclipse 3.7.
+			</html:p>
+		</milestone>
 		<!--
 		<milestone date="2011 Q3" milestone="1.0">
 			<html:p>1.0 release</html:p>
@@ -133,7 +153,9 @@
 			updating from 3.3 in places) and require Java 5.0. Some
 			tools -- notable the autotools and profiling plugins -- require CDT &gt;= 5.0.0 (6.0 for our 0.3 release and greater).
 			For releases &gt;= 0.3, the tools run with Eclipse 3.5.x and related dependencies.
-			For releases &gt;= 0.6, the tools run with Eclipse 3.6.x and related dependencies.
+			For release 0.6, the tools run with Eclipse 3.6.x (Helios) and related dependencies.
+			For release 0.7, the tools run with Eclipse 3.6.x (Helios and related dependencies.
+			For releases 0.8, the tools run with Eclipse 3.7.x (Indigo) and related dependencies.
 		</html:p>
 		<html:p>
 			The packaging tools not delivered as Eclipse plugins have
