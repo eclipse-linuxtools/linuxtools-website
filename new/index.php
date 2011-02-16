@@ -5,9 +5,9 @@
 	#****************************************************************************
 	
 	#
-	$pageTitle 		= "Linux Tools New & Noteworthy";
+	$pageTitle 		= "Linux Tools New &amp; Noteworthy";
 	
-	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new/new.html";
+	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new-0.7/new.html";
     $dataFile = fopen( $filename, "r" ) ;
     if ( $dataFile )  {
     	while (!feof($dataFile))   {
@@ -24,9 +24,8 @@
 		
 	$html = <<<EOHTML
 
-<div id="midcolumn" style="width:92%">
+<div id="midcolumn">
      $contents
-</div>
 </div>
 
 
