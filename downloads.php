@@ -28,9 +28,9 @@
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a> for building the Eclipse SDK.
 		<ul>
 			<li>
-				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/RR201008261752/linuxtools-Update-incubation-0.6.1.zip">
+				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/R201102160606/linuxtools-Update-S201102160606.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/R201008261752/linuxtools-Update-incubation-0.6.1.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/R201102160606/linuxtools-Update-S201102160606.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
