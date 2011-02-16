@@ -18,9 +18,9 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>0.6.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2010-08-26).
-		<a href="http://download.eclipse.org/technology/linuxtools/RR201008261752/testresults/html/">Unit test results</a>.
+		<h3>0.7.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2011-02-16).
+		<a href="http://download.eclipse.org/technology/linuxtools/R201102160606/testresults/html/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.6.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
