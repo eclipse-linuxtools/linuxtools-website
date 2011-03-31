@@ -22,8 +22,10 @@
 		Our project is actively seeking interested people to join us.  If you are interested, please
 		join our mailing list:<br><br>
 		<a href="https://dev.eclipse.org/mailman/listinfo/linuxtools-dev">linuxtools-dev</a>
+		<!--
 		<br>
 		<a href="https://dev.eclipse.org/mailman/listinfo/linux-distros-dev">linux-distros-dev</a> (formerly our only list and now used primarly for Linux distribution discussions)
+		-->
 		<br><br>
 		For questions related to use of our tools, try our newsgroup:<br>
 		<br>
