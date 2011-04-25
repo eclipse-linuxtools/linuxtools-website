@@ -43,7 +43,7 @@
 
 		<h2>Help and screenshots</h2>
 		<p>
-			Help and screenshots are available in the <a href="http://wiki.eclipse.org/Linux_Tools_Project/GCov/User_Guide">Gprof user guide wiki</a>
+			Help and screenshots are available in the <a href="http://wiki.eclipse.org/Linux_Tools_Project/GCov/User_Guide">GCov user guide wiki</a>
 		</p>
 		
 		<h2>Try it out</h2>
