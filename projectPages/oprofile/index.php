@@ -85,8 +85,8 @@
 		<h2>Try it out</h2>
 		<p>
 		  You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or 
-		  check the project plugins out of SVN directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need all the plugins under oprofile/trunk, and the plugins under profiling/trunk:
+		  check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
+          You will need all the plugins under oprofile subfolder, and the plugins under the profiling subfolder:
 <pre>     
 	org.eclipse.linuxtools.oprofile-feature
 	org.eclipse.linuxtools.oprofile.core

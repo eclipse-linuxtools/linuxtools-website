@@ -64,9 +64,9 @@
 		<p>
 		  Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br>
 
-		  You can also check the project plugins out of SVN
-		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need to check out the following from changelog/trunk:
+		  You can also check the project plugins out of Git
+		  directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
+          You will need to check out the following from the changelog subdirectory:
 <pre>     org.eclipse.linuxtools.changelog.core
      org.eclipes.linuxtools.changelog-feature
      org.eclipse.linuxtools.changelog.cparser

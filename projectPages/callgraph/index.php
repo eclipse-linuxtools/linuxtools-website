@@ -59,13 +59,9 @@
 		<h2>Try it out</h2>
 		<p>
 		<ul>
-		<li><a href="http://dev.eclipse.org/viewsvn/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/callgraph.psf?root=Technology_LINUXTOOLS&view=co">Project Set File</a>
-    		<li>SVN
+		<li>Git
 		<ul>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/systemtap/org.eclipse.linuxtools.callgraph</li>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/systemtap/org.eclipse.linuxtools.callgraph.core</li>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/systemtap/org.eclipse.linuxtools.callgraph.launch</li>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/profiling</li>
+	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git</li>
 		</ul>
 		</li>
 		</ul>

@@ -56,9 +56,9 @@
 		Version 0.3.0 is available via the update site:
 		http://download.eclipse.org/technology/linuxtools/update
 		<br>
-		You can also check the project plugins out of SVN
-		  directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
-          You will need to check out the following from systemtap/trunk:
+		You can also check the project plugins out of Git
+		  directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
+          You will need to check out the following from systemtap subfolder:
 <pre>     org.eclipse.linuxtools.systemtap.feature
      org.eclipes.linuxtools.systemtap.ui.editor
 </pre>

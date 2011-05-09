@@ -49,7 +49,7 @@
 		<h2>Try it out</h2>
 		<p>
 		  You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or 
-		  check the project plugins out of SVN directly from eclipse.org at svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools.
+		  check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
 		<br/><br/>
 		</p>
 	<br/><br/><br/>
