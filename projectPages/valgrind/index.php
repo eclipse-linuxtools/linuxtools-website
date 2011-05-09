@@ -117,10 +117,9 @@
 		<ul>
 		<li><a href="http://dev.eclipse.org/viewsvn/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Project Set File</a>
 		(includes dependencies from <a href="http://www.eclipse.org/birt">BIRT</a> and <a href="http://www.eclipse.org/emf">EMF</a>)
-    		<li>SVN
+    		<li>Git
 		<ul>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/valgrind</li>
-	          	<li>svn://dev.eclipse.org/svnroot/technology/org.eclipse.linuxtools/profiling</li>
+	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git</li> 
 		</ul>
 		</li>
 		</ul>
