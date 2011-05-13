@@ -20,7 +20,7 @@
 
 		<h2>Overview</h2>
 		<p>
-		The Linux Distributions Changelog plugin adds automatic ChangeLog entry creation support to Eclipse for projects checked out from a Team repository.  Method and function indication is provided for C, C++, and Java language files.  A ChangeLog entry can be created for a single file or an entire project.  In addition, a ChangeLog editor is provided which makes it easy to format the file consistently and to put the latest entry into the clipboard buffer for usage in a repository commit operation.
+		The Linux Tools ChangeLog plugins add automatic ChangeLog entry creation support to Eclipse for projects checked out from a Team repository (CVS and SVN).  Method and function indication is provided for C, C++, and Java language files.  The RPM .spec %changelog format is also supported.  A ChangeLog entry can be created for a single file or an entire project.  In addition, a ChangeLog editor is provided which makes it easy to format the file consistently and to put the latest entry into the clipboard buffer for usage in a repository commit operation.
 		</p>
 
 		<h2>Current Status</h2>
