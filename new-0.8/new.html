@@ -16,7 +16,7 @@
 			href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.8&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
 		<font size="1">?<br>
 		bugs</font></a></td>
-		<td bgcolor="#E0D0E6"><font size="1">Daniel Henrique Barboza contributed support for the Valgrind Helgrind tool.</font></td>
+		<td bgcolor="#E0D0E6"><font size="1">Daniel Henrique Barboza contributed support for the Valgrind Helgrind tool.  Corey Ashford assisted with OProfile plugin fixes on Power architecture machines and general OProfile interaction issues.</font></td>
 	</tr>
      <tr>
 		<td bgcolor="#FAF7FB"><font size="1">0.7<br>
@@ -151,7 +151,7 @@
 		<td bgcolor="#FAF7FB"><font size="1">Alphonse van Assche contributed
 		many fixes for our RPM specfile editor as well as integration of
 		<a href="http://rpmlint.zarb.org">rpmlint</a> error and warning
-		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">Systemtap</a>
+		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">SystemTap</a>
 		editor and helped 
 		with ChangeLog bug fixes.  Kent Sebastian picked up Keith Seitz's work
 		on <a href="http://oprofile.sourceforge.net">OProfile</a>
@@ -183,34 +183,37 @@
 	</table>
 
 <p><b>Also see the New &amp; Noteworthy for:</b> <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
-<br>
-<a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools
-0.2.1</a> <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.3">Linux Tools 0.3</a>
-<br>
-<a href="http://www.eclipse.org/linuxtools/new-0.4">Linux Tools 0.4</a>
-<br>
-<a href="http://www.eclipse.org/linuxtools/new-0.5.1">Linux Tools 0.5.1</a>
+<a href="http://www.eclipse.org/linuxtools/new-0.7">Linux Tools 0.7</a>
 <br>
 <a href="http://www.eclipse.org/linuxtools/new-0.6">Linux Tools 0.6</a>
 <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.7">Linux Tools 0.7</a></p>
+<a href="http://www.eclipse.org/linuxtools/new-0.5.1">Linux Tools 0.5.1</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.4">Linux Tools 0.4</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.3">Linux Tools 0.3</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools 0.2.1</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
+</p>
 <hr>
 
 <p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.8</span> </p>
 <ul>
 	<li><a href="#autotools">GNU Autotools Support (1)</a></li>
 <!--	<li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
-	<li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li>	
-	<li><a href="#gprof">GProf support (1)</a></li>
+	<li><a href="#eclipsebuild">Building the Eclipse SDK (1)</a></li>	
+	<li><a href="#gprof">GProf support (2)</a></li>
 	<li><a href="#gcov">GCov support (1)</a></li>
 	<li><a href="#libhover">API Documentation Hover Help (2)</a></li>
-	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li>
+	<li><a href="#oprofile">OProfile Profiling (1)</a></li>
+<!--
 	<li><a href="#rpmstubby">RPM Stubby (# of items for this area; comment out if none)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (# of items for this area; comment out if none)</a></li>
-	<li><a href="#systemtap">Systemtap Editor (# of items for this area; comment out if none)</a></li>
-	<li><a href="#systemtapprofiling">Systemtap-based Profiling (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtap">SystemTap Editor (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtapprofiling">SystemTap-based Profiling (# of items for this area; comment out if none)</a></li>
+-->
 	<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
 	<li><a href="#lttng">LTTng (2)</a></li>
 </ul>
@@ -234,6 +237,7 @@
 		</tr>
 </table>
 
+<!--
 <h2><a name="changelog">ChangeLog Tools</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -268,33 +272,20 @@
 			</td>
 		</tr>
 </table>
+-->
 
 <h2><a name="eclipsebuild">Building the Eclipse SDK</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Dropins fixes</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Until we discontinue our use of the p2 dropins mechanism entirely,
+			we have fixed a long-standing issue with the use of the Equinox Initializer
+			that was affecting our dropins installation.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
 		</tr>
 		<tr>
@@ -394,27 +385,14 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Improve robustness</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">The OProfile bridge known as opxml has been removed.
+			This enables easier plugin installation and cleaner interaction with
+			opcontrol.  Bug fixes have also been applied improving error checking
+			and enabling users to more easily find errors with OProfile itself.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
 		</tr>
 		<tr>
@@ -424,6 +402,7 @@
 		</tr>
 </table>
 
+<!--
 <h2><a name="rpmstubby">RPM Stubby</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -494,7 +473,7 @@
 		</tr>
 </table>
 
-<h2><a name="systemtap">Systemtap Integration</a></h2>
+<h2><a name="systemtap">SystemTap Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
@@ -529,7 +508,7 @@
 		</tr>
 </table>
 
-<h2><a name="systemtapprofiling">Systemtap-based Profiling</a></h2>
+<h2><a name="systemtapprofiling">SystemTap-based Profiling</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
@@ -563,6 +542,7 @@
 			</td>
 		</tr>
 </table>
+-->
 
 <h2><a name="valgrind">Valgrind Profiling</a></h2>
 
