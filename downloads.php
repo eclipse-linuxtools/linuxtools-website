@@ -3,7 +3,7 @@
 
 	$pageTitle 		= "Linux Tools Project Downloads";
 	$pageKeywords	= "linux, eclipse, downloads";
-	$pageAuthor		= "Andrew Overholt";
+	$pageAuthor		= "Linux Tools committers";
 
 	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
@@ -18,19 +18,19 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>0.7.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2011-02-16).
-		<a href="http://download.eclipse.org/technology/linuxtools/R201102160606/testresults/html/">Unit test results</a>.
-		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.6.x.
+		<h3>0.8.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2011-06-22).
+		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/346/testReport/">Unit test results</a>.
+		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.7.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
-		<br>&nbsp;&nbsp;&nbsp;Installations via the update site will automatically get these dependencies.
+		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a> for building the Eclipse SDK.
 		<ul>
 			<li>
-				<a title="Update Site Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/R201102160606/linuxtools-Update-S201102160606.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.8.0-incubation.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/R201102160606/linuxtools-Update-S201102160606.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.8.0-incubation.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
@@ -39,10 +39,9 @@
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>Nightly builds&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
-<!--		<br>&nbsp;&nbsp;&nbsp;Zips of these nightly builds are available here:  <a href="http://download.eclipse.org/technology/linuxtools/">http://download.eclipse.org/technology/linuxtools/</a> -->
 		<ul>
 			<li>
-				Nightly update site:  <b>http://download.eclipse.org/technology/linuxtools/updates-nightly</b>
+				Nightly p2 repository:  <b>http://download.eclipse.org/technology/linuxtools/updates-nightly</b>
 			</li>
 		</ul>
 		</div>

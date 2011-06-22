@@ -9,14 +9,23 @@
 		<font color="#FFFFFF" size="1">Community Contributions</font></b></td>
 	</tr>
 
-     <tr>
-		<td bgcolor="#E0D0E6"><font size="1">0.7<br>
-		<i>16 Feb 2010</i></font></td>
+	<tr>
+		<td bgcolor="#E0D0E6"><font size="1">0.8<br>
+		<i>22 June 2011</i></font></td>
 		<td bgcolor="#E0D0E6" align="center"><a
+			href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.8.0&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+		<font size="1">78<br>
+		bugs</font></a></td>
+		<td bgcolor="#E0D0E6"><font size="1">Daniel Henrique Barboza contributed support for the Valgrind Helgrind tool.  John Dallaway provided a patch to improve our GProf view and some good bug reports on other components.  Patrick Tasse, Alexandre Montplaisir, and Daniel U. Thibault improved our Tracing and Monitoring Framework and LTTng support with patches, bug reports, and testing.  Corey Ashford assisted with OProfile plugin fixes on Power architecture machines and general OProfile interaction issues.  Doug Schaefer tested non-Linux support for our GNU Autotools integration.</font></td>
+	</tr>
+     <tr>
+		<td bgcolor="#FAF7FB"><font size="1">0.7<br>
+		<i>16 Feb 2011</i></font></td>
+		<td bgcolor="#FAF7FB" align="center"><a
 			href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.7&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
 		<font size="1">52<br>
 		bugs</font></a></td>
-		<td bgcolor="#E0D0E6"><font size="1"> The LTTng team improved the visualization tools and performance. All help content is maintained in Eclipse.org wiki and with Mylyn Wikitext.
+		<td bgcolor="#FAF7FB"><font size="1"> The LTTng team improved the visualization tools and performance. All help content is maintained in Eclipse.org wiki and with Mylyn Wikitext.
 		.spec file and changelog editors properly show/use Mylyn hyperlinks when bug reference is detected. </font></td>
 	</tr>
     <tr>
@@ -142,7 +151,7 @@
 		<td bgcolor="#FAF7FB"><font size="1">Alphonse van Assche contributed
 		many fixes for our RPM specfile editor as well as integration of
 		<a href="http://rpmlint.zarb.org">rpmlint</a> error and warning
-		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">Systemtap</a>
+		parsing.  Phil Muldoon contributed his <a href="http://systemtap.org">SystemTap</a>
 		editor and helped 
 		with ChangeLog bug fixes.  Kent Sebastian picked up Keith Seitz's work
 		on <a href="http://oprofile.sourceforge.net">OProfile</a>
@@ -174,33 +183,39 @@
 	</table>
 
 <p><b>Also see the New &amp; Noteworthy for:</b> <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
+<a href="http://www.eclipse.org/linuxtools/new-0.7">Linux Tools 0.7</a>
 <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools
-0.2.1</a> <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.3">Linux Tools 0.3</a>
+<a href="http://www.eclipse.org/linuxtools/new-0.6">Linux Tools 0.6</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.5.1">Linux Tools 0.5.1</a>
 <br>
 <a href="http://www.eclipse.org/linuxtools/new-0.4">Linux Tools 0.4</a>
 <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.5.1">Linux Tools
-0.5.1</a>
+<a href="http://www.eclipse.org/linuxtools/new-0.3">Linux Tools 0.3</a>
 <br>
-<a href="http://www.eclipse.org/linuxtools/new-0.6">Linux Tools
-0.6</a></p>
-
+<a href="http://www.eclipse.org/linuxtools/new-0.2.1">Linux Tools 0.2.1</a>
+<br>
+<a href="http://www.eclipse.org/linuxtools/new-0.1">Linux Tools 0.1</a>
+</p>
 <hr>
 
-<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.7</span> </p>
+<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.8</span> </p>
 <ul>
 	<li><a href="#autotools">GNU Autotools Support (1)</a></li>
-	<li><a href="#changelog">ChangeLog Tools (2)</a></li>
-<!--	<li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li>	
-	<li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li>
-	<li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
-<!--	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li> -->
-	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (2)</a></li>
+<!--	<li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
+	<li><a href="#eclipsebuild">Building the Eclipse SDK (1)</a></li>	
+	<li><a href="#gprof">GProf support (2)</a></li>
+	<li><a href="#gcov">GCov support (1)</a></li>
+	<li><a href="#libhover">API Documentation Hover Help (2)</a></li>
+	<li><a href="#oprofile">OProfile Profiling (1)</a></li>
+<!--
+	<li><a href="#rpmstubby">RPM Stubby (# of items for this area; comment out if none)</a></li>
+	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtap">SystemTap Editor (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtapprofiling">SystemTap-based Profiling (# of items for this area; comment out if none)</a></li>
+-->
 	<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
-	<li><a href="#lttng">LTTng (4)</a></li>
+	<li><a href="#lttng">LTTng (2)</a></li>
 </ul>
 
 <h2><a name="autotools">GNU Autotools Support</a></h2>
@@ -208,46 +223,10 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Error Detection</b></p>
+			<p align="right"><b>Windows/Mac Support</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The Autotools configuration builder has been enhanced to recognize errors that occur in running the configure script and flag them in the console.  In addition, these problems are noted in the Problems view as well.</p>
-			<img border="0" alt="Pkg-config Configure Error" src="images-0.7/autotools-pkgconfig-error.png">
-			<img border="0" alt="Problems View" src="images-0.7/autotools-problems.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-</table>
-
-<h2><a name="changelog">ChangeLog Tools</a></h2>
-
-<table cellpadding="10" cellspacing="0">
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Removed Method Support</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">The ChangeLog plug-in has been fixed so that it will detect when methods are removed from a Java file and automatically generate a reference to the method.  This functionality already existed for C/C++ functions/methods.
-
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Mylyn bug hyperlinks</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">The ChangeLog plug-in has been enhanced so it shows bug references as hyperlinks and allows opening them with Mylyn.
-
+			<p align="left">Changes have been made which allow the Autotools plug-in to be used on Windows and Mac platforms.  The key changes involve invoking the configure script and autotools using "sh -c" without passing the PWD environment variable.
 			</p>
 			</td>
 		</tr>
@@ -258,16 +237,35 @@
 		</tr>
 </table>
 
-<h2><a name="specfileeditor">RPM <tt>.spec</tt> Editor</a></h2>
+<h2><a name="eclipsebuild">Building the Eclipse SDK</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Mylyn bug hyperlinks</b></p>
+			<p align="right"><b>Dropins fixes</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The RPM .spec file editor plug-in has been enhanced so it shows bug references as hyperlinks and allows opening them with Mylyn.
+			<p align="left">Until we discontinue our use of the p2 dropins mechanism entirely,
+			we have fixed a long-standing issue with the use of the Equinox Initializer
+			that was affecting our dropins installation.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 
+<h2><a name="gprof">GProf Integration</a></h2>
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Help Support</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The GProf User Guide is now included as part of the Eclipse Help Contents.  The guide is created from the Linux Tools wiki page and will be synchronized in the future.
 			</p>
 			</td>
 		</tr>
@@ -278,11 +276,85 @@
 		</tr>
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Error line matcher</b></p>
+			<p align="right"><b>Windows Support</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">The RPM .spec file editor plug-in has been enhanced to properly detect rpmbuild errors in build output and shows them as hyperlinks pointing to the line in the editor when rpmbuild reports it.
+			<p align="left">Changes have been made which allow the GProf plug-in to be used on Windows/Cygwin or Windows/Mingw  platforms.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
 
+<h2><a name="gcov">GCov Integration</a></h2>
+<table cellpadding="10" cellspacing="0">
+       <tr>
+	       		<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Windows Support</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Changes have been made which allow the GCov plug-in to be used on Windows
+			/Cygwin or Windows/Mingw  platforms.
+			</p>
+			</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<hr>
+		</td>
+	</tr>
+</table>
+
+<h2><a name="libhover">API Documentation Hover Help</a></h2>
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Devhelp Support</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Support has been added to generate hover help from devhelp documentation on Linux.  Devhelp documentation is a format that some packages use to support the Linux devhelp API browser.  Libhover can regenerate the hover help at any time without requiring a restart of Eclipse.  In addition, the devhelp contents are added to the Eclipse Help Contents under C/C++ Library Documentation.
+			</p>
+			<img border="0" alt="Libhover Devhelp Preferences" src="images-0.8/libhover-settings.png">
+			<img border="0" alt="Devhelp Hover Example" src="images-0.8/libhover-devhelp.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Developer's Guide</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Libhover Developer's Guide is now included in the Eclipse Help Contents.  The guide has information on the libhover data formats for C and C++ as well as how to use the libhover plug-in extension to add library hover help.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="oprofile">OProfile Profiling</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Improve robustness</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The OProfile bridge known as opxml has been removed.
+			This enables easier plugin installation and cleaner interaction with
+			opcontrol.  Bug fixes have also been applied improving error checking
+			and enabling users to more easily find errors with OProfile itself.
 			</p>
 			</td>
 		</tr>
@@ -298,12 +370,16 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Mac OSX Support</b></p>
+			<p align="right"><b>Helgrind</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">As Valgrind now officially supports Mac OSX, our Valgrind integration feature can now be installed
-on OSX.
+			<p align="left">Support for the Valgrind Helgrind tool has been added.
+			Similar to the memcheck and massif integration, it is easy to set up
+			launch options.  Source code highlighting is performed for each pthread
+			synchronization error that Helgrind finds.  Thanks to Daniel Henrique
+			Barboza for this contribution.
 			</p>
+			<img border="0" alt="Alt text for the image" src="images-0.8/helgrinderrormarkers.png">
 			</td>
 		</tr>
 		<tr>
@@ -313,84 +389,47 @@ on OSX.
 		</tr>
 </table>
 
-
-<h2><a name="lttng">LTTng</a></h2>
-
+<h2><a name="lttng">Linux Tracing Toolkit</a></h2>
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Histogram View</b></p>
+			<p align="right"><b>LTTng Tracer Control</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">
-			The Histogram View layout has been improved. The larger histogram, at
-			the bottom, shows the events distribution over the whole trace.
-			The timetamps (sec.nanosec) correspond to the first and the last
-			events in the trace. The selected area corresponds to the current
-			time range window. When clicking in that viewer, the mouse wheel
-			can be used to zoom in/out and update the time range window.
+			<p align="left">This feature allows to connect to a remote node running
+			an instrumented Linux kernel via a TCF Agent. The user can then configure
+			and control the collection of kernel traces. 
+			<p>Once the trace is collected on the target, it can then be imported
+			into an LTTng project for standard analysis (processes/resources analysis, etc).
+			<p>Refer to the LTTng User Guide for further information. 
+			</p>
+			<img border="0" alt="Alt text for the image" src="images-0.8/LTTngTraceControl.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Events View improvements</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Events View now supports efficient column-based
+			searching and filtering.
+			<p>This feature is useful to rapidly navigate through large amounts
+			of events.
+			<p>Refer to the LTTng User Guide for further information. 
+			</p>
+			<img border="0" alt="Alt text for the image" src="images-0.8/TmfEventsView-Search.png">
 			<p>
-      		The smaller histogram, on the top right of the view, is a zoom
-      		of the current time range window. It also has timestamps on the
-      		bottom that correspond to the time range. The scale of the
-      		histogram (i.e. the number of events) is displayed on the right.
-      		<p>
-      		The three text fields keep track of, respectively, [1] the timestamp
-      		of the currently selected event, [2] the time range window size, and
-      		[3] the timestamp of the window center. 
-			</p>
-			<img border="0" alt="Alt text for the image" src="images-0.7/LTTngHistogramView.png">
+			<img border="0" alt="Alt text for the image" src="images-0.8/TmfEventsView-Filter.png">
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
 			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Help re-vamped</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">
-			The LTTng Help was re-vamped base on the wiki-based LTTng User
-			Guide.
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Individual trace analysis</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">
-			It is now possible to bypass the experiment and to select an
-			individual trace for analysis. The trace can be selected from the
-			Traces folder or from an experiment folder (under Experiments).
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Performance Improvements</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">
-			Miscellaneous performance improvements. The current version runs
-			~20 times faster than the original delivery (which was definitely
-			not a speed demon...) and executes now in an acceptable time
-			compared to the C version of the visualizer.
-			</p>
 			</td>
 		</tr>
 </table>

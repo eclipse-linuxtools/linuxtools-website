@@ -1,7 +1,9 @@
 <div class="sideitem">
 	<h6>News</h6>
 	<ul>
+	                <li><em>2011-06-22</em>:  Our 0.8.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/indigo/">Indigo</a>!  There is also an <a href="http://www.eclipse.org/downloads/">EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 	                <li><em>2011-02-16</em>:  Our 0.7.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
+	                <!--
 	                <li><em>2010-08-27</em>:  Our 0.6.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
 				    <li><em>2010-06-23</em>:  Our 0.6.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/helios/">Helios</a>!  There is also an <a href="http://www.eclipse.org/downloads/">all-in-one EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 				    <li><em>2010-05-12</em>:  Our 0.5.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
@@ -17,5 +19,6 @@
 					<li><em>2009-04-07</em>:  A presentation on the project was given at EclipseCon 2009 and the <a href="http://overholt.fedorapeople.org/LinuxTools.pdf">slides are available</a>.</li>
 					<li><em>2009-03-27</em>:  Our screencasts have been re-recorded with audio!  <a href="/linuxtools/downloads.php">Check them out</a>.</li>
 				    <li><em>2009-03-03</em>:  The Linux Tools project team has put together some screencast videos demonstrating functionality in our 0.1.0 and 0.2.0 releases.  They are all available in Ogg Theora and Flash video under the "Screencast videos" section of our <a href="/linuxtools/downloads.php">downloads page</a>.
+				    -->
 				</ul>
 </div>
