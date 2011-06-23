@@ -127,24 +127,21 @@
 				Updated eclipse-build for Eclipse 3.6.1.
 			</html:p>
 		</milestone>
-		<milestone date="2011-06-29" milestone="0.8">
+		<milestone date="2011-06-22" milestone="0.8">
 			<html:p>0.8 release</html:p>
 			<html:p>
-				New OProfile viewer contribution.
 				Enhanced tracing and monitoring framework.
 				Improved LTTng tooling.
 				Updated eclipse-build for Eclipse 3.7.
 			</html:p>
 		</milestone>
-		<!--
-		<milestone date="2011 Q3" milestone="1.0">
+		<milestone date="2012-06-27" milestone="1.0">
 			<html:p>1.0 release</html:p>
 			<html:p>
-				SDK packaging tools:  3.5.x eclipse-build, SDK tests, plugin building scripts, testing scripts, scripts for running SDK tests against distro packages;
-				Native development tools: Tracing tools, Systemtap integration, Autotools, libhover, ChangeLog, OProfile, Valgrind, GProf, LTTng
+				SDK packaging tools:  4.x eclipse-build, plugin building scripts, testing scripts, scripts for running SDK tests against distro packages;
+				Native development tools:  SystemTap integration, Autotools, libhover, ChangeLog, OProfile, Valgrind, GProf, LTTng, GCov
 			</html:p>
 		</milestone>
-		-->
 		<postamble />
 	</release_milestones>
 	<target_environments>
@@ -155,7 +152,8 @@
 			For releases &gt;= 0.3, the tools run with Eclipse 3.5.x and related dependencies.
 			For release 0.6, the tools run with Eclipse 3.6.x (Helios) and related dependencies.
 			For release 0.7, the tools run with Eclipse 3.6.x (Helios and related dependencies.
-			For releases 0.8, the tools run with Eclipse 3.7.x (Indigo) and related dependencies.
+			For release 0.8, the tools run with Eclipse 3.7.x (Indigo) and related dependencies.
+			For release 1.0, the tools run with Eclipse 4.x (Juno) and related dependencies.
 		</html:p>
 		<html:p>
 			The packaging tools not delivered as Eclipse plugins have
@@ -220,18 +218,7 @@
 		</theme>
 		<theme name="Getting plugins into Linux distributions">
 			<description>
-				<html:p>
-					Getting plugins into Linux distributions relates to
-					the
-					project's goal of making it easier to build and
-					package Eclipse
-					plugins for Linux distributions. At
-					present it includes shell
-					scripts and best practice
-					documentation. In the future, we aim to
-					provide
-					Eclipse plugins to help packagers.
-				</html:p>
+				<html:p>Getting plugins into Linux distributions relates to the project's goal of making it easier to build and package Eclipse plugins for Linux distributions. At present it includes shell scripts and best practice documentation. In the future, we aim to provide Eclipse plugins to help packagers.</html:p>
 			</description>
 			<committed
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Tools&amp;component=PackagingTools&amp;target_milestone=1.0M2&amp;target_milestone=1.0M1&amp;target_milestone=1.0RC&amp;target_milestone=1.0&amp;target_milestone=0.1&amp;target_milestone=0.2&amp;target_milestone=0.3&amp;target_milestone=0.4&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
@@ -242,10 +229,7 @@
 		</theme>
 		<theme name="Improve RPM specfile editor and related plugins">
 			<description>
-				<html:p>
-					We should continue to add features to and improve the
-					robustness of the RPM specfile editor and its related plugins.
-				</html:p>
+				<html:p>We should continue to add features to and improve the robustness of the RPM specfile editor and its related plugins.</html:p>
 			</description>
 			<committed
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Linux+Tools&amp;component=RPM&amp;target_milestone=1.0M2&amp;target_milestone=1.0M1&amp;target_milestone=1.0RC&amp;target_milestone=1.0&amp;target_milestone=0.1&amp;target_milestone=0.2&amp;target_milestone=0.3&amp;target_milestone=0.4&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">
@@ -270,13 +254,7 @@
 		</theme>
 		<theme name="Unify and expand upon existing profiling UIs">
 			<description>
-				<html:p>
-					At present we have integration plugins for OProfile,
-					gprof, and perf.  We aim to unify the user interaction with these
-					underlying profiling tools and provide a consistent way of
-					visualizing the data they provide and its integration with
-					views and source code editors in Eclipse.
-				</html:p>
+				<html:p>At present we have integration plugins for OProfile, GProf, and Valgrind.  Our GCov plugin UI is quite similar to our GProf UI.  We aim to unify the user interaction with these underlying profiling tools and provide a consistent way visualizing the data they provide and its integration views and source code editors in Eclipse.</html:p>
 			</description>
 			<committed>
 			</committed>
@@ -285,30 +263,16 @@
 		</theme>
 		<theme name="Integrate with PackageKit">
 			<description>
-				<html:p>
-					The PackageKit project provides a method for interacting
-					with the various Linux package managers.  By providing plugins that
-					integrate with PackageKit, we can do interesting things like 
-					prompting for missing build requirements in a C/C++ project,
-					extend p2 metadata to prompt for installing non-OSGi bundles, and more.
-				</html:p>
+				<html:p>The PackageKit project provides a method for interacting the various Linux package managers.  By providing plugins that with PackageKit, we can do interesting things prompting for missing build requirements in a C/C++ extend p2 metadata to prompt for installing non-OSGi bundles, and more.</html:p>
 			</description>
 			<committed>
 			</committed>
 			<proposed>
 			</proposed>
 		</theme>
-		<theme name="Improve Valgrind integration">
+		<theme name="Interact with remote systems">
 			<description>
-				<html:p>
-					The present state of Valgrind integration in the Linux Tools Project
-					allows C/C++ Eclipse users to easily profile their code using the
-					Memcheck, Massif and Cachegrind tools. The results of the run are integrated
-					into the workbench through views and editors that users would expect to see. Our
-					future goal is to improve the incentive of using Valgrind with
-					Eclipse versus the command line. One such feature we hope to offer is to
-					be able profile projects in your local workspace on remote machines.
-				</html:p>
+				<html:p>The present state of our profiling tools integration C/C++ Eclipse users to easily profile their code. The output of the underlying tools are integrated into the workbench through views and editors that users would expect to see. One feature we hope to offer is to be able profile projects in your local workspace on remote machines.</html:p>
 			</description>
 			<committed
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;classification=Technology&amp;component=Valgrind&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
@@ -320,13 +284,11 @@
 		<theme name="Improve consumability">
 			<description>
 				<html:p>
-					In order to ease the lives of our consumer community, we will work towards a more stable API.
-					As part of this effort, we will track our usage of the internal APIs of our dependencies.
-					We will also attempt to regularly run the PDE API Tools on our code base to ensure we don't break our own API. 
+					In order to ease the lives of our consumer community, we will work towards a more stable API. As part of this effort, we will track our usage of the internal APIs of our dependencies.  We will also attempt to regularly run the PDE API Tools on our code base to ensure we don't break our own API.
 				</html:p>
 			</description>
 			<committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;classification=Technology&amp;component=Project&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;classification=Technology&amp;component=Project&amp;product=Linux%20Tools&amp;query_format=advanced">
 			</committed>
 			<proposed
 				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;classification=Technology&amp;component=Project&amp;product=Linux%20Tools&amp;query_format=advanced&amp;target_milestone=0.7">
@@ -338,6 +300,9 @@
 					We have no plans to support running on or testing with Eclipse 4.1 at this time. 
 				</html:p>
 			</description>
+		</theme>
+		<theme name="Eclipse 4.2">
+			<description>Our 1.0 release as a part of Juno will work on top of Eclipse 4.2.  We expect to largely be using the compatibility layer.</description>
 		</theme>
 	</themes_and_priorities>
 	<appendix />
