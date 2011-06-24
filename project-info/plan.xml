@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/eclipse/development/project-plan-render.xsl"?>
-<!-- For local verification, copy this file to the same directory as plan.xml -->
-<!-- <?xml-stylesheet type="text/xsl" href="/home/overholt/workspaces/linuxtools2/linuxtools/project-info/project-plan.xsl"?> -->
+
 <p:plan plan-format="1.0" xmlns:p="http://www.eclipse.org/project/plan"
 	xmlns="http://www.w3.org/1999/xhtml" name="Linux Tools">
 	<p:release projectid="technology.linux-distros" version="1.0 (Juno)" />
@@ -86,7 +85,7 @@
 		<p:milestone date="2009-12-21" milestone="0.4.1">
 			<div>0.4.1 bug-fix release</div>
 			<div>
-				Bug fixes for 0.4.0:  https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;target_milestone=0.4.1;product=Linux Tools;classification=Technology
+				Bug fixes for 0.4.0:  https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;target_milestone=0.4.1&amp;product=Linux Tools&amp;classification=Technology
 			</div>
 		</p:milestone>
 		<p:milestone date="2010-03-18" milestone="0.5">
@@ -214,10 +213,10 @@
 			</p:description>
  
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;component=eclipse-build;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;component=eclipse-build&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2">
 			</p:committed>
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;component=eclipse-build;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=eclipse-build&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2">
 			</p:proposed>
 
 		</p:theme>
@@ -227,11 +226,11 @@
 			</p:description>
  
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;component=PackagingTools;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;component=PackagingTools&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2">
 			</p:committed>
 			
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;component=PackagingTools;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=PackagingTools&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2">
 			</p:proposed>
 
 		</p:theme>
@@ -241,11 +240,11 @@
 			</p:description>
 			
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;component=RPM;">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;component=RPM">
 			</p:committed>
 			
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;component=RPM">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;component=RPM">
 			</p:proposed>
  
 		</p:theme>
@@ -260,11 +259,11 @@
 			</p:description>
 			
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;component=LTTng;">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;component=LTTng&amp;">
 			</p:committed>
 			
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;component=LTTng">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;component=LTTng">
 			</p:proposed>
 
 		</p:theme>
@@ -274,10 +273,10 @@
 			</p:description>
 			
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[unifyprofiling];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[unifyprofiling]&amp;short_desc_type=allwordssubstr">
 			</p:committed>		
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[unifyprofiling];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[unifyprofiling]&amp;short_desc_type=allwordssubstr">
 			</p:proposed>
 
 		</p:theme>
@@ -287,10 +286,10 @@
 			</p:description>
 
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[PackageKit];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[PackageKit]&amp;short_desc_type=allwordssubstr">
 			</p:committed>		
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[PackageKit];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[PackageKit]&amp;short_desc_type=allwordssubstr">
 			</p:proposed>
 
 		</p:theme>
@@ -300,10 +299,10 @@
 			</p:description>
 			
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[remote];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[remote]&amp;short_desc_type=allwordssubstr">
 			</p:committed>		
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[remote];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[remote]&amp;short_desc_type=allwordssubstr">
 			</p:proposed>
 			
 		</p:theme>
@@ -315,10 +314,10 @@
 			</p:description>
 			
 			<p:committed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[consumability];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[consumability]&amp;short_desc_type=allwordssubstr">
 			</p:committed>		
 			<p:proposed
-				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Linux%20Tools;target_milestone=1.0;target_milestone=0.8.1;target_milestone=0.8.2;short_desc=[consumability];short_desc_type=allwordssubstr">
+				bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&amp;query_format=advanced&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;product=Linux%20Tools&amp;target_milestone=1.0&amp;target_milestone=0.8.1&amp;target_milestone=0.8.2&amp;short_desc=[consumability]&amp;short_desc_type=allwordssubstr">
 			</p:proposed>
 			
 		</p:theme>
