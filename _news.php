@@ -1,6 +1,7 @@
 <div class="sideitem">
 	<h6>News</h6>
 	<ul>
+	                <li><em>2011-09-26</em>:  Our 0.8.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/indigo/">Indigo</a>!  There is also an <a href="http://www.eclipse.org/downloads/">EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 	                <li><em>2011-06-22</em>:  Our 0.8.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a> and is a part of <a href="http://eclipse.org/indigo/">Indigo</a>!  There is also an <a href="http://www.eclipse.org/downloads/">EPP package available</a> for download which includes our plugins.  Look for "Linux Developers" on the <a href="http://www.eclipse.org/downloads/">main Eclipse download page</a>.
 	                <li><em>2011-02-16</em>:  Our 0.7.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>.
 	                <!--

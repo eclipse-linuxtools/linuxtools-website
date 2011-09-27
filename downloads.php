@@ -18,7 +18,7 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>0.8.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
+		<h3>0.8.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2011-06-22).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/346/testReport/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.7.x.
@@ -28,9 +28,9 @@
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a> for building the Eclipse SDK.
 		<ul>
 			<li>
-				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.8.0-incubation.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.8.1-incubation.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.8.0-incubation.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.8.1-incubation.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
