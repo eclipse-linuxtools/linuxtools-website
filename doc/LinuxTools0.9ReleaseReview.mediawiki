@@ -1,5 +1,5 @@
 = Linux Tools 0.9 Release Review =
-Planned Review Date: 2011-06-08
+Planned Review Date: 2011-10-??
 
 Communication Channel:  linuxtools-dev@eclipse.org (https://dev.eclipse.org/mailman/listinfo/linuxtools-dev)
 
@@ -21,7 +21,7 @@ Author:  Andrew Overholt <overholt redhat com>
 * a Zest (GEF)-powered C/C++ call graph integrated with the CDT, powered by SystemTap
 * GNU Autotools CDT additions
 * plugins bridging the CDT's hover help functionality with the various open source API documentation formats and tools; called libhover
-* Valgrind integration for memcheck, massif, and cachegrind
+* Valgrind integration for memcheck, massif, cachegrind and helgrind
 * a tool to help building and packaging Eclipse plugins as RPMs named RPM Stubby
 * change log management tools
 * an editor, launcher, and data visualizer for SystemTap scripts
@@ -30,6 +30,7 @@ Author:  Andrew Overholt <overholt redhat com>
 * a framework to produce and visualize UML2 Sequence Diagrams from application traces
 * integration of LTTng projects in Eclipse Project Explorer  
 * live streaming of LTTng traces
+* improvements for RPM handling
 * More New and Noteworthy for 0.9:
 ** http://www.eclipse.org/linuxtools/new-0.9/
 ** (will be moved to http://www.eclipse.org/linuxtools/new after 0.9 is released)
@@ -54,7 +55,7 @@ Author:  Andrew Overholt <overholt redhat com>
 ** our LTTng component. This plugin provides an extension point to integrate any type of trace and an extension point for producing UML2 sequence diagrams from traces
 
 == Tool Usability ==
-* Our releases thus far have been well-received and at present have satisfied users.  This 0.8 release will hopefully grow our base of satisfied users.  In addition to improved quality through bug fixes, we hope that the increased exposure of being a part of Indigo will garner more happy users. 
+* Our releases thus far have been well-received and at present have satisfied users.  This 0.9 release will hopefully grow our base of satisfied users.  In addition to improved quality through bug fixes, we hope that the increased exposure of being a part of Indigo will garner more happy users. 
 * Due to the large number of people packaging software for RPM-based distributions, our .spec editor has become one of our more popular features.
 ** The in-line warnings and error checking as well as templates and completion are incredibly useful features.
 * Our work integrating native profiling tools like LTTng, OProfile, and Valgrind has been introduced to excited audiences. We aim to bring the power of these tools into the IDE while making them trivial to use.  Developers making use of our tools will be able to focus on their own projects and not on setting up the underlying tools.
@@ -64,8 +65,8 @@ Author:  Andrew Overholt <overholt redhat com>
 
 == Bugzilla ==
 * For our 0.9 release we will have 0 outstanding release-blocker bugs.
-* We closed over 102 bugs since our 0.6 contribution to the Helios release:
-https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.8&target_milestone=0.7&target_milestone=0.7.1&target_milestone=0.6.1&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0
+* We closed or resolved over XX bugs during our 0.9 release cycle:
+https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Technology&product=Linux+Tools&target_milestone=0.9.0&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0
 
 == Standards ==
 * Our project conforms to the following standards, some of which are ad-hoc and some which are more well-defined:
@@ -105,4 +106,4 @@ https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=
 * Our IP log including information about all CQs, external contributions, and committers can be found here
 ** http://www.eclipse.org/projects/ip_log.php?projectid=technology.linux-distros
 * A copy of our 0.9 IP log, once approved by the Eclipse Legal team, will be archived here:
-** http://www.eclipse.org/linuxtools/doc/0.9-approvedIPLog.pdf
+** http://www.eclipse.org/linuxtools/doc/0.9.0-approvedIPLog.html
