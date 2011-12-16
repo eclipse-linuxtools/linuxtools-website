@@ -192,7 +192,20 @@
 			</div>
 		</internationalization>
 	</p:target_environments>
-	<p:compatibility_with_previous_releases />
+	<p:compatibility_with_previous_releases>
+		<div>
+		<p><strong>API Compatibility:</strong>
+		For 1.0, we will attempt to maintain as much API compatibility with our 0.9.0 release from November 2011 as possible.  We will likely be removing some API that should not have been public and cleaning up accidental exposure of non-API classes.
+		</p>
+		<p><strong>Binary (plug-in) Compatibility:</strong>
+		We have no binary compatibility issues to discuss for 1.0. 
+		</p>
+		<p><strong>Source Compatibility:</strong>
+		We have no source compatibility issues to discuss for 1.0.  C/C++ projects should consult with the CDT regarding its source project compatibility (believed to be quite strong).
+		</p>
+		
+		</div>
+	</p:compatibility_with_previous_releases>
 
 	<p:themes_and_priorities>
 		<p:preamble>
@@ -342,17 +355,17 @@
 			</p:proposed>
 			
 		</p:theme>
-		<p:theme name="Eclipse 4.1">
+		<p:theme name="Support for Eclipse 3.8 workbench">
 			<p:description>
 				<div>
-					We have no plans to support running on or testing with Eclipse 4.1 at this time. 
+					Our primary platform for the Juno release will be the same as the rest of the simultaneous release:  Eclipse 4.2.  We do not anticipate having any 4.2-specific features and will thus likely "Just Work" on a 3.8 base, assuming our dependencies (CDT, BIRT, GEF) function on a 3.8 base.  We encourage users and adopters to move to 4.2 but will strive to fix 3.8-specific bugs within reason and with the caveat that we are a small project and our focus is 4.2.    
 				</div>
 			</p:description>
 		</p:theme>
 		<p:theme name="Eclipse 4.2">
 			<p:description>
 				<div>
-					Our 1.0 release as a part of Juno will work on top of Eclipse 4.2.  We expect to largely be using the compatibility layer.
+					Our 1.0 release as a part of Juno will work on top of Eclipse 4.2.  We expect to be using the compatibility layer almost exclusively and have no 4.2-specific API calls or functionality.
 				</div>
 			</p:description>
 		</p:theme>
