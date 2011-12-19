@@ -169,18 +169,8 @@
 	</p:release_milestones>
 	<p:target_environments>
 		<div>
-			<!--
-			For releases &lt;= 0.2, the tools run with Eclipse 3.4.x (some may still require
-			updating from 3.3 in places) and require Java 5.0. Some
-			tools -- notable the autotools and profiling plugins -- require CDT &gt;= 5.0.0 (6.0 for our 0.3 release and greater).
-			For releases &gt;= 0.3, the tools run with Eclipse 3.5.x and related dependencies.
-			For release 0.6, the tools run with Eclipse 3.6.x (Helios) and related dependencies.
-			For release 0.7, the tools run with Eclipse 3.6.x (Helios and related dependencies.
-			For release 0.8, the tools run with Eclipse 3.7.x (Indigo) and related dependencies.
-			For release 1.0, the tools run with Eclipse 4.2 (Juno) and related dependencies.
-			-->
 			For release 1.0, the tools run with Eclipse 4.2 (Juno) and related dependencies (CDT, etc.).
-			Our plug-ins require Java >= 6.0.
+			Our plug-ins require Java &gt;= 6.0.
 			Some of our plug-ins interact with underlying profiling, etc. tools which means that 
 			those underlying tools must be present for functionality.  This sometimes makes them
 			only available on Linux.  All plug-ins and features have proper operating system
