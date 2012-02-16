@@ -18,9 +18,9 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>0.9.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2012-01-20).
-		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/400/testReport/">Unit test results</a>.
+		<h3>0.9.2 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2012-02-16).
+		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/408/testReport/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.7.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
@@ -29,9 +29,9 @@
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/technology/linuxtools/0.9.1-sources/">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.9.1-incubation.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.9.2-incubation.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.9.1-incubation.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.9.2-incubation.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
