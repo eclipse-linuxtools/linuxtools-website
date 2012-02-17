@@ -20,21 +20,19 @@
 
         <h2>Overview</h2>
         <p>
-        <a href="http://lttng.org">LTTng</a> (Linux Tracing Toolkit, next 
+        <a href="http://lttng.org">LTTng</a> (Linux Trace Toolkit, next 
         generation) is a high performance tracing tool for Linux that
         efficiently handles large amounts of trace data. Initially aimed 
         at the Linux kernel, its technology has been extended to support 
         user space tracing (UST).
         <p>
-        LTTng comes as a set of kernel patches, to efficiently collect the
-        trace data, and a suite of integrated components to [1] configure and
-        control the collection of traces, and [2] visualize and analyze the
-        trace data.
+        The scope of this project is to deliver an OS-independent Eclipse
+        front-end for LTTng, in order to [1] configure and control LTTng,
+        [2] collect the trace data, and [3] visualize and analyze the data
+        collected.
         <p>
-        The scope of this project is to deliver an Eclipse front-end for LTTng,
-        functionally equivalent to the current LTTv component, and to provide a
-        framework for the integration of tracers/loggers as well as specialized
-        trace analysis tools.
+        It also provides a framework for the integration of various tracers
+        and loggers (e.g. HW) as well as specialized trace analysis tools.
 
         <h2>Current Status</h2>
         <p>
@@ -42,29 +40,35 @@
         <ul>
             <li>Project View - Project management</li>
             <li>Events View - Tabular view of the raw events</li>
-            <li>Time Frame View - Time-based navigation in the traces</li>
             <li>Histogram View - Event distribution analysis</li> 
             <li>Control Flow View - Processes state analysis</li>
             <li>Resource View - System resources state analysis</li>
             <li>Statistics View - General traces statistics</li>
+            <li>Latency View - Graphical representation of system latency</li>
             <li>Integrated Help</li>
         </ul>
 
         <h4>LTTng internals</h4>
         <ul>
-            <li>Integration of a Kernel State manager</li>
-            <li>Integration of the LTTv parsing library</li>
+            <li>Integration of User Space Tracing (UST)</li>
             <li>Integration of distributed, multi-processor, multi-core traces</li>
         </ul>
 
         <h4>Infrastructure (non-LTTng specific)</h4>
         <ul>
             <li>Generic Event Model</li>
-            <li>Generic Trace/Experiment Model</li>
+            <li>Event searching, filtering, bookmarking and color coding</li>
+            <li>Generic Trace Model</li>
             <li>Generic Component Model</li>
+            <li>Generic Text Parser (XML, regex)</li>
             <li>Generic, request-based, inter-component communication mechanism</li>
+            <li>Generic Project View</li>
             <li>Generic Events View</li>
+            <li>Generic Statistics View</li>
+            <li>Generic Histogram View</li>
             <li>Support for arbitrarily large traces (that exceed available memory)</li>
+            <li>Wizards for parser generation (CSV, XML, plain text, regular expression, ...)</li>
+            <li>Support for trace Drag&Drop</li>
         </ul>
 
         <h2>Future Plans</h2>
@@ -77,29 +81,25 @@
 
         <h4>LTTng internals</h4>
         <ul>
-            <li>Integration of User Space Tracing (UST)</li>
+            <li>Integration of a LTTng 2.x CTF-based trace parser</li>
+            <li>Integration of a Kernel State History manager</li>
             <li>Integration of trace synchronization analysis</li>
             <li>Integration of dependency analysis</li>
         </ul>
 
         <h4>Infrastructure (non-LTTng)</h4>
         <ul>
+            <li>Generic Trace Parser (CTF-based)</li>
+            <li>Generic Gantt Chart View</li>
+            <li>Viewing Widget Toolbox (e.g. XY-plot, histogram, Gantt chart, etc)</li>
+            <li>Statistical Widget Toolbox</li>
             <li>Efficient retrieval and handling of trace files</li>
             <li>Trace streaming</li>
-            <li>Analysis of stand-alone traces</li>
             <li>Correlation of heterogeneous traces</li>
-            <li>Generic tracing project management</li>
             <li>Generic tracing tool control</li>
-            <li>Generic tracing and statistical views</li>
-            <li>Event filtering and color coding</li>
-            <li>Trace annotation</li>
             <li>Source code lookup</li>
-            <li>Toolbox of tracing widgets that can be used to assemble application specific views</li>
-            <li>Toolbox of statistical widgets</li>
             <li>Wizards for tracing/logging/monitoring application integration</li>
-            <li>Wizards for parser generation (CSV, XML, plain text, regular expression, ...)</li>
             <li>Wizards for analysis components integration (generic or proprietary)</li>
-            <li>Support for Cut and Paste, Drag and Drop, etc</li>
         </ul>
 
         <h2>Screenshots</h2>
