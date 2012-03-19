@@ -1,0 +1,1234 @@
+
+
+<form method="POST">
+
+<div id="maincontent">
+<div id="midcolumn">
+<h1>IP Log for technology.linux-distros</h1>
+
+<h2>Licenses</h2>
+	<ul>
+			<li>Eclipse Public License v1.0</li>
+		</ul>
+
+<h2>Third-Party Code</h2>
+
+<h3>Pre-Req Dependencies</h3><table border="1" cellpadding="3" cellspacing="0" width="100%"><tr><th bordercolor="#7A79A7" bgcolor="#7A79A7">CQ</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Third-Party Code</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">License</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Use</th></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3181">3181</a></td><td width="55%">SystemTapGui</td><td width="20%">Eclipse Public License</td><td width="20%"></td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3376">3376</a></td><td width="55%">Apache Commons Net Version: 2.0 (Subset) (using Orbit CQ3188)</td><td width="20%">Apache License, 2.0</td><td width="20%">unmodified source&nbsp;&amp;&nbsp;binary</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=4305">4305</a></td><td width="55%">Glibc Documentation 2.7 Subset (
+ Manual Directory Texi Files only Excluding Examples Folder)</td><td width="20%">GNU Free Documentation License version 1.1</td><td width="20%">modified source&nbsp;&amp;&nbsp;binary</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=4742">4742</a></td><td width="55%">Apache Commons Net Version: 2.2</td><td width="20%">Apache License, 2.0</td><td width="20%">unmodified source&nbsp;&amp;&nbsp;binary</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=4828">4828</a></td><td width="55%">libmatthew-java Version: 0.7.2</td><td width="20%">Expat License (MIT Style)</td><td width="20%">unmodified binary </td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=5928">5928</a></td><td width="55%">SWTChart Version: 0.7.0</td><td width="20%">Eclipse Public License</td><td width="20%">unmodified binary </td></tr></table><h3>Exempt Pre-Req and Works With
+  Dependencies</h3><table border="1" cellpadding="3" cellspacing="0" width="100%"><tr><th bordercolor="#7A79A7" bgcolor="#7A79A7">CQ</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Third-Party Code</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">License</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Type</th></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2853">2853</a></td><td width="55%">Systemtap exempt third-party dependency Version: All</td><td width="20%">GNU General Public License (GPL)</td><td width="20%">exempt pre-req</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2965">2965</a></td><td width="55%">Linux Tools implied dependency:  rpm Version: 4.x</td><td width="20%">GPL v2</td><td width="20%">works with</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2966">2966</a></td><td width="55%">Linux Tools implied dependency: 
+  rpmlint Version: any</td><td width="20%">GPL v2</td><td width="20%">works with</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2967">2967</a></td><td width="55%">Linux Tools implied dependency:  yum Version: any</td><td width="20%">GPL v2</td><td width="20%">works with</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2968">2968</a></td><td width="55%">Linux Tools implied dependency:  GNU Autotools Version: any</td><td width="20%">GPL v2</td><td width="20%">exempt pre-req</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3392">3392</a></td><td width="55%">lttng Version: all</td><td width="20%">GNU General Public License (GPL)</td><td width="20%">exempt pre-req</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3478">3478</a></td><td width="55%">systemtapguiserver Version: any</td>
+ <td width="20%">Eclipse Public License</td><td width="20%">works with</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3706">3706</a></td><td width="55%">binutils Version: any</td><td width="20%">GNU General Public License (GPL)</td><td width="20%">exempt pre-req</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3707">3707</a></td><td width="55%">liblttvtraceread Version: 0.12 ? subset limited to LGPL licensed code</td><td width="20%">'Lesser' General Public License (LGPL) 2.1</td><td width="20%">exempt pre-req</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=4857">4857</a></td><td width="55%">devhelp Version: N/A</td><td width="20%">Various</td><td width="20%">works with</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=5195">5195</a></td><td width="55%">policykit Version: 0.98 a
+ nd up</td><td width="20%">GNU Library General Public License Version 2</td><td width="20%">works with</td></tr></table><h3>Unused Approved Contributions</h3><table border="1" cellpadding="3" cellspacing="0" width="100%"><tr><th bordercolor="#7A79A7" bgcolor="#7A79A7">CQ</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Third-Party Code</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">License</th><th bordercolor="#7A79A7" bgcolor="#7A79A7">Status</th></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3065">3065</a></td><td width="55%">Apache Jakarta Commons Net Library Version: 1.4.1 (PB CQ230) (using Orbit CQ2105)</td><td width="20%">Apache License, 2.0</td><td width="20%">obsolete: was used in the past but is not longer used</td></tr><tr><td align="right" width="5%"><a href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3066">3066</a></td><td width="55%">Apache Jakarta ORO Library Version: 2.0.8 (PB CQ232) (using Orbit CQ2104)</td>
+ <td width="20%">Apache Software License 1.1</td><td width="20%">obsolete: was used in the past but is not longer used</td></tr></table><h2>Committers</h2>
+
+
+<table border="1" cellpadding="3" cellspacing="0">
+<tr><th colspan="3" bordercolor="#7A79A7" bgcolor="#7A79A7">Past and Present Active</th></tr>
+<tr><th bordercolor="#7A79A7" bgcolor="#7A79A7">Name</th>
+<th bordercolor="#7A79A7" bgcolor="#7A79A7">Organization</th>
+<th bordercolor="#7A79A7" bgcolor="#7A79A7">&nbsp;</th>
+</tr>
+<tr>
+	<td>Chris Aniszczyk</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Elliott Baron</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Nick Boldt</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>William Bourque</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Francois Chouinard</td>
+	<td>Ericsson AB </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Krzysztof Daniel</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Severin Gehwolf</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Roland Grunberg</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Daniel Henrique Barboza</td>
+	<td>IBM </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Bernd Hufmann</td>
+	<td>Ericsson AB </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Anithra P Janakiraman</td>
+	<td>IBM </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Jeff Johnston</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Alexander Kurtakov</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Phil Muldoon</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Andrew Overholt</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Otavio Pontes</td>
+	<td>IBM </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Xavier Raynaud</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Alvaro Sanchez-Leon</td>
+	<td>Ericsson AB </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Patrick Tasse</td>
+	<td>Ericsson AB </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Niels Thykier</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Alphonse Van Assche</td>
+	<td> </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Sami Wagiaalla</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	<tr>
+	<td>Charley Wang</td>
+	<td>Red Hat, Inc. </td>
+		<td></td>
+		</tr>
+	</table>
+<p>
+<h2>Contributors and Their Contributions</h2>
+<table border="1" cellpadding="3" cellspacing="0">
+<tr>
+<th bordercolor="#7A79A7" bgcolor="#7A79A7">Ref</th>
+<th bordercolor="#7A79A7" bgcolor="#7A79A7">Size</th>
+<th bordercolor="#7A79A7" bgcolor="#7A79A7">Description</th>
+</tr>
+<tr><td colspan="3" style="background-color: #DDDDDD">rosaliam@linux.vnet.ibm.com</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=343025">343025</a></td>
+		<td>2896 bytes</td>
+		<td>Some of the event names in the OProfile profile configuration event tab are malformed<br/>Correct Bug fix: 343025 - Event names in the OProfile are malformed</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">avkosinsky@yandex.ru</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=355385">355385</a></td>
+		<td>2247 bytes</td>
+		<td>Workaround ManParser problem for Windows/Cygwin<br/>ManParser.java</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">mathieu.denis@polymtl.ca</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=352379">352379</a></td>
+		<td>5151 bytes</td>
+		<td>[LTTng] Statistics view - reset/update not performed when fast change of trace<br/>Dispose correctly of the loading experiment when another one is selected</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=355551">355551</a></td>
+		<td>7469 bytes</td>
+		<td>[LTTng] Statistics view - Correct calculation of cumulative CPU time<br/>Fix how the cumulative CPU time is updated</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Aaron&nbsp;Luchko (luchko.ca)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=76882">76882</a></td>
+		<td>910 bytes</td>
+		<td>RPM: Enhancement: automatically select current project in Export dialog<br/>changelog entry</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=78871">78871</a></td>
+		<td>559 bytes</td>
+		<td>Icon missing for oprofile launch<br/>Adds icons/ to the build.properties</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=82881">82881</a></td>
+		<td>627 bytes</td>
+		<td>Combo box should contain list of previous rpms opened<br/>changelog entry</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83031">83031</a></td>
+		<td>12199 bytes</td>
+		<td>Fixing various naming problems in source<br/>le patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83135">83135</a></td>
+		<td>11014 bytes</td>
+		<td>Option to export as configured project<br/>more patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83150">83150</a></td>
+		<td>1923 bytes</td>
+		<td>[RPM} Incorrect path for diff<br/>patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Alexander&nbsp;Kurtakov (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=207207">207207</a></td>
+		<td>985 bytes</td>
+		<td>Rpm editor do not accept valid values for Release:<br/>Possible fix</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214217">214217</a></td>
+		<td>565 bytes</td>
+		<td>Source completion patch<br/>Changelog entry</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=215788">215788</a></td>
+		<td>2729 bytes</td>
+		<td>Support for adding directory to check for rpm macroses (e.g. /etc/rpm/macros.d)<br/>The proposed patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=217316">217316</a></td>
+		<td>11316 bytes</td>
+		<td>[Patch]Add interface to add directories to Macro completion list<br/>The patch containing the enhancement.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Alexandre&nbsp;Montplaisir (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=340700">340700</a></td>
+		<td>1303 bytes</td>
+		<td>[LTTng] File descriptors exhausted because traces are never closed<br/>Proposed fix</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Alphonse&nbsp;Van&nbsp;Assche (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=177220">177220</a></td>
+		<td>108450 bytes</td>
+		<td>Some patches for the specfile editor<br/>foldind-hover-completions </td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181110">181110</a></td>
+		<td>7680 bytes</td>
+		<td>Should SpecfileReconcilingStrategy#updateEditor be empty?<br/>Update the editor without saving the file</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181236">181236</a></td>
+		<td>6531 bytes</td>
+		<td>Write tests for new editor functionality (folding, hover, completion)<br/>RpmMacroProposalsList and RpmPackageProposalsList test</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181245">181245</a></td>
+		<td>19179 bytes</td>
+		<td>[PATCH] RPM packages coloration and hover support<br/>packages coloration, hover and completion support</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181395">181395</a></td>
+		<td>803 bytes</td>
+		<td>[PATCH] RpmMacroProposalsList replaceAll fix<br/>fix replaceAll() another replaceAll() bug in RpmMacroProposalsList</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181747">181747</a></td>
+		<td>6788 bytes</td>
+		<td>Hyperlink with macro detector<br/>URLHyperlinkWithMacroDetector</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=182302">182302</a></td>
+		<td>1741 bytes</td>
+		<td>[PATCH] some display fixes<br/>Fix: package names as sub-names of other package names</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=182633">182633</a></td>
+		<td>5832 bytes</td>
+		<td>Add outline icons<br/>Outline and completion icons</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=184955">184955</a></td>
+		<td>30362 bytes</td>
+		<td>[PATCH] specfile editor - macro occurences annotations<br/>macro occurences annotations</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=185227">185227</a></td>
+		<td>18007 bytes</td>
+		<td>Specfile plugin - convert tab to spaces<br/>convert tab by spaces</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Alvaro&nbsp;Sanchez-Leon (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=290250">290250</a></td>
+		<td>323705 bytes</td>
+		<td>[LTTng] Integrate LTTng UI State Views (controlflow, resources and statistics)<br/>patch uggraded to svn latest Sept 25 09</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=290968">290968</a></td>
+		<td>62505 bytes</td>
+		<td>[Lttng] Refactor state views to use common code to handle Data Requests + others<br/>patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=291097">291097</a></td>
+		<td>86856 bytes</td>
+		<td>[LTTng] Align process creation with C-code implementation<br/>udpated to  HEAD</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=291981">291981</a></td>
+		<td>17713 bytes</td>
+		<td>[LTTng] Switching between Experiments needs to clear old experiment data<br/>Patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=292393">292393</a></td>
+		<td>30833 bytes</td>
+		<td>[LTTng] Improve search of a process within the State model<br/>re-created</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=292397">292397</a></td>
+		<td>29811 bytes</td>
+		<td>[LTTng] Control Flow View - Improve the search of Local UI model Process<br/>Patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296266">296266</a></td>
+		<td>1532 bytes</td>
+		<td>[LTTng] Processes may be created without a valid traceID<br/>patch - state processes shall always have a valid traceID</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=297086">297086</a></td>
+		<td>853 bytes</td>
+		<td>[LTTng] Resources view not showing all information<br/>patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Andrew&nbsp;Robinson (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353214">353214</a></td>
+		<td>21555 bytes</td>
+		<td>Modification of command running methods to allow process access.<br/>Updated patch.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=363027">363027</a></td>
+		<td>5261 bytes</td>
+		<td>Please add license feature to eclipse-build<br/>License feature patch.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=369578">369578</a></td>
+		<td>2677 bytes</td>
+		<td>Make eclipse-copy-platform use relative path.<br/>The updated fix.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Benjamin&nbsp;Drung (ubuntu.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=358246">358246</a></td>
+		<td>1145 bytes</td>
+		<td>[eclipse-build] Support finding libjasper-java 5.5.33-1 or newer on Debian.<br/>find-newer-system-jasper.patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Benjamin&nbsp;Drung (debian.org)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=ee1a5cafa0964ea151daddf8ef0e43869cff28c5">ee1a5c</a></td>
+		<td>2 lines</td>
+		<td>Support finding libjasper-java 5.5.33-1 or newer on Debian.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Bernd&nbsp;Hufmann (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=316467">316467</a></td>
+		<td>18412 bytes</td>
+		<td>[LTTng] Histogram View short requests not coalesced with Control Flow View and Resources View<br/>Improved Request Coalescing and other performance / usability improvements (indigo)</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=327711">327711</a></td>
+		<td>18412 bytes</td>
+		<td>[LTTng] SWTException (widget is disposed) problem<br/>patch for asyncExec problems</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329473">329473</a></td>
+		<td>1127 bytes</td>
+		<td>[LTTng] Experiment instability<br/>update vertical scrollbar in CFV asynchronously to get correct display</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329579">329579</a></td>
+		<td>911 bytes</td>
+		<td>[LTTng] NullPointerException when opening HistogramView<br/>Fix for NullPointerException</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329764">329764</a></td>
+		<td>727 bytes</td>
+		<td>[LTTng] NullPointerException when loading an Experiment<br/>Fix for NullPointerException in LttngExperiment</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=331156">331156</a></td>
+		<td>1954 bytes</td>
+		<td>[LTTng] Memory leak when selecting an experiment<br/>Fix for memory leak</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Chris&nbsp;Aniszczyk (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=c4208347aea3d0438372d2b3491837be3aa13c93">c42083</a></td>
+		<td>52 lines</td>
+		<td>Add repo generation for the man module Signed-off-by: Chris Aniszczyk &lt;zx@redhat.com&gt;</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Christian&nbsp;Prochaska (googlemail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267538">267538</a></td>
+		<td>636 bytes</td>
+		<td>problems with MSYS/MinGW, Autotools plugin and native Windows paths<br/>call configure script using absolute path with forward slashes and without a colon after the drive letter</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Christopher&nbsp;Daniel (pl.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=ae6a179b8cb6dbb8ef4f28beb43cbcfee831970a">ae6a17</a></td>
+		<td>19 lines</td>
+		<td>Apply patch from #350304. Works perfect. Thanks for doing it.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Corey&nbsp;Ashford (us.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=341292">341292</a></td>
+		<td>2586 bytes</td>
+		<td>Error message when opcontrol script returns an error needs improvement<br/>Improves error message when opcontrol returns a non-zero status</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=342880">342880</a></td>
+		<td>710 bytes</td>
+		<td>Running install-noconsolehelper.sh after running install.sh causes corruption of /usr/bin/consolehelper<br/>Patch to remove pre-existing ./opcontrol link/file</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=342883">342883</a></td>
+		<td>569 bytes</td>
+		<td>OProfile plug-in uses /usr/bin/consolehelper when available, but needs /usr/bin/consolehelper-gtk  as well<br/>require /usr/bin/consolehelper-gtk is installed in install.sh</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=349720">349720</a></td>
+		<td>210560 bytes</td>
+		<td>SystemTap Help formatting doesn't conform to the rest of the Eclipse Help.<br/>Cleans up existing SystemTap docs in place</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=351368">351368</a></td>
+		<td>6434 bytes</td>
+		<td>Error handling of opcontrol needs improvement<br/>Patch to improve error handling of opcontrol</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Corey&nbsp;Ashford (linux.vnet.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=0616ff686e4dc70af38d70543b7bf98a7a3bb460">0616ff</a></td>
+		<td>2 lines</td>
+		<td>linuxtools, oprofile: Improve error message when opcontrol returns a non-zero error code Add extra verbiage to give a clue as to what might have gone wrong if opcontrol returns a non-zero exit status, particularly for the case when /usr/bin/consolehelper is not installed on the system (e.g. consolehelper is not in the SuSE distro). Signed-off-by: Corey Ashford &lt;cjashfor@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=7e17e752d40205a6a96d9a6b9e6d82d9ce4e0e9d">7e17e7</a></td>
+		<td>116 lines</td>
+		<td>Add ability to create the proxy using a URI in addition to an IProject In order to implement the RemoteConnection class in terms of this proxy, we need to have the ability to create a proxy based upon the URI of an executable, which may reside on a remote machine, but not the machine where the project is located.  A similar situation occurs when downloading a locally-built executable to a remote machine to run it.  In these cases we need to access a remote file system which is not related to where the project is located. In addition to these changes, I also sprinkled in a few @Override annotations on the methods of classes that implement an interface.  Note that I was not able to do this on the methods in org.eclipse.linuxtools.rdt.proxy because it uses Java 1.5 instead of 1.6, where @Override is not allowed on methods which directly implement an interface (i.e. not from a superclass). Signed-off-by: Corey Ashford &lt;cjashfor@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=99a2ea3eb8585630e08cae96cc95c04b9fe912d6">99a2ea</a></td>
+		<td>2 lines</td>
+		<td>linuxtools, oprofile: Improve error message when opcontrol returns a non-zero error code Add extra verbiage to give a clue as to what might have gone wrong if opcontrol returns a non-zero exit status, particularly for the case when /usr/bin/consolehelper is not installed on the system (e.g. consolehelper is not in the SuSE distro). Signed-off-by: Corey Ashford &lt;cjashfor@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=f0eb69e75cabc00e154f308e8819b6b69fc18048">f0eb69</a></td>
+		<td>116 lines</td>
+		<td>Add ability to create the proxy using a URI in addition to an IProject In order to implement the RemoteConnection class in terms of this proxy, we need to have the ability to create a proxy based upon the URI of an executable, which may reside on a remote machine, but not the machine where the project is located.  A similar situation occurs when downloading a locally-built executable to a remote machine to run it.  In these cases we need to access a remote file system which is not related to where the project is located. In addition to these changes, I also sprinkled in a few @Override annotations on the methods of classes that implement an interface.  Note that I was not able to do this on the methods in org.eclipse.linuxtools.rdt.proxy because it uses Java 1.5 instead of 1.6, where @Override is not allowed on methods which directly implement an interface (i.e. not from a superclass). Signed-off-by: Corey Ashford &lt;cjashfor@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Daniel&nbsp;Henrique&nbsp;Barboza (br.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=0422f9168aba49e775c9d94684da36dcbd0da5e1">0422f9</a></td>
+		<td>46 lines</td>
+		<td>Perf plug-in: added end of process messages.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=51f487f195686d420151d236fa13253bb1b33683">51f487</a></td>
+		<td>7577 lines</td>
+		<td>danielhb@br.ibm.com: Contributing Helgrind tests plug-in.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=b392cc0ff192033391f2edfc90c729ae2132668b">b392cc</a></td>
+		<td>11 lines</td>
+		<td>Removing the -U flag of the Perf plug-in launch. Some systems/distros do not implement it. I'm removing this flag until we're secure that all of them, or at least the major ones, support it.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=bbad9cb2d4b95fe1eb80635380fb6ddae4021b27">bbad9c</a></td>
+		<td>214 lines</td>
+		<td>Adding pom.xml files to enable Perf build.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=c03a563c4b1042774c28d1a8cf910329d4309a7d">c03a56</a></td>
+		<td>84 lines</td>
+		<td>Fixing Helgrind tests plugin issue with Tycho.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=cca821e50f99a47d400ab5d03d0d349d6f71126a">cca821</a></td>
+		<td>4490 lines</td>
+		<td>Helgrind.tests plug-in cleanup.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=cdd81a6ee600ef97e14fa191743415ea6457f576">cdd81a</a></td>
+		<td>7577 lines</td>
+		<td>danielhb@br.ibm.com: Contributing Helgrind tests plug-in.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=d94bf7de749e400a420d18aacdf2a96661d6e61a">d94bf7</a></td>
+		<td>19 lines</td>
+		<td>Fixing <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367505">Bug 367505</a> Removed the p.waitFor() call which proved to be problematic on some cases.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=dba823b0d24f9cff97acfd67bc2439821a73d829">dba823</a></td>
+		<td>84 lines</td>
+		<td>Fixing Helgrind tests plugin issue with Tycho.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=344504">344504</a></td>
+		<td>11466 bytes</td>
+		<td>Contributing a Helgrind plugin for Linux Tools Project<br/>Tarball with the source code of Helgrind plugin</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=364198">364198</a></td>
+		<td>116076 bytes</td>
+		<td>*cachegrind* files in Helgrind test plugin<br/>Clean-up of the helgrind test plug-in.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=364747">364747</a></td>
+		<td>3471 bytes</td>
+		<td>[Perf plug-in] Fixing behavior when no events occurred<br/>Patch implementing the proposed change - updated</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=365303">365303</a></td>
+		<td>11540 bytes</td>
+		<td>Enabling perf build into linuxtools<br/>Patch that sets up pom files for Perf build</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=366734">366734</a></td>
+		<td>1715 bytes</td>
+		<td>Removing the -U flag from the plug-in<br/>Patch that removes the -U flag from execution.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367505">367505</a></td>
+		<td>1978 bytes</td>
+		<td>Perf hangs when clicking on or creating a configuration<br/>Patch to fix the p.waitFor() problem found</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=345863">345863</a></td>
+		<td>128 bytes</td>
+		<td>Create unit tests for Helgrind<br/>comment #11</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=363510">363510</a></td>
+		<td>336 bytes</td>
+		<td>Cachegrind: manual cache configuration is reseted after run<br/>comment #2</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Daniel&nbsp;Henrique&nbsp;Debonzi (linux.vnet.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=61eb4c0d54fa650b825debf07f75429637782827">61eb4c</a></td>
+		<td>104 lines</td>
+		<td>Valgrind 3.6 massif new options included.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=ba34c1cbd8fb91f59dd1e45928043bfa4138132c">ba34c1</a></td>
+		<td>219 lines</td>
+		<td>Valgrind 3.6 memcheck new options included.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=345482">345482</a></td>
+		<td>227 bytes</td>
+		<td>Valgrind tools options (massif, cachegrind, memcheck) does not reflect some options available on latest valgrind.<br/>comment #11</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Daniel&nbsp;U.&nbsp;Thibault (bigfoot.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=349987">349987</a></td>
+		<td>22042 bytes</td>
+		<td>[LTTng] org.eclipse.linuxtools.lttng StateStrings.java missing some code, other duplicated<br/>Various fixes and improvements to StateStrings.java</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Francois&nbsp;Chouinard (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=277520">277520</a></td>
+		<td>4328 bytes</td>
+		<td>Add an entry for LTTng on the project page<br/>LTTng project info</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Francois&nbsp;Godin (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=323611">323611</a></td>
+		<td>1862 bytes</td>
+		<td>[TMF] TmfVirtualTable scrolling and slider bugs<br/>Patch v2</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Igor&nbsp;Foox (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181102">181102</a></td>
+		<td>1682 bytes</td>
+		<td>Test failures due to change in SpecfileParser#parseSection<br/>Patch to fix the tests</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181238">181238</a></td>
+		<td>480 bytes</td>
+		<td>Superfluous junit entry in .classpath<br/>Remove junit from classpath</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181497">181497</a></td>
+		<td>7599 bytes</td>
+		<td>ChangeLog plugin should not have com.redhat.* stuff lying around<br/>Patch to change all com.redhat.eclipse references to org.eclipse.linuxtools</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Jeff&nbsp;Johnston (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210144">210144</a></td>
+		<td>49183 bytes</td>
+		<td>Changelog plugin should not depend on CVS<br/>Changelog plugin patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Jeremy&nbsp;Handcock (aperte.org)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=82195">82195</a></td>
+		<td>110055 bytes</td>
+		<td>[RPM] Refactor org.eclipse.cdt.rpm.core<br/>Patch for org.eclipse.cdt.rpm.ui</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=82196">82196</a></td>
+		<td>26856 bytes</td>
+		<td>[RPM] Move propertypage plug-in to org.eclipse.cdt.rpm.ui<br/>Patch for org.eclipse.cdt.rpm.ui</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=96849">96849</a></td>
+		<td>1694 bytes</td>
+		<td>[OProfile] Build doesn't fail when opxml build fails<br/>Patch for org.eclipse.cdt.oprofile.core.linux</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">John&nbsp;Dallaway (dallaway.org.uk)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329710">329710</a></td>
+		<td>950 bytes</td>
+		<td>getGCDALocations() implementation is not robust<br/>CovManager.java.patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330810">330810</a></td>
+		<td>680 bytes</td>
+		<td>Chart View viewer should be borderless<br/>ChartView.java.patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=340638">340638</a></td>
+		<td>1608 bytes</td>
+		<td>GProf view presents border around table<br/>GmonView.java.patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Jon&nbsp;Beniston (beniston.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=313748">313748</a></td>
+		<td>5776 bytes</td>
+		<td>Add ability to set autotools options in templates<br/>Patch to add support for SetAutotoolsStringOptionValue process</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=314122">314122</a></td>
+		<td>1551 bytes</td>
+		<td>&quot; in .autotools are not escaped as &amp;quot;<br/>Patch to escape characters &amp;'&quot;&lt;&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=314587">314587</a></td>
+		<td>2041 bytes</td>
+		<td>Add support for Cygwin in getPathString()<br/>Add support for cygwin paths</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Ken (msn.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=350593">350593</a></td>
+		<td>1900 bytes</td>
+		<td>ChangeLog does not consider a dirty ChangeLog editor as a change to the ChangeLog file and adds new ChangeLog entries to the editor<br/>Added dirty editor detection support by checking the boolean flag included by ChangeLogEditor.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Krzysztof&nbsp;Daniel (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=7d303e15c0fed77e309a813dfcf882bb8bcd78a6">7d303e</a></td>
+		<td>50 lines</td>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=366698">Bug 366698</a> - Kill old install and provision targets Two targets (provision.sdk and install were removed). installSDKinDropins is the default target now. installPlatform and installPlatformAndCVS were also removed</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=aec369f605a83aec45135f739659c25b9fa3be39">aec369</a></td>
+		<td>2 lines</td>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367942">Bug 367942</a> - setPDEBuildPath does nothing currently Incorporated akurtakov suggestion and now setPDEBuildPath uses the installation that was produced earlier, not the bootstrap.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=d101b3290df308930f6e0f69336289a0e18dd8dd">d101b3</a></td>
+		<td>12 lines</td>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367940">Bug 367940</a> - ant buildTests should fail if underlying equinox returns 13 &lt;exec&gt; tasks that invoke equinox got failonerror=true.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=350304">350304</a></td>
+		<td>2051 bytes</td>
+		<td>[pdebuild] Clean up unnecessary logging<br/>Patch proposition</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=366698">366698</a></td>
+		<td>4588 bytes</td>
+		<td>Kill old install and provision targets<br/>Second proposition</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367727">367727</a></td>
+		<td>3442 bytes</td>
+		<td>Incorrect error message when eclipse-build version does not match the source tarbals<br/>Fix proposition</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367744">367744</a></td>
+		<td>1294 bytes</td>
+		<td>Verify if the JAVA_HOME is set before build starts<br/>Patch v4 in git format</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367940">367940</a></td>
+		<td>2737 bytes</td>
+		<td>ant buildTests should fail if underlying equinox returns 13<br/>Fix proposition</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367942">367942</a></td>
+		<td>894 bytes</td>
+		<td>setPDEBuildPath does nothing currently<br/>Fix in line with Alex suggestions</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Krzysztof&nbsp;Daniel (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=0c3a5d17d9aeeadf57141aeaba3b65d1ff533584">0c3a5d</a></td>
+		<td>10 lines</td>
+		<td>Verify if the JAVA_HOME is set before build starts A check if JAVA_HOME is set and points to an existing directory.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=1ed0c8b36c2b4512fbdfc78948010c57a7b0531b">1ed0c8</a></td>
+		<td>10 lines</td>
+		<td>Verify if the JAVA_HOME is set before build starts A check if JAVA_HOME is set and points to an existing directory.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=5226c06ce6c694af86addba36c396d92a48d632c">5226c0</a></td>
+		<td>8 lines</td>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367727">Bug 367727</a> - Incorrect error message when eclipse-build version does not match the source tarbals Changed error messaged to display which file actually is missing and what can be done about that.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=90afd93ab5f0d085229b81971e5391107df0ef42">90afd9</a></td>
+		<td>8 lines</td>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367727">Bug 367727</a> - Incorrect error message when eclipse-build version does not match the source tarbals Changed error messaged to display which file actually is missing and what can be done about that.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Kyu&nbsp;Lee (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=179327">179327</a></td>
+		<td>18470 bytes</td>
+		<td>Separate *Parser classes into plug-ins<br/>removing dependencies for JDT, CDT and parsers</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Lawrie&nbsp;Nichols (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296228">296228</a></td>
+		<td>1853 bytes</td>
+		<td>No profiling data generated - wrong image filter?<br/>Patch for oprofile abstract launcher</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">lmcpata (ericsson.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=17429dca4b2a18c5691642864f7daf757588f394">17429d</a></td>
+		<td>3671 lines</td>
+		<td>Fix for custom parsers</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=cc215be76b9c25a1ee7640a3e8df1f92bb56fe4d">cc215b</a></td>
+		<td>15 lines</td>
+		<td>Fix for state experiment manager coalescing.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Marc&nbsp;Dumais (ericsson.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=316455">316455</a></td>
+		<td>39515 bytes</td>
+		<td>[LTTng] State system minor improvements<br/>Updated patch, following rebase to latest of TRUNK as of 2010-10-14</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Marc&nbsp;Khouzam (ericsson.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=292172">292172</a></td>
+		<td>390 bytes</td>
+		<td>Wrong release version on oprofile move_opxml script<br/>Fix</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Marc-Andre&nbsp;Laperle (omnialabs.net)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322698">322698</a></td>
+		<td>2507 bytes</td>
+		<td>Can't create a new C/C++ project<br/>AutotoolsBuildWizard messages patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Martin&nbsp;Oberhuber (windriver.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=354342">354342</a></td>
+		<td>1955 bytes</td>
+		<td>The version number can not be changed after the ValgrindOptionTab has been initialized<br/>patch v1</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=360085">360085</a></td>
+		<td>2619 bytes</td>
+		<td>Valgrind doesn't always clear its error markers when it should<br/>patch v1</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Mathieu&nbsp;Denis (ericsson.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=355084">355084</a></td>
+		<td>2067 bytes</td>
+		<td>[LTTng] latency analysis - the second trace to be selected sometimes doesn't appear<br/>Clear the histogram selected timerange for the latency view</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Matthew&nbsp;Khouzam (ericsson.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=292414">292414</a></td>
+		<td>16532 bytes</td>
+		<td>[LTTng] Include Legend in Control Flow and Resources View<br/>Includes legends in control flow view and resource view</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">minoo&nbsp;ziaei (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353447">353447</a></td>
+		<td>2618 bytes</td>
+		<td>Missing exported rpmstubby package<br/>rpmstubby and rpm.ui.editor patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Niels&nbsp;Thykier (thykier.net)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322271">322271</a></td>
+		<td>2277 bytes</td>
+		<td>[eclipse-build][debian] eclipse-pdebuild.sh does not pass -data and uses -vmargs<br/>Refreshed the original patch for the git migration</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Otavio&nbsp;Pontes (linux.vnet.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=104be8caedb2f54a28a716d86803beb817101ea1">104be8</a></td>
+		<td>21 lines</td>
+		<td>Fix <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=351477">Bug 351477</a> When SystemTap script is run with 'run w/Graph' option and the connection to remote host fails the wizard to continue with creation of graph appears in spite of the error message/failure https://bugs.eclipse.org/bugs/show_bug.cgi?id=351477 * systemtap/org.eclipse.linuxtools.systemtap.ui.consolelog/src/org/eclipse/linuxtools/systemtap/ui/consolelog/ScpClient.java * systemtap/org.eclipse.linuxtools.systemtap.ui.graphicalrun/src/org/eclipse/linuxtools/systemtap/ui/graphicalrun/actions/RunScriptChartAction.java</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=270dbfff315e44cb10bfc3018f894f6671f859f5">270dbf</a></td>
+		<td>2 lines</td>
+		<td>Documentation, Import Modules task has a broken link  <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353635">Bug 353635</a> 'Module Browser' link in 'Importing Modules' help page is broken. The href from link is incorrect. https://bugs.eclipse.org/bugs/show_bug.cgi?id=353635 * systemtap/org.eclipse.linuxtools.systemtap.ui.dashboard/documentation/html/tasks/importModules.html</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=40a1d6661fadc9b72fcf73bddd0e10b588e9a738">40a1d6</a></td>
+		<td>57 lines</td>
+		<td>Modify verbosity flag to accept levels of verbosity. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353809">Bug 353809</a></td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=5c82d8af7aed5b9536622b9f6cc358ec8827c8c2">5c82d8</a></td>
+		<td>57 lines</td>
+		<td>Modify verbosity flag to accept levels of verbosity. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353809">Bug 353809</a></td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=5fa024f8085275d28e1d1a2cfd51f796d4341cb3">5fa024</a></td>
+		<td>2 lines</td>
+		<td>Documentation, Import Modules task has a broken link  <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353635">Bug 353635</a> 'Module Browser' link in 'Importing Modules' help page is broken. The href from link is incorrect. https://bugs.eclipse.org/bugs/show_bug.cgi?id=353635 * systemtap/org.eclipse.linuxtools.systemtap.ui.dashboard/documentation/html/tasks/importModules.html</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=d18c50b53b0741b79b4cb2a38a5a7e2cd345eee3">d18c50</a></td>
+		<td>23 lines</td>
+		<td>NPE when opening .h/.c file in SystemTap IDE Null Pointer Exception is raised when opening a file in Kernel Source view in Systemtap IDE https://bugs.eclipse.org/bugs/show_bug.cgi?id=345010</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=345010">345010</a></td>
+		<td>4014 bytes</td>
+		<td>Null Pointer Exception is raised when I open a file in Kernel Source view in Systemtap IDE<br/>Systemtap: Using only stp editors to open files in stap perspective</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=351355">351355</a></td>
+		<td>5347 bytes</td>
+		<td>gprof: support 64-bit gmon files in ppc64<br/>Getting Symbol table correctly in ppc64</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=351477">351477</a></td>
+		<td>3512 bytes</td>
+		<td>When running a systemtap plugin to draw a graph it displays the graph wizard even if the connection fails.<br/>Improved patch to fix the problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353635">353635</a></td>
+		<td>1396 bytes</td>
+		<td>Help: systemtap Dashboard Guide -&gt; Importing Modules has a broken link<br/>Patch to fix the reported problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353809">353809</a></td>
+		<td>10784 bytes</td>
+		<td>Function Callgraph profile configuration does not support -vv and -vvv options<br/>Using a spinner instead of checkboxes</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353903">353903</a></td>
+		<td>13039 bytes</td>
+		<td>&quot;Function Callgraph&quot; should use the most recently used launch config<br/>Fill default configuration with the same attributes that are used by LaunchStapGraph</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Otavio&nbsp;Pontes (br.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=f67202d9f6817dc7dd16e46c02d110708167254f">f67202</a></td>
+		<td>132 lines</td>
+		<td>Fill the default callgraph launch configuration with new attributes The default attributes from callgraph launch configuration are now the same attributes used by LaunchStapGraph to run systemtap.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Patrick&nbsp;Hofer (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=275685">275685</a></td>
+		<td>1455 bytes</td>
+		<td>[valgrind] doesn't launch on debian based system<br/>proposed patch with copyright info</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Patrick&nbsp;Tasse (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=310709">310709</a></td>
+		<td>11240 bytes</td>
+		<td>[TMF] Time Analysis Viewer widget single event trace and fixed time interval problems<br/> Proposed patch on org.eclipse.linuxtools.tmf.ui.viewers.timeAnalysis package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=319428">319428</a></td>
+		<td>228807 bytes</td>
+		<td>[TMF] Generalization of Project View<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=319429">319429</a></td>
+		<td>4662 bytes</td>
+		<td>[TMF] Implementation of Custom Parsers<br/>Icons zip file for org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=325638">325638</a></td>
+		<td>25209 bytes</td>
+		<td>[TMF] Virtual Table widget improvements and bug fixes<br/>Proposed patch on TmfVirtualTable.java and TmfEventsTable.java</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=327265">327265</a></td>
+		<td>38018 bytes</td>
+		<td>[TMF] Custom parsers NPE, extra columns and event type &amp; content fixes<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=337872">337872</a></td>
+		<td>5981 bytes</td>
+		<td>[TMF] Progress monitor feedback for indexing and constructor trigger<br/>Proposed patch in org.eclipse.linuxtools.tmf</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=337891">337891</a></td>
+		<td>1699 bytes</td>
+		<td>[TMF] Event clone erases content<br/>Proposed patch in org.eclipse.linuxtools.tmf</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=337900">337900</a></td>
+		<td>5003 bytes</td>
+		<td>[TMF] Buffered random access file<br/>Proposed patch in org.eclipse.linuxtools.tmf</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=337914">337914</a></td>
+		<td>11114 bytes</td>
+		<td>[TMF] Implementation of filter model<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338016">338016</a></td>
+		<td>80544 bytes</td>
+		<td>[TMF] Consolidation of externalization strings<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338112">338112</a></td>
+		<td>867 bytes</td>
+		<td>[TMF] Projects view improvements and bug fixes<br/>icons zip file for org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338151">338151</a></td>
+		<td>1975 bytes</td>
+		<td>[TMF] Implementation of Filters view<br/>icons zip file for org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338155">338155</a></td>
+		<td>512 bytes</td>
+		<td>[TMF] Implementation of Colors view<br/>icons zip file for org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338162">338162</a></td>
+		<td>1219 bytes</td>
+		<td>[TMF] Implementation of raw event viewer<br/>Proposed patch in org.eclipse.linuxtools.tmf.tests package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338253">338253</a></td>
+		<td>2193 bytes</td>
+		<td>[TMF] Implementation of searching, filtering, highlighting and bookmarking in events table<br/>icons zip file for org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=342769">342769</a></td>
+		<td>47389 bytes</td>
+		<td>[TMF] Refactoring of event cache with filter support and optimization of GUI refresh<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=348010">348010</a></td>
+		<td>849 bytes</td>
+		<td>[TMF] NullPointerException in custom XML parser wizard<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=348020">348020</a></td>
+		<td>3620 bytes</td>
+		<td>[TMF] Color resource leak in Colors view<br/>Proposed patch in org.eclipse.linuxtools.tmf.ui package</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=353020">353020</a></td>
+		<td>222892 bytes</td>
+		<td>[TMF, LTTng] Changes for streaming support, background and event request refactoring, trace control updates and minor bug fixes<br/>Proposed patch in org.eclipse.linuxtools packages</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Rafael&nbsp;Medeiros&nbsp;Teixeira (linux.vnet.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=9bc82fd9c00ca95a2f14f3fa78ac18b3e2921402">9bc82f</a></td>
+		<td>38 lines</td>
+		<td>Fix for <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333315">Bug 333315</a> - Add text to Valgrind view when no errors were found.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=b976523cbb21e6b64b4c3ab25dcc0d28b411741c">b97652</a></td>
+		<td>10 lines</td>
+		<td>Further fix for <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333315">Bug 333315</a>. Since the last fix doesn't allow empty messages array anymore (there's at least a ValgrindInfo message in it), verification for executions with no output must be different. Messages are also cleaned-up from console before starting a new execution; it might be confusing to have a &quot;no output&quot; message related to a previous execution written in the console while current profiling is running.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=cba9b8bec9ddc7834969f649c06d5cd675ae01d5">cba9b8</a></td>
+		<td>197 lines</td>
+		<td>oprofile: Modifications to use the linuxtools' path set for the project. If there's a Linuxtools path defined for the project being profiled, the plugin will try to run opcontrol as root. If it doesn't work, user will be prompted to add this opcontrol in the sudoers file with NOPASSWD. If no path is defined for the project, the plugin will try to use the opcontrol link/wrapper created by the install scripts.</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=cccffee4b8128975dbad6d966e286147c08cdde2">cccffe</a></td>
+		<td>27 lines</td>
+		<td>oprofile: Edited ChangeLog, removed unnecessary import in OpInfo.java, removed version for org.eclipse.linuxtools.tools.launch.core in MANIFEST.MF</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=364941">364941</a></td>
+		<td>3880 bytes</td>
+		<td>Add support for multiple Oprofile launch configs<br/>Minor fixes</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333315">333315</a></td>
+		<td>251 bytes</td>
+		<td>Add text to Valgrind view when no errors were found<br/>comment #3</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Remy&nbsp;Suen (ca.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=179141">179141</a></td>
+		<td>5531 bytes</td>
+		<td>ChangeLog plug-in should migrate away from plugin.xml to MANIFEST.MF<br/>Patch to remove stuff in plugin.xml and move them to a MANIFEST.MF file.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=179549">179549</a></td>
+		<td>2082 bytes</td>
+		<td>function guess fails when making changelog entry in static code block<br/>Patch to mark the static block as &quot;static initializer&quot;.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181249">181249</a></td>
+		<td>3858 bytes</td>
+		<td>Plug-ins do not specify execution environments and/or does not use OSGi manifests<br/>Patch to correct org.eclipse.linuxtools.rpm.ui.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Ryan&nbsp;Xu (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=360950">360950</a></td>
+		<td>1205 bytes</td>
+		<td>When open the preference page of valgrind on windows host, the whole eclipse will hang.<br/>patch</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Sami&nbsp;Wagiaalla (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=348260">348260</a></td>
+		<td>18327 bytes</td>
+		<td>Add a shared library template to new project wizard<br/>Add Autotools shared library template</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=348432">348432</a></td>
+		<td>23461 bytes</td>
+		<td>Add support for individual element validation to Autoconf parser<br/>Add support for individual element validation.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Severin&nbsp;Gehwolf (redhat.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=319742">319742</a></td>
+		<td>965 bytes</td>
+		<td>NPE: An internal error occurred during: &quot;Update RPM packages proposal list&quot;<br/>Bugfix</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=321905">321905</a></td>
+		<td>18360 bytes</td>
+		<td>IMAGE_FILTER set incorrectly if project is external<br/>Regression-test for this bug.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Stephen&nbsp;Shaw (decriptor.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/commit?id=9eea85dd783db3bb37a458f21365ffb4a9ffa7d0">9eea85</a></td>
+		<td>82 lines</td>
+		<td>Now accounts for jvm being in /usr/lib64 on 64bit machines Signed-off-by: Alexander Kurtakov &lt;akurtako@redhat.com&gt;</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Uwe&nbsp;Stieber (windriver.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=265494">265494</a></td>
+		<td>632 bytes</td>
+		<td>MacroProposalsPreferencePage fails to compile with Eclipse 3.5M5<br/>Set the visibility of selectionChanged to protected</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=265495">265495</a></td>
+		<td>1474 bytes</td>
+		<td>oprofile linux x86 and x86_64 cannot find fragment host<br/>Setting fragment host version constraint to 0.1.0 instead of 0.1</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Wainer&nbsp;S.&nbsp;Moschetta (linux.vnet.ibm.com)</td>
+		</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=1ad5b184dad25305b7f98943810ebc98bf31ba19">1ad5b1</a></td>
+		<td>10 lines</td>
+		<td>Perf: read events list also from stderr Old versions of Perf used to send events list to stderr instead of stdout This patch changes the plug-in to check whether stdout is empty or not Signed-off-by: Wainer S. Moschetta &lt;wainersm@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=63afc3c97a7df4ebf67662145f7b9b6d4af68038">63afc3</a></td>
+		<td>9 lines</td>
+		<td>Perf: refactoring on events parser. Fixes <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367555">Bug 367555</a> Events parser used to rely on line length of 'perf list' output. However, length might change between perf versions. This patch changes events parser to use regex instead. Signed-off-by: Wainer S. Moschetta &lt;wainersm@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=6d63d525a4e4e62c1701abd872bc549940f52a4b">6d63d5</a></td>
+		<td>2 lines</td>
+		<td>Perf: fix handler of single event selection Changed PerfEventsTab to handle a single event selection in the same case as multiple events. Signed-off-by: Wainer S. Moschetta &lt;wainersm@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/commit?id=fb1815a62778569315afc3a9f4207b6e8a735674">fb1815</a></td>
+		<td>11 lines</td>
+		<td>Polishing Perf plug-in Added plugin.properties file with bundleName and bundleProvider properties Changed display &quot;Profile as Perf!&quot; with &quot;Profile as Perf&quot; Signed-off-by: Wainer S. Moschetta &lt;wainersm@linux.vnet.ibm.com&gt;</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=351355">351355</a></td>
+		<td>1372 bytes</td>
+		<td>gprof: support 64-bit gmon files in ppc64<br/>Patch to fix the problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=366075">366075</a></td>
+		<td>2918 bytes</td>
+		<td>Polish Perf plug-in<br/>Patch with cosmetic changes</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=366611">366611</a></td>
+		<td>1888 bytes</td>
+		<td>Perf: read events list also from stderr<br/>Patch to fix the problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367555">367555</a></td>
+		<td>3027 bytes</td>
+		<td>Perf: use regex to parse events<br/>Patch to fix the problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=367625">367625</a></td>
+		<td>1441 bytes</td>
+		<td>Perf: fix handler of single event selection<br/>Patch to fix the problem</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333315">333315</a></td>
+		<td>192 bytes</td>
+		<td>Add text to Valgrind view when no errors were found<br/>comment #5</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=363510">363510</a></td>
+		<td>0 bytes</td>
+		<td>Cachegrind: manual cache configuration is reseted after run<br/>comment #1</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Will (gmail.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=341621">341621</a></td>
+		<td>3528 bytes</td>
+		<td>oprofile: hangs on Parsing OProfile Data<br/>decided it should be cleaned up a bit. purely aesthetic changes from previous patch.</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">William&nbsp;Bourque (polymtl.ca)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=287745">287745</a></td>
+		<td>52326 bytes</td>
+		<td>[TMF] Switch to JUnit3<br/>Convert org.eclipse.linuxtools.lttng.tests to junit3. </td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=290060">290060</a></td>
+		<td>22134 bytes</td>
+		<td>[LTTng] Add a HOWTO to integrate the C library<br/>LTTv installation guide, in HTML format.</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=291662">291662</a></td>
+		<td>14753 bytes</td>
+		<td>[LTTng] Refactoring of the LTTng JNI<br/>&quot;New way&quot; to Add a &quot;endTime&quot; for a trace </td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=292393">292393</a></td>
+		<td>7007 bytes</td>
+		<td>[LTTng] Improve search of a process within the State model<br/>Cchanges in FlowContainer and ResourceContainer to add debug and better &quot;equals&quot;</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Xavier&nbsp;Raynaud (kalray.eu)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=357355">357355</a></td>
+		<td>7808 bytes</td>
+		<td>[TMF] Enhancement of class TmfVirtualTable<br/>patch proposal</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Yufen&nbsp;Kuo (mvista.com)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=340341">340341</a></td>
+		<td>15183 bytes</td>
+		<td>[LTTng] Missing liblttngtrace format not handled gracefully at all<br/>patch to display error dialog when native trace library fails to load instead of displaying stack trace in console</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=354541">354541</a></td>
+		<td>6035 bytes</td>
+		<td>LTTng plugins requires to set LD_LIBRARY_PATH to point to the path of native parsing libraries<br/>patch for runpath setting note on loader parser library</td>
+				</tr>
+	<tr><td colspan="3" style="background-color: #DDDDDD">Yuriy&nbsp;Vashchuk (polymtl.ca)</td>
+		</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=311930">311930</a></td>
+		<td>36020 bytes</td>
+		<td>[LTTng] HistogramView : Make sure time interval are small enought in very long trace<br/>Patch corrections</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=315889">315889</a></td>
+		<td>59146 bytes</td>
+		<td>[LTTng] HistogramView improvements<br/>Histogram patch</td>
+				</tr>
+	<tr>
+		<td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=323503">323503</a></td>
+		<td>13228 bytes</td>
+		<td>[LTTng] Histogram View design and draw improvements<br/>The Histogram design and draw corrections</td>
+				</tr>
+	</table>
+<h2>Repositories</h2>
+<p>The information contained in this log was generated by using commit information from the following repositories:</p>
+<div style='padding-left: 2em'>/gitroot/linuxtools/org.eclipse.linuxtools.eclipse-build.git</div>
+<div style='padding-left: 2em'>/gitroot/linuxtools/org.eclipse.linuxtools.git</div>
+<p>
+</div><!-- midcolumn -->
+</div><!-- maincontent -->
+
