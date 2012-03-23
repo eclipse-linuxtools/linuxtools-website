@@ -1,6 +1,7 @@
 <div class="sideitem">
 	<h6>News</h6>
 	<ul>
+		             <li><em>2012-03-23</em>:  Our 0.10 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 		             <li><em>2012-02-16</em>:  Our 0.9.2 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 		             <li><em>2012-01-20</em>:  Our 0.9.1 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
 		             <li><em>2011-11-06</em>:  Our 0.9.0 release is <a href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!
