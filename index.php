@@ -7,6 +7,19 @@
 	# Paste your HTML content between the EOHTML markers!
 	ob_start();?>
 <div id="maincontent">
+<div id="bigbuttons">
+<h3>Primary Links</h3>
+<ul>
+	<li><a id="buttonDownload" href="downloads.php" title="Download">Eclipse
+	Distribution, Update Site, Dropins</a></li>
+	<li><a id="buttonDocumentation" href="http://wiki.eclipse.org/Linux_Tools_Project"
+		title="Documentation">Tutorials, Examples, Videos, Reference Documentation</a></li>
+	<li><a id="buttonSupport" href="contact.php" title="Support">Bug
+	Tracker, Newsgroup, Support</a></li>
+	<li><a id="buttonInvolved" href="getInvolved.php" title="Getting Involved">Workspace Setup, Wiki, Committers</a></li>
+</ul>
+</div>
+
 	<div id="midcolumn" class="homeitem">
 	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
 	          <p>
