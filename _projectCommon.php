@@ -1,30 +1,6 @@
 <?php
 
-if (isset ($_GET["skin"]) && preg_match("/^(Blue|EclipseStandard|Industrial|Lazarus|Miasma|Modern|OldStyle|Phoenix|PhoenixTest|PlainText)$/", $_GET["skin"], $regs))
-{
-	$theme = $regs[1];
-}
-else
-{
-	$theme = "Lazarus";
-}
-
 $theme="Nova";
-
-$Nav->setLinkList(null);
-
-	$branding = <<<EOBRANDING
-<div id="branding">
-<center>
-<h2>Linux Tools Project</h2>
-</center>
-</div>
-EOBRANDING;
-
-	$Menu->setProjectBranding($branding);
-
-$pageAuthor = isset($pageAuthor) ? $pageAuthor : "";
-$pageKeywords = isset($pageKeywords) ? $pageKeywords : "linux, eclipse";
 
 # Page-specific Nav bars go here
 # Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -57,5 +33,5 @@ $Nav->addNavSeparator("Packaging/Distribution Projects", "/linuxtools/index.php"
 	$Nav->addCustomNav("RPM Stubby", "/linuxtools/projectPages/rpmstubby", "_self", 2);
 	$Nav->addCustomNav("Specfile Editor", "/linuxtools/projectPages/specfile", "_self", 2);
 	$Nav->addCustomNav("Distribution Packaging Status", 	"http://wiki.eclipse.org/Linux_Distributions_Packaging_Status", "_self", 2);
-//	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"/linuxtools/style.css\"/>\n");
+	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"/linuxtools/style.css\"/>\n");
 ?>
