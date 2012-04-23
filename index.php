@@ -1,12 +1,13 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<?php  																														
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	$pageTitle 		= "Linux Tools Project";
 	$pageKeywords	= "Eclipse, Linux, autoconf, automake, autotools, CDT, OProfile, Valgrind, RPM, systemtap";
 	$pageAuthor		= "Andrew Overholt";
 
 	# Paste your HTML content between the EOHTML markers!
-	ob_start();?>
-<div id="maincontent">
+	ob_start();
+	?>
 <div id="bigbuttons">
 <h3>Primary Links</h3>
 <ul>
@@ -39,7 +40,6 @@
 	          </p>
 	</div>
 	    <?php include("_rightColumn.php"); ?>
-</div>
 <?php
     $html = ob_get_clean();
 	# Generate the web page
