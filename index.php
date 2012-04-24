@@ -9,7 +9,7 @@
 	ob_start();
 	?>
 	
-<div id="maincontent">
+
 <div id="bigbuttons">
 <h3>Primary Links</h3>
 <ul>
@@ -44,7 +44,7 @@
 	</div>
 	</div>
 	    <?php include("_rightColumn.php"); ?>
-</div>
+
 <?php
     $html = ob_get_clean();
 	# Generate the web page
