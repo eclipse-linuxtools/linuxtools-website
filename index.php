@@ -23,7 +23,8 @@
 </ul>
 </div>
 
-	<div id="midcolumn" class="homeitem">
+	<div id="midcolumn" >
+	<div id="introText">
 	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
 	          <p>
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
@@ -40,6 +41,7 @@
 	          packaging.  Since our 0.3.0 release, one of our features is a source archive of the
 	          Eclipse SDK that can be used by all Linux distributions building and distributing it.
 	          </p>
+	</div>
 	</div>
 	    <?php include("_rightColumn.php"); ?>
 </div>
