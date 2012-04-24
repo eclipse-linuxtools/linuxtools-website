@@ -8,6 +8,8 @@
 	# Paste your HTML content between the EOHTML markers!
 	ob_start();
 	?>
+	
+<div id="maincontent">
 <div id="bigbuttons">
 <h3>Primary Links</h3>
 <ul>
@@ -40,6 +42,7 @@
 	          </p>
 	</div>
 	    <?php include("_rightColumn.php"); ?>
+</div>
 <?php
     $html = ob_get_clean();
 	# Generate the web page
