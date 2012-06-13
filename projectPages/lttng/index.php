@@ -36,15 +36,19 @@
 
         <h2>Current Status</h2>
         <p>
-        <h4>LTTng perspective</h4>
+        <h4>Tracing perspective</h4>
         <ul>
-            <li>Project View - Project management</li>
-            <li>Events View - Tabular view of the raw events</li>
-            <li>Histogram View - Event distribution analysis</li> 
-            <li>Control Flow View - Processes state analysis</li>
-            <li>Resource View - System resources state analysis</li>
+            <li>Project View - Tracing project management</li>
+            <li>Control View - LTTng tracer control</li> 
+            <li>Events View - Advanced tabular view of the raw trace events</li>
             <li>Statistics View - General traces statistics</li>
-            <li>Latency View - Graphical representation of system latency</li>
+            <li>Histogram View - Event distribution analysis</li> 
+        </ul>
+
+        <h4>LTTng Kernel perspective (in addition to the Tracing perspective)</h4>
+        <ul>
+            <li>Control Flow View - Processes state transition analysis</li>
+            <li>Resource View - System resources state transition analysis</li>
             <li>Integrated Help</li>
         </ul>
 
@@ -66,6 +70,9 @@
             <li>Generic Events View</li>
             <li>Generic Statistics View</li>
             <li>Generic Histogram View</li>
+            <li>Generic Trace Parser (CTF-based)</li>
+            <li>Generic State System (GSS)</li>
+            <li>Generic Gantt Chart View</li>
             <li>Support for arbitrarily large traces (that exceed available memory)</li>
             <li>Wizards for parser generation (CSV, XML, plain text, regular expression, ...)</li>
             <li>Support for trace Drag&Drop</li>
@@ -74,29 +81,19 @@
         <h2>Future Plans</h2>
         <p>
 
-        <h4>LTTng perspective</h4>
-        <ul>
-            <li>Control View - Tracer control (local or remote)</li>
-        </ul>
-
         <h4>LTTng internals</h4>
         <ul>
-            <li>Integration of a LTTng 2.x CTF-based trace parser</li>
-            <li>Integration of a Kernel State History manager</li>
             <li>Integration of trace synchronization analysis</li>
             <li>Integration of dependency analysis</li>
         </ul>
 
         <h4>Infrastructure (non-LTTng)</h4>
         <ul>
-            <li>Generic Trace Parser (CTF-based)</li>
-            <li>Generic Gantt Chart View</li>
             <li>Viewing Widget Toolbox (e.g. XY-plot, histogram, Gantt chart, etc)</li>
             <li>Statistical Widget Toolbox</li>
             <li>Efficient retrieval and handling of trace files</li>
             <li>Trace streaming</li>
             <li>Correlation of heterogeneous traces</li>
-            <li>Generic tracing tool control</li>
             <li>Source code lookup</li>
             <li>Wizards for tracing/logging/monitoring application integration</li>
             <li>Wizards for analysis components integration (generic or proprietary)</li>
@@ -120,7 +117,7 @@
 
         <h2>Try it out</h2>
         <p>
-        Follow the instructions on the <a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng">wiki</a>.
+        Follow the instructions on the <a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng2">wiki</a>.
     </div>
     
     <div id="rightcolumn">
