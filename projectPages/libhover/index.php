@@ -25,7 +25,7 @@
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with CDT 5.0.1, the plugin supplies:
+		In conjunction with the CDT, the plugin supplies:
 		<ul>
           <li>Glibc hover and completion support</li>
           <li>Newlib hover and completion support</li>
