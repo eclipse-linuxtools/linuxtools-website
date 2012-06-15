@@ -30,7 +30,7 @@
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with CDT 8.1.0, the plugin can do the following:
+		In conjunction with the CDT, the plugin can do the following:
 		<ul>
           <li>Launch a local C/C++ application and OProfile simultaneously to start profiling (requires root password to execute OProfile commands)</li>
           <li>Automatically gather OProfile data and display in a tree viewer after a launch</li>
@@ -109,7 +109,7 @@
 </pre>
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">here</a>.
 		<br/><br/>
-		We have tested using Eclipse 4.2.0, CDT 8.1.0, OProfile 0.9.6, and 0.9.7 on Fedora 16 x86, Fedora 17 x86.
+		We have tested using Eclipse 4.2.0, OProfile 0.9.6, and 0.9.7 on Fedora 16 x86, Fedora 17 x86.
 		</p>
 	<br/><br/><br/>
 	</div>
