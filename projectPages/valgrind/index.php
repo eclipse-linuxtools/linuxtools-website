@@ -115,9 +115,8 @@
 		<h2>Try it out</h2>
 		<p>
 		<ul>
-		<li><a href="http://dev.eclipse.org/viewsvn/index.cgi/releng/trunk/org.eclipse.linuxtools.releng/psfs/valgrind.psf?root=Technology_LINUXTOOLS&view=co">Project Set File</a>
-		(includes dependencies from <a href="http://www.eclipse.org/birt">BIRT</a> and <a href="http://www.eclipse.org/emf">EMF</a>)
-    		<li>Git
+		<li>Get the latest version from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a></li>
+    		<li>Check out the source code from our Git repository
 		<ul>
 	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git</li> 
 		</ul>
