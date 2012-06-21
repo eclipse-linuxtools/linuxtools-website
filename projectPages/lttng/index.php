@@ -103,7 +103,7 @@
         <p>
         <br>
           <center>
-            <a href="images/lttng_perspective.png"><img src="images/lttng_perspective_thumb.png"/></a>
+            <a href="images/perspective.png"><img src="images/perspective_thumb.png"/></a>
             <br>
             LTTng Perspective
           </center>
