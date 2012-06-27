@@ -14,9 +14,8 @@
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
 	          We build on the source editing and debugging features of the
 	          <a href="http://eclipse.org/cdt">CDT</a> and integrate popular native
-	          development tools such as the GNU Autotools, Valgrind, OProfile, RPM, SystemTap, GCov, GProf, LTTng, etc.  Current
-	          projects include LTTng trace viewers and analyzers, an RPM .spec editor, Autotools build integration, a Valgrind heap 
-	          usage analysis tool, and OProfile call profiling tools.
+	          development tools such as Valgrind, OProfile, RPM, SystemTap, GCov, GProf, LTTng, etc.  Current
+	          projects include LTTng trace viewers and analyzers, an RPM .spec editor, a Valgrind heap usage analysis tool, and OProfile and Perf call profiling tools.
 	          </p>
 	          <p>
 	          The project also provides a place for Linux
