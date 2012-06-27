@@ -22,7 +22,7 @@
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new-1.0">New & Noteworthy</a> (Released 2012-06-27).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-master/937/testReport/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.8.x.
-		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
+		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
 		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
