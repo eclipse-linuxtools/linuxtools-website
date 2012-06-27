@@ -20,10 +20,10 @@
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>1.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new-1.0">New & Noteworthy</a> (Released 2012-06-27).
-		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/424/testReport/">Unit test results</a>.
-		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.7.x.
+		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-master/937/testReport/">Unit test results</a>.
+		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.8.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
-		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
+		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
 		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
 		<!--<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/1.0-sources/">Source tarballs</a> for Linux Tools plugins.-->
