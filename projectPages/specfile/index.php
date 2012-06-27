@@ -63,9 +63,9 @@ $html =<<<EOHTML
         </ul>
 		</p>
 		
-		<h2>Screenshots</h2>
+		<h2>User guide</h2>
 		<p>
-		    TBD
+		   Please read our <a href="http://wiki.eclipse.org/Linux_Tools_Project/SpecfileEditor/User_Guide">User guide</a> for detailed instructions.
 		</p>
 		
 		<h2>Demos</h2>
