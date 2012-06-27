@@ -27,7 +27,7 @@ $html =<<<EOHTML
 
 		<h2>Overview</h2>
 		<p>
-		Specfile Editor is an editor ofr RPM spec files. Specfiles are the files that tell the rpm program which are the sources for this package,
+		Specfile Editor is an editor for RPM spec files. Specfiles are the files that tell the rpm program which are the sources for this package,
 		how to build, where to install, additional scripts to execute on install/uninstall and so on. This plugin provides all the basic features 
 		for editing or modifing such specfile. 
 		</p>
@@ -37,11 +37,12 @@ $html =<<<EOHTML
 		The plugin can do the following:
 		<ul>
 		<li>Highlight specfile contents.</li>
-		<li>Integrate with rpmlint to validate that common errors are not done in this specfile.</li>
+		<li>Integrate with rpmlint to validate the specfile.</li>
 		<li>Quick fixes for the most common rpmlint warnings.</li>
-		<li>Outline view.</li>
-		<li>Changelog plugin integration for autogeneration changelog entries.</li>
-		<li>Auto-complete for package names and rpm macroses.</li>
+		<li>Outline and quick outline views.</li>
+		<li>Changelog plugin integration for auto-generation changelog entries.</li>
+		<li>Auto-complete for package names and rpm macros.</li>
+		<li>Import and export wizards.</li>
 		</ul>
 		</p>
 
