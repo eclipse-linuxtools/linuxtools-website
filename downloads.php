@@ -19,19 +19,19 @@
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>0.10.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new">New & Noteworthy</a> (Released 2012-03-23).
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new-1.0">New & Noteworthy</a> (Released 2012-06-27).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-Indigo/424/testReport/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse 3.7.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. GNU Autotools, Valgrind, OProfile, SystemTap, LTTng).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a> and <a href="http://eclipse.org/birt">BIRT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
-		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/technology/linuxtools/0.10.0-sources/">Source tarballs</a> for Linux Tools plugins.
+		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
+		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/1.0-sources/">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/linuxtools-0.10-incubation.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-1.0.zip">
 					<img border=0 src="/linuxtools/images/icon-save.gif"></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/technology/linuxtools/linuxtools-0.10-incubation.zip.md5">md5sum</a>)
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-1.0.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/technology/linuxtools/update</b>
 			</li>
 		</ul>
@@ -42,7 +42,7 @@
 		<br>&nbsp;&nbsp;&nbsp;Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
 		<ul>
 			<li>
-				Nightly p2 repository:  <b>http://download.eclipse.org/technology/linuxtools/updates-nightly</b>
+				Nightly p2 repository:  <b>http://download.eclipse.org/linuxtools/updates-nightly</b>
 			</li>
 		</ul>
 		</div>
