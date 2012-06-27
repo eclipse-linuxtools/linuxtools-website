@@ -25,7 +25,7 @@
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with Eclipse 3.4.1, the plugin supports:
+		In conjunction with Eclipse SDK, the plugin supports:
 		<ul>
 	  <li>Coding folding of probe points</li>
 	  <li>Completion suggestions of probe points</li>
@@ -53,8 +53,7 @@
 
 		<h2>Try it out</h2>
 		<p>
-		Version 0.3.0 is available via the update site:
-		http://download.eclipse.org/technology/linuxtools/update
+		Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br>
 		<br>
 		You can also check the project plugins out of Git
 		  directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
