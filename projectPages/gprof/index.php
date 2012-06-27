@@ -20,7 +20,7 @@
 
 		<h2>Overview</h2>
 		<p>
-		The Linux Distributions GProf plugin aims to bring the profiling
+		The Linux Tools GProf plugin aims to bring the profiling
 		capabilities of GProf to Eclipse, in a manner that is easy to use for developers
 		of any level of experience. 
 		</p>

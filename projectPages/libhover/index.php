@@ -20,7 +20,7 @@
 
 		<h2>Overview</h2>
 		<p>
-		The Linux Distributions Libhover plugin provides a common interface for C library hover help to the CDT (C/C++ Development Tools) as well as a fundamental set of library hovers to choose from.  The plugin provides a simple extension so that any number of additional libraries may provide hover help documentation without having to create any Java code.  The general idea is that hover help documentation can be generated from the manual source or code source of a particular library.
+		The Linux Tools Libhover plugin provides a common interface for C library hover help to the CDT (C/C++ Development Tools) as well as a fundamental set of library hovers to choose from.  The plugin provides a simple extension so that any number of additional libraries may provide hover help documentation without having to create any Java code.  The general idea is that hover help documentation can be generated from the manual source or code source of a particular library.
 		</p>
 
 		<h2>Current Status</h2>
@@ -52,7 +52,7 @@
 
 		<h2>Demos</h2>
 		<p>
-	          <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/libhoverdemo.ogg">Libhover demo in ogg format</a>
+	          <a href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/videos/libhoverdemo.ogg">Libhover demo in ogg format</a>
 		</p>
 
 		<h2>Try it out</h2>

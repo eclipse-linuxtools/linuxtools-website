@@ -20,7 +20,7 @@
 
 		<h2>Overview</h2>
 		<p>
-		The Linux Distributions Gcov plugin aims to bring the coverage
+		The Linux Tools Gcov plugin aims to bring the coverage
 		capabilities of Gcov to Eclipse, in a manner that is easy to use for developers
 		of any level of experience. 
 		</p>

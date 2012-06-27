@@ -25,7 +25,7 @@
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with Eclipse 3.4.1 and CDT 5.0.1, the plugin supports:
+		In conjunction with Eclipse SDK and CDT, the plugin supports:
 		<ul>
 	  <li>C, C++, and Java language support for modified functions/methods</li>
 	  <li>Preference page to set name, e-mail address, and desired entry style</li>
@@ -57,7 +57,7 @@
 
 		<h2>Demos</h2>
 		<p>
-	    	  <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/changelogdemo.ogg">ChangeLog demo in ogg format</a>
+	    	  <a href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/videos/changelogdemo.ogg">ChangeLog demo in ogg format</a>
 		</p>
 
 		<h2>Try it out</h2>

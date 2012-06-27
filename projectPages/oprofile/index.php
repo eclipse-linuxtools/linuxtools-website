@@ -20,7 +20,7 @@
 
 		<h2>Overview</h2>
 		<p>
-		The Linux Distributions OProfile plugin aims to bring the powerful call profiling
+		The Linux Tools OProfile plugin aims to bring the powerful call profiling
 		capabilities of OProfile to Eclipse, in a manner that is easy to use for developers
 		of any level of experience. Inexperienced users can, with 1 click, determine the parts
 		of their code which use the most time while experienced users of OProfile can perform
@@ -79,7 +79,7 @@
 		
 		<h2>Video Demo</h2>
 		<p>
-		Check out a screencast of the plugin in action <a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/eclipse-oprofile-demo.ogg">here</a>.
+		Check out a screencast of the plugin in action <a href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/videos/eclipse-oprofile-demo.ogg">here</a>.
 		</p>
 
 		<h2>Try it out</h2>
