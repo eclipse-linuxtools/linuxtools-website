@@ -117,7 +117,7 @@
 
         <h2>Try it out</h2>
         <p>
-        Follow the instructions on the <a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng">wiki</a>.
+        Follow the instructions <a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng2/User_Guide#Installation">here</a>.
     </div>
     
     <div id="rightcolumn">
