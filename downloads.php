@@ -25,7 +25,7 @@
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a>.
 		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
-		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/technology/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
+		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
 		<!--<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/1.0-sources/">Source tarballs</a> for Linux Tools plugins.-->
 		<ul>
 			<li>
