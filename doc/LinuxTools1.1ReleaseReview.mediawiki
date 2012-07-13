@@ -1,0 +1,136 @@
+= Linux Tools 1.0 Release Review =
+Planned Review Date: 2012-06-27
+
+Communication Channel:  linuxtools-dev@eclipse.org (https://dev.eclipse.org/mailman/listinfo/linuxtools-dev)
+
+Author:  Otavio Pontes <obusatto@linux.vnet.ibm.com>, Andrew Overholt <overholt redhat com>
+
+== Introduction ==
+* The Linux Tools project is a two-faceted project
+# Firstly, it provides tools and frameworks for writing tools relevant to Linux developers.
+# Secondly, it provides a place for Linux distributions to collaboratively overcome issues surrounding distribution packaging of Eclipse technology. The project produces both best practices and tools related to packaging.
+* Project plan:  http://www.eclipse.org/projects/project-plan.php?projectid=technology.linux-distros
+
+== Features ==
+* a framework for integrating native profiling tools with the CDT
+* visualization, fetching, and control of LTTng traces
+* GCov code coverage tool integration
+* GProf integration including function-based profiling and integration with the CDT
+* an RPM .spec editor with rpmlint integration
+* plugins integrating the OProfile profiler with the CDT
+* plugins bridging the CDT's hover help functionality with the various open source API documentation formats and tools; called libhover
+* Valgrind integration for memcheck, massif, cachegrind and helgrind
+* change log management tools
+
+== New in 1.1 ==
+* Remote capabilities implemented for Perf, Specfile editor, Systemtap, OProfile and Vagrind
+* More New and Noteworthy for 1.1:
+** http://www.eclipse.org/linuxtools/new-1.1
+** (will be moved to http://www.eclipse.org/linuxtools/new after 1.1 is released)
+
+=== Maturity and Communities ===
+* A number of years of development and adoption by a variety of companies and many users
+* Tools included in Linux distributions
+* Open source and commercial extension of plugins and APIs
+* Multiple organizations (6 at the time of writing), committers, and contributors involved in community:
+** http://www.eclipse.org/projects/project.php?id=technology.linux-distros
+
+=== Openness ===
+* Project uses open communication media:
+** mailing list, IRC, Bugzilla
+* Discussions happen in public and all are invited to any project phone calls
+* Project schedule, policies, and procedures are clearly documented and followed
+
+=== "Eclipse way" ===
+* All development occurs in Eclipse git repositories
+* Eclipse IP policy strictly adhered to
+* A copy of our 1.1 IP log, once approved by the Eclipse Legal team, will be archived here:
+** http://www.eclipse.org/linuxtools/doc/1.1-approvedIPLog.html
+* Eclipse development process followed including releases, documentation, ramp-down, etc.
+* Interaction and integration with other Eclipse projects
+
+== APIs ==
+* Our APIs have been reviewed and we consider those that are exposed to be suitable for adopters to use.  They will remain stable for the duration of our 1.x lifecycle. 
+* As always, the project appreciates feedback via Bugzilla or our mailing list.  This is especially true of adopters and their API needs.
+
+== Architectural Issues ==
+* Ongoing work to integrate with tracing and profiling toolkits will enable us to have more extensible frameworks with exemplary implementations.  Integration for the profiling tool 'perf' has recently been done by a community member using our profiling framework.
+* Despite being user-focused, we have a few components which provide extension points:
+** our profiling tool framework whose use is demonstrated by our OProfile and Valgrind integration plugins
+** our ChangeLog plugin which allows for extensible parsers, formatters, and editors. The extensibility of formatters is demonstrated by our RPM .spec editor
+** our libhover component. This plugin provides an extension point that defines a common documentation format for C library hover help
+** our LTTng component. This plugin provides an extension point to integrate any type of trace and an extension point for producing UML2 sequence diagrams from traces
+
+== Tool Usability ==
+* Our releases thus far have been well-received and at present have satisfied users.  This 1.1 release will hopefully continue to grow our base of satisfied users.  In addition to improved quality through bug fixes, we hope that the increased exposure of being a part of Juno, migrating to the Tools top-level project, and going 1.1 will garner more happy users. 
+* Our work integrating native profiling tools like LTTng, perf, OProfile, and Valgrind has been introduced to excited audiences. We aim to bring the power of these tools into the IDE while making them trivial to use.  Developers making use of our tools will be able to focus on their own projects and not on setting up the underlying tools.
+
+== End-of-Life ==
+* We have no end-of-life issues to discuss at this time.  Note that some of our plugins will shortly migrated to our incubator (see below).
+
+== Bugzilla ==
+* For our 1.1 release we will have 0 outstanding release-blocker bugs.
+* We closed or resolved over 21 bugs during our 1.1 release cycle:
+https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=Technology;product=Linux%20Tools;target_milestone=1.1;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;bugidtype=include;list_id=2295921
+
+== Standards ==
+* Our project conforms to the following standards, some of which are ad-hoc and some which are more well-defined:
+** Fedora RPM packaging guidelines
+*** http://fedoraproject.org/wiki/Packaging/Guidelines
+** Informal conventions around use of the GNU Autotools
+** GNU ChangeLog formatting
+*** http://www.gnu.org/prep/standards/html_node/Style-of-Change-Logs.html#Style-of-Change-Logs
+* LTTng trace format
+** http://lttng.org
+
+== UI Usability ==
+* Our project aims to conform to the Eclipse user interface guidelines.
+* All of our user interface components support keyboard navigation.
+* We now support interactivity of our Valgrind BIRT-generated charts and intend on further increasing our accessibility.
+* All of our strings are externalized but we currently have no language packs
+* Our strings are registered in Babel for use by translators
+
+== Schedule ==
+* Our project aims to release minor releases (1.2, etc.) every two to three months
+
+== Communities ==
+* Our project has a strong relationship with the various Linux distributions (Fedora, Mandriva, Debian, Ubuntu, etc.) with many using our eclipse-build project's output for their Eclipse SDK packages
+* The majority of our project's interactions occur on IRC (#eclipse-linux) and our mailing list (linuxtools-dev@eclipse.org)
+* We have a centralized update site and use eclipse.org bugzilla for all of our planning and bug tracking
+* We make use of our newsgroup for user feedback
+* Our project members often speak at conferences such as EclipseCon, the Red Hat Summit, etc.
+* Our team members maintain the following blogs:
+** http://akurtakov.blogspot.com/ (part of Planet Eclipse)
+** http://overholt.ca/wp/ (part of Planet Eclipse)
+* We interact often with the CDT project and make use of the BIRT, GEF, and CDT projects
+* We are growing our community of adopters
+
+== IP Log ==
+* Our IP log including information about all CQs, external contributions, and committers can be found here
+** http://www.eclipse.org/projects/ip_log.php?projectid=technology.linux-distros
+* A copy of our 1.1 IP log, once approved by the Eclipse Legal team, is archived here:
+** http://www.eclipse.org/linuxtools/doc/1.1-approvedIPLog.html
+
+== Committers ==
+# Anithra P Janakiraman
+# Alexander Kurtakov
+# Alexandre Montplaisir
+# Andrew Overholt
+# Bernd Hufmann
+# Chris Aniszczyk
+# Krzysztof Daniel
+# Daniel Henrique Barboza
+# Elliott Baron
+# Francois Chouinard
+# Jeff Johnston
+# Matthew Khouzam
+# Niels Thykier
+# Otavio Pontes
+# Patrick Tasse
+# Roland Grunberg
+# Severin Gehwolf
+# Sami Wagiaalla
+# Xavier Raynaud
+
+== Legal ==
+This document copyright 2012, Mozilla and others; licensed under the EPL v1.0.
