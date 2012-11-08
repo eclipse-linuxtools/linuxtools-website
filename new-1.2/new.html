@@ -8,13 +8,13 @@
 		<td bgcolor="#595791" width="*" align="center"><b>
 		<font color="#FFFFFF" size="1">Community Contributions</font></b></td>
 	</tr>
-        <td bgcolor="#FAF7FB"><font size="1">1.2<br>
+        <td bgcolor="#E0D0E6"><font size="1">1.2<br>
         <i>20 Nov 2012</i></font></td>
-        <td bgcolor="#FAF7FB" align="center"><a
+        <td bgcolor="#E0D0E6" align="center"><a
             href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=1.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
-        <font size="1">28<br>
+        <font size="1">31<br>
         bugs</font></a></td>
-        <td bgcolor="#FAF7FB"><font size="1">In addition to minor bug-fixes, this release contains the new profiling unification framework which simplifies profiling for end-users.  As well, the SystemTap UI has undergone a major clean-up both for functionality and ease of use.</font></td>
+        <td bgcolor="#E0D0E6"><font size="1">In addition to minor bug-fixes, this release contains the new profiling unification framework which simplifies profiling for end-users.  As well, the SystemTap UI has undergone a major clean-up both for functionality and ease of use.</font></td>
         </tr>
  <tr>
         <td bgcolor="#FAF7FB"><font size="1">1.1.1<br>
@@ -26,13 +26,13 @@
         <td bgcolor="#FAF7FB"><font size="1">This was a minor bug-fix-only release that broke up the ChangeLog feature into both a C/C++ version and a Java version so that the CPP EPP product could avoid JDT requirements..</font></td>
         </tr>
  <tr>
-        <td bgcolor="#E0D0E6"><font size="1">1.1<br>
+        <td bgcolor="#FAF7FB"><font size="1">1.1<br>
         <i>25 Jul 2012</i></font></td>
-        <td bgcolor="#E0D0E6" align="center"><a
+        <td bgcolor="#FAF7FB" align="center"><a
             href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=Tools;product=Linux%20Tools;target_milestone=1.1;bug_status=RESOLVED;bug_status=VERIFIED;bug_status=CLOSED;bugidtype=include">
         <font size="1">44<br>
         bugs</font></a></td>
-        <td bgcolor="#E0D0E6"><font size="1"> [Oprofile] Thanks to Rafael Teixeira and Corey Ashford who contributed to most of the new remote Oprofile feature. [Valgrind] Thanks to Rafael Teixeira and Corey Ashford who contributed to most of the new remote Valgrind feature. [Perf] Thanks to Rodrigo Araujo who contributed to most of the new remote Perf feature and some bug fixes. [SystemTap] Thanks to Otavio Pontes who contributed to the new remote kernel probes and sources browsing features and some enhancements. [LTTng] LTTng team fixed some bugs.</font></td>
+        <td bgcolor="#FAF7FB"><font size="1"> [Oprofile] Thanks to Rafael Teixeira and Corey Ashford who contributed to most of the new remote Oprofile feature. [Valgrind] Thanks to Rafael Teixeira and Corey Ashford who contributed to most of the new remote Valgrind feature. [Perf] Thanks to Rodrigo Araujo who contributed to most of the new remote Perf feature and some bug fixes. [SystemTap] Thanks to Otavio Pontes who contributed to the new remote kernel probes and sources browsing features and some enhancements. [LTTng] LTTng team fixed some bugs.</font></td>
     </tr>
 
     <tr>
@@ -303,13 +303,13 @@
 </p>
 <hr>
 
-<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 1.1</span> </p>
+<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 1.2</span> </p>
 <ul>
 <!-- <li><a href="#autotools">GNU Autotools Support (# of items for this area; comment out if none)</a></li> -->
 <!-- <li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
 <!-- <li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li> -->	
-<!-- <li><a href="#gcov">GCov support (# of items for this area; comment out if none)</a></li> -->
-<!-- <li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li> -->
+<li><a href="#gcov">GCov support (1)</a></li>
+<li><a href="#gprof">GProf support (1)</a></li>
 <!-- <li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
 <!--     <li><a href="#lttng">LTTng (1)</a></li> -->
 <!-- <li><a href="#manpage">Man Page (1)</a></li> -->
@@ -436,34 +436,17 @@
 </table>
 -->
 
-<!-- GCov -- >
-<!--
+<!-- GCov -->
 <h2><a name="gcov">GCov Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Short Description</b></p>
+            <p align="right"><b>GCov Launch Support</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Longer description.
+            <p align="left">With the new Profiling Unification framework, profiling tools are categorized into one of the three default categories: Timing, Memory, and Coverage.  GCov has been categorized into the Coverage category and as such can now be launched from the Profile Coverage launch short-cut.  The launch short-cut will run the executable, gather the coverage data, and then open the GCov viewer.  In the past, an end-user would have to run the executable manually and double-click on coverage data files created.
             </p>
-            <img border="0" alt="Alt text for the image" src="images/image.png">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-        </tr>
-        <tr>
-            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Short Description</b></p>
-            </td>
-            <td valign="top" width="70%">
-            <p align="left">Longer description.
-            </p>
-            <img border="0" alt="Alt text for the image" src="images/image.png">
             </td>
         </tr>
         <tr>
@@ -472,36 +455,23 @@
             </td>
         </tr>
 </table>
--->
 
-<!-- GProf -- >
-<!--
+<!-- GProf -->
 <h2><a name="gprof">GProf Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Short Description</b></p>
+            <p align="right"><b>GProf Launch Support</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Longer description.
+            <p align="left">Like GCov, GProf is part of the new Profiling Unification framework.  GProf is categorized in the Timing category along with Perf, OProfile, and Callgraph.  Also like GCov, it is now possible to launch GProf using the Profile Timing launch short-cut.  In the past, users had to double-click on the gmon.out file for the project.  The profiling launch short-cut will run the executable and will open the GProf view automatically for gmon.out, if created.
             </p>
-            <img border="0" alt="Alt text for the image" src="images/image.png">
             </td>
         </tr>
         <tr>
             <td colspan="2">
             <hr>
-            </td>
-        </tr>
-        <tr>
-            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Short Description</b></p>
-            </td>
-            <td valign="top" width="70%">
-            <p align="left">Longer description.
-            </p>
-            <img border="0" alt="Alt text for the image" src="images/image.png">
             </td>
         </tr>
         <tr>
@@ -510,7 +480,6 @@
             </td>
         </tr>
 </table>
--->
 
 <!-- Lib Hover -- >
 <!--
