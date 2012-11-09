@@ -308,18 +308,19 @@
 <!-- <li><a href="#autotools">GNU Autotools Support (# of items for this area; comment out if none)</a></li> -->
 <!-- <li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
 <!-- <li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li> -->	
+<li><a href="#profiling">Profiling Framework (1)</a></li>
 <li><a href="#gcov">GCov support (1)</a></li>
 <li><a href="#gprof">GProf support (1)</a></li>
 <!-- <li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
 <!--     <li><a href="#lttng">LTTng (1)</a></li> -->
 <!-- <li><a href="#manpage">Man Page (1)</a></li> -->
-<!-- <li><a href="#oprofile">OProfile Profiling (1)</a></li> -->
-<!-- <li><a href="#perf">Perf Integration (1)</a></li> -->
+<li><a href="#oprofile">OProfile Profiling (1)</a></li>
+<li><a href="#perf">Perf Integration (1)</a></li>
 <!-- <li><a href="#rpmstubby">RPM Stubby (2)</a></li> -->
 <!-- <li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (1)</a></li> -->
 <!-- <li><a href="#systemtap">SystemTap Editor (2)</a></li> -->
 <!-- <li><a href="#systemtapprofiling">SystemTap-based Profiling (# of items for this area; comment out if none)</a></li> -->
-<!-- <li><a href="#valgrind">Valgrind Profiling (1)</a></li> -->
+<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
 </ul>
 
 <!-- Autotools -- >
@@ -436,6 +437,27 @@
 </table>
 -->
 
+<!-- Profiling Framework -->
+<h2><a name="profiling">Profiling Framework</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+        <tr>
+            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+            <p align="right"><b>Profiling Unification</b></p>
+            </td>
+            <td valign="top" width="70%">
+            <p align="left">The Profiling Framework has been modified to add profiling categories which group various profiling tools that overlap in functionality.  There are three categories to start with: Timing, Memory, and Coverage and additional categories can be added in the future.  Each category has a Profiling Launch short-cut whereby the user can kick off a profiling session via a single click.  Each category has a default tool to use which includes default parameters.  For example, a user could select to do a Profile Timing run and this will end up using whatever profiling timing tool is set up as default.  The default can be changed via workspace preferences or over-ridden for a project via its properties.  For more details, see the <a href="http://wiki.eclipse.org/Linux_Tools_Project/Profiling/User_Guide">Profiling User's Guide</a>.
+            </p>
+            <img border="0" alt="C/C++ Profiling Categories" src="images/LinuxToolsProfilingPreferences.png">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+</table>
+
 <!-- GCov -->
 <h2><a name="gcov">GCov Integration</a></h2>
 
@@ -474,14 +496,9 @@
             <hr>
             </td>
         </tr>
-        <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-        </tr>
 </table>
 
-<!-- Lib Hover -- >
+<!-- Lib Hover -->
 <!--
 <h2><a name="libhover">API Documentation Hover Help</a></h2>
 
@@ -519,7 +536,7 @@
 </table>
 -->
 
-<!-- LTTng -- >
+<!-- LTTng -->
 <!--
 <h2><a name="lttng">Linux Tracing Toolkit</a></h2>
 
@@ -542,7 +559,7 @@
 </table>
 -->
 
-<!-- Man Page -- >
+<!-- Man Page -->
 <!--
 <h2><a name="manpage">Man Page</a></h2>
 
@@ -586,12 +603,11 @@
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Remote Oprofile</b></p>
+            <p align="right"><b>New Profiling Framework</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Support for remote projects profiling has been added. Refer to the <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">User Guide</a> for detailed information on its operation.
+            <p align="left">OProfile has been added to the profiling tools in the new profiling unification framework.  It has been added to the Profile Timing category along with Perf, GProf, and Callgraph.  In addition to profiling an application via the direct OProfile launch short-cut, the Profile Timing short-cut can be used with OProfile being selected as the timing tool to use.
             </p>
-            <img border="0" alt="Remote Oprofile Screenshot" src="images/remote-oprofile.png">
             </td>
         </tr>
         <tr>
@@ -608,13 +624,11 @@
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Remote Perf</b></p>
+            <p align="right"><b>New Profiling Framework</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">
-            Support for remote projects profiling has been added. Refer to the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PERF/User_Guide">User Guide</a> for detailed information on its operation. 
+            <p align="left">Perf has been added to the profiling tools in the new profiling unification framework.  It has been added to the Profile Timing category along with OProfile, GProf, and Callgraph.  In addition to profiling an application via the direct Perf launch short-cut, the Profile Timing short-cut can be used with Perf being selected as the timing tool to use or simply by default since Perf is the Timing category default tool.
             </p>
-            <img border="0" alt="Remote Perf Screenshot" src="images/remote-perf.png">
             </td>
         </tr>
         <tr>
@@ -624,7 +638,7 @@
         </tr>
 </table>
 
-<!-- RPM Stubby -- >
+<!-- RPM Stubby -->
 <!--
 <h2><a name="rpmstubby">RPM Stubby</a></h2>
 
@@ -663,6 +677,7 @@
 -->
 
 <!-- RPM Specfile Editor -->
+<!--
 <h2><a name="specfileeditor">RPM <tt>.spec</tt> Editor</a></h2>
 <table cellpadding="10" cellspacing="0">
        <tr>
@@ -672,7 +687,6 @@
             <td valign="top" width="70%">
             <p align="left">Support for remote RPM projects has been added. Refer to the <a href="http://wiki.eclipse.org/Linux_Tools_Project/SpecfileEditor/User_Guide">User Guide</a> for detailed information on its operation.
             </p>
-            <!-- <img border="0" alt="Alt text for the image" src="images/image.png"> -->
             </td>
         </tr>
         <tr>
@@ -682,8 +696,10 @@
         </tr>
        
 </table>
+-->
 
 <!-- SystemTap -->
+<!--
 <h2><a name="systemtap">SystemTap Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -720,9 +736,10 @@
             </td>
         </tr>
 </table>
+-->
 
 
-<!-- SystemTap Profiling -- >
+<!-- SystemTap Profiling -->
 <!--
 <h2><a name="systemtapprofiling">SystemTap-based Profiling</a></h2>
 
@@ -766,12 +783,11 @@
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Remote Valgrind</b></p>
+            <p align="right"><b>New Profiling Framework</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Support for remote projects valgrind analysis has been added. Refer to the <a href="http://wiki.eclipse.org/Linux_Tools_Project/Valgrind/User_Guide">User Guide</a> for detailed information on its operation.
+            <p align="left">The set of Valgrind tools has been added to the new profiling unification fframework under the Memory category.  The list of tools includes Cachegrind, Memcheck, Helgrind, and Massif.  There already exists a direct profiling launch short-cut for Valgrind, but this defaults to use Memcheck unless the end-user modifies the Profiling Configuration to set the tool otherwise.  With the new framework, the user can choose the Valgrind tool ahead of time and invoke the Profile Memory launch short-cut directly without having to perform the extra step of modification.
             </p>
-            <img border="0" alt="Remote Valgrind Screenshot" src="images/remote-valgrind.png">
             </td>
         </tr>
         <tr>
