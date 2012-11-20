@@ -20,7 +20,7 @@
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>1.2.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new-1.2">New & Noteworthy</a> (Released 2012-11-20).
-		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-juno/479/testReport/">Unit test results</a>.
+		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-juno/471/testReport/">Unit test results</a>.
 		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse >= 3.8.x.
 		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf).
 		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a>.
