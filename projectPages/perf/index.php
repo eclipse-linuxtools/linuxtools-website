@@ -86,22 +86,22 @@
     		<li>Check out the source code from our Git repository
 		<ul>
 	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git
-					<pre>     
-						org.eclipse.linuxtools.perf
-						org.eclipse.linuxtools.perf.doc
-						org.eclipse.linuxtools.perf-feature
-						org.eclipse.linuxtools.perf.remote-feature
-						org.eclipse.linuxtools.perf.tests
-						org.eclipse.linuxtools.profiling-feature
-						org.eclipse.linuxtools.profiling.launch
-						org.eclipse.linuxtools.profiling.test-feature
-						org.eclipse.linuxtools.profiling.tests
-						org.eclipse.linuxtools.profiling.ui
-					</pre>
 				</li>
 			
 		</ul>
 		</li>
+<pre>     
+	org.eclipse.linuxtools.perf
+	org.eclipse.linuxtools.perf.doc
+	org.eclipse.linuxtools.perf-feature
+	org.eclipse.linuxtools.perf.remote-feature
+	org.eclipse.linuxtools.perf.tests
+	org.eclipse.linuxtools.profiling-feature
+	org.eclipse.linuxtools.profiling.launch
+	org.eclipse.linuxtools.profiling.test-feature
+	org.eclipse.linuxtools.profiling.tests
+	org.eclipse.linuxtools.profiling.ui
+</pre>
 		<li>
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/PERF/User_Guide">here</a>.
 		</li>
