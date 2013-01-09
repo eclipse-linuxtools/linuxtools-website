@@ -30,15 +30,14 @@
 
 		<h2>Current Status</h2>
 		<p>
-		In conjunction with the CDT, the plugin can do the following:
 		<ul>
-          <li>Launch a local C/C++ application and Perf simultaneously to start profiling (No root password required))</li>
+          <li>Launch a local C/C++ application and Perf simultaneously to start profiling (No root password required)</li>
           <li>Automatically gather Perf data and display in a tree viewer after a launch</li>
           <li>Configure Perf to profile several events simultaneously</li>
           <li> Remote project profiling using RSE or RemoteTools </li>
           <li>Jump to the line-number of the corresponding source file on a double-click of a sample</li>
           <li>One-click launch with reasonable defaults</li>
-          <li>Available as the default timing profiling tool under Linux Tools unified profiling interface.</li> 
+          <li>Available as the default timing profiling tool under Linux Tools unified profiling interface</li> 
         </ul>
 		</p>
 
