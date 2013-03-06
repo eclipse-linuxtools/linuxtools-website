@@ -63,7 +63,7 @@
 		
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>Older releases</h3>
-		&nbsp;&nbsp;&nbsp;<a href="http://archive.eclipse.org/technology/linuxtools/">archive.eclipse.org</a> hosts older releases.  If a URL contains <tt>download.php?file=</tt> then it will function whether something is on the Eclipse mirrors, at download.eclipse.org, or if it has been moved to archive.eclipse.org.
+		&nbsp;&nbsp;&nbsp;<a href="http://archive.eclipse.org/linuxtools/">archive.eclipse.org</a> hosts older releases.  If a URL contains <tt>download.php?file=</tt> then it will function whether something is on the Eclipse mirrors, at download.eclipse.org, or if it has been moved to archive.eclipse.org.
 		</div>
 	</div>
 
