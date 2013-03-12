@@ -21,10 +21,19 @@
 		<h3>1.2.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img border=0 src="/linuxtools/images/icon-help.gif"></a></h3>
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new-1.2.1">New & Noteworthy</a> (Released 2013-03-01).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-juno/479/testReport/">Unit test results</a>.
-		<br>&nbsp;&nbsp;&nbsp;Requires JRE >= 6.0 and Eclipse >= 3.8.x.
-		<br>&nbsp;&nbsp;&nbsp;Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf).
-		<br>&nbsp;&nbsp;&nbsp;Other dependencies of some tools include <a href="http://eclipse.org/cdt">CDT</a>.
-		<br>&nbsp;&nbsp;&nbsp;Installations via the p2 repository will automatically get these dependencies.
+		<br>&nbsp;&nbsp;&nbsp;Requires:
+		<ul>
+		<li>JRE >= 6.0</li>
+	        <li>Eclipse >= 3.8.x</li>
+		<li><a href="http://eclipse.org/cdt">CDT</a> >= 8.1.2</li>
+                <li>PTP >= 6.0 (for RDT used by remote profiling tool features)</li>
+		<li>RSE >= 3.4 (for LTTng and remote profiling tool features)</li>
+		<li>GEF >= 3.8.2 (for Draw2d and Zest packages)</li>
+		<li>TCF >= 1.0.0 (only for legacy LTTng)</li>
+		<li>Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf)</li>
+		<li>There are some Orbit dependencies such as antlr</li>
+		</ul>
+		<br>&nbsp;&nbsp;&nbsp;Installations via the Juno p2 aggregate repository will automatically get these dependencies.
 		<br>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
 		<br>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/1.2.1-sources/">Source tarballs</a> for Linux Tools plugins.
 		<ul>
