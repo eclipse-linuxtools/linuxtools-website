@@ -27,8 +27,6 @@
 <div id="midcolumn" style="width:92%">
      $contents
 </div>
-</div>
-
 
 EOHTML;
 
