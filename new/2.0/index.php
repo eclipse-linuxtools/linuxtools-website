@@ -7,7 +7,7 @@
 	#
 	$pageTitle 		= "Linux Tools New & Noteworthy";
 	
-	$filename = "./new.html";
+	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new/2.0/new.html";
     $dataFile = fopen( $filename, "r" ) ;
     if ( $dataFile )  {
     	while (!feof($dataFile))   {
