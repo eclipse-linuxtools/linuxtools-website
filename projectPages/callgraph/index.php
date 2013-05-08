@@ -37,7 +37,7 @@
 		<p>
 		<ul>
 			<li>With the Eclipse-Callgraph projects installed, you can create a a new launch for any kind of project by extending a single class: SystemTapLaunchShortcut.</li>
-    			<li>The only function that needs to be defined is the setScriptPath variable -- your script will automatically select a text parser and viewer by default.</li>
+    		<li>The only function that needs to be defined is the setScriptPath variable -- your script will automatically select a text parser and viewer by default.</li>
     		<li>By setting parameters in your Launch class, you can modify many of the parameters in the resulting command-line call to SystemTap. You can even change the STAP_PATH to use a different command-line tool altogether!</li>
 		</ul>
 		</p>
@@ -48,8 +48,7 @@
 		<h2>Future Plans</h2>
 		<p>
 		<ul>
-			<li>Add additional tools to the SystemTap family</li>
-          	<li>Integrate with SystemTapGUI for server-based launching and more graphing options.</li>
+			<li>Integrate with SystemTapGUI for server-based launching and more graphing options.</li>
        	</ul>
 		</p>
 		</div>
@@ -57,14 +56,8 @@
 
 		<div>
 		<h2>Try it out</h2>
-		<p>
-		<ul>
-		<li>Git
-		<ul>
-	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git</li>
-		</ul>
-		</li>
-		</ul>
+		 Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br/>
+		 You can also check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
 		</p>
 		</div>
 		<br/><br/>
