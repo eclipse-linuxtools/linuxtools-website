@@ -20,7 +20,7 @@
 
 		<div>
 		<h2>Overview</h2>
-		<a href="images/LaunchConfig.png"><img style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/LaunchConfig_thumb.png" alt="Valgrind Launch Configuration Dialog" /></a>
+		<a href="images/LaunchConfig.png"><img style="margin-left:5px; float:right;" src="images/LaunchConfig_thumb.png" alt="Valgrind Launch Configuration Dialog" /></a>
 		<p>
 		The Linux Tools Project Valgrind plugin aims to provide simple and effective profiling for the C/C++ Development Tools.
 		There is an abundance of Valgrind functionality to expose in Eclipse. Valgrind itself is very component based and this relates well to Eclipse plugins.
@@ -57,13 +57,13 @@
       <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">Video Demo</a></li>
 		</ul>
 		<br/>
-		<a href="images/Memcheck.png"><img style="border: 1px dashed #999999;" src="images/Memcheck_thumb.png" alt="Using the Memcheck tool" /></a>
+		<a href="images/Memcheck.png"><img src="images/Memcheck_thumb.png" alt="Using the Memcheck tool" /></a>
 		</div>
 		<br/>
 
 		<div>
 		<h2>Massif</h2>
-		<a href="images/Massif.png"><img style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/Massif_thumb.png" alt="Using the Massif tool" /></a>
+		<a href="images/Massif.png"><img style="margin-left:5px; float:right;" src="images/Massif_thumb.png" alt="Using the Massif tool" /></a>
 		Massif is a heap profiling tool. It takes several "snapshots" during execution of your program detailing the various heap allocations throughout.
 		It's output for each snapshot primarily consists the time of the snapshot, how many bytes were allocated that can be used, and how much extra was allocated than was asked.
 		The unit of time can be configured to be instructions, milliseconds or bytes. At specified intervals, "detailed" snapshots are produced.
@@ -85,10 +85,10 @@
 		The results of a Cachegrind profile run are displayed in the Valgrind view. These results show Cachegrind's cache/branch data in different levels of granularity.
 		<ul>
 			<li>Double-clicking on any file, function, or line will open the corresponding source file and place the cursor on the appropriate location (if the source can be resolved).</li>
-			<li>Integration with the CDT's parsed code model provides a user interface that resembles what you see in the Outline view.
+			<li>Integration with the CDT's parsed code model provides a user interface that resembles what you see in the Outline view.</li>
 		</ul> 
 		<br/>
-		<a href="images/Cachegrind.png"><img style="border: 1px dashed #999999;" src="images/Cachegrind_thumb.png" alt="Using the Cachegrind tool" /></a>
+		<a href="images/Cachegrind.png"><img src="images/Cachegrind_thumb.png" alt="Using the Cachegrind tool" /></a>
 		</div>
 		<br/>
 
@@ -103,14 +103,9 @@
 
 		<div>
 		<h2>Try it out</h2>
-		<ul>
-		<li>Get the latest version from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a></li>
-    		<li>Check out the source code from our Git repository
-		<ul>
-	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git</li> 
-		</ul>
-		</li>
-		</ul>
+		Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br/>
+		<br/>
+    		Check out the source code from our Git repository <br/>
 		</div>
 	</div>
 
