@@ -24,49 +24,26 @@
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		<ul>
           <li>View for displaying a man page</li>
           <li>API for fetching preformated simple html</li>
 	      <li>Preference page for setting path to the man executable</li>
         </ul>
-	        </p>
 		<p>
 		Note that the Man Page plugin is currently only available directly from the Linux Tools update sites.  It is not found on the
 		Eclipse train update sites nor is it built as part of the Eclipse IDE for C/C++ Linux Developers.
 		</p>
 
 		<h2>Screenshots</h2>
-		<p>
-		 <table cellpadding="9">
-				<tbody>
-					<tr>
-						<td>
-							<a href="images/tooltip.png"><img src="images/tooltip_thumb.png"/></a>
-						</td>
-						<td>
-							<a href="images/view.png"><img src="images/view_thumb.png"/></a>
-						</td>
-					</tr>
-					<tr>
-						<td style="text-align: center">
-							Man page as tooltip
-						</td>
-						<td style="text-align: center">
-							Man page in a view
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</p>
+		<h4>Man page as tooltip</h4>
+		<a href="images/tooltip.png"><img src="images/tooltip_thumb.png" alt="Man page as tooltip"/></a>
+		<h4>Man page in a view</h4>
+		<a href="images/view.png"><img src="images/view_thumb.png" alt="Man page in its own view"/></a>
 
 		<h2>Try it out</h2>
 		<p>
 		 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
-	</div>
-
-	<div id="rightcolumn">
 	</div>
 
 EOHTML;

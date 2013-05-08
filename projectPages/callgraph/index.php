@@ -58,9 +58,9 @@
 		<br/><br/>
 		<h2>Screenshots</h2>
 			<h4>Callgraph rendering of a binary, TreeView</h4>
-		    <img src="../../new/0.4/images-0.4/callgraph.png" />
+		    <img src="../../new/0.4/images-0.4/callgraph.png" alt="Tree view screenshot"/>
 			<h4>Callgraph rendering of a binary, Aggregate View</h4>
-		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
+		    <img src="../../new/0.4/images-0.4/callgraph-link.png" alt="Aggregate view screenshot"/>
 	</div>
 EOHTML;
 

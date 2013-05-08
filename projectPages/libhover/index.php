@@ -24,31 +24,23 @@
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		In conjunction with the CDT, the plugin supplies:
 		<ul>
           <li>Glibc hover and completion support</li>
           <li>Newlib hover and completion support</li>
 	  <li>An Eclipse extension for adding future C library hovers</li>
         </ul>
-		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 		  <li>libstdc++ support using doxygen documentation </li>
 		  <li>Generalized C++ support via libstdc++ doxygen format</li>
         </ul>
-		</p>
 
 		<h2>Screenshots</h2>
-		<p>
-		  <center>
-		    <img src="images/libhover.png">
-		    <br>
-		    Libhover sample
-		  </center>
-		</p>
+		 <h4>Libhover in use</h4>
+		    <img src="images/libhover.png" alt="libhover screenshot">
+		    <br/>
 
 		<h2>Demos</h2>
 		<p>
@@ -60,10 +52,6 @@
 		 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
 	</div>
-
-	<div id="rightcolumn">
-	</div>
-
 EOHTML;
 
 
