@@ -69,12 +69,10 @@
 		    Callgraph rendering of a binary, TreeView
 		  </center>
 		</p>
-		<p>
-		  <center>
+		<p style="margin:auto;">
 		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
 		    <br>
 		    Callgraph rendering of a binary, Aggregate View
-		  </center>
 		</p>
 	</div>
 EOHTML;
