@@ -68,11 +68,6 @@
 		</p>
 		</div>
 		<br/><br/>
-	</div>
-	
-		<div id="rightcolumn">
-	</div>
-<div id="midcolumn">
 		<h2>Screenshots</h2>
 		<p>
 		  <center>
@@ -88,9 +83,7 @@
 		    Callgraph rendering of a binary, Aggregate View
 		  </center>
 		</p>
-</div>
-
-
+	</div>
 EOHTML;
 
 
