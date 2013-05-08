@@ -62,12 +62,10 @@
 		</div>
 		<br/><br/>
 		<h2>Screenshots</h2>
-		<p>
-		  <center>
+		<p style="margin:auto;">
 		    <img src="../../new/0.4/images-0.4/callgraph.png" />
 		    <br>
 		    Callgraph rendering of a binary, TreeView
-		  </center>
 		</p>
 		<p style="margin:auto;">
 		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
