@@ -47,38 +47,27 @@
 
 		<h2>Screenshots</h2>
 		<h4>Perf View</h4>
-		<a href="images/perf_view.png"><img  style="border: 1px dashed #999999; margin-left:5px;" src="images/perf_view.png"/></a>
+		<a href="images/perf_view.png"><img  src="images/perf_view.png" alt="Perf view"/></a>
 		<h4>Perf Events Configuration Tab</h4>
-		<a href="images/perf_config.png"><img  style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/perf_config_thumb.png"/></a>
+		<a href="images/perf_config.png"><img src="images/perf_config_thumb.png" alt="Perf configuration tab"/></a>
 
 		<h2>Try it out</h2>
-
-
-		<ul>
-		<li>Get the latest version from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a></li>
-    		<li>Check out the source code from our Git repository
-		<ul>
-	          	<li>git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git
-				</li>
-			
-		</ul>
-		</li>
-<pre>     
-	org.eclipse.linuxtools.perf
-	org.eclipse.linuxtools.perf.doc
-	org.eclipse.linuxtools.perf-feature
-	org.eclipse.linuxtools.perf.remote-feature
-	org.eclipse.linuxtools.perf.tests
-	org.eclipse.linuxtools.profiling-feature
-	org.eclipse.linuxtools.profiling.launch
-	org.eclipse.linuxtools.profiling.test-feature
-	org.eclipse.linuxtools.profiling.tests
-	org.eclipse.linuxtools.profiling.ui
-</pre>
-		<li>
+		You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or
+		check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
+		You will need all the plugins under oprofile subfolder, and the plugins under the profiling subfolder:
+		<pre>
+		org.eclipse.linuxtools.perf
+		org.eclipse.linuxtools.perf.doc
+		org.eclipse.linuxtools.perf-feature
+		org.eclipse.linuxtools.perf.remote-feature
+		org.eclipse.linuxtools.perf.tests
+		org.eclipse.linuxtools.profiling-feature
+		org.eclipse.linuxtools.profiling.launch
+		org.eclipse.linuxtools.profiling.test-feature
+		org.eclipse.linuxtools.profiling.tests
+		org.eclipse.linuxtools.profiling.ui
+		</pre>
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/PERF/User_Guide">here</a>.
-		</li>
-		</ul>
 </div>
 EOHTML;
 

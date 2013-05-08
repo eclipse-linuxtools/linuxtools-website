@@ -29,7 +29,6 @@
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		In conjunction with the CDT, the plugin can do the following:
 		<ul>
           <li>Launch a local C/C++ application and OProfile simultaneously to start profiling (requires root password to execute OProfile commands)</li>
@@ -42,16 +41,13 @@
           <li>View the oprofiled log</li>
           <li>One-click launch with sane defaults</li>
         </ul>
-		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 		  <li> Robust filtering for events/sessions/images</li>
 		  <li> Code-colourization (similar to <a href="http://www.eclemma.org/index.html" class="external text" title="http://www.eclemma.org/index.html" rel="nofollow">EclEmma</a>) for code hotspots</li>
           <li> Comparing two sessions/runs similar to functionality of opreport</li>
         </ul>
-		</p>
 
 		<h2>Screenshots</h2>
 		<h4>OProfile View</h4>
