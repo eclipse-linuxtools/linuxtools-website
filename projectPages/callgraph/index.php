@@ -34,23 +34,19 @@
 
 		<div>
 		<h2>Extensibility</h2>
-		<p>
 		<ul>
 			<li>With the Eclipse-Callgraph projects installed, you can create a a new launch for any kind of project by extending a single class: SystemTapLaunchShortcut.</li>
     		<li>The only function that needs to be defined is the setScriptPath variable -- your script will automatically select a text parser and viewer by default.</li>
     		<li>By setting parameters in your Launch class, you can modify many of the parameters in the resulting command-line call to SystemTap. You can even change the STAP_PATH to use a different command-line tool altogether!</li>
 		</ul>
-		</p>
 		</div>
 		
 		<br/>
 		<div>
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 			<li>Integrate with SystemTapGUI for server-based launching and more graphing options.</li>
        	</ul>
-		</p>
 		</div>
 		<br/>
 
@@ -61,12 +57,10 @@
 		</div>
 		<br/><br/>
 		<h2>Screenshots</h2>
-		<p style="margin:auto;">
 			<h4>Callgraph rendering of a binary, TreeView</h4>
 		    <img src="../../new/0.4/images-0.4/callgraph.png" />
 			<h4>Callgraph rendering of a binary, Aggregate View</h4>
 		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
-		</p>
 	</div>
 EOHTML;
 

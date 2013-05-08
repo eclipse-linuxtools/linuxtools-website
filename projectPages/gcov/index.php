@@ -34,12 +34,10 @@
 		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 		  <li> Support coverage on libraries </li>
 		  <li> Enhance online documentation </li>
         	</ul>
-		</p>
 
 		<h2>Help and screenshots</h2>
 		<p>
