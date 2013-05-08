@@ -29,7 +29,6 @@
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		<ul>
           <li>Launch a local C/C++ application and Perf simultaneously to start profiling (No root password required)</li>
           <li>Automatically gather Perf data and display in a tree viewer after a launch</li>
@@ -39,43 +38,18 @@
           <li>One-click launch with reasonable defaults</li>
           <li>Available as the default timing profiling tool under Linux Tools unified profiling interface</li> 
         </ul>
-		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
           <li>Comparing two perf data files similar to functionality of perf --diff</li>
           <li>Make Perf available as the default timing profiling tool under CDTs unified profiling interface.</li>
         </ul>
-		</p>
 
 		<h2>Screenshots</h2>
-		<p>
-			<table cellpadding="9">
-				<tbody>
-					<tr>
-						<td>
-							<a href="images/perf_view.png"><img  style="border: 1px dashed #999999; margin-left:5px;" src="images/perf_view.png"/></a>
-						</td>
-					</tr>
-					<tr>
-						<td style="text-align: center">
-							Perf View
-						</td>
-					</tr>					
-					<tr>
-						<td>
-							<a href="images/perf_config.png"><img  style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/perf_config_thumb.png"/></a>
-						</td>
-					</tr>
-					<tr>
-						<td style="text-align: center">
-							Perf Events Configuration Tab
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</p>
+		<h4>Perf View</h4>
+		<a href="images/perf_view.png"><img  style="border: 1px dashed #999999; margin-left:5px;" src="images/perf_view.png"/></a>
+		<h4>Perf Events Configuration Tab</h4>
+		<a href="images/perf_config.png"><img  style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/perf_config_thumb.png"/></a>
 
 		<h2>Try it out</h2>
 
@@ -105,18 +79,6 @@
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/PERF/User_Guide">here</a>.
 		</li>
 		</ul>
-
-
-
-		<p>
-		<br/><br/>
-		</p>
-	<br/><br/><br/>
-	</div>
-	
-	
-	<div id="rightcolumn">
-	</div>
 
 EOHTML;
 
