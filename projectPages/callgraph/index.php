@@ -76,14 +76,14 @@
 		<h2>Screenshots</h2>
 		<p>
 		  <center>
-		    <img src="../../new-0.4/images-0.4/callgraph.png">
+		    <img src="../../new/0.4/images-0.4/callgraph.png" />
 		    <br>
 		    Callgraph rendering of a binary, TreeView
 		  </center>
 		</p>
 		<p>
 		  <center>
-		    <img src="../../new-0.4/images-0.4/callgraph-link.png">
+		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
 		    <br>
 		    Callgraph rendering of a binary, Aggregate View
 		  </center>
