@@ -19,9 +19,9 @@
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>1.2.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" /></a></h3>
-		<br>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new/1.2.1">New & Noteworthy</a> (Released 2013-03-01).
+		<br/>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new/1.2.1">New &amp; Noteworthy</a> (Released 2013-03-01).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-juno/479/testReport/">Unit test results</a>.
-		<br>&nbsp;&nbsp;&nbsp;Requires:
+		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 6.0</li>
 	        <li>Eclipse >= 3.8.x</li>
