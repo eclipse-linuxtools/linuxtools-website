@@ -54,28 +54,10 @@
 		</p>
 
 		<h2>Screenshots</h2>
-		<p>
-			<table cellpadding="9">
-				<tbody>
-					<tr>
-						<td>
-							<a href="images/oprofile_view.png"><img src="images/oprofile_view_thumb.png"/></a>
-						</td>
-						<td>
-							<a href="images/event_config_tab.png"><img src="images/event_config_tab_thumb.png"/></a>
-						</td>
-					</tr>
-					<tr>
-						<td style="text-align: center">
-							OProfile View
-						</td>
-						<td style="text-align: center">
-							Event Configuration Tab
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</p>
+		<h4>OProfile View</h4>
+							<a href="images/oprofile_view.png"><img src="images/oprofile_view_thumb.png" alt="Oprofile view"/></a>
+<h4>Event Configuration Tab</h4>
+							<a href="images/event_config_tab.png"><img src="images/event_config_tab_thumb.png" alt="Oprofile config tab"/></a>
 		
 		<h2>Video Demo</h2>
 		<p>
@@ -83,7 +65,6 @@
 		</p>
 
 		<h2>Try it out</h2>
-		<p>
 		  You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or 
 		  check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
           You will need all the plugins under oprofile subfolder, and the plugins under the profiling subfolder:
@@ -110,14 +91,8 @@
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/OProfile/User_Guide">here</a>.
 		<br/><br/>
 		We have tested using Eclipse 4.2.0, OProfile 0.9.6, and 0.9.7 on Fedora 16 x86, Fedora 17 x86.
-		</p>
 	<br/><br/><br/>
 	</div>
-	
-	
-	<div id="rightcolumn">
-	</div>
-
 EOHTML;
 
 

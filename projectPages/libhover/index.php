@@ -39,7 +39,7 @@
 
 		<h2>Screenshots</h2>
 		 <h4>Libhover in use</h4>
-		    <img src="images/libhover.png" alt="libhover screenshot">
+		    <img src="images/libhover.png" alt="libhover screenshot" />
 		    <br/>
 
 		<h2>Demos</h2>
