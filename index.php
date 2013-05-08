@@ -9,7 +9,7 @@
 
 <div id="maincontent">
 	<div id="midcolumn" class="homeitem">
-	          <img alt="Screenshot of Linux Tools projects" border="0" src="images/mainscreenshot.png">
+	          <img alt="Screenshot of Linux Tools projects" src="images/mainscreenshot.png" />
 	          <p>
 	          The Linux Tools project aims to bring a <b>full-featured C and C++ IDE</b> to Linux developers.
 	          We build on the source editing and debugging features of the
