@@ -79,7 +79,7 @@
 		For help with installing and using the plugin, please read the user guide <a href="http://wiki.eclipse.org/Linux_Tools_Project/PERF/User_Guide">here</a>.
 		</li>
 		</ul>
-
+</div>
 EOHTML;
 
 
