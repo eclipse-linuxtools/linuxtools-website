@@ -63,11 +63,9 @@
 		<br/><br/>
 		<h2>Screenshots</h2>
 		<p style="margin:auto;">
-			<h3>Callgraph rendering of a binary, TreeView</h3>
+			<h4>Callgraph rendering of a binary, TreeView</h4>
 		    <img src="../../new/0.4/images-0.4/callgraph.png" />
-		</p>
-		<p style="margin:auto;">
-			<h3>Callgraph rendering of a binary, Aggregate View</h3>
+			<h4>Callgraph rendering of a binary, Aggregate View</h4>
 		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
 		</p>
 	</div>
