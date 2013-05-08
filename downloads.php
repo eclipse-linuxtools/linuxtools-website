@@ -18,7 +18,7 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>1.2.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" /></a></h3>
+		<h3>1.2.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
 		<br/>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new/1.2.1">New &amp; Noteworthy</a> (Released 2013-03-01).
 		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-juno/479/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
@@ -39,7 +39,7 @@
 		<ul>
 			<li>
 				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-1.2.1.zip">
-					<img src="/linuxtools/images/icon-save.gif"/></a>
+					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
 				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-1.2.1.zip.md5">md5sum</a>)
 				<b>http://download.eclipse.org/linuxtools/update-1.2.1</b>
 			</li>
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>Nightly builds&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif"/></a></h3>
+		<h3>Nightly builds&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon"/></a></h3>
 		<br/>&nbsp;&nbsp;&nbsp;Early adopters and Linux Tools developers may wish to use our nightly development builds.  These are not suitable for use by everyone.
 		<ul>
 			<li>
