@@ -24,37 +24,27 @@
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		In conjunction with Eclipse SDK, the plugin supports:
 		<ul>
 	  <li>Coding folding of probe points</li>
 	  <li>Completion suggestions of probe points</li>
 	  <li>Syntax Highlighting</li>
         </ul>
-		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 		  <li>Improved code folding to fold comment and functions</li>
 		  <li>Script error detection</li>
 		  <li>Expansion of completion to include functions, and built-in updates as System Tap updates</li>
                 </ul>
-		</p>
 
 		<h2>Screenshots</h2>
-		<p>
-		  <center>
-		    <img src="images/stap_editor.png">
-		    <br>
-		    SystemTap editor sample
-		  </center>
-		</p>
+		<h4>SystemTap editor sample</h4>
+		    <img src="images/stap_editor.png" alt="SystemTap editor in action"/>
 
 		<h2>Try it out</h2>
-		<p>
-		Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br>
-		<br>
+		Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br/>
+		<br/>
 		You can also check the project plugins out of Git
 		  directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
           You will need to check out the following from systemtap subfolder:
@@ -62,10 +52,6 @@
      org.eclipes.linuxtools.systemtap.ui.editor
 </pre>
 From there, run the plugins as an Eclipse Application.
-		</p>
-	</div>
-
-	<div id="rightcolumn">
 	</div>
 
 EOHTML;

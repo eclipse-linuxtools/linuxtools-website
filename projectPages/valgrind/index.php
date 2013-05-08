@@ -33,7 +33,6 @@
 
 		<div>
 		<h2>Extensibility</h2>
-		<p>
 		<ul>
 			<li>Each tool has the ability to contribute its own set of options to the Launch Configuration Dialog via the valgrindTools extension point and providing an implementation of the IValgrindToolPage interface.
 			The controls created inside of the implementing class are nested into a tool specific tab in the Dialog.</li>
@@ -43,13 +42,11 @@
 			Each tool provides its own appropriate way of displaying its output and, similar to the Launch Configuration Dialog, can embed its contributed controls into the View.
 			This is done via the valgrindToolViews extension point and implementing the IValgrindToolView interface.</li>
 		</ul>
-		</p>
 		</div>
 		<br/>
 
 		<div>
 		<h2>Memcheck</h2>
-		<p>
 		Memcheck is a tool that detects memory management problems. It is Valgrind's most popular tool and seemingly the most mature. 
 		Memcheck's output is rather straight forward - it is a series of errors along with stack trace information.
 		<ul>
@@ -59,7 +56,6 @@
 			<li>Includes an editor for Valgrind suppressions files featuring syntax highlighting, folding and code completion.</li>
       <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-1.ogg">Video Demo</a></li>
 		</ul>
-		</p>
 		<br/>
 		<a href="images/Memcheck.png"><img style="border: 1px dashed #999999;" src="images/Memcheck_thumb.png" alt="Using the Memcheck tool" /></a>
 		</div>
@@ -68,7 +64,6 @@
 		<div>
 		<h2>Massif</h2>
 		<a href="images/Massif.png"><img style="border: 1px dashed #999999; margin-left:5px; float:right;" src="images/Massif_thumb.png" alt="Using the Massif tool" /></a>
-		<p>
 		Massif is a heap profiling tool. It takes several "snapshots" during execution of your program detailing the various heap allocations throughout.
 		It's output for each snapshot primarily consists the time of the snapshot, how many bytes were allocated that can be used, and how much extra was allocated than was asked.
 		The unit of time can be configured to be instructions, milliseconds or bytes. At specified intervals, "detailed" snapshots are produced.
@@ -81,20 +76,17 @@
     			<li>ms_print also provides a bar chart of bytes allocated throughout execution. In perhaps a more appropriate style, there is an option to display a detailed line chart of this data.</li>
       <li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/linuxtools/videos/valgrind-demo-2.ogg">Video Demo</a></li>
 		</ul>
-		</p>
 		</div>
 		<br/>
 		
 		<div>
 		<h2>Cachegrind</h2>
-		<p>
 		Cachegrind performs cache and branching profiling. A Cachegrind profile run measures the number of cache misses and branch mispredictions performed by an application.
 		The results of a Cachegrind profile run are displayed in the Valgrind view. These results show Cachegrind's cache/branch data in different levels of granularity.
 		<ul>
 			<li>Double-clicking on any file, function, or line will open the corresponding source file and place the cursor on the appropriate location (if the source can be resolved).</li>
 			<li>Integration with the CDT's parsed code model provides a user interface that resembles what you see in the Outline view.
 		</ul> 
-		</p>
 		<br/>
 		<a href="images/Cachegrind.png"><img style="border: 1px dashed #999999;" src="images/Cachegrind_thumb.png" alt="Using the Cachegrind tool" /></a>
 		</div>
@@ -102,18 +94,15 @@
 
 		<div>
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 			<li>Caching output from recent Valgrind runs for quick restoration</li>
           	<li>Integration of the remainder of the Valgrind tool suite</li>
        	</ul>
-		</p>
 		</div>
 		<br/>
 
 		<div>
 		<h2>Try it out</h2>
-		<p>
 		<ul>
 		<li>Get the latest version from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a></li>
     		<li>Check out the source code from our Git repository
@@ -122,12 +111,7 @@
 		</ul>
 		</li>
 		</ul>
-		</p>
 		</div>
-		<br/><br/>
-	</div>
-
-	<div id="rightcolumn">
 	</div>
 
 EOHTML;
