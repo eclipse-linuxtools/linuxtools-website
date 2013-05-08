@@ -33,7 +33,6 @@ $html =<<<EOHTML
 		</p>
 
 		<h2>Current Status</h2>
-		<p>
 		The plugin can do the following:
 		<ul>
 		<li>Highlight specfile contents.</li>
@@ -44,24 +43,19 @@ $html =<<<EOHTML
 		<li>Auto-complete for package names and rpm macros.</li>
 		<li>Import and export wizards.</li>
 		</ul>
-		</p>
 
 		<h2>Future Plans</h2>
-		<p>
 		<ul>
 		  <li>More rpmlint quick fixes.</li>
 		  <li>Form based editor. <i>Help wanted</i></li>
 		  <li>Increase test coverage.</li>
         </ul>
-		</p>
 		
 		<h2>Nice to have but no plans for now</h2>
-		<p>
 		<ul>
 		  <li>Shell script editor integration.</li>
 		  <li>Lua script editor integration - Latest rpm releases are offering Lua as an option for scripting inside specfiles. </li>
         </ul>
-		</p>
 		
 		<h2>User guide</h2>
 		<p>
@@ -77,9 +71,6 @@ $html =<<<EOHTML
 		<p>
 			 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
 		</p>
-	</div>
-
-	<div id="rightcolumn">
 	</div>
 
 EOHTML;
