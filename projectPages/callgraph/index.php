@@ -63,14 +63,12 @@
 		<br/><br/>
 		<h2>Screenshots</h2>
 		<p style="margin:auto;">
+			<h3>Callgraph rendering of a binary, TreeView</h3>
 		    <img src="../../new/0.4/images-0.4/callgraph.png" />
-		    <br>
-		    Callgraph rendering of a binary, TreeView
 		</p>
 		<p style="margin:auto;">
+			<h3>Callgraph rendering of a binary, Aggregate View</h3>
 		    <img src="../../new/0.4/images-0.4/callgraph-link.png" />
-		    <br>
-		    Callgraph rendering of a binary, Aggregate View
 		</p>
 	</div>
 EOHTML;
