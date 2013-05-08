@@ -58,7 +58,6 @@
 		<h2>Try it out</h2>
 		 Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br/>
 		 You can also check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
-		</p>
 		</div>
 		<br/><br/>
 		<h2>Screenshots</h2>

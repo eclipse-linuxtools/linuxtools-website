@@ -26,17 +26,17 @@
 		<h2>Current Status</h2>
 		<p>
 		In conjunction with Eclipse SDK and CDT, the plugin supports:
-		<ul>
-	  <li>C, C++, and Java language support for modified functions/methods</li>
-	  <li>Preference page to set name, e-mail address, and desired entry style</li>
-	  <li>Automatic new and removed file entries</li>
-	  <li>Support in Team synchronize view as well as C View and Project Views, C Editor, and Java Editor</li>
-          <li>Single ChangeLog entry for current file</li>
-	  <li>Full entry for entire project</li>
-	  <li>Tested with CVS and SVN repositories</li>
-          <li>Colorized ChangeLog editor with support for diffing to clipboard</li>
-	  <li>Short-cut key sequences CTL+ALT+P for project entry and CTL+ALT+C for single entry</li>
-        </ul>
+				<ul>
+				<li>C, C++, and Java language support for modified functions/methods</li>
+				<li>Preference page to set name, e-mail address, and desired entry style</li>
+				<li>Automatic new and removed file entries</li>
+				<li>Support in Team synchronize view as well as C View and Project Views, C Editor, and Java Editor</li>
+				<li>Single ChangeLog entry for current file</li>
+				<li>Full entry for entire project</li>
+				<li>Tested with CVS and SVN repositories</li>
+				<li>Colorized ChangeLog editor with support for diffing to clipboard</li>
+				<li>Short-cut key sequences CTL+ALT+P for project entry and CTL+ALT+C for single entry</li>
+				</ul>
 		</p>
 
 		<h2>Future Plans</h2>
@@ -48,11 +48,8 @@
 
 		<h2>Screenshots</h2>
 		<p>
-		  <center>
-		    <img src="images/changelog.png">
-		    <br>
 		    Changelog sample
-		  </center>
+		    <img src="images/changelog.png" />
 		</p>
 
 		<h2>Demos</h2>
@@ -62,7 +59,7 @@
 
 		<h2>Try it out</h2>
 		<p>
-		  Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br>
+		  Please use our update site as described <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">here</a>. <br/>
 
 		  You can also check the project plugins out of Git
 		  directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
@@ -75,9 +72,6 @@
 </pre>
 From there, run the plugins as an Eclipse Application.
 		</p>
-	</div>
-
-	<div id="rightcolumn">
 	</div>
 
 EOHTML;
