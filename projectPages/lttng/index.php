@@ -31,6 +31,7 @@
         [2] collect the trace data, and [3] visualize and analyze the data
         collected.
         <p>
+        It supports arbitrarily large traces that exceed available memory.
         It also provides a framework for the integration of various tracers
         and loggers (e.g. HW) as well as specialized trace analysis tools.
 
@@ -39,43 +40,30 @@
         <h4>Tracing perspective</h4>
         <ul>
             <li>Project View - Tracing project management</li>
-            <li>Control View - LTTng tracer control</li> 
             <li>Events View - Advanced tabular view of the raw trace events</li>
             <li>Statistics View - General traces statistics</li>
-            <li>Histogram View - Event distribution analysis</li> 
+            <li>Histogram View - Event distribution analysis</li>
         </ul>
 
         <h4>LTTng Kernel perspective (in addition to the Tracing perspective)</h4>
         <ul>
             <li>Control Flow View - Processes state transition analysis</li>
             <li>Resource View - System resources state transition analysis</li>
-            <li>Integrated Help</li>
+            <li>Control View - LTTng tracer control</li>
         </ul>
 
-        <h4>LTTng internals</h4>
+        <h4>Infrastructure</h4>
         <ul>
-            <li>Integration of User Space Tracing (UST)</li>
-            <li>Integration of distributed, multi-processor, multi-core traces</li>
-        </ul>
-
-        <h4>Infrastructure (non-LTTng specific)</h4>
-        <ul>
-            <li>Generic Event Model</li>
+            <li>Generic Component, Trace and Event Models</li>
             <li>Event searching, filtering, bookmarking and color coding</li>
-            <li>Generic Trace Model</li>
-            <li>Generic Component Model</li>
             <li>Generic Text Parser (XML, regex)</li>
-            <li>Generic, request-based, inter-component communication mechanism</li>
-            <li>Generic Project View</li>
-            <li>Generic Events View</li>
-            <li>Generic Statistics View</li>
-            <li>Generic Histogram View</li>
-            <li>Generic Trace Parser (CTF-based)</li>
+            <li>Common Trace Format (CTF) parser, using separate library</li>
+            <li>Inter-component communication mechanism using signals</li>
+            <li>Framework for trace event requests</li>
             <li>Generic State System (GSS)</li>
-            <li>Generic Gantt Chart View</li>
-            <li>Support for arbitrarily large traces (that exceed available memory)</li>
-            <li>Wizards for parser generation (CSV, XML, plain text, regular expression, ...)</li>
-            <li>Support for trace Drag&Drop</li>
+            <li>Generic Time Chart View</li>
+            <li>Generic Call Stack View</li>
+            <li>Source code and EMF model lookup</li>
         </ul>
 
         <h2>Future Plans</h2>
@@ -83,20 +71,17 @@
 
         <h4>LTTng internals</h4>
         <ul>
-            <li>Integration of trace synchronization analysis</li>
-            <li>Integration of dependency analysis</li>
+            <li>Integration of User Space Tracing (UST)</li>
+            <li>Support for -finstrument-functions traces in the Callstack View</li>
         </ul>
 
-        <h4>Infrastructure (non-LTTng)</h4>
+        <h4>Infrastructure</h4>
         <ul>
-            <li>Viewing Widget Toolbox (e.g. XY-plot, histogram, Gantt chart, etc)</li>
-            <li>Statistical Widget Toolbox</li>
-            <li>Efficient retrieval and handling of trace files</li>
+            <li>Integration of trace synchronization</li>
+            <li>Integration of dependency analysis</li>
+            <li>Generic plotting framework (e.g. XY-plot, histogram, Gantt chart, etc)</li>
+            <li>Definition of custom state systems and views</li>
             <li>Trace streaming</li>
-            <li>Correlation of heterogeneous traces</li>
-            <li>Source code lookup</li>
-            <li>Wizards for tracing/logging/monitoring application integration</li>
-            <li>Wizards for analysis components integration (generic or proprietary)</li>
         </ul>
 
         <h2>Screenshots</h2>
@@ -112,12 +97,15 @@
         
         <h2>Video Demo</h2>
         <p>
-        Coming soon.
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/AdffSOmSTQY" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p>
+          There are other TMF-related videos in the <a href="https://www.youtube.com/user/lttng/videos">LTTng channel</a>.
         </p>
 
         <h2>Try it out</h2>
         <p>
-        Follow the instructions <a href="http://wiki.eclipse.org/Linux_Tools_Project/LTTng2/User_Guide#Installation">here</a>.
+        Follow the instructions <a href="http://lttng.org/eclipse">here</a>.
     </div>
     
     <div id="rightcolumn">
