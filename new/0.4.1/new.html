@@ -1,0 +1,370 @@
+<table border="1" style="border-collapse: collapse" width="100%" id="table128" cellpadding="4" bordercolor="#FFFFFF">
+	<tr>
+		<td bgcolor="#595791" width="9%" align="center"><b>
+		<font color="#FFFFFF" size="1">Release</font></b></td>
+		<td bgcolor="#595791" width="5%" align="center"><b>
+		<font color="#FFFFFF" size="1">Resolved 
+		</font></b></td>
+		<td bgcolor="#595791" width="*" align="center"><b>
+		<font color="#FFFFFF" size="1">Community Contributions</font></b></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#FAF7FB"><font size="1">0.4.1<br>
+		<i>21 Dec. 2009</i></font></td>
+		<td bgcolor="#FAF7FB" align="center">
+		<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=0.4.1&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+		3 bugs</a></td>
+		<td bgcolor="#FAF7FB"><font size="1">
+		This was a bug-fix-only release, resolving some issues with Autotools and OProfile plugins.
+		</font></td>
+	</tr>
+	<tr>
+		<td bgcolor="#E0D0E6"><font size="1">0.4<br>
+		<i>23 Nov. 2009</i></font></td>
+		<td bgcolor="#E0D0E6" align="center">
+		<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=0.4&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+		84 bugs</a></td>
+		<td bgcolor="#E0D0E6"><font size="1">
+		Our Eclipse SDK build harness, eclipse-build, would be much worse off if it weren't
+		for the patches and testing by Benjamin Drung, Matthias Klose, Marvin Schmidt, and
+		Niels Thykier.
+		Nick Boldt once again helped us with some release engineering issues.  Thanks to users such as Jens Seidel, Andrew Gvozdev, and PurpleFloyd for reporting some key bugs against Autotools and testing the subsequent fixes.
+		</font></td>
+	</tr>
+</table>
+
+<hr>
+
+<p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 0.4</span> </p>
+<ul>
+	<li><a href="#autotools">GNU Autotools Support (2)</a></li>
+	<li><a href="#eclipse-callgraph">Eclipse Callgraph (2)</a></li>
+	<li><a href="#eclipsebuild">Building the Eclipse SDK (7)</a></li>	
+	<li><a href="#gprof">GProf support (3)</a></li>
+	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
+	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (1)</a></li>
+	<li><a href="#valgrind">Valgrind Profiling (2)</a></li>
+</ul>
+
+<h2><a name="autotools">GNU Autotools Support</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Project Templates</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The GNU Autotools plug-in now provides template projects for both C and C++ in the CDT C and C++ Project Wizards.  There are two templates for each language: an empty project template used when importing existing projects and a sample "Hello World" project template.  The "Hello World" sample project templates provide all needed source and configuration files such that the build produces a working executable that prints to the console.			</p>
+			<img border="0" alt="Autotools Project Template" src="images-0.4/autotools-template.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Autotools Configuration</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Autotools plug-in has been rewritten.  As part of the rewrite, the configuration settings have been moved under the Autotools properties page.  Configuration options are now stored in a new project xml file: .autotools.  The build directory is no longer specified in the configuration settings.  It is specified exclusively using the "Build Location" setting found in the C/C++ Build properties page.
+			</p>
+			<img border="0" alt="New configuration settings" src="images-0.4/autotools-newconfigure.png">
+			<p align="left">If the build location is not set, then by default, the initial build will occur in the top-level project directory.  Subsequent builds will build in new directories which are named "build-${CfgName}" where ${CfgName} is the name of the configuration.  If this behaviour is not desired, it can be turned off from the top-level Autotools property page.
+			</p>
+			<img border="0" alt="New autotools page" src="images-0.4/autotools-newautotoolspage.png">
+			<p align="left">For further information about rewrite changes, <a href="http://wiki.eclipse.org/Linux_Tools_Project/Autotools/Rewrite_Changes_Guide">click here</a>.
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="eclipse-callgraph">Eclipse Callgraph</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Visualize C/C++ Projects</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+				Graphically displays the call hierarchy from executing a C/C++
+				binary, along with various other runtime statistics.
+			</p>
+			<img border="0" src="images-0.4/callgraph.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Link To Function Source</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">
+				The graph views are linked to their source code. This means
+				that from any view, one can jump directly to the relevant
+				source code by holding Ctrl and double clicking a node.
+			</p>
+			<img border="0" src="images-0.4/callgraph-link.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="eclipsebuild">Building the Eclipse SDK</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Update to latest Eclipse SDK version</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Build is updated to work with Eclipse SDK 3.5.1 version.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Running SDK Tests</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Eclipse SDK test suites can be run with <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build/Tests"><tt>ant runTests</tt></a>.  A single HTML file with aggregated results will be created.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>GTK 2.18 compatibility</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Eclipse 3.5.1 has problems running with GTK 2.18.  Compatibility patches which will appear in 3.5.2 have been back-ported and included. 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Build more...</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">ECF bundles and Equinox initializer are built as part of the build process.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Enhance distributions' experience</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Install target has been added to install provisioned SDK.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Additional Architectures</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Support for the following additional architectures has been added: 
+			<lu>
+			<li>arm</li> 
+			<li>mips</li>
+			<li>mipsel</li>
+			<li>PA_RISC</li>
+			<li>alpha</li>
+			<li>ia64</li> 
+			<li>ppc64</li>
+			<li>sparc</li>
+			<li>sparc64</li>
+			</lu>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Speed up build</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Build has been changed to work with only one target <tt>os-ws-arch</tt>.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="gprof">GProf Integration</a></h2>
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Configuration</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Gprof plugin allows the generation of execution performance statistics based on compiler instrumentation.
+			Thus, the user has to compile the C/C++ program with profiling enabled using the <i>-pg</i> option prior to running the tool.
+			</p>
+			<img border="0" alt="" src="images-0.4/gprof-compile-step.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Launching</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Once the application run is finished, a <i>gmon.out</i> file is generated under the project.
+			Double clicking on this file will open a dialog to select the associated binary.
+			</p>
+			<img border="0" alt="" src="images-0.4/gprof-project-explorer.png">
+			<img border="0" alt="" src="images-0.4/gprof-binary-file.png">
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Results</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p>The Gprof view shows which parts of the program consume most of the execution time.
+			It also provides call graph infomation for each function. Source code can be viewed in an editor
+			by double clicking on a function in the tree.
+			<p>
+			<img border="0" alt="" src="images-0.4/gprof-view.png">
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="rpmstubby">RPM Stubby</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Maven generation</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">RPM Stubby now has support for generating RPM spec files from Maven pom.xml files.
+			</p>
+			<img border="0" src="images-0.4/rpmstubby-pom.png">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="specfileeditor">RPM <tt>.spec</tt> Editor</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>General cleanup</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The <tt>.spec</tt> editor code has been updated to use Eclipse SDK 3.5 API. Issues found by PMD/Findbugs are also fixed.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+</table>
+
+<h2><a name="valgrind">Valgrind Profiling</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Valgrind 3.5 Support</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Valgrind 3.5 brings several <a href="http://www.valgrind.org/docs/manual/dist.news.html">changes</a> to the tool suite, such as improved leak checking.
+For the Linux Tools 0.4 release, an issue has been corrected that prevented launching a program successfully with default Valgrind options. Valgrind 3.5 users should now have no
+problems profiling their C/C++ applications in Eclipse.
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Customize Valgrind Location</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">A new preference page accessible from <i>Window -> Preferences</i> allows you to specify an alternate location for the Valgrind executable.
+This defaults to the path returned by the <i>which</i> command. Now you can use Valgrind from a non-standard location without having to manipulate your PATH environment variable.
+			</p>
+			<img src="images-0.4/valgrind-pref.png"/>
+			</td>
+		</tr>
+</table>
+
+
+<h2>&nbsp;</h2>
