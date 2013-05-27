@@ -225,10 +225,13 @@
             <p align="right"><b>Short Description</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Many enhancemants and improvements have been made to the LTTng integration in Eclipse as well as to the Tracing and Monitoring Framework (TMF).
-            Also, a new GDB Tracepoint Analysis feature based on TMF is included in this release.
-
-            <p>Here are the highlights of release:
+            <p align="left">
+            Many enhancemants and improvements have been made to
+            the LTTng integration in Eclipse as well as to the Tracing and 
+            Monitoring Framework (TMF). Also, a new GDB Tracepoint Analysis
+            feature based on TMF is included in this release.
+            <br/>
+            Here are the highlights of release:
             <ul>
             <li>Support for Multiple Simultaneously Open Traces</li>
             <li>Support for Link With Editor</li>
@@ -245,17 +248,14 @@
             <li>Miscellaneous Improvements</li>
             <li>New GDB Tracepoint Analysis Feature</li>
             </ul>
-            <p>
-            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide">User Guide</a>
-            for detailed information on installation, configuration and operation.
-            </p>
-            <p>
+            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide">User Guide</a> 
+            for detailed information on installation, configuration and 
+            operation.
+            <br/>
+            <br/>
             <b>Note: The support for the legacy LTTng tracer (v0.x) is removed.<b/>
             </p>
-            <!--
-            <img border="0" alt="Alt text for the image" src="images/image.png">
             </td>
-            -->
         </tr>
         <tr>
             <td colspan="2">
@@ -267,17 +267,18 @@
             <p align="right"><b>Support for Multiple Simultaneously Open Traces</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">With the support of Events editors as replacement to the Events view it is now possible to open multiple
-             traces simultaneously at the same time. The Events editor shows the basic trace data elements (events) in a tabular format.
-             The editors can be dragged in the editor area so that several traces may be shown side by side. These traces are synchronized
-             by timestamp. Other open tracing views reflect the trace in focus</p>
-            <p>
-            <img alt="Events Editor" src="images/LTTng2EventsEditor.png" _moz_resizing="true"/>
+            <p align="left">With the support of Events editors as replacement
+            to the Events view it is now possible to open multiple traces
+            simultaneously at the same time. The Events editor shows the
+            basic trace data elements (events) in a tabular format. The editors
+            can be dragged in the editor area so that several traces may be
+            shown side by side. These traces are synchronized by timestamp.
+            Other open tracing views reflect the trace in focus.
+            <br/>
+            <br/>
+            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Events_Editor">User Guide</a> for detailed information on the Events Editor and its usage.
             </p>
-            <p>
-            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Events_Editor">User Guide</a>
-            for detailed information on the Events Editor and its usage.
-            </p>
+            <img alt="Events Editor" src="images/LTTng2EventsEditor.png"/>
             </td>
         </tr>
         <tr>
@@ -290,21 +291,24 @@
             <p align="right"><b>Support for Link With Editor</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The tracing project now supports the feature <b>Link With Editor</b> of the Project Explorer view. With this feature it is now possible to<br/>
+            <p align="left">The tracing project now supports the feature 
+            <b>Link With Editor</b> of the Project Explorer view. With this
+            feature it is now possible to<br/>
             <ul>
-                <li>select a trace element in the Project Explorer view and the corresponding Events editor will get focus if the relevant trace is open. </li>
-                <li>select an Events editor and the corresponding trace element will be highlighted in the Project Explorer view. </li>
+                <li>select a trace element in the Project Explorer view and the
+                corresponding Events editor will get focus if the relevant
+                trace is open.</li>
+                <li>select an Events editor and the corresponding trace element
+                will be highlighted in the Project Explorer view. </li>
             </ul>
-            </p>
-            <p>This feature can be enabled and disabled by toggling the <b>Link With Editor</b> button of the Project Explorer view.
-            </p>
-            <p>
-            <img src="images/TMF_LinkWithEditor.png" alt="" _moz_resizing="true"/>
-            </p>
-            <p>
+            This feature can be enabled and disabled by toggling the <b>Link
+            With Editor</b> button of the Project Explorer view.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Link_with_Editor">User Guide</a>
             for detailed information on this feature and its usage.
             </p>
+            <img alt="Link with Editor" src="images/TMF_LinkWithEditor.png"/>
             </td>
         </tr>
         <tr>
@@ -317,16 +321,15 @@
             <p align="right"><b>New Batch Trace Import Wizard</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The <b>Batch Import Trace Wizard</b> allows users to search their media for traces and import multiple traces of varying types simultaneously. 
-            It also handles name clashes and renaming of traces.
+            <p align="left">The <b>Batch Import Trace Wizard</b> allows users
+            to search their media for traces and import multiple traces of
+            varying types simultaneously. It also handles name clashes and
+            renaming of traces.
+            <br/>
+            <br/>
+            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Batch_Import_Trace_Wizard">User Guide</a> for detailed information on this <b>Batch Import Trace Wizard</b> and its usage.            
             </p>
-            <p>
-            <img src="images/TMF_BatchImport.png" alt=""/>
-            </p>
-            <p>
-            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Batch_Import_Trace_Wizard">User Guide</a>
-            for detailed information on this <b>Batch Import Trace Wizard</b> and its usage.
-            </p>
+            <img alt="Batch Trace Import Wizard" src="images/TMF_BatchImport.png"/>
             </td>
         </tr>
         <tr>
@@ -340,24 +343,26 @@
             <p align="right"><b>LTTng Tracer Control Improvements</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left"><ul>
-                <li>The LTTng Control View now supports LTTng Tools 2.1. This introduces the possiblity to configure network streaming and event filtering at the tracer level. </li>
-            </ul>
-            <p></p>
-            <p><img src="images/LTTng2EnableEventWithFilter.png" alt=""/><img src="images/LTTng2CreateSessionDialog_TracePath.png" alt=""/></font></p>
+            <p align="left">
             <ul>
-                <li>A new preference has been introduced to configure the command execution timeout.</li>
+                <li>The LTTng Control View now supports LTTng Tools 2.1. This
+                introduces the possiblity to configure network streaming and
+                event filtering at the tracer level.</li>
+                <li>A new preference has been introduced to configure the
+                command execution timeout.</li>
+                <li>The New Connection dialog now allows for specifying a ssh
+                port.</li>
             </ul>
-            <p><img src="images/LTTng2PreferencesTimeout.png" alt=""/></p>
-            <ul>
-                <li>The New Connection dialog now allows for specifying a ssh port.</li>
-            </ul>
-            <p><img src="images/LTTng2EditConnection.png" alt=""/></p>
-            <p>
-            </p>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#LTTng_Tracer_Control">User Guide</a>
             for detailed information on the LTTng Tracer Control and its usage.
             </p>
+            <img alt="Event Filtering" src="images/LTTng2EnableEventWithFilter.png" alt=""/>
+            <br>
+            <img src="images/LTTng2CreateSessionDialog_TracePath.png" alt=""/>
+            <br>
+            <img alt="Control Preferences" src="images/LTTng2PreferencesTimeout.png" alt=""/>
+            <br>
+            <img alt="Edit Connection" src="images/LTTng2EditConnection.png" alt=""/>
             </td>
         </tr>
         <tr>
@@ -370,15 +375,14 @@
             <p align="right"><b>Event Details in Properties View</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The Properties view now display the event details when selecting an event in the table of the Events editor.
-            </p>
-            <p>
-            <img src="images/LTTng2EventProperties.png" alt=""/>
-            </p>
-            </p>
+            <p align="left">The Properties view now display the event details
+            when selecting an event in the table of the Events editor.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Events_Editor">User Guide</a>
             for detailed information on the Events Editor and its usage.
             </p>
+            <img alt="Event Properties" src="images/LTTng2EventProperties.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -391,19 +395,25 @@
             <p align="right"><b>Support for Source and Model Lookup</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left"> For CTF traces using specification v1.8.2 or above, information can optionally be embedded in the trace to indicate the source of a trace event. This is accessed through the event context menu by right  clicking on an event in the table.
+            <p align="left">For CTF traces using specification v1.8.2 or above,
+            information can optionally be embedded in the trace to indicate the
+            source of a trace event. This is accessed through the event context
+            menu by right  clicking on an event in the table.
             <ul>
-                <li>If a source file is available in the trace for the selected event, the item <b>Open Source Code</b> is shown in the context menu. Selecting this menu item will attempt to find the source file in all opened projects in the workspace. If multiple candidates exist, a selection dialog will be shown to the user. The selected source file will be opened, at the correct line, in its default language editor. If no candidate is found, an error dialog is shown displaying the source code information.</li>
-                <li>If an EMF model URI is available in the trace for the selected event, the item <b>Open Model Element</b> is shown in the context menu. Selecting this menu item will attempt to open the model file in the project specified in the URI.</li>
+                <li>If a source file is available in the trace for the selected
+                event, the item <b>Open Source Code</b> is shown in the context
+                menu. Selecting this menu item will attempt to find the source
+                file in all opened projects in the workspace. If multiple
+                candidates exist, a selection dialog will be shown to the user. The selected source file will be opened, at the correct line, in its default language editor. If no candidate is found, an error dialog is shown displaying the source code information.</li>
+                <li>If an EMF model URI is available in the trace for the
+                selected event, the item <b>Open Model Element</b> is shown in
+                the context menu. Selecting this menu item will attempt to open
+                the model file in the project specified in the URI.</li>
             </ul>
-            </p>
-            <p>
-            <img src="images/TMF_EventSourceNavigation.png" alt=""/>
-            </p>
-            <p>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Event_Source_Lookup">User Guide</a>
             for detailed information on the Events Editor and its usage.
             </p>
+            <img alt="Source Lookup" src="images/TMF_EventSourceNavigation.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -418,17 +428,16 @@
             <td valign="top" width="70%">
             <p align="left">
             <ul>
-                <li>The collection of statistics data is now driven by a state system. This allows for fast queries of the statistics data.</li>
-                <li>The Statistics View displays now also the number of events per event type in the selected time window.</li>
+                <li>The collection of statistics data is now driven by a
+                state system. This allows for fast queries of the statistics
+                data.</li>
+                <li>The Statistics View displays now also the number of events
+                per event type in the selected time window.</li>
             </ul>
-            </p>
-            <p>
-            <img src="images/LTTng2StatisticsView.png" alt=""/>
-            </p>
-            <p>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Statistics_View">User Guide</a>
             for detailed information on this view and its usage.
             </p>
+            <img alt="Statistics View" src="images/LTTng2StatisticsView.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -441,15 +450,15 @@
             <p align="right"><b>Support of Filters In Control Flow View</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The Control Flow view has been enhanced to allow for configuration of process filters. With this addition it is possible to configure the set of processes to be displayed.
-            </p>
-            <p>
-            <img alt="CFV with Filter" src="images/LTTng2_CFV_Filter.png"/>
-            </p>
-            <p>
+            <p align="left">The Control Flow view has been enhanced to allow
+            for configuration of process filters. With this addition it is
+            possible to configure the set of processes to be displayed.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Control_Flow_View">User Guide</a>
             for detailed information on this view and its usage.
             </p>
+            <img alt="CFV with Filter" src="images/LTTng2_CFV_Filter.png"/>
             </td>
         </tr>        
         <tr>
@@ -462,15 +471,14 @@
             <p align="right"><b>Timestamp Format Preferences</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">A new tracing preference page has been added to configure the format of the time stamp to be displayed.
-            </p>
-            <p>
-            </font><img src="images/TMF_TimeFormat.png" alt=""/>
-            </p>
-            <p>
+            <p align="left">A new tracing preference page has been added to
+            configure the format of the time stamp to be displayed.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Timestamp_formatting">User Guide</a>
             for detailed information on these preferences and their usage.
             </p>
+            <img alt="Time Format Preferences" src="images/TMF_TimeFormat.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -483,12 +491,12 @@
             <p align="right"><b>Trace Indexing Progress and Speed</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The status bar of Eclipse and the Progess view arel now showing the current number of events being parsed during the execution of the indexing job. 
-            Moreover, the Progress view is showing the current number of events per seconds during indexing.
+            <p align="left">The status bar of Eclipse and the Progess view
+            are now showing the current number of events being parsed during
+            the execution of the indexing job. Moreover, the Progress view is
+            showing the current number of events per seconds during indexing.
             </p>
-            <p>
-            <img src="images/TMF_indexingProgress.png" alt=""/>
-            </p>
+            <img alt="Indexing Progress" src="images/TMF_indexingProgress.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -501,15 +509,15 @@
             <p align="right"><b>State System Explorer View</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The State System Explorer view allows the user to inspect the state interval values of every attribute of a state system at a particular time.
-            </p>
-            <p>
-            <img src="images/TMF_StateSystemExplorer.png" alt=""/>
-            </p>
-            <p>
+            <p align="left">The State System Explorer view allows the user to
+            inspect the state interval values of every attribute of a state
+            system at a particular time.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#State_System_Explorer_View">User Guide</a>
             for detailed information on these preferences and their usage.
             </p>
+            <img alt="State System Explorer" src="images/TMF_StateSystemExplorer.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -522,15 +530,16 @@
             <p align="right"><b>Generic Call Stack View</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The Call Stack view allows the user to visualize the call stack per thread over time, if the application and trace provide this information. 
-            The view shows the call stack information for the currently selected trace.
-            </p>
-            <p>
-            <img src="images/TMF_CallStackView.png" alt=""/>
-            </p>
-            <p>
+            <p align="left">The Call Stack view allows the user to visualize
+            the call stack per thread over time, if the application and trace
+            provide this information. The view shows the call stack information
+            for the currently selected trace.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Call_Stack_View">User Guide</a>
             for detailed information on view and its usage.
+            </p>
+            <img alt="Call Stack View" src="images/TMF_CallStackView.png" alt=""/>
             </td>
         </tr>        
         <tr>
@@ -543,15 +552,28 @@
             <p align="right"><b>Miscellaneous Improvements</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left"> <ul>
-                <li>The drag&#160;&amp; drop feature has been enhanced to allow for renaming of an imported trace if a trace with the same name already exists. Moreover, it is now possible to import a trace as link using Drag &amp; Drop.</li>
-                <li>The command to open the Custom Parser Wizard has been moved to the context-sensitive menu of the trace elements in the Project Explorer view.</li>
-                <li>A new icon <img src="images/unknown_parser.gif" alt=""/>&#160;has been introduced for traces that don&#39;t have a trace type associated with.</li>
-                <li>The State System allows for multiple state system backends. The partial state system backend was introduce.</li>
-			    <li>Generic TMF support of source code and model element lookup.</li>
-                <li>The CTF trace validation has been enhanced to provide the user with detailed information about the cause of failure.</li>
-                <li>A more detailed and enhanced TMF Designer Guide is now available (<a href="http://wiki.eclipse.org/Linux_Tools_Project/TMF/User_Guide">TMF Designer Guide</a>).
-                The TMF Designer Guide is also delivered as Eclipse help plug-in and is part of the LTTng/TMF features.</li>
+            <p align="left">
+            <ul>
+                <li>The drag&#160;&amp; drop feature has been enhanced to allow
+                for renaming of an imported trace if a trace with the same name
+                already exists. Moreover, it is now possible to import a trace
+                as link using Drag &amp; Drop.</li>
+                <li>The command to open the Custom Parser Wizard has been moved
+                to the context-sensitive menu of the trace elements in the
+                Project Explorer view.</li>
+                <li>A new icon <img src="images/unknown_parser.gif" alt=""/>&#160;
+                has been introduced for traces that don&#39;t have a trace type
+                associated with.</li>
+                <li>The State System allows for multiple state system backends.
+                The partial state system backend was introduce.</li>
+			    <li>Generic TMF support of source code and model element
+                lookup.</li>
+                <li>The CTF trace validation has been enhanced to provide the
+                user with detailed information about the cause of failure.</li>
+                <li>A more detailed and enhanced TMF Designer Guide is now
+                available (<a href="http://wiki.eclipse.org/Linux_Tools_Project/TMF/User_Guide">TMF Designer Guide</a>).
+                The TMF Designer Guide is also delivered as Eclipse help
+                plug-in and is part of the LTTng/TMF features.</li>
             </ul>
             </p>
             </td>
@@ -566,16 +588,17 @@
             <p align="right"><b>New GDB Tracepoint Analysis Feature</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The GDB Tracepoint Analysis feature is an extension to the Tracing and Monitoring Framework (TMF)
-            that allows the visualization and analysis of C/C++ tracepoint data collected by GDB and stored to a log file. It can be installed separately from the LTTng features from the Linux Tools update site.
-            </p>
-            <p>
-            <img src="images/GDBTracePerspective.png" alt=""/>
-            </p>
-            <p>
+            <p align="left">The GDB Tracepoint Analysis feature is an extension
+            to the Tracing and Monitoring Framework (TMF) that allows the
+            visualization and analysis of C/C++ tracepoint data collected by
+            GDB and stored to a log file. It can be installed separately from
+            the LTTng features from the Linux Tools update site.
+            <br/>
+            <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/GDB/User_Guide">User Guide</a>
             for detailed information on the GDB Tracepoint Analysis.      
             </p>
+            <img alt="GDB Trace Analysis Perspective" src="images/GDBTracePerspective.png" alt=""/>
             </td>
         </tr>
         <tr>
