@@ -11,11 +11,11 @@
 
 	<tr>
 		<td bgcolor="#E0D0E6">2.0<br>
-		<i>22 Feb 2013</i></td>
+		<i>26 Jun 2013</i></td>
 		<td bgcolor="#E0D0E6" align="center"><a
 			href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.0&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
-		?? bugs</a></td>
-		<td bgcolor="#E0D0E6">Major release containing overhaul of the launching and streamlining the UI in many places.</td>
+		105 bugs</a></td>
+		<td bgcolor="#E0D0E6">Major release containing LTTng restructuring, further overhaul of the profiling framework, SystemTap restructuring, and streamlining the UI in many places in addition to bug fixes.</td>
 	</tr>
 </table>
 
@@ -26,18 +26,18 @@
 <!-- <li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
 <!-- <li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li> -->	
 <li><a href="#profiling">Profiling Framework (1)</a></li>
-<li><a href="#gcov">GCov support (1)</a></li>
-<li><a href="#gprof">GProf support (1)</a></li>
+<!-- <li><a href="#gcov">GCov support (1)</a></li> -->
+<!-- <li><a href="#gprof">GProf support (1)</a></li> -->
 <!-- <li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
-     <li><a href="#lttng">LTTng (1)</a></li>
+     <li><a href="#lttng">LTTng (15)</a></li>
 <!-- <li><a href="#manpage">Man Page (1)</a></li> -->
-<li><a href="#oprofile">OProfile Profiling (1)</a></li>
+<!-- <li><a href="#oprofile">OProfile Profiling (1)</a></li> -->
 <li><a href="#perf">Perf Integration (1)</a></li>
 <!-- <li><a href="#rpmstubby">RPM Stubby (2)</a></li> -->
 <!-- <li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (1)</a></li> -->
-<li><a href="#systemtap">SystemTap Editor (2)</a></li>
+<li><a href="#systemtap">SystemTap Integration (3)</a></li>
 <!-- <li><a href="#systemtapprofiling">SystemTap-based Profiling (# of items for this area; comment out if none)</a></li> -->
-<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
+<!-- <li><a href="#valgrind">Valgrind Profiling (1)</a></li> -->
 </ul>
 
 <!-- Changelog -- >
@@ -122,12 +122,27 @@
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Profiling Unification</b></p>
+            <p align="right"><b>Profiling Tools Menu</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The Profiling Framework has been modified to add profiling categories which group various profiling tools that overlap in functionality.  There are three categories to start with: Timing, Memory, and Coverage and additional categories can be added in the future.  Each category has a Profiling Launch short-cut whereby the user can kick off a profiling session via a single click.  Each category has a default tool to use which includes default parameters.  For example, a user could select to do a Profile Timing run and this will end up using whatever profiling timing tool is set up as default.  The default can be changed via workspace preferences or over-ridden for a project via its properties.  For more details, see the <a href="http://wiki.eclipse.org/Linux_Tools_Project/Profiling/User_Guide">Profiling User's Guide</a>.
+            <p align="left">The Profiling Framework has been modified to move all of the profiling tools from the Profile As.. context menu into a separate "Profiling Tools" context menu.  For more details, see the <a href="http://wiki.eclipse.org/Linux_Tools_Project/Profiling/User_Guide">Profiling User's Guide</a>.
             </p>
-            <img border="0" alt="C/C++ Profiling Categories" src="images/LinuxToolsProfilingPreferences.png">
+            <img border="0" alt="C/C++ Profiling Tools Menu" src="images/profilingtoolsmenu.png">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+            <p align="right"><b>Local C/C++ Application</b></p>
+            </td>
+            <td valign="top" width="70%">
+            <p align="left">Support has been added to the profiling framework foto supply "Profile As...->Local C/C++ Application".  This launch short-cut shares the launch configuration settings for Run and Debug (Local C/C++ Application).  What this means is that if the user sets up a Run configuration for a Local C/C++ Application and for example, sets up program arguments or environment variables, these settings will be used in profiling as well and do not require reentering.  An additional tab will appear in the Profile Configurations dialog to allow setting the profiling tool (any of the Linux Tools profiling tools) as well as the profiling tool options.  For more details, see the <a href="http://wiki.eclipse.org/Linux_Tools_Project/Profiling/User_Guide">Profiling User's Guide</a>.
+            </p>
+            <img border="0" alt="Profiling as C/C++ Application" src="images/profilingaslocalcappmenu.png">
             </td>
         </tr>
         <tr>
@@ -137,7 +152,7 @@
         </tr>
 </table>
 
-<!-- GCov -->
+<!-- GCov
 <h2><a id="gcov">GCov Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -156,8 +171,9 @@
             </td>
         </tr>
 </table>
+-->
 
-<!-- GProf -->
+<!-- GProf
 <h2><a id="gprof">GProf Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -176,6 +192,7 @@
             </td>
         </tr>
 </table>
+-->
 
 <!-- Lib Hover -->
 <!--
@@ -646,7 +663,7 @@
 </table>
 -->
 
-<!-- OProfile -->
+<!-- OProfile
 <h2><a id="oprofile">OProfile Profiling</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -665,26 +682,13 @@
             </td>
         </tr>
 </table>
+-->
 
 
 <!-- Perf Plugin -->
 <h2><a id="perf">Perf Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
-        <tr>
-            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>New Profiling Framework</b></p>
-            </td>
-            <td valign="top" width="70%">
-            <p align="left">Perf has been added to the profiling tools in the new profiling unification framework.  It has been added to the Profile Timing category along with OProfile, GProf, and Callgraph.  In addition to profiling an application via the direct Perf launch short-cut, the Profile Timing short-cut can be used with Perf being selected as the timing tool to use or simply by default since Perf is the Timing category default tool.
-            </p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-        </tr>
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>New Features Supported</b></p>
@@ -770,10 +774,7 @@
             <p align="right"><b>SystemTap Launch Configuration</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">Systemtap scripts can now be run through the context menu by right-clicking on the
-	      in the editor or on the file in the project explorer and selecting 'Run As' -> 'Systemtap Script'.
-	      Alternatively you can select  'Run As' -> 'Run Configurations...'. This will bring up the Run Configurations
-	      dialog which now has an entry for SystemTap. The screen shot below shows the details of that dialog.
+            <p align="left">Systemtap launch configuration has been enhanced to allow SystemTap options to be specified for the script.  Options include being able to specify running an executable for the script and using dyninst.
             <img border="0" alt="SystemTap Launch Configuration" src="images/SystemTapLaunchConfiguration.png">
             </p>
             </td>
@@ -785,13 +786,26 @@
         </tr>
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Miscellaneous Improvements</b></p>
+            <p align="right"><b>Graphing SystemTap Output</b></p>
             </td>
             <td valign="top" width="70%">
             <p align="left">
-	      The way probe points are collected from installed SystemTap
-	      application was improved making it faster and less error prone.
-	      In addition there were numerous bug fixes and stability improvements.
+	      Graphing capabilities which were formerly in a special perspective have been moved as an option of a SystemTap launch configuration.  A user can set up regex to parse the SystemTap output and then map that to a graph such as a Bar Graph, Line Graph, Pie Graph, or additional choices.
+            </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+            <p align="right"><b>SystemTap Editor Improvements</b></p>
+            </td>
+            <td valign="top" width="70%">
+            <p align="left">
+	      The SystemTap editor has been improved to extract documentation from man pages and uses this to support hover help and completion in the SystemTap editor for probes, functions, and some variables that are documented.
             </p>
             </td>
         </tr>
@@ -841,7 +855,7 @@
 </table>
 -->
 
-<!-- Valgrind -->
+<!-- Valgrind
 <h2><a id="valgrind">Valgrind Profiling</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -860,6 +874,7 @@
             </td>
         </tr>
 </table>
+-->
 
 
 <h2>&nbsp;</h2>
