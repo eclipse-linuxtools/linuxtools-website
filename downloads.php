@@ -24,12 +24,11 @@
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 6.0</li>
-	        <li>Eclipse >= 3.8.x</li>
+	        <li>Eclipse >= 4.3</li>
 		<li><a href="http://eclipse.org/cdt">CDT</a> >= 8.2.0</li>
-                <li>PTP >= 6.0 (for RDT used by remote profiling tool features)</li>
-		<li>RSE >= 3.4 (for LTTng and remote profiling tool features)</li>
+                <li>PTP >= 7.0 (for RDT used by remote profiling tool features)</li>
+		<li>RSE >= 3.5 (for LTTng and remote profiling tool features)</li>
 		<li>GEF >= 3.8.2 (for Draw2d and Zest packages)</li>
-		<li>TCF >= 1.0.0 (only for legacy LTTng)</li>
 		<li>Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf)</li>
 		<li>There are some Orbit dependencies such as antlr</li>
 		</ul>
