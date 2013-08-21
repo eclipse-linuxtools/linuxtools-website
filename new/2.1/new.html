@@ -10,14 +10,12 @@
 	</tr>
 
 	<tr>
-	    <td bgcolor="#E0D0E6">0.0.0<br>
-	    <i>?? ?? ??</i></td>
+	    <td bgcolor="#E0D0E6">2.1<br>
+	    <i>14 Sept 2013</i></td>
 	    <td bgcolor="#E0D0E6" align="center">
-	    <a href="https://querygoeshere">
-	    ?? bugs</a></td>
-	    <td bgcolor="#E0D0E6"><font size="1">
-	    People helped us with stuff.  Put any details here.
-	    </font></td>
+	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.1&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+                105 bugs</a></td>
+		<td bgcolor="#E0D0E6">Minor release containing OPerf support, SystemTap editor upgrades, LTTng upgrades, in addition to bug fixes.</td>
 	</tr>
 	</table>
 
@@ -25,19 +23,20 @@
 
 <p><span style="font-weight: 700; background-color: #E0D0E6">New in Linux Tools 2.1</span> </p>
 <ul>
-	<li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li>
+	<!-- <li><a href="#changelog">ChangeLog Tools (# of items for this area; comment out if none)</a></li> -->
 	<li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li>	
 	<li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li>
-	<li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li>
+	<li><a href="#libhover">API Documentation Hover Help (1)</a></li>
 	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li>
 	<li><a href="#perf">Perf Profiling (1)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (4)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (4)</a></li>
-	<li><a href="#systemtap">Systemtap Editor (# of items for this area; comment out if none)</a></li>
-	<li><a href="#systemtapprofiling">Systemtap-based Profiling (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtap">Systemtap Editor (1)</a></li>
+	<!-- <li><a href="#systemtapprofiling">Systemtap-based Profiling (# of items for this area; comment out if none)</a></li> -->
 	<li><a href="#valgrind">Valgrind Profiling (1)</a></li>
 </ul>
 
+<!--
 <h2><a id="autotools">GNU Autotools Support</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -72,7 +71,9 @@
 			</td>
 		</tr>
 </table>
+-->
 
+<!--
 <h2><a id="changelog">ChangeLog Tools</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -107,6 +108,7 @@
 			</td>
 		</tr>
 </table>
+-->
 
 <h2><a id="eclipsebuild">Building the Eclipse SDK</a></h2>
 
@@ -181,27 +183,13 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Devhelp regeneration on start-up</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">The Libhover Devhelp support has been enhanced so that the devhelp documentation is parsed
+upon start-up of Eclipse.  This enables devhelp selections immediately instead of waiting until the end-user manually schedules a
+regeneration of the documentation in Libhover binary format.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
 		</tr>
 		<tr>
@@ -434,25 +422,10 @@
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>Enhanced SystemTap Editor Formatting</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
-			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">The SystemTap editor has been enhanced to support indent formatting.  Selected lines or the current line are indented correctly using Ctrl+i.
 			</p>
 			<img border="0" alt="Alt text for the image" src="images/image.png">
 			</td>
@@ -464,6 +437,7 @@
 		</tr>
 </table>
 
+<!--
 <h2><a id="systemtapprofiling">Systemtap-based Profiling</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -498,6 +472,7 @@
 			</td>
 		</tr>
 </table>
+-->
 
 <h2><a id="valgrind">Valgrind Profiling</a></h2>
 
