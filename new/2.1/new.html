@@ -27,7 +27,7 @@
 	<li><a href="#eclipsebuild">Building the Eclipse SDK (# of items for this area; comment out if none)</a></li>	
 	<li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li>
 	<li><a href="#libhover">API Documentation Hover Help (1)</a></li>
-    <li><a href="#lttng (7)">LTTng</a></li>	
+    <li><a href="#lttng">LTTng (7)</a></li>	
 	<li><a href="#oprofile">OProfile Profiling (# of items for this area; comment out if none)</a></li>
 	<li><a href="#perf">Perf Profiling (1)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (4)</a></li>
@@ -207,38 +207,6 @@ regeneration of the documentation in Libhover binary format.
 <table cellpadding="10" cellspacing="0">
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Short Description</b></p>
-            </td>
-            <td valign="top" width="70%">
-            <p align="left">
-            Multiple enhancemants and improvements have been made to
-            the LTTng integration in Eclipse as well as to the Tracing and 
-            Monitoring Framework (TMF).
-            <br/>
-            Here are the highlights of release:
-            <ul>
-            <li>Configurable Time Zone Preference</li>
-            <li>Support for Time Range Selection in Tracing Views</li>
-            <li>Display of Execution Flow in Control Flow View</li>
-            <li>Support for LTTng Tools v2.2</li>
-            <li>Highlight of Attribute Changes in State System Explorer</li>
-            <li>Display of Trace Properties in Properties view</li>
-            <li>Improved GUI Responsiveness</li>
-            <li>Miscellaneous Improvements</li>
-            </ul>
-            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide">User Guide</a> 
-            for detailed information on installation, configuration and 
-            operation.
-            </p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-        </tr>
-        <tr>
-            <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>Configurable Time Zone Preference</b></p>
             </td>
             <td valign="top" width="70%">
@@ -252,6 +220,11 @@ regeneration of the documentation in Libhover binary format.
             </td>
         </tr>
         <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>Support for Time Range Selection in Tracing Views</b></p>
             </td>
@@ -259,10 +232,13 @@ regeneration of the documentation in Libhover binary format.
             <p align="left">It is now possible to select a time range in the 
             tracing views instead of selecting just a single time. This 
             information is broadcasted using the time synchronization signal
-            so that relevant views their selection. Also this the selected
+            so that relevant views update their selection. Also the selected
             start time, end time and time delta is displayed in the status
-            line of the perspective. All relevant tracing views have been
-            updated for that (e.g. Control Flow View and Resources View). 
+            line of the worbench. The time range selection is added
+            in the Control Flow view, Resources view and Histogram view.
+            The Events table also allows the selection of an event range.
+            The Statistics view now displays the number of events for
+            the selected time range.  
             <br/>
             <br/>
             Refer to the views sections of the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide">User Guide</a>
@@ -272,11 +248,16 @@ regeneration of the documentation in Libhover binary format.
             </td>
         </tr>
         <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>Display of Execution Flow in Control Flow View</b></p>
             </td>
             <td valign="top" width="70%">
-            <p align="left">The Control Flow View now provides arrows to follow the
+            <p align="left">The Control Flow view now provides arrows to follow the
             switching of CPU executions between processes. The arrows can be
             followed in forward and backward direction by using the corresponding
             buttons of the coolbar. The display of the arrow disabled by using the 
@@ -287,6 +268,11 @@ regeneration of the documentation in Libhover binary format.
             for detailed information on this view and its usage.
             </p>
             <img width="95%" alt="Process Flow" src="images/lttng_controlFlowViewArrows.png"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <hr>
             </td>
         </tr>
         <tr>
@@ -311,13 +297,18 @@ regeneration of the documentation in Libhover binary format.
             </td>
         </tr>
         <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>Highlight of Attribute Changes in State System
             Explorer</li></b></p>
             </td>
             <td valign="top" width="70%">
             <p align="left">The State System Explorer now hightlights the
-            changes of states when changing the current time range.
+            changes of states when changing the current time selection.
             <br/>
             <br/>
             Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#State_System_Explorer_View">User Guide</a>
@@ -328,8 +319,13 @@ regeneration of the documentation in Libhover binary format.
             </td>
         </tr>
         <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Display of Trace Properties in
+            <p align="right"><b>Display of Trace Properties in the
             Properties view</b></p>
             </td>
             <td valign="top" width="70%">
@@ -337,13 +333,17 @@ regeneration of the documentation in Libhover binary format.
             additional trace properties such as CTF environment variables.
             <br/>
             <br/>
-            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#State_System_Explorer_View">User Guide</a>
-            for detailed information on the State System Explorer and its
-            usage.
+            Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Properties_View">User Guide</a>
+            for detailed information about the Properties view and displayed trace properties.
             </p>
             <img width="95%" alt="Trace Properties" src="images/lttng_traceProperties.png"/>
             </td>
         </tr>        
+        <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
         <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
             <p align="right"><b>Improved GUI Responsiveness</b></p>
@@ -358,19 +358,24 @@ regeneration of the documentation in Libhover binary format.
             </td>
         </tr>        
         <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+        </tr>
+        <tr>
             <td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-            <p align="right"><b>Miscellaneous Improvements</b></p>
+            <p align="right"><b>Framework Improvements</b></p>
             </td>
             <td valign="top" width="70%">
             <p align="left">
             <ul>
             <li>Introduced abstract Time Graph Widget classes to make it easier
             for developers to create time graph views such as the
-            Control Flow View
+            Control Flow view
             </li>
             <li>The Time Graph Widgets now support the creation of links
             between time graphentries and draw arrow between entries. This
-            has been used in the Control Flow View to follow CPU executions
+            has been used in the Control Flow view to follow CPU executions
             or processes
             </li>
             </ul>
