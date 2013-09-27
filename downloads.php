@@ -18,29 +18,29 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>2.0.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
-		<br/>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new/2.0">New &amp; Noteworthy</a> (Released 2013-06-26).
-		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-kepler/15/testReport/">Unit test results</a>.
+		<h3>2.1.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
+		<br/>&nbsp;&nbsp;&nbsp;<a href="http://www.eclipse.org/linuxtools/new/2.1">New &amp; Noteworthy</a> (Released 2013-09-27).
+		<a href="https://hudson.eclipse.org/hudson/job/linuxtools-kepler/36/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 6.0</li>
 	        <li>Eclipse >= 4.3</li>
-		<li><a href="http://eclipse.org/cdt">CDT</a> >= 8.2.0</li>
+		<li><a href="http://eclipse.org/cdt">CDT</a> >= 8.2.1</li>
                 <li>PTP >= 7.0 (for RDT used by remote profiling tool features)</li>
 		<li>RSE >= 3.5 (for LTTng and remote profiling tool features)</li>
 		<li>GEF >= 3.8.2 (for Draw2d and Zest packages)</li>
 		<li>Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, LTTng, Perf)</li>
 		<li>There are some Orbit dependencies such as antlr</li>
 		</ul>
-		<br/>&nbsp;&nbsp;&nbsp;Installations via the Juno p2 aggregate repository will automatically get these dependencies.
+		<br/>&nbsp;&nbsp;&nbsp;Installations via the Kepler p2 aggregate repository will automatically get these dependencies.
 		<br/>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
-		<br/>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/2.0.0-sources/">Source tarballs</a> for Linux Tools plugins.
+		<br/>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/2.1.0-sources/">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-2.0.0.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-2.1.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-2.0.0.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-2.0</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-2.1.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-2.1</b>
 			</li>
 		</ul>
 		</div>
