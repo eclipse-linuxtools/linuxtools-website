@@ -10,14 +10,14 @@
 	</tr>
 
 	<tr>
-	    <td bgcolor="#E0D0E6">2.2<br>
-	    <i>10 Dec 2013</i></td>
-	    <td bgcolor="#E0D0E6" align="center">
-	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
-	    27 bugs</a></td>
-	    <td bgcolor="#E0D0E6"><font size="1">
-	    Minor release containing SystemTap graphing upgrades, LTTng upgrades, making OPerf the default tool for OProfile profiling, plus the addition of comparison editor support for perf stat data files, in addition to bug fixes.
-	    </font></td>
+		<td bgcolor="#E0D0E6">2.2<br>
+		<i>10 Dec 2013</i></td>
+		<td bgcolor="#E0D0E6" align="center">
+		<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+		29 bugs</a></td>
+		<td bgcolor="#E0D0E6"><font size="1">
+		Minor release containing SystemTap graphing upgrades, LTTng upgrades, making OPerf the default tool for OProfile profiling, plus the addition of comparison editor support for perf stat data files, in addition to bug fixes.
+		</font></td>
 	</tr>
 	</table>
 
@@ -30,6 +30,7 @@
 	<!-- <li><a href="#gprof">GCov support (# of items for this area; comment out if none)</a></li>	-->
 	<!-- <li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li> -->
 	<!-- <li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
+	<li><a href="#lttng">LTTng (4)</a></li>	
 	<li><a href="#oprofile">OProfile Profiling (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (2)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
@@ -218,6 +219,99 @@
 		</tr>
 </table>
 -->
+
+<!-- LTTng -->
+
+<h2><a id="lttng">Linux Tracing Toolkit</a></h2>
+
+<table cellpadding="10" cellspacing="0">
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Import and Export Trace Package</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The importing and exporting of trace packages is now supported.
+			A trace package is an archive containing the trace files, metadata to describe
+			the trace type, and optionally the supplementary files and bookmark information.
+			<br/>
+			<br/>
+			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Trace_Package_Exporting_and_Importing">User Guide</a> 
+			for detailed information.
+			</p>
+			<img alt="Export Trace Package" src="images/lttng_exportPackage.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Support for LTTng Tools v2.3</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">The Control view now supports version v2.3 of LTTng Tools.
+			It is now possible to create snapshot tracing sessions. Many snapshots can
+			be recorded during a tracing session and each snapshot can then be imported
+			to the project.
+			<br/>
+			<br/>
+			Support of obsolete event context is removed.
+			<br/>
+			<br/>
+			The progress feedback is improved during the import operation.
+			<br/>
+			<br/>
+			Refer to the views sections of the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Recording_a_Snapshot">User Guide</a>
+			for detailed information about this feature.
+			</p>
+			<img alt="Record Snapshot" src="images/lttng_recordSnapshotAction.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Histogram View Improvements</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">Many improvements were done to the Histogram view.
+			The view layout and text controls is updated. The selection and
+			zoom window can be controlled more easily with the mouse buttons.
+			Lost events can be displayed and the window range is represented
+			more accurately.
+			<br/>
+			<br/>
+			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Histogram_View">User Guide</a>
+			for detailed information on this view and its usage.
+			</p>
+			<img alt="Histogram View" src="images/lttng_histogramView.png"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<hr>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
+			<p align="right"><b>Export to Text</b></p>
+			</td>
+			<td valign="top" width="70%">
+			<p align="left">It is now possible to export a trace to a text file.
+			The file will contain each event's fields in a tab-delimited format.
+			The output will discard filtered-out events.
+			</ul>
+			<br/>
+			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Exporting_To_Text">User Guide</a>
+			for detailed information about this feature.
+			</td>
+		</tr>
+</table>
 
 <h2><a id="oprofile">OProfile Profiling</a></h2>
 
