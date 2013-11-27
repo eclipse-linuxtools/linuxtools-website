@@ -33,7 +33,7 @@
 	<li><a href="#oprofile">OProfile Profiling (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (2)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
-	<li><a href="#systemtap">Systemtap Editor (# of items for this area; comment out if none)</a></li>
+	<li><a href="#systemtap">Systemtap Integration (1)</a></li>
 	<li><a href="#valgrind">Valgrind Profiling (# of items for this area; comment out if none)</a></li>
 </ul>
 
@@ -326,67 +326,28 @@
 		</tr>
 </table>
 
-<h2><a id="systemtap">Systemtap Integration</a></h2>
+<h2><a id="systemtap">SystemTap Integration</a></h2>
 
 <table cellpadding="10" cellspacing="0">
 		<tr>
 			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
+			<p align="right"><b>New Output Graphing Features</b></p>
 			</td>
 			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">Changes have been made to the Graphing menu interface (found in Run Configurations) to
+					provide users with greater flexibility when creating graphs that plot a script's output.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">The output to capture is now specified by a complete, user-defined regular
+					expression, with the data to plot being defined by parenthesis groups.
+					Several of these regular expressions may be used at a time.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-</table>
-
-<h2><a id="systemtapprofiling">Systemtap-based Profiling</a></h2>
-
-<table cellpadding="10" cellspacing="0">
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<p align="left">For added clarity, the user may also input a line of text with which to test
+					their expression in the "Sample Output" text box.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Short Description</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Longer description.
+			<img border="0" alt="Alt text for the image" src="images/systemtapEditor_graphRegex.png">
+			<p align="left">In addition, graphs may now be edited after having been created.
 			</p>
-			<img border="0" alt="Alt text for the image" src="images/image.png">
+			<img border="0" alt="Alt text for the image" src="images/systemtapEditor_graphOptions.png">
 			</td>
 		</tr>
 		<tr>
