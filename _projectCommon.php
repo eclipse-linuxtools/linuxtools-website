@@ -41,7 +41,6 @@ $Nav->addNavSeparator("C/C++ Tools Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("Valgrind", "/linuxtools/projectPages/valgrind", "_self", 2);
 $Nav->addNavSeparator("Packaging Projects", "/linuxtools/index.php");
 	$Nav->addCustomNav("eclipse-build", "http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build", "_self", 2);
-	$Nav->addCustomNav("RPM Stubby", "/linuxtools/projectPages/rpmstubby", "_self", 2);
-	$Nav->addCustomNav("Specfile Editor", "/linuxtools/projectPages/specfile", "_self", 2);
+	$Nav->addCustomNav("RPM integration plugins", "/linuxtools/projectPages/specfile", "_self", 2);
 //	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"/linuxtools/style.css\"/>\n");
 ?>

@@ -1,4 +1,4 @@
-<?php
+	<?php
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
@@ -6,7 +6,7 @@ $App = new App();
 $Nav = new Nav();
 $Menu = new Menu();
 include ($App->getProjectCommon()); # All on the same line to unclutter the user's desktop'
-$pageTitle = "Linux Tools Project - Specfile Editor";
+$pageTitle = "Linux Tools Project - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
 $pageAuthor = "Alexander Kurtakov";
 
@@ -27,35 +27,18 @@ $html =<<<EOHTML
 
 		<h2>Overview</h2>
 		<p>
-		Specfile Editor is an editor for RPM spec files. Specfiles are the files that tell the rpm program which are the sources for this package,
+		RPM integration consist of few different parts - editor for RPM .spec files, UI for createrepo command and ability to generate stubs for 
+		RPM .spec files.
+		</p>
+		<p>
+		Specfile Editor is a full featured editor for RPM spec files. Specfiles are the files that tell the rpm program which are the sources for this package,
 		how to build, where to install, additional scripts to execute on install/uninstall and so on. This plugin provides all the basic features 
 		for editing or modifing such specfile. 
 		</p>
-
-		<h2>Current Status</h2>
-		The plugin can do the following:
-		<ul>
-		<li>Highlight specfile contents.</li>
-		<li>Integrate with rpmlint to validate the specfile.</li>
-		<li>Quick fixes for the most common rpmlint warnings.</li>
-		<li>Outline and quick outline views.</li>
-		<li>Changelog plugin integration for auto-generation changelog entries.</li>
-		<li>Auto-complete for package names and rpm macros.</li>
-		<li>Import and export wizards.</li>
-		</ul>
-
-		<h2>Future Plans</h2>
-		<ul>
-		  <li>More rpmlint quick fixes.</li>
-		  <li>Form based editor. <i>Help wanted</i></li>
-		  <li>Increase test coverage.</li>
-        </ul>
-		
-		<h2>Nice to have but no plans for now</h2>
-		<ul>
-		  <li>Shell script editor integration.</li>
-		  <li>Lua script editor integration - Latest rpm releases are offering Lua as an option for scripting inside specfiles. </li>
-        </ul>
+		<p>
+		Information needed for creating RPM specfile is present in a number of different files that are part of the upstream sources. Good examples are Eclipse feature.xml files and Maven pom.xml files.
+		And this plugin does exactly that - creates a RPM specfile from the information in these files.
+		</p>
 		
 		<h2>User guide</h2>
 		<p>
