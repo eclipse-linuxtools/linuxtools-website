@@ -7,8 +7,7 @@
 	#
 	$pageTitle 		= "Linux Tools New & Noteworthy";
 	
-	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new/2.2/new.html";
-	$base = "<base href=\"/linuxtools/new/2.2/\" target=\"_blank\">";
+	$filename = $_SERVER['DOCUMENT_ROOT'] . "/linuxtools/new/2.2.1/new.html";
     $dataFile = fopen( $filename, "r" ) ;
     if ( $dataFile )  {
     	while (!feof($dataFile))   {
@@ -24,7 +23,7 @@
 	include("_projectCommon.php");
 		
 	$html = <<<EOHTML
-$base
+
 <div id="midcolumn">
      $contents
 </div>

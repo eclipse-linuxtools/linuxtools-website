@@ -10,14 +10,24 @@
 	</tr>
 
 	<tr>
-		<td bgcolor="#E0D0E6">2.2<br>
-		<i>10 Dec 2013</i></td>
-		<td bgcolor="#E0D0E6" align="center">
-		<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
-		30 bugs</a></td>
-		<td bgcolor="#E0D0E6"><font size="1">
-		Minor release containing SystemTap graphing upgrades, LTTng upgrades, making OPerf the default tool for OProfile profiling, plus the addition of comparison editor support for perf stat data files, in addition to bug fixes.
-		</font></td>
+	    <td bgcolor="#E0D0E6">2.2.1<br>
+	    <i>28 Feb 2014</i></td>
+	    <td bgcolor="#E0D0E6" align="center">
+	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.2.1&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+	    6 bugs</a></td>
+	    <td bgcolor="#E0D0E6"><font size="1">
+	    This is a bug-fix release containing fixes that did not make the 2.2 release.
+	    </font></td>
+	</tr>
+	<tr>
+	    <td bgcolor="#E0D0E6">2.2<br>
+	    <i>10 Dec 2013</i></td>
+	    <td bgcolor="#E0D0E6" align="center">
+	    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Tools&product=Linux+Tools&target_milestone=2.2&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0">
+	    27 bugs</a></td>
+	    <td bgcolor="#E0D0E6"><font size="1">
+	    Minor release containing SystemTap graphing upgrades, LTTng upgrades, making OPerf the default tool for OProfile profiling, plus the addition of comparison editor support for perf stat data files, in addition to bug fixes.
+	    </font></td>
 	</tr>
 	</table>
 
@@ -30,12 +40,10 @@
 	<!-- <li><a href="#gprof">GCov support (# of items for this area; comment out if none)</a></li>	-->
 	<!-- <li><a href="#gprof">GProf support (# of items for this area; comment out if none)</a></li> -->
 	<!-- <li><a href="#libhover">API Documentation Hover Help (# of items for this area; comment out if none)</a></li> -->
-	<li><a href="#lttng">LTTng (4)</a></li>	
 	<li><a href="#oprofile">OProfile Profiling (1)</a></li>
-	<li><a href="#perf">Perf Profiling (1)</a></li>
 	<li><a href="#specfileeditor">RPM <tt>.spec</tt> Editor (2)</a></li>
 	<li><a href="#rpmstubby">RPM Stubby (1)</a></li>
-	<li><a href="#systemtap">SystemTap Integration (1)</a></li>
+	<li><a href="#systemtap">Systemtap Integration (1)</a></li>
 	<!-- <li><a href="#valgrind">Valgrind Profiling (# of items for this area; comment out if none)</a></li> -->
 </ul>
 
@@ -221,114 +229,6 @@
 </table>
 -->
 
-<!-- LTTng -->
-
-<h2><a id="lttng">Linux Tracing Toolkit</a></h2>
-
-<table cellpadding="10" cellspacing="0">
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Import and Export Trace Package</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">The importing and exporting of trace packages is now supported.
-			A trace package is an archive containing the trace files, metadata to describe
-			the trace type, and optionally the supplementary files and bookmark information.
-			<br/>
-			<br/>
-			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Trace_Package_Exporting_and_Importing">User Guide</a> 
-			for detailed information.
-			</p>
-			<img alt="Export Trace Package" src="images/lttng_exportPackage.png"/>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Support for LTTng Tools v2.3</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">The Control view now supports version v2.3 of LTTng Tools.
-			It is now possible to create snapshot tracing sessions. Many snapshots can
-			be recorded during a tracing session and each snapshot can then be imported
-			to the project.
-			<br/>
-			<br/>
-			Refer to the views sections of the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Recording_a_Snapshot">User Guide</a>
-			for detailed information about this feature.
-			</p>
-			<img alt="Record Snapshot" src="images/lttng_recordSnapshotAction.png"/>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Control View Improvements</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<ul>
-			<li>Contexts can only be added to channel or domain, as is supported by the LTTng tracer.</li>
-			<li>The progress feedback is improved during the import operation.</li>
-			</ul>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Histogram View Improvements</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">Many improvements were done to the Histogram view.
-			The view layout and text controls is updated. The selection and
-			zoom window can be controlled more easily with the mouse buttons.
-			Lost events can be displayed and the window range is represented
-			more accurately.
-			<br/>
-			<br/>
-			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Histogram_View">User Guide</a>
-			for detailed information on this view and its usage.
-			</p>
-			<img alt="Histogram View" src="images/lttng_histogramView.png"/>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Export to Text</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">It is now possible to export a trace to a text file.
-			The file will contain each event's fields in a tab-delimited format.
-			The output will discard filtered-out events.
-			</ul>
-			<br/>
-			Refer to the <a href="http://wiki.eclipse.org/index.php/Linux_Tools_Project/LTTng2/User_Guide#Exporting_To_Text">User Guide</a>
-			for detailed information about this feature.
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-</table>
-
 <h2><a id="oprofile">OProfile Profiling</a></h2>
 
 <table cellpadding="10" cellspacing="0">
@@ -342,29 +242,6 @@
 			when profiling using the standard OProfile launch shortcut.
 			</p>
 			<img border="0" src="images/operfSelection.png">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-			<hr>
-			</td>
-		</tr>
-</table>
-
-<h2><a id="perf">Perf Profiling</a></h2>
-
-<table cellpadding="10" cellspacing="0">
-		<tr>
-			<td align="left" valign="top" width="15%" bgcolor=#E0D0E6>
-			<p align="right"><b>Perf Comparison Integration With Platform</b></p>
-			</td>
-			<td valign="top" width="70%">
-			<p align="left">
-			The comparison viewers for perf-report, and perf-stat results are now
-			activated through team support. Simply select the two files to be compared,
-			right click for the context menu, go to "Compare With", and select "Each Other".
-			</p>
-			<img border="0" src="images/perfCompareUI.png">
 			</td>
 		</tr>
 		<tr>
@@ -486,10 +363,10 @@
 			<p align="left">For added clarity, the user may also input a line of text with which to test
 					their expression in the "Sample Output" text box.
 			</p>
-			<img border="0" alt="SystemTap Graphing menu" src="images/systemtapEditor_graphRegex.png">
+			<img border="0" alt="Alt text for the image" src="images/systemtapEditor_graphRegex.png">
 			<p align="left">In addition, graphs may now be edited after having been created.
 			</p>
-			<img border="0" alt="Options for SystemTap graphs" src="images/systemtapEditor_graphOptions.png">
+			<img border="0" alt="Alt text for the image" src="images/systemtapEditor_graphOptions.png">
 			</td>
 		</tr>
 		<tr>
