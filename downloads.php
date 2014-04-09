@@ -34,7 +34,7 @@
 		</ul>
 		<br/>&nbsp;&nbsp;&nbsp;Installations via the Kepler p2 aggregate repository will automatically get these dependencies.
 		<br/>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
-		<br/>&nbsp;&nbsp;&nbsp;<a href="http://download.eclipse.org/linuxtools/2.2.1-sources/">Source tarballs</a> for Linux Tools plugins.
+		<br/>&nbsp;&nbsp;&nbsp;<a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/tag/?id=v2.2.1">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
 				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-2.2.1.zip">
