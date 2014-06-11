@@ -37,7 +37,7 @@
 
         <h2>Current Status</h2>
         <p>
-        <h4>Tracing perspective</h4>
+        <h4>Tracing perspective (applies to all supported trace types)</h4>
         <ul>
             <li>Project View - Tracing project management</li>
             <li>Events View - Advanced tabular view of the raw trace events</li>
@@ -45,11 +45,18 @@
             <li>Histogram View - Event distribution analysis</li>
         </ul>
 
-        <h4>LTTng Kernel perspective (in addition to the Tracing perspective)</h4>
+        <h4>LTTng Kernel perspective</h4>
         <ul>
             <li>Control Flow View - Processes state transition analysis</li>
             <li>Resource View - System resources state transition analysis</li>
             <li>Control View - LTTng tracer control</li>
+            <li>CPU Usage View - Shows CPU usage per process</li>
+        </ul>
+
+        <h4>LTTng-UST perspective</h4>
+        <ul>
+            <li>Call Stack View showing function entries and exits</li>
+            <li>Memory Usage view, using libc instrumentation</li>
         </ul>
 
         <h4>Infrastructure</h4>
@@ -60,28 +67,24 @@
             <li>Common Trace Format (CTF) parser, using separate library</li>
             <li>Inter-component communication mechanism using signals</li>
             <li>Framework for trace event requests</li>
+            <li>Source code and EMF model lookup</li>
             <li>Generic State System (GSS)</li>
             <li>Generic Time Chart View</li>
             <li>Generic Call Stack View</li>
-            <li>Source code and EMF model lookup</li>
+            <li>Trace synchronization framework</li>
+            <li>Generic plotting framework based on SWTChart</li>
+            <li>Data-driven analyses and views</li>
         </ul>
 
         <h2>Future Plans</h2>
         <p>
 
-        <h4>LTTng internals</h4>
-        <ul>
-            <li>Integration of User Space Tracing (UST)</li>
-            <li>Support for -finstrument-functions traces in the Callstack View</li>
-        </ul>
-
         <h4>Infrastructure</h4>
         <ul>
-            <li>Integration of trace synchronization</li>
+            <li>More data-driven views (XY charts, sequence diagrams)</li>
             <li>Integration of dependency analysis</li>
-            <li>Generic plotting framework (e.g. XY-plot, histogram, Gantt chart, etc)</li>
-            <li>Definition of custom state systems and views</li>
-            <li>Trace streaming</li>
+            <li>Support for live trace reading</li>
+            <li>Support for pcap traces</li>
         </ul>
 
         <h2>Screenshots</h2>
