@@ -1,6 +1,6 @@
 <?php
 
-$theme="Nova";
+$theme="solstice";
 
 $Nav->setLinkList(null);
 
