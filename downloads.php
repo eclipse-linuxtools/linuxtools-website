@@ -18,9 +18,9 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>3.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
-		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn30">New &amp; Noteworthy</a> (Released 2014-06-25).
-		<a href="https://hudson.eclipse.org/linuxtools/job/linuxtools-luna/23/testReport/">Unit test results</a>.
+		<h3>3.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
+		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn31">New &amp; Noteworthy</a> (Released 2014-06-25).
+		<a href="https://hudson.eclipse.org/linuxtools/job/linuxtools-luna/50/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 7.0</li>
