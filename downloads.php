@@ -34,13 +34,13 @@
 		</ul>
 		<br/>&nbsp;&nbsp;&nbsp;Installations via the Luna p2 aggregate repository will automatically get these dependencies.
 		<br/>&nbsp;&nbsp;&nbsp;Building the Eclipse SDK?  <a href="http://download.eclipse.org/linuxtools/eclipse-build/">Tarballs</a> and <a href="http://wiki.eclipse.org/Linux_Tools_Project/Eclipse_Build">instructions</a>.
-		<br/>&nbsp;&nbsp;&nbsp;<a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/tag/?id=v3.0.0">Source tarballs</a> for Linux Tools plugins.
+		<br/>&nbsp;&nbsp;&nbsp;<a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/tag/?id=v3.1.0">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-3.0.0.zip">
+				<a title="p2 Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-3.1.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-3.0.0.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-3.0</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-3.1.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-3.1</b>
 			</li>
 		</ul>
 		</div>
