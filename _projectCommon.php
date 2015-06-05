@@ -7,7 +7,7 @@ $Nav->setLinkList(null);
 	$branding = <<<EOBRANDING
 <div id="branding">
 <center>
-<h2>Linux Tools Project</h2>
+<h2>Linux Tools</h2>
 </center>
 </div>
 EOBRANDING;
