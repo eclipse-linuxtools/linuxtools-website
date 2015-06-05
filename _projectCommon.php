@@ -21,10 +21,10 @@ $pageKeywords = isset($pageKeywords) ? $pageKeywords : "linux, eclipse";
 # Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 $Nav->addNavSeparator("Linux Tools", "/linuxtools/index.php");
 # Break the navigation into sections
-	$Nav->addCustomNav("About This Project", "/projects/project_summary.php?projectid=tools.linuxtools", "", 1);
-    $Nav->addCustomNav("Plan", "http://projects.eclipse.org/projects/tools.linuxtools/releases/3.0.0/plan", "", 2);
+	$Nav->addCustomNav("About the Project", "https://projects.eclipse.org/projects/tools.linuxtools", "", 1);
+    $Nav->addCustomNav("Plan", "http://projects.eclipse.org/projects/tools.linuxtools/releases/4.0.0/plan", "", 2);
     $Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/index.php/Linux_Tools_Project", "_self", 2);
-    $Nav->addCustomNav("Contribute/Get Involved", "http://wiki.eclipse.org/Linux_Tools_Project/Getting_Involved", "_self", 2);
+    $Nav->addCustomNav("Get Involved", "http://wiki.eclipse.org/Linux_Tools_Project/Getting_Involved", "_self", 2);
     $Nav->addCustomNav("Contact Us", "/linuxtools/contact.php", "_self", 2);
     $Nav->addCustomNav("Downloads", "/linuxtools/downloads.php");
 $Nav->addNavSeparator("Sub Projects", "/linuxtools/index.php");
