@@ -9,7 +9,7 @@
     <div id="midcolumn">
         <h1>$pageTitle</h1>
 
-        <h2>Separated into <a href="https://projects.eclipse.org/projects/tools.tracecompass">Trace Compass project</a>./h2>
+        <h2>Separated into <a href="https://projects.eclipse.org/projects/tools.tracecompass">Trace Compass project</a>.</h2>
     </div>
     
     <div id="rightcolumn">
