@@ -51,6 +51,9 @@
 			<li>
 				Nightly p2 repository:  <b>http://download.eclipse.org/linuxtools/updates-nightly</b>
 			</li>
+			<li>
+				Docker Tooling Nightly p2 repository:  <b>http://download.eclipse.org/linuxtools/updates-docker-nightly</b>
+			</li>
 		</ul>
 		</div>
 
