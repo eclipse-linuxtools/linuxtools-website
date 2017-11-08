@@ -30,10 +30,8 @@ $html = <<<EOHTML
 		</p>
 		
 		<h2>Demos</h2>
-		<p>
-	    	  <a href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/videos/specfile-demo.ogg">Specfile editor demo in ogg format</a>
+		<p><a href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/videos/specfile-demo.ogg">Specfile editor demo in ogg format</a>
 		</p>
-
 		<h2>Try it out</h2>
 		<p>
 			 Follow the <a href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp">instructions</a> .
