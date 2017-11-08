@@ -42,6 +42,7 @@ $html = <<<EOHTML
 
 EOHTML;
 
+
 # Generate the web page
 $App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
