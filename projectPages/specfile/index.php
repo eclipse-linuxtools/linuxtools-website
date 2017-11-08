@@ -1,4 +1,6 @@
 	<?php
+	error_reporting(E_ALL);
+	ini_set('display_errors', 1);
 $pageTitle = "Linux Tools - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
 $pageAuthor = "Alexander Kurtakov";
