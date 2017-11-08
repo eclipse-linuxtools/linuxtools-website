@@ -1,12 +1,10 @@
 	<?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
 $pageTitle = "Linux Tools - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
 $pageAuthor = "Alexander Kurtakov";
 
 # Paste your HTML content between the EOHTML markers!
-$html =<<<EOHTML
+$html = <<<EOHTML
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
