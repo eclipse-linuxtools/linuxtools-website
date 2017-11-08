@@ -1,9 +1,14 @@
+<?php 
+ini_set('display_startup_errors',1);
+ini_set('display_errors',1);
+error_reporting(-1);
+?>
 <?php
 $pageTitle = "Linux Tools - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
 $pageAuthor = "Alexander Kurtakov";
 
-# Paste your HTML content between the EOHTML markers!
+// Paste your HTML content between the EOHTML markers!
 $html = <<<EOHTML
 
 	<div id="midcolumn">
@@ -42,7 +47,6 @@ $html = <<<EOHTML
 
 EOHTML;
 
-
-# Generate the web page
+// Generate the web page
 $App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
