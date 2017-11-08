@@ -1,4 +1,4 @@
-	<?php
+<?php
 $pageTitle = "Linux Tools - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
 $pageAuthor = "Alexander Kurtakov";
