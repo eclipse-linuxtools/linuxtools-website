@@ -1,8 +1,3 @@
-<?php 
-ini_set('display_startup_errors',1);
-ini_set('display_errors',1);
-error_reporting(-1);
-?>
 <?php
 $pageTitle = "Linux Tools - RPM integration";
 $pageKeywords = "linux, eclipse, downloads";
@@ -46,6 +41,7 @@ $html = <<<EOHTML
 	</div>
 
 EOHTML;
+
 
 // Generate the web page
 $App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
