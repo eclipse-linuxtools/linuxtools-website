@@ -20,7 +20,7 @@
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>7.0.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
 		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn701">New &amp; Noteworthy</a>.
-		<a href="https://hudson.eclipse.org/linuxtools/job/linuxtools-photon/6/testReport/">Unit test results</a>.
+		<a href="https://hudson.eclipse.org/linuxtools/job/linuxtools-photon/36/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 8.0</li>
