@@ -42,10 +42,10 @@
 				<b>http://download.eclipse.org/linuxtools/update-7.0.1</b>
 			</li>
 			<li>
-				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.0.0.zip">
+				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.0.1.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.0.0.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-docker-4.0.0</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.0.1.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-docker-4.0.1</b>
 			</li>
 		</ul>
 		</div>
