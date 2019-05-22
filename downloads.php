@@ -18,14 +18,14 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>7.0.1 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
-		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn701">New &amp; Noteworthy</a>.
-		<a href="https://hudson.eclipse.org/linuxtools/job/linuxtools-photon/36/testReport/">Unit test results</a>.
+		<h3>7.2.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
+		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn72">New &amp; Noteworthy</a>.
+		<a href="https://ci.eclipse.org/linuxtools/job/linuxtools-7.2/5/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 8.0</li>
 	        <li>Eclipse >= 4.8</li>
-		<li><a href="http://eclipse.org/cdt">CDT</a> >= 9.5.3</li>
+		<li><a href="http://eclipse.org/cdt">CDT</a> >= 9.7.0</li>
 		<li>docker-client >= 8.9.2 (for Docker Tooling feature)
 		<li>GEF >= 3.8.2 (for Draw2d and Zest packages)</li>
 		<li>Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, Perf)</li>
@@ -36,16 +36,16 @@
 		<br/>&nbsp;&nbsp;&nbsp;<a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/tag/?id=v7.0.1">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Main Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-7.0.1.zip">
+				<a title="p2 Main Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-7.2.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-7.0.1.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-7.0.1</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-7.2.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-7.2.0</b>
 			</li>
 			<li>
-				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.0.1.zip">
+				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.2.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.0.1.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-docker-4.0.1</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.2.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-docker-4.2.0</b>
 			</li>
 		</ul>
 		</div>
