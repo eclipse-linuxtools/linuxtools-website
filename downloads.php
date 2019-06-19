@@ -18,9 +18,9 @@
 		</p>
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
-		<h3>7.2.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
+		<h3>7.3.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
 		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn72">New &amp; Noteworthy</a>.
-		<a href="https://ci.eclipse.org/linuxtools/job/linuxtools-7.2/5/testReport/">Unit test results</a>.
+		<a href="https://ci.eclipse.org/linuxtools/job/linuxtools-7.3/5/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
 		<li>JRE >= 8.0</li>
@@ -36,16 +36,16 @@
 		<br/>&nbsp;&nbsp;&nbsp;<a href="http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.git/tag/?id=v7.0.1">Source tarballs</a> for Linux Tools plugins.
 		<ul>
 			<li>
-				<a title="p2 Main Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-7.2.0.zip">
+				<a title="p2 Main Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-7.3.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-7.2.0.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-7.2.0</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-7.3.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-7.3.0</b>
 			</li>
 			<li>
-				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.2.0.zip">
+				<a title="p2 Docker Tooling Repository Zip" href="http://www.eclipse.org/downloads/download.php?file=/linuxtools/linuxtools-docker-4.3.0.zip">
 					<img src="/linuxtools/images/icon-save.gif" alt="Download icon"/></a>
-				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.2.0.zip.md5">md5sum</a>)
-				<b>http://download.eclipse.org/linuxtools/update-docker-4.2.0</b>
+				&nbsp;&nbsp;(<a href="http://download.eclipse.org/linuxtools/linuxtools-docker-4.3.0.zip.md5">md5sum</a>)
+				<b>http://download.eclipse.org/linuxtools/update-docker-4.3.0</b>
 			</li>
 		</ul>
 		</div>
