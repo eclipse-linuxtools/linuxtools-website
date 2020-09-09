@@ -1,6 +1,8 @@
 <div class="sideitem">
 	<h6>News</h6>
 	<ul>
+		<li><em>2020-09-16</em>: Our 8.0.0 release is <a
+			href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!</li>
 		<li><em>2020-06-17</em>: Our 7.7.0 release is <a
 			href="http://www.eclipse.org/linuxtools/downloads.php">available</a>!</li>
 		<li><em>2019-12-18</em>: Our 7.5.0 release is <a
