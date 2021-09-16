@@ -19,7 +19,7 @@
 
 		<div class="homeitem3col" style="margin-left:40px; width:90%">
 		<h3>8.4.0 Release&nbsp;<a title="More Info" href="http://wiki.eclipse.org/Linux_Tools_Project/PluginInstallHelp"><img src="/linuxtools/images/icon-help.gif" alt="Help icon" /></a></h3>
-		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn83">New &amp; Noteworthy</a>.
+		<br/>&nbsp;&nbsp;&nbsp;<a href="https://wiki.eclipse.org/Linux_Tools_Project/News/NewIn84">New &amp; Noteworthy</a>.
 		<a href="https://ci.eclipse.org/linuxtools/job/linuxtools-8.4/4/testReport/">Unit test results</a>.
 		<br/>&nbsp;&nbsp;&nbsp;Requires:
 		<ul>
