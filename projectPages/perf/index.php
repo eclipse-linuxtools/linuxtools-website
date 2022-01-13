@@ -45,7 +45,7 @@
 		<h2>Try it out</h2>
 		You can download the plugin from our <a href="http://www.eclipse.org/linuxtools/downloads.php">update site</a>, or
 		check the project plugins out of Git directly from eclipse.org at git://git.eclipse.org/gitroot/linuxtools/org.eclipse.linuxtools.git.
-		You will need all the plugins under oprofile subfolder, and the plugins under the profiling subfolder:
+		You will need all the plugins under the profiling subfolder:
 		<pre>
 		org.eclipse.linuxtools.perf
 		org.eclipse.linuxtools.perf.doc

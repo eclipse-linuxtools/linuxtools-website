@@ -28,7 +28,7 @@
 		<li><a href="http://eclipse.org/cdt">CDT</a> >= 10.5.0</li>
 		<li>org.mandas.docker-client 3.2.1.v20200519-1937 (for Docker Tooling feature)
 		<li>GEF >= 3.8.2 (for Draw2d and Zest packages)</li>
-		<li>Specific tools require their underlying native tools (ex. Valgrind, OProfile, SystemTap, Perf)</li>
+		<li>Specific tools require their underlying native tools (ex. Valgrind, SystemTap, Perf)</li>
 		<li>There are some Orbit dependencies such as antlr</li>
 		</ul>
 		<br/>&nbsp;&nbsp;&nbsp;Installations via the 2021-12 p2 aggregate repository will automatically get these dependencies.
