@@ -69,31 +69,6 @@ let defaultAside = toElements(`
 <a href="${projectBase}projectPages/valgrind/index.html">Valgrind</a>
 `);
 
-let additionalAside = `
-<div style="float: right;" class="col-md-6">
-	<aside>
-		<ul class="ul-left-nav">
-			<div style="padding-top: 1.5em; padding-left: 1.5em;">
-				<div id="news" class="sideitem">
-					<h2>News</h2>
-					<ul>
-						<li><em>2023-06-14</em>: <a target="_out" href="${downloads}">8.11.0 released</a></li>
-						<li><em>2023-03-15</em>: <a target="_out" href="${downloads}">8.10.0 released</a></li>
-						<li><em>2022-12-07</em>: <a target="_out" href="${downloads}">8.9.0 released</a></li>
-						<li><em>2022-09-14</em>: <a target="_out" href="${downloads}">8.8.0 released</a></li>
-						<li><em>2022-06-15</em>: <a target="_out" href="${downloads}">8.7.0 released</a></li>
-						<li><em>2022-03-16</em>: <a target="_out" href="${downloads}">8.6.0 released</a></li>
-						<li><em>2021-12-08</em>: <a target="_out" href="${downloads}">8.5.0 released</a></li>
-						<li><em>2021-09-15</em>: <a target="_out" href="${downloads}">8.4.0 released</a></li>
-						<li><em>2021-06-15</em>: <a target="_out" href="${downloads}">8.3.0 released</a></li>
-						<li><em>2021-03-17</em>: <a target="_out" href="${downloads}">8.2.0 released</a></li>
-					</ul>
-				</div>
-			</div>
-		</ul>
-	</aside>
-</div>`;
-
 function generate() {
 	try {
 		const head = document.head;
@@ -157,7 +132,6 @@ function generateBody() {
 					</div>
 				</div>
 				${generateAside()}
-				${generateAdditionalAside()}
 			</div>
 		</div>
 	</main>
